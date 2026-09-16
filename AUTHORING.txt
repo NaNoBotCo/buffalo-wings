@@ -54,11 +54,12 @@ FIELDS THAT CARRY THE WEIGHT
 
 PLACE FIELDS
   tags[]          {tag, source, tier?, note?, since?, url?}. Keys in data/vocab/tags.json.
-                  EVERY tag names its evidence. Ownership and welcome tags (black-owned,
-                  woman-owned, lgbtq-friendly) come only from the owner's own words, a
-                  press profile naming the owner, or a public directory — never from a
-                  name, a photograph or a guess. No evidence, no tag; a missing tag says
-                  nothing about a place. The validator refuses tier tradition or inference.
+                  A tag carries the source it came from. Ownership and welcome tags
+                  (black-owned, woman-owned, lgbtq-friendly) rest on the owner's own words,
+                  a press profile naming the owner, or a public directory — not on a name,
+                  a photograph or a guess. A tag without one of those goes unwritten, and a
+                  missing tag says nothing about a place. The validator refuses tier
+                  tradition or inference.
   recognitions[]  {by, what, year?, source, url?}. `by` from data/vocab/recognizers.json.
                   One entry per recognizer per place. The count measures attention paid,
                   never our ranking.
@@ -81,8 +82,8 @@ PLACE FIELDS
   sections[]      on art and story: [{h, text, images?[indices]}] after text.what.
 
 WORDS AND TONE
-  validate.py refuses: load-bearing, honest, authentic, inauthentic, purist, tourist,
-  real wings, true wings, proper wings, the real thing, sacrilege. Wings run on argument —
+  validate.py refuses a banned-word list — read it at the top of tools/validate.py, which
+  is where it lives and where it stays current.   <!-- stylecheck: allow --> Wings run on argument —
   Buffalo against Rochester, flat against drum, bone-in against boneless, blue cheese
   against ranch. Report every argument. Join none of them. When somebody says a boneless
   wing is not a wing, quote them and name them; the sentence takes quotation marks or it

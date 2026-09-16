@@ -2687,11 +2687,11 @@ aliases: The Nine-Eleven Tavern · 911 Tavern
 facets: state=NY · status=open · founded=1981 · cooked=fried · styles=buffalo
 region: Western New York
 what: A cash-only corner tavern in South Buffalo, established 1981, whose wings come out large and heavily sauced in a recipe its late owner kept to himself. Buffalo Rising gives the address as 9-11 Bloomfield Avenue; the mailing address is 11. Five days a week, no cards, no delivery.
-story: Mark Gress opened it in 1981. Buffalo Rising, writing in 2016, put it at "35 years" and called the payment policy in four words: "it's cash only."
+story: Mark Gress opened it in 1981. Buffalo Rising, writing in 2016, put it at “35 years” and called the payment policy in four words: “it's cash only.”
 
-The name is the street number. *Inference —* the house does not print an explanation, but Buffalo Rising lists the address as "9-11 Bloomfield Avenue | Buffalo, NY 14220-1920", two numbers for two rooms, and local press repeats that the tavern took its name from them. It is not named for Seneca Street and it is not named for the date; the tavern was nineteen years old by September 2001.
+The name is the street number. *Inference —* the house does not print an explanation, but Buffalo Rising lists the address as “9-11 Bloomfield Avenue | Buffalo, NY 14220-1920”, two numbers for two rooms, and local press repeats that the tavern took its name from them. It is not named for Seneca Street and it is not named for the date; the tavern was nineteen years old by September 2001.
 
-The sauce is the other closed subject. Visit Buffalo's trail describes the result rather than the recipe: "large, crispy, and saucy" with a sauce that "starts sweet and tangy, then builds towards a robust, fiery finish." Buffalo Rising's reviewer found "a nice vinegar to butter ratio" and his wife found the sauce "a bit on the sweeter side and were lacking in the heat department," which is the argument in one sentence.
+The sauce is the other closed subject. The Buffalo Wing Trail describes the result rather than the recipe: “large, crispy, and saucy” with a sauce that “starts sweet and tangy, then builds towards a robust, fiery finish.” Buffalo Rising's reviewer found “a nice vinegar to butter ratio” and his wife found the sauce “a bit on the sweeter side and were lacking in the heat department,” which is the argument in one sentence.
 how: Fried, sauced heavily, served in the bar or the back room with the attached deck. Bottles of the house sauce sell over the counter. Cash.
 today: Kitchen Tuesday to Thursday 4:30–9pm and Friday and Saturday 4:30–9:30pm; the bar runs half an hour to an hour longer. Closed Sunday and Monday. The house lists Buffalo Wing Coalition wins for 2025 and 2026 and a Buffalo Spree best-wings vote in 2013, and says Gress was inducted into the Buffalo Wing Hall of Flame.
 address: 11 Bloomfield Avenue, Buffalo, NY, 14220

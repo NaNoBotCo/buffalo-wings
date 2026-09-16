@@ -54,8 +54,7 @@ MAPS
 
 THE PAGES THAT ANSWER A QUESTION
 --------------------------------
-  /near/    Find the wings. Your browser's own location (it never leaves the browser) or
-            a town you type, and every wing place in the country sorted by distance, with
+  /near/    Find the wings. Your browser's own location, or a town you type, and every wing place in the country sorted by distance, with
             filter chips for naked, breaded, smoked, house sauce, wing night, open today,
             Black-owned, woman-owned and LGBTQ+ welcoming. Below it, "worth the drive":
             the places other people wrote down, counted by how many different people did.
@@ -79,10 +78,10 @@ TAGS, AND THE RULE BEHIND THEM
   A place can carry tags: Black-owned, woman-owned, LGBTQ+ welcoming, naked, breaded,
   smoked, house sauce, all flats or all drums, bone-in only, wing night, open late,
   halal, cash only, closes when sold out, counter or window, bar, family-run, closed.
-  EVERY tag names its evidence — the owner's own words, a press profile that names the
-  owner, a public directory, a certification list, or somebody who stood there.
-  Ownership and welcome tags are never inferred from a name or a photograph; the
-  validator refuses them at the tradition and inference tiers. A place with no tag has
+  A tag carries the source it came from — the owner's own words, a press profile that
+  names the owner, a public directory, a certification list, or somebody who stood there.
+  Ownership and welcome tags rest on one of those; the validator refuses them at the
+  tradition and inference tiers. A place with no tag has
   not been read yet: that is a fact about this project, not about the place.
   data/vocab/tags.json holds the keys and what each one needs.
 

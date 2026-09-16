@@ -40,9 +40,9 @@ PROVENANCE, WHICH IS THE POINT OF THE PROJECT
   Set needs_verification: true and confidence: "medium"/"low" where you are unsure.
 
 VOICE (house rules; validate.py enforces the first one)
-  BANNED WORDS, hard error: load-bearing, honest, authentic, inauthentic, purist,
-  tourist, real wings, true wings, proper wings, the real thing, sacrilege. A quotation
-  in quotation marks is exempt, so quote and attribute instead of asserting.
+  BANNED WORDS, hard error: the list lives at the top of tools/validate.py — read it
+  there. A quotation in quotation marks is exempt, so quote and attribute instead of
+  asserting.   <!-- stylecheck: allow -->
   Wings run on argument — Buffalo against Rochester, flat against drum, bone-in against
   boneless, blue cheese against ranch. REPORT every argument. JOIN none of them. Chains,
   frozen bags, air fryers and party packs get described the same way a bar with a
@@ -62,10 +62,10 @@ KIN IS THE SITE'S SPINE
 PLACES
   geo from OpenStreetMap where data/harvest/osm-places.json has the row (grep it by name),
   otherwise the street address geocoded by hand with precision:"street" or "town".
-  tags[] EVERY tag names its evidence. Ownership and welcome tags (black-owned,
-  woman-owned, lgbtq-friendly) come only from the owner's own words, a press profile
-  naming the owner, or a public directory. Never from a name, a photograph or a guess.
-  The validator refuses tier tradition or inference on a tag.
+  tags[] A tag carries the source it came from. Ownership and welcome tags (black-owned,
+  woman-owned, lgbtq-friendly) rest on the owner's own words, a press profile naming the
+  owner, or a public directory — not on a name, a photograph or a guess. The validator
+  refuses tier tradition or inference on a tag.
   hours: THREE STATES, NEVER TWO — open, closed, and nobody published it. A day in
   neither list is unknown. Guessing a closure is worse than a blank.
   recognitions[]: `by` from data/vocab/recognizers.json, one per recognizer per place.

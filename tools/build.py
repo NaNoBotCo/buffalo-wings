@@ -228,7 +228,7 @@ def day_state(rec: dict | None, osm_hours: str | None) -> dict:
 
     A record's own hours win, because someone read them off the door or a page and named
     the source. OpenStreetMap fills the rest. A day nobody has told us about stays
-    UNKNOWN — it is never quietly called closed, which is the difference between a
+    UNKNOWN. Calling it closed would be the difference between a
     directory that is useful and one that sends a reader to a locked door or, worse,
     tells them a pit is shut when it is open.
     """

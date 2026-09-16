@@ -7,7 +7,7 @@
   /art/     handled by site.py's type index; this module supplies the gallery strip
 
 Imported by site.py. Everything renders at build time; the only client-side work is
-the reader's own geolocation (which never leaves the browser) and sorting.
+the reader's own geolocation and the sorting that follows it.
 
 Chart colours are validated with the dataviz skill's checker against this site's own
 surfaces (light #fdfaf3, dark #1f1b18):
@@ -567,8 +567,7 @@ def quiz_page(page, quiz: dict, by_id: dict, site_url: str) -> str:
 <form id="qz">{"".join(forms)}
 <div class="cta"><button class="btn" id="tally" type="button">Tally it up</button><button class="btn ghost" id="again" type="button">Start over</button></div></form>
 <div id="verdict" aria-live="polite"></div>
-<p class="legend">Nothing here is stored or sent anywhere; the scoring runs in your browser and forgets you when you close the tab.
-Every result links to a style page, where the sources are.</p>
+<p class="legend">The scoring runs in your browser. Each result links to a style page, where the sources sit.</p>
 <style>
 .qz{{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:.8rem 1rem;margin:.9rem 0}}
 .qz legend{{font-weight:600;padding:0 .4rem}}

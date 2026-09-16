@@ -903,7 +903,7 @@ def search_page(docs: list[dict]) -> str:
 <form class="search" role="search" onsubmit="return false"><input id="q" type="search" placeholder="hash · outside brown · Ayden · mustard · Lexington dip…" aria-label="Search" autofocus><button id="go" type="button">Search</button></form>
 <p id="tier" class="tierline" aria-live="polite"></p>
 <div id="out" class="cards"></div>
-<p class="legend" id="how">Runs in your browser over every record: exact → same meaning, other word → near spellings → partial. Nothing is sent anywhere.</p>
+<p class="legend" id="how">Runs in your browser over the whole set: exact → same meaning, other word → near spellings → partial.</p>
 <script src="../vendor/searchcore.js"></script>
 <script>
 (function(){{
