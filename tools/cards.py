@@ -549,23 +549,23 @@ def main(argv: list[str]) -> int:
     # standing pages
     allmap = mini_map(size=(470, 330), dots=ctx["dots"])
     pages = {
-        "index": ("Wing Country", "Cayenne and butter in Buffalo. Breading in Rochester. Lemon pepper in Atlanta, mild sauce in Chicago, mumbo in D.C., Old Bay in Baltimore.", "a directory of a living argument", allmap,
+        "index": ("Wing Country", "Cayenne and butter in Buffalo. Breading in Rochester. Lemon pepper in Atlanta, mild sauce in Chicago, mumbo in D.C., Old Bay in Baltimore.", "a whole country arguing about chicken", allmap,
                   [(cov["records"]["place"] + places["harvested"], "places"), (sum(cov["records"].values()), "records"), (cov["recipes"], "recipes"), (cov["images"]["count"], "pictures")], "buffalo"),
-        "near": ("Find the wings", "Every wing counter in America sorted from where you are, and the ones worth a tank of gas. Filter by naked, breaded, smoked, Black-owned, woman-owned, LGBTQ+ welcoming.", "find the wings", allmap, None, None),
-        "sauce": ("Read the bottle", "Every sauce measured off its own label: salt and sugar by the tablespoon, what comes first on the list, and where the makers are.", "off the label", None,
+        "near": ("Get me some wings", "Every joint in America sorted from where you're standing, and the ones worth a tank of gas. Filter by naked, breaded, smoked, Black-owned, woman-owned, LGBTQ+ welcoming.", "get me some wings", allmap, None, None),
+        "sauce": ("What's in the bottle", "Salt and sugar by the tablespoon, what comes first on the list, and where the makers are. Read off the label.", "off the label", None,
                   [(len(sauces.get("sauces", [])), "bottles read"), (sum(1 for x in sauces.get("sauces", []) if x.get("scoville") is not None), "with a Scoville number"), (sum(1 for x in sauces.get("sauces", []) if x.get("ingredients")), "with a full label")], "buffalo-sauce"),
-        "wing": ("Which part of the bird", "A chicken gives one drumette, one flat and one tip per wing, and the tip usually never reaches the table.", "the bird", mini_wing({"drumette", "flat", "tip"}, (470, 280)), None, None),
-        "make": ("Make a sauce, a rub or a dip", "Build one by style and taste. A published recipe gets named where one exists; everything else states plainly that the proportions are ours.", "build one", None,
+        "wing": ("Flat or drum?", "One wing, three pieces. Order twenty and you've had a wing off ten birds.", "the bird", mini_wing({"drumette", "flat", "tip"}, (470, 280)), None, None),
+        "make": ("Make your own", "A sauce, a rub, or the cup beside the basket. Where a real recipe exists, it's named.", "build one", None,
                  [("7", "sauce styles"), ("5", "rub levels"), ("4", "dips")], "buffalo-sauce"),
-        "quiz": ("Which wing claims you?", "Six questions about sauce, dip and how you order. At the end a city hands you a plate.", "a quiz", None, None, "buffalo"),
-        "art": ("Birds on the signboard", "Neon, hand-lettered boards, mascots, murals, labels — every picture free to use, its licence beside it.", "signs", None, None, "neon-chicken"),
-        "places": ("Every place", "Every wing place in the United States we know of, on one map, with what each one has earned.", "the map", allmap, None, None),
-        "words": ("The words, with their roots", "Drumette, flat, flapper, party wing, naked, wet and dry, all flats, weck, mumbo, atomic.", "vocabulary", None, None, "wing"),
-        "numbers": ("Count it up", "How near the nearest counter sits anywhere in the country, when the places opened, what the recipes call for.", "the arithmetic", allmap, None, None),
-        "coverage": ("Coverage", "The scope as an object: where every row comes from, how many places carry each tag, and what has not been read yet.", "coverage", None, None, None),
-        "search": ("Search the directory", "Spelled however you spell it: wings, wingz, bleu cheese, drummette. Near spellings are found and said to be near.", "search", None, None, None),
+        "quiz": ("Which wing are you?", "Six questions about sauce, dip and how you order. A city hands you a plate at the end.", "a quiz", None, None, "buffalo"),
+        "art": ("Chickens on the signboard", "Neon, hand-lettered boards, mascots, murals, hot sauce labels. Free to use, licence under each one.", "signs", None, None, "neon-chicken"),
+        "places": ("Every joint", "Every wing joint in the country we know of, on one map, with what each one has earned.", "the map", allmap, None, None),
+        "words": ("What to call 'em", "Drumette, flat, flapper, party wing, naked, wet and dry, all flats, weck, mumbo, atomic.", "vocabulary", None, None, "wing"),
+        "numbers": ("Do the math", "How far you are from the nearest wing anywhere in the country, when the joints opened, what the recipes call for.", "the arithmetic", allmap, None, None),
+        "coverage": ("Where we stop", "Where every row comes from, how many joints carry each tag, and what nobody has read yet.", "the holes", None, None, None),
+        "search": ("Search", "Spell it however you spell it: wingz, bleu cheese, drummette. Near spellings turn up, and say they are near.", "search", None, None, None),
         "sources": ("Sources", "Every book, article, oral history, dataset and page the records cite, by id.", "sources", None, None, None),
-        "stories": ("The stories", "Who fried the first one, ranch against blue cheese, and whether a boneless wing is a wing.", "long reads", None, None, "the-origin-fight"),
+        "stories": ("The stories", "Who fried 'em first, ranch against bleu cheese, and whether a boneless wing is a wing at all.", "long reads", None, None, "the-origin-fight"),
     }
     for name, (title, lede, eb, panel, stats, photo_id) in pages.items():
         if want and name not in want:

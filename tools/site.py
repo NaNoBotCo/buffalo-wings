@@ -40,7 +40,7 @@ SITE = BUILD / "site"
 API = BUILD / "api"
 SITE_URL = os.environ.get("SITE_URL", "https://nanobotco.github.io/buffalo-wings").rstrip("/")
 SITE_NAME = "Wing Country"
-TAGLINE = "flats, drums, dips, and who fried the first one"
+TAGLINE = "flats, drums, bleu cheese, and who fried 'em first"
 DATA_LICENSE = "https://creativecommons.org/licenses/by/4.0/"   # the records' own licence — Nan's call; default CC BY 4.0
 AUTHOR = {"@type": "Person", "name": "NaN", "url": "https://wichaa.net"}
 def E(x) -> str:
@@ -175,7 +175,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Wing <b>Country</b></a>
-<nav class="crumbs"><a href="{r}index.html">Directory</a> · <a href="{r}near/index.html">Near me</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">The bottle</a> · <a href="{r}make/index.html">Make</a> · <a href="{r}wing/index.html">The bird</a> · <a href="{r}numbers/index.html">Numbers</a> · <a href="{r}art/index.html">Signs</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Where this stops</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<nav class="crumbs"><a href="{r}index.html">Everything</a> · <a href="{r}near/index.html">Near me</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">In the bottle</a> · <a href="{r}make/index.html">Make some</a> · <a href="{r}wing/index.html">The bird</a> · <a href="{r}numbers/index.html">Numbers</a> · <a href="{r}art/index.html">Signs</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Where we stop</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Wander</a></nav></header>
 <main>
 {body}
 {share_row(canonical, share_title or title) if canonical else ""}
@@ -410,12 +410,12 @@ def kin_block(r: dict, by_id: dict, depth: int) -> str:
         t = by_id.get(k["from"])
         if not t:
             continue
-        back.append(f'<a class="card" href="{rel(depth)}{url_of(t)}index.html"><small>{E(DIR_OF[t["type"]] if t["type"] != "fry" else "the kitchen")} · says of this page</small><b>{E(t["names"]["name"])}</b><span>{E(k["as"])}</span></a>')
+        back.append(f'<a class="card" href="{rel(depth)}{url_of(t)}index.html"><small>{E(DIR_OF[t["type"]] if t["type"] != "fry" else "the kitchen")} · on this page</small><b>{E(t["names"]["name"])}</b><span>{E(k["as"])}</span></a>')
     out = ""
     if cards:
-        out += f'<h2>Its kin</h2><div class="kin">{"".join(cards)}</div>'
+        out += f'<h2>Who it runs with</h2><div class="kin">{"".join(cards)}</div>'
     if back:
-        out += f'<h2>Who points back</h2><div class="kin">{"".join(back)}</div>'
+        out += f'<h2>Who talks about it</h2><div class="kin">{"".join(back)}</div>'
     return out
 
 
@@ -424,8 +424,8 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
     depth = 2
     et = r.get("etymology") or {}
     f = r.get("facets") or {}
-    kind = {"style": "a style", "sauce": "a sauce", "dish": "a dish", "fry": "in the kitchen", "place": "a place", "person": "a person", "org": "an organization",
-            "event": "an event", "term": "a word", "art": "a sign", "story": "a story"}.get(r["type"], r["type"])
+    kind = {"style": "a style", "sauce": "a sauce", "dish": "on the side", "fry": "in the kitchen", "place": "a joint", "person": "a person", "org": "an outfit",
+            "event": "a thing that happens", "term": "a word", "art": "a sign", "story": "a long one"}.get(r["type"], r["type"])
     head = f'<h1><span class="kind">{E(kind)}' + (f' · {E(f["state"])}' if f.get("state") and f["state"] != "both" else "") + f'</span>{E(n["name"])}</h1>'
     if n.get("aliases"):
         head += f'<p class="mute" style="margin:.1rem 0">also: {E(" · ".join(n["aliases"]))}</p>'
@@ -466,7 +466,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
         hrs = r.get("hours") or {}
         if row and any(v != "unknown" for v in row.values()):
             src = hrs.get("source") or ("s:osm" if not hrs else "")
-            body += ('<h2>When they are open</h2><div class="whenbox">'
+            body += ('<h2>When they&#8217;re open</h2><div class="whenbox">'
                      + viz.day_strip(row)
                      + (f'<p class="hrs">{E(hrs["text"])}</p>' if hrs.get("text") else "")
                      + ('<p class="hrs sold">Closes when the meat runs out, whatever the clock says.</p>' if hrs.get("sold_out") else "")
@@ -475,7 +475,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
                      + (f' · checked {E(hrs["checked"])}' if hrs.get("checked") else "")
                      + ' · <a href="../../story/the-sunday-question/index.html">why so many close Sunday</a></p></div>')
         elif r["type"] == "place":
-            body += ('<h2>When they are open</h2><p class="mute">Nobody has published this one\'s days where we could read them. '
+            body += ('<h2>When they&#8217;re open</h2><p class="mute">Nobody has published this one\'s days where we could read them. '
                      'That is a gap in this directory, not a closed door — call ahead, and see '
                      '<a href="../../story/the-sunday-question/index.html">the Sunday question</a>.</p>')
     for key, title in (("story", "The story"), ("how", "How it is done"), ("today", "Today"), ("notes", "Notes")):
@@ -511,7 +511,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
     if r.get("links"):
         rows.append("<tr><th>links</th><td>" + " · ".join(f'<a href="{E(l["url"])}" rel="noopener">{E(l["label"])}</a>' for l in r["links"]) + "</td></tr>")
     rows.append(f"<tr><th>confidence</th><td>{E(r['confidence'])}{' · needs verification' if r.get('needs_verification') else ''} · updated {E(r['updated'])}</td></tr>")
-    body += f"<h2>Facts</h2><table>{''.join(rows)}</table>"
+    body += f"<h2>The particulars</h2><table>{''.join(rows)}</table>"
     pf = r.get("profile") or {}
     if pf:
         rank = lambda k: "—" if pf.get(k) == 0 else ("?" if pf.get(k) is None else f"#{pf[k]} on the label")
@@ -536,7 +536,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
                  + (f'<p class="mute" style="font-size:.85rem">Read from <a href="{E(pf["url"])}" rel="noopener">this page</a>{", " + E(pf["accessed"]) if pf.get("accessed") else ""}. '
                     f'{E(pf.get("note", ""))} Every bottle we have read is on <a href="{rel(depth)}sauce/index.html">the sauce page</a>.</p>' if pf.get("url") else ""))
     if r.get("recipes"):
-        body += f'<h2>Recipes you may use</h2><p class="mute">Public-domain cookbooks are printed here in full, spelling and all. Where a recipe is still in copyright, the page gives the ingredients — a list of what goes in is a fact — and links to the rest.</p>'
+        body += '<h2>Recipes you can use</h2><p class="mute">Old cookbooks are printed whole, spelling and all. Where a recipe is still somebody\'s copyright, you get the ingredient list and a link to the rest.</p>'
         for rc in r["recipes"]:
             lic = rc.get("license", "")
             head = f'<h3>{E(rc["title"])}</h3><div class="src">' + " · ".join(filter(None, [
@@ -580,7 +580,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
         near = others[:5]
         if near:
             body += ('<h2>Near here</h2><p class="mute">Crow-flies miles; the road is always longer. '
-                     f'<a href="{rel(depth)}near/index.html">The finder</a> sorts every place in the country from where you are.</p><ul>'
+                     f'<a href="{rel(depth)}near/index.html">The finder</a> sorts every joint in the country from wherever you\'re standing.</p><ul>'
                      + "".join(f'<li><b>{d:g} mi</b> — {name_link(o, depth)}'
                                + (f' <span class="mute">{E((o.get("address") or {}).get("city", ""))}</span>' if (o.get("address") or {}).get("city") else "")
                                + ("".join(f' <span class="chip">{E(t.get("icon", ""))} {E(t.get("label", ""))}</span>' for t in o.get("tag_facts", [])[:3]))
@@ -590,7 +590,7 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
         body += '<h2>Pictures</h2><div class="gallery">' + "".join(
             f'<figure><img src="{img_src(im, depth)}" alt="{E(im.get("alt", ""))}" loading="lazy"><figcaption>{E(im.get("author", ""))} · <a href="{E(im.get("page_url", "#"))}">{E(im.get("license", ""))}</a></figcaption></figure>' for im in r["images"]) + "</div>"
     if r.get("source_list"):
-        body += "<h2>Sources</h2><ul>" + "".join(
+        body += "<h2>Where we got it</h2><ul>" + "".join(
             f'<li>{E(s.get("title", s["id"]))}' + (f' — {E(s["author"])}' if s.get("author") else "") + (f', {E(str(s["year"]))}' if s.get("year") else "") + (f' · <a href="{E(s["url"])}" rel="noopener">link</a>' if s.get("url") else "") + "</li>" for s in r["source_list"]) + "</ul>"
     body += ('<p class="legend">Where it came from: <span class="chip tier-cited">Cited</span> a source we name · <span class="chip tier-harvested">Harvested</span> pulled from an open dataset · '
              '<span class="chip tier-tradition">Tradition</span> what the tradition says, hedged · <span class="chip tier-inference">Inference</span> this project\'s reasoning · <span class="chip tier-field">Field</span> somebody stood there. '
@@ -607,7 +607,7 @@ def art_index(t: dict, recs: list[dict]) -> str:
     rs = [r for r in recs if r["type"] == "art"]
     depth = 1
     body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>{E(t["name"])} <span class="count">({len(rs)})</span></h1>'
-            f'<p class="lede">{E(t["blurb"])} Every picture here is free to use; the licence and the photographer are under each one, '
+            f'<p class="lede">{E(t["blurb"])} All free to use — licence and photographer under each one, '
             'and the page it came from is a click away.</p>')
     shots = sum(len(r.get("images", [])) for r in rs)
     if shots:
@@ -705,9 +705,12 @@ def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
     by_state: dict = {}
     for p in rows:
         by_state.setdefault(p.get("state") or "unknown", {}).setdefault(p.get("county") or "—", []).append(p)
-    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Every place <span class="count">({places["count"]})</span></h1>'
-            f'<p class="lede">{places["curated"]} written up, {places["harvested"]} more off OpenStreetMap as of {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}. '
-            f'Sauce-coloured dots carry a page. Grey dots carry a name and an address and nothing else yet. A place missing here is a place we have not read.</p>'
+    osm_line = (f'{places["harvested"]} more pulled off OpenStreetMap on {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}. '
+                'Orange dots have a page. Grey dots have a name, an address and nothing else yet. '
+                if places["harvested"] else
+                'The OpenStreetMap layer has not been pulled yet, so every dot here is one we wrote up. ')
+    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Every joint <span class="count">({places["count"]})</span></h1>'
+            f'<p class="lede">{places["curated"]} written up. {osm_line}Missing means we haven\'t got to it.</p>'
             f'<div class="mapwrap">{svg}</div>'
             + '<div class="chips" id="plchips" role="group" aria-label="Filter the list">'
             + "".join(f'<button type="button" data-tag="{E(k)}" aria-pressed="false">{E(v.get("icon", ""))} {E(v.get("label", k))}</button>'
@@ -777,31 +780,33 @@ def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
     body += '<p class="legend">Point data © OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a> — the table we built from it, <a href="../api/places.json">api/places.json</a>, goes out under the same licence. State outlines: Natural Earth, public domain.</p>'
     jl = [{"@context": "https://schema.org", "@type": "Dataset", "name": f"American wing places — {SITE_NAME}", "url": f"{SITE_URL}/places/", "license": "https://opendatacommons.org/licenses/odbl/1-0/",
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/api/places.json"}], "creator": AUTHOR}]
-    return page(f"Every place — {SITE_NAME}", body, depth, "Every wing place in the United States we know of, on one map: the ones written up here plus every OpenStreetMap row.", jl, f"{SITE_URL}/places/", card="places")
+    return page(f"Every joint — {SITE_NAME}", body, depth, "Every wing joint in the United States we know of, on one map: the ones written up here plus every OpenStreetMap row.", jl, f"{SITE_URL}/places/", card="places")
 
 
 def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverage: dict) -> str:
     depth = 0
     counts = coverage["records"]
     svg = map_svg(places["places"], by_id, depth, 620)
-    facts = [(len(recs), "records"), (counts.get("place", 0), "places written up"), (places["harvested"], "more places from OSM"), (sum(len(r.get("kin_out", [])) for r in recs), "kin links"), (counts.get("term", 0), "words with roots")]
+    facts = [(len(recs), "records"), (counts.get("place", 0), "joints written up"),
+             (sum(len(r.get("kin_out", [])) for r in recs), "kin links"),
+             (counts.get("sauce", 0), "sauces and dips"), (counts.get("term", 0), "words with roots")]
+    if places["harvested"]:
+        facts.insert(2, (places["harvested"], "more off OpenStreetMap"))
     shot = next((r for r in recs if r["id"] == "buffalo" and r.get("images")), None) or next((r for r in recs if r["type"] == "place" and r.get("images")), None)
     banner = ""
     if shot:
         im = shot["images"][0]
         banner = (f'<figure class="hero-shot wide"><img src="images/{E(im["file"])}" alt="{E(im.get("alt", ""))}" loading="eager">'
                   f'<figcaption>{E(clip(im.get("alt", ""), 130))} — {E(im.get("author", ""))}, {E(im.get("license", ""))}</figcaption></figure>')
-    body = (banner + f'<div class="hero"><div><h1><span class="kind">a directory of a living argument</span>Wing Country</h1><p class="sub">{E(TAGLINE)}.</p>'
-            f'<p>Cayenne and butter in Buffalo. Breading in Rochester. Lemon pepper in Atlanta. '
-            f'Mild sauce over fries in Chicago, mumbo in D.C., Old Bay in Baltimore, and a smoker in Texas.</p>'
-            f'<div class="cta"><a class="btn" href="near/index.html">📍 Find wings near me</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">Read the bottle</a><a class="btn ghost" href="make/index.html">Make a sauce, a rub or a dip</a><a class="btn ghost" href="wing/index.html">Which part of the bird</a><a class="btn ghost" href="numbers/index.html">Count it up</a><a class="btn ghost" href="quiz/index.html">Which wing claims you?</a><a class="btn ghost" href="wander.html">🎲 A page at random</a></div></div>'
+    body = (banner + f'<div class="hero"><div><h1><span class="kind">a whole country arguing about chicken</span>Wing Country</h1><p class="sub">{E(TAGLINE)}.</p>'
+            f'<div class="cta"><a class="btn" href="near/index.html">📍 Get me some wings</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the bottle</a><a class="btn ghost" href="make/index.html">Make your own</a><a class="btn ghost" href="wing/index.html">Flat or drum?</a><a class="btn ghost" href="numbers/index.html">Do the math</a><a class="btn ghost" href="quiz/index.html">Which wing are you?</a><a class="btn ghost" href="wander.html">🎲 Take me anywhere</a></div></div>'
             f'<div class="mapwrap">{svg}</div></div>'
             '<div class="facts">' + "".join(f'<div class="fact"><div class="n">{n:,}</div><div class="l">{E(l)}</div></div>' for n, l in facts) + "</div>")
     # the loudest thing on the page after the map: what is worth driving for
     drive = sorted([r for r in recs if r["type"] == "place" and r.get("acclaim")], key=lambda r: (-r["acclaim"], r["names"]["name"]))[:6]
     if drive:
-        body += ('<h2>Worth the drive</h2><p class="mute">Counters somebody already bragged on, in print: a Beard award, a Michelin line, a festival trophy, a spot on the Buffalo Wing Trail, an oral history. '
-                 'The count is how many different people said so. <a href="near/index.html">Find one near you →</a></p><div class="cards">'
+        body += ('<h2>Worth the gas</h2><p class="mute">Joints somebody already bragged on in print — a Beard award, a Michelin line, a festival trophy, a spot on the Wing Trail. '
+                 'The dots count how many different people said so. <a href="near/index.html">Find one near you →</a></p><div class="cards">'
                  + "".join(
                      f'<div class="card">'
                      + (f'<a href="{url_of(r)}index.html"><img class="thumb" src="cards/{E(r["type"])}__{E(r["id"])}.jpg" alt="" loading="lazy"></a>'
@@ -814,11 +819,17 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
                  + "</div>")
     # pig art: the pictures are the point
     art = [r for r in recs if r["type"] == "art" and r.get("images")]
-    shots = [(im, r) for r in art for im in r["images"]][:8]
+    # two per record, round-robin, so one well-photographed genre does not fill the wall
+    shots = []
+    for i in range(2):
+        for r in art:
+            if len(r["images"]) > i:
+                shots.append((r["images"][i], r))
+    shots = shots[:8]
     if shots:
-        body += ('<h2>Birds on the signboard</h2>'
-                 '<p class="mute">Neon, hand-lettered boards, mascots, murals, labels. All free to use, licence beside each one. '
-                 '<a href="art/index.html">The whole gallery →</a></p><div class="gal2">'
+        body += ('<h2>Chickens on the signboard</h2>'
+                 '<p class="mute">Neon, hand-lettered boards, mascots, murals, hot sauce labels. Free to use, licence sitting right under each one. '
+                 '<a href="art/index.html">See the lot →</a></p><div class="gal2">'
                  + "".join(f'<figure><a href="{url_of(r)}index.html"><img src="images/{E(im["file"])}" alt="{E(im.get("alt", ""))}" loading="lazy"></a>'
                            f'<figcaption>{E(r["names"]["name"])} — {E(im.get("author", ""))}, {E(im.get("license", ""))}</figcaption></figure>' for im, r in shots)
                  + "</div>")
@@ -827,12 +838,13 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
     body += ('<div class="two-up">'
              + (f'<div class="pitch"><h2 style="border:0;margin-top:0">{E(riv["names"]["name"])}</h2><p>{E(riv["blurb"])}</p>'
                 f'<p><a class="btn" href="{url_of(riv)}index.html">Take a side →</a></p></div>' if riv else "")
-             + '<div class="pitch"><h2 style="border:0;margin-top:0">Which wing claims you?</h2>'
-               '<p>Six questions about sauce, dip and how you order. At the end a city hands you a plate. It will not hold up in court.</p>'
-               '<p><a class="btn" href="quiz/index.html">Take the quiz →</a></p></div></div>')
+             + '<div class="pitch"><h2 style="border:0;margin-top:0">Which wing are you?</h2>'
+               '<p>Six questions about sauce, dip and how you order. A city hands you a plate at the end. Won\'t hold up in court.</p>'
+               '<p><a class="btn" href="quiz/index.html">Find out →</a></p></div></div>')
     body += directory_sections(recs, types, depth, limit=8)
-    body += ('<h2>Reading the marks</h2><p class="mute">Plain prose is cited, and the source sits on the page. <mark class="tier">Tradition holds —</mark> hedges general knowledge. '
-             '<mark class="tier">Inference —</mark> is us reasoning. Every page is JSON too, under <a href="api/index.json">/api/</a>, and everything we lack is listed at <a href="coverage/index.html">where this stops</a>.</p>')
+    body += ('<p class="legend">Plain writing is cited. <mark class="tier">Tradition holds —</mark> means folks say so; '
+             '<mark class="tier">Inference —</mark> means we worked it out. '
+             'It is all <a href="api/index.json">JSON</a> too, and the holes are at <a href="coverage/index.html">where we stop</a>.</p>')
     jl = [{"@context": "https://schema.org", "@type": "Dataset", "name": SITE_NAME, "description": "A structured directory of the chicken wing in the United States: regional styles, sauces and dips, dishes, kitchen practice, places, people, organizations, events and vocabulary, one JSON record per node with per-field provenance.",
            "url": SITE_URL + "/", "license": DATA_LICENSE, "creator": AUTHOR, "isAccessibleForFree": True, "keywords": ["buffalo wings", "chicken wings", "hot wings", "wing sauce", "lemon pepper", "blue cheese", "ranch", "Buffalo, New York"],
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/api/nodes.json"}, {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"{SITE_URL}/nodes.csv"},
@@ -867,16 +879,16 @@ def sources_page(sources: dict) -> str:
 
 
 def coverage_page(cov: dict) -> str:
-    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Where this stops</h1><p class="lede">{E(cov["scope"])}</p>'
-            '<h2>Records</h2><table>' + "".join(f"<tr><th>{E(DIR_OF[t])}</th><td>{n}</td></tr>" for t, n in cov["records"].items()) + "</table>"
-            f'<h2>How records are made</h2><p>{E(cov["how_records_are_made"])}</p>'
-            '<h2>Places</h2><table>' + "".join(f"<tr><th>{E(k.replace('_', ' '))}</th><td>{E(str(v))}</td></tr>" for k, v in cov["places"].items() if k != "osm_query") + "</table>"
+    body = (f'<h1><span class="kind">{E(SITE_NAME)}</span>Where we stop</h1><p class="lede">{E(cov["scope"])}</p>'
+            '<h2>What we have</h2><table>' + "".join(f"<tr><th>{E(DIR_OF[t])}</th><td>{n}</td></tr>" for t, n in cov["records"].items()) + "</table>"
+            f'<h2>How a record gets made</h2><p>{E(cov["how_records_are_made"])}</p>'
+            '<h2>Joints</h2><table>' + "".join(f"<tr><th>{E(k.replace('_', ' '))}</th><td>{E(str(v))}</td></tr>" for k, v in cov["places"].items() if k != "osm_query") + "</table>"
             f'<p class="mute" style="font-size:.85rem">Overpass query: <code>{E(cov["places"].get("osm_query") or "")}</code></p>'
-            f'<h2>Pictures</h2><p>{cov["images"]["count"]} on file. Licences accepted: {E(", ".join(cov["images"]["licences_accepted"]))}.</p>'
+            f'<h2>Pictures</h2><p>{cov["images"]["count"]} on file. We take CC0, public domain, CC BY, CC BY-SA and the Free Art Licence, and nothing else.</p>'
             '<h2>Still missing</h2><ul>' + "".join(f"<li>{E(x)}</li>" for x in cov["not_yet"]) + "</ul>"
-            '<h2>Tiers</h2><table>' + "".join(f"<tr><th>{E(k)}</th><td>{E(v)}</td></tr>" for k, v in cov["tiers"].items()) + "</table>"
+            '<h2>The marks</h2><table>' + "".join(f"<tr><th>{E(k)}</th><td>{E(v)}</td></tr>" for k, v in cov["tiers"].items()) + "</table>"
             '<p class="mute">The same object as JSON: <a href="../api/coverage.json">api/coverage.json</a>.</p>')
-    return page(f"Where this stops — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it does not hold yet.", None, f"{SITE_URL}/coverage/", card="coverage")
+    return page(f"Where we stop — {SITE_NAME}", body, 1, "What this directory covers, where its rows come from, and what it has not got to yet.", None, f"{SITE_URL}/coverage/", card="coverage")
 
 
 def search_page(docs: list[dict]) -> str:

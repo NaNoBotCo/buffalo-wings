@@ -299,7 +299,7 @@ def coverage(recs: list[dict], osm: dict | None, sources: dict) -> dict:
     by_type = {t: sum(1 for r in recs if r["type"] == t) for t in TYPES}
     return {
         "built": time.strftime("%Y-%m-%d"),
-        "scope": "The chicken wing as cooked, sauced, sold, eaten and argued over across the United States: the Buffalo original and every regional variation that followed it.",
+        "scope": "Chicken wings across America — how they get cooked, sauced, sold, eaten and argued over. Buffalo's, and every city that did its own thing after.",
         "records": by_type,
         "how_records_are_made": "Hand-written JSON, one per node, each field carrying a provenance tier (cited / harvested / tradition / inference / field). Cited fields name a source in sources.json. Tradition fields are general knowledge of the tradition and are hedged in the text.",
         "places": {

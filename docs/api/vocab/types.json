@@ -6,7 +6,7 @@
    "name": "Styles",
    "one": "style",
    "path": "style",
-   "blurb": "City by city: what gets tossed on, what gets left off, who claims it.",
+   "blurb": "City by city: who tosses, who breads, who claims it.",
    "group_by": "facets.state"
   },
   {
@@ -14,7 +14,7 @@
    "name": "Sauces and dips",
    "one": "sauce",
    "path": "sauce",
-   "blurb": "Cayenne and butter, lemon pepper, mumbo, mild sauce, gochujang, ranch, blue cheese.",
+   "blurb": "Cayenne and butter, lemon pepper, mumbo, mild sauce, gochujang, ranch, bleu cheese.",
    "group_by": "facets.base"
   },
   {
@@ -22,12 +22,12 @@
    "name": "On the side",
    "one": "dish",
    "path": "dish",
-   "blurb": "Celery, fries, pizza logs, beef on weck, the plate the wings ride in on.",
+   "blurb": "Celery, fries, pizza logs, beef on weck, whatever the wings ride in on.",
    "group_by": "facets.course"
   },
   {
    "key": "fry",
-   "name": "In the kitchen",
+   "name": "Out back",
    "one": "practice",
    "path": "fry",
    "blurb": "Cuts, coatings, oils, fryers, smokers, the toss.",
@@ -35,10 +35,10 @@
   },
   {
    "key": "place",
-   "name": "Wing joints",
+   "name": "Joints",
    "one": "place",
    "path": "place",
-   "blurb": "Bars, shacks, takeout windows and dining rooms, open and gone.",
+   "blurb": "Bars, shacks, takeout windows, dining rooms. Open and gone.",
    "group_by": "address.state"
   },
   {
@@ -46,12 +46,12 @@
    "name": "People",
    "one": "person",
    "path": "person",
-   "blurb": "Cooks, founders, families, writers, organizers.",
+   "blurb": "Cooks, founders, families, writers, the guy with the radio show.",
    "group_by": "facets.role"
   },
   {
    "key": "org",
-   "name": "Organizations",
+   "name": "Outfits",
    "one": "organization",
    "path": "org",
    "blurb": "Councils, festivals, trade groups, archives.",
@@ -59,7 +59,7 @@
   },
   {
    "key": "event",
-   "name": "Events",
+   "name": "What happens",
    "one": "event",
    "path": "event",
    "blurb": "Festivals, eating contests, Super Bowl Sunday.",
@@ -67,7 +67,7 @@
   },
   {
    "key": "term",
-   "name": "Words",
+   "name": "What to call 'em",
    "one": "word",
    "path": "word",
    "blurb": "Flat, drum, party wing, wet, dry, naked, extra crispy.",
@@ -75,7 +75,7 @@
   },
   {
    "key": "art",
-   "name": "Signs and art",
+   "name": "Signs",
    "one": "piece",
    "path": "art",
    "blurb": "Chickens on signboards, neon, murals, mascots, the festival poster.",
@@ -86,7 +86,7 @@
    "name": "Stories",
    "one": "story",
    "path": "story",
-   "blurb": "The origin fight, the ranch war, the long reads.",
+   "blurb": "The origin fight, the ranch war, the long ones.",
    "group_by": "facets.kind"
   }
  ]

@@ -160,32 +160,32 @@ def near_page(page, places: dict, recs: list, tagvocab: dict, site_url: str) -> 
     gaps += ('Every directory we read is listed on <a href="../story/free-to-use/index.html">where all of this came from</a>. '
              'A business that wants a tag it has earned can say so on its own site or in any of those directories, and we read it there.')
     body = f"""
-<h1><span class="kind">Wing Country</span>Find the wings</h1>
-<p class="lede">Two questions: who fries near me, and who's worth the gas.</p>
+<h1><span class="kind">Wing Country</span>Get me some wings</h1>
+<p class="lede">Who's frying near you, and who's worth the gas.</p>
 
 <div class="finder">
   <div class="row">
-    <button class="btn" id="locate" type="button">📍 Use my location</button>
-    <input id="town" type="search" list="towns" placeholder="or name a town — Buffalo, Atlanta, Nashville…" aria-label="Town">
+    <button class="btn" id="locate" type="button">📍 Where I'm at</button>
+    <input id="town" type="search" list="towns" placeholder="or type a town — Buffalo, Atlanta, Nashville…" aria-label="Town">
     <datalist id="towns">{"".join(f'<option value="{E(t)}">' for t in sorted(townpts))}</datalist>
-    <button class="btn ghost" id="go" type="button">Search</button>
+    <button class="btn ghost" id="go" type="button">Go</button>
   </div>
   <div class="chips" id="chips" role="group" aria-label="Filters">{chips}
-    <button type="button" data-tag="__page" aria-pressed="false">📄 Has a page here</button></div>
-  <p class="mute" style="font-size:.84rem;margin:.6rem 0 0" id="status">Your browser works out where you are, and the sorting below runs in the page.</p>
+    <button type="button" data-tag="__page" aria-pressed="false">📄 Written up here</button></div>
+  <p class="mute" style="font-size:.84rem;margin:.6rem 0 0" id="status">Your browser works out where you are. The sorting happens right here in the page.</p>
 </div>
 
 <div id="out"></div>
 
-<h2>Worth the drive</h2>
-<p class="mute">Counters somebody already bragged on, in print: a Beard award, a Michelin line, a festival trophy, a spot on the Buffalo Wing Trail, an oral history, a magazine list. The count is how many different people said so. Every one of them is named on the place's own page.</p>
+<h2>Worth the gas</h2>
+<p class="mute">Joints somebody already bragged on in print. The dots count how many said so; they're all named on the joint's own page.</p>
 <div class="drive">{drive_cards}</div>
 
-<h2 id="gaps">Gaps</h2>
+<h2 id="gaps">Thin spots</h2>
 <p class="mute">{gaps}</p>
-<h2>Tags</h2>
+<h2>Reading the tags</h2>
 <table>{"".join(f'<tr><th>{E(t["icon"])} {E(t["label"])}</th><td>{E(t["evidence"])}</td></tr>' for t in tagvocab.get("entries", []))}</table>
-<p class="mute">Each tag on a place page names the source it came from. A place carrying no tag is one we have not read.</p>
+<p class="mute">Each tag names where it came from. No tag means we haven't read that one yet.</p>
 
 <script>
 (function(){{
@@ -224,13 +224,13 @@ function render(){{
   if(!here){{out.innerHTML="";return}}
   var hits=ROWS.filter(keep).map(function(r){{var d=miles(here[0],here[1],r.la,r.lo);return {{r:r,d:d}}}})
     .sort(function(a,b){{return a.d-b.d}}).slice(0,25);
-  if(!hits.length){{out.innerHTML='<p class="mute">Nothing matches those filters yet. Fewer filters, or a different town.</p>';return}}
+  if(!hits.length){{out.innerHTML='<p class="mute">Nothing doing. Drop a filter, or try the next town over.</p>';return}}
   out.innerHTML='<h2>Nearest first</h2>'+hits.map(function(h){{
     var r=h.r, tg=r.t.map(function(k){{return '<span class="chip">'+esc(TAGL[k]||k)+'</span>'}}).join("");
     var nm=r.u?('<a href="../'+esc(r.u)+'index.html">'+esc(r.n)+'</a>'):esc(r.n);
     var acc=r.a?(' <span class="stars" aria-hidden="true">'+"●".repeat(Math.min(r.a,5))+'</span>'):"";
     var where=[r.c,r.co?r.co+" County":"",r.s].filter(Boolean).join(" · ");
-    var go=r.u?'<a class="go" href="../'+esc(r.u)+'index.html">page →</a>':(r.w?'<a class="go" href="'+esc(r.w)+'" rel="noopener">site →</a>':'<span class="go mute">no page yet</span>');
+    var go=r.u?'<a class="go" href="../'+esc(r.u)+'index.html">page →</a>':(r.w?'<a class="go" href="'+esc(r.w)+'" rel="noopener">site →</a>':'<span class="go mute">not written up</span>');
     return '<div class="hit"><span class="mi">'+h.d.toFixed(1)+' mi</span><span class="nm">'+nm+acc+'</span>'+go+
       '<span class="wh">'+esc(where)+(r.b?' — '+esc(r.b.slice(0,110))+'…':'')+'</span>'+
       '<span class="wk">'+strip(r.d)+(r.so?' <em>till it runs out</em>':'')+(r.ht?' <em>'+esc(r.ht)+'</em>':(r.h?' <span class="mute">'+esc(r.h)+'</span>':''))+'</span>'+
@@ -243,19 +243,19 @@ document.getElementById("chips").addEventListener("click",function(e){{
 }});
 document.getElementById("locate").addEventListener("click",function(){{
   var s=document.getElementById("status");
-  if(!navigator.geolocation){{s.textContent="This browser will not share a location. Type a town instead.";return}}
-  s.textContent="Asking your browser…";
+  if(!navigator.geolocation){{s.textContent="This browser won't hand over a location. Type a town instead.";return}}
+  s.textContent="Asking…";
   navigator.geolocation.getCurrentPosition(function(p){{
     here=[p.coords.latitude,p.coords.longitude];
     s.textContent="Sorted from where you are.";render();
-  }},function(){{s.textContent="Your browser said no. Type a town instead — it works the same, with no location at all.";}},{{timeout:10000}});
+  }},function(){{s.textContent="Browser said no. Type a town instead — works the same.";}},{{timeout:10000}});
 }});
 function bytown(){{
   var v=document.getElementById("town").value.trim(), s=document.getElementById("status");
   if(!v)return; var hit=TOWNS[v];
   if(!hit){{ var k=Object.keys(TOWNS).filter(function(t){{return t.toLowerCase().indexOf(v.toLowerCase())===0}});
     if(k.length){{hit=TOWNS[k[0]];v=k[0]}} }}
-  if(!hit){{s.textContent="No place in this list sits in a town by that name. Try the nearest bigger one.";return}}
+  if(!hit){{s.textContent="Nothing in this list is in a town by that name. Try the nearest big one.";return}}
   here=hit; s.textContent="Sorted from "+v+"."; render();
 }}
 document.getElementById("go").addEventListener("click",bytown);
@@ -263,11 +263,11 @@ document.getElementById("town").addEventListener("keydown",function(e){{if(e.key
 }})();
 </script>
 """
-    return page("Find the wings — Wing Country", body, 1,
+    return page("Get me some wings — Wing Country", body, 1,
                 "Wings near you, anywhere in the United States, and the counters worth a drive: naked, breaded, smoked, Black-owned, woman-owned, LGBTQ+ welcoming — every tag with its evidence.",
                 [{"@context": "https://schema.org", "@type": "WebPage", "name": "Find the wings", "url": f"{site_url}/near/"}],
                 f"{site_url}/near/", extra_head=f"<style>{NEAR_CSS}</style>", card="near",
-                og_alt="Find the wings: every wing counter in America, sorted from where you are")
+                og_alt="Every wing joint in America, sorted from where you are")
 
 
 # ---------------------------------------------------------------- sauce charts
@@ -416,14 +416,12 @@ def sauce_map_multiples(states_geo: dict, by_base: dict, width=250) -> str:
 def sauce_page(page, sauces: dict, recs: list, states_geo: dict, site_url: str) -> str:
     rows = list((sauces or {}).get("sauces", []))
     sauce_recs = [r for r in recs if r["type"] == "sauce"]
-    body = ['<h1><span class="kind">Wing Country</span>Read the bottle</h1>',
-            '<p class="lede">Every number on this page comes off a label: ingredients in the order the maker prints them, '
-            'salt and sugar from the Nutrition Facts panel, the town on the back. '
-            'Which one wins gets argued elsewhere on this site, at length.</p>']
+    body = ['<h1><span class="kind">Wing Country</span>What&#8217;s in the bottle</h1>',
+            '<p class="lede">Every number here came off a label. Who wins gets argued elsewhere, at length.</p>']
     if not rows:
-        body.append('<p class="mute">No label carries a measured profile yet. The sauce pages are up: '
+        body.append('<p class="mute">No labels read yet. The sauce pages are up though: '
                     + " · ".join(f'<a href="../sauce/{E(r["id"])}/index.html">{E(r["names"]["name"])}</a>' for r in sauce_recs) + "</p>")
-        return page("Read the bottle — Wing Country", "".join(body), 1, "Wing sauce measured off the label.", None, f"{site_url}/sauce/",
+        return page("What's in the bottle — Wing Country", "".join(body), 1, "Wing sauce measured off the label.", None, f"{site_url}/sauce/",
                     extra_head=f"<style>{CHART_CSS}</style>", card="sauce")
 
     withsalt = [x for x in rows if x.get("sodium_mg_per_tbsp") is not None]
@@ -525,8 +523,8 @@ def sauce_page(page, sauces: dict, recs: list, states_geo: dict, site_url: str) 
                 'Each claim sits on its sauce\'s page as <code>heat_claim</code>, in the maker\'s own words.</p>')
 
     # the ranks table
-    body.append('<h2>Every bottle read</h2><p class="mute">Rank 1 means first on the label. A dash means the label never lists it. '
-                'Blank means we could not find a label to read, which is a fact about us, not about the sauce.</p>'
+    body.append('<h2>Every bottle we read</h2><p class="mute">1 means first on the label. A dash means it isn&#8217;t on there. '
+                'Blank means we couldn&#8217;t find a label.</p>'
                 '<div style="overflow-x:auto"><table><tr><th>Sauce</th><th>Maker</th><th>Town</th><th>Base</th><th>Pepper</th><th>Vinegar</th><th>Fat</th><th>Sugar</th><th>Soy</th><th>Sodium mg/tbsp</th><th>Sugar g/tbsp</th><th>Label</th></tr>'
                 + "".join(
                     "<tr><td>" + E(x["name"]) + "</td><td>" + E(x.get("maker", "")) + "</td><td>" + E((x.get("town") or "") + (", " + x["state"] if x.get("state") else "")) + "</td><td>"
@@ -538,7 +536,7 @@ def sauce_page(page, sauces: dict, recs: list, states_geo: dict, site_url: str) 
                     for x in sorted(rows, key=lambda x: (x.get("base") or "", x["name"])))
                 + "</table></div>")
 
-    body.append('<h2>The sauces themselves</h2><div class="cards">' + "".join(
+    body.append('<h2>The bottles</h2><div class="cards">' + "".join(
         f'<div class="card"><a class="t" href="../sauce/{E(r["id"])}/index.html">{E(r["names"]["name"])}</a><p>{E(r["blurb"][:160])}</p></div>' for r in sauce_recs) + "</div>")
     body.append('<p class="legend">Labels were read on the makers\' own pages, on retailers\' product pages and in the USDA\'s FoodData Central branded-food panels, '
                 'which are public domain; each row links to the page it was read from, and the date sits on the sauce\'s own entry. '
@@ -682,19 +680,17 @@ WING_STYLES = [
 def wing_page(page, by_id: dict, site_url: str) -> str:
     cuts = [i for i in ("wing-cut", "naked-fry", "breaded-fry", "double-fry", "the-toss", "frying-oil") if i in by_id]
     words = [i for i in ("drumette", "flat", "wing-tip", "flapper", "party-wing", "all-flats") if i in by_id]
-    body = ['<h1><span class="kind">Wing Country</span>Which part of the bird</h1>',
-            '<p class="lede">A chicken carries two wings. Each one gives a drumette, a flat and a tip — '
-            'so an order of twenty pieces took ten birds’ worth of one wing apiece, and the tip usually never made it to the table.</p>',
+    body = ['<h1><span class="kind">Wing Country</span>Flat or drum?</h1>',
+            '<p class="lede">One wing, three pieces. Order twenty and you&#8217;ve had a wing off ten birds.</p>',
             '<div class="viz"><h3>The wing, divided</h3>'
-            '<p class="note">Laid out flat, shoulder end at the left. The two rings mark the joints a knife goes through.</p>'
+            '<p class="note">Shoulder end at the left. The rings are where the knife goes.</p>'
             + '<div style="max-width:620px;margin:0 auto">' + wing_svg(set(), ident="all") + "</div>"
             + '<table style="margin-top:.8rem">'
             + "".join(f"<tr><th>{E(lab)}</th><td>{E(gloss)}</td></tr>" for _, _, _, _, _, _, lab, gloss, _, _ in WING_PARTS)
             + "</table></div>"]
     body.append('<div class="viz"><h3>One bird, one of each</h3>'
-                '<p class="note">A chicken cannot give two flats. Every drumette a shop sells comes with a flat attached to it somewhere, '
-                'which is why an all-flats order costs more at the counters that allow it at all, and why the drums have to go somewhere. '
-                '<a href="../story/the-flat-and-the-drum/index.html">The whole argument →</a></p></div>')
+                '<p class="note">No bird gives two flats. Every drum a shop sells came with a flat attached, which is why all-flats costs extra — '
+                'and why somebody, somewhere, is eating the drums. <a href="../story/the-flat-and-the-drum/index.html">The whole fight →</a></p></div>')
     body.append('<div class="smallmult" style="grid-template-columns:repeat(auto-fit,minmax(17rem,1fr))">')
     for sid, label, lit, gloss in WING_STYLES:
         rec = by_id.get(sid)
@@ -704,17 +700,16 @@ def wing_page(page, by_id: dict, site_url: str) -> str:
                     + f'<figcaption style="font-weight:400;margin-top:.4rem">{E(gloss)}</figcaption></figure>')
     body.append("</div>")
     if cuts:
-        body.append('<h2>In the kitchen</h2><div class="cards">' + "".join(
+        body.append('<h2>Out back</h2><div class="cards">' + "".join(
             f'<div class="card"><a class="t" href="../fry/{E(c)}/index.html">{E(by_id[c]["names"]["name"])}</a>'
             f'<p>{E(by_id[c]["blurb"][:170])}</p></div>' for c in cuts) + "</div>")
     if words:
-        body.append('<h2>What to call them</h2><div class="cards">' + "".join(
+        body.append('<h2>What to call \&#8217;em</h2><div class="cards">' + "".join(
             f'<div class="card"><a class="t" href="../word/{E(c)}/index.html">{E(by_id[c]["names"]["name"])}</a>'
             f'<p>{E(by_id[c]["blurb"][:170])}</p></div>' for c in words) + "</div>")
-    body.append('<p class="legend">The drawing is this project’s own and it is a diagram, not a butcher’s chart: '
-                'the lines mark where the styles differ, not exactly where a knife goes. For the seams themselves, read a poultry cutting guide '
-                'from a state extension service.</p>')
-    return page("Which part of the bird — Wing Country", "".join(body), 1,
+    body.append('<p class="legend">Our drawing, and a diagram rather than a butcher\'s chart — the lines mark where styles differ. '
+                'For the seams, read a poultry cutting guide from a state extension service.</p>')
+    return page("Flat or drum? — Wing Country", "".join(body), 1,
                 "A diagram of the chicken wing — drumette, flat and tip — and which pieces each American wing style serves.",
                 None, f"{site_url}/wing/", extra_head=f"<style>{CHART_CSS}</style>", card="wing",
                 og_alt="A chicken wing laid out flat with the drumette, the flat and the tip named")
@@ -792,7 +787,7 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
     nearest.sort()
     med_gap = nearest[len(nearest) // 2] if nearest else 0
 
-    body = ['<h1><span class="kind">Wing Country</span>Count it up</h1>',
+    body = ['<h1><span class="kind">Wing Country</span>Do the math</h1>',
             '<p class="lede">Adding it up.</p>',
             '<div class="facts">'
             + "".join(f'<div class="fact"><div class="n">{n}</div><div class="l">{E(l)}</div></div>' for n, l in [
@@ -840,7 +835,7 @@ def numbers_page(page, recs: list, places: dict, geo: dict, site_url: str, site_
     body.append('<p class="legend">The distance map is computed on a grid clipped to the states\' own outlines '
                 '(Natural Earth, public domain) and measured against every place on the map, most of which come from OpenStreetMap under the ODbL. '
                 'Everything else is counted straight out of <a href="../api/nodes.json">the records</a>.</p>')
-    return page("Count it up — Wing Country", "".join(body), 1,
+    return page("Do the math — Wing Country", "".join(body), 1,
                 "American wings counted: how near the nearest counter sits anywhere in the country, when the places opened, what the recipes call for, which days they open.",
                 None, f"{site_url}/numbers/", extra_head=f"<style>{CHART_CSS}</style>", card="numbers",
                 og_alt="A map of the United States shaded by distance to the nearest wing counter")
@@ -923,14 +918,14 @@ def make_page(page, builder: dict, sauces: dict, recs: list, site_url: str, rub:
                           for o in opts) + "</div></div>")
 
     body = f"""
-<h1><span class="kind">Wing Country</span>Make</h1>
-<p class="lede">Build a sauce, a rub or a dip from sources this site can cite. A published recipe gets named where one
-exists. Everything else states plainly that the proportions are ours.</p>
+<h1><span class="kind">Wing Country</span>Make your own</h1>
+<p class="lede">A sauce, a rub, or the cup beside the basket. Where a real recipe exists, it&#8217;s named. Where it
+doesn&#8217;t, we say the proportions are ours.</p>
 
 <div class="tabs" role="tablist">
-  <button type="button" role="tab" data-panel="sauce" aria-selected="true">A sauce</button>
-  <button type="button" role="tab" data-panel="rub" aria-selected="false">A rub</button>
-  <button type="button" role="tab" data-panel="dip" aria-selected="false">A dip</button>
+  <button type="button" role="tab" data-panel="sauce" aria-selected="true">Sauce</button>
+  <button type="button" role="tab" data-panel="rub" aria-selected="false">Rub</button>
+  <button type="button" role="tab" data-panel="dip" aria-selected="false">Dip</button>
 </div>
 
 <section class="panel" id="panel-sauce">
@@ -1239,7 +1234,7 @@ tabs.addEventListener("click",function(e){{
 }})();
 </script>
 """
-    return page("Make — Wing Country", body, 1,
+    return page("Make your own — Wing Country", body, 1,
                 "Build a wing sauce by style and taste, a rub from nothing at all out to a full barbecue one, or the dip beside the basket. Every proportion says whether it came from a published recipe or from this project.",
                 None, f"{site_url}/make/", extra_head=f"<style>{MAKE_CSS}{MAKE_TABS_CSS}{CHART_CSS}</style>", card="make",
                 og_alt="Make a wing sauce, a rub or a dip")
