@@ -1,0 +1,226 @@
+{
+ "note": "The ladder is built from what the records already carry: facets.heat on a style, and the maker's own heat word on a bottle. Scoville appears only where somebody published a number.",
+ "title": "How hot do you want it",
+ "rungs": [
+  {
+   "key": "none",
+   "label": "None",
+   "say": "Butter, garlic, cheese. Nothing in it bites."
+  },
+  {
+   "key": "mild",
+   "label": "Mild",
+   "say": "Sweet, salty, smoky. Heat is somewhere in the room, not on the wing."
+  },
+  {
+   "key": "medium",
+   "label": "Medium",
+   "say": "The default order almost everywhere, and the one Buffalo means."
+  },
+  {
+   "key": "hot",
+   "label": "Hot",
+   "say": "You notice it between wings now, not just during."
+  },
+  {
+   "key": "very hot",
+   "label": "Very hot",
+   "say": "Cayenne paste in frying fat. Bread underneath for a reason."
+  }
+ ],
+ "scale_note": "Scoville heat units come from a lab assay of capsaicin in dried material, and the article behind the scale says the number moves with seed, climate, soil and method. Every figure below is somebody's published measurement, lined up on one axis.",
+ "scale": [
+  {
+   "name": "Sweet peppers",
+   "low": 0,
+   "high": 500,
+   "source": "s:wp-scoville-scale",
+   "note": "the bottom of the published scale"
+  },
+  {
+   "name": "Frank's RedHot Original",
+   "low": 450,
+   "high": 450,
+   "source": "s:web-franks-redhot-original-page",
+   "ours": true,
+   "note": "the cayenne pepper sauce under most Buffalo wings in America",
+   "record": "franks-redhot"
+  },
+  {
+   "name": "Jalapeño",
+   "low": 2000,
+   "high": 10000,
+   "source": "s:wp-jalape-o",
+   "note": "a few thousand to over 10,000, depending on how it grew"
+  },
+  {
+   "name": "Cayenne pepper",
+   "low": 30000,
+   "high": 50000,
+   "source": "s:wp-cayenne-pepper",
+   "note": "the pepper the sauce is named for"
+  },
+  {
+   "name": "Habanero",
+   "low": 300000,
+   "high": 445000,
+   "source": "s:wp-habanero"
+  },
+  {
+   "name": "Ghost pepper",
+   "low": 855000,
+   "high": 1041427,
+   "source": "s:wp-ghost-pepper",
+   "note": "855,000 reported by India's Defence Research Laboratory in 2000; 1,041,427 in 2004"
+  },
+  {
+   "name": "Carolina Reaper",
+   "low": 1463700,
+   "high": 1641183,
+   "source": "s:wp-carolina-reaper",
+   "note": "average and peak"
+  },
+  {
+   "name": "Pepper X",
+   "low": 2600000,
+   "high": 2600000,
+   "source": "s:wp-scoville-scale",
+   "note": "over 2.6 million — the top of the table"
+  }
+ ],
+ "ladder": [
+  {
+   "q": "A jalapeño on a nacho is…",
+   "a": [
+    {
+     "t": "a lot, actually",
+     "s": 0
+    },
+    {
+     "t": "fine",
+     "s": 1
+    },
+    {
+     "t": "not a pepper",
+     "s": 2
+    }
+   ]
+  },
+  {
+   "q": "You order wings. The counter asks how hot.",
+   "a": [
+    {
+     "t": "Mild. I want to taste it.",
+     "s": 0
+    },
+    {
+     "t": "Medium, like everyone.",
+     "s": 1
+    },
+    {
+     "t": "Hot.",
+     "s": 2
+    },
+    {
+     "t": "Whatever is past hot.",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "q": "There is a sauce on the menu with a name like a weapon.",
+   "a": [
+    {
+     "t": "Somebody else's problem.",
+     "s": 0
+    },
+    {
+     "t": "I'll try one.",
+     "s": 2
+    },
+    {
+     "t": "I'll take the order.",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "q": "Halfway through, your face is going.",
+   "a": [
+    {
+     "t": "I stop.",
+     "s": 0
+    },
+    {
+     "t": "Milk, then continue.",
+     "s": 1
+    },
+    {
+     "t": "I don't acknowledge it.",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "q": "There is a waiver.",
+   "a": [
+    {
+     "t": "Then no.",
+     "s": 0
+    },
+    {
+     "t": "I read it.",
+     "s": 1
+    },
+    {
+     "t": "I sign it.",
+     "s": 3
+    }
+   ]
+  },
+  {
+   "q": "Tomorrow.",
+   "a": [
+    {
+     "t": "I plan around it.",
+     "s": 0
+    },
+    {
+     "t": "Worth it.",
+     "s": 2
+    },
+    {
+     "t": "I never think about it.",
+     "s": 3
+    }
+   ]
+  }
+ ],
+ "results": [
+  {
+   "max": 3,
+   "rung": "none",
+   "say": "Garlic parmesan is a real order and you should stop apologising for it."
+  },
+  {
+   "max": 7,
+   "rung": "mild",
+   "say": "Mild is a flavour choice. Lemon pepper and Old Bay are waiting for you."
+  },
+  {
+   "max": 11,
+   "rung": "medium",
+   "say": "Medium. The order Buffalo means when it says nothing at all."
+  },
+  {
+   "max": 14,
+   "rung": "hot",
+   "say": "Hot, and you order it on purpose. Jerk and Korean hot want a word."
+  },
+  {
+   "max": 99,
+   "rung": "very hot",
+   "say": "Nashville is expecting you. Bring the bread."
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "note": "A checklist meant to be copied into a post and argued with. Each line points at a record, so ticking it is also a tour. Scored in the reader's browser.",
+ "title": "Never Have I Ever: Wings",
+ "lede": "Tick what you've done. Copy it. Tag somebody who needs to answer for theirs.",
+ "bands": [
+  {
+   "max": 5,
+   "say": "You're here for the fries."
+  },
+  {
+   "max": 12,
+   "say": "Wednesday regular."
+  },
+  {
+   "max": 19,
+   "say": "You've got a place, and you've got an order."
+  },
+  {
+   "max": 25,
+   "say": "You've argued about this in a parking lot."
+  },
+  {
+   "max": 99,
+   "say": "Somebody has your picture on a wall."
+  }
+ ],
+ "tags": [
+  "Tag the friend who orders ranch.",
+  "Tag whoever always takes the last drum.",
+  "Tag the one who says they can handle it.",
+  "Tag the person who eats the celery.",
+  "Tag whoever drove last time.",
+  "Tag the friend who orders boneless and means it."
+ ],
+ "items": [
+  {
+   "t": "Eaten wings standing over the sink.",
+   "to": null
+  },
+  {
+   "t": "Ordered wings somewhere that mostly sells pizza.",
+   "to": "la-nova-pizzeria"
+  },
+  {
+   "t": "Eaten the celery. Actually eaten it.",
+   "to": "celery-and-carrots"
+  },
+  {
+   "t": "Bought the frozen party pack and called it dinner.",
+   "to": "party-wing"
+  },
+  {
+   "t": "Had wings for breakfast.",
+   "to": "wing-basket"
+  },
+  {
+   "t": "Licked sauce off my fingers in a public place.",
+   "to": "the-toss"
+  },
+  {
+   "t": "Ordered boneless and called them wings anyway.",
+   "to": "boneless"
+  },
+  {
+   "t": "Asked for ranch in Buffalo.",
+   "to": "ranch-dressing"
+  },
+  {
+   "t": "Eaten wings with a fork, in front of people.",
+   "to": null
+  },
+  {
+   "t": "Paid extra for all flats.",
+   "to": "all-flats"
+  },
+  {
+   "t": "Taken the drums because nobody else would.",
+   "to": "flat"
+  },
+  {
+   "t": "Sent an order back for not being crispy enough.",
+   "to": "extra-crispy"
+  },
+  {
+   "t": "Argued about whether the tip is worth eating.",
+   "to": "wing-tip"
+  },
+  {
+   "t": "Eaten the tip.",
+   "to": "flapper"
+  },
+  {
+   "t": "Said dry when I meant wet.",
+   "to": "wet-and-dry"
+  },
+  {
+   "t": "Put Old Bay on something that was never a crab.",
+   "to": "old-bay"
+  },
+  {
+   "t": "Ordered mumbo sauce and knew what was coming.",
+   "to": "mumbo"
+  },
+  {
+   "t": "Had a wing plate with fried rice in the same bag.",
+   "to": "fried-rice-plate"
+  },
+  {
+   "t": "Turned up somewhere that only takes cash.",
+   "to": "nine-eleven-tavern"
+  },
+  {
+   "t": "Driven more than an hour for a specific order.",
+   "to": "the-price-of-a-wing"
+  },
+  {
+   "t": "Eaten a breaded wing and liked it.",
+   "to": "rochester-breaded"
+  },
+  {
+   "t": "Defended bleu cheese to somebody holding ranch.",
+   "to": "ranch-vs-blue-cheese"
+  },
+  {
+   "t": "Told somebody their city does wings wrong.",
+   "to": "the-origin-fight"
+  },
+  {
+   "t": "Stood in the room where they say it started.",
+   "to": "anchor-bar"
+  },
+  {
+   "t": "Been to Duff's and mentioned it at the Anchor Bar.",
+   "to": "duffs-famous-wings"
+  },
+  {
+   "t": "Ordered hot and then quietly ordered milk.",
+   "to": "nashville-hot"
+  },
+  {
+   "t": "Cried at the table and kept going.",
+   "to": "nashville-hot"
+  },
+  {
+   "t": "Signed a waiver to eat a chicken wing.",
+   "to": "atomic"
+  },
+  {
+   "t": "Finished a challenge and ended up on the wall.",
+   "to": "atomic"
+  },
+  {
+   "t": "Made the sauce myself, from scratch.",
+   "to": "buffalo-sauce"
+  }
+ ]
+}

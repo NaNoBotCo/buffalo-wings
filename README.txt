@@ -65,6 +65,17 @@ THE PAGES THAT ANSWER A QUESTION
   /wing/    Which part of the bird. A drawn wing — drumette, flat, tip — and a small one
             per style showing which pieces it serves.
   /make/    Build a sauce, a rub or a dip. Every proportion names its own source.
+  /heat/    How hot do you want it. The ladder in the words makers actually print, a
+            six-question self-rating, and every published Scoville figure on one log axis —
+            where the cayenne sauce under most Buffalo wings in America lands below a
+            jalapeño. data/vocab/heat.json.
+  /vs/      Settle it. Two styles side by side out of their own records — cut, cook,
+            sauce, dip, heat — with each one's own line on telling them apart. A matchup
+            is a link: /vs/?a=buffalo&b=rochester-breaded. Under it, a sixteen-slot
+            bracket played in the browser, byes spaced one to a pair.
+  /never/   Never Have I Ever: Wings. Thirty lines, each pointing at a record. Tick, score,
+            and copy the whole thing as plain text with ✅ and ⬜ for posting.
+            data/vocab/never.json.
   /numbers/ Count it up. Distance to the nearest counter anywhere in the lower 48,
             founding years, what the recipes call for, days open, kin by kind of page.
   /quiz/    Which wing claims you. Six questions, scored in the browser, no storage.
@@ -123,8 +134,12 @@ PICTURES
 
 REFRESHING THE HARVESTS
 -----------------------
-  python3 tools/harvest_osm.py            every state, one Overpass query each; saves
-                                          after each state, so a kill keeps progress
+  python3 tools/harvest_osm.py            every state, TWO Overpass queries each — the
+                                          cuisine matcher is cheap and indexed, the name
+                                          matcher walks every eatery and times out on a
+                                          big sparse state, so they run apart and one 504
+                                          no longer loses both. Saves after each state,
+                                          so a kill keeps progress
   python3 tools/harvest_osm.py --resume    only the states not already on disk
   python3 tools/harvest_osm.py --states NY,PA
   python3 tools/harvest_osm.py --towns     reverse-geocode rows with no addr:city,

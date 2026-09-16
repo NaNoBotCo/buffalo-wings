@@ -108,6 +108,11 @@ NEAR_CSS = """
 """
 
 
+# record type -> the directory its page sits in, the same map site.py uses
+PATH_OF_PAGE = {"style": "style", "sauce": "sauce", "dish": "dish", "fry": "fry", "place": "place",
+                "person": "person", "org": "org", "event": "event", "term": "word", "art": "art", "story": "story"}
+
+
 def esc_js(obj) -> str:
     return json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
 
@@ -1237,3 +1242,466 @@ tabs.addEventListener("click",function(e){{
                 "Build a wing sauce by style and taste, a rub from nothing at all out to a full barbecue one, or the dip beside the basket. Every proportion says whether it came from a published recipe or from this project.",
                 None, f"{site_url}/make/", extra_head=f"<style>{MAKE_CSS}{MAKE_TABS_CSS}{CHART_CSS}</style>", card="make",
                 og_alt="Make a wing sauce, a rub or a dip")
+
+
+# ---------------------------------------------------------------- never have I ever
+
+NEVER_CSS = """
+.nhie{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.4rem .9rem 1rem;margin:.8rem 0}
+.nhie ol{list-style:none;margin:0;padding:0;counter-reset:n}
+.nhie li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem .2rem;border-bottom:1px solid var(--line)}
+.nhie li:last-child{border-bottom:0}
+.nhie input[type=checkbox]{width:1.35rem;height:1.35rem;margin:.15rem 0 0;accent-color:var(--sauce);flex:0 0 auto;cursor:pointer}
+.nhie label{cursor:pointer;flex:1}
+.nhie label a{color:var(--mute);text-decoration:none;border-bottom:1px dotted var(--line);font-size:.86em}
+.nhie label a:hover{color:var(--sauce)}
+.tally{position:sticky;bottom:0;background:var(--bg);border-top:2px solid var(--sauce);padding:.7rem .2rem .4rem;margin-top:.4rem;
+  display:flex;gap:.9rem;align-items:baseline;flex-wrap:wrap}
+.tally .n{font-family:var(--display);font-size:2.1rem;font-weight:700;line-height:1;color:var(--sauce)}
+.tally .band{font-family:var(--display);font-size:1.05rem;font-weight:700}
+.post{white-space:pre-wrap;background:var(--bg);border:1px dashed var(--line);border-radius:12px;padding:.85rem 1rem;
+  font-family:var(--ui);font-size:.93rem;line-height:1.5;margin:.6rem 0 0}
+.mk-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:.7rem 0 0}
+"""
+
+
+def never_page(page, never: dict, by_id: dict, site_url: str) -> str:
+    items = never["items"]
+    lis = []
+    for i, it in enumerate(items):
+        rec = by_id.get(it["to"]) if it.get("to") else None
+        link = (f' <a href="../{PATH_OF_PAGE.get(rec["type"], rec["type"])}/{E(rec["id"])}/index.html">'
+                f'{E(rec["names"]["name"])} →</a>') if rec else ""
+        lis.append(f'<li><input type="checkbox" id="n{i}"><label for="n{i}">{E(it["t"])}{link}</label></li>')
+    body = f"""
+<h1><span class="kind">Wing Country</span>{E(never["title"])}</h1>
+<p class="lede">{E(never["lede"])}</p>
+
+<div class="nhie"><ol>{"".join(lis)}</ol></div>
+
+<div class="tally"><span class="n" id="score">0</span><span class="mute">of {len(items)}</span>
+  <span class="band" id="band">&nbsp;</span>
+  <button class="btn" type="button" id="post">Copy it for posting</button>
+  <button class="btn ghost" type="button" id="clear">Clear</button></div>
+
+<div class="post" id="out" hidden></div>
+
+<h2>Where these came from</h2>
+<p class="mute">Every line points at a page here. The ones about a waiver and a wall are the challenge-wing rite, and
+the one about bleu cheese is a whole argument with numbers in it.</p>
+
+<script>
+(function(){{
+var ITEMS={esc_js([i["t"] for i in items])}, BANDS={esc_js(never["bands"])}, TAGS={esc_js(never["tags"])};
+var boxes=[].slice.call(document.querySelectorAll('.nhie input[type=checkbox]'));
+function band(n){{for(var i=0;i<BANDS.length;i++){{if(n<=BANDS[i].max)return BANDS[i].say}}return ""}}
+function tally(){{
+  var n=boxes.filter(function(b){{return b.checked}}).length;
+  document.getElementById("score").textContent=n;
+  document.getElementById("band").textContent=band(n);
+  return n;
+}}
+boxes.forEach(function(b){{b.addEventListener("change",function(){{tally();var o=document.getElementById("out");if(!o.hidden)build()}})}});
+function build(){{
+  var n=tally(), lines=[];
+  lines.push("NEVER HAVE I EVER \\u2014 WINGS");
+  lines.push("");
+  for(var i=0;i<ITEMS.length;i++){{ lines.push((boxes[i].checked?"\\u2705 ":"\\u2b1c ")+ITEMS[i]); }}
+  lines.push("");
+  lines.push(n+"/"+ITEMS.length+" \\u2014 "+band(n));
+  lines.push(TAGS[Math.floor(Math.random()*TAGS.length)]);
+  lines.push("");
+  lines.push("{site_url}/never/");
+  var txt=lines.join("\\n");
+  var o=document.getElementById("out"); o.hidden=false; o.textContent=txt;
+  return txt;
+}}
+document.getElementById("post").addEventListener("click",function(){{
+  var txt=build(), b=this;
+  (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){{
+    b.textContent="Copied \\u2014 go paste it";
+    setTimeout(function(){{b.textContent="Copy it for posting"}},2200);
+  }},function(){{ b.textContent="Select it below and copy"; }});
+}});
+document.getElementById("clear").addEventListener("click",function(){{
+  boxes.forEach(function(b){{b.checked=false}}); tally();
+  var o=document.getElementById("out"); o.hidden=true; o.textContent="";
+}});
+tally();
+}})();
+</script>
+"""
+    return page(f'{never["title"]} — Wing Country', body, 1,
+                "A thirty-line wing checklist you can tick, score and paste straight into a post. Every line points at a page here.",
+                None, f"{site_url}/never/", extra_head=f"<style>{NEVER_CSS}</style>", card="never",
+                og_alt="Never Have I Ever: Wings — a thirty-line checklist")
+
+
+# ---------------------------------------------------------------- how hot
+
+HEAT_CSS = """
+.rung{display:grid;grid-template-columns:8.5rem 1fr;gap:.6rem 1rem;align-items:baseline;padding:.75rem .2rem;border-bottom:1px solid var(--line)}
+.rung b{font-family:var(--display);font-size:1.12rem}
+.rung .say{color:var(--mute);font-size:.93rem;display:block;margin-bottom:.35rem}
+.rung .who{display:flex;flex-wrap:wrap;gap:.35rem}
+.rung .who a{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.12rem .65rem;
+  font-size:.85rem;font-family:var(--ui);text-decoration:none;color:var(--ink)}
+.rung .who a:hover{border-color:var(--sauce)}
+.rung .who .none{color:var(--mute);font-size:.85rem;font-family:var(--ui)}
+.flame{letter-spacing:.08em}
+.ladder{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1.1rem;margin:1rem 0}
+.ladder .q{font-family:var(--display);font-weight:700;margin:.9rem 0 .35rem}
+.ladder .opts{display:flex;flex-wrap:wrap;gap:.4rem}
+.ladder .opts button{font:inherit;font-family:var(--ui);font-size:.9rem;padding:.35rem .8rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.ladder .opts button[aria-pressed=true]{background:var(--sauce);border-color:var(--sauce);color:#fff}
+.verdict{border-left:4px solid var(--sauce);background:var(--bg);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:1rem 0 0}
+.verdict b{font-family:var(--display);font-size:1.2rem;display:block}
+"""
+
+FLAME = {"none": "", "mild": "🌶", "medium": "🌶🌶", "hot": "🌶🌶🌶", "very hot": "🌶🌶🌶🌶"}
+
+
+def shu_bar(rows: list, width=700) -> str:
+    """Published Scoville figures on one log axis, because 450 and 2,600,000 do not share a
+    linear one. Position carries the magnitude; one hue, and every row is labelled."""
+    left, right, rowh = 176, 26, 34
+    h = len(rows) * rowh + 52
+    lo, hi = 100.0, 4_000_000.0
+    px = lambda v: left + (math.log10(max(v, lo)) - math.log10(lo)) / (math.log10(hi) - math.log10(lo)) * (width - left - right)
+    out = [f'<svg viewBox="0 0 {width} {h}" role="img" aria-label="Published Scoville figures on a logarithmic axis">']
+    for t in (100, 1000, 10000, 100000, 1000000):
+        lab = {100: "100", 1000: "1k", 10000: "10k", 100000: "100k", 1000000: "1m"}[t]
+        out.append(f'<line class="grid" x1="{px(t):.1f}" y1="10" x2="{px(t):.1f}" y2="{h - 38}"/>'
+                   f'<text class="axis" x="{px(t):.1f}" y="{h - 22}" text-anchor="middle">{lab}</text>')
+    out.append(f'<text class="axis" x="{left}" y="{h - 5}">Scoville heat units, ten times further along for every step</text>')
+    for i, r in enumerate(rows):
+        y = 24 + i * rowh
+        x1, x2 = px(r["low"]), px(r["high"])
+        ours = r.get("ours")
+        out.append(f'<text class="rowlab" x="{left - 12}" y="{y + 4}" text-anchor="end">{E(r["name"])}</text>')
+        if x2 - x1 > 3:
+            out.append(f'<rect x="{x1:.1f}" y="{y - 6}" width="{x2 - x1:.1f}" height="12" rx="6" '
+                       f'fill="var(--sauce)" opacity="{0.95 if ours else 0.55}"><title>{E(r["name"])}: '
+                       f'{r["low"]:,.0f}–{r["high"]:,.0f} SHU</title></rect>')
+        else:
+            out.append(f'<circle cx="{x1:.1f}" cy="{y}" r="{7 if ours else 5}" fill="var(--sauce)" '
+                       f'stroke="var(--panel)" stroke-width="2"><title>{E(r["name"])}: {r["low"]:,.0f} SHU</title></circle>')
+        txt = f'{r["low"]:,.0f}' if r["low"] == r["high"] else f'{r["low"]:,.0f}–{r["high"]:,.0f}'
+        out.append(f'<text class="vallab" x="{max(x2, x1) + 10:.1f}" y="{y + 4}">{txt}</text>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def heat_page(page, heat: dict, recs: list, sauces: dict, by_id: dict, site_url: str, sources: dict | None = None) -> str:
+    sources = sources or {}
+
+    def srcname(sid):
+        s = sources.get(sid) or {}
+        return s.get("publisher") or s.get("title") or sid or ""
+
+    styles = [r for r in recs if r["type"] == "style"]
+    bottles = [x for x in (sauces or {}).get("sauces", []) if x.get("heat_claim")]
+    rungs = []
+    for g in heat["rungs"]:
+        here = [r for r in styles if (r.get("facets") or {}).get("heat") == g["key"]]
+        claims = [x for x in bottles if (x["heat_claim"] or "").strip().lower() == g["key"]]
+        chips = "".join(f'<a href="../style/{E(r["id"])}/index.html">{E(r["names"]["name"])}</a>' for r in here)
+        chips += "".join(f'<a href="../sauce/{E(x["id"])}/index.html">{E(x["name"])} <span class="mute">“{E(x["heat_claim"])}”</span></a>' for x in claims)
+        if not chips:
+            chips = '<span class="none">nothing here yet</span>'
+        rungs.append(f'<div class="rung"><b>{E(g["label"])} <span class="flame">{FLAME.get(g["key"], "")}</span></b>'
+                     f'<div><span class="say">{E(g["say"])}</span><div class="who">{chips}</div></div></div>')
+
+    withclaim = len(bottles)
+    withshu = sum(1 for x in (sauces or {}).get("sauces", []) if x.get("scoville") is not None)
+    total = len((sauces or {}).get("sauces", []))
+
+    qs = "".join(
+        f'<div class="q">{E(q["q"])}</div><div class="opts" data-q="{i}">'
+        + "".join(f'<button type="button" data-s="{a["s"]}" aria-pressed="false">{E(a["t"])}</button>' for a in q["a"])
+        + "</div>" for i, q in enumerate(heat["ladder"]))
+
+    body = f"""
+<h1><span class="kind">Wing Country</span>{E(heat["title"])}</h1>
+<p class="lede">Every rung below is somebody's own word for their own food. One bottle in {total} publishes a number.</p>
+
+<h2>The ladder</h2>
+{"".join(rungs)}
+
+<div class="ladder">
+  <h2 style="border:0;margin:.2rem 0 .2rem">How hot can you take it?</h2>
+  <p class="mute" style="margin:0 0 .2rem;font-size:.9rem">Six questions. It hands you a rung, not a verdict.</p>
+  {qs}
+  <div id="heatout"></div>
+</div>
+
+<div class="viz"><h3>The one number anybody publishes</h3>
+<p class="note">{withshu} of {total} bottles here carries a Scoville figure. It is the cayenne pepper sauce under most
+Buffalo wings in America, and it lands below a jalapeño. {E(heat["scale_note"])}</p>
+{shu_bar(heat["scale"])}
+<details class="tbl"><summary>The same figures as a table, with who published each one</summary>
+<table><tr><th>What</th><th>Scoville</th><th>Who published it</th><th>Note</th></tr>
+{"".join('<tr><td>' + E(r["name"]) + '</td><td>' + f'{r["low"]:,.0f}' + ("" if r["low"] == r["high"] else f'–{r["high"]:,.0f}')
+         + '</td><td>' + E(srcname(r.get("source"))) + '</td><td>' + E(r.get("note", "")) + '</td></tr>' for r in heat["scale"])}
+</table></details></div>
+
+<h2>What a maker prints instead</h2>
+<p class="mute">{withclaim} bottles print a heat word on the front. Those words sit on the sauce pages exactly as the
+maker wrote them, and none of them converts into a number.</p>
+<table>{"".join(f'<tr><th><a href="../sauce/{E(x["id"])}/index.html">{E(x["name"])}</a></th><td>“{E(x["heat_claim"])}”</td></tr>' for x in bottles) or "<tr><td>Nothing read yet.</td></tr>"}</table>
+
+<p class="legend">Scoville figures: each row links back to the page it was read from on
+<a href="../sources/index.html">where we got it</a>. A style's rung comes from its own record.</p>
+
+<script>
+(function(){{
+var R={esc_js(heat["results"])}, pick={{}};
+document.querySelectorAll('.ladder .opts').forEach(function(g){{
+  g.addEventListener("click",function(e){{
+    var b=e.target.closest("button[data-s]"); if(!b)return;
+    pick[g.dataset.q]=parseInt(b.dataset.s,10);
+    [].forEach.call(g.querySelectorAll("button"),function(x){{x.setAttribute("aria-pressed",x===b?"true":"false")}});
+    render();
+  }});
+}});
+function render(){{
+  var ks=Object.keys(pick); if(!ks.length)return;
+  var n=0; ks.forEach(function(k){{n+=pick[k]}});
+  var got=R[R.length-1];
+  for(var i=0;i<R.length;i++){{ if(n<=R[i].max){{got=R[i];break}} }}
+  var done=ks.length, all={len(heat["ladder"])};
+  document.getElementById("heatout").innerHTML='<div class="verdict"><b>'+got.rung.charAt(0).toUpperCase()+got.rung.slice(1)+
+    '</b>'+got.say+(done<all?' <span class="mute">('+done+' of '+all+' answered)</span>':'')+'</div>';
+}}
+}})();
+</script>
+"""
+    return page(f'{heat["title"]} — Wing Country', body, 1,
+                "The heat ladder on an American wing menu, in the words makers actually print — and the one published Scoville figure, drawn against the peppers.",
+                None, f"{site_url}/heat/", extra_head=f"<style>{CHART_CSS}{HEAT_CSS}</style>", card="heat",
+                og_alt="The wing heat ladder, and the one published Scoville number")
+
+
+# ---------------------------------------------------------------- settle it
+
+VS_CSS = """
+.vs-pick{display:grid;grid-template-columns:1fr auto 1fr;gap:.6rem 1rem;align-items:center;margin:.8rem 0}
+.vs-pick select{font:inherit;font-family:var(--ui);font-size:1rem;padding:.5rem .6rem;border:2px solid var(--line);
+  border-radius:10px;background:var(--panel);color:var(--ink);width:100%}
+.vs-pick .v{font-family:var(--display);font-weight:700;font-size:1.3rem;color:var(--sauce)}
+.marquee{display:flex;flex-wrap:wrap;gap:.4rem;margin:.2rem 0 1rem}
+.marquee button{font:inherit;font-family:var(--ui);font-size:.86rem;padding:.3rem .75rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.marquee button:hover{border-color:var(--sauce)}
+table.vs{width:100%;border-collapse:collapse;margin:.4rem 0 1.2rem}
+table.vs th,table.vs td{padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+table.vs thead th{font-family:var(--display);font-size:1.15rem;color:var(--ink);width:38%}
+table.vs tbody th{width:24%;color:var(--mute);font-weight:600;font-family:var(--ui);font-size:.86rem;
+  text-transform:uppercase;letter-spacing:.06em}
+table.vs td.same{color:var(--mute)}
+table.vs td b{color:var(--sauce)}
+.brk{display:grid;grid-auto-flow:column;gap:.7rem;overflow-x:auto;padding:.4rem 0 .8rem;align-items:center}
+.brk .col{display:flex;flex-direction:column;gap:.45rem;min-width:11rem;justify-content:space-around}
+.brk .slot{background:var(--panel);border:1.5px solid var(--line);border-radius:9px;padding:.34rem .6rem;
+  font-family:var(--ui);font-size:.85rem;cursor:pointer;text-align:left;color:var(--ink);min-height:2rem}
+.brk .slot:hover{border-color:var(--sauce)}
+.brk .slot[data-on=true]{background:var(--sauce);border-color:var(--sauce);color:#fff;font-weight:700}
+.brk .slot[disabled]{cursor:default;opacity:.45}
+.brk .hd{font-family:var(--sign);font-size:.68rem;letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
+.champ{font-family:var(--display);font-size:1.5rem;font-weight:700;color:var(--sauce)}
+"""
+
+# (label, the dotted facet or field, how to read it)
+VS_ROWS = [
+    ("Where", "region", None),
+    ("Which pieces", "facets.cut", None),
+    ("How it cooks", "facets.cooked", None),
+    ("What goes on it", "facets.base", None),
+    ("How hot", "facets.heat", None),
+]
+
+
+def _dig(r: dict, path: str):
+    node = r
+    for part in path.split("."):
+        node = (node or {}).get(part) if isinstance(node, dict) else None
+    return node
+
+
+def versus_page(page, recs: list, by_id: dict, site_url: str) -> str:
+    styles = sorted([r for r in recs if r["type"] == "style"], key=lambda r: r["names"]["name"].lower())
+    base_label = BASE_LABEL
+    data = {}
+    for r in styles:
+        f = r.get("facets") or {}
+        kin = {k["to"]: k["as"] for k in r.get("kin_out", [])}
+        is_sauce = lambda i: by_id.get(i, {}).get("type") == "sauce"
+        is_dip = lambda i: is_sauce(i) and (by_id[i].get("facets") or {}).get("base") == "dairy"
+        # what the wing is tossed in, and the cup beside it, are different questions
+        sauce = next((by_id[i]["names"]["name"] for i in kin if is_sauce(i) and not is_dip(i)), "")
+        dip = next((by_id[i]["names"]["name"] for i in kin if is_dip(i)), "")
+        side = next((by_id[i]["names"]["name"] for i in kin if by_id.get(i, {}).get("type") == "dish"), "")
+        conf = [{"id": c["id"], "name": by_id.get(c["id"], {}).get("names", {}).get("name", c["id"]),
+                 "tell": c["tell"], "type": by_id.get(c["id"], {}).get("type", "")} for c in r.get("confusable_with", [])]
+        data[r["id"]] = {
+            "name": r["names"]["name"], "url": f'../style/{r["id"]}/index.html',
+            "where": ", ".join(t.get("name", t["key"]) for t in r.get("region_terms", [])),
+            "cut": f.get("cut") or "", "cooked": f.get("cooked") or "",
+            # "Other" is a bucket, not an answer: where a style lands in it, name its own sauce
+            "base": (sauce if f.get("base") == "other" and sauce else base_label.get(f.get("base"), f.get("base") or "")),
+            "heat": f.get("heat") or "",
+            "flame": FLAME.get(f.get("heat") or "", ""), "sauce": sauce, "dip": dip, "side": side,
+            "blurb": r["blurb"], "conf": conf, "card": f'../cards/style__{r["id"]}.jpg',
+        }
+
+    opts = "".join(f'<option value="{E(r["id"])}">{E(r["names"]["name"])}</option>' for r in styles)
+    marquee = [("buffalo", "rochester-breaded", "Buffalo v Rochester"),
+               ("buffalo", "atlanta-lemon-pepper", "Buffalo v Atlanta"),
+               ("nashville-hot", "korean-american", "Nashville v Korean"),
+               ("memphis-dry-rub", "buffalo", "Dry v wet"),
+               ("chicago-mild-sauce", "dc-mumbo", "Mild sauce v mumbo"),
+               ("alabama-white", "garlic-parm", "White sauce v garlic parm")]
+    mq = "".join(f'<button type="button" data-a="{a}" data-b="{b}">{E(t)}</button>'
+                 for a, b, t in marquee if a in data and b in data)
+
+    seeds = [r["id"] for r in styles]
+    body = f"""
+<h1><span class="kind">Wing Country</span>Settle it</h1>
+<p class="lede">Two cities, side by side, out of their own records. Nobody wins — that is what the argument is for.</p>
+
+<div class="marquee">{mq}</div>
+<div class="vs-pick">
+  <select id="a" aria-label="First style">{opts}</select>
+  <span class="v">v</span>
+  <select id="b" aria-label="Second style">{opts}</select>
+</div>
+
+<div id="vsout"></div>
+
+<h2>Wing bracket</h2>
+<p class="mute">Thirteen styles, sixteen slots, three byes. Click your way along. It forgets everything when you close the tab.</p>
+<div class="brk" id="brk"></div>
+<p id="champ" class="champ"></p>
+<div class="mk-actions"><button class="btn ghost" type="button" id="reseed">Shuffle and start over</button>
+<button class="btn ghost" type="button" id="brkcopy">Copy my winner</button></div>
+
+<script>
+(function(){{
+var D={esc_js(data)}, SEEDS={esc_js(seeds)};
+function esc(s){{return String(s==null?"":s).replace(/[&<>"]/g,function(c){{return {{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[c]}})}}
+var A=document.getElementById("a"), B=document.getElementById("b");
+var ROWS=[["Where","where"],["Which pieces","cut"],["How it cooks","cooked"],["On the wing","base"],["How hot","heat"],
+          ["The sauce","sauce"],["The dip","dip"],["Beside it","side"]];
+function render(){{
+  var x=D[A.value], y=D[B.value];
+  if(!x||!y){{return}}
+  var rows=ROWS.map(function(r){{
+    var vx=x[r[1]]||"\\u2014", vy=y[r[1]]||"\\u2014";
+    var same=(String(vx).toLowerCase()===String(vy).toLowerCase());
+    var f=(r[1]==="heat");
+    var cell=function(v,o){{return '<td class="'+(same?'same':'')+'">'+(same?esc(v):'<b>'+esc(v)+'</b>')+(f&&o.flame?' '+o.flame:'')+'</td>'}};
+    return '<tr><th>'+esc(r[0])+'</th>'+cell(vx,x)+cell(vy,y)+'</tr>';
+  }}).join("");
+  var tells=[];
+  (x.conf||[]).forEach(function(c){{ if(c.id===B.value) tells.push('<p><b>'+esc(x.name)+'</b> on telling them apart: '+esc(c.tell)+'</p>'); }});
+  (y.conf||[]).forEach(function(c){{ if(c.id===A.value) tells.push('<p><b>'+esc(y.name)+'</b> on telling them apart: '+esc(c.tell)+'</p>'); }});
+  document.getElementById("vsout").innerHTML=
+    '<table class="vs"><thead><tr><th></th><th><a href="'+x.url+'">'+esc(x.name)+'</a></th>'+
+    '<th><a href="'+y.url+'">'+esc(y.name)+'</a></th></tr></thead><tbody>'+rows+
+    '<tr><th>In a line</th><td>'+esc(x.blurb.slice(0,150))+'\\u2026</td><td>'+esc(y.blurb.slice(0,150))+'\\u2026</td></tr>'+
+    '</tbody></table>'+
+    '<p class="mute" style="font-size:.86rem;margin:-.6rem 0 1rem">A dash means no record here yet \u2014 a fact about this project, not about the food. '+
+    'Bold marks where the two differ.</p>'+
+    (tells.length?'<div class="pitch">'+tells.join("")+'</div>':'');
+}}
+A.addEventListener("change",render); B.addEventListener("change",render);
+document.querySelector(".marquee").addEventListener("click",function(e){{
+  var b=e.target.closest("button[data-a]"); if(!b)return;
+  A.value=b.dataset.a; B.value=b.dataset.b; render(); share();
+  document.getElementById("vsout").scrollIntoView({{behavior:"smooth",block:"nearest"}});
+}});
+var qs=new URLSearchParams(location.search);
+A.value=(D[qs.get("a")]?qs.get("a"):"buffalo");
+B.value=(D[qs.get("b")]?qs.get("b"):"rochester-breaded");
+if(!D[A.value]) A.selectedIndex=0;
+if(!D[B.value]) B.selectedIndex=1;
+function share(){{ history.replaceState(null,"","?a="+encodeURIComponent(A.value)+"&b="+encodeURIComponent(B.value)); }}
+A.addEventListener("change",share); B.addEventListener("change",share);
+render();
+
+/* ---- the bracket: sixteen slots, byes where the styles run out ---- */
+var field=[], picks={{}};
+function seed(){{
+  var s=SEEDS.slice();
+  for(var i=s.length-1;i>0;i--){{var j=Math.floor(Math.random()*(i+1)), t=s[i]; s[i]=s[j]; s[j]=t;}}
+  /* Byes go one to a pair, spaced across the draw. Appending them instead left a whole
+     quarter of nothing but byes, and a name walked to the final without being picked. */
+  var nb=16-s.length, spots={{}};
+  for(var k=0;k<nb;k++) spots[Math.floor(k*16/nb)+1]=true;
+  field=[]; var n=0;
+  for(var i=0;i<16;i++) field.push(spots[i]?null:s[n++]);
+  picks={{}}; draw();
+}}
+function seedsUnder(round,idx){{
+  var span=1<<round, start=idx*span, n=0;
+  for(var i=start;i<start+span;i++) if(field[i]) n++;
+  return n;
+}}
+function winner(round,idx){{
+  /* An empty slot means one of two different things, and the first version confused them:
+     a bye, where there is nobody to beat, and a match you have not picked yet. Count the
+     real names under the node instead. One name walks; two or more wait for a click. */
+  if(round===0) return field[idx];
+  var n=seedsUnder(round,idx);
+  if(n===0) return null;
+  if(n===1){{
+    var span=1<<round, start=idx*span;
+    for(var i=start;i<start+span;i++) if(field[i]) return field[i];
+  }}
+  return picks[round+":"+idx]||null;
+}}
+function draw(){{
+  var wrap=document.getElementById("brk"), names=["Round of 16","Quarters","Semis","Final","Winner"];
+  var html="";
+  for(var r=0;r<5;r++){{
+    var n=16>>r, col='<div class="col"><div class="hd">'+names[r]+'</div>';
+    for(var i=0;i<n;i++){{
+      var id=(r===0)?field[i]:winner(r,i);
+      var lab=id?D[id].name:(r===0?"bye":"\\u2014");
+      var k=(r+1)+":"+Math.floor(i/2);
+      var on=(r<4&&picks[k]===id&&id);
+      var dis=(!id||r===4)?" disabled":"";
+      col+='<button class="slot" data-r="'+r+'" data-i="'+i+'" data-id="'+(id||"")+'" data-on="'+(on?"true":"false")+'"'+dis+'>'+esc(lab)+'</button>';
+    }}
+    html+=col+'</div>';
+  }}
+  wrap.innerHTML=html;
+  var champ=winner(4,0);
+  document.getElementById("champ").textContent=champ?("Your winner: "+D[champ].name):"";
+}}
+document.getElementById("brk").addEventListener("click",function(e){{
+  var b=e.target.closest("button[data-id]"); if(!b||b.disabled)return;
+  var r=parseInt(b.dataset.r,10), i=parseInt(b.dataset.i,10), id=b.dataset.id;
+  if(!id)return;
+  picks[(r+1)+":"+Math.floor(i/2)]=id;
+  for(var rr=r+2;rr<=4;rr++){{ for(var k in picks){{ if(parseInt(k.split(":")[0],10)>=rr) delete picks[k]; }} }}
+  draw();
+}});
+document.getElementById("reseed").addEventListener("click",seed);
+document.getElementById("brkcopy").addEventListener("click",function(){{
+  var champ=winner(4,0), b=this;
+  if(!champ){{b.textContent="Pick one first";setTimeout(function(){{b.textContent="Copy my winner"}},1600);return}}
+  var txt="My wing bracket came down to "+D[champ].name+".\\n"+D[champ].blurb.slice(0,140)+"\\u2026\\n\\nArgue with me: {site_url}/vs/";
+  (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){{
+    b.textContent="Copied"; setTimeout(function(){{b.textContent="Copy my winner"}},1800);
+  }},function(){{}});
+}});
+seed();
+}})();
+</script>
+"""
+    return page("Settle it — Wing Country", body, 1,
+                "Two American wing styles side by side out of their own records — cut, cook, sauce, dip, heat — and a sixteen-slot bracket you play in the browser.",
+                None, f"{site_url}/vs/", extra_head=f"<style>{VS_CSS}{NEVER_CSS}</style>", card="vs",
+                og_alt="Settle it: two wing styles side by side, and a wing bracket")

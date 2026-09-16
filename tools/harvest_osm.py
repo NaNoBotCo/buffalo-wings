@@ -54,13 +54,21 @@ NAME_RE = "[Ww]ing"
 NOT_WINGS = ("chinese", "thai", "vietnamese", "sushi", "japanese", "korean_bbq", "noodle", "dim_sum")
 AMENITIES = "restaurant|fast_food|bar|pub|cafe"
 
-QUERY_TMPL = ('[out:json][timeout:180];'
-              'area["ISO3166-2"="US-{st}"][admin_level]->.a;'
-              '('
-              'nwr["cuisine"~"{cu}",i](area.a);'
-              'nwr["amenity"~"{am}"]["name"~"{nm}"](area.a);'
-              ');'
-              'out center tags;')
+# Two queries per state, not one. The cuisine matcher is cheap and indexed; the name
+# matcher has to walk every eatery in the area and times out on a big sparse state. Run
+# together, one 504 loses both. Run apart, the cheap half always lands.
+CUISINE_TMPL = ('[out:json][timeout:240];'
+                'area["ISO3166-2"="US-{st}"][admin_level]->.a;'
+                'nwr["cuisine"~"{cu}",i](area.a);'
+                'out center tags;')
+# One exact-value amenity lookup per kind, not a regex across all of them: Overpass
+# indexes an exact tag value and has to scan for a regex, which is what was timing out.
+NAME_TMPL = ('[out:json][timeout:240];'
+             'area["ISO3166-2"="US-{st}"][admin_level]->.a;'
+             '(' + "".join(f'nwr["amenity"="{a}"]["name"~"{{nm}}"](area.a);'
+                           for a in ("restaurant", "fast_food", "bar", "pub", "cafe")) + ');'
+             'out center tags;')
+QUERY_TMPL = CUISINE_TMPL
 
 KEEP = ("name", "amenity", "cuisine", "addr:housenumber", "addr:street", "addr:city", "addr:state", "addr:postcode",
         "phone", "website", "opening_hours", "brand", "brand:wikidata", "wikidata", "wikipedia", "check_date",
@@ -68,7 +76,7 @@ KEEP = ("name", "amenity", "cuisine", "addr:housenumber", "addr:street", "addr:c
         "lgbtq", "lgbtq:signed", "diet:halal", "drive_through", "payment:cash", "payment:cards", "description")
 
 
-def fetch(query: str, tries=8) -> dict:
+def fetch(query: str, tries=4) -> dict:
     data = urllib.parse.urlencode({"data": query}).encode()
     last = None
     for i in range(tries):
@@ -79,7 +87,7 @@ def fetch(query: str, tries=8) -> dict:
                 return json.load(r)
         except Exception as e:  # noqa: BLE001
             last = e
-            wait = min(15 * (i + 1), 90)
+            wait = min(12 * (i + 1), 45)
             print(f"    {ep.split('/')[2]}: {e} — waiting {wait}s", flush=True)
             time.sleep(wait)
     raise last
@@ -114,15 +122,20 @@ def main(dry=False, only: list[str] | None = None) -> int:
     per_state: dict[str, int] = {}
     query_shown = ""
     for st in want:
-        q = QUERY_TMPL.format(st=st, cu=CUISINE_RE, am=AMENITIES, nm=NAME_RE)
-        query_shown = query_shown or QUERY_TMPL.format(st="XX", cu=CUISINE_RE, am=AMENITIES, nm=NAME_RE)
-        try:
-            raw = fetch(q)
-        except Exception as e:  # noqa: BLE001
-            print(f"  {st}: FAILED {e}", flush=True)
+        query_shown = query_shown or (CUISINE_TMPL.format(st="XX", cu=CUISINE_RE)
+                                      + "   ||   " + NAME_TMPL.format(st="XX", nm=NAME_RE))
+        elements, failed = [], []
+        for label, q in (("cuisine", CUISINE_TMPL.format(st=st, cu=CUISINE_RE)),
+                         ("name", NAME_TMPL.format(st=st, nm=NAME_RE))):
+            try:
+                elements += fetch(q).get("elements", [])
+            except Exception as e:  # noqa: BLE001
+                failed.append(label)
+                print(f"  {st}: {label} matcher FAILED {e}", flush=True)
+        if failed and len(failed) == 2:
             continue
         got = 0
-        for e in raw.get("elements", []):
+        for e in elements:
             tags = e.get("tags", {})
             if not tags.get("name"):
                 continue
@@ -153,7 +166,8 @@ def main(dry=False, only: list[str] | None = None) -> int:
             })
             got += 1
         per_state[st] = got
-        print(f"  {st} {got:5d}   ({len(rows)} so far, {time.time()-t0:.0f}s)", flush=True)
+        note = f"  ({'+'.join(failed)} matcher lost)" if failed else ""
+        print(f"  {st} {got:5d}   ({len(rows)} so far, {time.time()-t0:.0f}s){note}", flush=True)
         if not dry:
             _save(rows, per_state, query_shown, merge=True)   # a kill mid-harvest keeps the states already done
         time.sleep(2)

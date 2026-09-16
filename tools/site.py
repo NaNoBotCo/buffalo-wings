@@ -180,7 +180,7 @@ def page(title: str, body: str, depth: int, desc: str = "", jsonld: list | None 
 </head>
 <body>
 <header class="top"><a class="brand" href="{r}index.html">Wing <b>Country</b></a>
-<nav class="crumbs"><a href="{r}index.html">Everything</a> · <a href="{r}near/index.html">Near me</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">In the bottle</a> · <a href="{r}make/index.html">Make some</a> · <a href="{r}wing/index.html">The bird</a> · <a href="{r}numbers/index.html">Numbers</a> · <a href="{r}art/index.html">Signs</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Where we stop</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<nav class="crumbs"><a href="{r}index.html">Everything</a> · <a href="{r}near/index.html">Near me</a> · <a href="{r}places/index.html">Map</a> · <a href="{r}sauce/index.html">In the bottle</a> · <a href="{r}make/index.html">Make some</a> · <a href="{r}heat/index.html">How hot</a> · <a href="{r}vs/index.html">Settle it</a> · <a href="{r}never/index.html">Never have I ever</a> · <a href="{r}wing/index.html">The bird</a> · <a href="{r}numbers/index.html">Numbers</a> · <a href="{r}art/index.html">Signs</a> · <a href="{r}stories/index.html">Stories</a> · <a href="{r}quiz/index.html">Quiz</a> · <a href="{r}search/index.html">Search</a> · <a href="{r}words/index.html">Words</a> · <a href="{r}sources/index.html">Where we got it</a> · <a href="{r}coverage/index.html">Where we stop</a> · <a href="{r}api/index.json">API</a> · <a href="{r}llms.txt">llms.txt</a> · <a class="wander" href="{r}wander.html" title="a page at random">🎲 Wander</a></nav></header>
 <main>
 {body}
 {share_row(canonical, share_title or title) if canonical else ""}
@@ -516,6 +516,12 @@ def node_page(r: dict, by_id: dict, sources: dict) -> str:
     if r.get("links"):
         rows.append("<tr><th>links</th><td>" + " · ".join(f'<a href="{E(l["url"])}" rel="noopener">{E(l["label"])}</a>' for l in r["links"]) + "</td></tr>")
     rows.append(f"<tr><th>confidence</th><td>{E(r['confidence'])}{' · needs verification' if r.get('needs_verification') else ''} · updated {E(r['updated'])}</td></tr>")
+    if r["type"] == "style":
+        rival = next((c["id"] for c in r.get("confusable_with", []) if (by_id.get(c["id"]) or {}).get("type") == "style"), "")
+        body += (f'<p class="cta"><a class="btn ghost" href="{rel(depth)}vs/index.html?a={E(r["id"])}'
+                 + (f'&amp;b={E(rival)}' if rival else "")
+                 + '">Put it head to head →</a>'
+                 + f'<a class="btn ghost" href="{rel(depth)}heat/index.html">Where it sits for heat →</a></p>')
     body += f"<h2>The particulars</h2><table>{''.join(rows)}</table>"
     pf = r.get("profile") or {}
     if pf:
@@ -804,7 +810,7 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
         banner = (f'<figure class="hero-shot wide"><img src="images/{E(im["file"])}" alt="{E(im.get("alt", ""))}" loading="eager">'
                   f'<figcaption>{E(clip(im.get("alt", ""), 130))} — {E(im.get("author", ""))}, {E(im.get("license", ""))}</figcaption></figure>')
     body = (banner + f'<div class="hero"><div><h1><span class="kind">a whole country arguing about chicken</span>Wing Country</h1><p class="sub">{E(TAGLINE)}.</p>'
-            f'<div class="cta"><a class="btn" href="near/index.html">📍 Get me some wings</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the bottle</a><a class="btn ghost" href="make/index.html">Make your own</a><a class="btn ghost" href="wing/index.html">Flat or drum?</a><a class="btn ghost" href="numbers/index.html">Do the math</a><a class="btn ghost" href="quiz/index.html">Which wing are you?</a><a class="btn ghost" href="wander.html">🎲 Take me anywhere</a></div></div>'
+            f'<div class="cta"><a class="btn" href="near/index.html">📍 Get me some wings</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the bottle</a><a class="btn ghost" href="make/index.html">Make your own</a><a class="btn ghost" href="wing/index.html">Flat or drum?</a><a class="btn ghost" href="heat/index.html">🌶 How hot can you take it</a><a class="btn ghost" href="vs/index.html">Settle it</a><a class="btn ghost" href="never/index.html">Never have I ever</a><a class="btn ghost" href="numbers/index.html">Do the math</a><a class="btn ghost" href="quiz/index.html">Which wing are you?</a><a class="btn ghost" href="wander.html">🎲 Take me anywhere</a></div></div>'
             f'<div class="mapwrap">{svg}</div></div>'
             '<div class="facts">' + "".join(f'<div class="fact"><div class="n">{n:,}</div><div class="l">{E(l)}</div></div>' for n, l in facts) + "</div>")
     # the loudest thing on the page after the map: what is worth driving for
@@ -843,9 +849,10 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
     body += ('<div class="two-up">'
              + (f'<div class="pitch"><h2 style="border:0;margin-top:0">{E(riv["names"]["name"])}</h2><p>{E(riv["blurb"])}</p>'
                 f'<p><a class="btn" href="{url_of(riv)}index.html">Take a side →</a></p></div>' if riv else "")
-             + '<div class="pitch"><h2 style="border:0;margin-top:0">Which wing are you?</h2>'
-               '<p>Six questions about sauce, dip and how you order. A city hands you a plate at the end. Won\'t hold up in court.</p>'
-               '<p><a class="btn" href="quiz/index.html">Find out →</a></p></div></div>')
+             + '<div class="pitch"><h2 style="border:0;margin-top:0">Never have I ever</h2>'
+               '<p>Thirty lines. Tick what you have done, see what it says about you, paste it somewhere and tag somebody.</p>'
+               '<p><a class="btn" href="never/index.html">Start ticking →</a>'
+               ' <a class="btn ghost" href="vs/index.html">Or settle a fight →</a></p></div></div>')
     body += directory_sections(recs, types, depth, limit=8)
     body += ('<p class="legend">Plain writing is cited. <mark class="tier">Tradition holds —</mark> means folks say so; '
              '<mark class="tier">Inference —</mark> means we worked it out. '
@@ -1027,6 +1034,7 @@ def sitemap(recs: list[dict]) -> str:
     urls = [(SITE_URL + "/", max((r["updated"] for r in recs), default=today)), (SITE_URL + "/search/", today), (SITE_URL + "/places/", today),
             (SITE_URL + "/near/", today), (SITE_URL + "/sauce/", today), (SITE_URL + "/wing/", today), (SITE_URL + "/quiz/", today),
             (SITE_URL + "/make/", today), (SITE_URL + "/numbers/", today), (SITE_URL + "/art/", today), (SITE_URL + "/stories/", today),
+            (SITE_URL + "/heat/", today), (SITE_URL + "/vs/", today), (SITE_URL + "/never/", today),
             (SITE_URL + "/sources/", today), (SITE_URL + "/coverage/", today)] + [(f"{SITE_URL}/{DIR_OF[t]}/", today) for t in TYPES]
     body = []
     for u, d in urls:
@@ -1191,6 +1199,9 @@ def main() -> int:
                             ("wing", pages.wing_page(page, by_id, SITE_URL)),
                             ("quiz", pages.quiz_page(page, jload(DATA / "vocab" / "quiz.json"), by_id, SITE_URL)),
                             ("numbers", pages.numbers_page(page, recs, places, geo, SITE_URL, SITE)),
+                            ("heat", pages.heat_page(page, jload(DATA / "vocab" / "heat.json"), recs, sauces, by_id, SITE_URL, sources)),
+                            ("vs", pages.versus_page(page, recs, by_id, SITE_URL)),
+                            ("never", pages.never_page(page, jload(DATA / "vocab" / "never.json"), by_id, SITE_URL)),
                             ("make", pages.make_page(page, jload(DATA / "vocab" / "sauce-builder.json"), sauces, recs, SITE_URL,
                                             jload(DATA / "vocab" / "rub-builder.json"),
                                             jload(DATA / "vocab" / "dip-builder.json")))):
