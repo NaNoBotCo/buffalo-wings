@@ -106,6 +106,11 @@ table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}t
 .kin a.card:hover b{color:var(--hot)}
 figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
 .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+/* A photograph across the top of the front page is a band, not a wall: crop it so the
+   name and the map still land on the first screen. */
+.hero-shot.wide{margin:0 0 1.1rem}.hero-shot.wide img{max-height:none;aspect-ratio:21/6;object-fit:cover;object-position:center 62%}
+@media(max-width:760px){.hero-shot.wide img{aspect-ratio:16/9}}
+.hero-shot img{max-height:26rem;object-fit:cover}
 .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
 @media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
 .mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
