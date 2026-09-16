@@ -2452,6 +2452,30 @@
    "url": "https://blockclubchicago.org/2020/03/05/who-owns-mild-sauce-white-chef-bottles-chicagos-great-black-invention/",
    "accessed": "2026-09-16",
    "note": "rate-limited to this project; read only through a search engine's extract"
+  },
+  {
+   "id": "s:wp-jalape-o",
+   "kind": "wikipedia",
+   "title": "Jalapeño",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jalape%C3%B1o",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:wp-habanero",
+   "kind": "wikipedia",
+   "title": "Habanero",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Habanero",
+   "accessed": "2026-09-17"
+  },
+  {
+   "id": "s:wp-ghost-pepper",
+   "kind": "wikipedia",
+   "title": "Ghost pepper",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ghost_pepper",
+   "accessed": "2026-09-17"
   }
  ]
 }

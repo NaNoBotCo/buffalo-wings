@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How hot do you want it — Wing Country</title>
+<meta name="description" content="The heat ladder on an American wing menu, in the words makers actually print — and the one published Scoville figure, drawn against the peppers.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="Wing Country"><meta property="og:locale" content="en_US">
+<meta property="og:title" content="How hot do you want it — Wing Country"><meta property="og:description" content="The heat ladder on an American wing menu, in the words makers actually print — and the one published Scoville figure, drawn against the peppers."><meta property="og:type" content="website">
+<meta property="og:image" content="https://nanobotco.github.io/buffalo-wings/cards/heat.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="The wing heat ladder, and the one published Scoville number"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/buffalo-wings/cards/heat.jpg"><meta name="twitter:image:alt" content="The wing heat ladder, and the one published Scoville number"><meta name="twitter:title" content="How hot do you want it — Wing Country"><meta name="twitter:description" content="The heat ladder on an American wing menu, in the words makers actually print — and the one published Scoville figure, drawn against the peppers.">
+<link rel="canonical" href="https://nanobotco.github.io/buffalo-wings/heat/">
+
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#b5431f">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Wing Country" href="../opensearch.xml">
+<link rel="alternate" type="application/atom+xml" title="Wing Country updates" href="../feed.xml">
+<style>
+.viz{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.viz h3{margin:.1rem 0 .2rem;font-size:1.06rem}.viz .note{font-size:.86rem;color:var(--mute);margin:.1rem 0 .7rem}
+.viz svg{width:100%;height:auto;display:block;overflow:visible}
+.viz .axis{font:500 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .rowlab{font:600 13px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--ink)}
+.viz .vallab{font:600 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .grid{stroke:var(--line);stroke-width:1}
+.viz .dot{fill:var(--sauce);stroke:var(--panel);stroke-width:2}
+.viz .med{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
+.viz .seg{stroke:var(--panel);stroke-width:2}
+.viz figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
+.legend-row{display:flex;flex-wrap:wrap;gap:.45rem .9rem;margin:.5rem 0 .2rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.legend-row span{display:inline-flex;align-items:center;gap:.35rem;color:var(--ink)}
+.legend-row i{width:.78rem;height:.78rem;border-radius:3px;display:inline-block}
+details.tbl{margin:.6rem 0 0}details.tbl summary{cursor:pointer;font-size:.86rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+details.tbl table{font-size:.86rem;margin-top:.5rem}
+.smallmult{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.9rem;margin-top:.7rem}
+.smallmult figure{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:.5rem .55rem}
+.smallmult figcaption{font-size:.84rem;color:var(--ink);font-weight:600;margin:0 0 .25rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.smallmult figcaption small{display:block;font-weight:400;color:var(--mute);font-size:.76rem}
+
+.rung{display:grid;grid-template-columns:8.5rem 1fr;gap:.6rem 1rem;align-items:baseline;padding:.75rem .2rem;border-bottom:1px solid var(--line)}
+.rung b{font-family:var(--display);font-size:1.12rem}
+.rung .say{color:var(--mute);font-size:.93rem;display:block;margin-bottom:.35rem}
+.rung .who{display:flex;flex-wrap:wrap;gap:.35rem}
+.rung .who a{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.12rem .65rem;
+  font-size:.85rem;font-family:var(--ui);text-decoration:none;color:var(--ink)}
+.rung .who a:hover{border-color:var(--sauce)}
+.rung .who .none{color:var(--mute);font-size:.85rem;font-family:var(--ui)}
+.flame{letter-spacing:.08em}
+.ladder{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1.1rem;margin:1rem 0}
+.ladder .q{font-family:var(--display);font-weight:700;margin:.9rem 0 .35rem}
+.ladder .opts{display:flex;flex-wrap:wrap;gap:.4rem}
+.ladder .opts button{font:inherit;font-family:var(--ui);font-size:.9rem;padding:.35rem .8rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.ladder .opts button[aria-pressed=true]{background:var(--sauce);border-color:var(--sauce);color:#fff}
+.verdict{border-left:4px solid var(--sauce);background:var(--bg);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:1rem 0 0}
+.verdict b{font-family:var(--display);font-size:1.2rem;display:block}
+</style>
+<style>
+:root{--bg:#f7f4ec;--panel:#fffdf6;--ink:#1d1a16;--mute:#6a6257;--line:#e3ddcd;--sauce:#cf4a1e;--smoke:#4a4540;--gold:#b08505;--lemon:#c2960a;--hot:#98301a;--blue:#2f5d8c;--celery:#5c8236;--focus:#1f5fa8;--chip:#efe9da;
+  /* A wing joint letters its own board and hangs it over the fryer. Headings take a
+     geometric sign face, labels take the fat caps of a bar special, and the reading
+     text stays a plain humanist sans. All of it sits on the reader's machine already. */
+  --display:Futura,"Futura Medium","Century Gothic","Avenir Next","Trebuchet MS",sans-serif;
+  --sign:"Arial Black","Helvetica Neue Black",Impact,Haettenschweiler,"Franklin Gothic Heavy",sans-serif;
+  --body:"Avenir Next",Avenir,"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15130f;--panel:#1e1b16;--ink:#f3eee2;--mute:#b2a998;--line:#332e25;--sauce:#f2703f;--smoke:#cfc4b4;--gold:#dfb45a;--lemon:#e8c245;--hot:#f08a6b;--blue:#84aede;--celery:#9ec96f;--focus:#8ab4f8;--chip:#282219}}
+:root[data-theme="dark"]{--bg:#15130f;--panel:#1e1b16;--ink:#f3eee2;--mute:#b2a998;--line:#332e25;--sauce:#f2703f;--smoke:#cfc4b4;--gold:#dfb45a;--lemon:#e8c245;--hot:#f08a6b;--blue:#84aede;--celery:#9ec96f;--focus:#8ab4f8;--chip:#282219}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
+a{color:var(--sauce);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--hot)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--sauce)}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.7rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--sauce)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--sauce)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--sauce);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--hot)}
+figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+/* A photograph across the top of the front page is a band, not a wall: crop it so the
+   name and the map still land on the first screen. */
+.hero-shot.wide{margin:0 0 1.1rem}.hero-shot.wide img{max-height:none;aspect-ratio:21/6;object-fit:cover;object-position:center 62%}
+@media(max-width:760px){.hero-shot.wide img{aspect-ratio:16/9}}
+.hero-shot img{max-height:26rem;object-fit:cover}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--sauce);background:var(--sauce);color:#fff;cursor:pointer}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--sauce);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--sauce);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--sauce)}
+.cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--lemon);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.wander{font-size:.85rem;color:var(--mute)}
+.pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--sauce);font-weight:600}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow a.tg,.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;text-decoration:none;color:var(--ink)}
+.tagrow a.tg:hover{border-color:var(--sauce)}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.welcome{border-color:#9b59b6}.tagrow .tg.pit{border-color:var(--sauce)}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.acc b{color:var(--gold)}
+.recipe{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.8rem 0}
+.recipe h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.recipe .src{font-size:.82rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.recipe .txt{white-space:pre-wrap;margin:.5rem 0 0;font-size:.97rem}
+.recipe ul{margin:.4rem 0 0;padding-left:1.1rem}
+.sect{margin:1.2rem 0}
+.gal2{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;margin:.6rem 0}
+.gal2 figure{margin:0}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.04)}.search input{transition:box-shadow .2s}.search input:focus{box-shadow:0 0 0 4px color-mix(in srgb,var(--sauce) 22%,transparent)}.mapwrap circle.p{transition:r .15s ease}.mapwrap circle.p:hover{r:6}}
+
+.shareme{margin:2.6rem 0 .4rem;padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.95rem;margin-bottom:.55rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.87rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;padding:.4rem .85rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--sauce);color:var(--sauce)}
+.shareme .said{font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--sauce);color:#fff;background:var(--sauce)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+
+.daystrip{height:26px;width:176px;display:block}
+.daykey{font-size:.76rem;color:var(--mute);display:inline-flex;align-items:center;gap:.3rem;font-family:var(--ui,sans-serif)}
+.daykey i{width:.7rem;height:.9rem;border-radius:3px;display:inline-block;margin-left:.5rem}
+.daykey i.on{background:var(--sauce);border:1.6px solid var(--sauce)}
+.daykey i.off{border:1.6px solid var(--mute)}
+.daykey i.unk{border:1.6px dashed var(--line)}
+.sunday-yes{color:var(--sauce);font-weight:700}
+.sunday-no{color:var(--mute)}
+</style>
+
+</head>
+<body>
+<header class="top"><a class="brand" href="../index.html">Wing <b>Country</b></a>
+<nav class="crumbs"><a href="../index.html">Everything</a> · <a href="../near/index.html">Near me</a> · <a href="../places/index.html">Map</a> · <a href="../sauce/index.html">In the bottle</a> · <a href="../make/index.html">Make some</a> · <a href="../heat/index.html">How hot</a> · <a href="../vs/index.html">Settle it</a> · <a href="../never/index.html">Never have I ever</a> · <a href="../wing/index.html">The bird</a> · <a href="../numbers/index.html">Numbers</a> · <a href="../art/index.html">Signs</a> · <a href="../stories/index.html">Stories</a> · <a href="../quiz/index.html">Quiz</a> · <a href="../search/index.html">Search</a> · <a href="../words/index.html">Words</a> · <a href="../sources/index.html">Where we got it</a> · <a href="../coverage/index.html">Where we stop</a> · <a href="../api/index.json">API</a> · <a href="../llms.txt">llms.txt</a> · <a class="wander" href="../wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<main>
+
+<h1><span class="kind">Wing Country</span>How hot do you want it</h1>
+<p class="lede">Every rung below is somebody's own word for their own food. One bottle in 22 publishes a number.</p>
+
+<h2>The ladder</h2>
+<div class="rung"><b>None <span class="flame"></span></b><div><span class="say">Butter, garlic, cheese. Nothing in it bites.</span><div class="who"><a href="../style/garlic-parm/index.html">Garlic parmesan wings</a></div></div></div><div class="rung"><b>Mild <span class="flame">🌶</span></b><div><span class="say">Sweet, salty, smoky. Heat is somewhere in the room, not on the wing.</span><div class="who"><a href="../style/alabama-white/index.html">Alabama white sauce wings</a><a href="../style/atlanta-lemon-pepper/index.html">Lemon pepper wings</a><a href="../style/baltimore-old-bay/index.html">Old Bay wings</a><a href="../style/chicago-mild-sauce/index.html">Chicago mild sauce wings</a><a href="../style/dc-mumbo/index.html">Mumbo sauce wings</a><a href="../style/smoked-bbq-wing/index.html">Smoked barbecue wings</a><a href="../sauce/mild-sauce/index.html">Mild sauce <span class="mute">“Mild”</span></a><a href="../sauce/mumbo-sauce/index.html">Mumbo sauce <span class="mute">“Mild”</span></a></div></div></div><div class="rung"><b>Medium <span class="flame">🌶🌶</span></b><div><span class="say">The default order almost everywhere, and the one Buffalo means.</span><div class="who"><a href="../style/buffalo/index.html">Buffalo wings</a><a href="../style/korean-american/index.html">Korean fried chicken wings</a><a href="../style/memphis-dry-rub/index.html">Memphis dry-rub wings</a><a href="../style/rochester-breaded/index.html">Rochester breaded wings</a></div></div></div><div class="rung"><b>Hot <span class="flame">🌶🌶🌶</span></b><div><span class="say">You notice it between wings now, not just during.</span><div class="who"><a href="../style/caribbean-jerk/index.html">Jerk wings</a></div></div></div><div class="rung"><b>Very hot <span class="flame">🌶🌶🌶🌶</span></b><div><span class="say">Cayenne paste in frying fat. Bread underneath for a reason.</span><div class="who"><a href="../style/nashville-hot/index.html">Nashville hot wings</a></div></div></div>
+
+<div class="ladder">
+  <h2 style="border:0;margin:.2rem 0 .2rem">How hot can you take it?</h2>
+  <p class="mute" style="margin:0 0 .2rem;font-size:.9rem">Six questions. It hands you a rung, not a verdict.</p>
+  <div class="q">A jalapeño on a nacho is…</div><div class="opts" data-q="0"><button type="button" data-s="0" aria-pressed="false">a lot, actually</button><button type="button" data-s="1" aria-pressed="false">fine</button><button type="button" data-s="2" aria-pressed="false">not a pepper</button></div><div class="q">You order wings. The counter asks how hot.</div><div class="opts" data-q="1"><button type="button" data-s="0" aria-pressed="false">Mild. I want to taste it.</button><button type="button" data-s="1" aria-pressed="false">Medium, like everyone.</button><button type="button" data-s="2" aria-pressed="false">Hot.</button><button type="button" data-s="3" aria-pressed="false">Whatever is past hot.</button></div><div class="q">There is a sauce on the menu with a name like a weapon.</div><div class="opts" data-q="2"><button type="button" data-s="0" aria-pressed="false">Somebody else&#x27;s problem.</button><button type="button" data-s="2" aria-pressed="false">I&#x27;ll try one.</button><button type="button" data-s="3" aria-pressed="false">I&#x27;ll take the order.</button></div><div class="q">Halfway through, your face is going.</div><div class="opts" data-q="3"><button type="button" data-s="0" aria-pressed="false">I stop.</button><button type="button" data-s="1" aria-pressed="false">Milk, then continue.</button><button type="button" data-s="3" aria-pressed="false">I don&#x27;t acknowledge it.</button></div><div class="q">There is a waiver.</div><div class="opts" data-q="4"><button type="button" data-s="0" aria-pressed="false">Then no.</button><button type="button" data-s="1" aria-pressed="false">I read it.</button><button type="button" data-s="3" aria-pressed="false">I sign it.</button></div><div class="q">Tomorrow.</div><div class="opts" data-q="5"><button type="button" data-s="0" aria-pressed="false">I plan around it.</button><button type="button" data-s="2" aria-pressed="false">Worth it.</button><button type="button" data-s="3" aria-pressed="false">I never think about it.</button></div>
+  <div id="heatout"></div>
+</div>
+
+<div class="viz"><h3>The one number anybody publishes</h3>
+<p class="note">1 of 22 bottles here carries a Scoville figure. It is the cayenne pepper sauce under most
+Buffalo wings in America, and it lands below a jalapeño. Scoville heat units come from a lab assay of capsaicin in dried material, and the article behind the scale says the number moves with seed, climate, soil and method. Every figure below is somebody&#x27;s published measurement, lined up on one axis.</p>
+<svg viewBox="0 0 700 324" role="img" aria-label="Published Scoville figures on a logarithmic axis"><line class="grid" x1="176.0" y1="10" x2="176.0" y2="286"/><text class="axis" x="176.0" y="302" text-anchor="middle">100</text><line class="grid" x1="284.2" y1="10" x2="284.2" y2="286"/><text class="axis" x="284.2" y="302" text-anchor="middle">1k</text><line class="grid" x1="392.4" y1="10" x2="392.4" y2="286"/><text class="axis" x="392.4" y="302" text-anchor="middle">10k</text><line class="grid" x1="500.6" y1="10" x2="500.6" y2="286"/><text class="axis" x="500.6" y="302" text-anchor="middle">100k</text><line class="grid" x1="608.8" y1="10" x2="608.8" y2="286"/><text class="axis" x="608.8" y="302" text-anchor="middle">1m</text><text class="axis" x="176" y="319">Scoville heat units, ten times further along for every step</text><text class="rowlab" x="164" y="28" text-anchor="end">Sweet peppers</text><rect x="176.0" y="18" width="75.6" height="12" rx="6" fill="var(--sauce)" opacity="0.55"><title>Sweet peppers: 0–500 SHU</title></rect><text class="vallab" x="261.6" y="28">0–500</text><text class="rowlab" x="164" y="62" text-anchor="end">Frank&#x27;s RedHot Original</text><circle cx="246.7" cy="58" r="7" fill="var(--sauce)" stroke="var(--panel)" stroke-width="2"><title>Frank&#x27;s RedHot Original: 450 SHU</title></circle><text class="vallab" x="256.7" y="62">450</text><text class="rowlab" x="164" y="96" text-anchor="end">Jalapeño</text><rect x="316.8" y="86" width="75.6" height="12" rx="6" fill="var(--sauce)" opacity="0.55"><title>Jalapeño: 2,000–10,000 SHU</title></rect><text class="vallab" x="402.4" y="96">2,000–10,000</text><text class="rowlab" x="164" y="130" text-anchor="end">Cayenne pepper</text><rect x="444.1" y="120" width="24.0" height="12" rx="6" fill="var(--sauce)" opacity="0.55"><title>Cayenne pepper: 30,000–50,000 SHU</title></rect><text class="vallab" x="478.1" y="130">30,000–50,000</text><text class="rowlab" x="164" y="164" text-anchor="end">Habanero</text><rect x="552.3" y="154" width="18.5" height="12" rx="6" fill="var(--sauce)" opacity="0.55"><title>Habanero: 300,000–445,000 SHU</title></rect><text class="vallab" x="580.8" y="164">300,000–445,000</text><text class="rowlab" x="164" y="198" text-anchor="end">Ghost pepper</text><rect x="601.5" y="188" width="9.3" height="12" rx="6" fill="var(--sauce)" opacity="0.55"><title>Ghost pepper: 855,000–1,041,427 SHU</title></rect><text class="vallab" x="620.8" y="198">855,000–1,041,427</text><text class="rowlab" x="164" y="232" text-anchor="end">Carolina Reaper</text><rect x="626.8" y="222" width="5.4" height="12" rx="6" fill="var(--sauce)" opacity="0.55"><title>Carolina Reaper: 1,463,700–1,641,183 SHU</title></rect><text class="vallab" x="642.1" y="232">1,463,700–1,641,183</text><text class="rowlab" x="164" y="266" text-anchor="end">Pepper X</text><circle cx="653.8" cy="262" r="5" fill="var(--sauce)" stroke="var(--panel)" stroke-width="2"><title>Pepper X: 2,600,000 SHU</title></circle><text class="vallab" x="663.8" y="266">2,600,000</text></svg>
+<details class="tbl"><summary>The same figures as a table, with who published each one</summary>
+<table><tr><th>What</th><th>Scoville</th><th>Who published it</th><th>Note</th></tr>
+<tr><td>Sweet peppers</td><td>0–500</td><td>Wikipedia</td><td>the bottom of the published scale</td></tr><tr><td>Frank&#x27;s RedHot Original</td><td>450</td><td>McCormick &amp; Company</td><td>the cayenne pepper sauce under most Buffalo wings in America</td></tr><tr><td>Jalapeño</td><td>2,000–10,000</td><td>Wikipedia</td><td>a few thousand to over 10,000, depending on how it grew</td></tr><tr><td>Cayenne pepper</td><td>30,000–50,000</td><td>Wikipedia</td><td>the pepper the sauce is named for</td></tr><tr><td>Habanero</td><td>300,000–445,000</td><td>Wikipedia</td><td></td></tr><tr><td>Ghost pepper</td><td>855,000–1,041,427</td><td>Wikipedia</td><td>855,000 reported by India&#x27;s Defence Research Laboratory in 2000; 1,041,427 in 2004</td></tr><tr><td>Carolina Reaper</td><td>1,463,700–1,641,183</td><td>Wikipedia</td><td>average and peak</td></tr><tr><td>Pepper X</td><td>2,600,000</td><td>Wikipedia</td><td>over 2.6 million — the top of the table</td></tr>
+</table></details></div>
+
+<h2>What a maker prints instead</h2>
+<p class="mute">3 bottles print a heat word on the front. Those words sit on the sauce pages exactly as the
+maker wrote them, and none of them converts into a number.</p>
+<table><tr><th><a href="../sauce/yangnyeom-sauce/index.html">Yangnyeom sauce</a></th><td>“Spicy”</td></tr><tr><th><a href="../sauce/mild-sauce/index.html">Mild sauce</a></th><td>“Mild”</td></tr><tr><th><a href="../sauce/mumbo-sauce/index.html">Mumbo sauce</a></th><td>“Mild”</td></tr></table>
+
+<p class="legend">Scoville figures: each row links back to the page it was read from on
+<a href="../sources/index.html">where we got it</a>. A style's rung comes from its own record.</p>
+
+<script>
+(function(){
+var R=[{"max": 3, "rung": "none", "say": "Garlic parmesan is a real order and you should stop apologising for it."}, {"max": 7, "rung": "mild", "say": "Mild is a flavour choice. Lemon pepper and Old Bay are waiting for you."}, {"max": 11, "rung": "medium", "say": "Medium. The order Buffalo means when it says nothing at all."}, {"max": 14, "rung": "hot", "say": "Hot, and you order it on purpose. Jerk and Korean hot want a word."}, {"max": 99, "rung": "very hot", "say": "Nashville is expecting you. Bring the bread."}], pick={};
+document.querySelectorAll('.ladder .opts').forEach(function(g){
+  g.addEventListener("click",function(e){
+    var b=e.target.closest("button[data-s]"); if(!b)return;
+    pick[g.dataset.q]=parseInt(b.dataset.s,10);
+    [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+    render();
+  });
+});
+function render(){
+  var ks=Object.keys(pick); if(!ks.length)return;
+  var n=0; ks.forEach(function(k){n+=pick[k]});
+  var got=R[R.length-1];
+  for(var i=0;i<R.length;i++){ if(n<=R[i].max){got=R[i];break} }
+  var done=ks.length, all=6;
+  document.getElementById("heatout").innerHTML='<div class="verdict"><b>'+got.rung.charAt(0).toUpperCase()+got.rung.slice(1)+
+    '</b>'+got.say+(done<all?' <span class="mute">('+done+' of '+all+' answered)</span>':'')+'</div>';
+}
+})();
+</script>
+
+<section class="shareme" data-url="https://nanobotco.github.io/buffalo-wings/heat/" data-title="How hot do you want it — Wing Country"><b>Pass it on</b><div class="row"><button type="button" class="copy" data-sh="copy">Copy link</button><button type="button" data-sh="native" hidden>Share…</button><a href="https://bsky.app/intent/compose?text=How%20hot%20do%20you%20want%20it%20%E2%80%94%20Wing%20Country%20https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fheat%2F" target="_blank" rel="noopener">Bluesky</a><a href="https://mastodonshare.com/?text=How%20hot%20do%20you%20want%20it%20%E2%80%94%20Wing%20Country&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fheat%2F" target="_blank" rel="noopener">Mastodon</a><a href="https://twitter.com/intent/tweet?text=How%20hot%20do%20you%20want%20it%20%E2%80%94%20Wing%20Country&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fheat%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fheat%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fheat%2F&amp;title=How%20hot%20do%20you%20want%20it%20%E2%80%94%20Wing%20Country" target="_blank" rel="noopener">Reddit</a><a href="https://api.whatsapp.com/send?text=How%20hot%20do%20you%20want%20it%20%E2%80%94%20Wing%20Country%20https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fheat%2F" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:?subject=How%20hot%20do%20you%20want%20it%20%E2%80%94%20Wing%20Country&amp;body=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fheat%2F" target="_blank" rel="noopener">Email</a><span class="said" aria-live="polite"></span></div></section><script>(function(){var s=document.currentScript.previousElementSibling;var n=s.querySelector('[data-sh="native"]');if(navigator.share)n.hidden=false;s.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(function(){said.textContent="copied"},function(){said.textContent=url});}else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>
+</main>
+<script>document.addEventListener("keydown",function(e){if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="../wander.html"});</script>
+<footer>
+<div class="bots">For the machines: <a href="../api/nodes.json">nodes.json</a> <a href="../api/places.json">places.json</a> <a href="../api/kin.json">kin.json</a> <a href="../nodes.jsonl">nodes.jsonl</a> <a href="../nodes.csv">nodes.csv</a> <a href="../llms-full.txt">llms-full.txt</a> <a href="../sitemap.xml">sitemap.xml</a> <a href="../feed.xml">feed.xml</a> <a href="../api/coverage.json">coverage</a> <a href="../api/sources.json">sources</a></div>
+<p>Records licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
+</footer>
+</body>
+</html>

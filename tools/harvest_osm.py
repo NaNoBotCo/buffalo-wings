@@ -38,9 +38,10 @@ from common import HARVEST, jdump, jload, slugify, state_by_geo  # noqa: E402
 UA = "buffalo-wings-build/0.1 (https://wichaa.net; nan@motdang.net) python-urllib"
 # Overpass mirrors, tried in turn. The main endpoint throttles hard on fifty queries in
 # a row and starts refusing connections outright; rotating keeps a long harvest alive.
+# overpass.osm.jp is off the list: its certificate does not match its hostname, so every
+# attempt there burns a retry on a TLS error rather than a server answer.
 ENDPOINTS = ["https://overpass-api.de/api/interpreter",
              "https://overpass.kumi.systems/api/interpreter",
-             "https://overpass.osm.jp/api/interpreter",
              "https://overpass.private.coffee/api/interpreter"]
 ENDPOINT = ENDPOINTS[0]
 OUT = HARVEST / "osm-places.json"

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Settle it — Wing Country</title>
+<meta name="description" content="Two American wing styles side by side out of their own records — cut, cook, sauce, dip, heat — and a sixteen-slot bracket you play in the browser.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="Wing Country"><meta property="og:locale" content="en_US">
+<meta property="og:title" content="Settle it — Wing Country"><meta property="og:description" content="Two American wing styles side by side out of their own records — cut, cook, sauce, dip, heat — and a sixteen-slot bracket you play in the browser."><meta property="og:type" content="website">
+<meta property="og:image" content="https://nanobotco.github.io/buffalo-wings/cards/vs.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Settle it: two wing styles side by side, and a wing bracket"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/buffalo-wings/cards/vs.jpg"><meta name="twitter:image:alt" content="Settle it: two wing styles side by side, and a wing bracket"><meta name="twitter:title" content="Settle it — Wing Country"><meta name="twitter:description" content="Two American wing styles side by side out of their own records — cut, cook, sauce, dip, heat — and a sixteen-slot bracket you play in the browser.">
+<link rel="canonical" href="https://nanobotco.github.io/buffalo-wings/vs/">
+
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#b5431f">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Wing Country" href="../opensearch.xml">
+<link rel="alternate" type="application/atom+xml" title="Wing Country updates" href="../feed.xml">
+<style>
+.vs-pick{display:grid;grid-template-columns:1fr auto 1fr;gap:.6rem 1rem;align-items:center;margin:.8rem 0}
+.vs-pick select{font:inherit;font-family:var(--ui);font-size:1rem;padding:.5rem .6rem;border:2px solid var(--line);
+  border-radius:10px;background:var(--panel);color:var(--ink);width:100%}
+.vs-pick .v{font-family:var(--display);font-weight:700;font-size:1.3rem;color:var(--sauce)}
+.marquee{display:flex;flex-wrap:wrap;gap:.4rem;margin:.2rem 0 1rem}
+.marquee button{font:inherit;font-family:var(--ui);font-size:.86rem;padding:.3rem .75rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.marquee button:hover{border-color:var(--sauce)}
+table.vs{width:100%;border-collapse:collapse;margin:.4rem 0 1.2rem}
+table.vs th,table.vs td{padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+table.vs thead th{font-family:var(--display);font-size:1.15rem;color:var(--ink);width:38%}
+table.vs tbody th{width:24%;color:var(--mute);font-weight:600;font-family:var(--ui);font-size:.86rem;
+  text-transform:uppercase;letter-spacing:.06em}
+table.vs td.same{color:var(--mute)}
+table.vs td b{color:var(--sauce)}
+.brk{display:grid;grid-auto-flow:column;gap:.7rem;overflow-x:auto;padding:.4rem 0 .8rem;align-items:center}
+.brk .col{display:flex;flex-direction:column;gap:.45rem;min-width:11rem;justify-content:space-around}
+.brk .slot{background:var(--panel);border:1.5px solid var(--line);border-radius:9px;padding:.34rem .6rem;
+  font-family:var(--ui);font-size:.85rem;cursor:pointer;text-align:left;color:var(--ink);min-height:2rem}
+.brk .slot:hover{border-color:var(--sauce)}
+.brk .slot[data-on=true]{background:var(--sauce);border-color:var(--sauce);color:#fff;font-weight:700}
+.brk .slot[disabled]{cursor:default;opacity:.45}
+.brk .hd{font-family:var(--sign);font-size:.68rem;letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
+.champ{font-family:var(--display);font-size:1.5rem;font-weight:700;color:var(--sauce)}
+
+.nhie{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.4rem .9rem 1rem;margin:.8rem 0}
+.nhie ol{list-style:none;margin:0;padding:0;counter-reset:n}
+.nhie li{display:flex;gap:.7rem;align-items:flex-start;padding:.5rem .2rem;border-bottom:1px solid var(--line)}
+.nhie li:last-child{border-bottom:0}
+.nhie input[type=checkbox]{width:1.35rem;height:1.35rem;margin:.15rem 0 0;accent-color:var(--sauce);flex:0 0 auto;cursor:pointer}
+.nhie label{cursor:pointer;flex:1}
+.nhie label a{color:var(--mute);text-decoration:none;border-bottom:1px dotted var(--line);font-size:.86em}
+.nhie label a:hover{color:var(--sauce)}
+.tally{position:sticky;bottom:0;background:var(--bg);border-top:2px solid var(--sauce);padding:.7rem .2rem .4rem;margin-top:.4rem;
+  display:flex;gap:.9rem;align-items:baseline;flex-wrap:wrap}
+.tally .n{font-family:var(--display);font-size:2.1rem;font-weight:700;line-height:1;color:var(--sauce)}
+.tally .band{font-family:var(--display);font-size:1.05rem;font-weight:700}
+.post{white-space:pre-wrap;background:var(--bg);border:1px dashed var(--line);border-radius:12px;padding:.85rem 1rem;
+  font-family:var(--ui);font-size:.93rem;line-height:1.5;margin:.6rem 0 0}
+.mk-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:.7rem 0 0}
+</style>
+<style>
+:root{--bg:#f7f4ec;--panel:#fffdf6;--ink:#1d1a16;--mute:#6a6257;--line:#e3ddcd;--sauce:#cf4a1e;--smoke:#4a4540;--gold:#b08505;--lemon:#c2960a;--hot:#98301a;--blue:#2f5d8c;--celery:#5c8236;--focus:#1f5fa8;--chip:#efe9da;
+  /* A wing joint letters its own board and hangs it over the fryer. Headings take a
+     geometric sign face, labels take the fat caps of a bar special, and the reading
+     text stays a plain humanist sans. All of it sits on the reader's machine already. */
+  --display:Futura,"Futura Medium","Century Gothic","Avenir Next","Trebuchet MS",sans-serif;
+  --sign:"Arial Black","Helvetica Neue Black",Impact,Haettenschweiler,"Franklin Gothic Heavy",sans-serif;
+  --body:"Avenir Next",Avenir,"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15130f;--panel:#1e1b16;--ink:#f3eee2;--mute:#b2a998;--line:#332e25;--sauce:#f2703f;--smoke:#cfc4b4;--gold:#dfb45a;--lemon:#e8c245;--hot:#f08a6b;--blue:#84aede;--celery:#9ec96f;--focus:#8ab4f8;--chip:#282219}}
+:root[data-theme="dark"]{--bg:#15130f;--panel:#1e1b16;--ink:#f3eee2;--mute:#b2a998;--line:#332e25;--sauce:#f2703f;--smoke:#cfc4b4;--gold:#dfb45a;--lemon:#e8c245;--hot:#f08a6b;--blue:#84aede;--celery:#9ec96f;--focus:#8ab4f8;--chip:#282219}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
+a{color:var(--sauce);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--hot)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--sauce)}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.7rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--sauce)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--sauce)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--sauce);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--hot)}
+figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+/* A photograph across the top of the front page is a band, not a wall: crop it so the
+   name and the map still land on the first screen. */
+.hero-shot.wide{margin:0 0 1.1rem}.hero-shot.wide img{max-height:none;aspect-ratio:21/6;object-fit:cover;object-position:center 62%}
+@media(max-width:760px){.hero-shot.wide img{aspect-ratio:16/9}}
+.hero-shot img{max-height:26rem;object-fit:cover}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--sauce);background:var(--sauce);color:#fff;cursor:pointer}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--sauce);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--sauce);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--sauce)}
+.cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--lemon);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.wander{font-size:.85rem;color:var(--mute)}
+.pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--sauce);font-weight:600}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow a.tg,.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;text-decoration:none;color:var(--ink)}
+.tagrow a.tg:hover{border-color:var(--sauce)}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.welcome{border-color:#9b59b6}.tagrow .tg.pit{border-color:var(--sauce)}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.acc b{color:var(--gold)}
+.recipe{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.8rem 0}
+.recipe h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.recipe .src{font-size:.82rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.recipe .txt{white-space:pre-wrap;margin:.5rem 0 0;font-size:.97rem}
+.recipe ul{margin:.4rem 0 0;padding-left:1.1rem}
+.sect{margin:1.2rem 0}
+.gal2{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;margin:.6rem 0}
+.gal2 figure{margin:0}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.04)}.search input{transition:box-shadow .2s}.search input:focus{box-shadow:0 0 0 4px color-mix(in srgb,var(--sauce) 22%,transparent)}.mapwrap circle.p{transition:r .15s ease}.mapwrap circle.p:hover{r:6}}
+
+.shareme{margin:2.6rem 0 .4rem;padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.95rem;margin-bottom:.55rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.87rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;padding:.4rem .85rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--sauce);color:var(--sauce)}
+.shareme .said{font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--sauce);color:#fff;background:var(--sauce)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+
+.daystrip{height:26px;width:176px;display:block}
+.daykey{font-size:.76rem;color:var(--mute);display:inline-flex;align-items:center;gap:.3rem;font-family:var(--ui,sans-serif)}
+.daykey i{width:.7rem;height:.9rem;border-radius:3px;display:inline-block;margin-left:.5rem}
+.daykey i.on{background:var(--sauce);border:1.6px solid var(--sauce)}
+.daykey i.off{border:1.6px solid var(--mute)}
+.daykey i.unk{border:1.6px dashed var(--line)}
+.sunday-yes{color:var(--sauce);font-weight:700}
+.sunday-no{color:var(--mute)}
+</style>
+
+</head>
+<body>
+<header class="top"><a class="brand" href="../index.html">Wing <b>Country</b></a>
+<nav class="crumbs"><a href="../index.html">Everything</a> · <a href="../near/index.html">Near me</a> · <a href="../places/index.html">Map</a> · <a href="../sauce/index.html">In the bottle</a> · <a href="../make/index.html">Make some</a> · <a href="../heat/index.html">How hot</a> · <a href="../vs/index.html">Settle it</a> · <a href="../never/index.html">Never have I ever</a> · <a href="../wing/index.html">The bird</a> · <a href="../numbers/index.html">Numbers</a> · <a href="../art/index.html">Signs</a> · <a href="../stories/index.html">Stories</a> · <a href="../quiz/index.html">Quiz</a> · <a href="../search/index.html">Search</a> · <a href="../words/index.html">Words</a> · <a href="../sources/index.html">Where we got it</a> · <a href="../coverage/index.html">Where we stop</a> · <a href="../api/index.json">API</a> · <a href="../llms.txt">llms.txt</a> · <a class="wander" href="../wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<main>
+
+<h1><span class="kind">Wing Country</span>Settle it</h1>
+<p class="lede">Two cities, side by side, out of their own records. Nobody wins — that is what the argument is for.</p>
+
+<div class="marquee"><button type="button" data-a="buffalo" data-b="rochester-breaded">Buffalo v Rochester</button><button type="button" data-a="buffalo" data-b="atlanta-lemon-pepper">Buffalo v Atlanta</button><button type="button" data-a="nashville-hot" data-b="korean-american">Nashville v Korean</button><button type="button" data-a="memphis-dry-rub" data-b="buffalo">Dry v wet</button><button type="button" data-a="chicago-mild-sauce" data-b="dc-mumbo">Mild sauce v mumbo</button><button type="button" data-a="alabama-white" data-b="garlic-parm">White sauce v garlic parm</button></div>
+<div class="vs-pick">
+  <select id="a" aria-label="First style"><option value="alabama-white">Alabama white sauce wings</option><option value="buffalo">Buffalo wings</option><option value="chicago-mild-sauce">Chicago mild sauce wings</option><option value="garlic-parm">Garlic parmesan wings</option><option value="caribbean-jerk">Jerk wings</option><option value="korean-american">Korean fried chicken wings</option><option value="atlanta-lemon-pepper">Lemon pepper wings</option><option value="memphis-dry-rub">Memphis dry-rub wings</option><option value="dc-mumbo">Mumbo sauce wings</option><option value="nashville-hot">Nashville hot wings</option><option value="baltimore-old-bay">Old Bay wings</option><option value="rochester-breaded">Rochester breaded wings</option><option value="smoked-bbq-wing">Smoked barbecue wings</option></select>
+  <span class="v">v</span>
+  <select id="b" aria-label="Second style"><option value="alabama-white">Alabama white sauce wings</option><option value="buffalo">Buffalo wings</option><option value="chicago-mild-sauce">Chicago mild sauce wings</option><option value="garlic-parm">Garlic parmesan wings</option><option value="caribbean-jerk">Jerk wings</option><option value="korean-american">Korean fried chicken wings</option><option value="atlanta-lemon-pepper">Lemon pepper wings</option><option value="memphis-dry-rub">Memphis dry-rub wings</option><option value="dc-mumbo">Mumbo sauce wings</option><option value="nashville-hot">Nashville hot wings</option><option value="baltimore-old-bay">Old Bay wings</option><option value="rochester-breaded">Rochester breaded wings</option><option value="smoked-bbq-wing">Smoked barbecue wings</option></select>
+</div>
+
+<div id="vsout"></div>
+
+<h2>Wing bracket</h2>
+<p class="mute">Thirteen styles, sixteen slots, three byes. Click your way along. It forgets everything when you close the tab.</p>
+<div class="brk" id="brk"></div>
+<p id="champ" class="champ"></p>
+<div class="mk-actions"><button class="btn ghost" type="button" id="reseed">Shuffle and start over</button>
+<button class="btn ghost" type="button" id="brkcopy">Copy my winner</button></div>
+
+<script>
+(function(){
+var D={"alabama-white": {"name": "Alabama white sauce wings", "url": "../style/alabama-white/index.html", "where": "The American South, The United States", "cut": "whole wing", "cooked": "smoked", "base": "Dairy dips", "heat": "mild", "flame": "🌶", "sauce": "", "dip": "Alabama white sauce", "side": "", "blurb": "Wings smoked over hickory and then coated or dunked in white sauce — a mayonnaise-based barbecue sauce with vinegar, lemon juice, black pepper, salt, and in many versions cayenne and horseradish.", "conf": [{"id": "ranch-dressing", "name": "Ranch dressing", "tell": "Taste for vinegar and pepper. White sauce is thin and sharp and built to go on hot smoked meat; ranch is a cold buttermilk-and-herb dressing served in a cup.", "type": "sauce"}, {"id": "smoked-bbq-wing", "name": "Smoked barbecue wings", "tell": "Colour. Both come off a pit; one finishes pale and tangy, the other red and sweet.", "type": "style"}], "card": "../cards/style__alabama-white.jpg"}, "buffalo": {"name": "Buffalo wings", "url": "../style/buffalo/index.html", "where": "Western New York, The United States", "cut": "party wing", "cooked": "fried", "base": "Cayenne and butter", "heat": "medium", "flame": "🌶🌶", "sauce": "Buffalo sauce", "dip": "Blue cheese dressing", "side": "celery and carrots", "blurb": "A chicken wing cut into a drumette and a flat, deep-fried bare — no batter, no flour — then shaken in a bowl with melted butter and a vinegar-based cayenne pepper sauce, and served hot with celery, carrot sticks and a…", "conf": [{"id": "rochester-breaded", "name": "Rochester breaded wings", "tell": "Breading. A Buffalo wing goes into the oil bare; a Rochester wing goes in dredged.", "type": "style"}], "card": "../cards/style__buffalo.jpg"}, "chicago-mild-sauce": {"name": "Chicago mild sauce wings", "url": "../style/chicago-mild-sauce/index.html", "where": "Chicago, The United States", "cut": "", "cooked": "fried", "base": "Sweet and red", "heat": "mild", "flame": "🌶", "sauce": "Mild sauce", "dip": "", "side": "french fries", "blurb": "Wings fried hard — left in the oil past golden until the skin goes dark and brittle — then handed over a counter in a box with french fries and a slice of white bread, the whole box doused in mild sauce.", "conf": [{"id": "dc-mumbo", "name": "Mumbo sauce wings", "tell": "Geography, mostly. Both are sweet red sauces poured over fried wings and fries at a counter; Chicago's is mild sauce on the South and West Sides, Washington's is mumbo at a carryout, and whether they share an ancestor is unresolved.", "type": "style"}, {"id": "honey-bbq-sauce", "name": "Honey barbecue sauce", "tell": "A barbecue sauce is brushed or tossed and tastes of smoke and molasses. Mild sauce is thinner, tangier, blunter, and it gets poured over the box.", "type": "sauce"}], "card": "../cards/style__chicago-mild-sauce.jpg"}, "garlic-parm": {"name": "Garlic parmesan wings", "url": "../style/garlic-parm/index.html", "where": "Western New York, Upstate New York, New England, Philadelphia, The United States", "cut": "party wing", "cooked": "fried", "base": "Herb and garlic", "heat": "none", "flame": "", "sauce": "Garlic parmesan sauce", "dip": "Ranch dressing", "side": "buffalo chicken pizza", "blurb": "A fried wing tossed in melted butter or oil with garlic and grated parmesan, often with dried herbs and black pepper, sometimes finished with more cheese out of the bowl so it sits in visible flecks.", "conf": [{"id": "buffalo", "name": "Buffalo wings", "tell": "Colour and heat. Garlic parm is pale, cheesy and carries no chile; Buffalo is orange and built on cayenne.", "type": "style"}, {"id": "garlic-parmesan-sauce", "name": "Garlic parmesan sauce", "tell": "One is the style, one is the bottle. A dry garlic-parmesan dust and a poured garlic-parmesan sauce are both sold under the same two words.", "type": "sauce"}], "card": "../cards/style__garlic-parm.jpg"}, "caribbean-jerk": {"name": "Jerk wings", "url": "../style/caribbean-jerk/index.html", "where": "Caribbean America, New York City, Florida, New England, The United States", "cut": "whole wing", "cooked": "grilled", "base": "Jerk marinade", "heat": "hot", "flame": "🌶🌶🌶", "sauce": "Jerk marinade", "dip": "", "side": "", "blurb": "Wings dry-rubbed or wet-marinated in Jamaican jerk seasoning and cooked over fire until the outside blackens.", "conf": [{"id": "smoked-bbq-wing", "name": "Smoked barbecue wings", "tell": "When the seasoning went on. Jerk is marinated before the fire and finished with char; a barbecue wing is smoked plain and sauced at the end.", "type": "style"}, {"id": "memphis-dry-rub", "name": "Memphis dry-rub wings", "tell": "Allspice. Both can arrive dry off a fire, but jerk carries allspice and Scotch bonnet, and a Memphis rub carries paprika and pit smoke.", "type": "style"}], "card": "../cards/style__caribbean-jerk.jpg"}, "korean-american": {"name": "Korean fried chicken wings", "url": "../style/korean-american/index.html", "where": "Korean America, New York City, Southern California, The United States", "cut": "whole wing", "cooked": "double-fried", "base": "Soy and sweet", "heat": "medium", "flame": "🌶🌶", "sauce": "Yangnyeom sauce", "dip": "", "side": "pickled radish", "blurb": "Chicken fried twice so the crust comes out thin and brittle — Julia Moskin of The New York Times called it \"thin, crackly and almost transparent\" — then hand-painted with sauce by brush rather than shaken in a bowl, so…", "conf": [{"id": "buffalo", "name": "Buffalo wings", "tell": "Bite and listen. A double-fried wing snaps and the sauce is a thin painted film; a Buffalo wing is soft-skinned under a loose sauce that runs on the plate.", "type": "style"}, {"id": "teriyaki-sauce", "name": "Teriyaki sauce", "tell": "Soy and sugar in both. Ganjang chicken is heavy on garlic and goes on a shatter-crisp crust; teriyaki is a glaze with mirin behind it and no garlic requirement.", "type": "sauce"}], "card": "../cards/style__korean-american.jpg"}, "atlanta-lemon-pepper": {"name": "Lemon pepper wings", "url": "../style/atlanta-lemon-pepper/index.html", "where": "Atlanta, The American South, The United States", "cut": "party wing", "cooked": "fried", "base": "Citrus and pepper", "heat": "mild", "flame": "🌶", "sauce": "Lemon pepper", "dip": "", "side": "the fried rice plate", "blurb": "A wing cooked without breading and finished in lemon pepper — granulated lemon zest mashed with cracked black pepper, then baked and dried, usually with salt and sugar in the blend. Atlanta orders it two ways.", "conf": [{"id": "memphis-dry-rub", "name": "Memphis dry-rub wings", "tell": "Taste for citrus. Lemon pepper is zest and black pepper, sharp and salty; a Memphis rub is paprika-and-pepper off the smoker, with no lemon in it.", "type": "style"}, {"id": "lemon-pepper-wet", "name": "Lemon pepper wet", "tell": "One is the style, one is the sauce. Order lemon pepper and you can still be asked wet or dry.", "type": "sauce"}], "card": "../cards/style__atlanta-lemon-pepper.jpg"}, "memphis-dry-rub": {"name": "Memphis dry-rub wings", "url": "../style/memphis-dry-rub/index.html", "where": "Memphis, The American South, The United States", "cut": "party wing", "cooked": "mixed", "base": "Dry rub", "heat": "medium", "flame": "🌶🌶", "sauce": "Memphis dry rub", "dip": "", "side": "", "blurb": "A wing finished with the rub that Memphis puts on ribs — salt and a spice blend, house by house, usually paprika-led — and handed over without sauce.", "conf": [{"id": "atlanta-lemon-pepper", "name": "Lemon pepper wings", "tell": "Both arrive dry. Lemon pepper is citrus and black pepper; a Memphis rub is paprika, salt and pepper heat, and it usually carries smoke behind it.", "type": "style"}, {"id": "smoked-bbq-wing", "name": "Smoked barbecue wings", "tell": "Whether anything got brushed on. A dry wing comes out of the pit with nothing but rub; a barbecue wing is finished with sauce.", "type": "style"}, {"id": "baltimore-old-bay", "name": "Old Bay wings", "tell": "Celery salt. Old Bay tastes of the crab pot; a Memphis rub tastes of the pit.", "type": "style"}], "card": "../cards/style__memphis-dry-rub.jpg"}, "dc-mumbo": {"name": "Mumbo sauce wings", "url": "../style/dc-mumbo/index.html", "where": "Washington, D.C., The United States", "cut": "whole wing", "cooked": "fried", "base": "Sweet and red", "heat": "mild", "flame": "🌶", "sauce": "Mumbo sauce", "dip": "", "side": "mumbo fries", "blurb": "Fried chicken wings, usually whole and uncut, sold through the window of a Washington carryout and drowned in mumbo sauce — red, sweeter than barbecue sauce and by turns sharper or more sour, depending whose kitchen…", "conf": [{"id": "chicago-mild-sauce", "name": "Chicago mild sauce wings", "tell": "Ask the counter what it is called. The sauce, the pour and the box are close enough that the name is the reliable difference; the history that would separate them is unresolved.", "type": "style"}, {"id": "honey-bbq-sauce", "name": "Honey barbecue sauce", "tell": "Mumbo is sweeter and sourer than barbecue sauce and carries no smoke. A honey barbecue wing tastes of molasses and char; a mumbo wing tastes of ketchup, sugar and vinegar.", "type": "sauce"}], "card": "../cards/style__dc-mumbo.jpg"}, "nashville-hot": {"name": "Nashville hot wings", "url": "../style/nashville-hot/index.html", "where": "Nashville, The American South, The United States", "cut": "party wing", "cooked": "fried", "base": "Nashville hot paste", "heat": "very hot", "flame": "🌶🌶🌶🌶", "sauce": "Nashville hot paste", "dip": "", "side": "white bread and pickles", "blurb": "Hot chicken's method put on a wing: marinate in a water- or buttermilk-based seasoned blend, flour, fry, then paint with a cayenne paste loosened with fat drawn from the fryer.", "conf": [{"id": "buffalo", "name": "Buffalo wings", "tell": "Look at the plate. A Nashville wing sits on white bread with pickles and its crust is stained red under a paste; a Buffalo wing sits bare in a basket with celery and a cup of blue cheese, its sauce loose and orange.", "type": "style"}, {"id": "nashville-hot-oil", "name": "Nashville hot paste", "tell": "One is the style, one is the paste. A Buffalo Wild Wings 'Nashville hot' wing uses the flavour without the bread, the pickles or the pan fry.", "type": "sauce"}], "card": "../cards/style__nashville-hot.jpg"}, "baltimore-old-bay": {"name": "Old Bay wings", "url": "../style/baltimore-old-bay/index.html", "where": "Baltimore, The United States", "cut": "party wing", "cooked": "fried", "base": "Dry rub", "heat": "mild", "flame": "🌶", "sauce": "Old Bay Seasoning", "dip": "", "side": "french fries", "blurb": "A wing finished in Old Bay — a blend of eighteen herbs and spices built in Baltimore in 1939, celery salt first, with red and black pepper and paprika, and bay leaves, mustard, cardamom, cloves and ginger among the…", "conf": [{"id": "memphis-dry-rub", "name": "Memphis dry-rub wings", "tell": "Look for celery salt and paprika without smoke. Old Bay is salty and celery-forward off a fryer; a Memphis rub carries smoke and comes off a pit.", "type": "style"}, {"id": "atlanta-lemon-pepper", "name": "Lemon pepper wings", "tell": "Citrus. Lemon pepper leads with zest; Old Bay leads with celery seed and salt, and there is no lemon in the can.", "type": "style"}], "card": "../cards/style__baltimore-old-bay.jpg"}, "rochester-breaded": {"name": "Rochester breaded wings", "url": "../style/rochester-breaded/index.html", "where": "Rochester, Upstate New York, The United States", "cut": "party wing", "cooked": "fried", "base": "Sweet and red", "heat": "medium", "flame": "🌶🌶", "sauce": "", "dip": "Blue cheese dressing", "side": "Garbage Plate", "blurb": "A chicken wing dredged in seasoned flour before it goes in the oil, fried until the coating sets hard, then glazed rather than tossed loose — most often in Country Sweet, a sweet-and-tangy sauce a Rochester kitchen…", "conf": [{"id": "buffalo", "name": "Buffalo wings", "tell": "Bite the skin. A breaded wing has a flour shell that crunches and stays dry under the sauce; a Buffalo wing has bare skin and the sauce is on it, not in a crust.", "type": "style"}, {"id": "garlic-parm", "name": "Garlic parmesan wings", "tell": "Garlic parm names a sauce and travels anywhere. Rochester-style names a coating, and the sauce on top can be anything the bar pours.", "type": "style"}], "card": "../cards/style__rochester-breaded.jpg"}, "smoked-bbq-wing": {"name": "Smoked barbecue wings", "url": "../style/smoked-bbq-wing/index.html", "where": "Texas, Kansas City, Memphis, The American South, The United States", "cut": "party wing", "cooked": "smoked", "base": "Sweet and red", "heat": "mild", "flame": "🌶", "sauce": "Honey barbecue sauce", "dip": "", "side": "", "blurb": "A wing cooked on a barbecue pit rather than in oil: rubbed, smoked over wood until the fat renders, then finished — brushed with a tomato sauce and set over higher heat to tack up, or dropped briefly in the fryer so the…", "conf": [{"id": "memphis-dry-rub", "name": "Memphis dry-rub wings", "tell": "Whether sauce was brushed on. Both come off the same pit; one goes out red and sticky, the other goes out dusted and dry.", "type": "style"}, {"id": "caribbean-jerk", "name": "Jerk wings", "tell": "When the seasoning went on. Jerk marinates before the fire and finishes charred; a barbecue wing is rubbed, smoked plain, then sauced at the end.", "type": "style"}, {"id": "honey-bbq-sauce", "name": "Honey barbecue sauce", "tell": "One is the cook, one is the bottle. A fried wing tossed in barbecue sauce is not a smoked wing, and most wings sold as 'BBQ' never saw wood.", "type": "sauce"}], "card": "../cards/style__smoked-bbq-wing.jpg"}}, SEEDS=["alabama-white", "buffalo", "chicago-mild-sauce", "garlic-parm", "caribbean-jerk", "korean-american", "atlanta-lemon-pepper", "memphis-dry-rub", "dc-mumbo", "nashville-hot", "baltimore-old-bay", "rochester-breaded", "smoked-bbq-wing"];
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var A=document.getElementById("a"), B=document.getElementById("b");
+var ROWS=[["Where","where"],["Which pieces","cut"],["How it cooks","cooked"],["On the wing","base"],["How hot","heat"],
+          ["The sauce","sauce"],["The dip","dip"],["Beside it","side"]];
+function render(){
+  var x=D[A.value], y=D[B.value];
+  if(!x||!y){return}
+  var rows=ROWS.map(function(r){
+    var vx=x[r[1]]||"\u2014", vy=y[r[1]]||"\u2014";
+    var same=(String(vx).toLowerCase()===String(vy).toLowerCase());
+    var f=(r[1]==="heat");
+    var cell=function(v,o){return '<td class="'+(same?'same':'')+'">'+(same?esc(v):'<b>'+esc(v)+'</b>')+(f&&o.flame?' '+o.flame:'')+'</td>'};
+    return '<tr><th>'+esc(r[0])+'</th>'+cell(vx,x)+cell(vy,y)+'</tr>';
+  }).join("");
+  var tells=[];
+  (x.conf||[]).forEach(function(c){ if(c.id===B.value) tells.push('<p><b>'+esc(x.name)+'</b> on telling them apart: '+esc(c.tell)+'</p>'); });
+  (y.conf||[]).forEach(function(c){ if(c.id===A.value) tells.push('<p><b>'+esc(y.name)+'</b> on telling them apart: '+esc(c.tell)+'</p>'); });
+  document.getElementById("vsout").innerHTML=
+    '<table class="vs"><thead><tr><th></th><th><a href="'+x.url+'">'+esc(x.name)+'</a></th>'+
+    '<th><a href="'+y.url+'">'+esc(y.name)+'</a></th></tr></thead><tbody>'+rows+
+    '<tr><th>In a line</th><td>'+esc(x.blurb.slice(0,150))+'\u2026</td><td>'+esc(y.blurb.slice(0,150))+'\u2026</td></tr>'+
+    '</tbody></table>'+
+    '<p class="mute" style="font-size:.86rem;margin:-.6rem 0 1rem">A dash means no record here yet — a fact about this project, not about the food. '+
+    'Bold marks where the two differ.</p>'+
+    (tells.length?'<div class="pitch">'+tells.join("")+'</div>':'');
+}
+A.addEventListener("change",render); B.addEventListener("change",render);
+document.querySelector(".marquee").addEventListener("click",function(e){
+  var b=e.target.closest("button[data-a]"); if(!b)return;
+  A.value=b.dataset.a; B.value=b.dataset.b; render(); share();
+  document.getElementById("vsout").scrollIntoView({behavior:"smooth",block:"nearest"});
+});
+var qs=new URLSearchParams(location.search);
+A.value=(D[qs.get("a")]?qs.get("a"):"buffalo");
+B.value=(D[qs.get("b")]?qs.get("b"):"rochester-breaded");
+if(!D[A.value]) A.selectedIndex=0;
+if(!D[B.value]) B.selectedIndex=1;
+function share(){ history.replaceState(null,"","?a="+encodeURIComponent(A.value)+"&b="+encodeURIComponent(B.value)); }
+A.addEventListener("change",share); B.addEventListener("change",share);
+render();
+
+/* ---- the bracket: sixteen slots, byes where the styles run out ---- */
+var field=[], picks={};
+function seed(){
+  var s=SEEDS.slice();
+  for(var i=s.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)), t=s[i]; s[i]=s[j]; s[j]=t;}
+  /* Byes go one to a pair, spaced across the draw. Appending them instead left a whole
+     quarter of nothing but byes, and a name walked to the final without being picked. */
+  var nb=16-s.length, spots={};
+  for(var k=0;k<nb;k++) spots[Math.floor(k*16/nb)+1]=true;
+  field=[]; var n=0;
+  for(var i=0;i<16;i++) field.push(spots[i]?null:s[n++]);
+  picks={}; draw();
+}
+function seedsUnder(round,idx){
+  var span=1<<round, start=idx*span, n=0;
+  for(var i=start;i<start+span;i++) if(field[i]) n++;
+  return n;
+}
+function winner(round,idx){
+  /* An empty slot means one of two different things, and the first version confused them:
+     a bye, where there is nobody to beat, and a match you have not picked yet. Count the
+     real names under the node instead. One name walks; two or more wait for a click. */
+  if(round===0) return field[idx];
+  var n=seedsUnder(round,idx);
+  if(n===0) return null;
+  if(n===1){
+    var span=1<<round, start=idx*span;
+    for(var i=start;i<start+span;i++) if(field[i]) return field[i];
+  }
+  return picks[round+":"+idx]||null;
+}
+function draw(){
+  var wrap=document.getElementById("brk"), names=["Round of 16","Quarters","Semis","Final","Winner"];
+  var html="";
+  for(var r=0;r<5;r++){
+    var n=16>>r, col='<div class="col"><div class="hd">'+names[r]+'</div>';
+    for(var i=0;i<n;i++){
+      var id=(r===0)?field[i]:winner(r,i);
+      var lab=id?D[id].name:(r===0?"bye":"\u2014");
+      var k=(r+1)+":"+Math.floor(i/2);
+      var on=(r<4&&picks[k]===id&&id);
+      var dis=(!id||r===4)?" disabled":"";
+      col+='<button class="slot" data-r="'+r+'" data-i="'+i+'" data-id="'+(id||"")+'" data-on="'+(on?"true":"false")+'"'+dis+'>'+esc(lab)+'</button>';
+    }
+    html+=col+'</div>';
+  }
+  wrap.innerHTML=html;
+  var champ=winner(4,0);
+  document.getElementById("champ").textContent=champ?("Your winner: "+D[champ].name):"";
+}
+document.getElementById("brk").addEventListener("click",function(e){
+  var b=e.target.closest("button[data-id]"); if(!b||b.disabled)return;
+  var r=parseInt(b.dataset.r,10), i=parseInt(b.dataset.i,10), id=b.dataset.id;
+  if(!id)return;
+  picks[(r+1)+":"+Math.floor(i/2)]=id;
+  for(var rr=r+2;rr<=4;rr++){ for(var k in picks){ if(parseInt(k.split(":")[0],10)>=rr) delete picks[k]; } }
+  draw();
+});
+document.getElementById("reseed").addEventListener("click",seed);
+document.getElementById("brkcopy").addEventListener("click",function(){
+  var champ=winner(4,0), b=this;
+  if(!champ){b.textContent="Pick one first";setTimeout(function(){b.textContent="Copy my winner"},1600);return}
+  var txt="My wing bracket came down to "+D[champ].name+".\n"+D[champ].blurb.slice(0,140)+"\u2026\n\nArgue with me: https://nanobotco.github.io/buffalo-wings/vs/";
+  (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+    b.textContent="Copied"; setTimeout(function(){b.textContent="Copy my winner"},1800);
+  },function(){});
+});
+seed();
+})();
+</script>
+
+<section class="shareme" data-url="https://nanobotco.github.io/buffalo-wings/vs/" data-title="Settle it — Wing Country"><b>Pass it on</b><div class="row"><button type="button" class="copy" data-sh="copy">Copy link</button><button type="button" data-sh="native" hidden>Share…</button><a href="https://bsky.app/intent/compose?text=Settle%20it%20%E2%80%94%20Wing%20Country%20https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fvs%2F" target="_blank" rel="noopener">Bluesky</a><a href="https://mastodonshare.com/?text=Settle%20it%20%E2%80%94%20Wing%20Country&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fvs%2F" target="_blank" rel="noopener">Mastodon</a><a href="https://twitter.com/intent/tweet?text=Settle%20it%20%E2%80%94%20Wing%20Country&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fvs%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fvs%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fvs%2F&amp;title=Settle%20it%20%E2%80%94%20Wing%20Country" target="_blank" rel="noopener">Reddit</a><a href="https://api.whatsapp.com/send?text=Settle%20it%20%E2%80%94%20Wing%20Country%20https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fvs%2F" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:?subject=Settle%20it%20%E2%80%94%20Wing%20Country&amp;body=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fvs%2F" target="_blank" rel="noopener">Email</a><span class="said" aria-live="polite"></span></div></section><script>(function(){var s=document.currentScript.previousElementSibling;var n=s.querySelector('[data-sh="native"]');if(navigator.share)n.hidden=false;s.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(function(){said.textContent="copied"},function(){said.textContent=url});}else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>
+</main>
+<script>document.addEventListener("keydown",function(e){if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="../wander.html"});</script>
+<footer>
+<div class="bots">For the machines: <a href="../api/nodes.json">nodes.json</a> <a href="../api/places.json">places.json</a> <a href="../api/kin.json">kin.json</a> <a href="../nodes.jsonl">nodes.jsonl</a> <a href="../nodes.csv">nodes.csv</a> <a href="../llms-full.txt">llms-full.txt</a> <a href="../sitemap.xml">sitemap.xml</a> <a href="../feed.xml">feed.xml</a> <a href="../api/coverage.json">coverage</a> <a href="../api/sources.json">sources</a></div>
+<p>Records licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
+</footer>
+</body>
+</html>

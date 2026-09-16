@@ -1,5 +1,5 @@
 {
- "built": "2026-09-16",
+ "built": "2026-09-17",
  "count": 158,
  "nodes": [
   {
@@ -6887,7 +6887,7 @@
     "source": "s:fdc-franks-redhot-original",
     "url": "https://fdc.nal.usda.gov/food-details/2565317/nutrients",
     "accessed": "2026-09-16",
-    "note": "Label serving is 1 tsp (5 mL) = 0.333 tbsp; label sodium is 190 mg, so 190 × 3 = 570 mg per tablespoon. Ingredient order is the label's. The maker's own product page prints the same statement with 'Distilled Vinegar' spelled out. The 450 SHU is published for the Original blend and is the rare case where a wing-sauce maker states a number; heat_claim is null because the bottle prints no heat word — 'Original' names the variety, not a heat level."
+    "note": "Label serving is 1 tsp (5 mL) = 0.333 tbsp; label sodium is 190 mg, so 190 × 3 = 570 mg per tablespoon. Ingredient order is the label's. The maker's own product page prints the same statement with 'Distilled Vinegar' spelled out. The panel figures come from FoodData Central; the Scoville figure is the maker's, off its own product page (s:web-franks-redhot-original-page), and 450 SHU is published for the Original blend and is the rare case where a wing-sauce maker states a number; heat_claim is null because the bottle prints no heat word — 'Original' names the variety, not a heat level."
    },
    "recipes": [
     {

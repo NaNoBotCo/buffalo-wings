@@ -3,18 +3,446 @@
  "license": "ODbL 1.0",
  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
  "attribution": "© OpenStreetMap contributors, ODbL 1.0 — https://www.openstreetmap.org/copyright",
- "fetched_at": "2026-09-16T23:05:41Z",
+ "fetched_at": "2026-09-16T23:39:53Z",
  "endpoint": "https://overpass-api.de/api/interpreter",
- "query": "[out:json][timeout:180];area[\"ISO3166-2\"=\"US-XX\"][admin_level]->.a;(nwr[\"cuisine\"~\"wings|chicken_wings|buffalo_wings\",i](area.a);nwr[\"amenity\"~\"restaurant|fast_food|bar|pub|cafe\"][\"name\"~\"[Ww]ing\"](area.a););out center tags;",
+ "query": "[out:json][timeout:240];area[\"ISO3166-2\"=\"US-XX\"][admin_level]->.a;nwr[\"cuisine\"~\"wings|chicken_wings|buffalo_wings\",i](area.a);out center tags;   ||   [out:json][timeout:240];area[\"ISO3166-2\"=\"US-XX\"][admin_level]->.a;(nwr[\"amenity\"=\"restaurant\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"fast_food\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"bar\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"pub\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"cafe\"][\"name\"~\"[Ww]ing\"](area.a););out center tags;",
  "matchers": {
   "cuisine": "cuisine=wings / chicken_wings / buffalo_wings",
   "name": "the word 'wing' in the name of a restaurant, fast-food counter, bar, pub or cafe, excluding rows tagged with a cuisine that means something else"
  },
- "count": 111,
+ "count": 227,
  "by_state": {
-  "AL": 111
+  "AL": 111,
+  "AK": 25,
+  "AZ": 91
  },
  "places": [
+  {
+   "osm_id": "node/13164987478",
+   "slug": "49th-state-brewing",
+   "name": "49th State Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.17389,
+   "lon": -149.98264,
+   "tags": {
+    "amenity": "bar",
+    "name": "49th State Brewing"
+   }
+  },
+  {
+   "osm_id": "way/1549398309",
+   "slug": "49th-state-brewing-healy",
+   "name": "49th State Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 63.86388,
+   "lon": -149.01627,
+   "tags": {
+    "addr:city": "Healy",
+    "addr:housenumber": "248",
+    "addr:postcode": "99743",
+    "addr:state": "AK",
+    "addr:street": "George Parks Highway",
+    "amenity": "pub",
+    "name": "49th State Brewing",
+    "opening_hours": "11:00-00:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-907-683-2739",
+    "website": "https://49statebrewing.com/"
+   }
+  },
+  {
+   "osm_id": "way/285249492",
+   "slug": "49th-state-brewing-company",
+   "name": "49th State Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.21979,
+   "lon": -149.8958,
+   "tags": {
+    "addr:city": "Anchorage",
+    "addr:housenumber": "717",
+    "addr:postcode": "99501",
+    "addr:state": "AK",
+    "addr:street": "West 3rd Avenue",
+    "amenity": "restaurant",
+    "cuisine": "pub;beer",
+    "name": "49th State Brewing Company",
+    "opening_hours": "Mo-Sa 11:00-23:00; Su 11:00-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-907-277-7727",
+    "website": "https://www.49thstatebrewing.com/"
+   }
+  },
+  {
+   "osm_id": "node/8858590217",
+   "slug": "907-wingman",
+   "name": "907 Wingman",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.18823,
+   "lon": -149.90815,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "907 Wingman"
+   }
+  },
+  {
+   "osm_id": "way/1484726321",
+   "slug": "baldwin-street-brewing-company",
+   "name": "Baldwin Street Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 55.34275,
+   "lon": -131.6448,
+   "tags": {
+    "amenity": "pub",
+    "name": "Baldwin Street Brewing Company"
+   }
+  },
+  {
+   "osm_id": "way/628924551",
+   "slug": "bearpaw-river-brewing-company",
+   "name": "Bearpaw River Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.5856,
+   "lon": -149.33515,
+   "tags": {
+    "addr:city": "Wasilla",
+    "addr:housenumber": "4605",
+    "addr:postcode": "99654",
+    "addr:state": "AK",
+    "addr:street": "East Palmer-Wasilla Highway",
+    "amenity": "pub",
+    "name": "Bearpaw River Brewing Company",
+    "website": "https://www.bearpawriverbrewing.com/"
+   }
+  },
+  {
+   "osm_id": "way/772505960",
+   "slug": "buffalo-wild-wings",
+   "name": "Buffalo Wild Wings",
+   "state": "AK",
+   "match": "cuisine",
+   "lat": 61.18905,
+   "lon": -149.8873,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/1421288252",
+   "slug": "cooper-landing-brewing-company",
+   "name": "Cooper Landing Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 60.4853,
+   "lon": -149.72949,
+   "tags": {
+    "amenity": "pub",
+    "name": "Cooper Landing Brewing Company"
+   }
+  },
+  {
+   "osm_id": "way/408324138",
+   "slug": "copper-river-brewing",
+   "name": "Copper River Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 60.54554,
+   "lon": -145.75909,
+   "tags": {
+    "addr:city": "Cordova",
+    "addr:housenumber": "507",
+    "addr:postcode": "99574",
+    "addr:state": "AK",
+    "addr:street": "1st Street",
+    "amenity": "restaurant",
+    "name": "Copper River Brewing",
+    "phone": "+1-907-424-3355",
+    "website": "https://copperriverbrewing.com/"
+   }
+  },
+  {
+   "osm_id": "node/13679631058",
+   "slug": "cynosure-brewing",
+   "name": "Cynosure Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.16844,
+   "lon": -149.88207,
+   "tags": {
+    "addr:city": "Anchorage",
+    "addr:housenumber": "144",
+    "addr:postcode": "99518",
+    "addr:state": "AK",
+    "addr:street": "East Potter Drive",
+    "amenity": "pub",
+    "contact:facebook": "CynosureBrewing",
+    "name": "Cynosure Brewing",
+    "opening_hours": "Tu-Th 15:00-20:00; Fr-Su 14:00-20:00",
+    "phone": "+1-907-563-2966",
+    "smoking": "no",
+    "website": "https://www.cynosure.beer/"
+   }
+  },
+  {
+   "osm_id": "node/9857175088",
+   "slug": "denali-brewing-company",
+   "name": "Denali Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 62.16151,
+   "lon": -150.02922,
+   "tags": {
+    "amenity": "pub",
+    "name": "Denali Brewing Company"
+   }
+  },
+  {
+   "osm_id": "way/918366792",
+   "slug": "girdwood-brewing-company",
+   "name": "Girdwood Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 60.96039,
+   "lon": -149.12398,
+   "tags": {
+    "addr:housenumber": "2700",
+    "addr:postcode": "99587",
+    "addr:street": "Alyeska Highway",
+    "amenity": "pub",
+    "name": "Girdwood Brewing Company",
+    "opening_hours": "Mo-Su 12:00-20:00",
+    "phone": "+19077832739",
+    "website": "https://girdwoodbrewing.com/"
+   }
+  },
+  {
+   "osm_id": "way/1183490665",
+   "slug": "grace-ridge-brewing",
+   "name": "Grace Ridge Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 59.64612,
+   "lon": -151.52163,
+   "tags": {
+    "amenity": "bar",
+    "name": "Grace Ridge Brewing",
+    "opening_hours": "Mo-Su 12:00-20:00"
+   }
+  },
+  {
+   "osm_id": "node/3146744428",
+   "slug": "harbor-mountain-brewing-co",
+   "name": "Harbor Mountain Brewing Co",
+   "state": "AK",
+   "match": "name",
+   "lat": 57.04902,
+   "lon": -135.31009,
+   "tags": {
+    "addr:city": "Sitka",
+    "addr:housenumber": "215",
+    "addr:postcode": "99835",
+    "addr:street": "Smith Street",
+    "amenity": "pub",
+    "name": "Harbor Mountain Brewing Co",
+    "website": "https://www.harbormountainbrewing.com/"
+   }
+  },
+  {
+   "osm_id": "way/427562453",
+   "slug": "homer-brewing-company",
+   "name": "Homer Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 59.64012,
+   "lon": -151.50645,
+   "tags": {
+    "amenity": "bar",
+    "name": "Homer Brewing Company",
+    "wikidata": "Q5889963",
+    "wikipedia": "en:Homer Brewing Company"
+   }
+  },
+  {
+   "osm_id": "way/627912794",
+   "slug": "matanuska-brewing",
+   "name": "Matanuska Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.19472,
+   "lon": -149.88855,
+   "tags": {
+    "amenity": "pub",
+    "name": "Matanuska Brewing"
+   }
+  },
+  {
+   "osm_id": "node/11115523504",
+   "slug": "northern-wings-cafe",
+   "name": "Northern Wings Cafe",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.1435,
+   "lon": -149.89408,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Northern Wings Cafe"
+   }
+  },
+  {
+   "osm_id": "node/4944420358",
+   "slug": "seward-brewing-company",
+   "name": "Seward Brewing Company",
+   "state": "AK",
+   "match": "name",
+   "lat": 60.1009,
+   "lon": -149.44085,
+   "tags": {
+    "amenity": "restaurant",
+    "name": "Seward Brewing Company"
+   }
+  },
+  {
+   "osm_id": "node/13164987477",
+   "slug": "silver-gulch-brewing-and-bottling",
+   "name": "Silver Gulch Brewing & Bottling",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.17384,
+   "lon": -149.98299,
+   "tags": {
+    "amenity": "bar",
+    "name": "Silver Gulch Brewing & Bottling"
+   }
+  },
+  {
+   "osm_id": "way/1184514173",
+   "slug": "skagway-brewing",
+   "name": "Skagway Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 59.45469,
+   "lon": -135.31548,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "burger;brewery;salad",
+    "name": "Skagway Brewing",
+    "outdoor_seating": "yes",
+    "website": "https://www.skagwaybrewing.com/"
+   }
+  },
+  {
+   "osm_id": "way/351056334",
+   "slug": "st-elias-brewing-co",
+   "name": "St. Elias Brewing Co.",
+   "state": "AK",
+   "match": "name",
+   "lat": 60.49166,
+   "lon": -151.04848,
+   "tags": {
+    "addr:city": "Soldotna",
+    "addr:housenumber": "434",
+    "addr:postcode": "99669",
+    "addr:state": "AK",
+    "addr:street": "Sharkathmi Avenue",
+    "amenity": "pub",
+    "cuisine": "pizza",
+    "name": "St. Elias Brewing Co.",
+    "opening_hours": "Su-Th 12:00-22:00; Fr-Sa 12:00-23:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "phone": "+1-907-260-7837",
+    "smoking": "outside",
+    "website": "https://www.steliasbrewingco.com/"
+   }
+  },
+  {
+   "osm_id": "node/11065843488",
+   "slug": "turnagain-brewing",
+   "name": "Turnagain Brewing",
+   "state": "AK",
+   "match": "name",
+   "lat": 61.14913,
+   "lon": -149.87865,
+   "tags": {
+    "addr:city": "Anchorage",
+    "addr:housenumber": "7920",
+    "addr:postcode": "99518",
+    "addr:state": "AK",
+    "addr:street": "King Street",
+    "amenity": "pub",
+    "name": "Turnagain Brewing",
+    "opening_hours": "We 16:00-20:00; Th 14:00-20:00; Fr 14:00-21:00; Sa 12:00-21:00; Su 12:00-18:00; Mo-Tu off",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "phone": "+1-907-646-2337",
+    "smoking": "no",
+    "website": "https://www.turnagainbrewing.com/"
+   }
+  },
+  {
+   "osm_id": "node/9760955702",
+   "slug": "wild-wings-n-things",
+   "name": "Wild Wings N' Things",
+   "state": "AK",
+   "match": "cuisine",
+   "lat": 61.22706,
+   "lon": -149.73934,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "wings",
+    "name": "Wild Wings N' Things"
+   }
+  },
+  {
+   "osm_id": "node/9704301635",
+   "slug": "wingstop",
+   "name": "Wingstop",
+   "state": "AK",
+   "match": "cuisine",
+   "lat": 61.57804,
+   "lon": -149.4099,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/554605834",
+   "slug": "wingstop-anchorage",
+   "name": "Wingstop",
+   "state": "AK",
+   "match": "cuisine",
+   "lat": 61.20999,
+   "lon": -149.73436,
+   "tags": {
+    "addr:city": "Anchorage",
+    "addr:housenumber": "1254",
+    "addr:postcode": "99504",
+    "addr:state": "AK",
+    "addr:street": "Muldoon Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
   {
    "osm_id": "way/1544015768",
    "slug": "american-wings",
@@ -2277,6 +2705,1936 @@
     "opening_hours": "Mo-Sa 10:00-22:00",
     "phone": "+1-334-745-3338",
     "website": "https://www.opelikawoknroll.com/"
+   }
+  },
+  {
+   "osm_id": "node/12407558456",
+   "slug": "ace-of-wingz",
+   "name": "Ace of Wingz",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.5551,
+   "lon": -112.10053,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2024-12-09",
+    "cuisine": "wings",
+    "name": "Ace of Wingz"
+   }
+  },
+  {
+   "osm_id": "node/12249811995",
+   "slug": "atl-wings",
+   "name": "ATL Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.3932,
+   "lon": -112.13034,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "wings",
+    "name": "ATL Wings"
+   }
+  },
+  {
+   "osm_id": "node/12827514964",
+   "slug": "atl-wings-33459112068",
+   "name": "ATL Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.45879,
+   "lon": -112.06768,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-05-10",
+    "cuisine": "wings",
+    "name": "ATL Wings"
+   }
+  },
+  {
+   "osm_id": "node/14005778934",
+   "slug": "bootys-wings-burgers-and-beer",
+   "name": "Booty's Wings Burgers & Beer",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.63705,
+   "lon": -112.39508,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "wings",
+    "name": "Booty's Wings Burgers & Beer"
+   }
+  },
+  {
+   "osm_id": "node/3355155865",
+   "slug": "buffalo-wild-wings-33300111899",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.29951,
+   "lon": -111.89885,
+   "tags": {
+    "addr:state": "AZ",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/3423126494",
+   "slug": "buffalo-wild-wings-glendale",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.53455,
+   "lon": -112.26188,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "9404",
+    "addr:postcode": "85305",
+    "addr:state": "AZ",
+    "addr:street": "West Westgate Boulevard",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4716197058",
+   "slug": "buffalo-wild-wings-tempe",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.4237,
+   "lon": -111.92572,
+   "tags": {
+    "addr:city": "Tempe",
+    "addr:housenumber": "705",
+    "addr:postcode": "85281",
+    "addr:state": "AZ",
+    "addr:street": "South Rural Road",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "opening_hours": "Mo-Th 11:00-01:00, Fr,Sa 11:00-02:00, Su 11:00-24:00"
+   }
+  },
+  {
+   "osm_id": "node/4724647000",
+   "slug": "buffalo-wild-wings-flagstaff",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 35.17647,
+   "lon": -111.66602,
+   "tags": {
+    "addr:city": "Flagstaff",
+    "addr:housenumber": "2750",
+    "addr:postcode": "86001",
+    "addr:state": "AZ",
+    "addr:street": "South Woodlands Village Boulevard",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "opening_hours": "Mo-Th 11:00-24:00;Fr-Sa 11:00-01:00;Su 11:00-24:00"
+   }
+  },
+  {
+   "osm_id": "node/5367491960",
+   "slug": "buffalo-wild-wings-phoenix",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.71484,
+   "lon": -112.11339,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "2510",
+    "addr:postcode": "85085",
+    "addr:state": "AZ",
+    "addr:street": "West Happy Valley Road",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "node/11045720135",
+   "slug": "buffalo-wild-wings-surprise",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.60844,
+   "lon": -112.41513,
+   "tags": {
+    "addr:city": "Surprise",
+    "addr:housenumber": "13668",
+    "addr:postcode": "85388",
+    "addr:state": "AZ",
+    "addr:street": "North Prasada Parkway",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "website": "https://www.buffalowildwings.com/locations/us/az/surprise/13668-n-prasada-pkyway/sports-bar-1725/"
+   }
+  },
+  {
+   "osm_id": "node/12180684595",
+   "slug": "buffalo-wild-wings-33478111987",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.47805,
+   "lon": -111.98653,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "node/12311235568",
+   "slug": "buffalo-wild-wings-mesa",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.39431,
+   "lon": -111.80604,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "1134",
+    "addr:postcode": "85204",
+    "addr:state": "AZ",
+    "addr:street": "South Stapley Drive",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "node/12959726101",
+   "slug": "buffalo-wild-wings-32704114603",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.70449,
+   "lon": -114.60315,
+   "tags": {
+    "addr:housenumber": "1317",
+    "addr:postcode": "85365",
+    "addr:street": "Yuma Palms Parkway",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "phone": "+1-928-373-2300",
+    "website": "https://buffalowildwings.com/"
+   }
+  },
+  {
+   "osm_id": "way/79734185",
+   "slug": "buffalo-wild-wings-scottsdale",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.63672,
+   "lon": -111.92112,
+   "tags": {
+    "addr:city": "Scottsdale",
+    "addr:housenumber": "7401",
+    "addr:postcode": "85260",
+    "addr:state": "AZ",
+    "addr:street": "East Frank Lloyd Wright Boulevard",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/240575021",
+   "slug": "buffalo-wild-wings-32285110979",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.28529,
+   "lon": -110.97885,
+   "tags": {
+    "addr:state": "AZ",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/256800738",
+   "slug": "buffalo-wild-wings-gilbert",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.33174,
+   "lon": -111.79127,
+   "tags": {
+    "addr:city": "Gilbert",
+    "addr:housenumber": "970",
+    "addr:postcode": "85296",
+    "addr:state": "AZ",
+    "addr:street": "South Gilbert Road",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/342616605",
+   "slug": "buffalo-wild-wings-3",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.38574,
+   "lon": -111.69086,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "6560",
+    "addr:postcode": "85206",
+    "addr:state": "AZ",
+    "addr:street": "East Superstition Springs Boulevard",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/355791123",
+   "slug": "buffalo-wild-wings-4",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.63917,
+   "lon": -112.35903,
+   "tags": {
+    "addr:city": "Surprise",
+    "addr:housenumber": "13882",
+    "addr:postcode": "85374",
+    "addr:state": "AZ",
+    "addr:street": "West Bell Road",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "opening_hours": "Mo-Th 11:00-01:00; Fr-Sa 11:00-02:00; Su 11:00-24:00",
+    "phone": "+1-623-546-7672",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/506181987",
+   "slug": "buffalo-wild-wings-goodyear",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46379,
+   "lon": -112.34562,
+   "tags": {
+    "addr:city": "Goodyear",
+    "addr:housenumber": "13311",
+    "addr:postcode": "85395",
+    "addr:state": "AZ",
+    "addr:street": "West McDowell Road",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/515686837",
+   "slug": "buffalo-wild-wings-31552110257",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 31.55169,
+   "lon": -110.25685,
+   "tags": {
+    "addr:state": "AZ",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/617087841",
+   "slug": "buffalo-wild-wings-5",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.58062,
+   "lon": -112.1181,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "2700",
+    "addr:postcode": "85051",
+    "addr:state": "AZ",
+    "addr:street": "West North Lane",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/655760883",
+   "slug": "buffalo-wild-wings-casa-grande",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.88079,
+   "lon": -111.68205,
+   "tags": {
+    "addr:city": "Casa Grande",
+    "addr:housenumber": "859",
+    "addr:postcode": "85194",
+    "addr:state": "AZ",
+    "addr:street": "North Promenade Parkway",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "check_date": "2023-02-20",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "way/695897218",
+   "slug": "buffalo-wild-wings-prescott-valley",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 34.58629,
+   "lon": -112.34017,
+   "tags": {
+    "addr:city": "Prescott Valley",
+    "addr:housenumber": "2985",
+    "addr:postcode": "86314",
+    "addr:state": "AZ",
+    "addr:street": "North Centre Court",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "opening_hours": "Mo-Su 11:00-22:00; Fr,Sa 11:00-23:00",
+    "phone": "+1-928-759-9800"
+   }
+  },
+  {
+   "osm_id": "way/736544437",
+   "slug": "buffalo-wild-wings-salt-river-indian-res",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.53882,
+   "lon": -111.88976,
+   "tags": {
+    "addr:city": "Salt River Indian Res",
+    "addr:housenumber": "8870",
+    "addr:postcode": "85258",
+    "addr:state": "AZ",
+    "addr:street": "East Talking Stick Way",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "delivery": "yes",
+    "name": "Buffalo Wild Wings",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "phone": "+1-480-278-8791",
+    "takeaway": "yes",
+    "website": "https://www.buffalowildwings.com"
+   }
+  },
+  {
+   "osm_id": "way/845231834",
+   "slug": "buffalo-wild-wings-tucson",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.22249,
+   "lon": -110.78862,
+   "tags": {
+    "addr:city": "Tucson",
+    "addr:housenumber": "68",
+    "addr:postcode": "85748",
+    "addr:state": "AZ",
+    "addr:street": "North Harrison Road",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings",
+    "phone": "+1-520-296-8409",
+    "website": "https://www.buffalowildwings.com/locations/us/az/tucson/68-north-harrison-road/sports-bar-1172"
+   }
+  },
+  {
+   "osm_id": "way/853016875",
+   "slug": "buffalo-wild-wings-queen-creek",
+   "name": "Buffalo Wild Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.25435,
+   "lon": -111.63913,
+   "tags": {
+    "addr:city": "Queen Creek",
+    "addr:housenumber": "21374",
+    "addr:postcode": "85142",
+    "addr:state": "AZ",
+    "addr:street": "East Ellsworth Loop Road",
+    "amenity": "restaurant",
+    "brand": "Buffalo Wild Wings",
+    "brand:wikidata": "Q509255",
+    "cuisine": "wings",
+    "name": "Buffalo Wild Wings"
+   }
+  },
+  {
+   "osm_id": "node/9735996730",
+   "slug": "daily-donuts-and-wings",
+   "name": "Daily Donuts & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.63875,
+   "lon": -112.15027,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "4227",
+    "addr:postcode": "85053",
+    "addr:state": "AZ",
+    "addr:street": "West Bell Road",
+    "amenity": "restaurant",
+    "cuisine": "donut;wings",
+    "name": "Daily Donuts & Wings",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "phone": "+1-602-422-0015",
+    "website": "https://dailydonutsandwings.com/"
+   }
+  },
+  {
+   "osm_id": "node/9354810934",
+   "slug": "epic-wings-n-things",
+   "name": "Epic Wings N' Things",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.50899,
+   "lon": -112.26434,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "9524",
+    "addr:postcode": "85305",
+    "addr:state": "AZ",
+    "addr:street": "West Camelback Road",
+    "amenity": "fast_food",
+    "brand": "Epic Wings N' Things",
+    "brand:wikidata": "Q113292980",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Epic Wings N' Things",
+    "takeaway": "yes",
+    "website": "https://www.epicwingsnthings.com/"
+   }
+  },
+  {
+   "osm_id": "node/3997714592",
+   "slug": "lolos-chicken-and-waffles",
+   "name": "Lolo's Chicken and Waffles",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.35669,
+   "lon": -111.79004,
+   "tags": {
+    "addr:city": "Gilbert",
+    "addr:housenumber": "366",
+    "addr:postcode": "85234",
+    "addr:state": "AZ",
+    "addr:street": "North Gilbert Road",
+    "amenity": "restaurant",
+    "cuisine": "southern;wings;waffle",
+    "name": "Lolo's Chicken and Waffles",
+    "phone": "+1 480 207 6173",
+    "website": "https://loloschickenandwaffles.com/"
+   }
+  },
+  {
+   "osm_id": "node/14028053144",
+   "slug": "long-wongs",
+   "name": "Long Wongs",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.38947,
+   "lon": -112.13425,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "wings",
+    "name": "Long Wongs"
+   }
+  },
+  {
+   "osm_id": "way/130319018",
+   "slug": "long-wongs-phoenix",
+   "name": "Long Wongs",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.47968,
+   "lon": -112.21932,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "7415",
+    "addr:postcode": "85033",
+    "addr:state": "AZ",
+    "addr:street": "West Thomas Road",
+    "amenity": "fast_food",
+    "cuisine": "wings",
+    "name": "Long Wongs"
+   }
+  },
+  {
+   "osm_id": "way/478472445",
+   "slug": "native-bar-and-grill",
+   "name": "Native Bar and Grill",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 31.55807,
+   "lon": -110.25803,
+   "tags": {
+    "addr:city": "Sierra Vista",
+    "addr:postcode": "85635",
+    "addr:state": "AZ",
+    "amenity": "restaurant",
+    "cuisine": "wings",
+    "name": "Native Bar and Grill"
+   }
+  },
+  {
+   "osm_id": "node/3814363273",
+   "slug": "native-grill-and-wings",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.35618,
+   "lon": -111.09521,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "node/7640733704",
+   "slug": "native-grill-and-wings-mesa",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.43619,
+   "lon": -111.82423,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "318",
+    "addr:postcode": "85201",
+    "addr:state": "AZ",
+    "addr:street": "East Brown Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "node/7918495623",
+   "slug": "native-grill-and-wings-gilbert",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.37778,
+   "lon": -111.74018,
+   "tags": {
+    "addr:city": "Gilbert",
+    "addr:housenumber": "4341",
+    "addr:postcode": "85234",
+    "addr:state": "AZ",
+    "addr:street": "East Baseline Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "node/10281549346",
+   "slug": "native-grill-and-wings-phoenix",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.37901,
+   "lon": -112.16686,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "5020",
+    "addr:postcode": "85339",
+    "addr:state": "AZ",
+    "addr:street": "West Baseline Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "way/68295646",
+   "slug": "native-grill-and-wings-3",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.57686,
+   "lon": -112.11618,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "10004",
+    "addr:postcode": "85021",
+    "addr:state": "AZ",
+    "addr:street": "North 26th Drive",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "way/211707788",
+   "slug": "native-grill-and-wings-4",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.37953,
+   "lon": -111.59898,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "1947",
+    "addr:postcode": "85209",
+    "addr:state": "AZ",
+    "addr:street": "South Signal Butte Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings",
+    "phone": "+1 480 380 1190",
+    "website": "https://www.nativenewyorker.com/mesa-signal-butte-baseline.html"
+   }
+  },
+  {
+   "osm_id": "way/262964522",
+   "slug": "native-grill-and-wings-glendale",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.54056,
+   "lon": -112.26335,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "7273",
+    "addr:postcode": "85305",
+    "addr:state": "AZ",
+    "addr:street": "North 95th Avenue",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings",
+    "phone": "+1-623-877-4500"
+   }
+  },
+  {
+   "osm_id": "way/731233401",
+   "slug": "native-grill-and-wings-surprise",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.60871,
+   "lon": -112.35968,
+   "tags": {
+    "addr:city": "Surprise",
+    "addr:housenumber": "13929",
+    "addr:postcode": "85379",
+    "addr:state": "AZ",
+    "addr:street": "West Waddell Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings",
+    "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-24:00; Su 10:30-22:30",
+    "phone": "+1-623-544-6402",
+    "website": "https://nativegrillandwings.com/"
+   }
+  },
+  {
+   "osm_id": "way/813305287",
+   "slug": "native-grill-and-wings-5",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.38786,
+   "lon": -111.7867,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "1559",
+    "addr:postcode": "85204",
+    "addr:state": "AZ",
+    "addr:street": "South Gilbert Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "way/816349364",
+   "slug": "native-grill-and-wings-32089110774",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.08862,
+   "lon": -110.77361,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "way/888307936",
+   "slug": "native-grill-and-wings-chandler",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.27628,
+   "lon": -111.79041,
+   "tags": {
+    "addr:city": "Chandler",
+    "addr:housenumber": "2110",
+    "addr:postcode": "85286",
+    "addr:state": "AZ",
+    "addr:street": "South Gilbert Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "way/1108441051",
+   "slug": "native-grill-and-wings-san-tan-valley",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.18075,
+   "lon": -111.58338,
+   "tags": {
+    "addr:city": "San Tan Valley",
+    "addr:housenumber": "1750",
+    "addr:postcode": "85143",
+    "addr:state": "AZ",
+    "addr:street": "West Hunt Highway",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "way/1284770134",
+   "slug": "native-grill-and-wings-tempe",
+   "name": "Native Grill & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.40716,
+   "lon": -111.9173,
+   "tags": {
+    "addr:city": "Tempe",
+    "addr:housenumber": "1301",
+    "addr:postcode": "85282",
+    "addr:state": "AZ",
+    "addr:street": "East Broadway Road",
+    "amenity": "restaurant",
+    "brand": "Native Grill & Wings",
+    "brand:wikidata": "Q69599983",
+    "cuisine": "wings;pizza;burger",
+    "name": "Native Grill & Wings"
+   }
+  },
+  {
+   "osm_id": "node/9084734685",
+   "slug": "pullanos-pizza",
+   "name": "Pullano's Pizza",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.61214,
+   "lon": -112.16905,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "13848",
+    "addr:postcode": "85306",
+    "addr:state": "AZ",
+    "addr:street": "North 51st Avenue",
+    "amenity": "restaurant",
+    "check_date": "2026-01-21",
+    "contact:facebook": "https://www.facebook.com/PullanosPizza",
+    "cuisine": "pizza;sandwich;burger;wings",
+    "name": "Pullano's Pizza",
+    "payment:cash": "yes",
+    "phone": "+1-602-978-1234",
+    "website": "http://pullanos.com"
+   }
+  },
+  {
+   "osm_id": "node/12987268375",
+   "slug": "rays-pizza",
+   "name": "Ray's Pizza",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.65522,
+   "lon": -112.13274,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "3414",
+    "addr:postcode": "85027",
+    "addr:state": "AZ",
+    "addr:street": "West Union Hills Drive",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/RaysPizzaUnionHills",
+    "cuisine": "pizza;wings",
+    "delivery": "yes",
+    "name": "Ray's Pizza",
+    "opening_hours": "Mo-Th 10:30-19:45; Fr-Sa 10:30-21:00",
+    "payment:cash": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "way/695897220",
+   "slug": "rustys-subs-pizza-and-wings",
+   "name": "Rusty's Subs, Pizza & Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 34.58779,
+   "lon": -112.32897,
+   "tags": {
+    "addr:city": "Prescott Valley",
+    "addr:housenumber": "7801",
+    "addr:postcode": "86314",
+    "addr:state": "AZ",
+    "addr:street": "East Florentine Road",
+    "amenity": "restaurant",
+    "cuisine": "pizza;sandwich;wings",
+    "name": "Rusty's Subs, Pizza & Wings",
+    "opening_hours": "Mo-Sa 11:00-20:00",
+    "phone": "+1-928-775-2632"
+   }
+  },
+  {
+   "osm_id": "node/11898966963",
+   "slug": "the-buffalo-spot",
+   "name": "The Buffalo Spot",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.50877,
+   "lon": -112.0428,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2024-05-12",
+    "cuisine": "wings",
+    "name": "The Buffalo Spot"
+   }
+  },
+  {
+   "osm_id": "node/4343530454",
+   "slug": "valley-wings",
+   "name": "Valley Wings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46428,
+   "lon": -111.90823,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "wings",
+    "name": "Valley Wings"
+   }
+  },
+  {
+   "osm_id": "node/11978769626",
+   "slug": "wing-kings",
+   "name": "Wing Kings",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.49566,
+   "lon": -112.02003,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2024-06-13",
+    "cuisine": "wings",
+    "name": "Wing Kings"
+   }
+  },
+  {
+   "osm_id": "node/13469509198",
+   "slug": "wing-shack",
+   "name": "Wing Shack",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 34.15489,
+   "lon": -114.27745,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "wings",
+    "name": "Wing Shack"
+   }
+  },
+  {
+   "osm_id": "node/2082893748",
+   "slug": "wingstop-mesa",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.43399,
+   "lon": -111.86762,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "937",
+    "addr:postcode": "85201",
+    "addr:state": "AZ",
+    "addr:street": "North Dobson Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 480-964-6600",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/2627621124",
+   "slug": "wingstop-tempe",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.39371,
+   "lon": -111.90875,
+   "tags": {
+    "addr:city": "Tempe",
+    "addr:housenumber": "3206",
+    "addr:postcode": "85282",
+    "addr:state": "AZ",
+    "addr:street": "South McClintock Drive",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 480-775-3635",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.com/store-locator/store/8363/mc-clintock-southern-tempe-3223-s-mc-clintock-drive-101-tempe-az-852825603-us"
+   }
+  },
+  {
+   "osm_id": "node/3009697025",
+   "slug": "wingstop-3",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.37967,
+   "lon": -111.97799,
+   "tags": {
+    "addr:city": "Tempe",
+    "addr:housenumber": "2700",
+    "addr:postcode": "85282",
+    "addr:state": "AZ",
+    "addr:street": "West Baseline Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 602-441-0331",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4106796927",
+   "slug": "wingstop-glendale",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.60945,
+   "lon": -112.18472,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "5833",
+    "addr:postcode": "85306",
+    "addr:state": "AZ",
+    "addr:street": "West Thunderbird Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 602-439-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/4303817763",
+   "slug": "wingstop-4",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.56901,
+   "lon": -112.18476,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "5838",
+    "addr:postcode": "85302",
+    "addr:state": "AZ",
+    "addr:street": "West Olive Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 623-939-6939",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/5041685817",
+   "slug": "wingstop-tucson",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.33798,
+   "lon": -111.04374,
+   "tags": {
+    "addr:city": "Tucson",
+    "addr:housenumber": "3662",
+    "addr:postcode": "85741",
+    "addr:state": "AZ",
+    "addr:street": "West Ina Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "delivery": "no",
+    "name": "Wingstop",
+    "outdoor_seating": "no",
+    "phone": "+1 520-882-9464",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/5831876124",
+   "slug": "wingstop-phoenix",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.58137,
+   "lon": -112.12301,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "2815",
+    "addr:postcode": "85029",
+    "addr:state": "AZ",
+    "addr:street": "West Peoria Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 602-674-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/7067947017",
+   "slug": "wingstop-5",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.4663,
+   "lon": -112.22131,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "7510",
+    "addr:postcode": "85035",
+    "addr:state": "AZ",
+    "addr:street": "West McDowell Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "outdoor_seating": "no",
+    "phone": "+1 623-245-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/7067947051",
+   "slug": "wingstop-6",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.50978,
+   "lon": -112.20372,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "6702",
+    "addr:postcode": "85033",
+    "addr:state": "AZ",
+    "addr:street": "West Camelback Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 623-848-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/7958040251",
+   "slug": "wingstop-queen-creek",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.2566,
+   "lon": -111.63641,
+   "tags": {
+    "addr:city": "Queen Creek",
+    "addr:housenumber": "20715",
+    "addr:postcode": "85142",
+    "addr:state": "AZ",
+    "addr:street": "South Ellsworth Loop Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/8258824483",
+   "slug": "wingstop-gilbert",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.28184,
+   "lon": -111.78856,
+   "tags": {
+    "addr:city": "Gilbert",
+    "addr:housenumber": "3757",
+    "addr:postcode": "85297",
+    "addr:state": "AZ",
+    "addr:street": "South Gilbert Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 480-917-8181",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/8502740087",
+   "slug": "wingstop-7",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.49451,
+   "lon": -112.12731,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "3155",
+    "addr:postcode": "85017",
+    "addr:state": "AZ",
+    "addr:street": "West Indian School Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 602-535-5570",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/8657187438",
+   "slug": "wingstop-8",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.39279,
+   "lon": -111.86146,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "1457",
+    "addr:postcode": "85202",
+    "addr:state": "AZ",
+    "addr:street": "West Southern Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 480-969-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/8942685699",
+   "slug": "wingstop-avondale",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46857,
+   "lon": -112.34032,
+   "tags": {
+    "addr:city": "Avondale",
+    "addr:housenumber": "1809",
+    "addr:postcode": "85392",
+    "addr:state": "AZ",
+    "addr:street": "North Dysart Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 623-234-9944",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/9642056801",
+   "slug": "wingstop-9",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.43437,
+   "lon": -111.92542,
+   "tags": {
+    "addr:city": "Tempe",
+    "addr:housenumber": "555",
+    "addr:postcode": "85281",
+    "addr:state": "AZ",
+    "addr:street": "North Scottsdale Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 480-929-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/9866722436",
+   "slug": "wingstop-10",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.30657,
+   "lon": -111.70343,
+   "tags": {
+    "addr:city": "Gilbert",
+    "addr:housenumber": "4049",
+    "addr:postcode": "85295",
+    "addr:state": "AZ",
+    "addr:street": "East Williams Field Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1 480-219-9014",
+    "takeaway": "yes",
+    "website": "https://www.wingstop.com/location/wingstop-1856-gilbert-az-85295/menu"
+   }
+  },
+  {
+   "osm_id": "node/10272230369",
+   "slug": "wingstop-laveen",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.37957,
+   "lon": -112.16897,
+   "tags": {
+    "addr:city": "Laveen",
+    "addr:housenumber": "5130",
+    "addr:postcode": "85339",
+    "addr:state": "AZ",
+    "addr:street": "West Baseline Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 602-237-3330",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/10286858924",
+   "slug": "wingstop-11",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.3795,
+   "lon": -112.03086,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "2320",
+    "addr:postcode": "85042",
+    "addr:state": "AZ",
+    "addr:street": "East Baseline Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 602-892-5050",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/10558632778",
+   "slug": "wingstop-12",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.38509,
+   "lon": -111.80691,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "1616",
+    "addr:postcode": "85204",
+    "addr:state": "AZ",
+    "addr:street": "South Stapley Drive",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 480-633-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/10569282437",
+   "slug": "wingstop-13",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.38301,
+   "lon": -111.73919,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "1754",
+    "addr:postcode": "85206",
+    "addr:state": "AZ",
+    "addr:street": "South Greenfield Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 480-892-2655",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/10575689438",
+   "slug": "wingstop-14",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.37829,
+   "lon": -111.68843,
+   "tags": {
+    "addr:city": "Mesa",
+    "addr:housenumber": "2060",
+    "addr:postcode": "85209",
+    "addr:state": "AZ",
+    "addr:street": "South Power Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 480-924-5504",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/11282565226",
+   "slug": "wingstop-peoria",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.56535,
+   "lon": -112.25294,
+   "tags": {
+    "addr:city": "Peoria",
+    "addr:housenumber": "8987",
+    "addr:postcode": "85345",
+    "addr:state": "AZ",
+    "addr:street": "West Olive Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 928-216-4396",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/11376143178",
+   "slug": "wingstop-15",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46488,
+   "lon": -112.15081,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "4239",
+    "addr:postcode": "85009",
+    "addr:state": "AZ",
+    "addr:street": "West McDowell Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 602-233-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/11408819956",
+   "slug": "wingstop-16",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46562,
+   "lon": -112.08216,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "1515",
+    "addr:postcode": "85007",
+    "addr:state": "AZ",
+    "addr:street": "North 7th Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 602-252-9464",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/11715520453",
+   "slug": "wingstop-scottsdale",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46676,
+   "lon": -111.91404,
+   "tags": {
+    "addr:city": "Scottsdale",
+    "addr:housenumber": "7730",
+    "addr:postcode": "85257",
+    "addr:state": "AZ",
+    "addr:street": "East McDowell Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 602-851-8815",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/11916543816",
+   "slug": "wingstop-17",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.53653,
+   "lon": -112.21983,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "6911",
+    "addr:postcode": "85303",
+    "addr:state": "AZ",
+    "addr:street": "North 75th Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-02:00",
+    "outdoor_seating": "no",
+    "phone": "+1 602-613-5833",
+    "takeaway": "yes",
+    "website": "http://Wingstop.com"
+   }
+  },
+  {
+   "osm_id": "node/13293623139",
+   "slug": "wingstop-yuma",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.67143,
+   "lon": -114.62189,
+   "tags": {
+    "addr:city": "Yuma",
+    "addr:postcode": "85364",
+    "addr:state": "AZ",
+    "addr:street": "West 32nd Street",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/13305909048",
+   "slug": "wingstop-33220111564",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.22046,
+   "lon": -111.56375,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/13329682829",
+   "slug": "wingstop-33066112046",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.06608,
+   "lon": -112.04635,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/13465589391",
+   "slug": "wingstop-33378111929",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.3779,
+   "lon": -111.92915,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/13724233602",
+   "slug": "wingstop-18",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.44778,
+   "lon": -112.30743,
+   "tags": {
+    "addr:city": "Avondale",
+    "addr:housenumber": "194",
+    "addr:postcode": "85323",
+    "addr:street": "North Avondale Boulevard",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "yes",
+    "name": "Wingstop",
+    "opening_hours": "Mo-Su 10:30-00:00",
+    "outdoor_seating": "no",
+    "phone": "+1-602-851-9464",
+    "takeaway": "yes",
+    "website": "https://wingstop.com/"
+   }
+  },
+  {
+   "osm_id": "node/13973636825",
+   "slug": "wingstop-buckeye",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46632,
+   "lon": -112.50484,
+   "tags": {
+    "addr:city": "Buckeye",
+    "addr:housenumber": "1580",
+    "addr:postcode": "85396",
+    "addr:state": "AZ",
+    "addr:street": "North Verrado Way",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/13979247059",
+   "slug": "wingstop-19",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.42144,
+   "lon": -112.27151,
+   "tags": {
+    "addr:city": "Phoenix",
+    "addr:housenumber": "9860",
+    "addr:postcode": "85353",
+    "addr:state": "AZ",
+    "addr:street": "West Lower Buckeye Road",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/14071039085",
+   "slug": "wingstop-20",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.22051,
+   "lon": -110.82249,
+   "tags": {
+    "addr:city": "Tucson",
+    "addr:housenumber": "7942",
+    "addr:postcode": "85710",
+    "addr:state": "AZ",
+    "addr:street": "East Broadway Boulevard",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "Wingstop",
+    "phone": "+1-520-296-9464",
+    "takeaway": "yes",
+    "website": "https://www.wingstop.com"
+   }
+  },
+  {
+   "osm_id": "node/14121498439",
+   "slug": "wingstop-anthem",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.86453,
+   "lon": -112.13928,
+   "tags": {
+    "addr:city": "Anthem",
+    "addr:housenumber": "3655",
+    "addr:postcode": "85086",
+    "addr:state": "AZ",
+    "addr:street": "West Anthem Way",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1-623-387-9679",
+    "takeaway": "yes",
+    "website": "https://www.wingstop.com"
+   }
+  },
+  {
+   "osm_id": "way/881076862",
+   "slug": "wingstop-21",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 32.26371,
+   "lon": -110.94317,
+   "tags": {
+    "addr:city": "Tucson",
+    "addr:housenumber": "3122",
+    "addr:postcode": "85719",
+    "addr:state": "AZ",
+    "addr:street": "North Campbell Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "phone": "+1 520-795-9464",
+    "takeaway": "yes",
+    "website": "https://www.wingstop.com/location/wingstop-219-tucson-az-85719/menu"
+   }
+  },
+  {
+   "osm_id": "way/985588951",
+   "slug": "wingstop-22",
+   "name": "Wingstop",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.52754,
+   "lon": -112.18603,
+   "tags": {
+    "addr:city": "Glendale",
+    "addr:housenumber": "6147",
+    "addr:postcode": "85301",
+    "addr:state": "AZ",
+    "addr:street": "North 59th Avenue",
+    "amenity": "fast_food",
+    "brand": "Wingstop",
+    "brand:wikidata": "Q8025339",
+    "cuisine": "wings",
+    "name": "Wingstop",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/7733003268",
+   "slug": "wingstreet",
+   "name": "WingStreet",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.32093,
+   "lon": -111.84189,
+   "tags": {
+    "addr:city": "Chandler",
+    "addr:housenumber": "1000",
+    "addr:postcode": "85225",
+    "addr:state": "AZ",
+    "addr:street": "North Arizona Avenue",
+    "amenity": "fast_food",
+    "brand": "WingStreet",
+    "brand:wikidata": "Q946630",
+    "cuisine": "wings",
+    "drive_through": "no",
+    "name": "WingStreet",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "osm_id": "node/11375908632",
+   "slug": "wingstreet-33465112152",
+   "name": "WingStreet",
+   "state": "AZ",
+   "match": "cuisine",
+   "lat": 33.46495,
+   "lon": -112.15239,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "WingStreet",
+    "brand:wikidata": "Q946630",
+    "cuisine": "wings",
+    "name": "WingStreet",
+    "takeaway": "yes"
    }
   }
  ]
