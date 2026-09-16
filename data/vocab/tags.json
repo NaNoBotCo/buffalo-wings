@@ -1,0 +1,162 @@
+{
+ "note": "Tag keys a place record may carry. Each tag carries the source it came from. Ownership and welcome tags rest on the owner's own words, a press profile that names the owner, or a public directory. Tier cited = a named page; harvested = a public directory or list fetched by a tool; field = someone stood there.",
+ "entries": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:sfa-oral-histories"
+   ]
+  },
+  {
+   "key": "woman-owned",
+   "label": "Woman-owned",
+   "icon": "♀",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a women-owned business certification (WBENC, WOSB)",
+   "resources": [
+    "r:wbenc",
+    "r:sba-wosb"
+   ]
+  },
+  {
+   "key": "lgbtq-friendly",
+   "label": "LGBTQ+ welcoming",
+   "icon": "🏳️‍🌈",
+   "group": "welcome",
+   "evidence": "the business's own statement, a press list whose framing says the businesses in it are LGBTQ-owned, or a public directory (an LGBTQ chamber of commerce, a Pride business list, OpenStreetMap lgbtq=welcome)",
+   "resources": [
+    "r:nglcc",
+    "r:osm-lgbtq",
+    "r:everywhere-is-queer"
+   ]
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": []
+  },
+  {
+   "key": "naked",
+   "label": "Naked, no breading",
+   "icon": "🔥",
+   "group": "kitchen",
+   "evidence": "the menu, the business's own words, or a press piece that describes the wing",
+   "resources": []
+  },
+  {
+   "key": "breaded",
+   "label": "Breaded",
+   "icon": "🍞",
+   "group": "kitchen",
+   "evidence": "the menu, the business's own words, or a press piece that describes the wing",
+   "resources": []
+  },
+  {
+   "key": "smoked",
+   "label": "Smoked",
+   "icon": "💨",
+   "group": "kitchen",
+   "evidence": "the menu or a press piece describing the cook",
+   "resources": []
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": []
+  },
+  {
+   "key": "choose-your-piece",
+   "label": "All flats or all drums",
+   "icon": "⚖",
+   "group": "order",
+   "evidence": "the menu",
+   "resources": []
+  },
+  {
+   "key": "bone-in-only",
+   "label": "Bone-in only",
+   "icon": "🦴",
+   "group": "order",
+   "evidence": "the menu",
+   "resources": []
+  },
+  {
+   "key": "wing-night",
+   "label": "Wing night",
+   "icon": "📅",
+   "group": "visit",
+   "evidence": "the business's own listing or a dated press piece; name the night in `note`",
+   "resources": []
+  },
+  {
+   "key": "late-night",
+   "label": "Open late",
+   "icon": "🌙",
+   "group": "visit",
+   "evidence": "posted hours running past midnight",
+   "resources": []
+  },
+  {
+   "key": "halal",
+   "label": "Halal",
+   "icon": "☪",
+   "group": "order",
+   "evidence": "the business's own statement or a halal directory",
+   "resources": [
+    "r:zabihah"
+   ]
+  },
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "sold-out-closes",
+   "label": "Closes when sold out",
+   "icon": "⏳",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "takeout-window",
+   "label": "Counter or window, no dining room",
+   "icon": "🪟",
+   "group": "visit",
+   "evidence": "the business's own site, a press piece, or OpenStreetMap takeaway=only",
+   "resources": []
+  },
+  {
+   "key": "bar",
+   "label": "Bar, 21 and over",
+   "icon": "🍺",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": []
+  },
+  {
+   "key": "closed",
+   "label": "Closed",
+   "icon": "⚫",
+   "group": "visit",
+   "evidence": "a dated press piece or the business's own notice",
+   "resources": []
+  }
+ ]
+}

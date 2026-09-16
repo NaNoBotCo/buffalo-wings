@@ -1,0 +1,176 @@
+{
+ "schema": 1,
+ "id": "wingnutz",
+ "type": "place",
+ "names": {
+  "name": "Wingnutz",
+  "aliases": [
+   "Wingnutz Bar & Grill",
+   "WingNutz Bar and Grill",
+   "Wingnutz Buffalo"
+  ],
+  "sort": "Wingnutz"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 2005,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A sports bar on Millersport Highway in Williamsville, run by Ed and Alicia Wrazen, whose wings ran for thirteen years out of a Knights of Columbus hall before they had a restaurant. A podcast episode in 2021 turned a local following into an international one. The wings are large, crisp and sauced in mixes the couple make themselves.",
+  "story": "The Wrazens started at home in 2005. Buffalo Rising's Mark Lazzara, writing in August 2019, traced \"a 13-year journey\" from home catering through cooking jobs to the Knights of Columbus hall on Kenmore Avenue, and reported that Yelp had counted Wingnutz \"the best Chicken Wing Spot in the State of New York.\" His description of the product: \"smothered in their homemade secret sauce, while so crisp.\"\n\nThe house's own account of why they started is short: \"Our background begins a long time ago (2005), in a kitchen far away (our house). As our story begins, we were unemployed.\" They had been eating wings across Buffalo and had not found what they wanted.\n\nIn 2021 the hosts of Pardon My Take, a sports podcast the house says draws more than 750,000 listeners an episode, ate the Wrazens' wings and published the verdict as a title: \"We Found The Best Wings In The World.\" Step Out Buffalo's Brett Llenos Smith, writing in January 2024, dates the full sports bar to after that: \"After appearing on the popular Pardon My Take podcast in 2021, Ed and Alicia Wrazen turned to A.J. Giordano to take their Wingnutz restaurant to scale.\" The Millersport Highway room took over the former Santora's Pizza Pub & Grill space.",
+  "how": "Fried, then sauced in house mixes. The signature is \"sweet with a touch of tang\"; the hot is \"hot, yet bursting with flavor (and addictive!)\". Step Out Buffalo's word for the wings themselves is \"larger, juicier and crispier.\"",
+  "today": "Three rooms in the Buffalo area as of September 2026: Millersport Highway in Williamsville, Genesee Street in Cheektowaga inside the Buffalo Airport Hotel, and a Lakeland location. The Millersport room posts Wednesday, Thursday and Sunday 11am to 10pm and Friday and Saturday 11am to 12:30am; Monday and Tuesday are not posted anywhere this project could read."
+ },
+ "geo": {
+  "lat": 42.9892342,
+  "lon": -78.7914392,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1402 Millersport Highway",
+  "city": "Williamsville",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14221"
+ },
+ "links": [
+  {
+   "label": "Wingnutz Bar & Grill",
+   "url": "https://www.wingnutzbuffalo.com/"
+  },
+  {
+   "label": "Press",
+   "url": "https://www.wingnutzbuffalo.com/press"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "house-sauce",
+   "source": "s:web-wingnutz-about",
+   "tier": "cited",
+   "note": "the house makes its own; the signature is \"sweet with a touch of tang\"",
+   "url": "https://www.wingnutzbuffalo.com/about"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-buffalorising-wingnutz",
+   "tier": "cited",
+   "note": "founded and run by Ed and Alicia Wrazen, named in the profile",
+   "url": "https://www.buffalorising.com/2019/08/yelp-coms-1-wings-buffalos-own-wingnutz-honored-as-top-wings-in-ny/"
+  },
+  {
+   "tag": "bar",
+   "source": "s:web-stepout-wingnutz",
+   "tier": "cited",
+   "note": "the Millersport room opened as a full sports bar in January 2024",
+   "url": "https://stepoutbuffalo.com/new-wingnutz-opens-full-sports-bar-after-viral-fame-for-their-massive-saucy-crispy-wings/"
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-stepout-wingnutz",
+   "tier": "cited",
+   "note": "Friday and Saturday to 12:30am",
+   "url": "https://stepoutbuffalo.com/new-wingnutz-opens-full-sports-bar-after-viral-fame-for-their-massive-saucy-crispy-wings/"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "local-press",
+   "what": "Buffalo Rising reported Yelp counting Wingnutz \"the best Chicken Wing Spot in the State of New York\"",
+   "year": 2019,
+   "source": "s:web-buffalorising-wingnutz",
+   "url": "https://www.buffalorising.com/2019/08/yelp-coms-1-wings-buffalos-own-wingnutz-honored-as-top-wings-in-ny/"
+  },
+  {
+   "by": "other",
+   "what": "Pardon My Take episode titled \"We Found The Best Wings In The World\"",
+   "year": 2021,
+   "source": "s:web-wingnutz-press",
+   "url": "https://www.wingnutzbuffalo.com/press"
+  }
+ ],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Wednesday, Thursday and Sunday 11am–10pm; Friday and Saturday 11am–12:30am. Monday and Tuesday not posted.",
+  "source": "s:web-stepout-wingnutz",
+  "url": "https://stepoutbuffalo.com/new-wingnutz-opens-full-sports-bar-after-viral-fame-for-their-massive-saucy-crispy-wings/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "Monday and Tuesday are in neither list because no source read here says either way"
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "Cooks the style, and started by eating everyone else's version of it and disagreeing.",
+   "rel": "style"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "as": "Just up the same highway, sixty years older, arguing heat scale against size.",
+   "rel": "kin"
+  },
+  {
+   "to": "beef-on-weck",
+   "as": "Shares the menu, as it does at most Erie County wing rooms.",
+   "rel": "dish"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "A sports bar built after a sports podcast; the calendar it lives on runs to February.",
+   "rel": "event"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Went from a hall kitchen to three rooms in three years, which is what a viral wing costs and earns.",
+   "rel": "story"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "The room Wingnutz's founders were measuring themselves against when they started in 2005.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:web-wingnutz-about",
+  "s:web-wingnutz-press",
+  "s:web-stepout-wingnutz",
+  "s:web-buffalorising-wingnutz",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wingnutz-about"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-stepout-wingnutz"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

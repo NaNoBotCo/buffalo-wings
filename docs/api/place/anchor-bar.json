@@ -1,0 +1,455 @@
+{
+ "schema": 1,
+ "id": "anchor-bar",
+ "type": "place",
+ "names": {
+  "name": "Anchor Bar",
+  "aliases": [
+   "Anchor Bar Buffalo",
+   "Frank & Teressa's Anchor Bar"
+  ],
+  "sort": "Anchor Bar"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1935,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A bar and restaurant at Main and North in Buffalo, open since 1935, which claims the Buffalo wing and has trademarked the phrase. Frank and Teressa Bellissimo opened it; their son Dominic ran it and sold the story. The dining room keeps the motorcycles, the jukebox and the original bar, and the wings go out bare-fried with blue cheese and celery.",
+  "story": "Frank and Teressa Bellissimo opened the Anchor Bar in 1935. The wing story the house tells dates to the evening of 4 March 1964: Dominic behind the bar, friends arriving late, little food left, and Teressa frying the wings that were meant for soup and tossing them with butter and cayenne. She sent out celery and blue cheese alongside, and the first plates went out free.\n\nFrank died in October 1980, aged 84. Teressa died in her apartment above the bar in November 1985, also 84. Dominic died in March 1991, aged 68. Ivano Toscani, who started working for the Bellissimos in the mid-1970s and later owned the place, died in November 2018.\n\nThe claim has never gone unchallenged. A 1969 local newspaper piece about the bar does not mention wings. Duff's began selling them across town that year. John Young was selling wings in Buffalo from 1961.",
+  "today": "Bottled Anchor Bar sauces sell through Tops and Wegmans in the United States and Sobey's and Metro in Canada. The company began opening other locations in 2012 and ran 18 of them as of 2026."
+ },
+ "geo": {
+  "lat": 42.90743,
+  "lon": -78.87261,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1047 Main Street",
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14209"
+ },
+ "links": [
+  {
+   "label": "Anchor Bar",
+   "url": "https://www.anchorbar.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "naked",
+   "source": "s:wp-anchor-bar",
+   "tier": "cited",
+   "note": "the house line is that the wings are never battered — deep-fried only, sauce added after the fry"
+  },
+  {
+   "tag": "bar",
+   "source": "s:wp-anchor-bar",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "City of Buffalo proclamation honouring Frank Bellissimo; 29 July 1977 named Chicken Wing Day",
+   "year": 1977,
+   "source": "s:wp-buffalo-wing"
+  },
+  {
+   "by": "food-network",
+   "what": "Bobby Flay's wing 'throwdown' against Drew Cerza, filmed here",
+   "year": 2007,
+   "source": "s:wp-anchor-bar"
+  }
+ ],
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "Says the style started here, on 4 March 1964, and owns the trademark on the phrase.",
+   "rel": "style"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "Cooked here and gets the credit the house gives.",
+   "rel": "person"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "as": "Tended this bar the night the story turns on, and told the story for thirty years.",
+   "rel": "person"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "as": "Started selling wings across town in 1969, the year a paper wrote this bar up without mentioning them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Holds one side of it, in three versions.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-anchor-bar",
+  "s:wp-buffalo-wing",
+  "s:trillin-1980"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A bar and restaurant at Main and North in Buffalo, open since 1935, which claims the Buffalo wing and has trademarked the phrase. Frank and Teressa Bellissimo opened it; their son Dominic ran it and sold the story.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Says the style started here, on 4 March 1964, and owns the trademark on the phrase.",
+   "rel": "style"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "type": "person",
+   "name": "Teressa Bellissimo",
+   "as": "Cooked here and gets the credit the house gives.",
+   "rel": "person"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "type": "person",
+   "name": "Dominic Bellissimo",
+   "as": "Tended this bar the night the story turns on, and told the story for thirty years.",
+   "rel": "person"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "type": "place",
+   "name": "Duff's Famous Wings",
+   "as": "Started selling wings across town in 1969, the year a paper wrote this bar up without mentioning them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Holds one side of it, in three versions.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "naked",
+   "label": "Naked, no breading",
+   "icon": "🔥",
+   "group": "kitchen",
+   "evidence": "the menu, the business's own words, or a press piece that describes the wing",
+   "resources": [],
+   "source": "s:wp-anchor-bar",
+   "note": "the house line is that the wings are never battered — deep-fried only, sauce added after the fry",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "bar",
+   "label": "Bar, 21 and over",
+   "icon": "🍺",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:wp-anchor-bar",
+   "note": "",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "City of Buffalo proclamation honouring Frank Bellissimo; 29 July 1977 named Chicken Wing Day",
+   "url": "",
+   "year": 1977,
+   "source": "s:wp-buffalo-wing"
+  },
+  {
+   "key": "food-network",
+   "label": "Food Network",
+   "what": "Bobby Flay's wing 'throwdown' against Drew Cerza, filmed here",
+   "url": "",
+   "year": 2007,
+   "source": "s:wp-anchor-bar"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Claims the invention, dates it to 4 March 1964, and has trademarked the phrase.",
+   "rel": "place"
+  },
+  {
+   "from": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "Where the antipasto tray was, in the account the bar tells.",
+   "rel": "place"
+  },
+  {
+   "from": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Says a bowl of it was mixed here on 4 March 1964.",
+   "rel": "place"
+  },
+  {
+   "from": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Credited with the 1964 sauce it probably was not in.",
+   "rel": "place"
+  },
+  {
+   "from": "celery-and-carrots",
+   "type": "dish",
+   "name": "celery and carrots",
+   "as": "Brought out the cut celery and blue cheese with the first wings it claims, on 4 March 1964.",
+   "rel": "place"
+  },
+  {
+   "from": "grill",
+   "type": "fry",
+   "name": "the grill",
+   "as": "States in its own account that its wings are not grilled.",
+   "rel": "place"
+  },
+  {
+   "from": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "States the rule in its own words: deep-fried only, sauce added after.",
+   "rel": "place"
+  },
+  {
+   "from": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "States the rule in its own words: sauce after the fryer, never before.",
+   "rel": "place"
+  },
+  {
+   "from": "atomic-wings",
+   "type": "place",
+   "name": "Atomic Wings",
+   "as": "One of the Buffalo rooms its founder studied before opening in Manhattan.",
+   "rel": "origin"
+  },
+  {
+   "from": "duffs-famous-wings",
+   "type": "place",
+   "name": "Duff's Famous Wings",
+   "as": "Claims the wing against this house; a 1969 paper wrote the Anchor Bar up without mentioning wings, the year Duff's started selling them.",
+   "rel": "contrast"
+  },
+  {
+   "from": "gabriels-gate",
+   "type": "place",
+   "name": "Gabriel's Gate",
+   "as": "Half a mile away at Main and North, and the reason Allentown gets asked about wings at all.",
+   "rel": "kin"
+  },
+  {
+   "from": "la-nova-pizzeria",
+   "type": "place",
+   "name": "La Nova Pizzeria",
+   "as": "A mile east, selling the other Buffalo sauce; both bottle and ship.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wingnutz",
+   "type": "place",
+   "name": "Wingnutz",
+   "as": "The room Wingnutz's founders were measuring themselves against when they started in 2005.",
+   "rel": "contrast"
+  },
+  {
+   "from": "calvin-trillin",
+   "type": "person",
+   "name": "Calvin Trillin",
+   "as": "Went there, asked, and printed the answers without picking one.",
+   "rel": "place"
+  },
+  {
+   "from": "dominic-bellissimo",
+   "type": "person",
+   "name": "Dominic Bellissimo",
+   "as": "Tended this bar on the night it dates its wings to, then owned it and sold its story.",
+   "rel": "place"
+  },
+  {
+   "from": "drew-cerza",
+   "type": "person",
+   "name": "Drew Cerza",
+   "as": "Beat Bobby Flay in a wing Throwdown filmed in its dining room, 2007.",
+   "rel": "place"
+  },
+  {
+   "from": "frank-bellissimo",
+   "type": "person",
+   "name": "Frank Bellissimo",
+   "as": "Opened it in 1935 and ran its front of house for forty-five years.",
+   "rel": "place"
+  },
+  {
+   "from": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "The claim he spent his life arguing with; he put its regular wing menu at 1974, not 1964.",
+   "rel": "contrast"
+  },
+  {
+   "from": "teressa-bellissimo",
+   "type": "person",
+   "name": "Teressa Bellissimo",
+   "as": "Her kitchen, her apartment upstairs, and the house that tells her story.",
+   "rel": "place"
+  },
+  {
+   "from": "buffalo-wing-trail",
+   "type": "org",
+   "name": "Buffalo Wing Trail",
+   "as": "A stop since the trail opened, at 1047 Main Street.",
+   "rel": "place"
+  },
+  {
+   "from": "city-of-buffalo",
+   "type": "org",
+   "name": "City of Buffalo",
+   "as": "The bar whose version of the story the city's proclamation stands beside.",
+   "rel": "place"
+  },
+  {
+   "from": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "The Bellissimos were the first Hall of Flame inductees, in 2006.",
+   "rel": "place"
+  },
+  {
+   "from": "national-chicken-wing-day",
+   "type": "event",
+   "name": "National Chicken Wing Day",
+   "as": "The bar behind the honour, thirteen years after the date it gives for the first plate.",
+   "rel": "place"
+  },
+  {
+   "from": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "The bar the word is usually traced to, in a claim other people contest.",
+   "rel": "place"
+  },
+  {
+   "from": "ranch-vs-blue-cheese",
+   "type": "story",
+   "name": "Ranch against blue cheese",
+   "as": "Where the blue cheese cup enters the record, on the first night of its own story.",
+   "rel": "place"
+  },
+  {
+   "from": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Holds one side of it, dates it to 4 March 1964, and owns the trademark on the phrase.",
+   "rel": "place"
+  },
+  {
+   "from": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Its third origin version has backs and necks arriving as wings by mistake; in 2026 that mistake costs ten times the order.",
+   "rel": "place"
+  }
+ ]
+}

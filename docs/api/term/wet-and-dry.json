@@ -1,0 +1,288 @@
+{
+ "id": "wet-and-dry",
+ "names": {
+  "name": "wet and dry",
+  "aliases": [
+   "lemon pepper wet",
+   "dry rub",
+   "wet"
+  ],
+  "said": "'Lemon pepper. Wet.' Two words after the flavour, and the order changes."
+ },
+ "region": [
+  "atlanta",
+  "us"
+ ],
+ "facets": {
+  "letter": "W",
+  "part_of_speech": "phrase"
+ },
+ "etymology": {
+  "root": "wet + dry, plain antonyms recruited as a pair of menu terms: wet = finished in a liquid sauce, dry = finished in a powder",
+  "first_attested": "",
+  "note": "The pair reached a national audience through Atlanta. 'Lemon pepper wet' was invented at the American Deli in Atlanta; the second episode of the television series Atlanta put it in a character's hands from J.R. Crickets, which had no such item, and J.R. Crickets added it to the menu in 2017 in the show's honour. *Inference —* the phrase was counter shorthand long before the show; the show is only the first dated place this project can point at.",
+  "tier": "cited",
+  "source": "s:wp-lemon-pepper-wings"
+ },
+ "text": {
+  "what": "A two-way choice about the finish, asked after you have picked a flavour. Dry means the cooked wing gets tossed in seasoning — powder on crust. Wet means it gets tossed in something liquid, so butter or sauce carries the same seasoning. Same flavour name, two different foods.",
+  "how": "Order shape is flavour first, then the word: 'lemon pepper wet', 'hot lemon pepper dry'. Some Atlanta counters build wet by tossing in butter or buffalo sauce and then hitting the wings with dry seasoning anyway, which is a third thing with a two-word name. Dry travels better in a box; wet goes soft."
+ },
+ "kin": [
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "The style this pair of words belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "The powder that 'dry' means.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "as": "What 'wet' names when the flavour is lemon pepper.",
+   "rel": "sauce"
+  },
+  {
+   "to": "american-deli",
+   "as": "Where lemon pepper wet was invented, per the record.",
+   "rel": "place"
+  },
+  {
+   "to": "jr-cricketts",
+   "as": "Put the phrase on its menu in 2017 after a television episode sent people asking for it.",
+   "rel": "place"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "Dry as a whole style rather than an option.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step both words describe: what goes in the bowl.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-lemon-pepper-wings",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:wp-lemon-pepper-wings",
+    "note": "first_attested left empty: the 2017 menu date is dated, the phrase's first use is not"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A two-way choice about the finish, asked after you have picked a flavour. Dry means the cooked wing gets tossed in seasoning — powder on crust.",
+ "region_terms": [
+  {
+   "key": "atlanta",
+   "name": "Atlanta",
+   "state": "GA",
+   "note": "lemon pepper, wet and dry, and the wing plate with fried rice"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "atlanta-lemon-pepper",
+   "type": "style",
+   "name": "Lemon pepper wings",
+   "as": "The style this pair of words belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "The powder that 'dry' means.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "type": "sauce",
+   "name": "Lemon pepper wet",
+   "as": "What 'wet' names when the flavour is lemon pepper.",
+   "rel": "sauce"
+  },
+  {
+   "to": "american-deli",
+   "type": "place",
+   "name": "American Deli",
+   "as": "Where lemon pepper wet was invented, per the record.",
+   "rel": "place"
+  },
+  {
+   "to": "jr-cricketts",
+   "type": "place",
+   "name": "J.R. Crickets",
+   "as": "Put the phrase on its menu in 2017 after a television episode sent people asking for it.",
+   "rel": "place"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "Dry as a whole style rather than an option.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The step both words describe: what goes in the bowl.",
+   "rel": "fry"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-lemon-pepper-wings",
+   "kind": "wikipedia",
+   "title": "Lemon pepper wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper_wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings",
+   "note": "first_attested left empty: the 2017 menu date is dated, the phrase's first use is not"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "atlanta-lemon-pepper",
+   "type": "style",
+   "name": "Lemon pepper wings",
+   "as": "The two states this style is ordered in, and the pair of words that do the work.",
+   "rel": "term"
+  },
+  {
+   "from": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "The pair of words that decide whether the seasoning goes on bare or through butter.",
+   "rel": "term"
+  },
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "The pair of words Memphis asks about ribs first and wings second.",
+   "rel": "term"
+  },
+  {
+   "from": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "This is the dry half of the counter's two-word vocabulary.",
+   "rel": "term"
+  },
+  {
+   "from": "lemon-pepper-wet",
+   "type": "sauce",
+   "name": "Lemon pepper wet",
+   "as": "The two words this order is built out of.",
+   "rel": "term"
+  },
+  {
+   "from": "memphis-rub",
+   "type": "sauce",
+   "name": "Memphis dry rub",
+   "as": "Memphis says these two words about ribs; Atlanta and Baltimore borrowed them for wings.",
+   "rel": "term"
+  },
+  {
+   "from": "old-bay",
+   "type": "sauce",
+   "name": "Old Bay Seasoning",
+   "as": "Baltimore uses the same two words Atlanta does, and means the same thing by them.",
+   "rel": "term"
+  },
+  {
+   "from": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "Memphis runs the same choice as a style rather than as a special request.",
+   "rel": "term"
+  },
+  {
+   "from": "smoke-then-fry",
+   "type": "fry",
+   "name": "smoke then fry",
+   "as": "The choice this method forces at the end: dust it or sauce it.",
+   "rel": "term"
+  },
+  {
+   "from": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The two things the bowl can hold — a liquid or a dust.",
+   "rel": "term"
+  },
+  {
+   "from": "american-deli",
+   "type": "place",
+   "name": "American Deli",
+   "as": "The two words an order here has to choose between.",
+   "rel": "term"
+  },
+  {
+   "from": "chings-hot-wings",
+   "type": "place",
+   "name": "Ching's Hot Wings",
+   "as": "Settles the argument with the Kam Special: dry seasonings, then a honey hot drizzle.",
+   "rel": "term"
+  },
+  {
+   "from": "jr-cricketts",
+   "type": "place",
+   "name": "J.R. Crickets",
+   "as": "Two words that start every wing order at this counter.",
+   "rel": "term"
+  }
+ ]
+}

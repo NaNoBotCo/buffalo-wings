@@ -1,0 +1,84 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "beef-on-weck",
+ "names": {
+  "name": "beef on weck",
+  "aliases": [
+   "beef on kummelweck"
+  ],
+  "said": "Weck rhymes with deck. Order it rare, dipped, with horseradish, and expect to be asked how much."
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "course": "main"
+ },
+ "text": {
+  "what": "Rare roast beef, hand-carved thin, on a kummelweck roll topped with kosher salt and caraway seeds. The cut face of the top half gets dipped in jus from the roast; prepared horseradish comes on the side for the eater to spread. Along with wings and sponge candy it is one of the three best-known Buffalo specialties.",
+  "story": "The sandwich predates the wing by roughly a century, though its history is not well established. A German baker named William Wahr, thought to have come from the Black Forest, is believed to have made the kummelweck roll in Buffalo, possibly modelled on the Swabian Schwäbische Seele, a thin salt-and-caraway roll left as a ceremonial offering for the dead. A Western New York butcher puts the sandwich's creation somewhere in the mid-19th century. A local pub owner is said to have built it on the salted roll so the salt would sell more drink.\n\nKümmel is German for caraway and Weck means roll in the south-western dialects of the Palatinate, the Saarland, Baden and Swabia. The American roll ended up softer and fluffier than a German Kümmelbrötchen. Buffalo-area bakeries are the only commercial source for it.\n\nThe wing dragged the sandwich out of town. Buffalo Wild Wings was started by former Western New York residents and opened as \"Buffalo Wild Wings and Weck\", abbreviated BW3 — the third W was the weck. The chain dropped it in 1998 and some people still say BW3.",
+  "how": "Roast the beef slowly, keep it rare, and carve it thin by hand, often at a carving station in view. Dip the cut face of the top half of the roll in the jus. Leave the horseradish to the eater. The salt on the crust is coarse and it is meant to be tasted, which is the part a bar counted on.",
+  "today": "Expatriates carried it: PJ's BAR-B-QSA in Saratoga Springs is noted for its version, and Bobby Flay and Anthony Bourdain have both put it on television. *Inference —* the roll is the limit on how far it travels, because nobody outside Buffalo bakes it commercially."
+ },
+ "kin": [
+  {
+   "to": "weck",
+   "as": "The word for the roll, and the German dialect behind it.",
+   "rel": "term"
+  },
+  {
+   "to": "buffalo",
+   "as": "Shares a city and a bar counter with it; the sandwich is the older of the two by about a century.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Opened as Buffalo Wild Wings and Weck and carried this sandwich in its name until 1998.",
+   "rel": "place"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "The salted crust was reportedly built to sell more of it.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing-basket",
+   "as": "The other thing a Buffalo bar hands across the same counter.",
+   "rel": "contrast"
+  },
+  {
+   "to": "gabriels-gate",
+   "as": "A Buffalo tavern on this project's wing list; the sandwich and the wing share those rooms.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-beef-on-weck",
+  "s:wp-buffalo-new-york",
+  "s:wp-buffalo-wild-wings"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-beef-on-weck"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-beef-on-weck",
+    "note": "final sentence marked inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "kin[5].as": {
+    "tier": "inference",
+    "note": "the tavern is on this project's Buffalo list; no source names this sandwich on its menu"
+   }
+  }
+ },
+ "confidence": "high"
+}

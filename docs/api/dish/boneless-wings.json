@@ -1,0 +1,424 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "boneless-wings/boneless-wings-seitan-buffalo-wings-8442539976.jpg",
+   "source": "commons",
+   "title": "File:Seitan Buffalo Wings (8442539976).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Seitan_Buffalo_Wings_%288442539976%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASeitan_Buffalo_Wings_%288442539976%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Scott Veg",
+   "credit": "Seitan Buffalo Wings",
+   "alt": "Seitan Buffalo Wings recipe available at &lt;a href=\"http://thrivingvegetarian.com/blog/cooking/seitan-buffalo-wings/\" rel=\"noreferrer nofollow\"&gt;thrivingvegetarian.com/blog/cooking/seitan-buffalo-w",
+   "date": "2011-02-02 09:44",
+   "primary": true,
+   "sha256": "2c057495098c5be5e4bc1405c738155534353c4efbc98067348931f138c18764"
+  }
+ ],
+ "id": "boneless-wings",
+ "names": {
+  "name": "boneless wings",
+  "aliases": [
+   "boneless",
+   "wyngz",
+   "boneless chicken wings"
+  ],
+  "said": "Ordered by count like a wing and priced like a wing. A kitchen that sells both will ask bone-in or boneless before it asks the sauce."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "course": "main",
+  "cut": "boneless"
+ },
+ "text": {
+  "what": "Small pieces of skinless, boneless chicken breast coated in flour and spices, then fried or baked, like a chicken nugget, and tossed in or served with the same sauces as a Buffalo wing. Restaurants began offering them after the price of raw wings rose and as some diners wanted a neater way to eat; they are sometimes marketed under the name wyngz.",
+  "story": "The argument over the word reached a state supreme court. On 25 July 2024 the Supreme Court of Ohio decided Berkheimer v. REKM, L.L.C., slip op. No. 2024-Ohio-2787, 4 to 3. Michael Berkheimer had ordered boneless wings with parmesan garlic sauce at Wings on Brookwood in Hamilton, Ohio, in 2016. A bone lodged in his esophagus and tore it, and the tear caused an infection; CBS News reports the bone at 5 centimetres, while a law-firm note on the case describes it as roughly 1 3/8 inches. He sued, saying the restaurant failed to warn him that boneless wings could contain bones. The trial court gave the restaurant summary judgment and the appeals court affirmed.\n\nJustice Joseph T. Deters wrote for the majority. The Associated Press reports the opinion holding that a diner reading boneless wings on a menu would no more believe the restaurant was warranting the absence of bones than a person eating chicken fingers would think he had been served fingers. CBS News quotes the opinion directly: \"The food item's label on the menu described a cooking style; it was not a guarantee.\"\n\nJustice Michael P. Donnelly dissented, joined by Justices Melody J. Stewart and Jennifer Brunner. He called the majority's reasoning \"utter jabberwocky\". Of the word itself he wrote: \"When they read the word 'boneless,' they think that it means 'without bones,' as do all sensible people.\" And of the jury the case never reached: \"Does anyone really believe that the parents in this country who feed their young children boneless wings or chicken tenders or chicken nuggets or chicken fingers expect bones to be in the chicken? Of course they don't\".\n\n*Inference —* the two opinions are arguing about different things. One asks what a menu word does — names a preparation — and the other asks what a customer hears. This project records both and adjudicates neither; the court's own count was four to three.",
+  "how": "Cut breast into roughly one-inch pieces. Dredge in seasoned flour, or batter, then fry or bake. Sauce goes on the same way it goes on a wing: into a bowl, sauce poured over, shaken. Because there is no skin and no bone, the coating is doing all the work the skin does on a bone-in wing, and it goes soft faster once the sauce hits it.",
+  "today": "On the menu at nearly every chain and most bars, usually priced per piece against the bone-in count on the same board. *Inference —* the price gap moves with the wholesale wing market rather than with the cost of breast meat, which is why the boneless order is sometimes the cheaper one and sometimes not."
+ },
+ "kin": [
+  {
+   "to": "boneless",
+   "as": "The word, and the reasoning a 4-3 Ohio Supreme Court majority gave for what it describes.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "as": "The argument itself, with the people who make it named and quoted.",
+   "rel": "story"
+  },
+  {
+   "to": "wing-cut",
+   "as": "The step this skips entirely: no joints, no tip, no bone.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Lends its sauce and its counting to something cut from the breast.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "The same sauce goes on, which is most of why the name travelled.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dredge",
+   "as": "The flour-and-spice coat that stands in for skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "wingstop",
+   "as": "Sells bone-in and boneless wings side by side on one menu.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Carries both counts on the same board, which is where most Americans meet the choice.",
+   "rel": "place"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "The wholesale wing price is the reason this item exists at all.",
+   "rel": "story"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "wing-cut",
+   "tell": "Bones. A bone-in wing is two pieces cut from one limb; a boneless wing is breast meat cut into chunks."
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:web-ap-boneless-wings-ohio",
+  "s:web-cbs-boneless-wings",
+  "s:web-thompson-coburn-berkheimer",
+  "s:wp-chicken-nugget",
+  "s:wp-chicken-tenders"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ap-boneless-wings-ohio",
+    "note": "case facts and quotes from AP via NBC News, CBS News and a Thompson Coburn case note; the Ohio Supreme Court's own PDF would not load from this machine, so the slip-opinion number is taken from the law-firm note. Bone length differs between sources and is reported both ways. Final paragraph marked inference."
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the price sentence reasons from the wing market; no cited price"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "blurb": "Small pieces of skinless, boneless chicken breast coated in flour and spices, then fried or baked, like a chicken nugget, and tossed in or served with the same sauces as a Buffalo wing.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The word, and the reasoning a 4-3 Ohio Supreme Court majority gave for what it describes.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "The argument itself, with the people who make it named and quoted.",
+   "rel": "story"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "The step this skips entirely: no joints, no tip, no bone.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Lends its sauce and its counting to something cut from the breast.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "The same sauce goes on, which is most of why the name travelled.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The flour-and-spice coat that stands in for skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Sells bone-in and boneless wings side by side on one menu.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "Carries both counts on the same board, which is where most Americans meet the choice.",
+   "rel": "place"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "The wholesale wing price is the reason this item exists at all.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ap-boneless-wings-ohio",
+   "kind": "web",
+   "title": "It's OK for 'boneless' chicken wings to have bones, Ohio Supreme Court rules",
+   "publisher": "The Associated Press, published by NBC News",
+   "url": "https://www.nbcnews.com/news/us-news/ok-boneless-chicken-wings-bones-ohio-supreme-court-rules-rcna163758",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-cbs-boneless-wings",
+   "kind": "web",
+   "title": "Diners who order boneless chicken wings can't expect them to really be boneless, court rules",
+   "publisher": "CBS News (Aimee Picchi)",
+   "url": "https://www.cbsnews.com/news/boneless-chicken-wings-can-have-bones-lawsuit-ohio-supreme-court/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-thompson-coburn-berkheimer",
+   "kind": "web",
+   "title": "Berkheimer v. REKM Decision Says that Customers Should Reasonably Expect Bones in Boneless Wings",
+   "publisher": "Thompson Coburn LLP (Rachael C. Moore)",
+   "url": "https://www.thompsoncoburn.com/insights/berkheimer-v-rekm-decision-says-that-customers-should-reasonably-expect-bones-in-boneless-wings/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-nugget",
+   "kind": "wikipedia",
+   "title": "Chicken nugget",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_nugget",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-tenders",
+   "kind": "wikipedia",
+   "title": "Chicken tenders",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_tenders",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ap-boneless-wings-ohio",
+   "note": "case facts and quotes from AP via NBC News, CBS News and a Thompson Coburn case note; the Ohio Supreme Court's own PDF would not load from this machine, so the slip-opinion number is taken from the law-firm note. Bone length differs between sources and is reported both ways. Final paragraph marked inference."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the price sentence reasons from the wing market; no cited price"
+  }
+ },
+ "primary_image": {
+  "file": "boneless-wings/boneless-wings-seitan-buffalo-wings-8442539976.jpg",
+  "source": "commons",
+  "title": "File:Seitan Buffalo Wings (8442539976).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Seitan_Buffalo_Wings_%288442539976%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ASeitan_Buffalo_Wings_%288442539976%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Scott Veg",
+  "credit": "Seitan Buffalo Wings",
+  "alt": "Seitan Buffalo Wings recipe available at &lt;a href=\"http://thrivingvegetarian.com/blog/cooking/seitan-buffalo-wings/\" rel=\"noreferrer nofollow\"&gt;thrivingvegetarian.com/blog/cooking/seitan-buffalo-w",
+  "date": "2011-02-02 09:44",
+  "primary": true,
+  "sha256": "2c057495098c5be5e4bc1405c738155534353c4efbc98067348931f138c18764"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "Sunsal chikin is the same idea by another route, and predates the American argument about it.",
+   "rel": "kin"
+  },
+  {
+   "from": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "Ordered with it as often as bone-in, because the sauce is thick and the pieces are small.",
+   "rel": "dish"
+  },
+  {
+   "from": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "The order it turns up with most often, and the pairing the argument gets loudest about.",
+   "rel": "dish"
+  },
+  {
+   "from": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The other thing Buffalo sauce does to breast meat when the wing gets expensive.",
+   "rel": "kin"
+  },
+  {
+   "from": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "Uses the same breast meat and the same sauce, on a crust instead of in a basket.",
+   "rel": "kin"
+  },
+  {
+   "from": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The coat here is standing in for skin that was never there.",
+   "rel": "dish"
+  },
+  {
+   "from": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "Skips this entirely — breast meat chunked, no joints to find.",
+   "rel": "contrast"
+  },
+  {
+   "from": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "Sells them made from breast meat, beside the bone-in ones, on the same sauce list.",
+   "rel": "dish"
+  },
+  {
+   "from": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "Sold here alongside the classic, in eights and twelves, on the same board and at the same counts.",
+   "rel": "dish"
+  },
+  {
+   "from": "harolds-chicken-shack",
+   "type": "place",
+   "name": "Harold's Chicken Shack",
+   "as": "Not the trade here: this counter sells the bird in bone-in pieces, wings among them.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Sells hand-breaded breast meat under the wing heading, like most of the chains.",
+   "rel": "dish"
+  },
+  {
+   "from": "la-nova-pizzeria",
+   "type": "place",
+   "name": "La Nova Pizzeria",
+   "as": "The wholesale line ships them frozen and fully cooked alongside the bone-in.",
+   "rel": "dish"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Added them in 2009, fifteen years after opening on bone-in.",
+   "rel": "dish"
+  },
+  {
+   "from": "antonio-swad",
+   "type": "person",
+   "name": "Antonio Swad",
+   "as": "The chain he built added them in 2009, six years after he left it.",
+   "rel": "dish"
+  },
+  {
+   "from": "jim-disbrow",
+   "type": "person",
+   "name": "Jim Disbrow",
+   "as": "His chain sells them from breast meat alongside the bone-in, which is the argument's front line.",
+   "rel": "dish"
+  },
+  {
+   "from": "us-poultry-and-egg-association",
+   "type": "org",
+   "name": "U.S. Poultry & Egg Association",
+   "as": "A deboned breast product, which exists because the line that debones breasts exists.",
+   "rel": "dish"
+  },
+  {
+   "from": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "Shares the platter, and doubles the count without touching a wing.",
+   "rel": "dish"
+  },
+  {
+   "from": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The dish this word names, and where the eating is described.",
+   "rel": "dish"
+  },
+  {
+   "from": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "The menu item itself: breast meat, floured, fried, sauced like a wing.",
+   "rel": "dish"
+  }
+ ]
+}

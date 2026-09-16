@@ -1,0 +1,173 @@
+{
+ "id": "garlic-parmesan-sauce",
+ "names": {
+  "name": "Garlic parmesan sauce",
+  "aliases": [
+   "garlic parm",
+   "garlic parmesan"
+  ],
+  "said": "'Garlic parm' at the counter. Half the shops mean a creamy sauce, half mean butter and a dry cheese shake, and the menu rarely says which."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "base": "herb-garlic",
+  "heat": "none"
+ },
+ "text": {
+  "what": "A pale, garlicky wing coating with parmesan in it. Two versions share the name: a creamy emulsified sauce built on oil and egg yolk with parmesan powder, sold bottled; and a kitchen mix of melted butter, minced garlic and grated parmesan tossed over the wings and finished with more cheese and parsley. Neither has heat in it. Both leave the wing wet and the fingers cheesy.",
+  "story": "Garlic parm belongs to the sauce-board era. As the market for chicken wings expanded, restaurants began creating and using sauces beyond Buffalo, and a wing menu turned into a list — Wingstop carries thirteen wing sauces, some running only for a marketing window, and sells ranch, blue cheese, honey mustard and cheese sauce as dips beside them.\n\n*Inference —* garlic parm is the wing answer to garlic bread, which is crusty bread topped with garlic and butter and sometimes cheese, then toasted. A kitchen that already had butter, garlic and a tub of grated parmesan did not need a new ingredient to add a flavour to the board.\n\nThe sauce splits the same way lemon pepper does: dry shake or wet sauce. The bottled version settles the argument by emulsifying, so the cheese stays suspended and the sauce keeps on a shelf.",
+  "how": "Melt butter with minced or roasted garlic, off the heat so the garlic does not brown. Toss the fried wings in it, then shower grated parmesan and chopped parsley over the top while the butter is still wet enough to hold them. The bottled sauce skips the melting: it pours cold and clings, because oil and egg yolk hold it together.",
+  "today": "On the board at every wing chain and most bars. As of 16 September 2026 the USDA label panel for Kinder's Garlic Parmesan Wing Sauce & Dip reads 120 mg sodium and 1 g sugar in a 1-tablespoon serving — the lowest sodium of any bottled wing sauce measured for this set — with soybean oil first and roasted garlic puree second. No Scoville number is published, and the label names no chile."
+ },
+ "kin": [
+  {
+   "to": "garlic-parm",
+   "as": "The style is this sauce and the cheese shaken over it.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "as": "Built the same way — something wet, then a dry shake — with cheese instead of citrus.",
+   "rel": "kin"
+  },
+  {
+   "to": "wingstop",
+   "as": "Carries it on a board of thirteen wing sauces, beside ranch and blue cheese as dips.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "The other butter-based wing coating, and the one with cayenne in it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "Shares the garlic-and-dairy register, and often turns up in the same order as the dip.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-toss",
+   "as": "Wants the bowl twice: once for the butter, once for the cheese.",
+   "rel": "fry"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "as": "The other garlic-forward wing with no heat, reached through soy and sugar instead of dairy.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "ranch-dressing",
+   "tell": "Where it goes. Garlic parm coats the wing; ranch sits in a cup beside it. The bottled versions look alike in the jar."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "herb-garlic",
+  "maker": "P. K. Kinder Co., Inc.",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "soybean oil",
+   "roasted garlic puree",
+   "water",
+   "sugar",
+   "egg yolk",
+   "parmesan cheese powder",
+   "vinegar",
+   "yellow mustard",
+   "salt",
+   "roasted garlic powder",
+   "parsley",
+   "lactic acid",
+   "citric acid",
+   "natural flavor",
+   "garlic oil"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 7,
+  "fat_rank": 1,
+  "tomato_rank": 0,
+  "sugar_rank": 4,
+  "mustard_rank": 8,
+  "soy_rank": 0,
+  "serving_tbsp": 1,
+  "sodium_mg_per_tbsp": 120,
+  "sugar_g_per_tbsp": 1,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-kinders-garlic-parmesan",
+  "url": "https://fdc.nal.usda.gov/food-details/2652872/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Kinder's Garlic Parmesan Wing Sauce & Dip, 12.7 oz. Label serving is 1 Tbsp (18 g), so the per-tablespoon figures are the label's own. soy_rank is 0: soybean oil at rank 1 is a fat, not soy sauce, and is counted under fat_rank. Garlic appears four times — puree at 2, powder at 10, whole at 15 as oil — which the single rank cannot show. The chain versions, including Wingstop's, carry no published label."
+ },
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-wingstop",
+  "s:fdc-kinders-garlic-parmesan"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-kinders-garlic-parmesan",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method is general kitchen practice; the bottled composition is cited"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-wingstop",
+    "note": "the sauce-board expansion and the Wingstop count are cited; the garlic-bread reading is marked inference"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-kinders-garlic-parmesan"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "recipes": [
+  {
+   "title": "Kinder's Garlic Parmesan Wing Sauce & Dip, as labelled",
+   "source": "s:fdc-kinders-garlic-parmesan",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/2652872/nutrients",
+   "region": "United States",
+   "ingredients": [
+    "soybean oil",
+    "roasted garlic puree",
+    "water",
+    "sugar",
+    "egg yolk",
+    "parmesan cheese powder",
+    "vinegar",
+    "yellow mustard",
+    "salt",
+    "roasted garlic powder",
+    "parsley",
+    "lactic acid",
+    "citric acid",
+    "natural flavor",
+    "garlic oil"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. The kitchen version — melted butter, garlic, grated parmesan, parsley — is not a published recipe anybody owns, so nothing is copied for it."
+  }
+ ]
+}

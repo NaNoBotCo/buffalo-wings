@@ -1,0 +1,294 @@
+{
+ "schema": 1,
+ "id": "andre-prince-jeffries",
+ "type": "person",
+ "names": {
+  "name": "André Prince Jeffries",
+  "aliases": [
+   "Andre Prince Jeffries",
+   "Miss André"
+  ],
+  "sort": "Jeffries, Andre Prince"
+ },
+ "region": [
+  "nashville",
+  "the-south"
+ ],
+ "facets": {
+  "role": [
+   "cook",
+   "family",
+   "founder"
+  ],
+  "state": "TN",
+  "styles": [
+   "nashville-hot"
+  ]
+ },
+ "text": {
+  "what": "Took over her great-uncle Thornton Prince's café in 1980, dropped the BBQ out of its name, and has run Prince's Hot Chicken Shack since. Her account of the dish is the account most writers work from, and she gives it without claiming to have settled it.",
+  "story": "Maude Prince, widow of Thornton's brother Will, decided in 1980 that the business should go to Thornton's great-niece. André renamed it by subtraction, taking the BBQ out of Prince's BBQ Chicken Shack.\n\nJoe York recorded her for the Southern Foodways Alliance on 7 July 2006. \"It's a 24-hour chicken,\" she told him, and the chicken is not dropped into the skillet until it is ordered. On who orders it hottest: \"More women eat it hot than men, and I don't know why that is but they do.\" On not advertising, in 2006, she counted eighteen years of not doing it.\n\nShe declines to close the origin question herself. Speaking to The Bitter Southerner she said: \"Of course, a few folks say that before there was Prince's BBQ Chicken Shack, there was a place called Bo's.\" She quotes her mother twice in that piece — \"if you know people are gonna talk, give them something to talk about\" and \"if you have what people want, they will make their way to your door\" — which is closer to a business philosophy than a founding myth.\n\nUnder her the café moved to Ewing Drive in East Nashville. In December 2018 a Ford Explorer crashed into the strip mall housing it and set the building alight. The restaurant itself was undamaged and she expected two weeks; damage to the building and the landlord's delays over repairs ran to seven months, and she announced the closure permanent. That location had been open since 1989.\n\nThe James Beard Foundation named Prince's an America's Classic in 2013. Bill Purcell, mayor of Nashville, called his table there his second office.",
+  "how": "Mild, medium and hot on the board, with hotter grades past that; cayenne paste goes on the chicken after the fry, spooned and pressed in by hand in a glove. Served on white bread with pickle chips.",
+  "today": "Prince's operates out of Assembly Food Hall in Nashville, with further locations the company lists including South Nashville, the airport and Tanger Outlets. Sources read on 16 September 2026 record her as the owner; nothing later was checked."
+ },
+ "kin": [
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "Hers since 1980, and renamed by her the day she took it.",
+   "rel": "place"
+  },
+  {
+   "to": "thornton-prince",
+   "as": "Her great-uncle, whose story she tells and declines to certify.",
+   "rel": "person"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "The style her counter is the reference point for, wings included.",
+   "rel": "style"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "The paste that goes on after the fryer, spooned and pressed by hand.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "The plate as her family serves it, and the tell that it is Nashville.",
+   "rel": "dish"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Recorded her in 2006, which is why her own words on the dish exist on the record.",
+   "rel": "org"
+  },
+  {
+   "to": "hattie-bs",
+   "as": "Came along in 2012 selling the style she had been selling for thirty years.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "as": "The other Nashville counter people name in the same breath as hers.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-prince-s-hot-chicken-shack",
+  "s:wp-hot-chicken",
+  "s:web-sfa-princes-hot-chicken",
+  "s:web-bitter-southerner-hot-chicken",
+  "s:web-princes-hot-chicken-about"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-prince-s-hot-chicken-shack"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-hot-chicken",
+    "note": "heat grades from the SFA interview; the paste-after-fry method from the hot chicken article"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-princes-hot-chicken-about",
+    "note": "read 16 September 2026; her living status is as recorded by these sources on that date"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Took over her great-uncle Thornton Prince's café in 1980, dropped the BBQ out of its name, and has run Prince's Hot Chicken Shack since.",
+ "region_terms": [
+  {
+   "key": "nashville",
+   "name": "Nashville",
+   "state": "TN",
+   "note": "hot chicken, and the wings cooked the same way"
+  },
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "Hers since 1980, and renamed by her the day she took it.",
+   "rel": "place"
+  },
+  {
+   "to": "thornton-prince",
+   "type": "person",
+   "name": "Thornton Prince",
+   "as": "Her great-uncle, whose story she tells and declines to certify.",
+   "rel": "person"
+  },
+  {
+   "to": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "The style her counter is the reference point for, wings included.",
+   "rel": "style"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "The paste that goes on after the fryer, spooned and pressed by hand.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "The plate as her family serves it, and the tell that it is Nashville.",
+   "rel": "dish"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "Recorded her in 2006, which is why her own words on the dish exist on the record.",
+   "rel": "org"
+  },
+  {
+   "to": "hattie-bs",
+   "type": "place",
+   "name": "Hattie B's Hot Chicken",
+   "as": "Came along in 2012 selling the style she had been selling for thirty years.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "type": "place",
+   "name": "Bolton's Spicy Chicken & Fish",
+   "as": "The other Nashville counter people name in the same breath as hers.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-prince-s-hot-chicken-shack",
+   "kind": "wikipedia",
+   "title": "Prince's Hot Chicken Shack",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prince%27s_Hot_Chicken_Shack",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hot chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-princes-hot-chicken",
+   "kind": "web",
+   "title": "Prince's Hot Chicken Shack — oral history with André Prince Jeffries, interviewed by Joe York, 7 July 2006",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/princes-hot-chicken-shack/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bitter-southerner-hot-chicken",
+   "kind": "web",
+   "title": "How Hot Chicken Really Happened",
+   "publisher": "The Bitter Southerner (Rachel L. Martin)",
+   "url": "https://bittersoutherner.com/how-hot-chicken-really-happened",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-princes-hot-chicken-about",
+   "kind": "web",
+   "title": "Our History",
+   "publisher": "Prince's Hot Chicken",
+   "url": "https://www.princeshotchicken.com/about",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-prince-s-hot-chicken-shack"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-prince-s-hot-chicken-shack"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-hot-chicken",
+   "note": "heat grades from the SFA interview; the paste-after-fry method from the hot chicken article"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-princes-hot-chicken-about",
+   "note": "read 16 September 2026; her living status is as recorded by these sources on that date"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "Took the shop over in 1980, dropped the BBQ from its name, and kept the recipe unpublished.",
+   "rel": "person"
+  },
+  {
+   "from": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "Has run the shop since 1980 and tells the origin.",
+   "rel": "person"
+  },
+  {
+   "from": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "Runs the shack the style is traced to, and tells its origin as an act of revenge.",
+   "rel": "person"
+  },
+  {
+   "from": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "Took it in 1980, when Maude — the widow of Thornton's brother Will — decided it should be hers, and dropped the BBQ from the name.",
+   "rel": "person"
+  },
+  {
+   "from": "adrian-miller",
+   "type": "person",
+   "name": "Adrian Miller",
+   "as": "One of the cooks the food-history field he works in has spent twenty years recording.",
+   "rel": "person"
+  },
+  {
+   "from": "thornton-prince",
+   "type": "person",
+   "name": "Thornton Prince",
+   "as": "His great-niece, who took the business in 1980 and dropped the BBQ out of its name.",
+   "rel": "person"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "Sat for its interview, and named the shack a late-night place in her own words.",
+   "rel": "person"
+  }
+ ]
+}

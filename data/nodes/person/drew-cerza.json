@@ -1,0 +1,90 @@
+{
+ "schema": 1,
+ "id": "drew-cerza",
+ "type": "person",
+ "names": {
+  "name": "Drew Cerza",
+  "aliases": [
+   "the Wing King"
+  ],
+  "sort": "Cerza, Drew"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "role": [
+   "organizer"
+  ],
+  "state": "NY",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Founded the National Buffalo Wing Festival in 2002 and runs it. A marketing man by trade, he took the idea from a film that invented a Buffalo wing festival that did not exist, and built the one that does.",
+  "story": "The 2001 film Osmosis Jones has Bill Murray's character planning a trip to a National Chicken Wing Festival in Buffalo. No such thing existed. Buffalo News columnist Donn Esmonde asked in print why not. Cerza, then working in food promotion, answered the column. \"I loved wings and my hometown of Buffalo, so, I decided that it was time\" for a festival, he told Visit Buffalo Niagara. The first one ran at Sahlen Field in 2002.\n\nThe festival's own accounting, as of the page read in September 2026, puts it at roughly $200,000 raised for local charities, about three million wings served with a hundred sauce varieties, and over 500,000 visitors across its run. Cerza was named Buffalo Citizen of the Year in 2003 and Tourism Executive of the Year in 2011. In 2007 he beat Bobby Flay in a wing Throwdown filmed at the Anchor Bar. In 2011 the festival put its own founder into the Hall of Flame, alongside Bill Murray.\n\nIn 2013 he inducted John Young.\n\nCerza does not pretend to neutrality on the arguments, which makes him useful to quote rather than to paraphrase. On ranch: \"It's sacrilegious. Putting ranch dressing on wings is like putting ketchup on filet mignon.\" On whether he would use a sauce other than Frank's: \"Are you serious??? Never! I have Frank's Red Hot running through my veins.\" And on the city: \"I love Buffalo. It's a great city, with awesome people and the best regional food in the country.\"",
+  "today": "The festival runs Labor Day weekend and returned to Sahlen Field in 2025 after five years at Highmark Stadium. Cerza is president and CEO of Just Wing It Productions, the agency his 1994 firm RMI Promotions became."
+ },
+ "kin": [
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Founded it in 2002 and has run it since.",
+   "rel": "event"
+  },
+  {
+   "to": "john-young",
+   "as": "Inducted him into the Hall of Flame in 2013, the first Buffalo institution to put his name up.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Beat Bobby Flay in a wing Throwdown filmed in its dining room, 2007.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "Sells the style by the ton every Labor Day weekend and argues its rules out loud.",
+   "rel": "style"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "Has a side and states it in his own words rather than hedging.",
+   "rel": "story"
+  },
+  {
+   "to": "franks-redhot",
+   "as": "Says he will use nothing else, in those words.",
+   "rel": "sauce"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "Hands him the trophy most years the eating championship goes his way.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-national-buffalo-wing-festival",
+  "s:web-buffalowing-wing-king",
+  "s:web-visitbuffalo-cerza-qa",
+  "s:web-hall-of-flame",
+  "s:wp-anchor-bar"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-buffalo-wing-festival"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-buffalowing-wing-king",
+    "note": "read 16 September 2026; his current role is taken from the festival's own pages and is not independently dated"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

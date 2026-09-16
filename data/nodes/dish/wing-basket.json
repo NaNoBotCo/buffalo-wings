@@ -1,0 +1,142 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "wing-basket/wing-basket-chicken-wings-at-pretty-boy-redi.jpg",
+   "source": "commons",
+   "title": "File:Chicken wings at Pretty Boy Redi.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Chicken_wings_at_Pretty_Boy_Redi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChicken_wings_at_Pretty_Boy_Redi.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "JIP",
+   "credit": "Own work",
+   "alt": "A plate of chicken wings and French fries served for lunch at restaurant Pretty Boy Wingery in the Redi shopping centre in Kalasatama, Helsinki, Finland in August 2026.",
+   "date": "2026-08-19",
+   "primary": true,
+   "sha256": "8a4149d1f1e560667782274497a6ffcef26de4016dc5b5d5c727186eb853b7ce"
+  },
+  {
+   "file": "wing-basket/wing-basket-ph-buffalo-wings.jpg",
+   "source": "commons",
+   "title": "File:PH Buffalo Wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/PH_Buffalo_Wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APH_Buffalo_Wings.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Cody Hough",
+   "credit": "Own work",
+   "alt": "Buffalo wings from a Pizza Hut in Portage, MI.",
+   "date": "2008-08-04",
+   "primary": false,
+   "sha256": "99f36bcc54756bbbb6971fc3b2090823c1cf77cfbc1c0ad3642afd354add8cfb"
+  }
+ ],
+ "id": "wing-basket",
+ "names": {
+  "name": "the wing basket",
+  "sort": "wing basket",
+  "aliases": [
+   "a basket of wings",
+   "wing order",
+   "the plate"
+  ],
+  "said": "Six, ten, twenty, fifty. Say the number, then the heat, then the dip. The paper liner comes out soaked and that is the receipt."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "course": "main",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "The unit a bar sells wings in: a count of pieces in a basket or on a plate, lined with paper, with celery and carrots, a cup of blue cheese or ranch, and usually fries. A fry basket is the tool the wings come out of the oil in — it contains the food in the fryer and strains it on the way out — and the serving basket copies its shape.",
+  "story": "The count came from the knife. A wing off the bird is cut at both joints into a drumette, a flat and a tip; the tip is usually discarded or boiled for stock, so one wing sells as two pieces. Order twenty and twenty pieces arrive, which is roughly ten birds' worth of one wing each.\n\nThe basket came from the bar. Chains built around it — Buffalo Wild Wings from 1982, Hooters from 1983 — and Hooters put the pairing in its own words: \"Customers can go to many places for wings and beer.\" Wingstop's sides sit where the wing shop's economics are clearest: fries, fried corn, and veggie sticks of carrots and/or celery, sold rather than given.\n\n*Inference —* the basket is the reason a wing is counted instead of weighed, and the reason a shop can price heat, count and dip separately while charging for none of them by the pound.",
+  "how": "Fry the pieces, drain them in the basket, tip them into a metal bowl, pour sauce over and shake. Into the lined basket, vegetables on top or beside, dip in a cup, fries underneath or alongside. Extra napkins, and wet wipes at counters that have learned. A dry-rub order skips the bowl and gets tossed with seasoning instead.",
+  "today": "Standard at chains and independents alike. A shop that sells all flats or all drums charges for the privilege, because splitting a case by piece costs the kitchen its yield. *Tradition holds —* the number in a basket is the one thing about a wing order nobody argues over."
+ },
+ "kin": [
+  {
+   "to": "wing",
+   "as": "The word and the counting unit this basket is measured in.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Why a basket of twenty is ten birds' worth of one wing each.",
+   "rel": "fry"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Rides in the same basket, unasked in Buffalo and priced elsewhere.",
+   "rel": "part"
+  },
+  {
+   "to": "french-fries",
+   "as": "Under the wings or beside them, and the cheapest way to make a count into a meal.",
+   "rel": "part"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "The other half of the order, and the reason bars sell wings at all.",
+   "rel": "dish"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "The fry basket the serving basket is shaped after.",
+   "rel": "fry"
+  },
+  {
+   "to": "all-flats",
+   "as": "The special request that breaks the basket's economics, and what a shop charges for it.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-night",
+   "as": "The night the basket gets priced by the piece and the room fills.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "What the count costs, and why that number moves.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-deep-frying",
+  "s:wp-hooters",
+  "s:wp-wingstop",
+  "s:wp-buffalo-wild-wings",
+  "s:wp-chicken-as-food"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wing",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "counter practice; the bowl-and-shake step is cited"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

@@ -1,0 +1,356 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "breaded-fry/breaded-fry-buffalowingsplate.jpg",
+   "source": "commons",
+   "title": "File:Buffalowingsplate.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalowingsplate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalowingsplate.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Alvis at English Wikipedia",
+   "credit": "Transferred from en.wikipedia to Commons by Liftarn using CommonsHelper.",
+   "alt": "Homemade Buffalo Wings, coated in Italian bread crumbs, deep fried, with butter, vinegar, and Tabasco hot sauce and chunky bleu cheese dressing dipping sauce.",
+   "date": "29 December 2006 (original upload date)",
+   "primary": true,
+   "sha256": "06dd50c239fce4aa126929729e126127e78971f5a338aa82d8d7f69d168432d8"
+  }
+ ],
+ "id": "breaded-fry",
+ "names": {
+  "name": "the breaded fry",
+  "sort": "breaded fry",
+  "aliases": [
+   "breaded",
+   "dredged and fried",
+   "Rochester-style"
+  ],
+  "said": "Rochester says breaded and means flour. Elsewhere breaded means crumbs, and the two do not eat alike."
+ },
+ "region": [
+  "rochester",
+  "us"
+ ],
+ "facets": {
+  "kind": "coating"
+ },
+ "text": {
+  "what": "Coating a wing before it goes in the oil — flour, seasoned flour, batter or crumbs — so the crust rather than the skin carries the crunch and holds the sauce. One common method for preparing food for deep frying involves adding multiple layers of batter around the food, such as cornmeal, flour or tempura; breadcrumbs may also be used.",
+  "story": "Breading was the Buffalo practice before bare frying was. From 1961 John Young served uncut chicken wings that were breaded, deep fried, and dressed in his own tomato-based mumbo sauce at John Young's Wings 'n Things; he had heard from a travelling boxer about a Washington, D.C. restaurant doing good business in wings and decided to specialise. He registered the name at the county courthouse and left the Buffalo area in 1970, and in 2013 the National Buffalo Wing Festival inducted him into its Hall of Flame.\n\nThe method did not leave the region when he did. It held seventy miles east, and it holds across fried chicken generally: Nashville's hot chicken is marinated in buttermilk, floured and fried before the paste goes on.\n\n*Inference —* the coat changes what sauce does. On bare skin sauce sits and slides; on a crust it soaks, which is why breaded traditions tolerate a thinner, sweeter sauce than a bare fry does.",
+  "how": "Dry the wing, then dredge — straight seasoned flour, or flour then egg then crumb for a thicker jacket. Rest the coated pieces a few minutes so the flour hydrates and stops shedding. Fry at 177–191 °C / 350–375 °F. A coated wing browns faster than a bare one, so it comes out earlier by eye, not by clock.",
+  "today": "Standard across Rochester and through most of American fried chicken; the argument with Buffalo is seventy miles long and unresolved. *Tradition holds —* a shop that breads will describe its flour as a recipe, and a shop that fries bare will describe having no recipe at all."
+ },
+ "kin": [
+  {
+   "to": "rochester-breaded",
+   "as": "The style this method defines, and the case it makes against its neighbour.",
+   "rel": "style"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The other answer to the same question, seventy miles west.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dredge",
+   "as": "The coating step itself, and what each layer is for.",
+   "rel": "fry"
+  },
+  {
+   "to": "john-young",
+   "as": "Breaded his wings in Buffalo from 1961, three years before the Anchor Bar's date.",
+   "rel": "person"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "Flours its chicken too, then puts the cayenne on after the fryer as a paste.",
+   "rel": "style"
+  },
+  {
+   "to": "jojo-potatoes",
+   "as": "The same coat on a potato, under pressure.",
+   "rel": "dish"
+  },
+  {
+   "to": "mozzarella-sticks",
+   "as": "The crumb version of the same idea, on cheese.",
+   "rel": "dish"
+  },
+  {
+   "to": "extra-crispy",
+   "as": "What a menu calls a coat taken further, and what that word does and does not settle.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-deep-frying",
+  "s:wp-hot-chicken",
+  "s:wp-fried-chicken",
+  "s:wp-national-buffalo-wing-festival"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wing",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the frying range is cited; resting and eye-judging are trade practice"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "Coating a wing before it goes in the oil — flour, seasoned flour, batter or crumbs — so the crust rather than the skin carries the crunch and holds the sauce.",
+ "region_terms": [
+  {
+   "key": "rochester",
+   "name": "Rochester",
+   "state": "NY",
+   "note": "seventy miles east of Buffalo and breading its wings, which Buffalo notices"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "The style this method defines, and the case it makes against its neighbour.",
+   "rel": "style"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The other answer to the same question, seventy miles west.",
+   "rel": "contrast"
+  },
+  {
+   "to": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The coating step itself, and what each layer is for.",
+   "rel": "fry"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Breaded his wings in Buffalo from 1961, three years before the Anchor Bar's date.",
+   "rel": "person"
+  },
+  {
+   "to": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "Flours its chicken too, then puts the cayenne on after the fryer as a paste.",
+   "rel": "style"
+  },
+  {
+   "to": "jojo-potatoes",
+   "type": "dish",
+   "name": "jojo potatoes",
+   "as": "The same coat on a potato, under pressure.",
+   "rel": "dish"
+  },
+  {
+   "to": "mozzarella-sticks",
+   "type": "dish",
+   "name": "mozzarella sticks",
+   "as": "The crumb version of the same idea, on cheese.",
+   "rel": "dish"
+  },
+  {
+   "to": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "What a menu calls a coat taken further, and what that word does and does not settle.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hot chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-fried-chicken",
+   "kind": "wikipedia",
+   "title": "Fried chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fried_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-national-buffalo-wing-festival",
+   "kind": "wikipedia",
+   "title": "National Buffalo Wing Festival",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Buffalo_Wing_Festival",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing",
+   "note": "closing paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the frying range is cited; resting and eye-judging are trade practice"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": {
+  "file": "breaded-fry/breaded-fry-buffalowingsplate.jpg",
+  "source": "commons",
+  "title": "File:Buffalowingsplate.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalowingsplate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalowingsplate.jpg",
+  "license": "Public domain",
+  "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+  "author": "Alvis at English Wikipedia",
+  "credit": "Transferred from en.wikipedia to Commons by Liftarn using CommonsHelper.",
+  "alt": "Homemade Buffalo Wings, coated in Italian bread crumbs, deep fried, with butter, vinegar, and Tabasco hot sauce and chunky bleu cheese dressing dipping sauce.",
+  "date": "29 December 2006 (original upload date)",
+  "primary": true,
+  "sha256": "06dd50c239fce4aa126929729e126127e78971f5a338aa82d8d7f69d168432d8"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "The coating that separates this style from Buffalo's, and the reason a sweet glaze sticks.",
+   "rel": "fry"
+  },
+  {
+   "from": "jojo-potatoes",
+   "type": "dish",
+   "name": "jojo potatoes",
+   "as": "Gets the same flour-and-spice coat a Rochester wing gets, on a potato.",
+   "rel": "fry"
+  },
+  {
+   "from": "mozzarella-sticks",
+   "type": "dish",
+   "name": "mozzarella sticks",
+   "as": "The same crumb coat a Rochester wing wears.",
+   "rel": "fry"
+  },
+  {
+   "from": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "What this step produces, and the style built on it.",
+   "rel": "fry"
+  },
+  {
+   "from": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The other answer to the same question, seventy miles east.",
+   "rel": "contrast"
+  },
+  {
+   "from": "atomic-wings",
+   "type": "place",
+   "name": "Atomic Wings",
+   "as": "Breads every wing in the shop, which is the choice that separates it from the Buffalo rooms it copies.",
+   "rel": "fry"
+  },
+  {
+   "from": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "Hand-breads every wing before it goes in the oil.",
+   "rel": "fry"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Breads its house wing by hand, which is the older Rochester answer done at national scale.",
+   "rel": "fry"
+  },
+  {
+   "from": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Breaded his wings, which is the method Buffalo's bars define themselves against.",
+   "rel": "fry"
+  },
+  {
+   "from": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The coating that makes it possible; skinless breast needs one.",
+   "rel": "fry"
+  },
+  {
+   "from": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "The thing it is defined against.",
+   "rel": "contrast"
+  },
+  {
+   "from": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "How a boneless wing is built: coat the meat, batter the coat, fry it.",
+   "rel": "fry"
+  }
+ ]
+}

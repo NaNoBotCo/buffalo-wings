@@ -1,0 +1,515 @@
+{
+ "note": "Every proportion here names where it came from, because a builder that invented recipes would undo the rest of this site. Where a free-to-use recipe exists it is used in its own ratios and credited. Where none exists — and for a cayenne-and-butter wing sauce none does — the proportions are this project's own and say so under the result. Sugar under each result is computed from the quantities on screen, at 12.6 g of sugar in a tablespoon of sugar, 17 g in honey, 10 g in molasses and 3.7 g in ketchup, and drawn against the bottles read for the sauce page. A sauce you make generally lands nowhere near them.",
+ "sugar_g_per_tbsp": {
+  "sugar": 12.6,
+  "brown sugar": 12.6,
+  "molasses": 10.0,
+  "ketchup": 3.7,
+  "honey": 17.0
+ },
+ "tbsp_per": {
+  "tsp": 0.3333,
+  "tbsp": 1,
+  "cup": 16,
+  "quart": 64,
+  "gallon": 256
+ },
+ "batches": [
+  {
+   "key": "cup",
+   "label": "a cup — ten wings",
+   "tbsp": 16
+  },
+  {
+   "key": "pint",
+   "label": "a pint — fifty wings",
+   "tbsp": 32
+  },
+  {
+   "key": "quart",
+   "label": "a quart — a party",
+   "tbsp": 64
+  }
+ ],
+ "heats": [
+  {
+   "key": "mild",
+   "label": "Mild",
+   "mult": 0.65
+  },
+  {
+   "key": "medium",
+   "label": "Medium",
+   "mult": 1.0
+  },
+  {
+   "key": "hot",
+   "label": "Hot",
+   "mult": 1.35
+  },
+  {
+   "key": "atomic",
+   "label": "Make it hurt",
+   "mult": 1.8
+  }
+ ],
+ "sweets": [
+  {
+   "key": "dry",
+   "label": "Not sweet",
+   "mult": 0.0
+  },
+  {
+   "key": "little",
+   "label": "A little",
+   "mult": 0.5
+  },
+  {
+   "key": "sweet",
+   "label": "Sweet",
+   "mult": 1.0
+  },
+  {
+   "key": "sweeter",
+   "label": "Sweeter",
+   "mult": 1.8
+  }
+ ],
+ "bases": [
+  {
+   "key": "buffalo",
+   "sauce": "buffalo-sauce",
+   "style": "buffalo",
+   "name": "Cayenne and butter",
+   "region": "Buffalo, and every bar that copied it",
+   "says": "Two ingredients doing the work. Butter carries the pepper and nothing thickens it.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "No free-to-use Buffalo wing sauce recipe exists to build on: the Anchor Bar's is a trade secret and the bottle recipes are somebody's copyright. Cited here is only what the sauce IS — a vinegar-based cayenne pepper sauce cut with melted butter, sometimes with Worcestershire and garlic powder. The ratio here is this project's own, and a cook who wants it milder pours more butter, which is exactly how a bar does it."
+   },
+   "method_tier": "tradition",
+   "ingredients": [
+    {
+     "name": "cayenne pepper sauce",
+     "per_tbsp": 0.58,
+     "role": "body",
+     "dial": "heat",
+     "unit_hint": "Frank's RedHot or Crystal — the thin, vinegary kind, not a thick chilli sauce"
+    },
+    {
+     "name": "unsalted butter, melted",
+     "per_tbsp": 0.38,
+     "role": "fat"
+    },
+    {
+     "name": "cider vinegar",
+     "per_tbsp": 0.025,
+     "role": "sharp"
+    },
+    {
+     "name": "Worcestershire sauce",
+     "per_tbsp": 0.012,
+     "role": "season"
+    },
+    {
+     "name": "garlic powder",
+     "per_tbsp": 0.008,
+     "role": "season"
+    },
+    {
+     "name": "honey",
+     "per_tbsp": 0.03,
+     "role": "sweet",
+     "dial": "sweet",
+     "sugar": "honey"
+    }
+   ],
+   "method": [
+    "Melt the butter gently. Do not brown it.",
+    "Whisk the pepper sauce in off the heat, then the vinegar, the Worcestershire and the garlic.",
+    "Hold it warm. It splits if it sits; whisk it back together.",
+    "Fry the wings first, sauce them after, in a metal bowl, shaken."
+   ]
+  },
+  {
+   "key": "lemon-pepper-wet",
+   "sauce": "lemon-pepper-wet",
+   "style": "atlanta-lemon-pepper",
+   "name": "Lemon pepper, wet",
+   "region": "Atlanta",
+   "says": "Dry seasoning loosened in butter until it clings. Order it dry and you skip the second step.",
+   "anchor": {
+    "kind": "ancestor",
+    "title": "Cookbook:Lemon Pepper",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Pepper",
+    "source": "s:wikibooks-cookbook",
+    "note": "Wikibooks names what goes in a lemon-pepper blend — dehydrated lemon zest and black pepper, often with salt, garlic and onion powders and citric acid — and gives no amounts at all. The components are its; the proportions below are ours."
+   },
+   "method_tier": "inference",
+   "ingredients": [
+    {
+     "name": "unsalted butter, melted",
+     "per_tbsp": 0.62,
+     "role": "body"
+    },
+    {
+     "name": "lemon pepper seasoning",
+     "per_tbsp": 0.2,
+     "role": "season",
+     "dial": "heat"
+    },
+    {
+     "name": "lemon juice",
+     "per_tbsp": 0.1,
+     "role": "sharp"
+    },
+    {
+     "name": "grated lemon zest",
+     "per_tbsp": 0.03,
+     "role": "season"
+    },
+    {
+     "name": "garlic powder",
+     "per_tbsp": 0.02,
+     "role": "season"
+    },
+    {
+     "name": "honey",
+     "per_tbsp": 0.03,
+     "role": "sweet",
+     "dial": "sweet",
+     "sugar": "honey"
+    }
+   ],
+   "method": [
+    "Melt the butter and take it off the heat.",
+    "Stir the seasoning, the zest and the garlic through it.",
+    "Add the lemon juice last so it stays bright.",
+    "Toss the wings in it, then dust with more dry seasoning at the end."
+   ]
+  },
+  {
+   "key": "jerk",
+   "sauce": "jerk-marinade",
+   "style": "caribbean-jerk",
+   "name": "Jerk",
+   "region": "Jamaica, by way of Brooklyn, the Bronx, Miami and Hartford",
+   "says": "Allspice, thyme and chile. A marinade before the fire, not a sauce after it.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Jamaican Jerk Spice I",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Jamaican_Jerk_Spice_I",
+    "source": "s:wikibooks-cookbook",
+    "note": "The dry spice below keeps the Wikibooks recipe's own ratios — cayenne, cinnamon, nutmeg, allspice, onion powder, thyme, sugar, dried onion, salt. The oil, lime and soy that turn it into a wet marinade are ours."
+   },
+   "method_tier": "inference",
+   "ingredients": [
+    {
+     "name": "vegetable oil",
+     "per_tbsp": 0.36,
+     "role": "body"
+    },
+    {
+     "name": "lime juice",
+     "per_tbsp": 0.16,
+     "role": "sharp"
+    },
+    {
+     "name": "soy sauce",
+     "per_tbsp": 0.1,
+     "role": "season"
+    },
+    {
+     "name": "cayenne pepper",
+     "per_tbsp": 0.085,
+     "role": "heat",
+     "dial": "heat"
+    },
+    {
+     "name": "dried minced onion",
+     "per_tbsp": 0.043,
+     "role": "season"
+    },
+    {
+     "name": "salt",
+     "per_tbsp": 0.043,
+     "role": "season"
+    },
+    {
+     "name": "dried thyme",
+     "per_tbsp": 0.029,
+     "role": "season"
+    },
+    {
+     "name": "sugar",
+     "per_tbsp": 0.043,
+     "role": "sweet",
+     "dial": "sweet",
+     "sugar": "sugar"
+    },
+    {
+     "name": "ground allspice",
+     "per_tbsp": 0.014,
+     "role": "season"
+    },
+    {
+     "name": "ground cinnamon",
+     "per_tbsp": 0.014,
+     "role": "season"
+    },
+    {
+     "name": "ground nutmeg",
+     "per_tbsp": 0.014,
+     "role": "season"
+    },
+    {
+     "name": "onion powder",
+     "per_tbsp": 0.014,
+     "role": "season"
+    }
+   ],
+   "method": [
+    "Combine the dry spices first and keep what you do not use in a sealed jar.",
+    "Whisk the oil, lime and soy into the spice until it is a loose paste.",
+    "Coat the wings and leave them cold for at least four hours, overnight if you can.",
+    "Grill or roast them. Jerk wants live fire or a hot oven, not a fryer."
+   ]
+  },
+  {
+   "key": "teriyaki",
+   "sauce": "teriyaki-sauce",
+   "style": "korean-american",
+   "name": "Soy and sweet",
+   "region": "Japanese and Korean American kitchens, and every wing menu since the 1990s",
+   "says": "Soy, mirin, sugar. It glazes rather than coats, and it burns if the pan is hot.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Teriyaki Sauce",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Teriyaki_Sauce",
+    "source": "s:wikibooks-cookbook",
+    "note": "Scaled from the recipe's own two-parts-soy, two-parts-mirin, one-part-brown-sugar, with its teaspoon each of ginger and garlic. The proportions are the recipe's. Teriyaki is Japanese; the Korean American wing it sits beside on a menu is a different sauce with a different history, and that record says so."
+   },
+   "method_tier": "cited",
+   "ingredients": [
+    {
+     "name": "soy sauce",
+     "per_tbsp": 0.375,
+     "role": "body"
+    },
+    {
+     "name": "mirin",
+     "per_tbsp": 0.375,
+     "role": "body"
+    },
+    {
+     "name": "brown sugar",
+     "per_tbsp": 0.187,
+     "role": "sweet",
+     "dial": "sweet",
+     "sugar": "brown sugar"
+    },
+    {
+     "name": "fresh ginger, finely chopped",
+     "per_tbsp": 0.031,
+     "role": "season"
+    },
+    {
+     "name": "garlic, finely chopped",
+     "per_tbsp": 0.031,
+     "role": "season"
+    },
+    {
+     "name": "gochugaru or red pepper flakes",
+     "per_tbsp": 0.02,
+     "role": "heat",
+     "dial": "heat"
+    }
+   ],
+   "method": [
+    "Warm everything in a small pan over a low heat until the sugar dissolves.",
+    "Do not boil it down unless you want a glaze; it thickens as it cools.",
+    "Brush it on fried wings rather than tossing them, or it slides off.",
+    "A half teaspoon of cornstarch boiled in will hold it on, per the recipe's own note."
+   ]
+  },
+  {
+   "key": "hot-honey",
+   "sauce": "hot-honey",
+   "style": "nashville-hot",
+   "name": "Hot honey",
+   "region": "everywhere, since about 2010",
+   "says": "Sweet first, then the burn arrives late. The most recent thing on this list by decades.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "No free-to-use recipe carries this one. The proportions are ours, built to keep honey first on the list, which is where every commercial bottle puts it."
+   },
+   "method_tier": "inference",
+   "ingredients": [
+    {
+     "name": "honey",
+     "per_tbsp": 0.7,
+     "role": "body",
+     "dial": "sweet",
+     "sugar": "honey"
+    },
+    {
+     "name": "cider vinegar",
+     "per_tbsp": 0.14,
+     "role": "sharp"
+    },
+    {
+     "name": "red pepper flakes",
+     "per_tbsp": 0.055,
+     "role": "heat",
+     "dial": "heat"
+    },
+    {
+     "name": "cayenne pepper sauce",
+     "per_tbsp": 0.09,
+     "role": "heat",
+     "dial": "heat"
+    },
+    {
+     "name": "salt",
+     "per_tbsp": 0.008,
+     "role": "season"
+    }
+   ],
+   "method": [
+    "Warm the honey with the flakes until it loosens. Do not let it catch.",
+    "Off the heat, stir in the vinegar, the pepper sauce and the salt.",
+    "Leave it an hour so the flakes give up their heat, then strain if you want it clear.",
+    "Drizzle rather than toss; it sets on a cooling wing."
+   ]
+  },
+  {
+   "key": "alabama-white",
+   "sauce": "alabama-white-sauce",
+   "style": "alabama-white",
+   "name": "Alabama white",
+   "region": "north Alabama, and the smokers that borrowed it",
+   "says": "Mayonnaise, vinegar and black pepper. Thin, sharp, and it breaks over heat.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "Composed from the sauce record's cited description — mayonnaise, vinegar, black pepper, lemon, sometimes horseradish. Big Bob Gibson's own formula is not published, and nothing here claims to be it."
+   },
+   "method_tier": "inference",
+   "ingredients": [
+    {
+     "name": "mayonnaise",
+     "per_tbsp": 0.62,
+     "role": "body"
+    },
+    {
+     "name": "cider vinegar",
+     "per_tbsp": 0.22,
+     "role": "sharp"
+    },
+    {
+     "name": "lemon juice",
+     "per_tbsp": 0.05,
+     "role": "sharp"
+    },
+    {
+     "name": "coarse black pepper",
+     "per_tbsp": 0.035,
+     "role": "season",
+     "dial": "heat"
+    },
+    {
+     "name": "prepared horseradish",
+     "per_tbsp": 0.03,
+     "role": "heat",
+     "dial": "heat"
+    },
+    {
+     "name": "salt",
+     "per_tbsp": 0.01,
+     "role": "season"
+    },
+    {
+     "name": "sugar",
+     "per_tbsp": 0.02,
+     "role": "sweet",
+     "dial": "sweet",
+     "sugar": "sugar"
+    }
+   ],
+   "method": [
+    "Whisk everything cold. It wants to be pourable, not spoonable.",
+    "Rest it overnight if you can; the pepper needs the time.",
+    "Dunk smoked wings in it straight off the cooker, or serve it in a cup.",
+    "Keep it off direct heat. Mayonnaise splits."
+   ]
+  },
+  {
+   "key": "garlic-parm",
+   "sauce": "garlic-parmesan-sauce",
+   "style": "garlic-parm",
+   "name": "Garlic and parmesan",
+   "region": "the pizzeria, and then the whole country",
+   "says": "Butter, garlic, cheese. The one flavour on a wing menu that owes nothing to a pepper.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "No free-to-use recipe exists for the wing version. Composed to keep butter first and cheese fine enough to cling, which is what the sauce record describes."
+   },
+   "method_tier": "inference",
+   "ingredients": [
+    {
+     "name": "unsalted butter, melted",
+     "per_tbsp": 0.55,
+     "role": "body"
+    },
+    {
+     "name": "finely grated parmesan",
+     "per_tbsp": 0.22,
+     "role": "body"
+    },
+    {
+     "name": "garlic, crushed",
+     "per_tbsp": 0.1,
+     "role": "season"
+    },
+    {
+     "name": "olive oil",
+     "per_tbsp": 0.07,
+     "role": "fat"
+    },
+    {
+     "name": "chopped parsley",
+     "per_tbsp": 0.03,
+     "role": "season"
+    },
+    {
+     "name": "red pepper flakes",
+     "per_tbsp": 0.02,
+     "role": "heat",
+     "dial": "heat"
+    },
+    {
+     "name": "honey",
+     "per_tbsp": 0.015,
+     "role": "sweet",
+     "dial": "sweet",
+     "sugar": "honey"
+    }
+   ],
+   "method": [
+    "Warm the butter and oil with the garlic until the garlic smells sweet, not brown.",
+    "Take it off the heat before the cheese goes in, or the cheese turns to string.",
+    "Toss the wings, then finish with more cheese and the parsley.",
+    "Grate the cheese finer than feels necessary. Coarse cheese falls off."
+   ]
+  }
+ ]
+}

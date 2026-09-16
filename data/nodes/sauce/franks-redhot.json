@@ -1,0 +1,157 @@
+{
+ "id": "franks-redhot",
+ "names": {
+  "name": "Frank's RedHot",
+  "aliases": [
+   "Frank's",
+   "Frank's RedHot Original Cayenne Pepper Sauce"
+  ],
+  "said": "A bar orders it by the case and says 'Frank's' the way it says 'a Coke'."
+ },
+ "region": [
+  "us",
+  "western-ny"
+ ],
+ "facets": {
+  "base": "vinegar-pepper",
+  "heat": "mild",
+  "styles": "buffalo"
+ },
+ "text": {
+  "what": "A thin orange cayenne pepper sauce: aged cayenne red peppers, distilled vinegar, water, salt, garlic powder, in that order on the label. McCormick & Company makes it. The Original blend measures 450 Scoville heat units — the capsaicin scale named for Wilbur Scoville — which puts it below Tabasco, Cholula and Tapatío, and barely above Sriracha; the XTRA Hot blend measures 2,000. It is the bottle most Buffalo wing recipes start from.",
+  "story": "Jacob Frank founded the Frank Tea and Spice Company in Cincinnati, Ohio in 1896. In 1917 he contracted with the Estilette Pepper Farm in Louisiana and went into partnership with Adam Estilette. They mixed spices, vinegar, garlic and cayenne peppers, aged them, and put the blend on the market in 1920.\n\nOwnership moved: Durkee Famous Foods in 1977, Reckitt Benckiser from 1995, and in August 2017 McCormick & Company closed a $4.2 billion deal that took in both French's mustard and Frank's RedHot. Production sits in Springfield, Missouri.\n\nThe wing connection is older than the ownership and thinner than the marketing. Wikipedia's Buffalo wing article says Frank's \"was probably not the hot sauce that was used in the original 1964 Anchor Bar recipe.\" *Inference —* the bottle's grip on the wing was won after the fact, by being cheap, thin, and everywhere.\n\nThe brand's television campaign gave it a second life: an elderly woman named Ethel, planted in front of a dignitary, says of her recipes \"I put that s*** on everything\", bleeped, with a splat over her mouth.",
+  "how": "Shake. Pour into melted butter for wings, roughly one part to one for mild, more sauce for hot. Straight on eggs, pizza, fried chicken, and into chili. The vinegar is the working part as much as the pepper: it cuts fat and it keeps the sauce thin enough to coat rather than cling.",
+  "today": "Sold nationally in supermarkets and in food-service jugs. As of 16 September 2026 the USDA label panel for the 5 fl oz Original bottle reads 190 mg sodium in a 1 teaspoon serving — 570 mg in a tablespoon — with no sugar and no fat. The maker publishes the 450 SHU figure for Original; it publishes no Scoville number for its Buffalo Wings Sauce or its Nashville Hot."
+ },
+ "kin": [
+  {
+   "to": "buffalo-sauce",
+   "as": "Half of it, by volume, before the butter goes in.",
+   "rel": "whole"
+  },
+  {
+   "to": "crystal-hot-sauce",
+   "as": "The other cayenne bottle; three ingredients against five, and a thinner vinegar line.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Named in the standard account of how this style is sauced.",
+   "rel": "style"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "Some Nashville pastes take a slug of it; McCormick also sells a bottled Nashville Hot wings sauce under this brand.",
+   "rel": "kin"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "as": "Its orange-and-black bottle is one of the labels the shelf is read by.",
+   "rel": "art"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Credited with the 1964 sauce it probably was not in.",
+   "rel": "place"
+  },
+  {
+   "to": "the-toss",
+   "as": "Goes into the bowl warm, with butter, and never before the fryer.",
+   "rel": "fry"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "buffalo-sauce",
+   "tell": "This is the bottle. Buffalo sauce is the bottle plus melted butter, mixed in the kitchen or in a factory."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "vinegar-pepper",
+  "maker": "McCormick & Company, Inc.",
+  "town": "Springfield",
+  "state": "MO",
+  "ingredients": [
+   "aged cayenne red peppers",
+   "distilled vinegar",
+   "water",
+   "salt",
+   "garlic powder"
+  ],
+  "pepper_rank": 1,
+  "vinegar_rank": 2,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 0,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 0.333,
+  "sodium_mg_per_tbsp": 570,
+  "sugar_g_per_tbsp": 0,
+  "scoville": 450,
+  "heat_claim": null,
+  "source": "s:fdc-franks-redhot-original",
+  "url": "https://fdc.nal.usda.gov/food-details/2565317/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Label serving is 1 tsp (5 mL) = 0.333 tbsp; label sodium is 190 mg, so 190 × 3 = 570 mg per tablespoon. Ingredient order is the label's. The maker's own product page prints the same statement with 'Distilled Vinegar' spelled out. The 450 SHU is published for the Original blend and is the rare case where a wing-sauce maker states a number; heat_claim is null because the bottle prints no heat word — 'Original' names the variety, not a heat level."
+ },
+ "recipes": [
+  {
+   "title": "Pepper vinegar",
+   "source": "s:harland-1906",
+   "license": "Public domain",
+   "year": 1906,
+   "author": "Marion Harland",
+   "book": "Marion Harland's Complete Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "region": "United States",
+   "ingredients": [
+    "half a dozen red peppers",
+    "three dozen black peppercorns",
+    "two tablespoonfuls of sugar",
+    "a quart of vinegar"
+   ],
+   "text": "Break up half a dozen red peppers. Add three dozen black peppercorns and two tablespoonfuls of sugar to a quart of vinegar. Scald vinegar and sugar, and pour over the peppers. Put in a jar, steep eight hours, strain and bottle.\n\nThis is to be eaten with fish or raw oysters.",
+   "note": "Copied verbatim, old spellings kept. A home version of the same idea — red pepper steeped in vinegar and bottled — published fourteen years before Frank's reached the market. Harland sends it to the oyster plate, not the wing."
+  }
+ ],
+ "sources": [
+  "s:wp-frank-s-redhot",
+  "s:wp-buffalo-wing",
+  "s:wp-scoville-scale",
+  "s:fdc-franks-redhot-original",
+  "s:web-franks-redhot-original-page",
+  "s:harland-1906",
+  "s:wp-cayenne-pepper"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-frank-s-redhot"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-franks-redhot-original",
+    "fetched_at": "2026-09-16"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "ratios are general practice; the ingredient list is cited"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-franks-redhot-original"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16"
+}

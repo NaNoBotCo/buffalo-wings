@@ -1,0 +1,94 @@
+{
+ "id": "atomic",
+ "names": {
+  "name": "atomic",
+  "aliases": [
+   "atomic wings",
+   "nuclear",
+   "triple atomic"
+  ],
+  "said": "Always last on the heat list, and usually printed in red."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "A",
+  "part_of_speech": "adjective"
+ },
+ "etymology": {
+  "root": "Ancient Greek átomos 'uncuttable' → Latin atomus → English atom → atomic; the wing sense borrows the bomb's connotation from the mid-20th century, not the physics",
+  "first_attested": "1989 as a business name: Adam Lippin opened Atomic Wings in New York City that year, by the company's own account of its thirtieth anniversary in 2019. That dates the word's use for a wing business, not its first use as a heat level, which this project could not date",
+  "note": "*Inference —* the ladder needs a top rung that sounds like consequence rather than measurement. Mild, medium and hot describe; atomic threatens. That is why the next rung up is usually a repetition — triple atomic, atomic scorpion — rather than a new word.",
+  "tier": "cited",
+  "source": "s:web-atomic-wings-30th"
+ },
+ "text": {
+  "what": "Top of a house heat ladder, and a word that only means something inside one bar's list. Wingstop's own description of its Atomic flavour is \"It's the hottest we've got. Find out for yourself\" — Spice Level 5, the end of its scale. An atomic at one counter can be milder than a hot at another, because nothing standardises the rungs.",
+  "story": "The word carries a whole apparatus with it. Bars and restaurants make an extra-hot sauce specifically so there is something to fail at, and reward whoever finishes with a photograph on the wall or the website, a commemorative T-shirt, a free meal, or some combination.\n\nQuaker Steak & Lube runs the form at its most elaborate: its Atomic Scorpion sauce is published at 800,000 Scoville heat units, entrants sign a standard waiver, silicone gloves stay on, no bathroom breaks, and the finishers get a free t-shirt and their names on a chalkboard. Drinks are allowed, and there is no clock.\n\n*Inference —* the waiver is the point of the word. A signature turns an order into an event, and an event is what gets photographed, which is what the wall is for.",
+  "how": "Ordered by someone else's dare, eaten with a dairy dip within reach — blue cheese or ranch, both of which cut capsaicin better than beer does. Kitchens usually serve it in a small count and usually will not sauce a whole basket."
+ },
+ "kin": [
+  {
+   "to": "atomic-wings",
+   "as": "The New York chain that took the word for its name, in 1989.",
+   "rel": "place"
+  },
+  {
+   "to": "wingstop",
+   "as": "Publishes the word at the top of its own five-level scale.",
+   "rel": "place"
+  },
+  {
+   "to": "mango-habanero",
+   "as": "The rung below it on most chain lists — heat with a fruit to hide behind.",
+   "rel": "sauce"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "Heat built into the cooking fat rather than bolted on as a top rung.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing-bowl",
+   "as": "The other place wings became a spectacle with a crowd and a prize.",
+   "rel": "event"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "The dip argument, which an atomic order settles by force.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:web-wingstop-atomic",
+  "s:web-chowhound-spice-challenges",
+  "s:web-atomic-wings-30th",
+  "s:wp-scoville-scale"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-atomic-wings-30th"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-chowhound-spice-challenges"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

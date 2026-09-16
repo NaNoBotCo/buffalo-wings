@@ -1,0 +1,56 @@
+{
+ "source": "Nominatim forward geocoding of OpenStreetMap data",
+ "license": "ODbL 1.0",
+ "attribution": "© OpenStreetMap contributors",
+ "note": "town centres for the towns printed on sauce labels; a point is the town, never the maker's door",
+ "rows": {
+  "Atlanta, GA": {
+   "lat": 33.7545,
+   "lon": -84.3898,
+   "display": "Atlanta, Fulton County, Georgia, United States",
+   "fetched_at": "2026-09-16"
+  },
+  "Birmingham, AL": {
+   "lat": 33.5207,
+   "lon": -86.8024,
+   "display": "Birmingham, Jefferson County, Alabama, United States",
+   "fetched_at": "2026-09-16"
+  },
+  "Brooklyn, NY": {
+   "lat": 40.6526,
+   "lon": -73.9497,
+   "display": "Brooklyn, Kings County, New York, United States",
+   "fetched_at": "2026-09-16"
+  },
+  "Hunt Valley, MD": {
+   "lat": 39.4963,
+   "lon": -76.6543,
+   "display": "Hunt Valley, 98, Shawan Road, Hunt Valley, Cockeysville, Baltimore County, Maryland, 21030, United States",
+   "fetched_at": "2026-09-16"
+  },
+  "Nashville, TN": {
+   "lat": 36.1623,
+   "lon": -86.7743,
+   "display": "Nashville, Davidson County, Middle Tennessee, Tennessee, United States",
+   "fetched_at": "2026-09-16"
+  },
+  "Reserve, LA": {
+   "lat": 30.0824,
+   "lon": -90.5585,
+   "display": "Reserve, St. John the Baptist Parish, Louisiana, 70084, United States",
+   "fetched_at": "2026-09-16"
+  },
+  "Springfield, MO": {
+   "lat": 37.2082,
+   "lon": -93.2923,
+   "display": "Springfield, Greene County, Missouri, United States",
+   "fetched_at": "2026-09-16"
+  },
+  "Washington, DC": {
+   "lat": 38.8951,
+   "lon": -77.0364,
+   "display": "Washington, District of Columbia, United States",
+   "fetched_at": "2026-09-16"
+  }
+ }
+}

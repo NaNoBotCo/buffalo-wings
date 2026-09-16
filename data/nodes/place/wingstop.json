@@ -1,0 +1,160 @@
+{
+ "schema": 1,
+ "id": "wingstop",
+ "type": "place",
+ "names": {
+  "name": "Wingstop",
+  "aliases": [
+   "Wingstop Inc.",
+   "Wingstop Restaurants"
+  ],
+  "sort": "Wingstop"
+ },
+ "region": [
+  "texas",
+  "us"
+ ],
+ "facets": {
+  "state": "TX",
+  "status": "open",
+  "founded": 1994,
+  "cooked": "fried",
+  "styles": [
+   "buffalo",
+   "atlanta-lemon-pepper",
+   "garlic-parm"
+  ]
+ },
+ "text": {
+  "what": "A fast-food chain built on one part of the bird. Antonio Swad and Bernadette Fiaschetti opened the first Wingstop in Garland, Texas in 1994 and franchised it from 1997; the company is headquartered in Dallas and counted 3,255 restaurants system-wide on 27 June 2026. Orders go in at a counter or through an app, cook after the order lands, and come out sauced by hand in a bowl. The dining rooms carry a 1930s and 1940s pre-jet aviation theme.",
+  "story": "Wingstop opened in Garland, Texas in 1994, sold its first franchise in 1997, and by 2002 claimed two million wings served. Lunch arrived in 2005, boneless in 2009. Gemini Investors bought the chain in 2003 and sold it to Roark Capital Group in 2010; the company went public in 2015 at $19 a share.\n\nThe chain grew fastest in the decade after that. Nation's Restaurant News ranked it the third-fastest-growing US restaurant chain between 2014 and 2016 by both system-wide sales and unit growth. Mexico came first abroad, in 2010, then Singapore, the Philippines, Indonesia, London from 2018, Canada from June 2022. In June 2021 the company launched ThighStop, a delivery-only menu of chicken thighs, and said the point was cost.\n\nThe National Buffalo Wing Festival put Antonio Swad in its Hall of Flame in 2010, for building a national wing franchise. Back in 2012, the chain told the National Chicken Council it expected to sauce 5.6 million wings on Super Bowl Sunday alone, against Sunday sales averaging 290 percent above normal, with Original Hot, Lemon Pepper and Hickory Smoked BBQ its three biggest flavours that day.\n\n*Inference —* the menu is a map of other people's cities: Buffalo's cayenne and butter, Atlanta's lemon pepper, garlic parmesan off the pizzeria, all of them ordered by flavour name rather than by heat.",
+  "how": "Wings fry to order, not ahead. The company's own line, read on wingstop.com on 16 September 2026, is \"cooked-to-order and hand sauced-and-tossed classic and boneless wings, tenders and chicken sandwiches, in fans' choice of 12 bold, distinctive flavors, with signature sides such as our seasoned fries and iconic housemade ranch and bleu cheese dips.\" Sauce meets wing in a bowl after the fryer, the same order of operations a Buffalo bar uses. Sides run fries, fried corn, and carrot and celery sticks.",
+  "today": "3,255 restaurants system-wide as of 27 June 2026: 2,728 in the United States, of which 57 are company-owned, and 527 franchised abroad. System-wide sales ran $1.4 billion in that quarter and over $5 billion across fiscal 2025. Wikipedia's article, read 16 September 2026, counts 15 countries and lists Australia, the Netherlands, Ireland and Thailand among the newest."
+ },
+ "geo": {
+  "lat": 32.8064167,
+  "lon": -96.7928319,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "2801 North Central Expressway, Suite 1600",
+  "city": "Dallas",
+  "county": "Dallas",
+  "state": "TX",
+  "postcode": "75204"
+ },
+ "links": [
+  {
+   "label": "Wingstop",
+   "url": "https://www.wingstop.com/"
+  },
+  {
+   "label": "Wingstop investor relations",
+   "url": "https://ir.wingstop.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "house-sauce",
+   "source": "s:web-wingstop-site",
+   "tier": "cited",
+   "note": "the company's own words for the ranch and bleu cheese dips: \"iconic housemade\""
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "buffalo-wing-festival",
+   "what": "Antonio Swad, Wingstop founder, inducted into the National Buffalo Wing Hall of Flame",
+   "year": 2010,
+   "source": "s:web-buffalowing-hall-of-flame",
+   "url": "https://buffalowing.com/hall-of-flame/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "antonio-swad",
+   "as": "Opened this in Garland in 1994 and got a Hall of Flame induction for it in 2010.",
+   "rel": "person"
+  },
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "Carries Atlanta's seasoning to every state as a flavour name on a national menu board.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Sells it as Original Hot, and it was the chain's top Super Bowl flavour in 2012.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-toss",
+   "as": "Does it in a bowl, by hand, after the fryer — the chain says so on its own front page.",
+   "rel": "fry"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Added them in 2009, fifteen years after opening on bone-in.",
+   "rel": "dish"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The chain's biggest day: in 2012 it projected 5.6 million wings and sales 290 percent over an average Sunday.",
+   "rel": "event"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "The other national wing chain, twelve years older and built around a bar instead of a counter.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bonchon",
+   "as": "Runs its US business out of the same city, Dallas, on a different fry.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "A chain this size buys wings by the truckload, so its menu price moves with the wholesale one.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-wingstop",
+  "s:web-wingstop-q2-2026",
+  "s:web-wingstop-site",
+  "s:web-edgar-wingstop",
+  "s:web-ncc-wings-hot-topic",
+  "s:web-buffalowing-hall-of-flame"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-wingstop"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-wingstop-site",
+    "fetched_at": "2026-09-16"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wingstop-q2-2026"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the Dallas headquarters address of record on EDGAR, geocoded against OpenStreetMap; not the 1994 Garland store, whose address is not on this disk"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-edgar-wingstop",
+    "note": "business address of record, so headquarters rather than first location"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "x_commons_files": []
+}

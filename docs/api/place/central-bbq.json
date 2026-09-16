@@ -1,0 +1,363 @@
+{
+ "schema": 1,
+ "id": "central-bbq",
+ "type": "place",
+ "names": {
+  "name": "Central BBQ",
+  "aliases": [
+   "Central Barbecue",
+   "CBQ"
+  ],
+  "sort": "Central BBQ"
+ },
+ "region": [
+  "memphis"
+ ],
+ "facets": {
+  "state": "TN",
+  "status": "open",
+  "founded": 2002,
+  "cooked": "smoked",
+  "styles": [
+   "memphis-dry-rub",
+   "smoked-bbq-wing"
+  ]
+ },
+ "text": {
+  "what": "A Memphis barbecue house started in 2002 by two competition cooks, Craig Blondis and Roger Sapp, on Central Avenue. Smoked hot wings come off the same pit as the ribs, whole, in six finishes: wet, naked, jerked, dry spice, honey gold or sweet heat. The house line is \"Smoke is Our Sauce.\"",
+  "story": "Blondis and Sapp met on the barbecue circuit in the mid-1980s and competed at Memphis in May's World Championship Barbecue Cooking Contest before they went into business together. The pit at the first Central BBQ, on Central Avenue, was fired in 2002.\n\nThe method the house publishes: premium meats rubbed with a dry spice combination, marinated twenty-four hours, then smoked low and slow over hickory and pecan. In their words, \"We live in the hardwood capital of the world and use hickory and pecan woods, along with our intricate dry rub and a whole lot of patience.\"\n\nBlondis recorded an oral history with the Southern Foodways Alliance on 13 July 2008, interviewed by Rien T. Fertel for the Tennessee BBQ project. He described bringing competition-style barbecue to a Memphis storefront, a sauce board that includes vinegar and mustard styles uncommon in the city, and a kitchen run light: \"if you can control consistency and quality, you will have repeat customers.\"\n\n*Inference —* the wing here is a barbecue-counter wing, not a fryer wing. Where a Buffalo bar fries and then tosses, this pit smokes and then decides — and one of the six choices, naked, is to decide nothing.",
+  "how": "Smoked, whole, then finished six ways: wet, naked, jerked, dry spice, honey gold or sweet heat. The dry spice is the house rub, the same one that goes on the ribs.",
+  "today": "Four Memphis rooms in September 2026, including the Central Avenue original at 2249 Central Avenue, phone (901) 754-2216, plus Summer Avenue, Poplar Avenue and a downtown shop on East Butler Avenue. Smoked Hot Wings are on the menu at each."
+ },
+ "geo": {
+  "lat": 35.1258836,
+  "lon": -89.9867443,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "2249 Central Avenue",
+  "city": "Memphis",
+  "county": "Shelby",
+  "state": "TN",
+  "postcode": "38104"
+ },
+ "links": [
+  {
+   "label": "Central BBQ",
+   "url": "https://eatcbq.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "smoked",
+   "source": "s:web-central-bbq-midtown",
+   "tier": "cited",
+   "note": "the menu heading is Smoked Hot Wings, whole, with six finishes"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-central-bbq-about",
+   "tier": "cited",
+   "note": "a dry rub of its own plus four house sauces, including vinegar and mustard styles the Southern Foodways Alliance interview calls uncommon for Memphis"
+  },
+  {
+   "tag": "bone-in-only",
+   "source": "s:web-central-bbq-midtown",
+   "tier": "cited",
+   "note": "the wings are listed as whole; no boneless wing appears on the menu page read here"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "Oral history with Craig Blondis, interviewed by Rien T. Fertel for the Tennessee BBQ project",
+   "year": 2008,
+   "source": "s:web-sfa-central-bbq",
+   "url": "https://www.southernfoodways.org/interview/central-bbq/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "smoked-bbq-wing",
+   "as": "Runs the wing through a rib pit first, then decides whether to sauce it at all.",
+   "rel": "style"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "Puts the rib rub on the wing as one of six finishes, under the name dry spice.",
+   "rel": "style"
+  },
+  {
+   "to": "memphis-rub",
+   "as": "The house dry spice: a combination the kitchen keeps, applied before a twenty-four-hour marinate.",
+   "rel": "sauce"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "Stops at the smoke; this pit does not finish a wing in oil.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked",
+   "as": "One of the six wing finishes, and here it means no sauce rather than no breading.",
+   "rel": "term"
+  },
+  {
+   "to": "jerk-marinade",
+   "as": "Jerked is one of the six, on a Memphis pit rather than a Caribbean grill.",
+   "rel": "sauce"
+  },
+  {
+   "to": "chings-hot-wings",
+   "as": "The other Memphis wing in this set, fried and counted rather than smoked.",
+   "rel": "contrast"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Recorded Craig Blondis here in 2008 for its Tennessee BBQ project.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:web-central-bbq-about",
+  "s:web-central-bbq-midtown",
+  "s:web-sfa-central-bbq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-central-bbq-about"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim, 2249 Central Avenue, Cooper-Young, Memphis"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-central-bbq-midtown"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Memphis barbecue house started in 2002 by two competition cooks, Craig Blondis and Roger Sapp, on Central Avenue.",
+ "region_terms": [
+  {
+   "key": "memphis",
+   "name": "Memphis",
+   "state": "TN",
+   "note": "dry rub off the rib counter, put on wings"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "Runs the wing through a rib pit first, then decides whether to sauce it at all.",
+   "rel": "style"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "Puts the rib rub on the wing as one of six finishes, under the name dry spice.",
+   "rel": "style"
+  },
+  {
+   "to": "memphis-rub",
+   "type": "sauce",
+   "name": "Memphis dry rub",
+   "as": "The house dry spice: a combination the kitchen keeps, applied before a twenty-four-hour marinate.",
+   "rel": "sauce"
+  },
+  {
+   "to": "smoke-then-fry",
+   "type": "fry",
+   "name": "smoke then fry",
+   "as": "Stops at the smoke; this pit does not finish a wing in oil.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "One of the six wing finishes, and here it means no sauce rather than no breading.",
+   "rel": "term"
+  },
+  {
+   "to": "jerk-marinade",
+   "type": "sauce",
+   "name": "Jerk marinade",
+   "as": "Jerked is one of the six, on a Memphis pit rather than a Caribbean grill.",
+   "rel": "sauce"
+  },
+  {
+   "to": "chings-hot-wings",
+   "type": "place",
+   "name": "Ching's Hot Wings",
+   "as": "The other Memphis wing in this set, fried and counted rather than smoked.",
+   "rel": "contrast"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "Recorded Craig Blondis here in 2008 for its Tennessee BBQ project.",
+   "rel": "org"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-central-bbq-about",
+   "kind": "web",
+   "title": "About — Central BBQ",
+   "publisher": "Central BBQ",
+   "url": "https://eatcbq.com/pages/about",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-central-bbq-midtown",
+   "kind": "web",
+   "title": "Central BBQ — Midtown",
+   "publisher": "Central BBQ",
+   "url": "https://eatcbq.com/pages/midtown",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-central-bbq",
+   "kind": "web",
+   "title": "Central BBQ — oral history with Craig Blondis, Tennessee BBQ project",
+   "publisher": "Southern Foodways Alliance",
+   "date": "2008-07-13",
+   "url": "https://www.southernfoodways.org/interview/central-bbq/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-central-bbq-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-central-bbq-about"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-central-bbq-midtown"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-central-bbq-about"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Nominatim, 2249 Central Avenue, Cooper-Young, Memphis"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-central-bbq-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "smoked",
+   "label": "Smoked",
+   "icon": "💨",
+   "group": "kitchen",
+   "evidence": "the menu or a press piece describing the cook",
+   "resources": [],
+   "source": "s:web-central-bbq-midtown",
+   "note": "the menu heading is Smoked Hot Wings, whole, with six finishes",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:web-central-bbq-about",
+   "note": "a dry rub of its own plus four house sauces, including vinegar and mustard styles the Southern Foodways Alliance interview calls uncommon for Memphis",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "bone-in-only",
+   "label": "Bone-in only",
+   "icon": "🦴",
+   "group": "order",
+   "evidence": "the menu",
+   "resources": [],
+   "source": "s:web-central-bbq-midtown",
+   "note": "the wings are listed as whole; no boneless wing appears on the menu page read here",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "Oral history with Craig Blondis, interviewed by Rien T. Fertel for the Tennessee BBQ project",
+   "url": "https://www.southernfoodways.org/interview/central-bbq/",
+   "year": 2008,
+   "source": "s:web-sfa-central-bbq"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "A 2002 Memphis pit whose smoked chicken wings are named in the record of the city's barbecue.",
+   "rel": "place"
+  },
+  {
+   "from": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "A Memphis pit from 2002 whose smoked wings are named in the record of the style.",
+   "rel": "place"
+  },
+  {
+   "from": "memphis-rub",
+   "type": "sauce",
+   "name": "Memphis dry rub",
+   "as": "A Memphis pit whose rub goes on wings as well as ribs.",
+   "rel": "place"
+  },
+  {
+   "from": "smoke-then-fry",
+   "type": "fry",
+   "name": "smoke then fry",
+   "as": "A Memphis pit on this project's list, where a wing arrives out of the smoke rather than the vat.",
+   "rel": "place"
+  },
+  {
+   "from": "big-bob-gibson-bar-b-q",
+   "type": "place",
+   "name": "Big Bob Gibson Bar-B-Q",
+   "as": "The Memphis pit whose founders came off the same competition circuit.",
+   "rel": "kin"
+  },
+  {
+   "from": "chings-hot-wings",
+   "type": "place",
+   "name": "Ching's Hot Wings",
+   "as": "The other Memphis wing in this set, smoked off a rib pit rather than dropped in a fryer.",
+   "rel": "contrast"
+  }
+ ]
+}

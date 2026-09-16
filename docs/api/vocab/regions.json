@@ -1,0 +1,181 @@
+{
+ "note": "Open list. A record may name a region not listed here; validate.py warns so it can be added. Regions are the tradition's own geography, not administrative units.",
+ "entries": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "rochester",
+   "name": "Rochester",
+   "state": "NY",
+   "note": "seventy miles east of Buffalo and breading its wings, which Buffalo notices"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "Syracuse, the Southern Tier, the Mohawk Valley"
+  },
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the five boroughs; jerk wings, Harold's-style fried, Korean fried chicken"
+  },
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "Boston, Providence, Hartford"
+  },
+  {
+   "key": "philadelphia",
+   "name": "Philadelphia",
+   "state": "PA",
+   "note": "Wing Bowl country"
+  },
+  {
+   "key": "pittsburgh",
+   "name": "Pittsburgh",
+   "state": "PA"
+  },
+  {
+   "key": "baltimore",
+   "name": "Baltimore",
+   "state": "MD",
+   "note": "Old Bay on everything, wings included"
+  },
+  {
+   "key": "dc",
+   "name": "Washington, D.C.",
+   "state": "DC",
+   "note": "mumbo sauce, the carryout counter"
+  },
+  {
+   "key": "atlanta",
+   "name": "Atlanta",
+   "state": "GA",
+   "note": "lemon pepper, wet and dry, and the wing plate with fried rice"
+  },
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "nashville",
+   "name": "Nashville",
+   "state": "TN",
+   "note": "hot chicken, and the wings cooked the same way"
+  },
+  {
+   "key": "memphis",
+   "name": "Memphis",
+   "state": "TN",
+   "note": "dry rub off the rib counter, put on wings"
+  },
+  {
+   "key": "new-orleans",
+   "name": "New Orleans",
+   "state": "LA"
+  },
+  {
+   "key": "florida",
+   "name": "Florida",
+   "state": "FL",
+   "note": "Tampa, Miami; the chain that went national started here"
+  },
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "mild sauce, the South Side chicken shack"
+  },
+  {
+   "key": "detroit",
+   "name": "Detroit",
+   "state": "MI"
+  },
+  {
+   "key": "cleveland",
+   "name": "Cleveland",
+   "state": "OH"
+  },
+  {
+   "key": "ohio-valley",
+   "name": "The Ohio Valley",
+   "state": null,
+   "note": "Columbus, Cincinnati, Louisville"
+  },
+  {
+   "key": "st-louis",
+   "name": "St. Louis",
+   "state": "MO"
+  },
+  {
+   "key": "kansas-city",
+   "name": "Kansas City",
+   "state": "MO"
+  },
+  {
+   "key": "twin-cities",
+   "name": "The Twin Cities",
+   "state": "MN"
+  },
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX"
+  },
+  {
+   "key": "southwest",
+   "name": "The Southwest",
+   "state": null,
+   "note": "Phoenix, Albuquerque, Las Vegas"
+  },
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, San Diego"
+  },
+  {
+   "key": "bay-area",
+   "name": "The Bay Area",
+   "state": "CA"
+  },
+  {
+   "key": "pacific-northwest",
+   "name": "The Pacific Northwest",
+   "state": null,
+   "note": "Seattle, Portland"
+  },
+  {
+   "key": "hawaii",
+   "name": "Hawaii",
+   "state": "HI",
+   "note": "shoyu chicken, and the wing that borrows from it"
+  },
+  {
+   "key": "korean-american",
+   "name": "Korean America",
+   "state": null,
+   "note": "Los Angeles, Queens, Fort Lee, Annandale, Chicago; a cuisine, not a place"
+  },
+  {
+   "key": "caribbean-american",
+   "name": "Caribbean America",
+   "state": null,
+   "note": "Brooklyn, the Bronx, Miami, Hartford; jerk wings and their kin"
+  }
+ ]
+}

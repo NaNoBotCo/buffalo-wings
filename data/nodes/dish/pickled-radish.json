@@ -1,0 +1,101 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "pickled-radish",
+ "names": {
+  "name": "pickled radish",
+  "aliases": [
+   "chicken-mu",
+   "danmuji",
+   "치킨무"
+  ],
+  "said": "Comes in a small plastic tub, cubed, in its own liquid, and it is refilled without being asked."
+ },
+ "region": [
+  "korean-american",
+  "us"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "korean-american"
+  ]
+ },
+ "text": {
+  "what": "Cubed pickled daikon in a sweet-sour brine, served cold in a small tub beside Korean fried chicken. Pickled radishes and beer or carbonated drinks are the standard accompaniment; Bonchon lists pickled radish among its side dishes alongside kimchi, coleslaw and Korean street corn.",
+  "story": "The pickle has a longer name than the tub suggests. Danmuji is the Korean name for takuan, the yellow daikon pickle credited to the Buddhist monk Takuan Sōhō (1573–1645). It came to Korea during the Japanese occupation and was first called dakkwang, a phonetic rendering of takuan; after the occupation ended it was renamed danmuji, meaning sweet radish pickle. The Korean version is usually sweeter and crunchier than the Japanese original.\n\n*Tradition holds —* the cubed white version served with fried chicken is called chicken-mu, mu being the radish, and it is a distinct product from the long yellow danmuji sliced into kimbap. This project has not found a source that dates that split.\n\n*Inference —* the tub does the job celery does in Buffalo and white bread does in Nashville: something cold, cheap and sharp arriving unasked against something hot and fatty. Three traditions, three answers, one problem.",
+  "how": "Cut daikon into cubes and hold them in a sweetened vinegar brine until they go glassy and squeak. Serve cold, in liquid, in a lidded tub, with the chicken and the beer. Eat one between pieces.",
+  "today": "Standard at Korean fried chicken shops in the United States, including chains that reached the US market after Korean brands expanded abroad. *Tradition holds —* the refill is free and the tub is the thing that runs out first."
+ },
+ "kin": [
+  {
+   "to": "korean-american",
+   "as": "The style this tub arrives with, always, and unasked.",
+   "rel": "style"
+  },
+  {
+   "to": "bonchon",
+   "as": "Lists pickled radish among its sides, next to kimchi and coleslaw.",
+   "rel": "place"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "as": "The sweet-hot gochujang coat this is served against.",
+   "rel": "sauce"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "as": "The other flagship coat, brushed on rather than tossed, and cut by the same pickle.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "Beer comes with the chicken here too; chimaek is the Korean word for the pairing.",
+   "rel": "dish"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Buffalo's cold thing on the same plate, raw instead of pickled.",
+   "rel": "contrast"
+  },
+  {
+   "to": "double-fry",
+   "as": "The frying method this pickle is calibrated against — a thin, hard crust needs something sharp.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-korean-fried-chicken",
+  "s:wp-bonchon-chicken",
+  "s:web-wp-danmuji"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-wp-danmuji",
+    "note": "the chicken-mu paragraph is marked tradition and is unsourced; the closing paragraph is inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "kin[6].as": {
+    "tier": "inference"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true
+}

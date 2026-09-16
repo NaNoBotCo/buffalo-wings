@@ -1,0 +1,191 @@
+{
+ "id": "mango-habanero",
+ "names": {
+  "name": "Mango habanero",
+  "aliases": [
+   "mango hab",
+   "sweet heat"
+  ],
+  "said": "Sits near the top of a chain's heat ladder without being the top rung, which is usually something with a name like atomic."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "base": "other",
+  "heat": "hot"
+ },
+ "text": {
+  "what": "A sweet-then-hot wing sauce: mango purée and corn syrup in front, habanero and cayenne behind. Orange, thick, and built to be tossed. It is the standard second-from-the-top rung on a chain wing board — hot enough to be a choice, sweet enough to finish.",
+  "story": "It belongs to the sauce-board era. As the market for chicken wings expanded, restaurants began creating and using a variety of sauces beyond Buffalo, some drawn from Chinese, Japanese, Thai, Caribbean and Indian cooking, and some invented as combinations — Blueberry BBQ Wing Sauce and Maple/Bacon Glaze among the examples — to hold customers' interest and grow the business.\n\nMany bars and restaurants also build a deliberately extra-hot sauce for wing-eating challenges, and reward the people who finish with a photograph on the wall, a T-shirt, a free meal, or some combination.\n\n*Inference —* mango habanero is the rung below that. It is where a board puts real heat that a table can still eat a whole basket of, which is why almost every chain carries a version and almost none of them publishes a number for it.",
+  "how": "Toss, warm or cold — it is thick enough to cling without butter. Chains serve it on bone-in and boneless alike. A kitchen building its own reduces mango purée with vinegar and sugar and blends habanero in at the end, off the heat, because habanero's aroma cooks off before its heat does.",
+  "today": "On chain boards nationally. As of 16 September 2026 the USDA label panel for Sweet Baby Ray's Mango Habanero Wing Sauce reads 100 mg sodium and 7 g sugar in a 1-tablespoon serving. Five chiles are named on that label — cayenne, habanero, chipotle, chili powder and chili de arbol — and no Scoville number is published for any of it, which is the pattern across this whole shelf."
+ },
+ "kin": [
+  {
+   "to": "atomic",
+   "as": "The word for the rung above this one, where a board stops being a menu and starts being a dare.",
+   "rel": "term"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "as": "The same sweet-then-chile idea, reached through sugar and vinegar instead of fruit purée.",
+   "rel": "kin"
+  },
+  {
+   "to": "hot-honey",
+   "as": "The other sweet-heat pour on the board, with honey doing the sweetening.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Carries a version on a board where Buffalo is one sauce among more than a dozen.",
+   "rel": "place"
+  },
+  {
+   "to": "wingstop",
+   "as": "One of thirteen wing sauces on the board, some of them running only for a marketing window.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "The sauce the board was built around, and the one this sits several rungs above on heat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Ordered with it as often as bone-in, because the sauce is thick and the pieces are small.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-toss",
+   "as": "Goes in the bowl thick and cold, and still coats.",
+   "rel": "fry"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "sweet-chili-sauce",
+   "tell": "Fruit and corn syrup. Mango habanero leads with high fructose corn syrup and mango purée; sweet chili is water, sugar and pickled chilli."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "other",
+  "maker": "Sweet Baby Ray's Inc.",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "high fructose corn syrup",
+   "water",
+   "distilled vinegar",
+   "mango puree",
+   "orange juice concentrate",
+   "modified corn starch",
+   "aged cayenne red pepper",
+   "salt",
+   "aged habanero pepper",
+   "chipotle pepper puree (water, chipotle pepper)",
+   "red bell pepper",
+   "garlic",
+   "natural flavor",
+   "chili powder (chili pepper, spice, salt, garlic)",
+   "spice",
+   "dried chili de arbol pepper",
+   "paprika",
+   "xanthan gum",
+   "ascorbic acid",
+   "tomato paste",
+   "potassium sorbate and sodium benzoate and sodium metabisulfite (preservatives)",
+   "natural smoke flavor",
+   "sulfiting agents"
+  ],
+  "pepper_rank": 7,
+  "vinegar_rank": 3,
+  "fat_rank": 0,
+  "tomato_rank": 20,
+  "sugar_rank": 1,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 1,
+  "sodium_mg_per_tbsp": 100,
+  "sugar_g_per_tbsp": 7,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-sweet-baby-rays-mango-habanero",
+  "url": "https://fdc.nal.usda.gov/food-details/2629740/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Sweet Baby Ray's Mango Habanero Wing Sauce, 16 fl oz. Label serving is 1 Tbsp (18 mL), so the per-tablespoon figures are the label's own. pepper_rank 7 is aged cayenne red pepper, the first chile listed; the habanero the sauce is named for sits at 9, behind salt, and four more chiles follow it. The USDA transcription prints 'TOMATO PAST' at position 20 — read as tomato paste. Everything from rank 7 down is inside the 'contains less than 2% of' block, so the ranks there order the block, not the mass. No Scoville number, and no heat word on the front label beyond the flavour name."
+ },
+ "recipes": [
+  {
+   "title": "Sweet Baby Ray's Mango Habanero Wing Sauce, as labelled",
+   "source": "s:fdc-sweet-baby-rays-mango-habanero",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/2629740/nutrients",
+   "region": "United States",
+   "ingredients": [
+    "high fructose corn syrup",
+    "water",
+    "distilled vinegar",
+    "mango puree",
+    "orange juice concentrate",
+    "modified corn starch",
+    "aged cayenne red pepper",
+    "salt",
+    "aged habanero pepper",
+    "chipotle pepper puree",
+    "red bell pepper",
+    "garlic",
+    "natural flavor",
+    "chili powder",
+    "spice",
+    "dried chili de arbol pepper",
+    "paprika",
+    "xanthan gum",
+    "ascorbic acid",
+    "tomato paste",
+    "potassium sorbate, sodium benzoate and sodium metabisulfite",
+    "natural smoke flavor",
+    "sulfiting agents"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. No method: a maker's process is not published and would not be free to copy if it were."
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-wingstop",
+  "s:fdc-sweet-baby-rays-mango-habanero",
+  "s:wp-scoville-scale"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sweet-baby-rays-mango-habanero",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition",
+    "note": "the position on a chain heat ladder is general menu practice, not a cited ranking"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the habanero-at-the-end point is general kitchen practice"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-sweet-baby-rays-mango-habanero"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16"
+}

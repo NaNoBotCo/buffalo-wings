@@ -1,0 +1,129 @@
+{
+ "schema": 1,
+ "id": "nashville-hot",
+ "type": "style",
+ "names": {
+  "name": "Nashville hot wings",
+  "aliases": [
+   "hot chicken wings",
+   "hot wings, Nashville style"
+  ],
+  "said": "The heat levels are the menu: plain, mild, medium, hot, and whatever the house calls the one above that."
+ },
+ "region": [
+  "nashville",
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "TN",
+  "cut": "party wing",
+  "base": "other",
+  "cooked": "fried",
+  "heat": "very hot"
+ },
+ "text": {
+  "what": "Hot chicken's method put on a wing: marinate in a water- or buttermilk-based seasoned blend, flour, fry, then paint with a cayenne paste loosened with fat drawn from the fryer. The paste stains the crust deep red and goes on with a spoon and gloved hands, then gets squeezed in. It lands on white bread with pickle chips — the bread catching the grease, the pickles cutting it — and the bread is part of the dish, not a napkin. Heat runs in named steps and the top step is genuinely punishing.",
+  "story": "Anecdotal evidence puts spicy fried chicken in Nashville's African American communities for generations, perhaps from the 1930s, while the current style of spice paste may date only to the mid-1970s. The origin generally accepted belongs to the family of André Prince Jeffries, who has run Prince's Hot Chicken Shack since 1980; before that it was her great-uncle Thornton Prince's.\n\nThe story she tells is an accident. Thornton was, by the family's account, a womanizer; after a late Saturday night his girlfriend cooked him a fried chicken breakfast loaded with pepper as revenge. He liked it, and by the mid-1930s he and his brothers had a recipe and a café, the BBQ Chicken Shack. Wikipedia's article on the restaurant notes the story is impossible to verify.\n\nThe café started at 28th and Jefferson, moved downtown into Hell's Half Acre near the Ryman Auditorium, and drew Opry stars after performances — under segregation, with a separate room built at the back for white guests, reached by walking through the main dining room and the kitchen. Thornton's brother Will took over when he died, Will's wife Maude ran it after him, and in 1980 Maude decided the business should go to Thornton's great-niece, who dropped the BBQ from the name. The shop moved to Ewing Drive in East Nashville in 1988. In December 2018 a Ford Explorer crashed into the Ewing Drive strip mall and set it on fire; the restaurant itself was undamaged, but building damage and landlord delays turned a two-week closure into a permanent one seven months later.\n\n*Inference —* the wing is a later cut than the dish. Hot chicken is a breast, thigh or wing quarter in its standard description, and the wing-only plate reads as the method following the market for wings rather than the other way round.\n\nThe method left town fast. Bill Purcell, Nashville's former mayor, sponsored the Music City Hot Chicken Festival and called his table at Prince's his \"second office\". By 2015 about two dozen Nashville restaurants served it. KFC put Nashville Hot Chicken and Nashville Hot Tenders on U.S. menus in January 2016 after a Pittsburgh trial it called the most successful product testing in its recent history, and ran it in the UK from 22 May to 18 June 2017. Buffalo Wild Wings sells a Nashville-hot-style wing. Prince's was named an American Classic by the James Beard Foundation in 2013.",
+  "how": "Marinate the wings — nearly all hot chicken goes into buttermilk, for flavour and to keep the meat from drying in the oil. Flour them. Fry, in a pan at most houses rather than a deep fryer, though pressure fryers and deep fryers both get used. Make the paste: cayenne first, sometimes sugar, garlic or extra hot sauce, loosened with fat lifted out of the frying oil so it goes on hot and clings. Traditional order is paste after the fryer; some kitchens paste before breading and fry again. Spoon it on, squeeze it in. Serve on white bread with pickles. Recipes and heat steps are house secrets and are not published.",
+  "today": "Hot chicken restaurants run in Atlanta, New York, Philadelphia, Chicago, Los Angeles, Birmingham, Louisville, Ann Arbor, Columbus, Salt Lake City and Seattle, and abroad in Calgary, Seoul and Melbourne. Chains built on the style include Hattie B's, Dave's Hot Chicken, Howlin' Ray's, Angry Chickz, Joella's and World Famous Hotboys. Hattie B's, founded by a father and son both named Nick Bishop, opened in Midtown Nashville on 9 August 2012, uses ghost peppers in its hottest step, and opened its first Midwestern location in Chicago's Wrigleyville in 2026."
+ },
+ "kin": [
+  {
+   "to": "nashville-hot-oil",
+   "as": "The cayenne paste loosened with frying fat — the single step that makes a fried wing a Nashville one.",
+   "rel": "sauce"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "Where the method is generally agreed to have started, run by the Prince family since the 1930s.",
+   "rel": "origin"
+  },
+  {
+   "to": "thornton-prince",
+   "as": "The man the revenge-breakfast story is told about, and whose brothers built the first recipe.",
+   "rel": "person"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "as": "Took the shop over in 1980, dropped the BBQ from its name, and kept the recipe unpublished.",
+   "rel": "person"
+  },
+  {
+   "to": "hattie-bs",
+   "as": "Opened in 2012 and carried the style to nine cities, with ghost peppers at the top of the heat ladder.",
+   "rel": "place"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "as": "Another Nashville house on the same method, hot fish included.",
+   "rel": "place"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "Under the wings and on top of them — the plate is not finished without both.",
+   "rel": "dish"
+  },
+  {
+   "to": "brine",
+   "as": "The buttermilk soak nearly every hot chicken kitchen starts from.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "as": "The flour coat the paste stains red; without it there is nothing for the paste to grip.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo",
+   "as": "The other cayenne wing: that one is tossed in a butter-and-vinegar sauce, this one is painted with a fat-borne paste and served on bread.",
+   "rel": "contrast"
+  },
+  {
+   "to": "atomic",
+   "as": "What the top heat step gets called, here and everywhere else that sells one.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "buffalo",
+   "tell": "Look at the plate. A Nashville wing sits on white bread with pickles and its crust is stained red under a paste; a Buffalo wing sits bare in a basket with celery and a cup of blue cheese, its sauce loose and orange."
+  },
+  {
+   "id": "nashville-hot-oil",
+   "tell": "One is the style, one is the paste. A Buffalo Wild Wings 'Nashville hot' wing uses the flavour without the bread, the pickles or the pan fry."
+  }
+ ],
+ "sources": [
+  "s:wp-hot-chicken",
+  "s:wp-prince-s-hot-chicken-shack",
+  "s:wp-hattie-b-s-hot-chicken",
+  "s:wp-buffalo-wing",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hot-chicken"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-hot-chicken",
+    "note": "method as the article describes it; house recipes are secret and none is reconstructed here"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-prince-s-hot-chicken-shack",
+    "note": "the wing-versus-quarter paragraph is this project's inference and is marked"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

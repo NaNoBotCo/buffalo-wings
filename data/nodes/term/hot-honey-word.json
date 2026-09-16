@@ -1,0 +1,90 @@
+{
+ "id": "hot-honey-word",
+ "names": {
+  "name": "hot honey",
+  "aliases": [
+   "chili honey",
+   "spicy honey"
+  ],
+  "said": "A brand name doing duty as a category name, the way people say a xerox."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "H",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "hot (chile-hot, not temperature-hot) + honey; an English compound that names the two ingredients and nothing else",
+  "first_attested": "2010, as the brand Mike's Hot Honey, founded by Mike Kurtz in Brooklyn — the dated point from which the phrase became a product category rather than a description",
+  "note": "Kurtz met honey steeped with chillies at a pizzeria while studying in Brazil in 2004. Mixing honey with chillies is old and widespread; the *phrase* is what is recent. *Inference —* the word arrived in English with a label on it, which is why its history is a company's history.",
+  "tier": "cited",
+  "source": "s:web-mikes-hot-honey"
+ },
+ "text": {
+  "what": "Honey infused with chillies, and the two-word name that turned it into a menu category. On wings it is a finish rather than a toss: drizzled over crust after the sauce, or whisked into a sauce to sweeten and thicken it. It reaches wings by way of pizza and fried chicken, where it landed first.",
+  "story": "Mike Kurtz founded Mike's Hot Honey in Brooklyn in 2010 and went to work at Paulie Gee's pizzeria in Greenpoint the same year; the pizzeria put his honey on a soppressata pie called the Hellboy, which stayed a best-seller. He started a distribution operation in 2011 and got into Whole Foods, the first grocery chain to carry it, in 2014.\n\nThe category followed the brand rather than the other way round. Interest in hot honey rose as a trend in the early 2020s alongside the brand, tracked by a steady climb in Google search interest from early 2022; Business Insider called it a \"new food obsession\" in 2024, recipes spread on TikTok, and food companies including V8 and Tillamook put out hot-honey variants. By 2024 Mike's was carried in over 3,000 restaurants and 30,000 retail outlets in the United States.",
+  "how": "Put on last. Honey burns and sugar goes bitter, so it goes on after the fryer, never before — drizzled over a dry-rubbed or lightly sauced wing so the crust stays audible, or cut into butter and hot sauce to make a sweet-hot toss."
+ },
+ "kin": [
+  {
+   "to": "hot-honey",
+   "as": "The sauce the word names, and what is in a bottle of it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "The other place a sweet-and-burning finish sits on fried chicken, built from lard and cayenne instead.",
+   "rel": "contrast"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The sweet wing sauce it arrived to compete with.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "as": "Sweet-and-hot by a different route, from a different kitchen.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "Pizza is where the word reached most people before it reached wings.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step it deliberately comes after.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-hot-honey",
+  "s:web-mikes-hot-honey"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hot-honey"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-mikes-hot-honey"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-mikes-hot-honey"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

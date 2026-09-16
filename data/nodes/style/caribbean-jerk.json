@@ -1,0 +1,142 @@
+{
+ "schema": 1,
+ "id": "caribbean-jerk",
+ "type": "style",
+ "names": {
+  "name": "Jerk wings",
+  "aliases": [
+   "Jamaican jerk wings",
+   "jerk chicken wings"
+  ],
+  "said": "Jerk names the rub, the marinade, the mop and the fire. One word does four jobs."
+ },
+ "region": [
+  "caribbean-american",
+  "nyc",
+  "florida",
+  "new-england",
+  "us"
+ ],
+ "facets": {
+  "cut": "whole wing",
+  "base": "other",
+  "cooked": "grilled",
+  "heat": "hot"
+ },
+ "text": {
+  "what": "Wings dry-rubbed or wet-marinated in Jamaican jerk seasoning and cooked over fire until the outside blackens. Allspice and Scotch bonnet peppers carry it; cloves, cinnamon, scallions, nutmeg, thyme, garlic, brown sugar, ginger, soy sauce, vinegar and salt fill it out. The seasoning goes on before the heat, which is the whole difference from a wing that gets sauced after the fryer. Smoke comes from the fuel — pimento wood traditionally, charcoal in a split oil drum in most places that sell it — and the finish is char, not gloss. A scotch-bonnet sauce goes on afterward at the counter's discretion.",
+  "story": "Jerking is Taíno and Arawak before it is anything else. The Spanish historian Gonzalo Fernández de Oviedo y Valdés documented in 1516 how they cooked and preserved meat and fish on a barbacoa with native hot peppers — Scotch bonnet and cayenne — and pimento, sometimes wrapping meat in papaya leaves to tenderise it. The Spanish introduced pigs, cattle and chickens in the 1500s and adopted the method. When the English invaded Jamaica in 1655, the Spanish freed the people they had enslaved, who fled inland and became some of the first Jamaican Maroons; they intermarried with the remaining Taíno and took on the practice. By the end of the eighteenth century most groups had moved to imported pork, while the Maroons kept hunting wild hogs and jerking them.\n\nThe word travelled from charqui, a Spanish term of Quechua origin for dried meat, which also gives English jerky.\n\nThe equipment changed around the 1960s, when Caribbean entrepreneurs began cutting oil barrels lengthwise, drilling vents and hinging the lids to hold smoke — the barrel is now standard across the island and everywhere the trade went. Jerk followed the Caribbean diaspora into Britain, Canada and the United States, and the jerk stand or jerk centre turned up wherever the migration settled.\n\nBrooklyn is one of those places. Gavin Hussey, called Peppa since his teens and born in St. Andrew Parish, Jamaica, co-founded Danny & Pepper's on Flatbush Avenue in 1995 and opened Peppa's Jerk Chicken on Flatbush about a decade later. Black-Owned Brooklyn's profile describes the birds washed in vinegar and charred until the skin crackles and blackens, with the house scotch-bonnet sauce added for more heat, and escovitch fish and festival on the same menu. The article does not mention wings.\n\n*Inference —* jerk wings are a bar and takeout cut of a whole-bird method, and the record on jerk is written about chicken and pork rather than about wings. Nothing here dates a first jerk wing.\n\nJamaica trademarked Jamaica Jerk as a geographical indication in September 2015, the first English-speaking Caribbean country to register one, aimed at products sold as jerk abroad.",
+  "how": "Make the seasoning: allspice and Scotch bonnet as the base, then whichever of cloves, cinnamon, nutmeg, thyme, scallion, garlic, ginger, brown sugar, soy and vinegar the house uses. Rub dry or marinate wet, and leave it on the meat for hours rather than minutes — the seasoning is a cure, not a coat. Cook over charcoal in a split drum with the lid down, or over pimento wood where it is available, turning until the outside goes black and the fat has rendered. Mop with the marinade as it cooks. Serve with hard dough bread, festival, bammy or fried dumplings, and hit it with pepper sauce at the table.",
+  "today": "Jerk stands run in Brooklyn, the Bronx, Miami and Hartford, and jerk turns up on American chain wing boards as one flavour among a dozen: Jeremiah's Tavern in Rochester, read on 16 September 2026, listed Jamaican Jerk between Cajun Dry Rub and Iron Smoke. *Inference —* what survives the move onto a national board is the spice mix; the barrel, the wood and the hours of marinade do not, and the two things end up sharing a name."
+ },
+ "kin": [
+  {
+   "to": "jerk-marinade",
+   "as": "Allspice and Scotch bonnet, and the reason the seasoning goes on before the fire instead of after it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "peppas-jerk-chicken",
+   "as": "Gavin Hussey's Flatbush counter, where the birds are washed in vinegar and charred until the skin crackles.",
+   "rel": "place"
+  },
+  {
+   "to": "grill",
+   "as": "The split oil drum with a hinged lid, standard since around the 1960s, which is what a jerk fire actually is.",
+   "rel": "fry"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step this style never reaches — the flavour is in the meat before it meets heat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "The other American wing cooked with smoke rather than oil; that one takes sauce at the end, this one took its seasoning at the start.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mango-habanero",
+   "as": "The wing board's sweet-and-scotch-bonnet register, arrived at from a chain kitchen rather than a jerk pan.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style whose menu jerk now shares — one word on a board of twelve, stripped of the barrel and the hours.",
+   "rel": "contrast"
+  },
+  {
+   "to": "brine",
+   "as": "A wet jerk marinade does the same work, over hours, and leaves the seasoning inside the meat.",
+   "rel": "fry"
+  },
+  {
+   "to": "blondies-sports-bar",
+   "as": "A New York bar whose long sauce board is where a jerk wing meets a Buffalo one.",
+   "rel": "place"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "smoked-bbq-wing",
+   "tell": "When the seasoning went on. Jerk is marinated before the fire and finished with char; a barbecue wing is smoked plain and sauced at the end."
+  },
+  {
+   "id": "memphis-dry-rub",
+   "tell": "Allspice. Both can arrive dry off a fire, but jerk carries allspice and Scotch bonnet, and a Memphis rub carries paprika and pit smoke."
+  }
+ ],
+ "sources": [
+  "s:wp-jerk-cooking",
+  "s:web-black-owned-brooklyn-peppas",
+  "s:web-jeremiahs-menu",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-jerk-cooking"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-jerk-cooking",
+    "note": "the marinating time is general practice; the ingredients, the fuel and the sides are cited"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-jerk-cooking",
+    "note": "the wing-cut paragraph is this project's inference and is marked; no first jerk wing is asserted"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-jeremiahs-menu",
+    "note": "closing sentence is this project's inference and is marked"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-jerk-cooking"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "caribbean-jerk/caribbean-jerk-jerk-chicken.jpg",
+   "source": "commons",
+   "title": "File:Jerk chicken.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jerk_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AJerk_chicken.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "stu_spivack",
+   "credit": "https://www.flickr.com/photos/35034346243@N01/2885399528/",
+   "alt": "Food of the Caribbean",
+   "date": "2008-09-24 14:51:56",
+   "primary": true,
+   "sha256": "beb10f703193bab6bc89d27a6d172f8ae0f5b0799a6d9d0d0fa32154387c504c"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

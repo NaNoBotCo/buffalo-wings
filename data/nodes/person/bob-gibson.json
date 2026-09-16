@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "id": "bob-gibson",
+ "type": "person",
+ "names": {
+  "name": "Bob Gibson",
+  "aliases": [
+   "Big Bob Gibson",
+   "Robert Gibson"
+  ],
+  "sort": "Gibson, Bob"
+ },
+ "region": [
+  "the-south"
+ ],
+ "facets": {
+  "role": [
+   "cook",
+   "founder",
+   "sauce-maker"
+  ],
+  "state": "AL",
+  "styles": [
+   "alabama-white",
+   "smoked-bbq-wing"
+  ]
+ },
+ "text": {
+  "what": "Decatur, Alabama barbecue man, 1888 to 1972, who dunked hickory-smoked chicken in a sauce of mayonnaise, vinegar and black pepper. That sauce is the whole of Alabama white, and the wing version comes straight off his chickens. He was six foot four and over three hundred pounds, which is where the Big came from.",
+  "story": "Gibson worked for the L & N Railroad in the early 1920s and barbecued at weekends over a dugout pit in his own backyard, throwing hickory coals into the hole. He opened Big Bob Gibson Bar-B-Q in 1925.\n\nThe method on chicken: split the bird, season it, smoke it over hickory about three hours, then dunk the whole thing in the white sauce. Mayonnaise, vinegar, black pepper. Nothing in that sauce is tomato and nothing in it is sweet, which is why people meeting it for the first time argue about whether it is barbecue sauce at all.\n\nThe restaurant moved to a Sixth Avenue building in 1952 and his daughter Catherine McLemore (1919-2004) took the business that year. After his death in 1972 five grandchildren and their spouses ran it, among them Don McLemore (1941-2026). Chris Lilly, who married Gibson's great-granddaughter Amy McLemore, came in as pitmaster in 1992 and took the competition team out into the circuit: Memphis in May grand championships in 2000, 2003, 2011, 2014 and 2017, and the smoked wings category in 2021.\n\nDon McLemore, recorded by Amy C. Evans for the Southern Foodways Alliance on 15 November 2006, declined to explain any of it: \"If I do know what made [Big Bob Gibson's] different, I wouldn't tell you. There's nothing. It's just the fact that we like what we do, and we're very particular about our people that work here, how they process the meat and cook the meat and, again, how they treat people, and I think that's the secret to our success.\"",
+  "how": "Hickory, low, and a dunk rather than a brush. On wings the same logic runs: smoke first, then bathe. Bathing a wing in an emulsion at the end is a different finishing move from shaking one in cayenne butter, and the two do not substitute.",
+  "today": "The family still owns it. Southern Living named the white sauce among 50 iconic foods in July 2026, and the restaurant marked its hundredth year in 2025."
+ },
+ "kin": [
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "as": "His pit, opened 1925, still in his family.",
+   "rel": "place"
+  },
+  {
+   "to": "alabama-white-sauce",
+   "as": "Mayonnaise, vinegar and black pepper, mixed by him to dunk smoked chickens in.",
+   "rel": "sauce"
+  },
+  {
+   "to": "alabama-white",
+   "as": "The style is his sauce moved onto a wing.",
+   "rel": "style"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "Smoked the bird before saucing it, which is the order this style keeps.",
+   "rel": "style"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "Did the smoke half of it in 1925; the fry half came later and from elsewhere.",
+   "rel": "fry"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Recorded his grandson-in-law in 2006, which is where the family's own account sits.",
+   "rel": "org"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "Wrote the book-length history of African Americans in US barbecue that the sauce's white-run Decatur pit sits beside.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:web-eoa-big-bob-gibson",
+  "s:web-sfa-big-bob-gibson"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-eoa-big-bob-gibson"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the contrast with a cayenne-butter toss is this project's reasoning; the smoke-then-dunk method is cited"
+   },
+   "kin[6].as": {
+    "tier": "inference",
+    "note": "the juxtaposition is this project's, not Miller's claim about this pit"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

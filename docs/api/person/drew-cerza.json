@@ -1,0 +1,241 @@
+{
+ "schema": 1,
+ "id": "drew-cerza",
+ "type": "person",
+ "names": {
+  "name": "Drew Cerza",
+  "aliases": [
+   "the Wing King"
+  ],
+  "sort": "Cerza, Drew"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "role": [
+   "organizer"
+  ],
+  "state": "NY",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Founded the National Buffalo Wing Festival in 2002 and runs it. A marketing man by trade, he took the idea from a film that invented a Buffalo wing festival that did not exist, and built the one that does.",
+  "story": "The 2001 film Osmosis Jones has Bill Murray's character planning a trip to a National Chicken Wing Festival in Buffalo. No such thing existed. Buffalo News columnist Donn Esmonde asked in print why not. Cerza, then working in food promotion, answered the column. \"I loved wings and my hometown of Buffalo, so, I decided that it was time\" for a festival, he told Visit Buffalo Niagara. The first one ran at Sahlen Field in 2002.\n\nThe festival's own accounting, as of the page read in September 2026, puts it at roughly $200,000 raised for local charities, about three million wings served with a hundred sauce varieties, and over 500,000 visitors across its run. Cerza was named Buffalo Citizen of the Year in 2003 and Tourism Executive of the Year in 2011. In 2007 he beat Bobby Flay in a wing Throwdown filmed at the Anchor Bar. In 2011 the festival put its own founder into the Hall of Flame, alongside Bill Murray.\n\nIn 2013 he inducted John Young.\n\nCerza does not pretend to neutrality on the arguments, which makes him useful to quote rather than to paraphrase. On ranch: \"It's sacrilegious. Putting ranch dressing on wings is like putting ketchup on filet mignon.\" On whether he would use a sauce other than Frank's: \"Are you serious??? Never! I have Frank's Red Hot running through my veins.\" And on the city: \"I love Buffalo. It's a great city, with awesome people and the best regional food in the country.\"",
+  "today": "The festival runs Labor Day weekend and returned to Sahlen Field in 2025 after five years at Highmark Stadium. Cerza is president and CEO of Just Wing It Productions, the agency his 1994 firm RMI Promotions became."
+ },
+ "kin": [
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Founded it in 2002 and has run it since.",
+   "rel": "event"
+  },
+  {
+   "to": "john-young",
+   "as": "Inducted him into the Hall of Flame in 2013, the first Buffalo institution to put his name up.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Beat Bobby Flay in a wing Throwdown filmed in its dining room, 2007.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "Sells the style by the ton every Labor Day weekend and argues its rules out loud.",
+   "rel": "style"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "Has a side and states it in his own words rather than hedging.",
+   "rel": "story"
+  },
+  {
+   "to": "franks-redhot",
+   "as": "Says he will use nothing else, in those words.",
+   "rel": "sauce"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "Hands him the trophy most years the eating championship goes his way.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-national-buffalo-wing-festival",
+  "s:web-buffalowing-wing-king",
+  "s:web-visitbuffalo-cerza-qa",
+  "s:web-hall-of-flame",
+  "s:wp-anchor-bar"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-buffalo-wing-festival"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-buffalowing-wing-king",
+    "note": "read 16 September 2026; his current role is taken from the festival's own pages and is not independently dated"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Founded the National Buffalo Wing Festival in 2002 and runs it. A marketing man by trade, he took the idea from a film that invented a Buffalo wing festival that did not exist, and built the one that does.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "Founded it in 2002 and has run it since.",
+   "rel": "event"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Inducted him into the Hall of Flame in 2013, the first Buffalo institution to put his name up.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Beat Bobby Flay in a wing Throwdown filmed in its dining room, 2007.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Sells the style by the ton every Labor Day weekend and argues its rules out loud.",
+   "rel": "style"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "type": "story",
+   "name": "Ranch against blue cheese",
+   "as": "Has a side and states it in his own words rather than hedging.",
+   "rel": "story"
+  },
+  {
+   "to": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Says he will use nothing else, in those words.",
+   "rel": "sauce"
+  },
+  {
+   "to": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "Hands him the trophy most years the eating championship goes his way.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-national-buffalo-wing-festival",
+   "kind": "wikipedia",
+   "title": "National Buffalo Wing Festival",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Buffalo_Wing_Festival",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalowing-wing-king",
+   "kind": "web",
+   "title": "Meet the Wing King",
+   "publisher": "National Buffalo Chicken Wing Festival",
+   "url": "https://buffalowing.com/meet-the-wing-king/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-cerza-qa",
+   "kind": "web",
+   "title": "Q&A with Drew Cerza: Wing King & Buffalo Wing Festival Founder",
+   "publisher": "Visit Buffalo Niagara",
+   "url": "https://visitbuffalo.com/crawls/qa-wing-king/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-hall-of-flame",
+   "kind": "web",
+   "title": "Hall of Flame",
+   "publisher": "National Buffalo Chicken Wing Festival",
+   "url": "https://buffalowing.com/festival-history/hall-of-flame/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-national-buffalo-wing-festival"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-national-buffalo-wing-festival"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-buffalowing-wing-king",
+   "note": "read 16 September 2026; his current role is taken from the festival's own pages and is not independently dated"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "Runs the Buffalo festival where most of his wing records were set.",
+   "rel": "person"
+  },
+  {
+   "from": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Ran the induction that finally said his name from a Buffalo stage.",
+   "rel": "person"
+  },
+  {
+   "from": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "Founded it in 2002 and runs it; the Hall of Flame inducted him in 2011.",
+   "rel": "person"
+  },
+  {
+   "from": "wing-festival-posters",
+   "type": "art",
+   "name": "Wing festival posters",
+   "as": "Founded the festival in 2002 and is the figure the poster's crown usually belongs to.",
+   "rel": "person"
+  }
+ ]
+}

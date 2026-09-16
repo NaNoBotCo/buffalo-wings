@@ -1,0 +1,2457 @@
+{
+ "note": "Every source a record may cite, by id. kinds: book, wikipedia, web, oral-history, dataset, org, article, film, court. Add Wikipedia articles as s:wp-<slug> with the exact article title and URL. Cite only ids that exist here; validate.py refuses the rest.",
+ "sources": [
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Wing Country — this project's own reasoning",
+   "publisher": "Wing Country",
+   "url": ""
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  },
+  {
+   "id": "s:nccouncil-wing-report",
+   "kind": "org",
+   "title": "Chicken Wing Report",
+   "author": "National Chicken Council",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/"
+  },
+  {
+   "id": "s:usda-fdc",
+   "kind": "dataset",
+   "title": "FoodData Central",
+   "publisher": "US Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "branded-food label panels; public domain"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "note": "ODbL 1.0, share-alike"
+  },
+  {
+   "id": "s:naturalearth",
+   "kind": "dataset",
+   "title": "Natural Earth, Admin 1 – States, Provinces, 1:50m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "note": "public domain"
+  },
+  {
+   "id": "s:wikibooks-cookbook",
+   "kind": "web",
+   "title": "Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook",
+   "note": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wp-american-chinese-cuisine",
+   "kind": "wikipedia",
+   "title": "American Chinese cuisine",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/American_Chinese_cuisine",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-beef-on-weck",
+   "kind": "wikipedia",
+   "title": "Beef on weck",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beef_on_weck",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-blue-cheese-dressing",
+   "kind": "wikipedia",
+   "title": "Blue cheese dressing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue_cheese_dressing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-bonchon-chicken",
+   "kind": "wikipedia",
+   "title": "Bonchon Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonchon_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-new-york",
+   "kind": "wikipedia",
+   "title": "Buffalo, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo,_New_York",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wild-wings",
+   "kind": "wikipedia",
+   "title": "Buffalo Wild Wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_Wild_Wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-calvin-trillin",
+   "kind": "wikipedia",
+   "title": "Calvin Trillin",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Calvin_Trillin",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-carolina-reaper",
+   "kind": "wikipedia",
+   "title": "Carolina Reaper",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Carolina_Reaper",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-cayenne-pepper",
+   "kind": "wikipedia",
+   "title": "Cayenne pepper",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cayenne_pepper",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-celery",
+   "kind": "wikipedia",
+   "title": "Celery",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Celery",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-and-waffles",
+   "kind": "wikipedia",
+   "title": "Chicken and waffles",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_and_waffles",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-as-food",
+   "kind": "wikipedia",
+   "title": "Chicken as food",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_as_food",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-feet",
+   "kind": "wikipedia",
+   "title": "Chicken feet",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_feet",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-nugget",
+   "kind": "wikipedia",
+   "title": "Chicken nugget",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_nugget",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-riggies",
+   "kind": "wikipedia",
+   "title": "Chicken riggies",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_riggies",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-tenders",
+   "kind": "wikipedia",
+   "title": "Chicken tenders",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_tenders",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-wing",
+   "kind": "wikipedia",
+   "title": "Chicken wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-convection-oven",
+   "kind": "wikipedia",
+   "title": "Convection oven",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Convection_oven",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-crystal-hot-sauce",
+   "kind": "wikipedia",
+   "title": "Crystal Hot Sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crystal_Hot_Sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-duff-s-famous-wings",
+   "kind": "wikipedia",
+   "title": "Duff's Famous Wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Duff%27s_Famous_Wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-frank-s-redhot",
+   "kind": "wikipedia",
+   "title": "Frank's RedHot",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Frank%27s_RedHot",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-fried-chicken",
+   "kind": "wikipedia",
+   "title": "Fried chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fried_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-garbage-plate",
+   "kind": "wikipedia",
+   "title": "Garbage Plate",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garbage_Plate",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-gochujang",
+   "kind": "wikipedia",
+   "title": "Gochujang",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gochujang",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-harold-s-chicken-shack",
+   "kind": "wikipedia",
+   "title": "Harold's Chicken Shack",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harold%27s_Chicken_Shack",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hattie-b-s-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hattie B's Hot Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hattie_B%27s_Hot_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hooters",
+   "kind": "wikipedia",
+   "title": "Hooters",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hooters",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hot chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-honey",
+   "kind": "wikipedia",
+   "title": "Hot honey",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_honey",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-sauce",
+   "kind": "wikipedia",
+   "title": "Hot sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-jerk-cooking",
+   "kind": "wikipedia",
+   "title": "Jerk (cooking)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jerk_(cooking)",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-joey-chestnut",
+   "kind": "wikipedia",
+   "title": "Joey Chestnut",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Joey_Chestnut",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-joseph-todaro-jr",
+   "kind": "wikipedia",
+   "title": "Joseph Todaro Jr.",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Joseph_Todaro_Jr.",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-korean-fried-chicken",
+   "kind": "wikipedia",
+   "title": "Korean fried chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Korean_fried_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-lemon-pepper-wings",
+   "kind": "wikipedia",
+   "title": "Lemon pepper wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper_wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-lemon-pepper",
+   "kind": "wikipedia",
+   "title": "Lemon pepper",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mild-sauce",
+   "kind": "wikipedia",
+   "title": "Mild sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mild_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mozzarella-sticks",
+   "kind": "wikipedia",
+   "title": "Mozzarella sticks",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mozzarella_sticks",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mumbo-sauce",
+   "kind": "wikipedia",
+   "title": "Mumbo sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mumbo_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-national-buffalo-wing-festival",
+   "kind": "wikipedia",
+   "title": "National Buffalo Wing Festival",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Buffalo_Wing_Festival",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-national-chicken-council",
+   "kind": "wikipedia",
+   "title": "National Chicken Council",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Chicken_Council",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-old-bay-seasoning",
+   "kind": "wikipedia",
+   "title": "Old Bay Seasoning",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_Bay_Seasoning",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-pizza-hut",
+   "kind": "wikipedia",
+   "title": "Pizza Hut",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pizza_Hut",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-popeyes",
+   "kind": "wikipedia",
+   "title": "Popeyes",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Popeyes",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-poultry",
+   "kind": "wikipedia",
+   "title": "Poultry",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Poultry",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-prince-s-hot-chicken-shack",
+   "kind": "wikipedia",
+   "title": "Prince's Hot Chicken Shack",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prince%27s_Hot_Chicken_Shack",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-ranch-dressing",
+   "kind": "wikipedia",
+   "title": "Ranch dressing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ranch_dressing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-rochester-new-york",
+   "kind": "wikipedia",
+   "title": "Rochester, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rochester,_New_York",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-scoville-scale",
+   "kind": "wikipedia",
+   "title": "Scoville scale",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scoville_scale",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-soul-food",
+   "kind": "wikipedia",
+   "title": "Soul food",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Soul_food",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-sriracha",
+   "kind": "wikipedia",
+   "title": "Sriracha",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sriracha",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-super-bowl",
+   "kind": "wikipedia",
+   "title": "Super Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-sweet-chili-sauce",
+   "kind": "wikipedia",
+   "title": "Sweet chili sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sweet_chili_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-tabasco-sauce",
+   "kind": "wikipedia",
+   "title": "Tabasco sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tabasco_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-teriyaki",
+   "kind": "wikipedia",
+   "title": "Teriyaki",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Teriyaki",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-texas-pete",
+   "kind": "wikipedia",
+   "title": "Texas Pete",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Texas_Pete",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-wing-bowl",
+   "kind": "wikipedia",
+   "title": "Wing Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wing_Bowl",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-wingstop",
+   "kind": "wikipedia",
+   "title": "Wingstop",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wingstop",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-zaxby-s",
+   "kind": "wikipedia",
+   "title": "Zaxby's",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zaxby%27s",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ap-boneless-wings-ohio",
+   "kind": "web",
+   "title": "It's OK for 'boneless' chicken wings to have bones, Ohio Supreme Court rules",
+   "publisher": "The Associated Press, published by NBC News",
+   "url": "https://www.nbcnews.com/news/us-news/ok-boneless-chicken-wings-bones-ohio-supreme-court-rules-rcna163758",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-cbs-boneless-wings",
+   "kind": "web",
+   "title": "Diners who order boneless chicken wings can't expect them to really be boneless, court rules",
+   "publisher": "CBS News (Aimee Picchi)",
+   "url": "https://www.cbsnews.com/news/boneless-chicken-wings-can-have-bones-lawsuit-ohio-supreme-court/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-thompson-coburn-berkheimer",
+   "kind": "web",
+   "title": "Berkheimer v. REKM Decision Says that Customers Should Reasonably Expect Bones in Boneless Wings",
+   "publisher": "Thompson Coburn LLP (Rachael C. Moore)",
+   "url": "https://www.thompsoncoburn.com/insights/berkheimer-v-rekm-decision-says-that-customers-should-reasonably-expect-bones-in-boneless-wings/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wweek-jojo",
+   "kind": "web",
+   "title": "The History of the American Jojo, Which is Definitely Not a Potato Wedge",
+   "publisher": "Willamette Week (Matthew Korfhage)",
+   "url": "https://www.wweek.com/restaurants/reviews/2017/07/12/the-history-of-the-american-jojo-which-is-definitely-not-a-potato-wedge/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-popik-pizza-logs",
+   "kind": "web",
+   "title": "Buffalo: Pizza Logs",
+   "publisher": "The Big Apple (Barry Popik)",
+   "url": "https://www.barrypopik.com/index.php/new_york_city/entry/buffalo_pizza_logs",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-french-fries",
+   "kind": "web",
+   "title": "French fries",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/French_fries",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-danmuji",
+   "kind": "web",
+   "title": "Danmuji",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Danmuji",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-brining",
+   "kind": "web",
+   "title": "Brining",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brining",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-smoking-cooking",
+   "kind": "web",
+   "title": "Smoking (cooking)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Smoking_(cooking)",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-recipetin-crispy-wings",
+   "kind": "web",
+   "title": "Truly Crispy Oven Baked Chicken Wings",
+   "publisher": "RecipeTin Eats (Nagi Maehashi)",
+   "url": "https://www.recipetineats.com/crispy-oven-baked-chicken-wings-honey-garlic-sauce/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-cookful-crispy-wings",
+   "kind": "web",
+   "title": "How To Bake Chicken Wings That Are SOOO Crispy",
+   "publisher": "TheCookful (Christine Pittman)",
+   "url": "https://thecookful.com/bake-chicken-wings-crispy/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ncc-wing-report-lx",
+   "kind": "org",
+   "title": "Americans to Eat 1.48 Billion Chicken Wings for Super Bowl LX",
+   "author": "National Chicken Council",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/",
+   "year": 2026,
+   "accessed": "2026-09-16",
+   "note": "the 2026 Wing Report release, dated 28 January 2026; cites Circana POS and CREST data, a Wells Fargo food report and USDA cold storage, and states no method for the 1.48 billion figure itself"
+  },
+  {
+   "id": "s:web-ncc-wing-report-lix",
+   "kind": "org",
+   "title": "Americans to Eat 1.47 Billion Chicken Wings for Super Bowl LIX",
+   "author": "National Chicken Council",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-47-billion-chicken-wings-for-super-bowl-lix/",
+   "year": 2025,
+   "accessed": "2026-09-16",
+   "note": "dated 30 January 2025; the prior year's figure"
+  },
+  {
+   "id": "s:web-ncc-wings-hot-topic",
+   "kind": "org",
+   "title": "Chicken Wings – A Hot Topic!",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/chicken-wings-a-hot-topic/",
+   "accessed": "2026-09-16",
+   "note": "undated feature built on the 2012 Wing Report; the page that says the count is of wing PORTIONS, splits them half foodservice half retail, and explains the flapper export"
+  },
+  {
+   "id": "s:web-ncc-about",
+   "kind": "org",
+   "title": "About NCC",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/about-ncc/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visit-buffalo-wing-trail",
+   "kind": "web",
+   "title": "Buffalo Wing Trail",
+   "publisher": "Visit Buffalo Niagara",
+   "url": "https://visitbuffalo.com/buffalo-wing-trail/",
+   "accessed": "2026-09-16",
+   "note": "the trail's own page; fourteen stops listed on the day it was read"
+  },
+  {
+   "id": "s:web-spectrum-wing-trail-2018",
+   "kind": "article",
+   "title": "Let's hit the Wing Trail",
+   "author": "Spectrum News Staff",
+   "publisher": "Spectrum News Buffalo",
+   "url": "https://spectrumlocalnews.com/nys/buffalo/news/2018/04/12/wing-trail-",
+   "year": 2018,
+   "accessed": "2026-09-16",
+   "note": "12 April 2018; names the twelve stops the trail launched with"
+  },
+  {
+   "id": "s:web-national-chicken-wing-day",
+   "kind": "web",
+   "title": "National Chicken Wing Day",
+   "publisher": "NationalChickenWingDay.com",
+   "url": "https://www.nationalchickenwingday.com/",
+   "accessed": "2026-09-16",
+   "note": "quotes a fragment of the 1977 Buffalo proclamation and names Mayor Stan Makowski; no institutional publisher given"
+  },
+  {
+   "id": "s:web-wyrk-chicken-wing-day",
+   "kind": "article",
+   "title": "How National Chicken Wing Day Was Born",
+   "author": "WYRK Team",
+   "publisher": "106.5 WYRK",
+   "url": "https://wyrk.com/how-national-chicken-wing-day-was-born/",
+   "year": 2020,
+   "accessed": "2026-09-16",
+   "note": "29 July 2020; names Mayor Stan Makowski and quotes the same proclamation fragment"
+  },
+  {
+   "id": "s:web-uspoultry-about",
+   "kind": "org",
+   "title": "Association Overview",
+   "publisher": "U.S. Poultry & Egg Association",
+   "url": "https://www.uspoultry.org/about/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-uspoultry-history",
+   "kind": "org",
+   "title": "A History of Service to the Poultry and Egg Industry",
+   "publisher": "U.S. Poultry & Egg Association",
+   "url": "https://www.uspoultry.org/history/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-about",
+   "kind": "org",
+   "title": "About Us",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/about-us/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-history-founders",
+   "kind": "org",
+   "title": "History & Founders",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/about-us/history-founders/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-oral-history",
+   "kind": "oral-history",
+   "title": "Oral History",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-princes-interview",
+   "kind": "oral-history",
+   "title": "Prince's Hot Chicken Shack",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/princes-hot-chicken-shack/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-big-bob-gibson-interview",
+   "kind": "oral-history",
+   "title": "Big Bob Gibson's Bar-B-Q",
+   "author": "Amy C. Evans",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/big-bob-gibsons-bar-b-q/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wingstop-q2-2026",
+   "kind": "web",
+   "title": "Wingstop Inc. Reports Fiscal Second Quarter Financial Results (Exhibit 99.1)",
+   "author": "Wingstop Inc.",
+   "publisher": "U.S. Securities and Exchange Commission, EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/1636222/000162828026050401/a991wingearningsreleasefin.htm",
+   "year": 2026,
+   "accessed": "2026-09-16",
+   "note": "29 July 2026; restaurant count as of 27 June 2026"
+  },
+  {
+   "id": "s:web-wingstop-site",
+   "kind": "web",
+   "title": "Wingstop",
+   "publisher": "Wingstop Inc.",
+   "url": "https://www.wingstop.com/",
+   "accessed": "2026-09-16",
+   "note": "the company's own description of its cook: cooked-to-order, hand sauced-and-tossed, twelve flavours"
+  },
+  {
+   "id": "s:web-edgar-wingstop",
+   "kind": "web",
+   "title": "Wingstop Inc., CIK 0001636222 — company filings",
+   "publisher": "U.S. Securities and Exchange Commission, EDGAR",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001636222&type=10-K",
+   "accessed": "2026-09-16",
+   "note": "business address of record: 2801 N Central Expressway, Suite 1600, Dallas, TX 75204"
+  },
+  {
+   "id": "s:web-bww-sauces",
+   "kind": "web",
+   "title": "Buffalo Wild Wings Sauces, Dry Rubs and Flavors",
+   "publisher": "Buffalo Wild Wings",
+   "url": "https://www.buffalowildwings.com/sauces-flavors/",
+   "accessed": "2026-09-16",
+   "note": "the page's own description line: 26 signature sauces and dry rubs"
+  },
+  {
+   "id": "s:web-inspire-contact",
+   "kind": "web",
+   "title": "Contact — Global Support Center",
+   "publisher": "Inspire Brands",
+   "url": "https://www.inspirebrands.com/contact/",
+   "accessed": "2026-09-16",
+   "note": "Three Glenlake Parkway NE, Atlanta, GA 30328"
+  },
+  {
+   "id": "s:web-hooters-menu-wings",
+   "kind": "web",
+   "title": "Wings",
+   "publisher": "Hooters of America, LLC",
+   "url": "https://www.hooters.com/menu/wings",
+   "accessed": "2026-09-16",
+   "note": "the four wing styles the chain sells in its own words"
+  },
+  {
+   "id": "s:web-tbbw-hooters-2025",
+   "kind": "article",
+   "title": "Hooters' Clearwater-based founders regain full ownership of brand",
+   "author": "Chuck Merlis",
+   "publisher": "Tampa Bay Business and Wealth",
+   "url": "https://tbbwmag.com/2025/11/03/hooters-clearwater-founders-regain-full-ownership/",
+   "year": 2025,
+   "accessed": "2026-09-16",
+   "note": "3 November 2025; the 14 October 2025 acquisition, the restaurant counts, and the relaunch plan"
+  },
+  {
+   "id": "s:web-eeoc-hooters-2024",
+   "kind": "court",
+   "title": "Hooters of America, LLC to Pay $250,000 to Settle EEOC Race and Color Lawsuit",
+   "publisher": "U.S. Equal Employment Opportunity Commission",
+   "url": "https://www.eeoc.gov/newsroom/hooters-america-llc-pay-250000-settle-eeoc-race-and-color-lawsuit",
+   "year": 2024,
+   "accessed": "2026-09-16",
+   "note": "22 October 2024; EEOC v. Hooters of America, LLC, No. 1:23-cv-00722 (M.D.N.C.)"
+  },
+  {
+   "id": "s:web-bonchon-our-story",
+   "kind": "web",
+   "title": "Our Story",
+   "publisher": "Bonchon",
+   "url": "https://bonchon.com/our-story",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bonchon-site",
+   "kind": "web",
+   "title": "Korean Fried Chicken & Korean Food Restaurant | Bonchon",
+   "publisher": "Bonchon",
+   "url": "https://bonchon.com/",
+   "accessed": "2026-09-16",
+   "note": "hand battered, double-fried, hand brushed, in the company's own words"
+  },
+  {
+   "id": "s:web-buffalowing-festival",
+   "kind": "web",
+   "title": "National Buffalo Wing Festival",
+   "publisher": "National Buffalo Wing Festival",
+   "url": "https://buffalowing.com/",
+   "accessed": "2026-09-16",
+   "note": "2027 dates, admission and wing prices as posted on the day it was read"
+  },
+  {
+   "id": "s:web-buffalowing-hall-of-flame",
+   "kind": "web",
+   "title": "Hall of Flame",
+   "publisher": "National Buffalo Wing Festival",
+   "url": "https://buffalowing.com/hall-of-flame/",
+   "accessed": "2026-09-16",
+   "note": "inductees by year, 2006 to 2026"
+  },
+  {
+   "id": "s:web-inquirer-wing-bowl-doc",
+   "kind": "article",
+   "title": "A new Wing Bowl documentary chose to celebrate the event instead of focusing on the 'ugly'",
+   "author": "Matt Breen",
+   "publisher": "The Philadelphia Inquirer",
+   "url": "https://www.inquirer.com/sports/wing-bowl-documentary-movie-no-one-died-cataldi-wip-20260822.html",
+   "year": 2026,
+   "accessed": "2026-09-16",
+   "note": "22 August 2026"
+  },
+  {
+   "id": "s:web-phillymag-wing-bowl-2015",
+   "kind": "article",
+   "title": "Wing Bowl: Is It Time to End It?",
+   "author": "Richard Rys",
+   "publisher": "Philadelphia Magazine",
+   "url": "https://www.phillymag.com/news/2015/01/18/wing-bowl-time-to-end-it/",
+   "year": 2015,
+   "accessed": "2026-09-16",
+   "note": "18 January 2015; the criticism, in the critic's own words"
+  },
+  {
+   "id": "s:web-eatfeats-wing-bowl-lv-2026",
+   "kind": "web",
+   "title": "Molly Schuyler wins 2026 Las Vegas Wing Bowl",
+   "author": "OJ Rifkin",
+   "publisher": "EatFeats",
+   "url": "https://eatfeats.com/2026-las-vegas-wing-bowl.html",
+   "year": 2026,
+   "accessed": "2026-09-16",
+   "note": "7 February 2026; round-by-round results of the Las Vegas revival"
+  },
+  {
+   "id": "s:web-wp-adrian-miller",
+   "kind": "web",
+   "title": "Adrian Miller",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Adrian_Miller",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-adrian-miller-about",
+   "kind": "web",
+   "title": "Meet Adrian",
+   "publisher": "adrianemiller.com",
+   "url": "https://adrianemiller.com/about/meet-adrian/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-angelo-cataldi",
+   "kind": "web",
+   "title": "Angelo Cataldi",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Angelo_Cataldi",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-al-morganti",
+   "kind": "web",
+   "title": "Al Morganti",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al_Morganti",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-el-wingador",
+   "kind": "web",
+   "title": "Bill \"El Wingador\" Simmons",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bill_%22El_Wingador%22_Simmons",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-james-disbrow",
+   "kind": "web",
+   "title": "James Disbrow",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/James_Disbrow",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-harold-pierce",
+   "kind": "web",
+   "title": "Harold Pierce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harold_Pierce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-eoa-big-bob-gibson",
+   "kind": "web",
+   "title": "Big Bob Gibson BBQ",
+   "publisher": "Encyclopedia of Alabama",
+   "url": "https://encyclopediaofalabama.org/article/big-bob-gibson-bbq/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-big-bob-gibson",
+   "kind": "web",
+   "title": "Big Bob Gibson's Bar-B-Q — oral history with Don McLemore, interviewed by Amy C. Evans, 15 November 2006",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/big-bob-gibsons-bar-b-q/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-princes-hot-chicken",
+   "kind": "web",
+   "title": "Prince's Hot Chicken Shack — oral history with André Prince Jeffries, interviewed by Joe York, 7 July 2006",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/interview/princes-hot-chicken-shack/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bitter-southerner-hot-chicken",
+   "kind": "web",
+   "title": "How Hot Chicken Really Happened",
+   "publisher": "The Bitter Southerner (Rachel L. Martin)",
+   "url": "https://bittersoutherner.com/how-hot-chicken-really-happened",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-princes-hot-chicken-about",
+   "kind": "web",
+   "title": "Our History",
+   "publisher": "Prince's Hot Chicken",
+   "url": "https://www.princeshotchicken.com/about",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-foxnews-thornton-prince",
+   "kind": "web",
+   "title": "Meet the American who gave us Nashville hot chicken, Thornton Prince, man of many passions (Kerry J. Byrne, 20 October 2023)",
+   "publisher": "Fox News",
+   "url": "https://www.foxnews.com/lifestyle/meet-american-gave-nashville-hot-chicken-thornton-prince-man-many-passions",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-hall-of-flame",
+   "kind": "web",
+   "title": "Hall of Flame",
+   "publisher": "National Buffalo Chicken Wing Festival",
+   "url": "https://buffalowing.com/festival-history/hall-of-flame/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalowing-wing-king",
+   "kind": "web",
+   "title": "Meet the Wing King",
+   "publisher": "National Buffalo Chicken Wing Festival",
+   "url": "https://buffalowing.com/meet-the-wing-king/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-cerza-qa",
+   "kind": "web",
+   "title": "Q&A with Drew Cerza: Wing King & Buffalo Wing Festival Founder",
+   "publisher": "Visit Buffalo Niagara",
+   "url": "https://visitbuffalo.com/crawls/qa-wing-king/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-john-young",
+   "kind": "web",
+   "title": "Honoring a Wing Pioneer",
+   "publisher": "Visit Buffalo Niagara",
+   "url": "https://visitbuffalo.com/honoring-a-wing-pioneer/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalo-criterion-john-young",
+   "kind": "web",
+   "title": "John Young: The Real Chicken Wing King",
+   "publisher": "The Buffalo Criterion",
+   "url": "https://www.thebuffalocriterion.com/blog-3-2/john-young-the-real-chicken-wing-king",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalo-bike-tours-mumbo-wings",
+   "kind": "web",
+   "title": "John Young's Mumbo Wings — Buffalo's Original Chicken Wing!",
+   "publisher": "Buffalo Bike Tours",
+   "url": "https://buffalobiketours.com/mumbo-wings/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-history-who-invented-buffalo-wings",
+   "kind": "web",
+   "title": "Who Invented Buffalo Wings? (Becky Little, 10 February 2023, updated 27 May 2025)",
+   "publisher": "History.com",
+   "url": "https://www.history.com/articles/who-invented-buffalo-wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalonews-john-young-obit",
+   "kind": "web",
+   "title": "John Mack Young, dies at 64; claimed to originate Buffalo chicken wings",
+   "publisher": "The Buffalo News",
+   "url": "https://buffalonews.com/news/john-mack-young-dies-at-64-claimed-to-originate-buffalo-chicken-wings/article_ec05187a-83eb-5cca-8902-ab75ae9cffdc.html",
+   "accessed": "2026-09-16",
+   "note": "Paywalled on 16 September 2026: the headline was readable, the body was not. Cited here for the headline only."
+  },
+  {
+   "id": "s:web-boundary-stones-mumbo",
+   "kind": "web",
+   "title": "Mumbo Sauce: Is It Really 'Quintessential' D.C.? (Aliyah Thompson, 7 July 2023)",
+   "publisher": "Boundary Stones, WETA",
+   "url": "https://boundarystones.weta.org/2023/07/07/mumbo-sauce-it-really-quintessential-dc",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-salon-mambo-sauce",
+   "kind": "web",
+   "title": "The story of mambo (or mumbo) sauce, the condiment that likely fueled the civil rights movement (Ashlie D. Stevens, 17 January 2021)",
+   "publisher": "Salon",
+   "url": "https://www.salon.com/2021/01/17/the-story-of-mambo-or-mumbo-sauce-the-condiment-that-likely-fueled-the-civil-rights-movement/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-mandour-ttab-mumbo",
+   "kind": "web",
+   "title": "TTAB Rules that Washington D.C. Can't Claim \"Mumbo Sauce\" Trademark",
+   "publisher": "Mandour & Associates",
+   "url": "https://www.mandourlaw.com/ttab-rules-that-washington-d-c-cant-claim-mumbo-sauce-trademark/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-mumbosauce-about",
+   "kind": "web",
+   "title": "The history of Mumbo Bar-B-Q Sauce",
+   "publisher": "Select Brands LLC (mumbosauce.com)",
+   "url": "https://mumbosauce.com/about-mumbo-sauce/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-nrn-swad-porch-swing",
+   "kind": "web",
+   "title": "Pizza Patrón, Wingstop founder launches Porch Swing (Lisa Jennings, 2 March 2019)",
+   "publisher": "Nation's Restaurant News",
+   "url": "https://www.nrn.com/emerging-chains/pizza-patr-n-wingstop-founder-launches-porch-swing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-franks-redhot-original",
+   "kind": "dataset",
+   "title": "Frank's RedHot Original Cayenne Pepper Sauce — branded food label (FDC ID 2565317)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2565317/nutrients",
+   "accessed": "2026-09-16",
+   "note": "label panel and ingredient statement, public domain"
+  },
+  {
+   "id": "s:fdc-franks-redhot-buffalo-wings",
+   "kind": "dataset",
+   "title": "Frank's RedHot Buffalo Wings Sauce — branded food label (FDC ID 2039340)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2039340/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-franks-redhot-nashville-hot",
+   "kind": "dataset",
+   "title": "Frank's RedHot Nashville Hot Wings Sauce — branded food label (FDC ID 2621729)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2621729/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-crystal-hot-sauce",
+   "kind": "dataset",
+   "title": "Crystal Louisiana's Pure Hot Sauce — branded food label (FDC ID 2300103)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2300103/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-capital-city-mild-mambo",
+   "kind": "dataset",
+   "title": "Capital City Mild Mambo Sauce — branded food label (FDC ID 2147935)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2147935/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-aishas-mild-sauce",
+   "kind": "dataset",
+   "title": "Aisha's Mild Sauce — branded food label (FDC ID 2422784)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2422784/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-mccormick-lemon-pepper",
+   "kind": "dataset",
+   "title": "McCormick Lemon & Pepper Seasoning — branded food label (FDC ID 2034704)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2034704/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-old-bay-seasoning",
+   "kind": "dataset",
+   "title": "Old Bay Seasoning — branded food label (FDC ID 404289)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/404289/nutrients",
+   "accessed": "2026-09-16",
+   "note": "brand owner recorded as Baltimore Spice Co; label modified 2017"
+  },
+  {
+   "id": "s:fdc-adams-reserve-memphis-rub",
+   "kind": "dataset",
+   "title": "Adams Reserve Memphis Barbecue Rub — branded food label (FDC ID 1912757)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/1912757/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-saws-alabama-white-sauce",
+   "kind": "dataset",
+   "title": "Saw's Alabama White Sauce — branded food label (FDC ID 1955770)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/1955770/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-spur-tree-jerk-seasoning",
+   "kind": "dataset",
+   "title": "Spur Tree Jamaican Jerk Seasoning — branded food label (FDC ID 2617055)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2617055/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-roland-gochujang-korean-bbq",
+   "kind": "dataset",
+   "title": "Roland Spicy Gochujang Korean BBQ Sauce — branded food label (FDC ID 1958977)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/1958977/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-we-love-you-soy-garlic",
+   "kind": "dataset",
+   "title": "We Love You Soy Garlic Korean Chicken Wing Sauce & Glaze — branded food label (FDC ID 2511275)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2511275/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-sweet-baby-rays-honey-bbq",
+   "kind": "dataset",
+   "title": "Sweet Baby Ray's Honey Barbecue Sauce — branded food label (FDC ID 2017251)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2017251/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-kinders-garlic-parmesan",
+   "kind": "dataset",
+   "title": "Kinder's Garlic Parmesan Wing Sauce & Dip — branded food label (FDC ID 2652872)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2652872/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-kens-chunky-blue-cheese",
+   "kind": "dataset",
+   "title": "Ken's Steak House Chunky Blue Cheese Dressing — branded food label (FDC ID 2673535)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2673535/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-hidden-valley-ranch",
+   "kind": "dataset",
+   "title": "Hidden Valley Original Ranch Topping & Dip — branded food label (FDC ID 2085943)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2085943/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-mikes-hot-honey",
+   "kind": "dataset",
+   "title": "Mike's Hot Honey, Honey Infused with Chilies — branded food label (FDC ID 2511479)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2511479/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-ka-me-sweet-chili",
+   "kind": "dataset",
+   "title": "Ka-Me Sweet Chili Sauce — branded food label (FDC ID 2523929)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2523929/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-kikkoman-teriyaki",
+   "kind": "dataset",
+   "title": "Kikkoman Teriyaki Marinade & Sauce — branded food label (FDC ID 2085929)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2085929/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-sweet-baby-rays-mango-habanero",
+   "kind": "dataset",
+   "title": "Sweet Baby Ray's Mango Habanero Wing Sauce — branded food label (FDC ID 2629740)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2629740/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-franks-redhot-original-page",
+   "kind": "web",
+   "title": "Frank's RedHot Original Cayenne Pepper Sauce",
+   "publisher": "McCormick & Company",
+   "url": "https://www.franksredhot.com/en-us/products/franks-redhot-original-cayenne-pepper-sauce",
+   "accessed": "2026-09-16",
+   "note": "maker's own ingredient statement; the nutrition panel on this page is an image only"
+  },
+  {
+   "id": "s:wp-barbecue-in-alabama",
+   "kind": "wikipedia",
+   "title": "Barbecue in Alabama",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_Alabama",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-memphis-style-barbecue",
+   "kind": "wikipedia",
+   "title": "Memphis-style barbecue",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Memphis-style_barbecue",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-yangnyeom-chicken",
+   "kind": "wikipedia",
+   "title": "Yangnyeom chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yangnyeom_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wikibooks-buffalo-wings",
+   "kind": "web",
+   "title": "Cookbook:Buffalo Wings",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Buffalo_Wings",
+   "accessed": "2026-09-16",
+   "note": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wikibooks-blue-cheese-dressing",
+   "kind": "web",
+   "title": "Cookbook:Blue Cheese Dressing",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Blue_Cheese_Dressing",
+   "accessed": "2026-09-16",
+   "note": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:wikibooks-buttermilk-ranch-dressing",
+   "kind": "web",
+   "title": "Cookbook:Buttermilk Ranch Dressing",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Buttermilk_Ranch_Dressing",
+   "accessed": "2026-09-16",
+   "note": "CC BY-SA 4.0; Cookbook:Ranch Dressing redirects here"
+  },
+  {
+   "id": "s:wikibooks-teriyaki-sauce",
+   "kind": "web",
+   "title": "Cookbook:Teriyaki Sauce",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Teriyaki_Sauce",
+   "accessed": "2026-09-16",
+   "note": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:farmer-1910",
+   "kind": "book",
+   "title": "The Boston Cooking-School Cook Book",
+   "author": "Fannie Merritt Farmer",
+   "publisher": "Little, Brown, and Company, Boston",
+   "year": 1910,
+   "url": "https://www.gutenberg.org/ebooks/65061",
+   "accessed": "2026-09-16",
+   "note": "revised edition, title page 1910; copyright 1896-1906. Public domain, read via Project Gutenberg ebook 65061"
+  },
+  {
+   "id": "s:harland-1906",
+   "kind": "book",
+   "title": "Marion Harland's Complete Cook Book: A Practical and Exhaustive Manual of Cookery and Housekeeping",
+   "author": "Marion Harland",
+   "publisher": "The Bobbs-Merrill Company, Indianapolis",
+   "year": 1906,
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "accessed": "2026-09-16",
+   "note": "new edition, revised and enlarged; copyright 1903 and 1906. Public domain, read via Project Gutenberg ebook 64459"
+  },
+  {
+   "id": "s:douglas-1903",
+   "kind": "book",
+   "title": "The Soup and Sauce Book",
+   "author": "Elizabeth Douglas",
+   "publisher": "Grant Richards, London",
+   "year": 1903,
+   "url": "https://www.gutenberg.org/ebooks/68446",
+   "accessed": "2026-09-16",
+   "note": "Public domain, read via Project Gutenberg ebook 68446"
+  },
+  {
+   "id": "s:wp-barbecue-in-the-united-states",
+   "kind": "web",
+   "title": "Barbecue in the United States",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_the_United_States",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ncc-superbowl-lx",
+   "kind": "web",
+   "title": "Americans to Eat 1.48 Billion Chicken Wings for Super Bowl LX",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-atk-chicago-mild-sauce",
+   "kind": "web",
+   "title": "What Is Chicago Mild Sauce?",
+   "publisher": "America's Test Kitchen",
+   "url": "https://www.americastestkitchen.com/articles/3911-what-is-chicago-mild-sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-memphis-flyer-wings",
+   "kind": "web",
+   "title": "Wingin' It!: 8 Memphis Wing Experiences You Need to Have",
+   "publisher": "Memphis Flyer",
+   "url": "https://www.memphisflyer.com/wingin-it-8-memphis-wing-experiences-you-need-to-have/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-black-owned-brooklyn-peppas",
+   "kind": "web",
+   "title": "Peppa's Jerk Chicken",
+   "publisher": "Black-Owned Brooklyn",
+   "url": "https://www.blackownedbrooklyn.com/stories/peppas-jerk-chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-countrysweet",
+   "kind": "web",
+   "title": "Country Sweet Chicken & Ribs",
+   "publisher": "Country Sweet Chicken & Ribs",
+   "url": "https://countrysweet.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-roccitymag-jeremiahs",
+   "kind": "web",
+   "title": "Best Wings: Jeremiah's Tavern",
+   "publisher": "CITY Magazine (Rochester)",
+   "url": "https://www.roccitymag.com/special-sections/best-wings-jeremiahs-tavern-15530762/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-jeremiahs-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/menu/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-aytm-wing-survey",
+   "kind": "web",
+   "title": "Chicken Wings Survey: Barbecue Named Most Popular Flavor",
+   "publisher": "Ask Your Target Market (AYTM)",
+   "url": "https://aytm.com/post/chicken-wings-survey",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-usda-ams-wing",
+   "kind": "org",
+   "title": "Chicken Wings (poultry grading photographs)",
+   "publisher": "US Department of Agriculture, Agricultural Marketing Service",
+   "url": "https://www.ams.usda.gov/book/wing",
+   "accessed": "2026-09-16",
+   "note": "AMS grading captions name the cuts 'Grade A First Segment Wing Portion (Wing Drumette)' and 'Grade A Second Segment Wing Portion (Wing Flat)'. The page and the AMS Poultry Grading Manual PDF both refused this project's fetch on 2026-09-16 (403/503); the caption wording was read from the search index, not from the page itself. Records citing it carry needs_verification."
+  },
+  {
+   "id": "s:web-berkheimer-opinion",
+   "kind": "court",
+   "title": "Berkheimer v. REKM, L.L.C., 2024-Ohio-2787",
+   "publisher": "Supreme Court of Ohio, via CourtListener",
+   "url": "https://www.courtlistener.com/opinion/10680649/berkheimer-v-rekm-llc/",
+   "year": 2024,
+   "accessed": "2026-09-16",
+   "note": "decided 25 July 2024. The opinion body did not render to this project's fetch; the citation and date come from CourtListener's record, the quoted language from the press and law-firm reports also cited here."
+  },
+  {
+   "id": "s:web-berkheimer-nbc",
+   "kind": "web",
+   "title": "It's OK for 'boneless' chicken wings to have bones, Ohio Supreme Court rules",
+   "author": "Associated Press",
+   "publisher": "NBC News",
+   "url": "https://www.nbcnews.com/news/us-news/ok-boneless-chicken-wings-bones-ohio-supreme-court-rules-rcna163758",
+   "year": 2024,
+   "accessed": "2026-09-16",
+   "note": "25 July 2024"
+  },
+  {
+   "id": "s:web-berkheimer-hklaw",
+   "kind": "web",
+   "title": "Court Decision Concerning \"Boneless Chicken Wings\" Ignites Political Firestorm in Ohio",
+   "publisher": "Holland & Knight LLP",
+   "url": "https://www.hklaw.com/en/insights/publications/2024/08/court-decision-concerning-boneless-chicken-wings-ignites",
+   "year": 2024,
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wyngz-consumer-reports",
+   "kind": "web",
+   "title": "Stephen Colbert's right wyngz rhetoric",
+   "publisher": "Consumer Reports",
+   "url": "https://www.consumerreports.org/cro/news/2011/02/stephen-colbert-s-right-wyngz-rhetoric/index.htm",
+   "year": 2011,
+   "accessed": "2026-09-16",
+   "note": "3 February 2011; reports the FSIS conditions on the spelling, including that the poultry is white chicken, that the product contains no wing meat, and that \"no other misspellings are permitted\""
+  },
+  {
+   "id": "s:web-wyngz-wiktionary",
+   "kind": "web",
+   "title": "wyngz",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/wyngz",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wiktionary-weck",
+   "kind": "web",
+   "title": "Weck",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/Weck",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wiktionary-kummel",
+   "kind": "web",
+   "title": "Kümmel",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/K%C3%BCmmel",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalo-history-name",
+   "kind": "org",
+   "title": "How Did Buffalo Get Its Name?",
+   "publisher": "The Buffalo History Museum",
+   "url": "https://buffalohistory.org/how-did-buffalo-get-its-name/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-mikes-hot-honey",
+   "kind": "wikipedia",
+   "title": "Mike's Hot Honey",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mike%27s_Hot_Honey",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-hooters-wings-menu",
+   "kind": "web",
+   "title": "Wings",
+   "publisher": "Hooters",
+   "url": "https://www.hooters.com/menu/wings/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wingstop-atomic",
+   "kind": "web",
+   "title": "Atomic | Wingstop Flavors",
+   "publisher": "Wingstop",
+   "url": "https://locations.wingstop.com/wingstop-77-waco-tx-76710/flavors/atomic",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-chowhound-spice-challenges",
+   "kind": "web",
+   "title": "The 9 Most Intense Restaurant Spice Challenges In The US",
+   "author": "Hayley Verdeyen",
+   "publisher": "Chowhound",
+   "url": "https://www.chowhound.com/1946075/restaurant-spice-challenges-us/",
+   "year": 2025,
+   "accessed": "2026-09-16",
+   "note": "24 August 2025"
+  },
+  {
+   "id": "s:web-atomic-wings-30th",
+   "kind": "web",
+   "title": "Nationwide Chain Atomic Wings Celebrates 30th Anniversary",
+   "publisher": "Atomic Wings",
+   "url": "https://www.atomicwings.com/news/nationwide-chain-atomic-wings-celebrates-30th-anniversary",
+   "year": 2019,
+   "accessed": "2026-09-16",
+   "note": "25 June 2019; the company's own account of its 1989 founding by Adam Lippin in New York City"
+  },
+  {
+   "id": "s:web-buffalo-wing-guide-specials",
+   "kind": "web",
+   "title": "Buffalo/WNY Daily Chicken Wing Specials & Deals",
+   "publisher": "Buffalo Wing Guide, LLC",
+   "url": "https://www.buffalowingguide.com/wny-weekly-chicken-wing-specials",
+   "accessed": "2026-09-16",
+   "note": "listings filterable by Monday through Sunday and Every Day"
+  },
+  {
+   "id": "s:web-gourmet-marketing-wing-night",
+   "kind": "web",
+   "title": "What is Your Bar's Wing Night? Using Food for Bar Marketing",
+   "publisher": "Gourmet Marketing",
+   "url": "https://www.gourmetmarketing.net/blog/what-is-your-bars-wing-night-using-food-for-bar-marketing",
+   "year": 2024,
+   "accessed": "2026-09-16",
+   "note": "last updated 11 April 2024"
+  },
+  {
+   "id": "s:web-openfoodfacts-party-wings",
+   "kind": "dataset",
+   "title": "Chicken Party Wings Flats & Drummettes — Sanderson Farms",
+   "publisher": "Open Food Facts",
+   "url": "https://us.openfoodfacts.org/product/0268408511140/chicken-party-wings-flats-drummettes-sanderson-farms",
+   "accessed": "2026-09-16",
+   "note": "the package name as printed"
+  },
+  {
+   "id": "s:web-buffalo-wing-trail",
+   "kind": "web",
+   "title": "Where to Find the Best Wings in Buffalo, NY — Buffalo Wing Trail",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-duffs",
+   "kind": "web",
+   "title": "Classic Buffalo Spotlight: Duff's Famous Wings",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/classic-buffalo-spotlight-duffs-famous-wings/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-duffs-about",
+   "kind": "web",
+   "title": "About Us",
+   "publisher": "Duff's Famous Wings",
+   "url": "https://www.duffsfamouswings.ca/about-us/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-barbill-crawl",
+   "kind": "web",
+   "title": "Bar-Bill Tavern — Buffalo Wing Trail",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/crawls/bar-bill-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-barbill-spotlight",
+   "kind": "web",
+   "title": "Classic Buffalo Spotlight: Bar-Bill Tavern",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/classic-buffalo-spotlight-bar-bill-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-eanycc-barbill",
+   "kind": "web",
+   "title": "Bar-Bill Tavern — member directory",
+   "publisher": "East Aurora Chamber of Commerce",
+   "url": "https://business.eanycc.com/activememberdirectory/Details/bar-bill-tavern-3443334",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-gabriels-gate",
+   "kind": "web",
+   "title": "Gabriel's Gate — Buffalo's Famous Wings & Tavern",
+   "publisher": "Gabriel's Gate",
+   "url": "https://gabrielsgate.org/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-stepout-bonappetit-wings",
+   "kind": "web",
+   "title": "The Best 3 Spots to Get Wings in WNY According to Bon Appétit",
+   "publisher": "Step Out Buffalo",
+   "url": "https://stepoutbuffalo.com/best-3-spots-get-wings-wny-according-bon-appetit/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-nine-eleven-tavern",
+   "kind": "web",
+   "title": "Nine-Eleven Tavern — One of Buffalo's Top Rated Chicken Wing Restaurants",
+   "publisher": "The Nine-Eleven Tavern",
+   "url": "https://www.nineeleventavern.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalorising-nine-eleven",
+   "kind": "web",
+   "title": "The Nine-Eleven Tavern",
+   "publisher": "Buffalo Rising",
+   "url": "https://www.buffalorising.com/2016/09/the-nine-eleven-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-nine-eleven",
+   "kind": "web",
+   "title": "Nine-Eleven Tavern",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/businesses/nine-eleven-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-stepout-nine-eleven",
+   "kind": "web",
+   "title": "Nine-Eleven Tavern",
+   "publisher": "Step Out Buffalo",
+   "url": "https://stepoutbuffalo.com/business/restaurant-nine-eleven-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-lanova-pizzeria",
+   "kind": "web",
+   "title": "Pizzeria",
+   "publisher": "La Nova",
+   "url": "https://www.lanova.com/pizzeria",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-lanova-wings",
+   "kind": "web",
+   "title": "La Nova Wings",
+   "publisher": "La Nova Wings, Inc.",
+   "url": "https://www.lanova.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-infatuation-elmos",
+   "kind": "web",
+   "title": "Elmo's Restaurant & Bar",
+   "publisher": "The Infatuation",
+   "url": "https://www.theinfatuation.com/buffalo/reviews/elmos-restaurant-and-bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-elmos",
+   "kind": "web",
+   "title": "Elmo's Bar & Restaurant",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/businesses/elmos-bar-restaurant/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-restaurantji-elmos",
+   "kind": "web",
+   "title": "Elmo's Restaurant & Bar, Getzville NY",
+   "publisher": "Restaurantji",
+   "url": "https://www.restaurantji.com/ny/getzville/elmos-bar-and-resaurant-/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-mammosers",
+   "kind": "web",
+   "title": "Mammoser's Tavern & Restaurant",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/businesses/mammosers/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-stepout-mammosers",
+   "kind": "web",
+   "title": "Mammosers Tavern/Restaurant",
+   "publisher": "Step Out Buffalo",
+   "url": "https://stepoutbuffalo.com/business/restaurant-mammosers-tavern-restaurant/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wingnutz-about",
+   "kind": "web",
+   "title": "About Us",
+   "publisher": "Wingnutz Bar & Grill",
+   "url": "https://www.wingnutzbuffalo.com/about",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wingnutz-press",
+   "kind": "web",
+   "title": "Press",
+   "publisher": "Wingnutz Bar & Grill",
+   "url": "https://www.wingnutzbuffalo.com/press",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-stepout-wingnutz",
+   "kind": "web",
+   "title": "New: Wingnutz Opens Full Sports Bar After Viral Fame For Their Massive, Saucy, Crispy Wings",
+   "publisher": "Step Out Buffalo",
+   "url": "https://stepoutbuffalo.com/new-wingnutz-opens-full-sports-bar-after-viral-fame-for-their-massive-saucy-crispy-wings/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalorising-wingnutz",
+   "kind": "web",
+   "title": "Yelp.com's #1 Wings | Buffalo's own Wingnutz, honored as Top Wings in NY!",
+   "publisher": "Buffalo Rising",
+   "url": "https://www.buffalorising.com/2019/08/yelp-coms-1-wings-buffalos-own-wingnutz-honored-as-top-wings-in-ny/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-jeremiahs-about",
+   "kind": "web",
+   "title": "About",
+   "publisher": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/about/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-jeremiahs-locations",
+   "kind": "web",
+   "title": "Locations",
+   "publisher": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/locations/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-countrysweet-locations",
+   "kind": "web",
+   "title": "Locations",
+   "publisher": "Country Sweet Chicken & Ribs",
+   "url": "https://countrysweet.com/locations/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-atomic-wings-about",
+   "kind": "web",
+   "title": "About Us",
+   "publisher": "Atomic Wings",
+   "url": "https://www.atomicwings.com/about",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-atomic-wings-rb",
+   "kind": "web",
+   "title": "5 Things to Know About: Atomic Wings",
+   "publisher": "Restaurant Business Online, republished by Atomic Wings",
+   "url": "https://www.atomicwings.com/news/5-things-to-know-about-atomic-wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-nyctourism-blondies",
+   "kind": "web",
+   "title": "Blondies Sports",
+   "publisher": "NYC Tourism + Conventions",
+   "url": "https://www.nyctourism.com/nightlife/blondies-sports/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-timeout-blondies",
+   "kind": "web",
+   "title": "Blondies Sports Bar",
+   "publisher": "Time Out New York",
+   "url": "https://www.timeout.com/newyork/bars/blondies-sports-bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-happyhour-blondies",
+   "kind": "web",
+   "title": "Blondies Happy Hour: Upper West Side Wings & Sports Bar",
+   "publisher": "happy-hour.nyc",
+   "url": "https://happy-hour.nyc/bars-restaurants/blondies",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-blackowned-brooklyn-peppas",
+   "kind": "web",
+   "title": "Peppa's Jerk Chicken",
+   "publisher": "Black-Owned Brooklyn",
+   "url": "https://www.blackownedbrooklyn.com/stories/peppas-jerk-chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-hdc-peppas",
+   "kind": "web",
+   "title": "Peppa's Jerk Chicken — Six to Celebrate",
+   "publisher": "Historic Districts Council",
+   "url": "https://6tocelebrate.org/site/peppas-jerk-chicken/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-timeout-peppas",
+   "kind": "web",
+   "title": "Peppa's Jerk Chicken",
+   "publisher": "Time Out New York",
+   "url": "https://www.timeout.com/newyork/restaurants/peppas-jerk-chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-peppas-online",
+   "kind": "web",
+   "title": "Peppas Jerk Chicken — Jamaican Restaurant in Brooklyn, NY",
+   "publisher": "Peppa's Jerk Chicken",
+   "url": "https://peppasonline.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-american-deli-about",
+   "kind": "web",
+   "title": "How American Deli Makes It.",
+   "publisher": "American Deli",
+   "url": "https://americandeli.com/about",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-american-deli-franchise-story",
+   "kind": "web",
+   "title": "Our Story — American Deli Franchise Opportunities",
+   "publisher": "American Deli International, Inc.",
+   "url": "https://americandelifranchise.com/our-story",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-american-deli-press",
+   "kind": "web",
+   "title": "Press | What People Say About Us",
+   "publisher": "American Deli",
+   "url": "https://americandeli.com/press",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-atlanta-eats-lemon-pepper",
+   "kind": "web",
+   "title": "Where To Find Atlanta's Best Lemon Pepper Wings",
+   "publisher": "Atlanta Eats",
+   "author": "Trisha Pintavorn",
+   "date": "2025-04-30",
+   "url": "https://www.atlantaeats.com/blog/lemon-pepper-wings-atlanta/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ajc-lemon-pepper-2026",
+   "kind": "web",
+   "title": "Where to find the best lemon pepper wings in Atlanta",
+   "publisher": "The Atlanta Journal-Constitution",
+   "author": "Monti Carlo",
+   "date": "2026-03-27",
+   "url": "https://www.ajc.com/food-and-dining/2026/03/if-youre-looking-for-atlantas-best-lemon-pepper-wings-weve-found-them/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-jr-crickets",
+   "kind": "web",
+   "title": "Welcome to J R Crickets",
+   "publisher": "J.R. Crickets Enterprises, Inc.",
+   "url": "https://jrcrickets.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-jr-crickets-locations",
+   "kind": "web",
+   "title": "Locations — J.R. Crickets",
+   "publisher": "J.R. Crickets Enterprises, Inc.",
+   "url": "https://jrcrickets.com/locations/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-cbs-atlanta-lemon-pepper",
+   "kind": "web",
+   "title": "In Atlanta, lemon pepper wet wings have diners coming back for more",
+   "publisher": "CBS News Atlanta",
+   "url": "https://www.cbsnews.com/atlanta/news/atlanta-lemon-pepper-wet-chicken-wings-southern-staple-jr-crickets/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-cobb-courier-wing-cafe",
+   "kind": "web",
+   "title": "The Wing Cafe and Tap House, 30 Years of Friends and Flavor",
+   "publisher": "Cobb County Courier",
+   "date": "2025-06-27",
+   "url": "https://cobbcountycourier.com/2025/06/the-wing-cafe-and-tap-house-30-years-of-friends-and-flavor/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-uncle-remus-story",
+   "kind": "web",
+   "title": "Our Story — Uncle Remus Saucy Fried Chicken",
+   "publisher": "Uncle Remus Saucy Fried Chicken",
+   "url": "https://www.uncleremususa.com/ourstory",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-uncle-remus-official",
+   "kind": "web",
+   "title": "Uncle Remus Saucy Fried Chicken | The Original Since 1968",
+   "publisher": "Uncle Remus Saucy Fried Chicken",
+   "url": "https://wearesaucyfriedchicken.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-yums-ii",
+   "kind": "web",
+   "title": "Yum's II | Online ordering menu",
+   "publisher": "Yum's II",
+   "url": "https://yumsii.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-complex-dc-carryout",
+   "kind": "web",
+   "title": "Wings and Mumbo Sauce To Go: A Guide to D.C. Carryout",
+   "publisher": "Complex",
+   "date": "2011-02",
+   "url": "https://www.complex.com/pop-culture/2011/02/wings-and-mumbo-sauce-to-go-a-guide-to-d-c-carryout",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wapo-chen-family",
+   "kind": "web",
+   "title": "One family, two Chinese restaurants and a city's astonishing transformation",
+   "publisher": "The Washington Post",
+   "date": "2016-09-28",
+   "url": "https://www.washingtonpost.com/local/one-family-two-chinese-restaurants-and-a-citys-astonishing-transformation/2016/09/28/654bfeea-834f-11e6-ac72-a29979381495_story.html",
+   "accessed": "2026-09-16",
+   "note": "paywalled to this project; read only through a search engine's extract, so anything drawn from it is marked needs_verification"
+  },
+  {
+   "id": "s:web-dcist-horace-dickies",
+   "kind": "web",
+   "title": "Horace And Dickie's Owner Says Gentrification Is Pushing Out His Fried Fish Carryout After 30 Years On H Street",
+   "publisher": "DCist",
+   "date": "2020-02-12",
+   "url": "https://dcist.com/story/20/02/12/horace-and-dickies-owner-says-gentrification-is-pushing-out-his-fried-fish-carryout-after-30-years-on-h-street/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wtop-dickie-shannon",
+   "kind": "web",
+   "title": "Founder of DC-area's Horace and Dickie's Seafood dies at 84",
+   "publisher": "WTOP News",
+   "date": "2022-02",
+   "url": "https://wtop.com/dc/2022/02/founder-of-dc-areas-horace-and-dickies-seafood-dies-at-84/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-nbc4-dickie-shannon",
+   "kind": "web",
+   "title": "Owner of Horace & Dickie's Seafood Mourned in Maryland, DC",
+   "publisher": "NBC4 Washington",
+   "url": "https://www.nbcwashington.com/news/local/owner-of-horace-dickies-seafood-mourned-in-maryland-dc/2966721/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-experience-pg-horace-dickies",
+   "kind": "web",
+   "title": "Horace & Dickie's Seafood — listing",
+   "publisher": "Experience Prince George's (Prince George's County, Maryland)",
+   "url": "https://www.experienceprincegeorges.com/listing/horace-&-dickies-seafood/1549/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-capital-city-history",
+   "kind": "web",
+   "title": "History",
+   "publisher": "Capital City (Capital City, LLC)",
+   "url": "https://www.capitalcity.com/pages/history",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-capital-city-about",
+   "kind": "web",
+   "title": "About Us",
+   "publisher": "Capital City (Capital City, LLC)",
+   "url": "https://www.capitalcity.com/pages/about-us",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sjp-capital-city-melford",
+   "kind": "web",
+   "title": "Capital City Mambo Sauce Establishing Headquarters and Distribution Facility at Melford Town Center in Prince George's County",
+   "publisher": "St. John Properties, Inc.",
+   "date": "2021-05-18",
+   "url": "https://sjpi.com/press-releases/capital-city-mambo-sauce-establishing-headquarters-and-distribution-facility-at-melford-town-center-in-prince-georges-county",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-blacknews-capital-city",
+   "kind": "web",
+   "title": "Founders of DC-Based Mambo Sauce Company Win the Black Enterprise Family Business of the Year Award",
+   "publisher": "BlackNews.com",
+   "url": "https://blacknews.com/news/arsha-charles-jones-owners-capital-city-mambo-sauce-win-black-enterprise-family-business-award/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-botwc-arsha-jones",
+   "kind": "web",
+   "title": "Capital City Founder Arsha Jones Is on a Mission to Safeguard D.C.'s Beloved Mambo Sauce",
+   "publisher": "Because of Them We Can",
+   "url": "https://www.becauseofthemwecan.com/blogs/news/inside-capital-city-founder-arsha-jones-mission-safeguard-legacy-taste-mambo-sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-princes-locations",
+   "kind": "web",
+   "title": "Locations — Prince's Hot Chicken",
+   "publisher": "Prince's Hot Chicken",
+   "url": "https://www.princeshotchicken.com/locations",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-princes",
+   "kind": "web",
+   "title": "Prince's Hot Chicken Shack — oral history with André Prince Jeffries, Nashville Eats project",
+   "publisher": "Southern Foodways Alliance",
+   "date": "2006-07-07",
+   "url": "https://www.southernfoodways.org/interview/princes-hot-chicken-shack/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-nashville-hot-chicken-hattie-bs",
+   "kind": "web",
+   "title": "Hattie B's Hot Chicken — Nashville — Midtown",
+   "publisher": "Nashville Hot Chicken Restaurant Guide",
+   "url": "https://nashvillehotchicken.net/restaurants/hattie-bs-midtown",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-boltons",
+   "kind": "web",
+   "title": "Bolton's Spicy Chicken & Fish — oral history with Dolly Ingram, Nashville Eats project",
+   "publisher": "Southern Foodways Alliance",
+   "date": "2008-05-31",
+   "url": "https://www.southernfoodways.org/interview/boltons-spicy-chicken-and-fish/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-infatuation-boltons",
+   "kind": "web",
+   "title": "Bolton's Famous Hot Chicken & Fish — review",
+   "publisher": "The Infatuation",
+   "url": "https://www.theinfatuation.com/nashville/reviews/boltons-famous-hot-chicken-and-fish",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-chings-home",
+   "kind": "web",
+   "title": "Ching's Best Wings",
+   "publisher": "Ching's Hot Wings",
+   "url": "https://chingsbestwings.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-chings-menu",
+   "kind": "web",
+   "title": "Menu — Ching's Hot Wings",
+   "publisher": "Ching's Hot Wings",
+   "url": "https://chingsbestwings.com/menu",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-central-bbq-about",
+   "kind": "web",
+   "title": "About — Central BBQ",
+   "publisher": "Central BBQ",
+   "url": "https://eatcbq.com/pages/about",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-central-bbq-midtown",
+   "kind": "web",
+   "title": "Central BBQ — Midtown",
+   "publisher": "Central BBQ",
+   "url": "https://eatcbq.com/pages/midtown",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-sfa-central-bbq",
+   "kind": "web",
+   "title": "Central BBQ — oral history with Craig Blondis, Tennessee BBQ project",
+   "publisher": "Southern Foodways Alliance",
+   "date": "2008-07-13",
+   "url": "https://www.southernfoodways.org/interview/central-bbq/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-encyclopedia-alabama-big-bob",
+   "kind": "web",
+   "title": "Big Bob Gibson BBQ",
+   "publisher": "Encyclopedia of Alabama",
+   "url": "https://encyclopediaofalabama.org/article/big-bob-gibson-bbq/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-big-bob-gibson-history",
+   "kind": "web",
+   "title": "History — Big Bob Gibson",
+   "publisher": "Big Bob Gibson Bar-B-Q",
+   "url": "https://bigbobgibson.com/blogs/news/history",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-big-bob-gibson-locations",
+   "kind": "web",
+   "title": "Locations — Big Bob Gibson",
+   "publisher": "Big Bob Gibson Bar-B-Q",
+   "url": "https://bigbobgibson.com/pages/locations",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-chickies-and-petes",
+   "kind": "web",
+   "title": "Chickie's & Pete's",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chickie%27s_%26_Pete%27s",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-chickies-petes-menu",
+   "kind": "web",
+   "title": "Menu — Chickie's & Pete's",
+   "publisher": "Chickie's & Pete's",
+   "url": "https://www.chickiesandpetes.com/menu",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-chickies-petes-locations",
+   "kind": "web",
+   "title": "Our Locations — Chickie's & Pete's",
+   "publisher": "Chickie's & Pete's",
+   "url": "https://www.chickiesandpetes.com/location",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm-nominatim",
+   "kind": "dataset",
+   "title": "OpenStreetMap Nominatim geocoder",
+   "publisher": "OpenStreetMap contributors (ODbL 1.0)",
+   "url": "https://nominatim.openstreetmap.org/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-blockclub-harolds",
+   "kind": "web",
+   "title": "What's Going On With Harold's Chicken? Your Questions (Mostly) Answered",
+   "publisher": "Block Club Chicago",
+   "date": "2026-08-14",
+   "url": "https://blockclubchicago.org/2026/08/14/whats-going-on-with-harolds-chicken/",
+   "accessed": "2026-09-16",
+   "note": "rate-limited to this project; read only through a search engine's extract, so anything drawn from it is marked needs_verification"
+  },
+  {
+   "id": "s:web-courtlistener-berkheimer",
+   "kind": "web",
+   "title": "Berkheimer v. REKM, L.L.C. — case record (docket 2023-0293, 2024-Ohio-2787, 177 Ohio St.3d 431, filed 2024-07-25)",
+   "publisher": "CourtListener, Free Law Project",
+   "url": "https://www.courtlistener.com/opinion/10680649/berkheimer-v-rekm-llc/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-volokh-boneless",
+   "kind": "web",
+   "title": "Should Consumers Expect to Find Bones in \"Boneless Wings\"?",
+   "author": "Jonathan H. Adler",
+   "publisher": "Reason — The Volokh Conspiracy",
+   "url": "https://reason.com/volokh/2024/07/25/should-consumers-expect-to-find-bones-in-boneless-wings/",
+   "accessed": "2026-09-16",
+   "note": "reproduces passages of the Deters majority and the Donnelly dissent"
+  },
+  {
+   "id": "s:web-hklaw-boneless",
+   "kind": "web",
+   "title": "Court Decision Concerning \"Boneless Chicken Wings\" Ignites Political Firestorm in Ohio",
+   "publisher": "Holland & Knight LLP",
+   "url": "https://www.hklaw.com/en/insights/publications/2024/08/court-decision-concerning-boneless-chicken-wings-ignites",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ecfr-381-170",
+   "kind": "dataset",
+   "title": "9 CFR 381.170 — Standards for kinds and classes, and for cuts of raw poultry",
+   "publisher": "Electronic Code of Federal Regulations, US Government Publishing Office",
+   "url": "https://www.ecfr.gov/current/title-9/section-381.170",
+   "accessed": "2026-09-16",
+   "note": "US Government work, public domain"
+  },
+  {
+   "id": "s:web-ams-weekly-chicken",
+   "kind": "dataset",
+   "title": "Weekly National Chicken Report (AMS_3646), report for 9/7/2026 to 9/11/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_3646.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; wholesale cents per pound, FOB"
+  },
+  {
+   "id": "s:web-ams-retail-chicken",
+   "kind": "dataset",
+   "title": "Weekly Grocery Store Chicken Feature Activity (AMS_2756), Fri Sep 11 2026, ads ending 9/5/2026 to 9/17/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_2756.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; advertised retail prices, dollars per pound"
+  },
+  {
+   "id": "s:web-ers-wing-cold-storage",
+   "kind": "web",
+   "title": "Rising cold storage supplies of U.S. chicken wings contributed to lower wholesale prices at end of 2021",
+   "publisher": "USDA Economic Research Service, Charts of Note",
+   "url": "https://www.ers.usda.gov/data-products/charts-of-note/103459",
+   "accessed": "2026-09-16",
+   "note": "published 11 March 2022; draws on Livestock, Dairy, and Poultry Outlook, February 2022"
+  },
+  {
+   "id": "s:web-ncc-wing-poll-2018",
+   "kind": "web",
+   "title": "Americans to Eat 1.35 Billion Chicken Wings for Super Bowl",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-eat-1-35-billion-chicken-wings-super-bowl/",
+   "accessed": "2026-09-16",
+   "note": "released 24 January 2018; carries the Harris Poll dip figures fielded 9-11 January 2018"
+  },
+  {
+   "id": "s:web-civicscience-wing-debate",
+   "kind": "web",
+   "title": "Chicken Wing Debate: Drums or Flats?",
+   "author": "John Dick",
+   "publisher": "CivicScience",
+   "url": "https://civicscience.com/the-great-chicken-wing-debate/",
+   "accessed": "2026-09-16",
+   "note": "published 5 June 2014; 6,093 US respondents"
+  },
+  {
+   "id": "s:web-counter-boneless",
+   "kind": "web",
+   "title": "Boneless chicken wings: It's not a lie if you believe it",
+   "author": "Sam Bloch",
+   "publisher": "The Counter",
+   "url": "https://thecounter.org/super-bowl-boneless-chicken-wings-poultry-economics/",
+   "accessed": "2026-09-16",
+   "note": "published 1 February 2018; quotes Russ Whitman of Urner Barry"
+  },
+  {
+   "id": "s:web-consumer-reports-wyngz",
+   "kind": "web",
+   "title": "Stephen Colbert's right: wyngz rhetoric",
+   "publisher": "Consumer Reports",
+   "url": "https://www.consumerreports.org/cro/news/2011/02/stephen-colbert-s-right-wyngz-rhetoric/index.htm",
+   "accessed": "2026-09-16",
+   "note": "published 3 February 2011; quotes the FSIS policy on the spelling"
+  },
+  {
+   "id": "s:web-thompson-coburn-wings",
+   "kind": "web",
+   "title": "'Boneless wings' or 'saucy nugs': Viral video provides lesson on food labeling laws",
+   "publisher": "Thompson Coburn LLP",
+   "url": "https://www.thompsoncoburn.com/insights/boneless-wings-or-saucy-nugs-viral-video-provides-lesson-on-food-labeling-la-102jbqy/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalorising-young-mural",
+   "kind": "web",
+   "title": "A Banner Day for the Legacy of John Young, aka \"King of the Wings\"",
+   "publisher": "Buffalo Rising",
+   "url": "https://www.buffalorising.com/2021/11/152550/",
+   "accessed": "2026-09-16",
+   "note": "published November 2021"
+  },
+  {
+   "id": "s:web-spectrum-mural-copyright",
+   "kind": "web",
+   "title": "Buffalo mural artist sends invoices for copyright infringement",
+   "author": "Brianne Roesser",
+   "publisher": "Spectrum News 1 Buffalo",
+   "url": "https://spectrumlocalnews.com/nys/buffalo/news/2023/04/12/mural-artist-sends-invoices-for-copyright-infringement",
+   "accessed": "2026-09-16",
+   "note": "published 12 April 2023"
+  },
+  {
+   "id": "s:web-wingstop-ranch-cup",
+   "kind": "web",
+   "title": "Wingstop Makes Ranch the Moment with a Limited-Edition 32 oz. Cup of Ranch",
+   "publisher": "Wingstop Inc., Investor Relations",
+   "url": "https://ir.wingstop.com/wingstop-makes-ranch-the-moment-with-a-limited-edition-32-oz-cup-of-ranch/",
+   "accessed": "2026-09-16",
+   "note": "released 9 March 2026"
+  },
+  {
+   "id": "s:web-osm-copyright",
+   "kind": "web",
+   "title": "Copyright and Licence",
+   "publisher": "OpenStreetMap Foundation",
+   "url": "https://www.openstreetmap.org/copyright",
+   "accessed": "2026-09-16",
+   "note": "ODbL 1.0; attribution and share-alike"
+  },
+  {
+   "id": "s:web-commons-licensing",
+   "kind": "web",
+   "title": "Commons:Licensing",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-commons-search",
+   "kind": "web",
+   "title": "Wikimedia Commons file search (MediaWiki API, action=query&list=search, namespace 6)",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/w/api.php",
+   "accessed": "2026-09-16",
+   "note": "used to find candidate file titles and to read each file's licence, author and date from extmetadata"
+  },
+  {
+   "id": "s:wikibooks-barbecue-sauce",
+   "kind": "web",
+   "title": "Cookbook:Barbecue Sauce I",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Sauce_I",
+   "accessed": "2026-09-16",
+   "note": "CC BY-SA 4.0; Cookbook:Barbecue Sauce redirects here"
+  },
+  {
+   "id": "s:web-bygone-nashville-boltons",
+   "kind": "web",
+   "title": "Bolton's Spicy Chicken and Fish - One of the Oldest African American Owned Businesses on Main Street",
+   "publisher": "Bygone Nashville, Middle Tennessee State University",
+   "url": "https://bygone-nashville.mtsu.edu/items/show/30",
+   "accessed": "2026-09-16",
+   "note": "the item body did not render to this project; the page title is what is cited here"
+  },
+  {
+   "id": "s:web-washingtonian-charles-jones",
+   "kind": "web",
+   "title": "Capital City Mambo Sauce Co-Owner Charles Jones Has Died at Age 46",
+   "publisher": "Washingtonian",
+   "date": "2019-10-14",
+   "url": "https://washingtonian.com/2019/10/14/capital-city-mambo-sauce-co-owner-charles-jones-has-died-at-age-45/",
+   "accessed": "2026-09-16",
+   "note": "blocked to this project; the headline and the URL disagree on his age, which is why the record says 45 or 46"
+  },
+  {
+   "id": "s:web-blockclub-mild-sauce",
+   "kind": "web",
+   "title": "Who Owns Mild Sauce? White Chef Bottles Chicago's Great Black Invention",
+   "publisher": "Block Club Chicago",
+   "date": "2020-03-05",
+   "url": "https://blockclubchicago.org/2020/03/05/who-owns-mild-sauce-white-chef-bottles-chicagos-great-black-invention/",
+   "accessed": "2026-09-16",
+   "note": "rate-limited to this project; read only through a search engine's extract"
+  }
+ ]
+}

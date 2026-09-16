@@ -1,0 +1,161 @@
+{
+ "schema": 1,
+ "id": "mammosers-tavern",
+ "type": "place",
+ "names": {
+  "name": "Mammoser's Tavern & Restaurant",
+  "aliases": [
+   "Mammoser's"
+  ],
+  "sort": "Mammoser's Tavern and Restaurant"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A neighbourhood tavern on South Buffalo Street in Hamburg, twelve miles south of the city, pouring eighteen microbrew drafts and frying a wing in a house sauce built on four kinds of pepper. Bon Appétit put it third in Western New York in 2018. Closed Sundays.",
+  "story": "Bon Appétit's Alex Delaney ranked three Western New York wing rooms on camera in 2018 after working through twelve. Gabriel's Gate came first, Elmo's second, Mammoser's third — a village tavern in the same sentence as two Buffalo rooms.\n\nWhat Visit Buffalo's trail names is the pepper count: a homemade sauce \"with four different varieties of pepper,\" delivering \"a slow burn and extra kick.\" Slow burn is the argument. Buffalo's cayenne-and-butter sauce hits at the front of the mouth and leaves; a four-pepper sauce arrives late and stays, which is a different eating experience sold under the same word, hot.\n\nThe house describes itself as the room where \"customers have been enjoying our famous wings for decades\" and as \"the friendly neighborhood bar that truly does know our customers by name.\" Listing sites date the tavern to 1947 and the building to a stable a century before that; this project could not read a page that states either, so both stay out of the record.",
+  "how": "Fried, then sauced in the house's own four-pepper mix. Eighteen microbrew taps run alongside — Step Out Buffalo says it is \"the only place in Hamburg, NY with 18 micro-brew drafts to choose from.\"",
+  "today": "Monday to Saturday 11:30am to 11pm as of September 2026. Closed Sunday."
+ },
+ "geo": {
+  "lat": 42.7153208,
+  "lon": -78.8292234,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "16 South Buffalo Street",
+  "city": "Hamburg",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14075"
+ },
+ "links": [
+  {
+   "label": "Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  },
+  {
+   "label": "Visit Buffalo listing",
+   "url": "https://visitbuffalo.com/businesses/mammosers/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "house-sauce",
+   "source": "s:web-buffalo-wing-trail",
+   "tier": "cited",
+   "note": "homemade sauce \"with four different varieties of pepper\"",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  },
+  {
+   "tag": "bar",
+   "source": "s:web-stepout-mammosers",
+   "tier": "cited",
+   "note": "the house calls itself \"the friendly neighborhood bar\" and counts 18 microbrew drafts",
+   "url": "https://stepoutbuffalo.com/business/restaurant-mammosers-tavern-restaurant/"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "bon-appetit",
+   "what": "Alex Delaney ranked its wings third of three in Western New York on camera",
+   "year": 2018,
+   "source": "s:web-stepout-bonappetit-wings",
+   "url": "https://stepoutbuffalo.com/best-3-spots-get-wings-wny-according-bon-appetit/"
+  },
+  {
+   "by": "buffalo-wing-trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "source": "s:web-buffalo-wing-trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday to Saturday 11:30am–11:00pm; closed Sunday",
+  "source": "s:web-stepout-mammosers",
+  "url": "https://stepoutbuffalo.com/business/restaurant-mammosers-tavern-restaurant/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "Cooks the style in a village south of the city and builds the heat out of four peppers instead of one.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Builds its version on four peppers, so the heat arrives late instead of at the front of the mouth.",
+   "rel": "sauce"
+  },
+  {
+   "to": "gabriels-gate",
+   "as": "Took first place over this room in Bon Appétit's 2018 ranking.",
+   "rel": "contrast"
+  },
+  {
+   "to": "elmos-bar-and-restaurant",
+   "as": "Came second in the same ranking, with a grilled second coat rather than a slow-burning first one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bar-bill-tavern",
+   "as": "The other village tavern on the trail, twelve miles east in East Aurora.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "Eighteen drafts pour beside the wings, which is what the room is for.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:web-buffalo-wing-trail",
+  "s:web-visitbuffalo-mammosers",
+  "s:web-stepout-mammosers",
+  "s:web-stepout-bonappetit-wings",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-buffalo-wing-trail"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-stepout-mammosers"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

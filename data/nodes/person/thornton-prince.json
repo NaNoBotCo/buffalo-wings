@@ -1,0 +1,98 @@
+{
+ "schema": 1,
+ "id": "thornton-prince",
+ "type": "person",
+ "names": {
+  "name": "Thornton Prince",
+  "aliases": [
+   "Thornton James Prince",
+   "James Thornton Prince",
+   "Thornton Prince III"
+  ],
+  "sort": "Prince, Thornton"
+ },
+ "region": [
+  "nashville",
+  "the-south"
+ ],
+ "facets": {
+  "role": [
+   "cook",
+   "founder"
+  ],
+  "state": "TN",
+  "styles": [
+   "nashville-hot"
+  ]
+ },
+ "text": {
+  "what": "Nashville cook whose family café put cayenne paste on fried chicken and made a city's dish out of it. Born near Franklin, Tennessee in December 1892 — the day is unknown — and died 15 February 1960, aged 67, of a cerebral thrombosis, according to research by the historian Rachel Louise Martin reported by Fox News in 2023. His great-niece André Prince Jeffries took over the café in 1980 and still runs it.",
+  "story": "The story everyone tells about Thornton Prince starts with a woman getting even. He kept late company; after one late night a girlfriend is said to have cooked him fried chicken loaded with pepper as revenge, and he liked it. Wikipedia's article on the shack introduces this account with the words \"While impossible to verify.\" Rachel L. Martin, who spent years on the history, wrote in The Bitter Southerner that \"No one knows what went into that first hot chicken\" and that \"All the old heads are gone.\" André Prince Jeffries, who tells it as family, says of her great-uncle: \"He was totally a ladies' man.\"\n\n*Tradition holds —* that he and his brothers worked the pepper up into a recipe and opened a café out of it. When they opened is not settled. Wikipedia dates the business to 1945. The Wikipedia article on hot chicken says that by the mid-1930s he and his brothers had a recipe and the BBQ Chicken Shack. Fox News, drawing on Martin, puts the opening \"around the time of World War II\" and says plainly that there are conflicting reports about the year. The restaurant's own page says almost a hundred years.\n\nThe café started at 28th Avenue and Jefferson Street, then moved downtown into Hell's Half Acre near the Ryman Auditorium, where Opry performers came after shows. Under segregation the family built a separate room at the back for white guests, who walked through the main dining room and the kitchen to reach it.\n\nWhen Prince died his brother Will took the business; Will's wife Maude ran it after him. In 1980 Maude decided that Thornton's great-niece André should have it.",
+  "how": "*Tradition holds —* the method the family passed down is a cayenne paste worked into the chicken hot out of the fat, not a batter seasoning and not a bottled sauce. Most Nashville kitchens still do it that way; recipes are held close and vary shop to shop.",
+  "today": "The name is on a Nashville restaurant, on a style sold in Los Angeles and Seoul, and on a KFC menu item. Prince's was named an America's Classic by the James Beard Foundation in 2013."
+ },
+ "kin": [
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "His family's café, opened by him and his brothers, and running under his name still.",
+   "rel": "place"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "as": "His great-niece, who took the business in 1980 and dropped the BBQ out of its name.",
+   "rel": "person"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "The style the family café is credited with, and the one a wing takes when it is cooked this way.",
+   "rel": "style"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "The cayenne paste his kitchen is said to have worked out, applied after the fry.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "What the plate sits on, and how you tell the dish before you taste it.",
+   "rel": "dish"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "as": "One of the Nashville kitchens that carried the method out past his family.",
+   "rel": "place"
+  },
+  {
+   "to": "hattie-bs",
+   "as": "Opened in 2012 and took the style to a wider, whiter, younger room than his café ever had.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-prince-s-hot-chicken-shack",
+  "s:wp-hot-chicken",
+  "s:web-foxnews-thornton-prince",
+  "s:web-bitter-southerner-hot-chicken",
+  "s:web-princes-hot-chicken-about"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-prince-s-hot-chicken-shack"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-foxnews-thornton-prince",
+    "note": "birth and death dates are Rachel Louise Martin's research as reported by Fox News, 20 October 2023; no primary record was read here"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

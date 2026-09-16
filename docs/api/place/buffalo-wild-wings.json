@@ -1,0 +1,432 @@
+{
+ "schema": 1,
+ "id": "buffalo-wild-wings",
+ "type": "place",
+ "names": {
+  "name": "Buffalo Wild Wings",
+  "aliases": [
+   "Buffalo Wild Wings & Weck",
+   "BW3",
+   "BDubs",
+   "BWW"
+  ],
+  "said": "Regulars say B-Dubs. The older nickname, BW3, counts the three words of the original name: Buffalo Wild Wings & Weck.",
+  "sort": "Buffalo Wild Wings"
+ },
+ "region": [
+  "ohio-valley",
+  "us"
+ ],
+ "facets": {
+  "state": "GA",
+  "status": "open",
+  "founded": 1982,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A sports-bar chain that put a Buffalo wing on a menu in Columbus, Ohio in 1982 and then on menus in all fifty states. Jim Disbrow and Scott Lowery opened it beside Ohio State University after failing to find Buffalo-style wings in Ohio. Wings go out in a long list of sauces and dry rubs — the chain's own sauce page counted 26 of them on 16 September 2026 — and the room is built around televised sport. Inspire Brands has owned it since 2018 and runs it from a support center in Sandy Springs, Georgia, which takes an Atlanta mailing address.",
+  "story": "Jim Disbrow finished judging a figure-skating competition at Kent State in 1982, went looking for the wings he had eaten in Buffalo, and found none. He and Scott Lowery opened Buffalo Wild Wings & Weck near Ohio State in Columbus instead. The weck was beef on weck, the Buffalo sandwich they served alongside; it left the name later, and the wings stayed.\n\nGrowth came in bursts and nearly stopped once. Six more locations followed in Ohio, Indiana and Steamboat Springs. Franchising started in 1992 through a Chicago law firm, at a fee of $15,000 to $20,000 plus a share of sales. In late 1994 Disbrow hired a part-time chief financial officer, Sally Smith, and to get her full-time moved the company to Minnesota; Smith found lenders, the Internal Revenue Service and a possible bankruptcy waiting, and could not work out whether the company had made or lost money before 1995. That year it took $12 million and lost $1.6 million. Smith became president and chief executive in August 1996.\n\nThe chain reached its own namesake city late. Location 100 opened in Apple Valley, Minnesota in October 1999. Only in 2000, at 140 locations across 19 states, did one open in Buffalo, New York. Shares began trading on NASDAQ in November 2003. Disbrow died in October 2002.\n\nRoark Capital Group and The Wendy's Company bought the chain for about $2.4 billion plus debt in a deal completed on 5 February 2018; Arby's Restaurant Group was renamed Inspire Brands and became the parent. Canada opened in 2010 and closed for good in June 2023.",
+  "how": "Bone-in wings fry and then go into a sauce or a dry seasoning, chosen off a board arranged by heat. The company's sauces page, read on 16 September 2026, describes \"26 Signature Sauces & Dry Rubs\", the hottest of them Blazin'. Boneless wings are made from breast meat. Bottled versions of the sauces have sold through grocery since the 1990s, when the company upgraded the packaging to push home sales.",
+  "today": "Over 1,300 locations across all fifty US states as of March 2025, run out of the Sandy Springs, Georgia support center by Inspire Brands, which also owns Arby's, Dunkin', Jimmy John's, Baskin-Robbins and Sonic. *Inference —* the sauce board, not the fry, is what the chain exports: a reader in Tucson picks Asian Zing or Nashville Hot off the same list as a reader in Buffalo."
+ },
+ "geo": {
+  "lat": 33.9353992,
+  "lon": -84.3599421,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "Three Glenlake Parkway NE",
+  "city": "Atlanta",
+  "county": "Fulton",
+  "state": "GA",
+  "postcode": "30328"
+ },
+ "links": [
+  {
+   "label": "Buffalo Wild Wings",
+   "url": "https://www.buffalowildwings.com/"
+  },
+  {
+   "label": "Sauces and dry rubs",
+   "url": "https://www.buffalowildwings.com/sauces-flavors/"
+  }
+ ],
+ "tags": [],
+ "recognitions": [
+  {
+   "by": "buffalo-wing-festival",
+   "what": "Buffalo Wild Wings' founders inducted into the National Buffalo Wing Hall of Flame, on the chain's 25th anniversary",
+   "year": 2007,
+   "source": "s:web-buffalowing-hall-of-flame",
+   "url": "https://buffalowing.com/hall-of-flame/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "jim-disbrow",
+   "as": "Could not find a Buffalo wing in Ohio in 1982, so he opened this.",
+   "rel": "person"
+  },
+  {
+   "to": "beef-on-weck",
+   "as": "The Weck in the original name — the Buffalo sandwich that shared the first menu and then left it.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "as": "Took the style out of western New York on a franchise, and reached Buffalo itself only in 2000.",
+   "rel": "style"
+  },
+  {
+   "to": "mango-habanero",
+   "as": "One of the sauces off the board, and an argument about heat that a chain menu made national.",
+   "rel": "sauce"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Sells them made from breast meat, beside the bone-in ones, on the same sauce list.",
+   "rel": "dish"
+  },
+  {
+   "to": "hooters",
+   "as": "Opened a year later, on the same wing and a different sell.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wingstop",
+   "as": "The counter-and-app chain that grew faster on a shorter menu, twelve years younger.",
+   "rel": "contrast"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "A sports bar on the biggest sports day of the American year.",
+   "rel": "event"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "1,300 kitchens buying the same cut is one reason the wholesale price moves.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wild-wings",
+  "s:wp-buffalo-wing",
+  "s:web-bww-sauces",
+  "s:web-inspire-contact",
+  "s:web-buffalowing-hall-of-flame"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wild-wings"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition",
+    "note": "the nicknames are in the Wikipedia article; that BW3 counts the three words is this project reading the old name"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-bww-sauces",
+    "fetched_at": "2026-09-16"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wild-wings",
+    "note": "the last sentence is this project's reading, marked in the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Inspire Brands' Global Support Center, geocoded against OpenStreetMap; the 1982 Columbus storefront's address is not on this disk"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-inspire-contact",
+    "note": "parent company headquarters, not the first location"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A sports-bar chain that put a Buffalo wing on a menu in Columbus, Ohio in 1982 and then on menus in all fifty states.",
+ "region_terms": [
+  {
+   "key": "ohio-valley",
+   "name": "The Ohio Valley",
+   "state": null,
+   "note": "Columbus, Cincinnati, Louisville"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "jim-disbrow",
+   "type": "person",
+   "name": "Jim Disbrow",
+   "as": "Could not find a Buffalo wing in Ohio in 1982, so he opened this.",
+   "rel": "person"
+  },
+  {
+   "to": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "The Weck in the original name — the Buffalo sandwich that shared the first menu and then left it.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Took the style out of western New York on a franchise, and reached Buffalo itself only in 2000.",
+   "rel": "style"
+  },
+  {
+   "to": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "One of the sauces off the board, and an argument about heat that a chain menu made national.",
+   "rel": "sauce"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Sells them made from breast meat, beside the bone-in ones, on the same sauce list.",
+   "rel": "dish"
+  },
+  {
+   "to": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Opened a year later, on the same wing and a different sell.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "The counter-and-app chain that grew faster on a shorter menu, twelve years younger.",
+   "rel": "contrast"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "A sports bar on the biggest sports day of the American year.",
+   "rel": "event"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "1,300 kitchens buying the same cut is one reason the wholesale price moves.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wild-wings",
+   "kind": "wikipedia",
+   "title": "Buffalo Wild Wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_Wild_Wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bww-sauces",
+   "kind": "web",
+   "title": "Buffalo Wild Wings Sauces, Dry Rubs and Flavors",
+   "publisher": "Buffalo Wild Wings",
+   "url": "https://www.buffalowildwings.com/sauces-flavors/",
+   "accessed": "2026-09-16",
+   "note": "the page's own description line: 26 signature sauces and dry rubs"
+  },
+  {
+   "id": "s:web-inspire-contact",
+   "kind": "web",
+   "title": "Contact — Global Support Center",
+   "publisher": "Inspire Brands",
+   "url": "https://www.inspirebrands.com/contact/",
+   "accessed": "2026-09-16",
+   "note": "Three Glenlake Parkway NE, Atlanta, GA 30328"
+  },
+  {
+   "id": "s:web-buffalowing-hall-of-flame",
+   "kind": "web",
+   "title": "Hall of Flame",
+   "publisher": "National Buffalo Wing Festival",
+   "url": "https://buffalowing.com/hall-of-flame/",
+   "accessed": "2026-09-16",
+   "note": "inductees by year, 2006 to 2026"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wild-wings"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wild-wings"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-bww-sauces",
+   "fetched_at": "2026-09-16"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wild-wings",
+   "note": "the last sentence is this project's reading, marked in the prose"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Inspire Brands' Global Support Center, geocoded against OpenStreetMap; the 1982 Columbus storefront's address is not on this disk"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-inspire-contact",
+   "note": "parent company headquarters, not the first location"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [
+  {
+   "key": "buffalo-wing-festival",
+   "label": "National Buffalo Wing Festival",
+   "what": "Buffalo Wild Wings' founders inducted into the National Buffalo Wing Hall of Flame, on the chain's 25th anniversary",
+   "url": "https://buffalowing.com/hall-of-flame/",
+   "year": 2007,
+   "source": "s:web-buffalowing-hall-of-flame"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "honey-bbq-sauce",
+   "type": "sauce",
+   "name": "Honey barbecue sauce",
+   "as": "Sells it on a board of a dozen-plus sauces where Buffalo is one option among many.",
+   "rel": "place"
+  },
+  {
+   "from": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "Carries a version on a board where Buffalo is one sauce among more than a dozen.",
+   "rel": "place"
+  },
+  {
+   "from": "teriyaki-sauce",
+   "type": "sauce",
+   "name": "Teriyaki sauce",
+   "as": "Carries it as one flavour among more than a dozen.",
+   "rel": "place"
+  },
+  {
+   "from": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "Opened as Buffalo Wild Wings and Weck and carried this sandwich in its name until 1998.",
+   "rel": "place"
+  },
+  {
+   "from": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Carries both counts on the same board, which is where most Americans meet the choice.",
+   "rel": "place"
+  },
+  {
+   "from": "atomic-wings",
+   "type": "place",
+   "name": "Atomic Wings",
+   "as": "The comparison its owner rejects: small shops built for delivery, not a sports bar.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Opened a year earlier in Columbus; the two chains carried the wing national together in the 1980s.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wing-cafe",
+   "type": "place",
+   "name": "The Wing Cafe & Tap House",
+   "as": "The other 1990s long-sauce-board wing bar, which went national where this one stayed on Roswell Road.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "The other national wing chain, twelve years older and built around a bar instead of a counter.",
+   "rel": "contrast"
+  },
+  {
+   "from": "jim-disbrow",
+   "type": "person",
+   "name": "Jim Disbrow",
+   "as": "Founded it in 1982 with Scott Lowery and chaired it until he died.",
+   "rel": "place"
+  },
+  {
+   "from": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "A sports bar built for exactly this afternoon.",
+   "rel": "place"
+  },
+  {
+   "from": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "Built a menu on the pair and lets a table order both.",
+   "rel": "place"
+  },
+  {
+   "from": "weck",
+   "type": "term",
+   "name": "weck",
+   "as": "Opened as Buffalo Wild Wings and Weck, which is what the third W in BW3 stood for.",
+   "rel": "place"
+  },
+  {
+   "from": "wing-night",
+   "type": "term",
+   "name": "wing night",
+   "as": "Ran the weekly special at national scale and made the day part of the brand.",
+   "rel": "place"
+  },
+  {
+   "from": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "Sells both, side by side, and prices them against each other.",
+   "rel": "place"
+  }
+ ]
+}

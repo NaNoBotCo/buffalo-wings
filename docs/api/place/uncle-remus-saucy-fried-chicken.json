@@ -1,0 +1,394 @@
+{
+ "schema": 1,
+ "id": "uncle-remus-saucy-fried-chicken",
+ "type": "place",
+ "names": {
+  "name": "Uncle Remus Saucy Fried Chicken",
+  "aliases": [
+   "Uncle Remus"
+  ],
+  "sort": "Uncle Remus Saucy Fried Chicken"
+ },
+ "region": [
+  "chicago"
+ ],
+ "facets": {
+  "state": "IL",
+  "status": "open",
+  "founded": 1963,
+  "cooked": "fried",
+  "styles": [
+   "chicago-mild-sauce"
+  ]
+ },
+ "text": {
+  "what": "A West Side Chicago fried-chicken counter whose sauce is in its name. Gus W. Rickette Sr. and Mary F. Rickette started it in 1963 as the G & G Chicken Shack and renamed it Uncle Remus in 1969; their daughter Charmaine Rickette Alfred runs it now. The company calls itself \"a Black-owned and women-led business with a rich history rooted in Chicago's West Side.\"",
+  "story": "Gus and Mary Rickette came to Chicago from Mississippi and opened the G & G Chicken Shack in 1963. The Uncle Remus name went up in 1969: first at 210 South Cicero in February, then at 5611 West Madison Street in August, in Austin. The Cicero shop is gone. Broadview followed in June 2004, Bronzeville at 747 East 47th Street in June 2015, and a small counter at 26th and Wabash after that.\n\nWikipedia names Uncle Remus, alongside Harold's Chicken Shack and Lem's Bar-B-Q, among the South and West Side restaurants that made mild sauce popular. *Tradition holds —* Charmaine Rickette told Block Club Chicago in 2020 that her father began serving mild sauce in the 1960s after watching customers mix ketchup and hot sauce themselves, which is the recipe in two moves; this project has that account secondhand and marks it unverified.\n\n*Inference —* the family tells the story as a migration story, Leland to Chicago, and the sauce sits inside it rather than beside it: the shop's name is a sauce adjective.\n\nThe brand also polices itself. Its own site lists the addresses it stands behind and says any similarly named business is not affiliated. The founding year is not settled between the family's own pages either: the story page dates the first shack to 1963 and the rename to 1969, while the brand's other site carries \"The Original Since 1968.\"",
+  "today": "Three official locations as of September 2026, per the company: 5611 West Madison Street in Chicago, 1801 Roosevelt Road in Broadview, and a cashless micro counter at 2537 South Wabash Avenue inside Picnic. The company's story page also lists the Bronzeville shop on East 47th Street, which the three-location page does not; this record does not resolve that."
+ },
+ "geo": {
+  "lat": 41.8800579,
+  "lon": -87.7654004,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "5611 West Madison Street",
+  "city": "Chicago",
+  "county": "Cook",
+  "state": "IL",
+  "postcode": "60644"
+ },
+ "links": [
+  {
+   "label": "Uncle Remus Saucy Fried Chicken",
+   "url": "https://www.uncleremususa.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-uncle-remus-story",
+   "tier": "cited",
+   "note": "the company's own words: \"Uncle Remus Saucy Fried Chicken is a Black-owned and women-led business with a rich history rooted in Chicago's West Side.\"",
+   "url": "https://www.uncleremususa.com/ourstory"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-uncle-remus-story",
+   "tier": "cited",
+   "note": "founded by Gus W. Rickette Sr. and Mary F. Rickette; led now by their daughter Charmaine Rickette Alfred",
+   "url": "https://www.uncleremususa.com/ourstory"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:wp-mild-sauce",
+   "tier": "cited",
+   "note": "Wikipedia names Uncle Remus among the Chicago restaurants that made mild sauce popular; the sauce is in the restaurant's name"
+  },
+  {
+   "tag": "takeout-window",
+   "source": "s:osm",
+   "tier": "harvested",
+   "note": "OpenStreetMap carries the Madison Street shop as amenity=fast_food, cuisine=chicken, drive_through=no"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "Named in Wikipedia's article on mild sauce as one of the Chicago restaurants that made the condiment popular",
+   "year": null,
+   "source": "s:wp-mild-sauce"
+  }
+ ],
+ "kin": [
+  {
+   "to": "chicago-mild-sauce",
+   "as": "Carries the sauce in its own name — saucy fried chicken — and is named among its originators on the West Side.",
+   "rel": "style"
+  },
+  {
+   "to": "mild-sauce",
+   "as": "Started here in the 1960s, the family says, after customers were seen mixing ketchup and hot sauce themselves.",
+   "rel": "sauce"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "as": "The South Side counter Wikipedia names beside this one whenever mild sauce comes up.",
+   "rel": "kin"
+  },
+  {
+   "to": "mild-sauce-word",
+   "as": "The word a Chicago counter says, which is not the same word a D.C. counter says for its own red sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "dc-mumbo",
+   "as": "The other city's carryout sauce, and the other half of an argument about who made it first.",
+   "rel": "contrast"
+  },
+  {
+   "to": "french-fries",
+   "as": "What the sauce goes over when it is not going over the chicken.",
+   "rel": "dish"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "as": "One of the West Side signboards the phrase Saucy Fried Chicken belongs to.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:web-uncle-remus-story",
+  "s:web-uncle-remus-official",
+  "s:wp-mild-sauce",
+  "s:osm",
+  "s:web-blockclub-mild-sauce"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-uncle-remus-story"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node, Uncle Remus, 5611 West Madison Street, Austin, Chicago"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-uncle-remus-official"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A West Side Chicago fried-chicken counter whose sauce is in its name. Gus W. Rickette Sr. and Mary F.",
+ "region_terms": [
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "mild sauce, the South Side chicken shack"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "Carries the sauce in its own name — saucy fried chicken — and is named among its originators on the West Side.",
+   "rel": "style"
+  },
+  {
+   "to": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "Started here in the 1960s, the family says, after customers were seen mixing ketchup and hot sauce themselves.",
+   "rel": "sauce"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "type": "place",
+   "name": "Harold's Chicken Shack",
+   "as": "The South Side counter Wikipedia names beside this one whenever mild sauce comes up.",
+   "rel": "kin"
+  },
+  {
+   "to": "mild-sauce-word",
+   "type": "term",
+   "name": "mild sauce",
+   "as": "The word a Chicago counter says, which is not the same word a D.C. counter says for its own red sauce.",
+   "rel": "term"
+  },
+  {
+   "to": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "The other city's carryout sauce, and the other half of an argument about who made it first.",
+   "rel": "contrast"
+  },
+  {
+   "to": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "What the sauce goes over when it is not going over the chicken.",
+   "rel": "dish"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "One of the West Side signboards the phrase Saucy Fried Chicken belongs to.",
+   "rel": "art"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-uncle-remus-story",
+   "kind": "web",
+   "title": "Our Story — Uncle Remus Saucy Fried Chicken",
+   "publisher": "Uncle Remus Saucy Fried Chicken",
+   "url": "https://www.uncleremususa.com/ourstory",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-uncle-remus-official",
+   "kind": "web",
+   "title": "Uncle Remus Saucy Fried Chicken | The Original Since 1968",
+   "publisher": "Uncle Remus Saucy Fried Chicken",
+   "url": "https://wearesaucyfriedchicken.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mild-sauce",
+   "kind": "wikipedia",
+   "title": "Mild sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mild_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "note": "ODbL 1.0, share-alike"
+  },
+  {
+   "id": "s:web-blockclub-mild-sauce",
+   "kind": "web",
+   "title": "Who Owns Mild Sauce? White Chef Bottles Chicago's Great Black Invention",
+   "publisher": "Block Club Chicago",
+   "date": "2020-03-05",
+   "url": "https://blockclubchicago.org/2020/03/05/who-owns-mild-sauce-white-chef-bottles-chicagos-great-black-invention/",
+   "accessed": "2026-09-16",
+   "note": "rate-limited to this project; read only through a search engine's extract"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-uncle-remus-story"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-uncle-remus-story"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-uncle-remus-official"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node, Uncle Remus, 5611 West Madison Street, Austin, Chicago"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-uncle-remus-story"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-uncle-remus-story",
+   "note": "the company's own words: \"Uncle Remus Saucy Fried Chicken is a Black-owned and women-led business with a rich history rooted in Chicago's West Side.\"",
+   "tier": "cited",
+   "url": "https://www.uncleremususa.com/ourstory"
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-uncle-remus-story",
+   "note": "founded by Gus W. Rickette Sr. and Mary F. Rickette; led now by their daughter Charmaine Rickette Alfred",
+   "tier": "cited",
+   "url": "https://www.uncleremususa.com/ourstory"
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:wp-mild-sauce",
+   "note": "Wikipedia names Uncle Remus among the Chicago restaurants that made mild sauce popular; the sauce is in the restaurant's name",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "takeout-window",
+   "label": "Counter or window, no dining room",
+   "icon": "🪟",
+   "group": "visit",
+   "evidence": "the business's own site, a press piece, or OpenStreetMap takeaway=only",
+   "resources": [],
+   "source": "s:osm",
+   "note": "OpenStreetMap carries the Madison Street shop as amenity=fast_food, cuisine=chicken, drive_through=no",
+   "tier": "harvested",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "Named in Wikipedia's article on mild sauce as one of the Chicago restaurants that made the condiment popular",
+   "url": "",
+   "year": null,
+   "source": "s:wp-mild-sauce"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "The West Side house Wikipedia names alongside Harold's for making the sauce popular.",
+   "rel": "place"
+  },
+  {
+   "from": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "Another of the shops named as making it popular on the West Side.",
+   "rel": "place"
+  },
+  {
+   "from": "chicken-and-waffles",
+   "type": "dish",
+   "name": "chicken and waffles",
+   "as": "Another Chicago house frying the chicken half of this plate.",
+   "rel": "place"
+  },
+  {
+   "from": "harolds-chicken-shack",
+   "type": "place",
+   "name": "Harold's Chicken Shack",
+   "as": "The West Side counter Wikipedia names beside this one for mild sauce.",
+   "rel": "kin"
+  },
+  {
+   "from": "harold-pierce",
+   "type": "person",
+   "name": "Harold Pierce",
+   "as": "The West Side counter people name alongside his when they argue about whose sauce.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mild-sauce-word",
+   "type": "term",
+   "name": "mild sauce",
+   "as": "Another, on the West Side, with its own formula.",
+   "rel": "place"
+  },
+  {
+   "from": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "Chicago signage where the sauce gets the biggest letters on the panel.",
+   "rel": "place"
+  }
+ ]
+}

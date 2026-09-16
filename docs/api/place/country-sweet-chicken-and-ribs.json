@@ -1,0 +1,323 @@
+{
+ "schema": 1,
+ "id": "country-sweet-chicken-and-ribs",
+ "type": "place",
+ "names": {
+  "name": "Country Sweet Chicken & Ribs",
+  "aliases": [
+   "Country Sweet"
+  ],
+  "sort": "Country Sweet Chicken and Ribs"
+ },
+ "region": [
+  "rochester"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1977,
+  "cooked": "fried",
+  "styles": [
+   "rochester-breaded"
+  ]
+ },
+ "text": {
+  "what": "A Rochester counter open since 1977, hand-breading its wings and glazing them in a sauce the founder built in a home kitchen and the city now buys by the bottle. The house says the sauce is \"not quite BBQ, and it certainly wasn't Buffalo—it was something entirely new,\" which is the whole of Rochester's case against Buffalo in one line of its own marketing.",
+  "story": "Tom Lask \"created a sauce that defied categorization in a Rochester home kitchen\" and opened Country Sweet in 1977, seventy miles east of the city that had just started exporting the cayenne-and-butter wing.\n\nThe sauce is sweet and tangy with heat behind it, sold in three grades: mild, hot, and a barbecue version the house calls \"sweet and smokey with tang.\" It goes on wings that are breaded before they fry — \"hand-breaded & crispy,\" in the house's own words, \"classic wings tossed in Country Sweet glaze.\" Buffalo fries its wings naked and sauces them after; Rochester puts a coat on first and glazes the coat. Both cities call the result a wing and neither concedes anything.\n\nThe bottled sauce outgrew the counter. It sells in Rochester groceries, which means a Country Sweet wing is something a household makes as well as something a counter sells.",
+  "how": "Wings are hand-breaded, fried, then tossed in the glaze rather than a thin sauce; a glaze clings and sets where a butter sauce runs. Ribs come off the same sauce.",
+  "today": "The original counter at 1691 Mt Hope Avenue is open seven days as of September 2026 — Monday to Thursday 11am to 9pm, Friday and Saturday 11am to 10pm, Sunday noon to 9pm. A second room trades in Greece."
+ },
+ "geo": {
+  "lat": 43.1171914,
+  "lon": -77.6219256,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1691 Mt Hope Avenue",
+  "city": "Rochester",
+  "county": "Monroe",
+  "state": "NY",
+  "postcode": "14620"
+ },
+ "links": [
+  {
+   "label": "Country Sweet Chicken & Ribs",
+   "url": "https://countrysweet.com/"
+  },
+  {
+   "label": "Locations",
+   "url": "https://countrysweet.com/locations/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "breaded",
+   "source": "s:web-countrysweet",
+   "tier": "cited",
+   "note": "the house describes its wings as \"hand-breaded & crispy\"",
+   "url": "https://countrysweet.com/"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-countrysweet",
+   "tier": "cited",
+   "note": "the Country Sweet sauce is the founder's own, made in three grades and sold in bottles",
+   "url": "https://countrysweet.com/"
+  },
+  {
+   "tag": "takeout-window",
+   "source": "s:osm",
+   "tier": "harvested",
+   "note": "OpenStreetMap carries takeaway=yes on the Mt Hope Avenue counter"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Monday to Thursday 11am–9pm, Friday and Saturday 11am–10pm, Sunday noon–9pm",
+  "source": "s:web-countrysweet-locations",
+  "url": "https://countrysweet.com/locations/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "rochester-breaded",
+   "as": "One of the counters the style is named for: coat first, fry, then glaze.",
+   "rel": "style"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "Hand-breads every wing before it goes in the oil.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo",
+   "as": "Seventy miles from it and declining both its sauce and its bare fry.",
+   "rel": "contrast"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The nearest national relative to a Country Sweet glaze, and the house says it is not that either.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "as": "The other Rochester wing room, frying bare and tossing where this one breads and glazes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "garbage-plate",
+   "as": "Shares a city and a habit: Rochester puts sauce on top of everything and names it after the sauce.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:web-countrysweet",
+  "s:web-countrysweet-locations",
+  "s:wp-rochester-new-york",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Rochester counter open since 1977, hand-breading its wings and glazing them in a sauce the founder built in a home kitchen and the city now buys by the bottle.",
+ "region_terms": [
+  {
+   "key": "rochester",
+   "name": "Rochester",
+   "state": "NY",
+   "note": "seventy miles east of Buffalo and breading its wings, which Buffalo notices"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "One of the counters the style is named for: coat first, fry, then glaze.",
+   "rel": "style"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "Hand-breads every wing before it goes in the oil.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Seventy miles from it and declining both its sauce and its bare fry.",
+   "rel": "contrast"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "type": "sauce",
+   "name": "Honey barbecue sauce",
+   "as": "The nearest national relative to a Country Sweet glaze, and the house says it is not that either.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "The other Rochester wing room, frying bare and tossing where this one breads and glazes.",
+   "rel": "contrast"
+  },
+  {
+   "to": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "Shares a city and a habit: Rochester puts sauce on top of everything and names it after the sauce.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-countrysweet",
+   "kind": "web",
+   "title": "Country Sweet Chicken & Ribs",
+   "publisher": "Country Sweet Chicken & Ribs",
+   "url": "https://countrysweet.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-countrysweet-locations",
+   "kind": "web",
+   "title": "Locations",
+   "publisher": "Country Sweet Chicken & Ribs",
+   "url": "https://countrysweet.com/locations/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-rochester-new-york",
+   "kind": "wikipedia",
+   "title": "Rochester, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rochester,_New_York",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "note": "ODbL 1.0, share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "breaded",
+   "label": "Breaded",
+   "icon": "🍞",
+   "group": "kitchen",
+   "evidence": "the menu, the business's own words, or a press piece that describes the wing",
+   "resources": [],
+   "source": "s:web-countrysweet",
+   "note": "the house describes its wings as \"hand-breaded & crispy\"",
+   "tier": "cited",
+   "url": "https://countrysweet.com/"
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:web-countrysweet",
+   "note": "the Country Sweet sauce is the founder's own, made in three grades and sold in bottles",
+   "tier": "cited",
+   "url": "https://countrysweet.com/"
+  },
+  {
+   "key": "takeout-window",
+   "label": "Counter or window, no dining room",
+   "icon": "🪟",
+   "group": "visit",
+   "evidence": "the business's own site, a press piece, or OpenStreetMap takeaway=only",
+   "resources": [],
+   "source": "s:osm",
+   "note": "OpenStreetMap carries takeaway=yes on the Mt Hope Avenue counter",
+   "tier": "harvested",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Dates the sauce to a Rochester home kitchen in 1977 and hand-breads the wings it goes on.",
+   "rel": "place"
+  },
+  {
+   "from": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "The other Rochester counter a plate-eater knows by name.",
+   "rel": "place"
+  },
+  {
+   "from": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "The other Rochester wing counter, hand-breading and glazing where this one fries and tosses.",
+   "rel": "contrast"
+  }
+ ]
+}

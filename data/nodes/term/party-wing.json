@@ -1,0 +1,93 @@
+{
+ "id": "party-wing",
+ "names": {
+  "name": "party wing",
+  "aliases": [
+   "party wings",
+   "wingettes and drumettes",
+   "split wings"
+  ],
+  "said": "Said by a package, not by a person. Nobody orders party wings in a bar."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "P",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "party + wing; retail compound, on the pattern of party pack and party size, where party means quantity-for-sharing rather than any occasion",
+  "first_attested": "",
+  "note": "No dated first use found for this project. Newspaper and trade archives were not searched to exhaustion, and the phrase is a grocery coinage, so it may well predate anything indexed. Sanderson Farms prints it as 'Chicken Party Wings Flats & Drummettes' — the label carries both the marketing word and the two trade words at once.",
+  "tier": "cited",
+  "source": "s:web-openfoodfacts-party-wings"
+ },
+ "text": {
+  "what": "A supermarket's name for wings already broken down: tips off, joint cut, drumettes and flats loose in one bag or tray. The work a bar's prep cook does, done at the plant. The word says nothing about seasoning and nothing about size — it says only that you will not be cutting anything.",
+  "how": "Thaw, pat dry, cook. The pieces come mixed in whatever ratio the case gave, roughly one drumette per flat, which is why a home cook cannot order all flats and a chain sometimes can.",
+  "today": "Sold fresh and frozen, plain and pre-seasoned, and the count drives January. Super Bowl week is the year's peak: the National Chicken Council put the 2026 game at 1.48 billion wings."
+ },
+ "kin": [
+  {
+   "to": "drumette",
+   "as": "Half of what is in the bag.",
+   "rel": "part"
+  },
+  {
+   "to": "flat",
+   "as": "The other half, in about equal number.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-tip",
+   "as": "Removed at the plant, which is the whole point of the product.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing-cut",
+   "as": "The same two cuts, made by a machine before the bag was sealed.",
+   "rel": "fry"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day these packs are bought for, in numbers a council counts.",
+   "rel": "event"
+  },
+  {
+   "to": "air-fryer",
+   "as": "Where a lot of them now end up, bought split because the basket wants them split.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:web-openfoodfacts-party-wings",
+  "s:web-ncc-superbowl-lx",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-openfoodfacts-party-wings"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-openfoodfacts-party-wings",
+    "note": "first_attested left empty: no dated use found"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ncc-superbowl-lx"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

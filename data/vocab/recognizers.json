@@ -1,0 +1,113 @@
+{
+ "note": "Who recognizes wing joints. A recognition is counted once per recognizer per place. The count is a fact about attention paid; it is not this project's ranking.",
+ "entries": [
+  {
+   "key": "james-beard",
+   "label": "James Beard Foundation",
+   "what": "America's Classics; Best Chef awards",
+   "url": "https://www.jamesbeard.org/"
+  },
+  {
+   "key": "michelin",
+   "label": "Michelin Guide",
+   "what": "Bib Gourmand or a star",
+   "url": "https://guide.michelin.com/"
+  },
+  {
+   "key": "buffalo-wing-festival",
+   "label": "National Buffalo Wing Festival",
+   "what": "a judged award at the festival",
+   "url": "https://buffalowing.com/"
+  },
+  {
+   "key": "wing-bowl",
+   "label": "Wing Bowl",
+   "what": "named in the Philadelphia contest",
+   "url": ""
+  },
+  {
+   "key": "nyt",
+   "label": "The New York Times",
+   "what": "a review or a list",
+   "url": ""
+  },
+  {
+   "key": "eater",
+   "label": "Eater",
+   "what": "an essential or best-of list",
+   "url": ""
+  },
+  {
+   "key": "bon-appetit",
+   "label": "Bon Appétit",
+   "what": "a feature or list",
+   "url": ""
+  },
+  {
+   "key": "food-network",
+   "label": "Food Network",
+   "what": "an episode or a feature",
+   "url": ""
+  },
+  {
+   "key": "thrillist",
+   "label": "Thrillist",
+   "what": "a national list",
+   "url": ""
+  },
+  {
+   "key": "usa-today",
+   "label": "USA Today 10Best",
+   "what": "a readers' choice list",
+   "url": ""
+  },
+  {
+   "key": "southern-living",
+   "label": "Southern Living",
+   "what": "a South's Best list",
+   "url": ""
+  },
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "an oral history recorded with the business",
+   "url": "https://www.southernfoodways.org/"
+  },
+  {
+   "key": "local-press",
+   "label": "The local paper or alt-weekly",
+   "what": "a best-of list or a profile; name the paper in `what`",
+   "url": ""
+  },
+  {
+   "key": "city-readers-poll",
+   "label": "A city readers' poll",
+   "what": "best wings, voted; name the poll in `what`",
+   "url": ""
+  },
+  {
+   "key": "state-tourism",
+   "label": "A state tourism office",
+   "what": "a trail or an official list",
+   "url": ""
+  },
+  {
+   "key": "buffalo-wing-trail",
+   "label": "Buffalo Wing Trail",
+   "what": "a stop on Visit Buffalo Niagara's official trail",
+   "url": "https://www.visitbuffaloniagara.com/"
+  },
+  {
+   "key": "sfa-oral-history",
+   "label": "An oral history archive",
+   "what": "an interview recorded with the business; name the archive in `what`",
+   "url": ""
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "say what in `what`",
+   "url": ""
+  }
+ ]
+}

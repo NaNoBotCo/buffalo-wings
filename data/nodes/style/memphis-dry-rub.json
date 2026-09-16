@@ -1,0 +1,132 @@
+{
+ "schema": 1,
+ "id": "memphis-dry-rub",
+ "type": "style",
+ "names": {
+  "name": "Memphis dry-rub wings",
+  "aliases": [
+   "dry wings",
+   "dry rub wings",
+   "dry heat"
+  ],
+  "said": "Dry or wet is the first question at a Memphis counter, and it is asked about ribs before it is asked about wings."
+ },
+ "region": [
+  "memphis",
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "TN",
+  "cut": "party wing",
+  "base": "dry-rub",
+  "cooked": "mixed",
+  "heat": "medium"
+ },
+ "text": {
+  "what": "A wing finished with the rub that Memphis puts on ribs — salt and a spice blend, house by house, usually paprika-led — and handed over without sauce. The city's rib counters run the dry-and-wet split: dry means rubbed before cooking and eaten as is, wet means brushed with sauce before, during and after. The wing borrows the split whole. It comes off a smoker at some houses, out of a fryer at others, and off both at a few, and the rub goes on at the end either way so the seasoning stays granular instead of dissolving.",
+  "story": "Memphis barbecue is a pork tradition with a documented vocabulary and a long bench of rib houses — Charlie Vergos' Rendezvous from 1948, Interstate Bar-B-Que from 1978, Neely's from 1988, Central BBQ from 2002. Chicken and beef sit on those menus beside the ribs and the shoulder, and Central BBQ's smoked chicken wings are named in the record of the style.\n\nThe wing's own scene is younger and better documented as a scene than as a history. The Memphis Flyer, surveying eight wing experiences in the city in March 2021, found wings \"in trucks, in stores, in outlet malls, even in gas stations\" and ran through D'Bo's Wings 'n More — started with a dream and a trailer in 1990 — along with Uncle Lou's, Riko's Kickin' Chicken, India Palace, Habee's Wings & Deli, The Wing Guru, Ching's Hot Wings and Belmont Grill, which the piece dates to adding wings around 1987 or 1988. Habee's calls its dry version \"Dry heat\", and the Flyer's writer liked it for the texture: crunchier skin, tender meat, no glaze.\n\n*Inference —* the dry wing in Memphis is the rib counter's habit applied to a cheaper bird, not a separate invention. This project found no source naming a first dry-rub wing, a cook or a year, and none is claimed here.",
+  "how": "Two routes, and both end the same way. Off the pit: rub, smoke low until the skin tightens, then dust again with the same rub going out — some houses run the wings hot at the end, over direct heat or through the fryer, to fix the skin. Out of the fryer: fry bare and hard, then toss in the rub while the surface is hot enough to hold it. Either way the rub goes on last and stays dry. Sauce, if anybody wants it, arrives in a cup on the side. Rub recipes are house property and are not published; the record on Memphis rubs says only that they are salt and various spices.",
+  "today": "Memphis wing counters carry dry alongside lemon pepper, hot and the honey-gold sauces the city's shops are known for, so the dry order is one line on a long board rather than the whole menu. Central BBQ ships and appears nationally on television. *Inference —* dry travels badly on a delivery app, where a sauce photographs and a dust does not, which is part of why the style stayed local while Nashville's went everywhere."
+ },
+ "kin": [
+  {
+   "to": "memphis-rub",
+   "as": "The rub itself, off the rib counter, which the wing borrows unchanged.",
+   "rel": "sauce"
+  },
+  {
+   "to": "central-bbq",
+   "as": "A 2002 Memphis pit whose smoked chicken wings are named in the record of the city's barbecue.",
+   "rel": "place"
+  },
+  {
+   "to": "chings-hot-wings",
+   "as": "One of the wing houses the Memphis Flyer walked through in 2021, on a board that runs well past dry.",
+   "rel": "place"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "The same pit, the other finish: this one stays dry, that one gets sauced.",
+   "rel": "kin"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "The pair of words Memphis asks about ribs first and wings second.",
+   "rel": "term"
+  },
+  {
+   "to": "naked",
+   "as": "What the wing has to be for a rub to stay granular on it.",
+   "rel": "term"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step this style leaves out — no bowl, no sauce, just a dust.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "as": "Where the sauce goes when a dry wing is ordered and somebody at the table still wants it.",
+   "rel": "fry"
+  },
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "The other dry American wing, out of a fryer rather than a pit, and sold in the same Memphis shops.",
+   "rel": "contrast"
+  },
+  {
+   "to": "alabama-white",
+   "as": "The neighbouring barbecue state's wing, which answers the same pit with a sauce instead of a rub.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "atlanta-lemon-pepper",
+   "tell": "Both arrive dry. Lemon pepper is citrus and black pepper; a Memphis rub is paprika, salt and pepper heat, and it usually carries smoke behind it."
+  },
+  {
+   "id": "smoked-bbq-wing",
+   "tell": "Whether anything got brushed on. A dry wing comes out of the pit with nothing but rub; a barbecue wing is finished with sauce."
+  },
+  {
+   "id": "baltimore-old-bay",
+   "tell": "Celery salt. Old Bay tastes of the crab pot; a Memphis rub tastes of the pit."
+  }
+ ],
+ "sources": [
+  "s:wp-memphis-style-barbecue",
+  "s:web-memphis-flyer-wings",
+  "s:wp-barbecue-in-the-united-states",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-memphis-style-barbecue"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the two routes are general pit-and-fryer practice; house rubs are unpublished and none is reconstructed"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-memphis-flyer-wings",
+    "note": "the closing paragraph is this project's inference and is marked; no first dry wing is asserted"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the delivery-app reasoning is this project's own and is marked inline"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

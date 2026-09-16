@@ -1,0 +1,93 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "par-cook",
+ "names": {
+  "name": "the par-cook",
+  "sort": "par-cook",
+  "aliases": [
+   "par-frying",
+   "blanching",
+   "the first fry",
+   "pre-cooking"
+  ],
+  "said": "A shop that gets wings out in four minutes at eight o'clock cooked them at four."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "method"
+ },
+ "text": {
+  "what": "Cooking the wing most of the way in advance and finishing it to order. The first pass drives out water and cooks the meat through; the finishing pass, hotter and short, browns it. It is the same architecture as a double fry, separated by hours instead of minutes and done for service rather than for texture.",
+  "story": "The potato wrote the manual. A french fry is fried in two baths: the first at around 160 °C / 320 °F to cook the fries through, the second at 190 °C / 375 °F to crisp the exterior; for thin 2–3 mm strips the first takes about three minutes and the second only seconds. Industrial fries are blanched and frozen between those two baths, which is why a bag of frozen fries finishes in a home fryer at all.\n\nKorean shops run the same split for texture rather than for timing: cook until the fat from the skin is rendered and the moisture stays in the meat, rest, then cook again, and a thin hard shell forms that keeps moisture out.\n\n*Inference —* a bar that sells hundreds of orders on a Sunday cannot start every one cold, so the wings are cooked ahead and finished on the ticket. That is not a lesser method; it is the same method with the rest extended, and it is why chain wings and bar wings can taste closer than either side would like.",
+  "how": "First pass at a moderate heat until cooked through. Lift, drain, spread in a single layer and cool fast — stacked hot wings steam each other and go slack. Hold cold. On the ticket, straight from cold into hot oil for a short finish, then into the bowl. A wing held longer than a shift loses the skin's tension and no second fry brings it back.",
+  "today": "General practice across chains and busy bars, and the reason a twenty-piece order arrives at the same time as a six. *Tradition holds —* shops do not advertise it, and customers who suspect it usually put the evidence down to a fryer rather than a schedule."
+ },
+ "kin": [
+  {
+   "to": "double-fry",
+   "as": "The same two passes, separated by minutes instead of hours and done for the crust.",
+   "rel": "kin"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "The vat this exists to keep up with on a Sunday.",
+   "rel": "fry"
+  },
+  {
+   "to": "french-fries",
+   "as": "The published version of this method, with temperatures and times.",
+   "rel": "dish"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "Another split cook: the slow part in the morning, the fast part on the ticket.",
+   "rel": "kin"
+  },
+  {
+   "to": "wing-basket",
+   "as": "How a count of fifty reaches a table at once.",
+   "rel": "whole"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day no kitchen in America starts a wing order cold.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:web-wp-french-fries",
+  "s:wp-bonchon-chicken",
+  "s:wp-deep-frying",
+  "s:wp-korean-fried-chicken"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-french-fries"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-wp-french-fries",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "trade practice; no cited house method"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true
+}

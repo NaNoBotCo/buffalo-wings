@@ -1,0 +1,108 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "mumbo-fries/mumbo-fries-mumbo-sauce.jpg",
+   "source": "commons",
+   "title": "File:Mumbo sauce.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mumbo_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMumbo_sauce.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "justgrimes",
+   "credit": "https://www.flickr.com/photos/notbrucelee/6015998118/",
+   "alt": "A bottle of Capital City Mumbo Sauce from the Washington, DC area.",
+   "date": "4 August 2011, 14:04:52",
+   "primary": true,
+   "sha256": "3f228736620960f40fa8e17f69341b09583017920d655dd1d8bfaee63d05962b"
+  }
+ ],
+ "id": "mumbo-fries",
+ "names": {
+  "name": "mumbo fries",
+  "aliases": [
+   "mambo fries",
+   "fries with mumbo"
+  ],
+  "said": "Fries, mumbo on top — or in the cup, which is a different order and the counter knows it."
+ },
+ "region": [
+  "dc"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "dc-mumbo"
+  ]
+ },
+ "text": {
+  "what": "French fries under mumbo sauce, from a Washington, D.C. carryout. Mumbo is a sweet, tangy, ketchup-based condiment — like barbecue sauce but sweeter, and somewhat spicier or more sour, with real variation in flavour and consistency between makers.",
+  "story": "The sauce arrives at the fries with a trademark fight attached. Argia B. Collins Sr. used the Mumbo name for a barbecue sauce he developed for his Chicago restaurant from at least as early as 1950; his successor-in-interest, Select Brands, LLC, registered the trademark on 25 May 1999, Registration No. 2,247,855, and has challenged D.C. uses of the name as infringements. Capital City Mumbo Sauce says the D.C. sauce started at a restaurant called Wings-n-Things in the late 1960s. John Young's Wings 'n Things had been serving mumbo sauce on chicken wings in Buffalo since the early 1960s, and Young himself credited a Washington, D.C. restaurant for the sauce. After two years of proceedings, the Trademark Trial and Appeal Board found that a D.C.-based company could not take the name from its Chicago founder.\n\nIn 2018 D.C. Mayor Muriel Bowser called mumbo sauce \"annoying\" in a Facebook post and questioned whether it was \"quintessential\" D.C.; her spokesperson said the remarks were meant to liven Thanksgiving discussions. On 9 October 2023 McDonald's released a version as a limited-time dipping sauce in its US locations, with a media campaign and a short YouTube documentary on the sauce's history.",
+  "how": "Fry the potatoes, salt them, and ladle mumbo over the top so it soaks in at the edges and pools at the bottom of the container. A cup on the side instead is a live option and a live disagreement. The sauce is served at room temperature or warm, not hot.",
+  "today": "Still a carryout order across the D.C. region, usually as the cheap half of a wing order. *Inference —* the fries are where a first-time customer meets the sauce, because they cost less than the wings and forgive a wrong guess about heat."
+ },
+ "kin": [
+  {
+   "to": "mumbo-sauce",
+   "as": "The sauce, its Chicago trademark and its D.C. claim.",
+   "rel": "sauce"
+  },
+  {
+   "to": "french-fries",
+   "as": "The potato underneath, doing what it does under every city's sauce.",
+   "rel": "part"
+  },
+  {
+   "to": "dc-mumbo",
+   "as": "The style this belongs to, and the cheapest way into it.",
+   "rel": "style"
+  },
+  {
+   "to": "fried-rice-plate",
+   "as": "The other half of the same carryout order.",
+   "rel": "kin"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "as": "Bottles a D.C. version and dates the sauce to a restaurant called Wings-n-Things in the late 1960s.",
+   "rel": "place"
+  },
+  {
+   "to": "mumbo",
+   "as": "The word, and whose name it legally is.",
+   "rel": "term"
+  },
+  {
+   "to": "john-young",
+   "as": "Sold wings in mumbo sauce in Buffalo from 1961 and credited a Washington restaurant for it.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-mumbo-sauce",
+  "s:wp-american-chinese-cuisine",
+  "s:web-wp-french-fries",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "reasons from the price gap between fries and wings"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

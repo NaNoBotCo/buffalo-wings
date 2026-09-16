@@ -1,0 +1,272 @@
+{
+ "schema": 1,
+ "id": "wing",
+ "type": "term",
+ "names": {
+  "name": "wing",
+  "aliases": [
+   "chicken wing",
+   "wings"
+  ],
+  "said": "An order is counted, not weighed: six, ten, twenty, fifty. 'A dozen' means twelve pieces, not twelve wings."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "W",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "Old Norse vængr → Middle English weng, winge → English wing; the food sense is a straight transfer from the bird's limb",
+  "first_attested": "",
+  "note": "On a menu the word slid from the whole limb to the pieces it gets cut into, so one wing off the bird sells as two or three wings. *Inference —* the counting unit followed the knife, not the bird.",
+  "tier": "tradition"
+ },
+ "text": {
+  "what": "A chicken's wing, and the pieces it becomes. Off the bird it runs drumette, flat and tip; a kitchen cuts it at both joints and usually throws the tip into stock, so what a menu calls a wing is one of two pieces. Order twenty and twenty pieces arrive, roughly ten birds' worth of one wing each.",
+  "how": "Say the number, then the sauce, then bone-in or boneless, then the dip. A counter that asks 'flats or drums?' is offering something most places will not."
+ },
+ "kin": [
+  {
+   "to": "drumette",
+   "as": "The upper piece, the one that looks like a small drumstick.",
+   "rel": "part"
+  },
+  {
+   "to": "flat",
+   "as": "The middle piece, two bones and the most skin.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-tip",
+   "as": "The pointed end, usually cut off and boiled for stock.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Where the knife goes, and why a wing sells as two.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "as": "What a grocery calls the drumette and the flat when it sells them already split.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless",
+   "as": "Sold under this word, cut from the breast, and argued about in court.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "tradition",
+    "note": "the Old Norse chain is general etymology; the menu sense is described, not dated"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A chicken's wing, and the pieces it becomes. Off the bird it runs drumette, flat and tip; a kitchen cuts it at both joints and usually throws the tip into stock, so what a menu calls a wing is one of two pieces.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "The upper piece, the one that looks like a small drumstick.",
+   "rel": "part"
+  },
+  {
+   "to": "flat",
+   "type": "term",
+   "name": "flat",
+   "as": "The middle piece, two bones and the most skin.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-tip",
+   "type": "term",
+   "name": "wing tip",
+   "as": "The pointed end, usually cut off and boiled for stock.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "Where the knife goes, and why a wing sells as two.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "What a grocery calls the drumette and the flat when it sells them already split.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "Sold under this word, cut from the breast, and argued about in court.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-wing",
+   "kind": "wikipedia",
+   "title": "Chicken wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_wing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "tradition",
+   "note": "the Old Norse chain is general etymology; the menu sense is described, not dated"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "The word and the counting unit this basket is measured in.",
+   "rel": "term"
+  },
+  {
+   "from": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "The word this cut redefines: what a menu calls a wing is one of the two pieces it makes.",
+   "rel": "term"
+  },
+  {
+   "from": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "Counts the word in portions, not birds — the unit behind every billion-wing headline.",
+   "rel": "term"
+  },
+  {
+   "from": "all-flats",
+   "type": "term",
+   "name": "all flats",
+   "as": "One bird, two pieces, which is the arithmetic the phrase runs into.",
+   "rel": "whole"
+  },
+  {
+   "from": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The word it borrows, which is the whole dispute.",
+   "rel": "contrast"
+  },
+  {
+   "from": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "One of the two pieces a menu means when it says wing.",
+   "rel": "whole"
+  },
+  {
+   "from": "flapper",
+   "type": "term",
+   "name": "flapper",
+   "as": "Its third segment, counted by anatomy and not by the menu.",
+   "rel": "whole"
+  },
+  {
+   "from": "flat",
+   "type": "term",
+   "name": "flat",
+   "as": "One of the two pieces a menu means when it says wing.",
+   "rel": "whole"
+  },
+  {
+   "from": "weck",
+   "type": "term",
+   "name": "weck",
+   "as": "What gets ordered with it, by the room rather than the person.",
+   "rel": "kin"
+  },
+  {
+   "from": "wing-tip",
+   "type": "term",
+   "name": "wing tip",
+   "as": "The third of its three segments, and the one a menu usually leaves out of the count.",
+   "rel": "whole"
+  },
+  {
+   "from": "rooster-weathervanes",
+   "type": "art",
+   "name": "Rooster weathervanes",
+   "as": "The part of the bird the vane makes its tail out of, and the part the menu sells.",
+   "rel": "term"
+  },
+  {
+   "from": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "The word the federal standard protects on a label and leaves unprotected on a menu.",
+   "rel": "contrast"
+  },
+  {
+   "from": "the-flat-and-the-drum",
+   "type": "story",
+   "name": "The flat and the drum",
+   "as": "The whole limb this page takes apart, and the word that slid from the limb to its pieces.",
+   "rel": "whole"
+  },
+  {
+   "from": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "The cut whose price this page tracks, from throwaway to 110 cents a pound.",
+   "rel": "term"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "schema": 1,
+ "id": "buffalo-wing-trail",
+ "type": "org",
+ "names": {
+  "name": "Buffalo Wing Trail",
+  "aliases": [
+   "The Official Buffalo Wing Trail"
+  ],
+  "sort": "Buffalo Wing Trail"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 2018
+ },
+ "text": {
+  "what": "A list of wing joints, published by Visit Buffalo Niagara, the region's tourism bureau. It launched in April 2018 with twelve stops and carried fourteen when read on 16 September 2026, spread from Getzville and Amherst down through the city to East Aurora, Hamburg and Orchard Park. The trail's own words for what is on it: \"14 neighborhood pubs and tucked-away corner taverns.\" There is no ranking, no scoring and no judging — it is an itinerary, which is exactly what makes it useful evidence.",
+  "story": "Spectrum News covered the launch on 12 April 2018. The twelve opening stops were the Anchor Bar, Bar-Bill Tavern in East Aurora, Blackthorn on Seneca Street, Cole's on Elmwood, Doc Sullivan's on Abbott Road, Duff's in Amherst, Elmo's in Getzville, Gabriel's Gate on Allen Street, Gene McCarthy's on Hamburg Street, Glen Park Tavern in Williamsville, the Lenox Grill on North Street and Mammoser's Tavern in Hamburg.\n\nThe list read on 16 September 2026 runs: Elmo's Bar & Restaurant, 2349 Millersport Hwy, Getzville; Duff's Famous Wings, 3651 Sheridan Dr., Amherst; Glen Park Tavern, 5507 Main St, Williamsville; Cole's, 1104 Elmwood Ave; Anchor Bar, 1047 Main St; Gabriel's Gate, 145 Allen St; Gene McCarthy's, 73 Hamburg St; Blackthorn Restaurant & Pub, 2134 Seneca St; Doc Sullivan's, 474 Abbott Rd; Bar-Bill Tavern, 185 Main St, East Aurora; Mammoser's Tavern & Restaurant, 16 S Buffalo St, Hamburg; Nine-Eleven Tavern, 11 Bloomfield Ave; O'Neill's Stadium Inn, 3864 Abbott Road, Orchard Park; Kelly's Korner, 2526 Delaware Ave.\n\nCompare the two lists and the trail's eight years show: the Lenox Grill is gone, and Nine-Eleven Tavern, O'Neill's Stadium Inn and Kelly's Korner have joined. *Inference —* a list a tourism bureau maintains is a record of which rooms a city is willing to send a stranger to, and it changes when a room closes or a reputation moves.",
+  "how": "Drive it or walk the city stretch. Stops sit in four groups — north suburbs, the city, the south towns, and the stadium side in Orchard Park — and nothing obliges a visitor to do them in order or to finish. Each stop is a working bar with its own hours; the trail publishes addresses, not opening times.",
+  "today": "Fourteen stops as of 16 September 2026, at visitbuffalo.com. Seven of them have records here: the Anchor Bar, Duff's, Bar-Bill, Gabriel's Gate, Nine-Eleven Tavern, Mammoser's and Elmo's."
+ },
+ "geo": {
+  "lat": 42.90743,
+  "lon": -78.87261,
+  "precision": "town",
+  "source": "s:osm"
+ },
+ "address": {
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY"
+ },
+ "links": [
+  {
+   "label": "Buffalo Wing Trail — Visit Buffalo Niagara",
+   "url": "https://visitbuffalo.com/buffalo-wing-trail/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "anchor-bar",
+   "as": "A stop since the trail opened, at 1047 Main Street.",
+   "rel": "place"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "as": "A stop since the trail opened, at the Sheridan Drive room in Amherst.",
+   "rel": "place"
+  },
+  {
+   "to": "bar-bill-tavern",
+   "as": "The East Aurora stop, twenty miles out from the city and on the list from day one.",
+   "rel": "place"
+  },
+  {
+   "to": "gabriels-gate",
+   "as": "The Allentown stop, on Allen Street.",
+   "rel": "place"
+  },
+  {
+   "to": "nine-eleven-tavern",
+   "as": "A South Buffalo stop added after the 2018 launch.",
+   "rel": "place"
+  },
+  {
+   "to": "mammosers-tavern",
+   "as": "The Hamburg stop, on South Buffalo Street.",
+   "rel": "place"
+  },
+  {
+   "to": "elmos-bar-and-restaurant",
+   "as": "The northern end, out on Millersport Highway in Getzville.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "Maps the style at home: fourteen rooms frying the same bird fourteen ways.",
+   "rel": "style"
+  },
+  {
+   "to": "city-of-buffalo",
+   "as": "Not the city's project — the tourism bureau runs it.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:web-visit-buffalo-wing-trail",
+  "s:web-spectrum-wing-trail-2018"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-visit-buffalo-wing-trail",
+   "fetched_at": "2026-09-16"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-spectrum-wing-trail-2018",
+    "note": "the 2018 list from Spectrum News, the 2026 list from the trail's own page; the closing paragraph is this project's reading, marked in the prose"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "the grouping into four areas is this project's reading of the fourteen addresses; the trail publishes no route"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the trail has no address of its own; the coordinate is the Anchor Bar, its city-centre stop, at town precision"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

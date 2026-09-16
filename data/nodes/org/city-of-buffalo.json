@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "id": "city-of-buffalo",
+ "type": "org",
+ "names": {
+  "name": "City of Buffalo",
+  "aliases": [
+   "Buffalo, New York",
+   "City Hall, Niagara Square"
+  ],
+  "sort": "Buffalo, City of"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1832
+ },
+ "text": {
+  "what": "The municipal government that put its name on the wing, and then put a day on the calendar. Buffalo was incorporated as a city in 1832, seven years after the Erie Canal chose it for a terminus. It runs on a strong mayor–council system from City Hall at Niagara Square, with nine Common Council districts. In 1977 it issued a proclamation honouring Anchor Bar co-owner Frank Bellissimo and declared 29 July Chicken Wing Day.",
+  "story": "The proclamation is the closest thing the origin argument has to an official document, and it settles nothing about who invented the wing. It honours one man at one bar. Mayor Stan Makowski signed it, and the wording that survives in circulation notes that \"thousands of pounds of chicken wings are consumed by Buffalonians in restaurants and taverns throughout the city each week.\"\n\nThat sentence is a claim about the city's appetite, not about the Anchor Bar's authorship. John Young had been selling breaded whole wings in mumbo sauce on the East Side since 1961; Duff's began selling them in 1969; a 1969 newspaper profile of the Anchor Bar does not mention wings at all. The city honoured the Bellissimos anyway, thirteen years after the night the Anchor Bar dates its invention to.\n\n*Inference —* the proclamation did most of its work later. A city seal on one version of the story is what a festival, a trademark and forty years of retelling were built beside. The proclamation's own text does not appear in this project's sources; what circulates is the fragment above, quoted the same way by a Buffalo radio station in 2020 and by the site that promotes the day.",
+  "how": "City proclamations are ceremonial instruments: the mayor signs, the day is named, nothing is enforced and nothing is adjudicated. This one named a date that outlived the administration that issued it, and is now marked nationally.",
+  "today": "Sean Ryan has been mayor since 1 January 2026. The trail that takes visitors around the region's wing joints is run by Visit Buffalo Niagara, the tourism bureau, not by the city. *Tradition holds —* 29 July is still marked in Buffalo bars, though this project has found no city ordinance behind the observance beyond the 1977 proclamation itself."
+ },
+ "geo": {
+  "lat": 42.8867082,
+  "lon": -78.879256,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "65 Niagara Square",
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14202"
+ },
+ "links": [
+  {
+   "label": "City of Buffalo",
+   "url": "https://www.buffalony.gov/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "national-chicken-wing-day",
+   "as": "Created it, on 29 July 1977, by proclamation.",
+   "rel": "event"
+  },
+  {
+   "to": "frank-bellissimo",
+   "as": "The man the 1977 proclamation honours by name.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "The bar whose version of the story the city's proclamation stands beside.",
+   "rel": "place"
+  },
+  {
+   "to": "john-young",
+   "as": "Sold wings in this city from 1961 and got no proclamation; the festival inducted him in 2013.",
+   "rel": "person"
+  },
+  {
+   "to": "buffalo",
+   "as": "Gave the style its name, and has nothing to do with the animal.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-wing-trail",
+   "as": "Runs through the city, but is the tourism bureau's, not City Hall's.",
+   "rel": "org"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Issued the one document with a city seal on it, and it honours a man rather than deciding a question.",
+   "rel": "story"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Fills a city ballpark every Labor Day weekend on the strength of the name.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-buffalo-new-york",
+  "s:web-national-chicken-wing-day",
+  "s:web-wyrk-chicken-wing-day",
+  "s:web-visit-buffalo-wing-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-national-chicken-wing-day",
+    "note": "the quoted fragment and the mayor's name come from two secondary pages that quote the proclamation; the full text was not found. The closing paragraph is this project's reasoning, marked in the prose."
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-new-york"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Buffalo City Hall, geocoded against OpenStreetMap"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,389 @@
+{
+ "schema": 1,
+ "id": "nine-eleven-tavern",
+ "type": "place",
+ "names": {
+  "name": "Nine-Eleven Tavern",
+  "aliases": [
+   "The Nine-Eleven Tavern",
+   "911 Tavern"
+  ],
+  "sort": "Nine-Eleven Tavern"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1981,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A cash-only corner tavern in South Buffalo, established 1981, whose wings come out large and heavily sauced in a recipe its late owner kept to himself. Buffalo Rising gives the address as 9-11 Bloomfield Avenue; the mailing address is 11. Five days a week, no cards, no delivery.",
+  "story": "Mark Gress opened it in 1981. Buffalo Rising, writing in 2016, put it at \"35 years\" and called the payment policy in four words: \"it's cash only.\"\n\nThe name is the street number. *Inference —* the house does not print an explanation, but Buffalo Rising lists the address as \"9-11 Bloomfield Avenue | Buffalo, NY 14220-1920\", two numbers for two rooms, and local press repeats that the tavern took its name from them. It is not named for Seneca Street and it is not named for the date; the tavern was nineteen years old by September 2001.\n\nThe sauce is the other closed subject. Visit Buffalo's trail describes the result rather than the recipe: \"large, crispy, and saucy\" with a sauce that \"starts sweet and tangy, then builds towards a robust, fiery finish.\" Buffalo Rising's reviewer found \"a nice vinegar to butter ratio\" and his wife found the sauce \"a bit on the sweeter side and were lacking in the heat department,\" which is the argument in one sentence.",
+  "how": "Fried, sauced heavily, served in the bar or the back room with the attached deck. Bottles of the house sauce sell over the counter. Cash.",
+  "today": "Kitchen Tuesday to Thursday 4:30–9pm and Friday and Saturday 4:30–9:30pm; the bar runs half an hour to an hour longer. Closed Sunday and Monday. The house lists Buffalo Wing Coalition wins for 2025 and 2026 and a Buffalo Spree best-wings vote in 2013, and says Gress was inducted into the Buffalo Wing Hall of Flame."
+ },
+ "geo": {
+  "lat": 42.8452004,
+  "lon": -78.8233371,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "11 Bloomfield Avenue",
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14220"
+ },
+ "links": [
+  {
+   "label": "The Nine-Eleven Tavern",
+   "url": "https://www.nineeleventavern.com/"
+  },
+  {
+   "label": "Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "cash-only",
+   "source": "s:web-nine-eleven-tavern",
+   "tier": "cited",
+   "note": "the house posts \"DINE-IN | CASH ONLY\"",
+   "url": "https://www.nineeleventavern.com/"
+  },
+  {
+   "tag": "bar",
+   "source": "s:web-nine-eleven-tavern",
+   "tier": "cited",
+   "note": "bar hours are posted separately from and later than the kitchen's",
+   "url": "https://www.nineeleventavern.com/"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-nine-eleven-tavern",
+   "tier": "cited",
+   "note": "the house bottles and sells its own sauce over the counter",
+   "url": "https://www.nineeleventavern.com/"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "buffalo-wing-festival",
+   "what": "Mark Gress inducted into the National Buffalo Wing Hall of Flame",
+   "source": "s:web-nine-eleven-tavern",
+   "url": "https://www.nineeleventavern.com/"
+  },
+  {
+   "by": "local-press",
+   "what": "Buffalo Spree, Best Wings, voted 2013; Buffalo Wing Coalition, Best Buffalo Chicken Wings, 2025 and 2026",
+   "year": 2013,
+   "source": "s:web-nine-eleven-tavern",
+   "url": "https://www.nineeleventavern.com/"
+  },
+  {
+   "by": "buffalo-wing-trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "source": "s:web-buffalo-wing-trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su",
+   "Mo"
+  ],
+  "text": "Kitchen Tuesday to Thursday 4:30–9pm, Friday and Saturday 4:30–9:30pm; bar until 10pm and 10:30pm",
+  "source": "s:web-nine-eleven-tavern",
+  "url": "https://www.nineeleventavern.com/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "Cooks the style in South Buffalo, sweeter at the front of the mouth than the Anchor Bar's cayenne-and-butter.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Pours a version nobody outside the family has the recipe for.",
+   "rel": "sauce"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Put its founder in the Hall of Flame.",
+   "rel": "event"
+  },
+  {
+   "to": "the-toss",
+   "as": "Does it heavily — Visit Buffalo's word for the result is \"saucy.\"",
+   "rel": "fry"
+  },
+  {
+   "to": "gabriels-gate",
+   "as": "The Allentown corner with the opposite sauce argument: Frank's RedHot straight, no sweetness.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mammosers-tavern",
+   "as": "Another neighbourhood tavern on the trail, closed Sundays too, arguing peppers against sugar.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:web-nine-eleven-tavern",
+  "s:web-buffalorising-nine-eleven",
+  "s:web-visitbuffalo-nine-eleven",
+  "s:web-stepout-nine-eleven",
+  "s:web-buffalo-wing-trail",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-nine-eleven-tavern"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-buffalorising-nine-eleven",
+    "note": "the name's origin is marked inline as this project's inference from the 9-11 street number"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A cash-only corner tavern in South Buffalo, established 1981, whose wings come out large and heavily sauced in a recipe its late owner kept to himself.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Cooks the style in South Buffalo, sweeter at the front of the mouth than the Anchor Bar's cayenne-and-butter.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Pours a version nobody outside the family has the recipe for.",
+   "rel": "sauce"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "Put its founder in the Hall of Flame.",
+   "rel": "event"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Does it heavily — Visit Buffalo's word for the result is \"saucy.\"",
+   "rel": "fry"
+  },
+  {
+   "to": "gabriels-gate",
+   "type": "place",
+   "name": "Gabriel's Gate",
+   "as": "The Allentown corner with the opposite sauce argument: Frank's RedHot straight, no sweetness.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mammosers-tavern",
+   "type": "place",
+   "name": "Mammoser's Tavern & Restaurant",
+   "as": "Another neighbourhood tavern on the trail, closed Sundays too, arguing peppers against sugar.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-nine-eleven-tavern",
+   "kind": "web",
+   "title": "Nine-Eleven Tavern — One of Buffalo's Top Rated Chicken Wing Restaurants",
+   "publisher": "The Nine-Eleven Tavern",
+   "url": "https://www.nineeleventavern.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalorising-nine-eleven",
+   "kind": "web",
+   "title": "The Nine-Eleven Tavern",
+   "publisher": "Buffalo Rising",
+   "url": "https://www.buffalorising.com/2016/09/the-nine-eleven-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visitbuffalo-nine-eleven",
+   "kind": "web",
+   "title": "Nine-Eleven Tavern",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/businesses/nine-eleven-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-stepout-nine-eleven",
+   "kind": "web",
+   "title": "Nine-Eleven Tavern",
+   "publisher": "Step Out Buffalo",
+   "url": "https://stepoutbuffalo.com/business/restaurant-nine-eleven-tavern/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalo-wing-trail",
+   "kind": "web",
+   "title": "Where to Find the Best Wings in Buffalo, NY — Buffalo Wing Trail",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "note": "ODbL 1.0, share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-nine-eleven-tavern"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-buffalorising-nine-eleven",
+   "note": "the name's origin is marked inline as this project's inference from the 9-11 street number"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-nine-eleven-tavern"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-nine-eleven-tavern"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-nine-eleven-tavern"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "cash-only",
+   "label": "Cash only",
+   "icon": "💵",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-nine-eleven-tavern",
+   "note": "the house posts \"DINE-IN | CASH ONLY\"",
+   "tier": "cited",
+   "url": "https://www.nineeleventavern.com/"
+  },
+  {
+   "key": "bar",
+   "label": "Bar, 21 and over",
+   "icon": "🍺",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-nine-eleven-tavern",
+   "note": "bar hours are posted separately from and later than the kitchen's",
+   "tier": "cited",
+   "url": "https://www.nineeleventavern.com/"
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:web-nine-eleven-tavern",
+   "note": "the house bottles and sells its own sauce over the counter",
+   "tier": "cited",
+   "url": "https://www.nineeleventavern.com/"
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "buffalo-wing-festival",
+   "label": "National Buffalo Wing Festival",
+   "what": "Mark Gress inducted into the National Buffalo Wing Hall of Flame",
+   "url": "https://www.nineeleventavern.com/",
+   "year": null,
+   "source": "s:web-nine-eleven-tavern"
+  },
+  {
+   "key": "local-press",
+   "label": "The local paper or alt-weekly",
+   "what": "Buffalo Spree, Best Wings, voted 2013; Buffalo Wing Coalition, Best Buffalo Chicken Wings, 2025 and 2026",
+   "url": "https://www.nineeleventavern.com/",
+   "year": 2013,
+   "source": "s:web-nine-eleven-tavern"
+  },
+  {
+   "key": "buffalo-wing-trail",
+   "label": "Buffalo Wing Trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/",
+   "year": null,
+   "source": "s:web-buffalo-wing-trail"
+  }
+ ],
+ "acclaim": 3,
+ "kin_in": [
+  {
+   "from": "buffalo-wing-trail",
+   "type": "org",
+   "name": "Buffalo Wing Trail",
+   "as": "A South Buffalo stop added after the 2018 launch.",
+   "rel": "place"
+  },
+  {
+   "from": "neon-chicken",
+   "type": "art",
+   "name": "Neon chicken",
+   "as": "A corner tavern whose door sign does the work a pole sign does elsewhere.",
+   "rel": "place"
+  }
+ ]
+}

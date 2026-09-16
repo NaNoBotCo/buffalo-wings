@@ -1,0 +1,220 @@
+{
+ "id": "wing-tip",
+ "names": {
+  "name": "wing tip",
+  "aliases": [
+   "tip",
+   "wingtip",
+   "third segment"
+  ],
+  "sort": "wing tip"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "W",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "wing + tip, a plain compound; the piece also answers to flapper and to pointer, and all three names describe the same shape from a different angle",
+  "first_attested": "",
+  "note": "Wikipedia's Buffalo wing article names the three segments \"drumette, flat, and flapper or pointer\"; its poultry article gives \"the wing tip (also called the 'flapper')\". *Inference —* tip is what a butcher calls it, flapper what a cook calls it, pointer what a diner calls it when handed one.",
+  "tier": "cited",
+  "source": "s:wp-buffalo-wing"
+ },
+ "text": {
+  "what": "Third segment, the pointed end. Skin, cartilage, two slivers of bone, almost no meat. Usually cut off before the wing reaches a fryer and boiled into stock instead, though some restaurants serve it still joined to the flat.",
+  "how": "Where it survives on the plate, it is eaten whole — crust, cartilage and all — or left in the bone bowl. Where it does not, it goes into a stockpot: collagen from the joints is what makes chicken stock set, so the least saleable piece of the wing is the one worth most to a kitchen that makes its own."
+ },
+ "kin": [
+  {
+   "to": "flapper",
+   "as": "The same piece under the name a kitchen uses for it.",
+   "rel": "same-word"
+  },
+  {
+   "to": "wing",
+   "as": "The third of its three segments, and the one a menu usually leaves out of the count.",
+   "rel": "whole"
+  },
+  {
+   "to": "flat",
+   "as": "What it is attached to, and what it gets cut away from.",
+   "rel": "kin"
+  },
+  {
+   "to": "wing-cut",
+   "as": "The cut that removes it, the first of the two.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "as": "A pack defined partly by this piece's absence.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-as-food",
+  "s:wp-poultry"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the stock use is general kitchen knowledge; the practice of serving the tip attached is cited"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "Third segment, the pointed end. Skin, cartilage, two slivers of bone, almost no meat.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "flapper",
+   "type": "term",
+   "name": "flapper",
+   "as": "The same piece under the name a kitchen uses for it.",
+   "rel": "same-word"
+  },
+  {
+   "to": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "The third of its three segments, and the one a menu usually leaves out of the count.",
+   "rel": "whole"
+  },
+  {
+   "to": "flat",
+   "type": "term",
+   "name": "flat",
+   "as": "What it is attached to, and what it gets cut away from.",
+   "rel": "kin"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "The cut that removes it, the first of the two.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "A pack defined partly by this piece's absence.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-as-food",
+   "kind": "wikipedia",
+   "title": "Chicken as food",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_as_food",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-poultry",
+   "kind": "wikipedia",
+   "title": "Poultry",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Poultry",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the stock use is general kitchen knowledge; the practice of serving the tip attached is cited"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "The third piece, usually cut off and boiled for stock rather than sold.",
+   "rel": "part"
+  },
+  {
+   "from": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "Cut from the far end of the same wing, and usually not sold.",
+   "rel": "kin"
+  },
+  {
+   "from": "flapper",
+   "type": "term",
+   "name": "flapper",
+   "as": "The same piece under the butcher's name, and the one a label prints.",
+   "rel": "same-word"
+  },
+  {
+   "from": "flat",
+   "type": "term",
+   "name": "flat",
+   "as": "Attached to this piece until somebody cuts it off; a few kitchens leave it on.",
+   "rel": "kin"
+  },
+  {
+   "from": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "Removed at the plant, which is the whole point of the product.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "The pointed end, usually cut off and boiled for stock.",
+   "rel": "part"
+  },
+  {
+   "from": "the-flat-and-the-drum",
+   "type": "story",
+   "name": "The flat and the drum",
+   "as": "The third segment, cut off and boiled, which is why a wing sells as two pieces and not three.",
+   "rel": "part"
+  }
+ ]
+}

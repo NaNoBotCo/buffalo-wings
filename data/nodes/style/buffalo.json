@@ -1,0 +1,159 @@
+{
+ "schema": 1,
+ "id": "buffalo",
+ "type": "style",
+ "names": {
+  "name": "Buffalo wings",
+  "aliases": [
+   "Buffalo-style wings",
+   "hot wings",
+   "wings"
+  ],
+  "said": "In Buffalo nobody says 'Buffalo wings'. They say wings, and a medium order comes with blue cheese and celery whether you asked or not."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "cut": "party wing",
+  "base": "cayenne-butter",
+  "cooked": "fried",
+  "heat": "medium"
+ },
+ "text": {
+  "what": "A chicken wing cut into a drumette and a flat, deep-fried bare — no batter, no flour — then shaken in a bowl with melted butter and a vinegar-based cayenne pepper sauce, and served hot with celery, carrot sticks and a dip of blue cheese or ranch. Heat runs mild, medium and hot, and the order names the heat before it names the count. The wing is named for Buffalo, New York, and has nothing to do with the animal.",
+  "story": "Chicken wings were cheap in 1964 because almost nobody ate them; they went into stock, into soup, or into the bin. Three stories explain what changed, and the Bellissimo family told all three.\n\nIn the first, Dominic Bellissimo was tending bar at the Anchor Bar on Main Street on a Friday night in March 1964 when friends turned up late, and his mother Teressa fried what she had and tossed it in cayenne sauce. In the second, which Dominic gave Calvin Trillin for The New Yorker in 1980, the midnight hour mattered: the bar's mostly Catholic drinkers could eat meat again at twelve, and he wanted something to hand them. In the third, Frank Bellissimo said a delivery went wrong — wings arrived instead of the backs and necks that went into the spaghetti sauce — and he asked Teressa to do something with them. Teressa sent the wings out with celery and blue cheese from the antipasto tray, and charged nothing for them.\n\nJohn Young tells it differently, and told it first. Young moved to Buffalo from Stockton, Alabama in 1948, aged thirteen, and from 1961 sold whole uncut wings, breaded, deep-fried and drowned in a tomato-based sauce he called mumbo, at John Young's Wings 'n Things. A travelling boxer had told him about a restaurant in Washington, D.C. doing good business in wings, and he decided to specialise. Young registered the name at the county courthouse and left the area in 1970. He said the Anchor Bar did not carry wings as a regular menu item until 1974. A local newspaper profile of the Anchor Bar in 1969 does not mention wings; Duff's, across town, started selling them that same year. In 2013 the National Buffalo Wing Festival put John Young in its Hall of Flame.\n\nThe city settled nothing and celebrated anyway: in 1977 Buffalo issued a proclamation honouring Frank Bellissimo and named 29 July Chicken Wing Day. Trillin's 1980 piece carried the story out of western New York. Buffalo Wild Wings opened in 1982, Hooters in 1983, and the wing stopped being a Buffalo thing.",
+  "how": "Cut the wing at both joints. Keep the drumette and the flat; the tip goes to stock. Fry bare at a high heat until the skin browns and crackles — no dredge, no batter, which is the line Buffalo draws against Rochester. Melt butter into cayenne pepper sauce, classically Frank's RedHot, sometimes Crystal, and hold it warm; more butter reads mild, less reads hot. Drop the wings into a metal bowl, pour the sauce over, and shake. Sauce goes on after the fryer, never before. Celery and carrots on the plate, blue cheese in a cup.",
+  "today": "Every bar in America sells a version, and most sell it beside a dozen other flavours. Buffalo's own joints hold the line on bare frying, blue cheese and a plain orange sauce, and Visit Buffalo Niagara runs an official Buffalo Wing Trail of shops in the region. *Inference —* the style's name now travels further than its method: 'Buffalo' on a national menu marks the sauce, not the fry."
+ },
+ "kin": [
+  {
+   "to": "anchor-bar",
+   "as": "Claims the invention, dates it to 4 March 1964, and has trademarked the phrase.",
+   "rel": "place"
+  },
+  {
+   "to": "john-young",
+   "as": "Sold breaded whole wings in mumbo sauce here from 1961, three years before the Anchor Bar's date.",
+   "rel": "person"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "Fried the wings the Anchor Bar's version turns on.",
+   "rel": "person"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Cayenne pepper sauce cut with melted butter, and the whole of what makes a wing Buffalo.",
+   "rel": "sauce"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Came off the bar's antipasto tray on the first night and never left the plate.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "The dip Buffalo serves; asking for ranch marks you as from somewhere else.",
+   "rel": "sauce"
+  },
+  {
+   "to": "naked-fry",
+   "as": "Fried bare, which is the method the style is argued over.",
+   "rel": "fry"
+  },
+  {
+   "to": "rochester-breaded",
+   "as": "Seventy miles east, breading the same bird — the nearest rival and the oldest argument.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Three Bellissimo stories, one John Young, and no document that settles it.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-word",
+   "as": "How a city's name came to mean a sauce.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "rochester-breaded",
+   "tell": "Breading. A Buffalo wing goes into the oil bare; a Rochester wing goes in dredged."
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:trillin-1980",
+  "s:wp-buffalo-new-york"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference",
+    "note": "the last sentence reasons from the national menus; the Wing Trail is cited"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "buffalo/buffalo-buffalo-wings.jpg",
+   "source": "commons",
+   "title": "File:Buffalo wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Buffalo_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_wings.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "John Tornow",
+   "credit": "https://www.flickr.com/photos/jdtornow/5132779208/in/photolist-8PyQrf-4hAKZ3-ezdrYB-2KSAcD-bc2RDx-4QQtAB-qCpez6-pFpxxQ-qkXDkz-qkQAxU-qkXDj2-7rTbj8-a7VVbL-qkZ7MK-qkXD8a-25DKbv-8PyQH7-ezdqtz-8uAHBE-8uxD",
+   "alt": "A bowl of chicken (Buffalo) wings and celery.",
+   "date": "2010-10-22 18:47:53",
+   "primary": true,
+   "sha256": "8c8cfe5c1de5c4cb2bdd1186d582c8ac7f6449f3666a4741cf687666a33cf697"
+  },
+  {
+   "file": "buffalo/buffalo-buffalowingsplate.jpg",
+   "source": "commons",
+   "title": "File:Buffalowingsplate.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalowingsplate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalowingsplate.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Alvis at English Wikipedia",
+   "credit": "Transferred from en.wikipedia to Commons by Liftarn using CommonsHelper.",
+   "alt": "Homemade Buffalo Wings, coated in Italian bread crumbs, deep fried, with butter, vinegar, and Tabasco hot sauce and chunky bleu cheese dressing dipping sauce.",
+   "date": "29 December 2006 (original upload date)",
+   "primary": false,
+   "sha256": "06dd50c239fce4aa126929729e126127e78971f5a338aa82d8d7f69d168432d8"
+  },
+  {
+   "file": "buffalo/buffalo-duffs-chicken-wings.jpg",
+   "source": "commons",
+   "title": "File:Duffs chicken wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Duffs_chicken_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADuffs_chicken_wings.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tom Varco",
+   "credit": "Own work",
+   "alt": "Picture of hot chicken (buffalo) wings from w:Duff's in w:Buffalo, New York",
+   "date": "2006-06-15",
+   "primary": false,
+   "sha256": "92590825c3bbc2698646069e4721bcd41d57daf6fa7f5c087dfec73882af304c"
+  }
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

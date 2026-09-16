@@ -1,0 +1,271 @@
+{
+ "schema": 1,
+ "id": "national-chicken-wing-day",
+ "type": "event",
+ "names": {
+  "name": "National Chicken Wing Day",
+  "aliases": [
+   "Chicken Wing Day",
+   "July 29"
+  ],
+  "sort": "National Chicken Wing Day"
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1977,
+  "when": "29 July",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A food day on 29 July, kept by bars, chains and marketing departments across the United States. It comes from one city and one piece of paper: in 1977 Buffalo issued a proclamation honouring Anchor Bar co-owner Frank Bellissimo and declared 29 July Chicken Wing Day. The word national was added later, by everyone else.",
+  "story": "Mayor Stan Makowski signed it. The fragment of the wording that circulates says \"thousands of pounds of chicken wings are consumed by Buffalonians in restaurants and taverns throughout the city each week\" — a claim about how much the city was already eating, thirteen years after the night the Anchor Bar dates its invention to.\n\n*Inference —* the date has no argument attached to it, which is probably why it spread. A proclamation that honours one man in one bar became a national date that any restaurant can mark, and the chains that mark it with a free-wing offer have no stake in who invented the wing.\n\nThe full proclamation text is not in this project's sources. Two pages carry the same quoted fragment and the same mayor's name: a Buffalo radio station's account from 29 July 2020 and the site that promotes the day.",
+  "how": "No organiser, no venue, no ticket. Restaurants run offers, radio stations run features, and the date turns up in food calendars. Buffalo's own wing festival keeps to Labor Day weekend instead, five weeks later.",
+  "today": "Marked on 29 July. *Tradition holds —* Buffalo bars mark it, and this project has found no ordinance behind the observance beyond the 1977 proclamation itself."
+ },
+ "geo": {
+  "lat": 42.8867082,
+  "lon": -78.879256,
+  "precision": "town",
+  "source": "s:osm"
+ },
+ "address": {
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY"
+ },
+ "links": [
+  {
+   "label": "National Chicken Wing Day",
+   "url": "https://www.nationalchickenwingday.com/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "city-of-buffalo",
+   "as": "Made the day, by proclamation, in 1977.",
+   "rel": "org"
+  },
+  {
+   "to": "frank-bellissimo",
+   "as": "The man the proclamation honours, and the reason the date exists at all.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "The bar behind the honour, thirteen years after the date it gives for the first plate.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style whose birthday this is taken to be, though the proclamation names no invention.",
+   "rel": "style"
+  },
+  {
+   "to": "john-young",
+   "as": "Was selling wings in the same city sixteen years before the proclamation, and is not in it.",
+   "rel": "person"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "The city's other wing date, five weeks later and with a gate.",
+   "rel": "event"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The bigger wing day by volume, and the one with a number attached.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Puts a city seal on one side of it without saying so.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:web-national-chicken-wing-day",
+  "s:web-wyrk-chicken-wing-day"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-national-chicken-wing-day",
+    "note": "the mayor's name and the quoted fragment come from two secondary pages; the proclamation itself was not found. The middle paragraph is this project's reasoning, marked in the prose."
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Buffalo City Hall at town precision — the day has no venue"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A food day on 29 July, kept by bars, chains and marketing departments across the United States.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "city-of-buffalo",
+   "type": "org",
+   "name": "City of Buffalo",
+   "as": "Made the day, by proclamation, in 1977.",
+   "rel": "org"
+  },
+  {
+   "to": "frank-bellissimo",
+   "type": "person",
+   "name": "Frank Bellissimo",
+   "as": "The man the proclamation honours, and the reason the date exists at all.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "The bar behind the honour, thirteen years after the date it gives for the first plate.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style whose birthday this is taken to be, though the proclamation names no invention.",
+   "rel": "style"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Was selling wings in the same city sixteen years before the proclamation, and is not in it.",
+   "rel": "person"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "The city's other wing date, five weeks later and with a gate.",
+   "rel": "event"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "The bigger wing day by volume, and the one with a number attached.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Puts a city seal on one side of it without saying so.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-national-chicken-wing-day",
+   "kind": "web",
+   "title": "National Chicken Wing Day",
+   "publisher": "NationalChickenWingDay.com",
+   "url": "https://www.nationalchickenwingday.com/",
+   "accessed": "2026-09-16",
+   "note": "quotes a fragment of the 1977 Buffalo proclamation and names Mayor Stan Makowski; no institutional publisher given"
+  },
+  {
+   "id": "s:web-wyrk-chicken-wing-day",
+   "kind": "article",
+   "title": "How National Chicken Wing Day Was Born",
+   "author": "WYRK Team",
+   "publisher": "106.5 WYRK",
+   "url": "https://wyrk.com/how-national-chicken-wing-day-was-born/",
+   "year": 2020,
+   "accessed": "2026-09-16",
+   "note": "29 July 2020; names Mayor Stan Makowski and quotes the same proclamation fragment"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-national-chicken-wing-day",
+   "note": "the mayor's name and the quoted fragment come from two secondary pages; the proclamation itself was not found. The middle paragraph is this project's reasoning, marked in the prose."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.today": {
+   "tier": "tradition"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Buffalo City Hall at town precision — the day has no venue"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "city-of-buffalo",
+   "type": "org",
+   "name": "City of Buffalo",
+   "as": "Created it, on 29 July 1977, by proclamation.",
+   "rel": "event"
+  },
+  {
+   "from": "wing-festival-posters",
+   "type": "art",
+   "name": "Wing festival posters",
+   "as": "The other dated occasion the same artwork gets reused for.",
+   "rel": "event"
+  }
+ ]
+}

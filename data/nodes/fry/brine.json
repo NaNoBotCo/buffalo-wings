@@ -1,0 +1,90 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "brine",
+ "names": {
+  "name": "the brine",
+  "sort": "brine",
+  "aliases": [
+   "brining",
+   "buttermilk soak",
+   "dry brine"
+  ],
+  "said": "Wet brine or dry. In a chicken kitchen the wet one is usually buttermilk and nobody calls it a brine."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "prep"
+ },
+ "text": {
+  "what": "Salting the bird before it cooks. Brining treats food with brine or coarse salt, which preserves and seasons it while enhancing tenderness. A wet brine immerses the meat in salt water; a dry brine covers it in coarse salt, which draws moisture out of the interior to the surface where it mixes with the salt and is then reabsorbed.",
+  "story": "Two accounts of the mechanism compete and both are current. In the first, salt ions enter the cells while other solutes stay trapped inside, raising cellular salinity so the cells take up water by osmosis and hold it through cooking. In the second, the salt denatures the cell's proteins, which coagulate into a matrix that traps water molecules and holds them during cooking. Meat and fish are typically brined for under 24 hours; heavy salting for preserving fish uses at least 20% salt, light salting for immediate eating 2–3%; a dry brine works over several hours.\n\nFried chicken traditions do it with dairy. Nearly all Nashville hot chicken is marinated in buttermilk, to impart flavour and to retain the meat's juices on frying.\n\n*Inference —* on a wing the payoff is small and the risk is real. A wing is mostly skin and bone with little muscle to protect, so a long soak seasons the skin, softens it, and works against the crust the whole rest of the method is chasing. The dry version — salt, rack, fridge, overnight — is the one that suits the cut, and it is also what the baking powder method is quietly doing.",
+  "how": "Wet: salt water, cold, under 24 hours, then dry the pieces thoroughly before any flour or any oil goes near them. Buttermilk instead of plain water for a chicken kitchen, which seasons and also gives flour something to grip. Dry: coarse salt over the skin, on a rack, uncovered in the fridge for several hours or overnight; the surface comes out matt and tight. Either way the wing goes into the oil dry, because water in hot oil is a hazard before it is a texture problem.",
+  "today": "Standard in Southern fried chicken kitchens and in most home wing recipes; largely absent from the Buffalo account, which describes a wing fried straight. *Tradition holds —* a Buffalo house asked about brining tends to answer that it does nothing to the wing at all before the fryer."
+ },
+ "kin": [
+  {
+   "to": "dredge",
+   "as": "The step after: a brined surface is what flour grips.",
+   "rel": "fry"
+  },
+  {
+   "to": "baking-powder-bake",
+   "as": "Runs a dry brine inside it — salt on skin, overnight, for the same drying reason.",
+   "rel": "fry"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "Buttermilk is the brine there, and nearly every version uses it.",
+   "rel": "style"
+  },
+  {
+   "to": "chicken-and-waffles",
+   "as": "The fried half usually starts in a buttermilk soak.",
+   "rel": "dish"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The method with no prep at all, which is the argument against this one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "par-cook",
+   "as": "The other way a kitchen buys time before service.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:web-wp-brining",
+  "s:wp-hot-chicken",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-brining"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-wp-brining",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "timings are cited; handling is trade practice"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

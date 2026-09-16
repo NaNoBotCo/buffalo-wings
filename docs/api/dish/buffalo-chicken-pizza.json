@@ -1,0 +1,286 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "buffalo-chicken-pizza",
+ "names": {
+  "name": "buffalo chicken pizza",
+  "aliases": [
+   "buffalo chicken pie",
+   "wing pizza"
+  ],
+  "said": "Ordered with the blue cheese question attached: drizzled on top, or in a cup."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "course": "main",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A pizza sauced with cayenne-and-butter wing sauce instead of tomato, topped with chicken and mozzarella, and finished with blue cheese or ranch. Buffalo is applied here to a dish that is seasoned with the sauce rather than fried in the style at all.",
+  "story": "The pizza chains and the wing arrived at each other from both directions. In 1994, following four Super Bowl appearances by the Buffalo Bills, Domino's added Buffalo wings to its national menu, and Pizza Hut followed the next year. The wing went onto the pizza menu first; the sauce went onto the pizza after.\n\n*Inference —* the order runs the other way in Buffalo itself, where pizzerias were already selling wings out of the same kitchen. A shop with a fryer for wings and an oven for pizza has both halves of this dish on the line before anyone names it.",
+  "how": "Brush the base with wing sauce in place of tomato. Cooked chicken — often the same breast meat a boneless order uses — mozzarella, sometimes red onion. Bake. Finish with a drizzle of blue cheese or ranch after the oven, not before, so the dressing does not split. Celery on the side is optional and in Buffalo it is not.",
+  "today": "Carried by national chains and by independent pizzerias in Western New York, where the wing and the pie have shared a counter for decades. *Inference —* the dish is the clearest case of Buffalo as a flavour word: nothing about it is fried, and the name still reads."
+ },
+ "kin": [
+  {
+   "to": "buffalo-sauce",
+   "as": "Replaces the tomato entirely; that substitution is the whole dish.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style that lent its name to something with no fryer in it.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-word",
+   "as": "The clearest case of the word meaning a sauce rather than a city or a method.",
+   "rel": "term"
+  },
+  {
+   "to": "la-nova-pizzeria",
+   "as": "A Buffalo house selling pizza and wings across one counter, which is where this combination lives.",
+   "rel": "place"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "Goes over the top after the oven, or into a cup, and the table argues about which.",
+   "rel": "sauce"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Uses the same breast meat and the same sauce, on a crust instead of in a basket.",
+   "rel": "kin"
+  },
+  {
+   "to": "pizza-logs",
+   "as": "Buffalo's other pizza-shaped bar food, fried instead of baked.",
+   "rel": "kin"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day both halves of it get delivered.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-pizza-hut",
+  "s:wp-blue-cheese-dressing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the build is common practice; no cited recipe"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wing",
+    "note": "second paragraph marked inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "kin[3].as": {
+    "tier": "inference",
+    "note": "a Buffalo pizzeria on this project's list; no source names this dish on its menu"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "blurb": "A pizza sauced with cayenne-and-butter wing sauce instead of tomato, topped with chicken and mozzarella, and finished with blue cheese or ranch.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Replaces the tomato entirely; that substitution is the whole dish.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style that lent its name to something with no fryer in it.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "The clearest case of the word meaning a sauce rather than a city or a method.",
+   "rel": "term"
+  },
+  {
+   "to": "la-nova-pizzeria",
+   "type": "place",
+   "name": "La Nova Pizzeria",
+   "as": "A Buffalo house selling pizza and wings across one counter, which is where this combination lives.",
+   "rel": "place"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "Goes over the top after the oven, or into a cup, and the table argues about which.",
+   "rel": "sauce"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Uses the same breast meat and the same sauce, on a crust instead of in a basket.",
+   "rel": "kin"
+  },
+  {
+   "to": "pizza-logs",
+   "type": "dish",
+   "name": "pizza logs",
+   "as": "Buffalo's other pizza-shaped bar food, fried instead of baked.",
+   "rel": "kin"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "The day both halves of it get delivered.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-pizza-hut",
+   "kind": "wikipedia",
+   "title": "Pizza Hut",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pizza_Hut",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-blue-cheese-dressing",
+   "kind": "wikipedia",
+   "title": "Blue cheese dressing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue_cheese_dressing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing",
+   "note": "second paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the build is common practice; no cited recipe"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "garlic-parm",
+   "type": "style",
+   "name": "Garlic parmesan wings",
+   "as": "The same crossing in the other direction: the bar's wing put on the pizzeria's pie.",
+   "rel": "kin"
+  },
+  {
+   "from": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "Its first American home was a pizza, and the wing came after.",
+   "rel": "dish"
+  },
+  {
+   "from": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The same move onto a different carrier.",
+   "rel": "kin"
+  },
+  {
+   "from": "pizza-logs",
+   "type": "dish",
+   "name": "pizza logs",
+   "as": "The other thing Buffalo does by folding pizza into a wing order.",
+   "rel": "kin"
+  },
+  {
+   "from": "la-nova-pizzeria",
+   "type": "place",
+   "name": "La Nova Pizzeria",
+   "as": "Wings and pies come off one counter here, which is how the two ended up on the same menu everywhere else.",
+   "rel": "dish"
+  },
+  {
+   "from": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "Arrived on national menus in the same stretch: Domino's added wings in 1994, Pizza Hut in 1995.",
+   "rel": "dish"
+  },
+  {
+   "from": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "The adjective applied to a pie, which is how far it has travelled.",
+   "rel": "dish"
+  },
+  {
+   "from": "hot-honey-word",
+   "type": "term",
+   "name": "hot honey",
+   "as": "Pizza is where the word reached most people before it reached wings.",
+   "rel": "dish"
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "id": "mild-sauce-word",
+ "names": {
+  "name": "mild sauce",
+  "aliases": [
+   "mild"
+  ],
+  "said": "'Mild' alone, at the window: it names the sauce, not the heat you want."
+ },
+ "region": [
+  "chicago"
+ ],
+ "facets": {
+  "letter": "M",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "mild + sauce; a heat word that stopped being a heat word and became the name of a specific thing",
+  "first_attested": "",
+  "note": "*Inference —* the name misleads everyone from outside Chicago exactly once. Elsewhere 'mild' answers 'how hot?'; on the South and West Sides it answers 'what sauce?', and a counter that also sells hot sauce will sell you mild sauce with hot sauce on it.",
+  "tier": "inference"
+ },
+ "text": {
+  "what": "Chicago's word for a red-brown condiment poured over fried chicken and fries at South and West Side chicken shacks and barbecue counters, and particularly associated with Black communities in Chicago. The sauce sits near barbecue sauce and near mumbo sauce; recipes vary substantially, and many formulations combine ketchup, barbecue sauce and hot sauce.",
+  "story": "The word was made popular by the restaurants, not by a bottler: Harold's Chicken Shack, Uncle Remus Saucy Fried Chicken and Lem's Bar-B-Q are the names the record attaches to it. *Inference —* that is why there is no canonical recipe to argue about and no single owner to sue: the sauce was a house formula at dozens of counters before it was anybody's product, and each house still answers for its own.\n\nWhere it overlaps with mumbo, the two words carry a live argument about which city's condiment came first. Mumbo has a trademark and a dated registration behind it; mild sauce has restaurants. *Inference —* those are different kinds of evidence, and they do not settle each other.",
+  "how": "Ordered as a quantity, not a choice: 'extra mild' means more sauce on the box, not less heat in it."
+ },
+ "kin": [
+  {
+   "to": "mild-sauce",
+   "as": "The sauce the word names, with what goes in it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "as": "The wing style built on it.",
+   "rel": "style"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "as": "One of the counters that made the word travel.",
+   "rel": "place"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "as": "Another, on the West Side, with its own formula.",
+   "rel": "place"
+  },
+  {
+   "to": "mumbo",
+   "as": "Washington's word for the cousin condiment, and the one with the trademark.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-mild-sauce",
+  "s:wp-mumbo-sauce",
+  "s:wp-harold-s-chicken-shack"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mild-sauce"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "inference"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the restaurants and the variation are cited; the reading of why no canonical recipe exists is this project's"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "Chicago's word for a red-brown condiment poured over fried chicken and fries at South and West Side chicken shacks and barbecue counters, and particularly associated with Black communities in Chicago.",
+ "region_terms": [
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "mild sauce, the South Side chicken shack"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "The sauce the word names, with what goes in it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "The wing style built on it.",
+   "rel": "style"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "type": "place",
+   "name": "Harold's Chicken Shack",
+   "as": "One of the counters that made the word travel.",
+   "rel": "place"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "type": "place",
+   "name": "Uncle Remus Saucy Fried Chicken",
+   "as": "Another, on the West Side, with its own formula.",
+   "rel": "place"
+  },
+  {
+   "to": "mumbo",
+   "type": "term",
+   "name": "mumbo",
+   "as": "Washington's word for the cousin condiment, and the one with the trademark.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mild-sauce",
+   "kind": "wikipedia",
+   "title": "Mild sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mild_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mumbo-sauce",
+   "kind": "wikipedia",
+   "title": "Mumbo sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mumbo_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-harold-s-chicken-shack",
+   "kind": "wikipedia",
+   "title": "Harold's Chicken Shack",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harold%27s_Chicken_Shack",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-mild-sauce"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "the restaurants and the variation are cited; the reading of why no canonical recipe exists is this project's"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "A word that names neither a heat level nor a brand, and confuses every reader who meets it first on a Buffalo menu.",
+   "rel": "term"
+  },
+  {
+   "from": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "Why 'mild' here names a sauce rather than a heat level.",
+   "rel": "term"
+  },
+  {
+   "from": "uncle-remus-saucy-fried-chicken",
+   "type": "place",
+   "name": "Uncle Remus Saucy Fried Chicken",
+   "as": "The word a Chicago counter says, which is not the same word a D.C. counter says for its own red sauce.",
+   "rel": "term"
+  },
+  {
+   "from": "mumbo",
+   "type": "term",
+   "name": "mumbo",
+   "as": "Chicago's word for a cousin condiment, and often compared to this one.",
+   "rel": "contrast"
+  }
+ ]
+}

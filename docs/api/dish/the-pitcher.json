@@ -1,0 +1,332 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "the-pitcher",
+ "names": {
+  "name": "the pitcher",
+  "sort": "pitcher",
+  "aliases": [
+   "a pitcher",
+   "pitcher of beer",
+   "chimaek"
+  ],
+  "said": "One pitcher, four glasses, and the wings arrive while it is still full."
+ },
+ "region": [
+  "us",
+  "korean-american"
+ ],
+ "facets": {
+  "course": "drink"
+ },
+ "text": {
+  "what": "Draught beer sold by the jug for a table to share. It is the other half of a wing order almost everywhere wings are sold, and in two traditions it is named into the food: Hooters built its concept on wings and beer, and Korean has a single word for the pairing.",
+  "story": "Korean has the cleaner record of it. The first modern Korean fried chicken franchise, Lims Chicken, opened in 1977 in the basement of the Shinsegae Department Store on Chungmu-ro in Seoul, founded by Yu Seok-ho, and was \"embraced as an excellent food pairing for draft beer\". The word for that pairing, chimaek, is a portmanteau of chicken and maekju, the Korean word for beer. Pickled radishes and beer or carbonated drinks are the standard accompaniment to Korean fried chicken.\n\nAmerican bars said the same thing in marketing rather than in vocabulary. Hooters, founded in 1983, has put it plainly: \"Customers can go to many places for wings and beer.\" Almost all Hooters restaurants hold licences to sell beer and wine. When a location closed, the company's own notice thanked its guests for \"the many years of great times, cold beer, hot wings, and unforgettable memories shared here.\"\n\n*Inference —* the pitcher is why the wing became bar food rather than restaurant food. Salt and heat sell drink, the drink carries the margin, and the wing was cheap enough in 1964 to be given away against it. Beef on weck is said to have worked the same trick in Buffalo a century earlier, with salt on a roll.",
+  "how": "Pour from the pitcher into glasses at the table and keep pouring. Cold and light against salt, fat and cayenne; a dark or a high-alcohol beer fights the sauce rather than clearing it. Where a pitcher is not sold, the same job goes to a bucket of bottles, a soda refill, or in Korea to a shared bottle of lager.",
+  "today": "Standard at American sports bars, and at Korean fried chicken shops that built the pairing into the language. *Tradition holds —* wing night and pitcher pricing move together, and a bar that drops one usually drops both."
+ },
+ "kin": [
+  {
+   "to": "wing-basket",
+   "as": "The other half of the order; neither is sold in quantity without the other.",
+   "rel": "dish"
+  },
+  {
+   "to": "hooters",
+   "as": "Built a chain on wings and beer and says so in its own words.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style that started as something given away to people already buying drinks.",
+   "rel": "style"
+  },
+  {
+   "to": "korean-american",
+   "as": "Names the pairing in one word, chimaek, from chicken and maekju.",
+   "rel": "style"
+  },
+  {
+   "to": "bonchon",
+   "as": "Grew out of the South Korean chimaek market, where the beer came first.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-night",
+   "as": "The night the pitcher price and the wing price are set against each other.",
+   "rel": "term"
+  },
+  {
+   "to": "beef-on-weck",
+   "as": "Buffalo's older salt-sells-drink trick, on a roll instead of a wing.",
+   "rel": "dish"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day the pitcher moves to a living room and stays a pitcher.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-hooters",
+  "s:wp-korean-fried-chicken",
+  "s:wp-bonchon-chicken",
+  "s:wp-buffalo-wing",
+  "s:wp-beef-on-weck"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-korean-fried-chicken",
+    "note": "Hooters quotes cited; closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "blurb": "Draught beer sold by the jug for a table to share. It is the other half of a wing order almost everywhere wings are sold, and in two traditions it is named into the food: Hooters built its concept on wings and beer, and…",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "korean-american",
+   "name": "Korean America",
+   "state": null,
+   "note": "Los Angeles, Queens, Fort Lee, Annandale, Chicago; a cuisine, not a place"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "The other half of the order; neither is sold in quantity without the other.",
+   "rel": "dish"
+  },
+  {
+   "to": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Built a chain on wings and beer and says so in its own words.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style that started as something given away to people already buying drinks.",
+   "rel": "style"
+  },
+  {
+   "to": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "Names the pairing in one word, chimaek, from chicken and maekju.",
+   "rel": "style"
+  },
+  {
+   "to": "bonchon",
+   "type": "place",
+   "name": "Bonchon",
+   "as": "Grew out of the South Korean chimaek market, where the beer came first.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-night",
+   "type": "term",
+   "name": "wing night",
+   "as": "The night the pitcher price and the wing price are set against each other.",
+   "rel": "term"
+  },
+  {
+   "to": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "Buffalo's older salt-sells-drink trick, on a roll instead of a wing.",
+   "rel": "dish"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "The day the pitcher moves to a living room and stays a pitcher.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-hooters",
+   "kind": "wikipedia",
+   "title": "Hooters",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hooters",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-korean-fried-chicken",
+   "kind": "wikipedia",
+   "title": "Korean fried chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Korean_fried_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-bonchon-chicken",
+   "kind": "wikipedia",
+   "title": "Bonchon Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonchon_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-beef-on-weck",
+   "kind": "wikipedia",
+   "title": "Beef on weck",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beef_on_weck",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken",
+   "note": "Hooters quotes cited; closing paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "Beer with fried chicken is the point, not the accompaniment; Korean has a word for the pair, chimaek.",
+   "rel": "dish"
+  },
+  {
+   "from": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "The salted crust was reportedly built to sell more of it.",
+   "rel": "dish"
+  },
+  {
+   "from": "chicken-riggies",
+   "type": "dish",
+   "name": "chicken riggies",
+   "as": "What a riggies table drinks, the same as a wing table.",
+   "rel": "dish"
+  },
+  {
+   "from": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "What sits beside it, and part of why it is eaten at the hour it is eaten.",
+   "rel": "dish"
+  },
+  {
+   "from": "pickled-radish",
+   "type": "dish",
+   "name": "pickled radish",
+   "as": "Beer comes with the chicken here too; chimaek is the Korean word for the pairing.",
+   "rel": "dish"
+  },
+  {
+   "from": "pizza-logs",
+   "type": "dish",
+   "name": "pizza logs",
+   "as": "The order it shares a table with.",
+   "rel": "dish"
+  },
+  {
+   "from": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "The other half of the order, and the reason bars sell wings at all.",
+   "rel": "dish"
+  },
+  {
+   "from": "blondies-sports-bar",
+   "type": "place",
+   "name": "Blondies Sports",
+   "as": "The other thing the table orders, and the reason the wings come by the dozen.",
+   "rel": "dish"
+  },
+  {
+   "from": "elmos-bar-and-restaurant",
+   "type": "place",
+   "name": "Elmo's Bar & Restaurant",
+   "as": "The unit this room measures an evening in.",
+   "rel": "dish"
+  },
+  {
+   "from": "mammosers-tavern",
+   "type": "place",
+   "name": "Mammoser's Tavern & Restaurant",
+   "as": "Eighteen drafts pour beside the wings, which is what the room is for.",
+   "rel": "dish"
+  },
+  {
+   "from": "wing-cafe",
+   "type": "place",
+   "name": "The Wing Cafe & Tap House",
+   "as": "Thirty to fifty taps, and the wings are what you order with them.",
+   "rel": "dish"
+  },
+  {
+   "from": "weck",
+   "type": "term",
+   "name": "weck",
+   "as": "The salt on the roll was said to be selling this, the way a wing special does.",
+   "rel": "dish"
+  },
+  {
+   "from": "wing-night",
+   "type": "term",
+   "name": "wing night",
+   "as": "What the special is really selling; the wings are priced to move it.",
+   "rel": "dish"
+  }
+ ]
+}

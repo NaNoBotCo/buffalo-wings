@@ -1,0 +1,85 @@
+{
+ "id": "extra-crispy",
+ "names": {
+  "name": "extra crispy",
+  "aliases": [
+   "well done",
+   "hard fried",
+   "crispy"
+  ],
+  "said": "'Extra crispy' at the register; 'well done' on the ticket."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "E",
+  "part_of_speech": "phrase"
+ },
+ "etymology": {
+  "root": "extra (Latin extra 'outside, beyond') + crispy (Old English crisp, from Latin crispus 'curled', re-pointed in English to mean brittle) — an intensifier stuck to a texture word",
+  "first_attested": "",
+  "note": "*Inference —* the phrase is an instruction wearing the grammar of a flavour. It goes in the same slot on the ticket as 'hot' or 'lemon pepper', but it asks the fryer for time rather than the sauce station for anything.",
+  "tier": "tradition"
+ },
+ "text": {
+  "what": "An order for more time in the oil. Not a flavour, not an upcharge in most places: a request that the wing stay down until the skin goes hard and the colour goes past golden. Kitchens read it as a range, which is why the same words get you different wings at two counters a block apart.",
+  "how": "A cook answers it three ways — leave them longer in one fry, pull the basket up and drop it back for a second hit, or run the whole order through a proper double fry. Ordering it costs minutes, so a busy kitchen will sometimes decline. Ask for it and for sauce on the side and the crust survives the drive home; ask for it and a heavy toss and you have undone it."
+ },
+ "kin": [
+  {
+   "to": "double-fry",
+   "as": "The technique that delivers what the phrase asks for, when a kitchen has time for it.",
+   "rel": "fry"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "The machine the instruction is aimed at.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked",
+   "as": "The other instruction a counter takes about texture, this one about coating.",
+   "rel": "term"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "as": "Ordered with it by anyone who wants the crust to last past the parking lot.",
+   "rel": "fry"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step that undoes it, second by second.",
+   "rel": "contrast"
+  },
+  {
+   "to": "air-fryer",
+   "as": "Bought largely by people chasing this phrase at home.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-deep-frying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition",
+   "note": "counter language; described from general practice, not from a cited menu"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

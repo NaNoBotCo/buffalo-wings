@@ -1,0 +1,150 @@
+{
+ "id": "hot-honey",
+ "names": {
+  "name": "Hot honey",
+  "aliases": [
+   "chili honey",
+   "spicy honey"
+  ],
+  "said": "Drizzled, not tossed. A counter says 'hot honey' and reaches for a squeeze bottle."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "base": "other",
+  "heat": "medium"
+ },
+ "text": {
+  "what": "Honey with chillies in it. Sweet first, then a heat that builds slowly — the flavour writers describe as \"sweet-first\" with a \"slow-building heat\". Goes on pizza, on fried chicken and wings, on roasted vegetables, with cheese, in sandwiches, on desserts, into glazes and marinades and dipping sauces, and into mixed drinks.",
+  "story": "Mixing honey with chillies has been done in many cultures for a long time. The American trend has a narrower start: Mike Kurtz encountered hot honey while studying in Brazil in 2004 and later founded Mike's Hot Honey, the brand the trend runs alongside.\n\nIt became a trend in early 2022, tracked by a steady rise in Google search interest, and spread through TikTok recipes. Business Insider named it a \"new food obsession\" in 2024. V8 and Tillamook among others released hot-honey snacks and product variations.\n\n*Inference —* it reached the wing by way of the pizza it was already on. A kitchen with a squeeze bottle of it on the pass does not need a new ingredient to put a hot honey wing on the menu.",
+  "how": "Drizzle it over the wings after they come out of the fryer, or brush it on at the end of a smoke or a grill so the sugar tightens without burning. It is thin enough to pour and thick enough to stay put. Plenty of kitchens use it as the second half of a Buffalo or Nashville wing rather than the whole coating, which is where the sweet-heat order comes from: pepper first, honey last.",
+  "today": "Sold by dozens of makers, from national brands to single-state apiaries. As of 16 September 2026 the USDA label panel for Mike's Hot Honey reads three ingredients — honey, chilies, vinegar — with 0 mg sodium and 14 g sugar in a 1-tablespoon serving. Red Clay's version lists raw honey, apple cider vinegar and fermented habanero pepper at 15 g sugar and 10 mg sodium. No maker in this set publishes a Scoville number, and no chile is named by variety on the Mike's label."
+ },
+ "kin": [
+  {
+   "to": "hot-honey-word",
+   "as": "The word, and how it came to name a category rather than a brand.",
+   "rel": "term"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The other sweet answer to a wing; that one runs through tomato and this one does not.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "Often the sweet finish over a cayenne paste, and the reason a Nashville wing can read sweet.",
+   "rel": "kin"
+  },
+  {
+   "to": "jerk-marinade",
+   "as": "Brushed over jerk wings at the end, where honey meets Scotch bonnet.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Cut with it at bars selling a hot-honey Buffalo wing: pepper first, honey last.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "Its first American home was a pizza, and the wing came after.",
+   "rel": "dish"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "as": "The other sweet-and-chile pour on a wing board, thickened and vinegared rather than pure sugar.",
+   "rel": "kin"
+  },
+  {
+   "to": "grill",
+   "as": "Wants the last minutes only; the sugar in it catches fast.",
+   "rel": "fry"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "honey-bbq-sauce",
+   "tell": "Read the label. Hot honey's is three or four lines long and starts with honey; a honey barbecue sauce starts with corn syrup and carries tomato."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "other",
+  "maker": "Mike's Hot Honey Inc.",
+  "town": "Brooklyn",
+  "state": "NY",
+  "ingredients": [
+   "honey",
+   "chilies",
+   "vinegar"
+  ],
+  "pepper_rank": 2,
+  "vinegar_rank": 3,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 1,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 1,
+  "sodium_mg_per_tbsp": 0,
+  "sugar_g_per_tbsp": 14,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-mikes-hot-honey",
+  "url": "https://fdc.nal.usda.gov/food-details/2511479/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Mike's Hot Honey, 24 oz. Label serving is 1 Tbsp (21 g), so the per-tablespoon figures are the label's own. sugar_rank 1 is the honey itself — the sweetener and the base are the same ingredient here, which no other sauce in this set can say. The label names 'chilies' and no variety, so the chile cannot be identified and no Scoville figure follows. Sodium is a declared 0 mg, not a missing value. Town and state are the company's stated base and are recorded at low confidence."
+ },
+ "recipes": [
+  {
+   "title": "Mike's Hot Honey, as labelled",
+   "source": "s:fdc-mikes-hot-honey",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/2511479/nutrients",
+   "region": "United States",
+   "ingredients": [
+    "honey",
+    "chilies",
+    "vinegar"
+   ],
+   "note": "Ingredients only, in label order. Three lines is the whole statement; there is no free-licence method text to copy, and the proportions are the maker's."
+  }
+ ],
+ "sources": [
+  "s:wp-hot-honey",
+  "s:fdc-mikes-hot-honey"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hot-honey"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-mikes-hot-honey",
+    "fetched_at": "2026-09-16",
+    "note": "town and state are not on the USDA record and are held at low confidence"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the drizzle and the timing are general kitchen practice; the uses are cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-mikes-hot-honey"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,91 @@
+{
+ "schema": 1,
+ "id": "frank-bellissimo",
+ "type": "person",
+ "names": {
+  "name": "Frank Bellissimo",
+  "sort": "Bellissimo, Frank"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "role": [
+   "founder",
+   "family"
+  ],
+  "state": "NY",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Opened the Anchor Bar in Buffalo with his wife Teressa in 1935 and ran the front of the house. His account of the first wings turns on a delivery that went wrong. The city of Buffalo honoured him by proclamation in 1977 and named 29 July Chicken Wing Day. He died in October 1980, aged 84.",
+  "story": "Frank Bellissimo's version is the one with the mistake in it. Wings arrived instead of the backs and necks the kitchen boiled down for spaghetti sauce, and rather than send them back he asked Teressa to do something with them. That is the version he told; his son Dominic told others.\n\nThe city took his side of it first. In 1977 Buffalo issued an official proclamation celebrating him as Anchor Bar co-owner and declared 29 July 1977 Chicken Wing Day. Nothing in that proclamation settled the question of who fried first: it honoured a man and named a date.\n\nFrank died in October 1980 at 84 — the same year Calvin Trillin's New Yorker piece carried the bar's story past western New York. Teressa died in November 1985, also 84. Dominic died in March 1991 at 68. In 2006 the National Buffalo Wing Festival put Frank and Teressa together in the first Hall of Flame class.\n\nJohn Young, who sold breaded whole wings in mumbo sauce in Buffalo from the early 1960s, believed Frank had taken the idea from him. Young said so; nothing in this project's sources decides it.",
+  "today": "The bar he opened runs 18 locations as of 2026 and sells its sauce through Tops and Wegmans in the United States and Sobey's and Metro in Canada."
+ },
+ "kin": [
+  {
+   "to": "anchor-bar",
+   "as": "Opened it in 1935 and ran its front of house for forty-five years.",
+   "rel": "place"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "His wife, his cook, and the one his version asks to do something with the wings.",
+   "rel": "person"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "as": "His son, who told the story a different way and told it far more often.",
+   "rel": "person"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style his bar claims, and which his proclamation put a date on.",
+   "rel": "style"
+  },
+  {
+   "to": "city-of-buffalo",
+   "as": "Proclaimed him honoured in 1977 and made 29 July Chicken Wing Day.",
+   "rel": "org"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "His mistaken-delivery version is one of the three the family told.",
+   "rel": "story"
+  },
+  {
+   "to": "john-young",
+   "as": "Said Frank got the idea from him; Frank's family said otherwise.",
+   "rel": "contrast"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Inducted him and Teressa into the first Hall of Flame class, 2006.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-anchor-bar",
+  "s:wp-buffalo-wing",
+  "s:web-hall-of-flame",
+  "s:web-history-who-invented-buffalo-wings"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wing",
+    "note": "Young's belief that Frank took the idea from him is reported by History.com, s:web-history-who-invented-buffalo-wings"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,127 @@
+{
+ "schema": 1,
+ "id": "national-chicken-council",
+ "type": "org",
+ "names": {
+  "name": "National Chicken Council",
+  "aliases": [
+   "NCC",
+   "National Broiler Council"
+  ],
+  "sort": "National Chicken Council"
+ },
+ "region": [
+  "dc",
+  "us"
+ ],
+ "facets": {
+  "state": "DC",
+  "status": "open",
+  "founded": 1954
+ },
+ "text": {
+  "what": "The trade association of the US chicken industry, and the keeper of the number every Super Bowl story quotes. Founded in Richmond, Virginia in 1954 as the National Broiler Council, moved to Washington in 1965, renamed in 1999. Its producer and processor members account for about 95 percent of the chickens raised in the United States. Each January it publishes the Chicken Wing Report, a projection of how many wings Americans will eat on Super Bowl weekend.",
+  "story": "The Wing Report is a press release, and it works like one. The 2026 edition went out on 28 January, headlined \"Americans to Eat 1.48 Billion Chicken Wings for Super Bowl LX\", about 10 million more than the year before; the 2025 figure was 1.47 billion. The release converts the number into pictures — wings laid end to end circling the planet almost three times, 3,400 loaded semi-trucks, a 40-mile convoy — and quotes NCC spokesperson Tom Super: \"Especially when it comes to the Super Bowl, where wings rule the roost.\"\n\nWhat the release names, it names precisely. Retail wing prices down 2.8 percent year on year at a four-week average of $3.47 a pound, from Circana by way of a Wells Fargo report. Broiler production up 2.2 percent in 2025. Cold storage at 57 million pounds at the end of November, the lowest November total in over ten years outside 2020, from USDA. Wing units up 19.8 percent nationally over the four-week playoff window, from Circana's point-of-sale data.\n\nWhat it does not name is how the 1.48 billion itself was reached. Three council pages read on 16 September 2026 — the 2026 release, the 2025 release and an older wing feature — carry no method for the headline figure. *Inference —* the figure is a trade association's estimate of its own members' product, not a government statistic, and it should be read as the industry's own projection. That distinction survives every retelling badly: the number arrives in news copy each February with the council's name attached and its status as an estimate dropped.\n\nOne older council page does define the unit, which matters more than the size of the number. The count is of wing portions, not whole birds' wings: the third joint, the flapper, is mostly exported to Asia, and the meatier first and second joints are split into drumette and flat for the domestic trade. The same page, built on the 2012 Wing Report, put that year's count at 1.25 billion portions and more than 100 million pounds, and quoted then chief economist Bill Roenigk saying roughly half come from restaurants and half from grocery stores.",
+  "how": "Beyond the Wing Report, the council lobbies Congress and federal agencies for the chicken industry, runs eight standing committees, and publishes economic and trade statistics for members. It sponsors EatChicken.com, a recipe and food-safety site. Officers and a board are elected each October.",
+  "today": "Based at 1152 Fifteenth Street NW in Washington. The most recent Wing Report, dated 28 January 2026, projects 1.48 billion wings for Super Bowl LX."
+ },
+ "geo": {
+  "lat": 38.9050148,
+  "lon": -77.0352736,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1152 Fifteenth Street NW, Suite 430",
+  "city": "Washington",
+  "state": "DC",
+  "postcode": "20005"
+ },
+ "links": [
+  {
+   "label": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/"
+  },
+  {
+   "label": "Wing Report 2026",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "super-bowl-sunday",
+   "as": "Supplies the number the day is measured in: 1.48 billion wings, projected on 28 January 2026.",
+   "rel": "event"
+  },
+  {
+   "to": "wing",
+   "as": "Counts the word in portions, not birds — the unit behind every billion-wing headline.",
+   "rel": "term"
+  },
+  {
+   "to": "flapper",
+   "as": "Explains where the third joint goes: exported, mostly to Asia, while the drumette and flat stay home.",
+   "rel": "term"
+  },
+  {
+   "to": "party-wing",
+   "as": "The split pair its count is made of, drumette and flat sold as two pieces.",
+   "rel": "term"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Publishes the price and supply data the argument runs on: $3.47 a pound retail, four-week average, January 2026.",
+   "rel": "story"
+  },
+  {
+   "to": "us-poultry-and-egg-association",
+   "as": "The other national poultry association — that one runs research and the processing expo, this one runs Washington.",
+   "rel": "org"
+  },
+  {
+   "to": "wingstop",
+   "as": "Told the council in 2012 it expected to sauce 5.6 million wings on Super Bowl Sunday alone.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-bowl",
+   "as": "Covered in the council's own 2012 wing feature, competitive eating and all.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-national-chicken-council",
+  "s:web-ncc-about",
+  "s:web-ncc-wing-report-lx",
+  "s:web-ncc-wing-report-lix",
+  "s:web-ncc-wings-hot-topic",
+  "s:nccouncil-wing-report"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ncc-about"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ncc-wing-report-lx",
+    "note": "the third paragraph reasons from what the releases do and do not contain; marked in the prose",
+    "fetched_at": "2026-09-16"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ncc-wing-report-lx",
+    "fetched_at": "2026-09-16"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the council's published street address, geocoded against OpenStreetMap; the building holds several tenants"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

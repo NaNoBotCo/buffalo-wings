@@ -1,0 +1,237 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "air-fryer",
+ "names": {
+  "name": "the air fryer",
+  "sort": "air fryer",
+  "aliases": [
+   "air frying",
+   "countertop convection oven"
+  ],
+  "said": "It is a small convection oven with a basket, and the word fryer in the name is doing a lot of work."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "tool"
+ },
+ "text": {
+  "what": "A small countertop convection oven that reaches deep-frying temperatures without submerging the food in oil. It circulates air at up to 200 °C / 392 °F to brown food coated in a thin layer of oil, where conventional frying drives the same browning reactions at 140–165 °C / 284–329 °F by putting the food in hot oil instead. Food sits in a basket over a drip tray, and for small pieces the basket must be shaken.",
+  "story": "The machine is younger than most people assume. Groupe SEB introduced the first air fryer in 2006 under the Actifry brand in the French market. The Dutch engineer Fred van der Weij invented it that same year and took it to Philips four years later; Philips launched the Airfryer at IFA Berlin in 2010 and patented the technique as Rapid Air. By 2018 air fryer was being used generically.\n\nAdoption ran fast. A reported 36% of US households had a convection oven in 2020 and an estimated 60% in 2023; food manufacturers responded by adding air-frying instructions to products and selling pre-air-fried ones. In the UK a 2024 study claimed one in five Britons surveyed named the air fryer their most-used cooking device.\n\nThe verdict is not settled and this project does not settle it. Some reviewers find regular convection ovens or convection toaster ovens produce better results; others say air frying is essentially the same as convection baking; others praise the machines for cooking faster, being easier to clean and making crisp results easier than a full-size convection oven.\n\n*Inference —* the wing is the machine's best case. It is small, it is mostly skin, and it carries its own fat, so the one thing the machine cannot supply is the one thing a wing brings with it.",
+  "how": "Dry the wings, oil them thinly, and lay them in a single layer with space between; a crowded basket steams. Shake or turn partway, by hand or by the fryer's own paddle. Many cooks bring the baking powder trick over from the oven method. Sauce after, in a bowl, off the machine — sauce in the basket bakes onto the drip tray.",
+  "today": "Sold as paddle types, cylindrical basket types up to about 2.8 litres, countertop convection ovens of about 24 litres with racks, halogen types under a radiant element, and barrel-shaped oil-less turkey fryers. *Tradition holds —* the tradition treats it as a home appliance rather than a shop one, and the shops that describe their method never describe this."
+ },
+ "kin": [
+  {
+   "to": "baking-powder-bake",
+   "as": "The chemistry most air fryer wing recipes borrow wholesale.",
+   "rel": "fry"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "The machine it is named after and does not contain.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The bare-skin result it is trying to reach with a tablespoon of oil instead of a vat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-toss",
+   "as": "Still the last step, done in a bowl off the machine.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "as": "Uses a film of it rather than a bath, which changes what the fat can contribute.",
+   "rel": "contrast"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day the household machines outnumber the commercial ones by a wide margin.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-convection-oven",
+  "s:wp-deep-frying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-convection-oven"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "handling is general practice; the basket agitation is cited"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-convection-oven",
+    "note": "closing paragraph marked inference"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-convection-oven",
+    "note": "final sentence hedged as tradition"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-convection-oven"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "A small countertop convection oven that reaches deep-frying temperatures without submerging the food in oil.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "baking-powder-bake",
+   "type": "fry",
+   "name": "the baking powder bake",
+   "as": "The chemistry most air fryer wing recipes borrow wholesale.",
+   "rel": "fry"
+  },
+  {
+   "to": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "The machine it is named after and does not contain.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The bare-skin result it is trying to reach with a tablespoon of oil instead of a vat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Still the last step, done in a bowl off the machine.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "Uses a film of it rather than a bath, which changes what the fat can contribute.",
+   "rel": "contrast"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "The day the household machines outnumber the commercial ones by a wide margin.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-convection-oven",
+   "kind": "wikipedia",
+   "title": "Convection oven",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Convection_oven",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-convection-oven"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-convection-oven",
+   "note": "closing paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "handling is general practice; the basket agitation is cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-convection-oven",
+   "note": "final sentence hedged as tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "baking-powder-bake",
+   "type": "fry",
+   "name": "the baking powder bake",
+   "as": "The countertop convection oven this method runs in when the big oven is busy.",
+   "rel": "fry"
+  },
+  {
+   "from": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "The countertop machine that reaches for the same result without the oil.",
+   "rel": "contrast"
+  },
+  {
+   "from": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "Replaces the bath with a film, and gives up whatever the fat was contributing.",
+   "rel": "contrast"
+  },
+  {
+   "from": "grill",
+   "type": "fry",
+   "name": "the grill",
+   "as": "The indoor attempt at browning without submerging.",
+   "rel": "kin"
+  },
+  {
+   "from": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The home attempt at the same result without a pot of oil.",
+   "rel": "contrast"
+  },
+  {
+   "from": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "Bought largely by people chasing this phrase at home.",
+   "rel": "fry"
+  },
+  {
+   "from": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "Where a lot of them now end up, bought split because the basket wants them split.",
+   "rel": "fry"
+  }
+ ]
+}

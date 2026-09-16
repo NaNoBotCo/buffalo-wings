@@ -1,0 +1,254 @@
+{
+ "schema": 1,
+ "id": "us-poultry-and-egg-association",
+ "type": "org",
+ "names": {
+  "name": "U.S. Poultry & Egg Association",
+  "aliases": [
+   "USPOULTRY",
+   "Southeastern Poultry & Egg Association",
+   "SOUTHEASTERN"
+  ],
+  "sort": "US Poultry and Egg Association"
+ },
+ "region": [
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "GA",
+  "status": "open",
+  "founded": 1947
+ },
+ "text": {
+  "what": "The trade association that funds the research and runs the equipment show behind the bird. Poultry and egg dealers met in Louisville in March 1947 and founded the Southeastern Poultry & Egg Association; it took the name U.S. Poultry & Egg Association as its membership spread coast to coast, moved to Tucker, Georgia in 1993, and calls itself an \"All Feather\" association — broilers, turkeys, ducks, eggs, breeding stock and the firms that supply them. It runs the International Production & Processing Expo in Atlanta each January.",
+  "story": "The founding problem was a railway car. The southeastern industry of the 1940s needed to feed and water live chickens on the way to New York, and needed answers on health, breeding, processing and Washington besides. Thirteen states made up the original association. Albert Mott of Nashville was the first executive secretary, part-time.\n\nThe expo started as a convention. About 200 people came to the Ansley Hotel in Atlanta in January 1948; registration for the first full convention a year later cost $2 and more than 600 people came; the first real trade show, in January 1951, had 67 exhibitors and about 2,000 attendees. The American Feed Industry Association joined in 2007, the Meat Institute in 2013, and the combined event was renamed the International Production & Processing Expo.\n\n*Inference —* this is the wing's upstream. A boneless wing exists because breast meat is cheap and a deboning line is available; a party wing exists because a machine cuts a wing into two pieces faster than a cook does; a wholesale wing price moves because broiler production moved. The association does not sell wings. It funds the science and hosts the floor where the machinery that makes them is sold — the expo is, in its own words, \"the world's most extensive display of equipment, supplies and services used in the production and processing of poultry, eggs, meat and animal food products.\"",
+  "how": "Research grants to university poultry science departments, seminars and workshops by segment, training programmes for member companies, economic data, and the Harold E. Ford Foundation for student recruitment, founded 1994. In fiscal year 2025 the association says more than $4 million went into industry programmes covering promotion, education, communication and research.",
+  "today": "Based at 1530 Cooledge Road, Tucker, Georgia, with affiliations in 27 states. Nath Morris became president in August 2023. The 2027 expo runs 26–28 January in Atlanta."
+ },
+ "geo": {
+  "lat": 33.8275948,
+  "lon": -84.2359607,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1530 Cooledge Road",
+  "city": "Tucker",
+  "county": "DeKalb",
+  "state": "GA",
+  "postcode": "30084"
+ },
+ "links": [
+  {
+   "label": "U.S. Poultry & Egg Association",
+   "url": "https://www.uspoultry.org/"
+  },
+  {
+   "label": "Association history",
+   "url": "https://www.uspoultry.org/history/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "national-chicken-council",
+   "as": "The other national association — that one lobbies Washington and publishes the Wing Report, this one funds research and runs the expo.",
+   "rel": "org"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Hosts the floor where the machines that make the cut are sold, every January in Atlanta.",
+   "rel": "fry"
+  },
+  {
+   "to": "flapper",
+   "as": "The piece the processing line sends abroad, decided upstream of any kitchen.",
+   "rel": "term"
+  },
+  {
+   "to": "drumette",
+   "as": "One of the two pieces a processing line turns a wing into before a bar ever sees it.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "A deboned breast product, which exists because the line that debones breasts exists.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Publishes the production and economic data the price argument rests on.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:web-uspoultry-about",
+  "s:web-uspoultry-history",
+  "s:wp-poultry",
+  "s:wp-chicken-as-food"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-uspoultry-history",
+   "fetched_at": "2026-09-16"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-uspoultry-history",
+    "note": "the association's own history page; the third paragraph is this project's reasoning about why any of it reaches a wing, marked in the prose. The page does not date the change of name from Southeastern to U.S. Poultry & Egg Association — it places it in Don Dalton's presidency, in the same stretch as the 1993 move to Tucker."
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-uspoultry-about",
+    "fetched_at": "2026-09-16"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the association's published address, geocoded against OpenStreetMap"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The trade association that funds the research and runs the equipment show behind the bird.",
+ "region_terms": [
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "The other national association — that one lobbies Washington and publishes the Wing Report, this one funds research and runs the expo.",
+   "rel": "org"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "Hosts the floor where the machines that make the cut are sold, every January in Atlanta.",
+   "rel": "fry"
+  },
+  {
+   "to": "flapper",
+   "type": "term",
+   "name": "flapper",
+   "as": "The piece the processing line sends abroad, decided upstream of any kitchen.",
+   "rel": "term"
+  },
+  {
+   "to": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "One of the two pieces a processing line turns a wing into before a bar ever sees it.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "A deboned breast product, which exists because the line that debones breasts exists.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Publishes the production and economic data the price argument rests on.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-uspoultry-about",
+   "kind": "org",
+   "title": "Association Overview",
+   "publisher": "U.S. Poultry & Egg Association",
+   "url": "https://www.uspoultry.org/about/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-uspoultry-history",
+   "kind": "org",
+   "title": "A History of Service to the Poultry and Egg Industry",
+   "publisher": "U.S. Poultry & Egg Association",
+   "url": "https://www.uspoultry.org/history/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-poultry",
+   "kind": "wikipedia",
+   "title": "Poultry",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Poultry",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-as-food",
+   "kind": "wikipedia",
+   "title": "Chicken as food",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_as_food",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-uspoultry-history",
+   "fetched_at": "2026-09-16"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-uspoultry-history",
+   "note": "the association's own history page; the third paragraph is this project's reasoning about why any of it reaches a wing, marked in the prose. The page does not date the change of name from Southeastern to U.S. Poultry & Egg Association — it places it in Don Dalton's presidency, in the same stretch as the 1993 move to Tucker."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-uspoultry-history",
+   "fetched_at": "2026-09-16"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-uspoultry-about",
+   "fetched_at": "2026-09-16"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "the association's published address, geocoded against OpenStreetMap"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-uspoultry-history",
+   "fetched_at": "2026-09-16"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "The other national poultry association — that one runs research and the processing expo, this one runs Washington.",
+   "rel": "org"
+  }
+ ]
+}

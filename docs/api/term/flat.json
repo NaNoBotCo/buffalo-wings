@@ -1,0 +1,285 @@
+{
+ "id": "flat",
+ "names": {
+  "name": "flat",
+  "aliases": [
+   "wingette",
+   "flats",
+   "wing flat",
+   "second segment wing portion",
+   "mid-section"
+  ],
+  "said": "'Flats or drums?' — and most places cannot answer it."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "F",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "the adjective flat, turned into a noun for the piece it describes; the competing name wingette is wing + -ette, the same diminutive that built drumette",
+  "first_attested": "",
+  "note": "Two words, one piece. The National Chicken Council calls it \"the mid-section or 'flat'\"; Wikipedia's poultry article gives it as \"the 'wingette' (also called the 'flat')\". USDA's grading captions use neither, labelling it 'Grade A Second Segment Wing Portion (Wing Flat)'. *Inference —* wingette reads as packer's English and flat as counter English, and the counter is winning.",
+  "tier": "cited",
+  "source": "s:web-ncc-wings-hot-topic"
+ },
+ "text": {
+  "what": "Middle segment, two bones with a gap between them, and more skin per bite than any other piece of a chicken. Flat because it is — it lies down in the fryer basket and comes out on one plane. Two per bird.",
+  "how": "Twist out the smaller bone, then pull the larger one, and the meat comes free in a strip; people who order all flats are usually doing that. More surface means more crust and more sauce clinging, which is the case its partisans make against the drumette."
+ },
+ "kin": [
+  {
+   "to": "drumette",
+   "as": "The other half of the split, and the side of the argument this one is against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing",
+   "as": "One of the two pieces a menu means when it says wing.",
+   "rel": "whole"
+  },
+  {
+   "to": "all-flats",
+   "as": "The order that asks for nothing but these.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-tip",
+   "as": "Attached to this piece until somebody cuts it off; a few kitchens leave it on.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "as": "The argument this word is the other half of.",
+   "rel": "story"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Where the second cut goes, and why this piece keeps two bones.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "as": "Bagged with the drumettes and sold as one product.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-as-food",
+  "s:wp-poultry",
+  "s:web-ncc-wings-hot-topic",
+  "s:web-usda-ams-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-poultry"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-ncc-wings-hot-topic",
+    "note": "the USDA caption wording could not be read from the AMS page itself — see the note on s:web-usda-ams-wing"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "Middle segment, two bones with a gap between them, and more skin per bite than any other piece of a chicken. Flat because it is — it lies down in the fryer basket and comes out on one plane. Two per bird.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "The other half of the split, and the side of the argument this one is against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "One of the two pieces a menu means when it says wing.",
+   "rel": "whole"
+  },
+  {
+   "to": "all-flats",
+   "type": "term",
+   "name": "all flats",
+   "as": "The order that asks for nothing but these.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-tip",
+   "type": "term",
+   "name": "wing tip",
+   "as": "Attached to this piece until somebody cuts it off; a few kitchens leave it on.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "type": "story",
+   "name": "The flat and the drum",
+   "as": "The argument this word is the other half of.",
+   "rel": "story"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "Where the second cut goes, and why this piece keeps two bones.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "Bagged with the drumettes and sold as one product.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-as-food",
+   "kind": "wikipedia",
+   "title": "Chicken as food",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_as_food",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-poultry",
+   "kind": "wikipedia",
+   "title": "Poultry",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Poultry",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ncc-wings-hot-topic",
+   "kind": "org",
+   "title": "Chicken Wings – A Hot Topic!",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/chicken-wings-a-hot-topic/",
+   "accessed": "2026-09-16",
+   "note": "undated feature built on the 2012 Wing Report; the page that says the count is of wing PORTIONS, splits them half foodservice half retail, and explains the flapper export"
+  },
+  {
+   "id": "s:web-usda-ams-wing",
+   "kind": "org",
+   "title": "Chicken Wings (poultry grading photographs)",
+   "publisher": "US Department of Agriculture, Agricultural Marketing Service",
+   "url": "https://www.ams.usda.gov/book/wing",
+   "accessed": "2026-09-16",
+   "note": "AMS grading captions name the cuts 'Grade A First Segment Wing Portion (Wing Drumette)' and 'Grade A Second Segment Wing Portion (Wing Flat)'. The page and the AMS Poultry Grading Manual PDF both refused this project's fetch on 2026-09-16 (403/503); the caption wording was read from the search index, not from the page itself. Records citing it carry needs_verification."
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-poultry"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:web-ncc-wings-hot-topic",
+   "note": "the USDA caption wording could not be read from the AMS page itself — see the note on s:web-usda-ams-wing"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "The middle piece, two bones and the most skin, which is the argument's other side.",
+   "rel": "part"
+  },
+  {
+   "from": "all-flats",
+   "type": "term",
+   "name": "all flats",
+   "as": "The piece the order is asking for, and why.",
+   "rel": "term"
+  },
+  {
+   "from": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "The other piece off the same joint, and the one people compare it against.",
+   "rel": "contrast"
+  },
+  {
+   "from": "flapper",
+   "type": "term",
+   "name": "flapper",
+   "as": "The piece it hangs off until the first cut.",
+   "rel": "kin"
+  },
+  {
+   "from": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "The other half, in about equal number.",
+   "rel": "part"
+  },
+  {
+   "from": "wing-tip",
+   "type": "term",
+   "name": "wing tip",
+   "as": "What it is attached to, and what it gets cut away from.",
+   "rel": "kin"
+  },
+  {
+   "from": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "The middle piece, two bones and the most skin.",
+   "rel": "part"
+  },
+  {
+   "from": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "One of the two pieces a bone-in order actually contains, and the reason the count works differently.",
+   "rel": "part"
+  },
+  {
+   "from": "the-flat-and-the-drum",
+   "type": "story",
+   "name": "The flat and the drum",
+   "as": "The two-boned middle piece, the one federal regulation refuses to name.",
+   "rel": "part"
+  }
+ ]
+}

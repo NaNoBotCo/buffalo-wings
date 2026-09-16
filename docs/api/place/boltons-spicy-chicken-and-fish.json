@@ -1,0 +1,395 @@
+{
+ "schema": 1,
+ "id": "boltons-spicy-chicken-and-fish",
+ "type": "place",
+ "names": {
+  "name": "Bolton's Spicy Chicken & Fish",
+  "aliases": [
+   "Bolton's Famous Hot Chicken & Fish",
+   "Bolton's"
+  ],
+  "sort": "Bolton's Spicy Chicken & Fish"
+ },
+ "region": [
+  "nashville"
+ ],
+ "facets": {
+  "state": "TN",
+  "status": "open",
+  "founded": 1997,
+  "cooked": "fried",
+  "styles": [
+   "nashville-hot"
+  ]
+ },
+ "text": {
+  "what": "A small East Nashville counter at 624 Main Street selling spicy fried chicken and spicy fried fish, opened in 1997 by Bolton Matthews and Dolly Ingram. The recipe came down from Matthews's uncle Bolton Polk. Its heat is the reference point other Nashville houses get measured by.",
+  "story": "Bolton Polk built a family recipe for spicy fried chicken and ran The Chicken Shack in East Nashville in the 1980s. He fell ill, the shop closed in the 1990s, and the recipe went to his nephew Bolton Matthews. Matthews and Dolly Ingram had run janitorial services before this; they opened Bolton's Spicy Chicken and Fish on Main Street in 1997, his chicken and her fried fish on one board. By 2007 they had a school bus converted into a mobile kitchen.\n\nIngram recorded an oral history with the Southern Foodways Alliance on 31 May 2008, interviewed by Amy C. Evans for the Nashville Eats project. From it: \"They're banging on the door and they're wanting their chicken…they have a craving for it…Says it gives them a rush.\"\n\nThe Infatuation's review puts the heat plainly: \"The highest intensity level at most hot chicken joints is like a medium at Bolton's.\" The hot fish — catfish or whiting, onions, mustard, pickles — is the order that review calls \"the true star of the show.\" Wings come off the same board as the rest of the bone-in pieces; the menu is parts, not a wing counter.\n\n*Inference —* the fish half is not a sideline. Hot fish is its own Nashville line, a breaded whiting or catfish filet under the same cayenne treatment, and a counter that runs both is running one fryer culture, not two.",
+  "today": "Still at 624 Main Street in East Nashville in September 2026, in the same small building, now also billed as Bolton's Famous Hot Chicken & Fish."
+ },
+ "geo": {
+  "lat": 36.1739636,
+  "lon": -86.7613291,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "624 Main Street",
+  "city": "Nashville",
+  "county": "Davidson",
+  "state": "TN",
+  "postcode": "37206"
+ },
+ "links": [
+  {
+   "label": "Bolton's Famous Hot Chicken & Fish",
+   "url": "https://www.boltonsfamous.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:web-sfa-boltons",
+   "tier": "cited",
+   "note": "opened by Bolton Matthews and Dolly Ingram in 1997 on a recipe inherited from Matthews's uncle Bolton Polk",
+   "url": "https://www.southernfoodways.org/interview/boltons-spicy-chicken-and-fish/"
+  },
+  {
+   "tag": "black-owned",
+   "source": "s:web-bygone-nashville-boltons",
+   "tier": "cited",
+   "note": "Middle Tennessee State University's Bygone Nashville project titles its entry \"Bolton's Spicy Chicken and Fish - One of the Oldest African American Owned Businesses on Main Street\"; the owners, Bolton Matthews and Dolly Ingram, are named in the Southern Foodways Alliance oral history",
+   "url": "https://bygone-nashville.mtsu.edu/items/show/30"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-infatuation-boltons",
+   "tier": "cited",
+   "note": "the house heat is its own, and reviewers use it as the top of the Nashville scale"
+  },
+  {
+   "tag": "bone-in-only",
+   "source": "s:web-infatuation-boltons",
+   "tier": "cited",
+   "note": "the board is bone-in poultry parts and filets of catfish or whiting; no boneless wing"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "Oral history with Dolly Ingram, interviewed by Amy C. Evans for the Nashville Eats project",
+   "year": 2008,
+   "source": "s:web-sfa-boltons",
+   "url": "https://www.southernfoodways.org/interview/boltons-spicy-chicken-and-fish/"
+  },
+  {
+   "by": "other",
+   "what": "The Infatuation rated it 8.1 and called the top heat at most hot chicken houses a medium here",
+   "year": null,
+   "source": "s:web-infatuation-boltons",
+   "url": "https://www.theinfatuation.com/nashville/reviews/boltons-famous-hot-chicken-and-fish"
+  }
+ ],
+ "kin": [
+  {
+   "to": "nashville-hot",
+   "as": "The counter reviewers use to set the top of the city's heat scale.",
+   "rel": "style"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "The kitchen Bolton Polk is said to have come up through before his own shack.",
+   "rel": "origin"
+  },
+  {
+   "to": "hattie-bs",
+   "as": "The house whose printed ladder starts, by one reviewer's reckoning, below this counter's baseline.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "Made here from a recipe handed down inside one family since the 1980s.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "Two slices and a handful under everything that leaves the fryer.",
+   "rel": "dish"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Recorded Dolly Ingram here in 2008 for the Nashville Eats project.",
+   "rel": "org"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Sold as bone-in pieces off one bird rather than as a wing order with its own menu heading.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:web-sfa-boltons",
+  "s:web-infatuation-boltons",
+  "s:wp-hot-chicken",
+  "s:web-bygone-nashville-boltons"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sfa-boltons"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node, Bolton's Spicy Chicken & Fish, 624 Main Street, East Nashville"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-infatuation-boltons"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A small East Nashville counter at 624 Main Street selling spicy fried chicken and spicy fried fish, opened in 1997 by Bolton Matthews and Dolly Ingram. The recipe came down from Matthews's uncle Bolton Polk.",
+ "region_terms": [
+  {
+   "key": "nashville",
+   "name": "Nashville",
+   "state": "TN",
+   "note": "hot chicken, and the wings cooked the same way"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "The counter reviewers use to set the top of the city's heat scale.",
+   "rel": "style"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "The kitchen Bolton Polk is said to have come up through before his own shack.",
+   "rel": "origin"
+  },
+  {
+   "to": "hattie-bs",
+   "type": "place",
+   "name": "Hattie B's Hot Chicken",
+   "as": "The house whose printed ladder starts, by one reviewer's reckoning, below this counter's baseline.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "Made here from a recipe handed down inside one family since the 1980s.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "Two slices and a handful under everything that leaves the fryer.",
+   "rel": "dish"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "Recorded Dolly Ingram here in 2008 for the Nashville Eats project.",
+   "rel": "org"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "Sold as bone-in pieces off one bird rather than as a wing order with its own menu heading.",
+   "rel": "fry"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-sfa-boltons",
+   "kind": "web",
+   "title": "Bolton's Spicy Chicken & Fish — oral history with Dolly Ingram, Nashville Eats project",
+   "publisher": "Southern Foodways Alliance",
+   "date": "2008-05-31",
+   "url": "https://www.southernfoodways.org/interview/boltons-spicy-chicken-and-fish/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-infatuation-boltons",
+   "kind": "web",
+   "title": "Bolton's Famous Hot Chicken & Fish — review",
+   "publisher": "The Infatuation",
+   "url": "https://www.theinfatuation.com/nashville/reviews/boltons-famous-hot-chicken-and-fish",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hot chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bygone-nashville-boltons",
+   "kind": "web",
+   "title": "Bolton's Spicy Chicken and Fish - One of the Oldest African American Owned Businesses on Main Street",
+   "publisher": "Bygone Nashville, Middle Tennessee State University",
+   "url": "https://bygone-nashville.mtsu.edu/items/show/30",
+   "accessed": "2026-09-16",
+   "note": "the item body did not render to this project; the page title is what is cited here"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-sfa-boltons"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-sfa-boltons"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-infatuation-boltons"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node, Bolton's Spicy Chicken & Fish, 624 Main Street, East Nashville"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-sfa-boltons"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-sfa-boltons",
+   "note": "opened by Bolton Matthews and Dolly Ingram in 1997 on a recipe inherited from Matthews's uncle Bolton Polk",
+   "tier": "cited",
+   "url": "https://www.southernfoodways.org/interview/boltons-spicy-chicken-and-fish/"
+  },
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:web-bygone-nashville-boltons",
+   "note": "Middle Tennessee State University's Bygone Nashville project titles its entry \"Bolton's Spicy Chicken and Fish - One of the Oldest African American Owned Businesses on Main Street\"; the owners, Bolton Matthews and Dolly Ingram, are named in the Southern Foodways Alliance oral history",
+   "tier": "cited",
+   "url": "https://bygone-nashville.mtsu.edu/items/show/30"
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:web-infatuation-boltons",
+   "note": "the house heat is its own, and reviewers use it as the top of the Nashville scale",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "bone-in-only",
+   "label": "Bone-in only",
+   "icon": "🦴",
+   "group": "order",
+   "evidence": "the menu",
+   "resources": [],
+   "source": "s:web-infatuation-boltons",
+   "note": "the board is bone-in poultry parts and filets of catfish or whiting; no boneless wing",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "sfa",
+   "label": "Southern Foodways Alliance",
+   "what": "Oral history with Dolly Ingram, interviewed by Amy C. Evans for the Nashville Eats project",
+   "url": "https://www.southernfoodways.org/interview/boltons-spicy-chicken-and-fish/",
+   "year": 2008,
+   "source": "s:web-sfa-boltons"
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "The Infatuation rated it 8.1 and called the top heat at most hot chicken houses a medium here",
+   "url": "https://www.theinfatuation.com/nashville/reviews/boltons-famous-hot-chicken-and-fish",
+   "year": null,
+   "source": "s:web-infatuation-boltons"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "Another Nashville house on the same method, hot fish included.",
+   "rel": "place"
+  },
+  {
+   "from": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "Another Nashville counter working the same paste and the same slice of bread.",
+   "rel": "place"
+  },
+  {
+   "from": "hattie-bs",
+   "type": "place",
+   "name": "Hattie B's Hot Chicken",
+   "as": "The East Nashville counter whose lowest heat is said to start where this one's top end sits.",
+   "rel": "contrast"
+  },
+  {
+   "from": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "Founded by the nephew of a cook who came up through these kitchens.",
+   "rel": "kin"
+  },
+  {
+   "from": "andre-prince-jeffries",
+   "type": "person",
+   "name": "André Prince Jeffries",
+   "as": "The other Nashville counter people name in the same breath as hers.",
+   "rel": "place"
+  },
+  {
+   "from": "thornton-prince",
+   "type": "person",
+   "name": "Thornton Prince",
+   "as": "One of the Nashville kitchens that carried the method out past his family.",
+   "rel": "place"
+  }
+ ]
+}

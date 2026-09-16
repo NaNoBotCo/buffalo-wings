@@ -1,0 +1,346 @@
+{
+ "schema": 1,
+ "id": "jeremiahs-tavern",
+ "type": "place",
+ "names": {
+  "name": "Jeremiah's Tavern",
+  "aliases": [
+   "Jeremiah's",
+   "Jeremiah's Monroe Ave"
+  ],
+  "sort": "Jeremiah's Tavern"
+ },
+ "region": [
+  "rochester"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "cooked": "fried",
+  "styles": [
+   "buffalo",
+   "rochester-breaded"
+  ]
+ },
+ "text": {
+  "what": "A tavern at 1104 Monroe Avenue in Rochester, the first of four rooms, frying wings that arrive \"fresh, never frozen\" in sauces the company mixes daily at its own commissary. The house claims a run of readers'-poll wins for wings longer than most of its staff have been alive. The Monroe Avenue kitchen also sells a plate, which is what Rochester calls the pile of meat and starch Nick Tahou Hots trademarked as the Garbage Plate.",
+  "story": "Seventy miles east of Buffalo, Rochester breads its wings and Buffalo notices. Jeremiah's sits on the Buffalo side of that argument — fried, sauced, not battered — in a city that does not.\n\nThe house's claim is the streak: it says it has \"been voted Rochester's Best Wings for 21 consecutive years as well as Best Family Friendly Restaurant and Sports Bar in Rochester.\" It does not name the poll. *Inference —* a twenty-one-year run in a city readers' poll is a claim about a ballot nobody else has to ratify, and this project records it as the house's own count rather than as a finding.\n\nThe Bee Sting is the house sauce people ask for by name; it turns up on the wings and then again on a chicken salad the menu trademarks.",
+  "how": "Wings come in fresh and go in the fryer. Dressings and signature sauces are made daily at a commissary kitchen that supplies all four rooms, which is why the Bee Sting tastes the same in Greece as on Monroe Avenue.",
+  "today": "Four rooms as of September 2026: Monroe Avenue in Rochester, Penfield at Fairport Nine Mile Road, Henrietta on Jefferson Road, and Greece at Paddy Creek Circle. Monroe Avenue runs Sunday to Wednesday 11am to 11pm with the kitchen closing at 10, and Thursday to Saturday 11am to midnight with the kitchen closing at 11."
+ },
+ "geo": {
+  "lat": 43.1389642,
+  "lon": -77.5801464,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1104 Monroe Avenue",
+  "city": "Rochester",
+  "county": "Monroe",
+  "state": "NY",
+  "postcode": "14620"
+ },
+ "links": [
+  {
+   "label": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/"
+  },
+  {
+   "label": "Locations",
+   "url": "https://jeremiahstavern.com/locations/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "house-sauce",
+   "source": "s:web-jeremiahs-about",
+   "tier": "cited",
+   "note": "\"fresh, never frozen chicken wings with our own homemade signature sauces\", mixed daily at the company commissary",
+   "url": "https://jeremiahstavern.com/about/"
+  },
+  {
+   "tag": "bar",
+   "source": "s:osm",
+   "tier": "harvested",
+   "note": "OpenStreetMap tags the Monroe Avenue room amenity=bar"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "city-readers-poll",
+   "what": "The house says it has \"been voted Rochester's Best Wings for 21 consecutive years\"; it does not name the poll",
+   "source": "s:web-jeremiahs-about",
+   "url": "https://jeremiahstavern.com/about/",
+   "note": "recorded as the business's own claim"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Monroe Avenue: Sunday to Wednesday 11am–11pm (kitchen to 10pm); Thursday to Saturday 11am–midnight (kitchen to 11pm)",
+  "source": "s:web-jeremiahs-locations",
+  "url": "https://jeremiahstavern.com/locations/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "rochester-breaded",
+   "as": "Sits inside the breaded city and fries its wings bare, which is the argument in one kitchen.",
+   "rel": "contrast"
+  },
+  {
+   "to": "garbage-plate",
+   "as": "Sells a version under its own street number, as every Rochester kitchen must to avoid the trademark.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "as": "Cooks the Buffalo method seventy miles east of Buffalo.",
+   "rel": "style"
+  },
+  {
+   "to": "country-sweet-chicken-and-ribs",
+   "as": "The other Rochester wing counter, hand-breading and glazing where this one fries and tosses.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hot-honey",
+   "as": "Its Bee Sting sauce works the same sweet-and-sharp seam.",
+   "rel": "sauce"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "as": "Runs a Rochester room of its own, which puts Buffalo's rivalry inside this city too.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:web-jeremiahs-about",
+  "s:web-jeremiahs-locations",
+  "s:wp-garbage-plate",
+  "s:wp-rochester-new-york",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-jeremiahs-about"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-jeremiahs-about",
+    "note": "the reading of the readers'-poll claim is marked inline as this project's inference; the founding year is not printed because no page read here states one"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A tavern at 1104 Monroe Avenue in Rochester, the first of four rooms, frying wings that arrive \"fresh, never frozen\" in sauces the company mixes daily at its own commissary.",
+ "region_terms": [
+  {
+   "key": "rochester",
+   "name": "Rochester",
+   "state": "NY",
+   "note": "seventy miles east of Buffalo and breading its wings, which Buffalo notices"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Sits inside the breaded city and fries its wings bare, which is the argument in one kitchen.",
+   "rel": "contrast"
+  },
+  {
+   "to": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "Sells a version under its own street number, as every Rochester kitchen must to avoid the trademark.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Cooks the Buffalo method seventy miles east of Buffalo.",
+   "rel": "style"
+  },
+  {
+   "to": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "The other Rochester wing counter, hand-breading and glazing where this one fries and tosses.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "Its Bee Sting sauce works the same sweet-and-sharp seam.",
+   "rel": "sauce"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "type": "place",
+   "name": "Duff's Famous Wings",
+   "as": "Runs a Rochester room of its own, which puts Buffalo's rivalry inside this city too.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-jeremiahs-about",
+   "kind": "web",
+   "title": "About",
+   "publisher": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/about/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-jeremiahs-locations",
+   "kind": "web",
+   "title": "Locations",
+   "publisher": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/locations/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-garbage-plate",
+   "kind": "wikipedia",
+   "title": "Garbage Plate",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garbage_Plate",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-rochester-new-york",
+   "kind": "wikipedia",
+   "title": "Rochester, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rochester,_New_York",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "note": "ODbL 1.0, share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-jeremiahs-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-jeremiahs-about",
+   "note": "the reading of the readers'-poll claim is marked inline as this project's inference; the founding year is not printed because no page read here states one"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-jeremiahs-about"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-jeremiahs-about"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-jeremiahs-about"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:web-jeremiahs-about",
+   "note": "\"fresh, never frozen chicken wings with our own homemade signature sauces\", mixed daily at the company commissary",
+   "tier": "cited",
+   "url": "https://jeremiahstavern.com/about/"
+  },
+  {
+   "key": "bar",
+   "label": "Bar, 21 and over",
+   "icon": "🍺",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:osm",
+   "note": "OpenStreetMap tags the Monroe Avenue room amenity=bar",
+   "tier": "harvested",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "city-readers-poll",
+   "label": "A city readers' poll",
+   "what": "The house says it has \"been voted Rochester's Best Wings for 21 consecutive years\"; it does not name the poll",
+   "url": "https://jeremiahstavern.com/about/",
+   "year": null,
+   "source": "s:web-jeremiahs-about"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "garlic-parm",
+   "type": "style",
+   "name": "Garlic parmesan wings",
+   "as": "Lists Garlic Parm among sixteen sauces, which is how the style actually reaches most drinkers — one line on a long board.",
+   "rel": "place"
+  },
+  {
+   "from": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Named the city's best wings by CITY Magazine, and prints sixteen sauces beside them.",
+   "rel": "place"
+  },
+  {
+   "from": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "Sells Rochester its wings in the same city that eats the plate.",
+   "rel": "place"
+  },
+  {
+   "from": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "The other Rochester wing room, frying bare and tossing where this one breads and glazes.",
+   "rel": "contrast"
+  }
+ ]
+}

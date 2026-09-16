@@ -1,0 +1,371 @@
+{
+ "schema": 1,
+ "id": "bonchon",
+ "type": "place",
+ "names": {
+  "name": "Bonchon",
+  "aliases": [
+   "Bonchon Chicken",
+   "본촌치킨",
+   "Bonchon International Inc."
+  ],
+  "said": "Korean 본촌, pronounced roughly pon-chon; the company translates it as \"my hometown\".",
+  "sort": "Bonchon"
+ },
+ "region": [
+  "korean-american",
+  "texas",
+  "us"
+ ],
+ "facets": {
+  "state": "TX",
+  "status": "open",
+  "founded": 2002,
+  "cooked": "double-fried",
+  "styles": [
+   "korean-american"
+  ]
+ },
+ "text": {
+  "what": "A Korean fried chicken chain that fries each piece twice and paints the sauce on with a brush. Jinduk Seo opened the first Bonchon in Busan, South Korea in 2002; the company now runs about 500 restaurants in more than ten countries and territories, keeps its global headquarters in Dallas, and manufactures every sauce in South Korea. Two sauces carry the brand: soy garlic and spicy. The chain closed its own South Korean restaurants at the end of 2016 and has exported ever since.",
+  "story": "Bonchon began in the Busan chimaek trade — fried chicken eaten with beer — and built a double-fry meant to render fat out of the skin and leave a thin shell behind. Seo's own account of the moment it worked, on the company's site: \"When police were dispatched to manage traffic around the new restaurant, I knew we had a winning formula.\"\n\nThe United States came next, through Fort Lee, New Jersey, and then twenty other states. Southeast Asia came by master franchise: the Scotland Food Group took the Philippines in 2010 and built 180 restaurants there; Minor International runs over 110 in Thailand. The home market went the other way. Facing saturation, the company shut its South Korean retail operations by the end of 2016 and turned itself into a pure export franchise, which makes it the first Korean fried chicken brand to expand internationally.\n\nVIG Partners, a South Korean private equity firm, bought 55 percent for 60 billion won in December 2018, and the founding family kept 45. Headquarters moved to Dallas in 2021. In March 2026 VIG put the brand up for auction through William Blair; more than 100 buyers from the United States and Asia looked, and analysts valued the business at 3,000 billion won.\n\nThe chain has drawn criticism it has not always answered. Bonchon in South Korea, with the wider fried chicken trade, was accused of shrinkflation — smaller birds at higher prices — after which South Korean chicken restaurants were required to tell customers the pre-cooking weight. The Thai arm dropped a mandatory 10 percent service charge in 2024 after complaints. In October 2019 Bonchon paid more than $10,000 in back wages, tips and damages to former workers at the Dinkytown restaurant by the University of Minnesota, settling with the Minneapolis Labor Standards Enforcement Division a dispute over tips reassigned to kitchen staff.",
+  "how": "Three steps, in the company's own words on bonchon.com, read 16 September 2026: hand battered in \"a thin layer of flour and other secret ingredients\", double-fried — \"Once to lock in all the succulent juices and again to achieve that signature, crave-worthy crunch\" — and hand brushed, because \"We carefully brush every nook and cranny of that crunchy exterior… We do not drown our wings in sauce.\" Soy garlic uses Daseo-jong garlic; spicy uses dried gochugaru. Sauces are made at the South Korean plant and shipped to every franchise, which is how the chain holds one taste across every market. Pickled radish, kimchi and Korean street corn come alongside.",
+  "today": "About 500 restaurants across North America, Asia, the Middle East, Oceania and Europe, the densest markets being the Philippines at 180, the United States at more than 150 and Thailand at over 110. The United States makes more than 60 percent of worldwide revenue. Newer restaurants run fast-casual — counter service, shorter menu, smaller footprint — beside ghost kitchens, hotels and airports."
+ },
+ "geo": {
+  "lat": 32.7762719,
+  "lon": -96.7968559,
+  "precision": "town",
+  "source": "s:osm"
+ },
+ "address": {
+  "city": "Dallas",
+  "county": "Dallas",
+  "state": "TX"
+ },
+ "links": [
+  {
+   "label": "Bonchon",
+   "url": "https://bonchon.com/"
+  },
+  {
+   "label": "Our Story",
+   "url": "https://bonchon.com/our-story"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "breaded",
+   "source": "s:web-bonchon-site",
+   "tier": "cited",
+   "note": "the company's own words: each piece is hand battered in \"a thin layer of flour and other secret ingredients\" before the first fry"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:wp-bonchon-chicken",
+   "tier": "cited",
+   "note": "soy garlic, spicy and yangnyeom are made to the company's own recipes at its South Korean facility and shipped to every franchise"
+  }
+ ],
+ "kin": [
+  {
+   "to": "korean-american",
+   "as": "The chain that carried the style out of Korea first, and the one many Americans meet it through.",
+   "rel": "style"
+  },
+  {
+   "to": "double-fry",
+   "as": "Built the business on it: once to hold the juice, once for the shell.",
+   "rel": "fry"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "as": "One of the two founding sauces, made with Daseo-jong garlic in South Korea and shipped worldwide.",
+   "rel": "sauce"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "as": "On the menu beside soy garlic, and made at the same South Korean plant.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-toss",
+   "as": "Refuses it — the sauce goes on with a brush, in the company's words, rather than in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pickled-radish",
+   "as": "Comes with the chicken, cold and sweet against the fry.",
+   "rel": "dish"
+  },
+  {
+   "to": "wingstop",
+   "as": "Runs out of the same city, Dallas, on the opposite method: fried once and tossed, against fried twice and brushed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "extra-crispy",
+   "as": "Sells the idea as a whole business: the second fry is what the word is asking for.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-bonchon-chicken",
+  "s:web-bonchon-our-story",
+  "s:web-bonchon-site",
+  "s:wp-korean-fried-chicken"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-bonchon-site",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-bonchon-chicken",
+    "note": "the Wikipedia article gives the Hangul, the IPA and the translation the company uses"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Dallas at town precision — the global headquarters city; the 2002 Busan storefront's address is not on this disk, and the first US restaurant was in Fort Lee, New Jersey"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:wp-bonchon-chicken",
+    "note": "headquarters, not first location"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Korean fried chicken chain that fries each piece twice and paints the sauce on with a brush.",
+ "region_terms": [
+  {
+   "key": "korean-american",
+   "name": "Korean America",
+   "state": null,
+   "note": "Los Angeles, Queens, Fort Lee, Annandale, Chicago; a cuisine, not a place"
+  },
+  {
+   "key": "texas",
+   "name": "Texas",
+   "state": "TX"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "The chain that carried the style out of Korea first, and the one many Americans meet it through.",
+   "rel": "style"
+  },
+  {
+   "to": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "Built the business on it: once to hold the juice, once for the shell.",
+   "rel": "fry"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "type": "sauce",
+   "name": "Soy garlic sauce",
+   "as": "One of the two founding sauces, made with Daseo-jong garlic in South Korea and shipped worldwide.",
+   "rel": "sauce"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "On the menu beside soy garlic, and made at the same South Korean plant.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Refuses it — the sauce goes on with a brush, in the company's words, rather than in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pickled-radish",
+   "type": "dish",
+   "name": "pickled radish",
+   "as": "Comes with the chicken, cold and sweet against the fry.",
+   "rel": "dish"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Runs out of the same city, Dallas, on the opposite method: fried once and tossed, against fried twice and brushed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "Sells the idea as a whole business: the second fry is what the word is asking for.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-bonchon-chicken",
+   "kind": "wikipedia",
+   "title": "Bonchon Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonchon_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bonchon-our-story",
+   "kind": "web",
+   "title": "Our Story",
+   "publisher": "Bonchon",
+   "url": "https://bonchon.com/our-story",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-bonchon-site",
+   "kind": "web",
+   "title": "Korean Fried Chicken & Korean Food Restaurant | Bonchon",
+   "publisher": "Bonchon",
+   "url": "https://bonchon.com/",
+   "accessed": "2026-09-16",
+   "note": "hand battered, double-fried, hand brushed, in the company's own words"
+  },
+  {
+   "id": "s:wp-korean-fried-chicken",
+   "kind": "wikipedia",
+   "title": "Korean fried chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Korean_fried_chicken",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-bonchon-site",
+   "fetched_at": "2026-09-16"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Dallas at town precision — the global headquarters city; the 2002 Busan storefront's address is not on this disk, and the first US restaurant was in Fort Lee, New Jersey"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken",
+   "note": "headquarters, not first location"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "breaded",
+   "label": "Breaded",
+   "icon": "🍞",
+   "group": "kitchen",
+   "evidence": "the menu, the business's own words, or a press piece that describes the wing",
+   "resources": [],
+   "source": "s:web-bonchon-site",
+   "note": "the company's own words: each piece is hand battered in \"a thin layer of flour and other secret ingredients\" before the first fry",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:wp-bonchon-chicken",
+   "note": "soy garlic, spicy and yangnyeom are made to the company's own recipes at its South Korean facility and shipped to every franchise",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "Carried the method to Fort Lee, New Jersey and then across 21 states, with its sauces made centrally in Korea.",
+   "rel": "place"
+  },
+  {
+   "from": "soy-garlic-sauce",
+   "type": "sauce",
+   "name": "Soy garlic sauce",
+   "as": "Standardised it as a flagship sauce and ships it from Korean plants to every franchise.",
+   "rel": "place"
+  },
+  {
+   "from": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "Built a chain on two sauces, of which this is the spicy one.",
+   "rel": "place"
+  },
+  {
+   "from": "pickled-radish",
+   "type": "dish",
+   "name": "pickled radish",
+   "as": "Lists pickled radish among its sides, next to kimchi and coleslaw.",
+   "rel": "place"
+  },
+  {
+   "from": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "Grew out of the South Korean chimaek market, where the beer came first.",
+   "rel": "place"
+  },
+  {
+   "from": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "Built a franchise on a two-step fry and a brushed sauce.",
+   "rel": "place"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Runs its US business out of the same city, Dallas, on a different fry.",
+   "rel": "contrast"
+  }
+ ]
+}

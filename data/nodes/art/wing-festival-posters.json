@@ -1,0 +1,161 @@
+{
+ "schema": 1,
+ "id": "wing-festival-posters",
+ "type": "art",
+ "names": {
+  "name": "Wing festival posters",
+  "aliases": [
+   "Wing Fest poster art",
+   "wing contest promotional art"
+  ],
+  "sort": "wing festival posters"
+ },
+ "region": [
+  "western-ny",
+  "philadelphia",
+  "us"
+ ],
+ "facets": {
+  "kind": "poster",
+  "state": "NY"
+ },
+ "text": {
+  "what": "A wing festival poster does four things at once: names the event, fixes the date and the gate, lists the sponsors in descending size, and supplies a mascot the event can print on a T-shirt. The National Buffalo Wing Festival, founded in Buffalo in 2002 and held on Labor Day weekend, is the genre's anchor; Philadelphia's Wing Bowl, run by a radio station from 1993 to 2018, produced the same artwork in a louder register. The art is commercial, it is dated by design, and almost none of it is free to reuse — which is why this page describes it rather than shows it."
+ },
+ "sections": [
+  {
+   "h": "The event the posters are for",
+   "text": "The National Buffalo Wing Festival was inaugurated in 2002 at Sahlen Field in Buffalo and runs on Labor Day weekend. Drew Cerza founded it; the Buffalo News called him the Wing King. It culminates in a sanctioned wing-eating contest held on the Sunday every year since 2003 apart from 2020. It was held at Highmark Stadium from 2021 through the 2024 edition and returned to Sahlen Field in 2025.\n\nJill Greenburg's account of why it lasted, quoted in the festival's own record: \"Of local festivals that have come and gone, the Wing Fest's staying power is a result of raising approximately $200,000 for local charities and serving almost 3,000,000 chicken wings with 100 sauce varieties to over 500,000 hungry visitors over the years.\""
+  },
+  {
+   "h": "What has to fit on the sheet",
+   "text": "Title. Year, often in Roman numerals if the event has run long enough to make a point of it. Dates and gate times. Venue. Ticket price or the words FREE ADMISSION. A sponsor block, which on a festival poster is not decoration but the reason the poster exists — the beer brand, the hot sauce brand, the local supermarket, the radio station, each sized by what it paid.\n\n*Inference —* everything left over is the artwork, which is why festival posters are mostly type with one image, and why the image is almost always the mascot rather than a photograph of food."
+  },
+  {
+   "h": "The vocabulary",
+   "text": "*Tradition holds —* the visual kit is small and stable. A wing drawn with a face or with sunglasses. Flame, as an outline behind the type. A crown, because somebody is being crowned. A pepper as a punctuation mark. A bib. Colours run to the red-orange of the sauce against black or white, and the type is heavy, condensed, and often slanted to suggest speed.\n\nCompetitive eating brings its own iconography: the numbered placard, the table with the plates in a row, the timer, the mound. Wing Bowl's promotional art worked this hardest — an arena event with entrants who arrived with entourages, and artwork built on wrestling and boxing posters rather than on food photography."
+  },
+  {
+   "h": "Its kin",
+   "text": "The county fair poster, the chilli cook-off flyer, the crawfish boil, the rib burn-off, the state barbecue championship. They share the sponsor block, the mascot and the date-first hierarchy, and they share a production route: a local designer, a short run, and a shirt printed from the same file.\n\n*Inference —* the poster is rarely the main artefact. The shirt is. A festival poster is designed knowing it will be cropped to a square for a shirt front and to a banner for a stage, which flattens the composition and pushes the mascot to the centre."
+  },
+  {
+   "h": "What is free, and what is not",
+   "text": "Almost none of it. Festival artwork is commissioned work, owned by the festival or its agency, and sponsor logos are trademarks on top of that. Wikimedia Commons holds photographs taken at the events — a 2012 shot of Joey Chestnut competing at the National Buffalo Wing Festival, released under CC BY 2.0 by the photographer, and crowd pictures from the same years — but not the poster art itself.\n\nSo this page names what the genre does and points at the photographs. *Inference —* that limit is typical of commercial vernacular art: the thing is everywhere and reproducible almost nowhere."
+  }
+ ],
+ "kin": [
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "The event whose annual artwork anchors this genre, running on Labor Day weekend since 2002.",
+   "rel": "event"
+  },
+  {
+   "to": "drew-cerza",
+   "as": "Founded the festival in 2002 and is the figure the poster's crown usually belongs to.",
+   "rel": "person"
+  },
+  {
+   "to": "wing-bowl",
+   "as": "Philadelphia's radio-built contest, whose promotional art borrowed from boxing rather than from food.",
+   "rel": "event"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "The competitor most often on the poster and in the photographs Commons actually holds.",
+   "rel": "person"
+  },
+  {
+   "to": "national-chicken-wing-day",
+   "as": "The other dated occasion the same artwork gets reused for.",
+   "rel": "event"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "as": "Same trade, permanent instead of annual, and made by the same kind of local shop.",
+   "rel": "art"
+  },
+  {
+   "to": "buffalo-murals",
+   "as": "Where the festival's imagery ends up when a city wants it year-round.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:wp-national-buffalo-wing-festival",
+  "s:wp-wing-bowl",
+  "s:web-commons-search"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-buffalo-wing-festival"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "inference"
+   },
+   "sections[2].text": {
+    "tier": "tradition"
+   },
+   "sections[3].text": {
+    "tier": "inference"
+   },
+   "sections[4].text": {
+    "tier": "cited",
+    "source": "s:web-commons-search",
+    "note": "the Chestnut photograph's CC BY 2.0 licence and 2012 date read off its extmetadata through the Commons API on 16 September 2026"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "wing-festival-posters/wing-festival-posters-bisons-coca-cola-field.jpg",
+   "source": "commons",
+   "title": "File:Bisons coca cola field.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bisons_coca_cola_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABisons_coca_cola_field.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Jsayre64",
+   "credit": "Own work",
+   "alt": "Buffalo Bisons vs. Gwinnett Braves MiLB game in Buffalo, NY.",
+   "date": "2010-07-15",
+   "primary": true,
+   "sha256": "2e9a356cd63646479612b9ad79a5acde6e1be0d45cad75bcced36616b830e055"
+  },
+  {
+   "file": "wing-festival-posters/wing-festival-posters-buffalo-wing-fest-crowd.jpg",
+   "source": "commons",
+   "title": "File:Buffalo wing fest crowd.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Buffalo_wing_fest_crowd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_wing_fest_crowd.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Fortunate4now",
+   "credit": "Own work",
+   "alt": "Crowd at the Buffalo Wing Festival, Coca-Cola Field, Buffalo, New York",
+   "date": "2012-09-02 14:07:21",
+   "primary": false,
+   "sha256": "91e0f6d7c9ef20962ebbc10115a5c785ae114729a3475d73067c120f4addd852"
+  },
+  {
+   "file": "wing-festival-posters/wing-festival-posters-joey-chestnut-at-the-2012-national-buffalo-wing-fest-040edaf.jpg",
+   "source": "commons",
+   "title": "File:Joey Chestnut at the 2012 National Buffalo Wing Festival, Buffalo, New York.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Joey_Chestnut_at_the_2012_National_Buffalo_Wing_Festival%2C_Buffalo%2C_New_York.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AJoey_Chestnut_at_the_2012_National_Buffalo_Wing_Festival%2C_Buffalo%2C_New_York.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "LegendLarrys",
+   "credit": "https://www.flickr.com/photos/86531318@N06/7925546942/",
+   "alt": "Joey Chestnut competing at the 2012 National Buffalo Wing Festival at Sahlen Field in Buffalo, NY",
+   "date": "2012-09-02 14:51:35",
+   "primary": false,
+   "sha256": "3cd809d9777343a0c93802c1542493c0717f7355a83c087a59a5971de3549c8f"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,92 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "chicken-and-waffles",
+ "names": {
+  "name": "chicken and waffles",
+  "aliases": [
+   "chicken 'n' waffles"
+  ],
+  "said": "Butter and syrup on the waffle, hot sauce on the chicken, and the two meet in the middle of the plate."
+ },
+ "region": [
+  "the-south",
+  "nyc",
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "course": "main"
+ },
+ "text": {
+  "what": "Fried chicken on a waffle, eaten with butter and syrup as a waffle would be, and often with hot sauce. It belongs to several culinary traditions at once — Pennsylvania Dutch cuisine and soul food among them — and the two versions are not the same dish.",
+  "story": "The Pennsylvania Dutch version came first and is not fried: pulled, stewed chicken over a plain waffle, covered in gravy, appearing in the 1600s in Pennsylvania Dutch country. Waffles entered American cuisine with European colonists in the 1600s, and the food's popularity rose after 1789 when Thomas Jefferson bought four waffle irons in Amsterdam. In the early 1800s hotels and resorts outside Philadelphia served waffles with fried catfish; fried chicken gradually replaced the catfish because catfish was seasonal. By the 1860s waffles with chicken and gravy were a common Sunday dish among the Pennsylvania Dutch. By the 1840s broiled chicken and waffles were the celebrated specialty at Warriner's Tavern in Springfield, Massachusetts, run by Jeremy and Phoebe Warriner, two well-known abolitionists.\n\nThe fried version is associated with the American South and with soul food, and it grew after the Wells Supper Club opened in Harlem in 1938; the dish was served in Harlem as early as the 1930s at Tillie's Chicken Shack and Richard Wells's jazz nightclub, and in 1935 the trumpeter Bunny Berigan composed an instrumental called \"Chicken and Waffles\". A traditional account within soul food holds that the combination was a delicacy, and it remained \"a special-occasion meal in African American families\" for decades. The combination is absent from early Southern cookbooks — not in Mrs. Porter's Southern Cookery Book of 1871, nor in Abby Fisher's What Mrs. Fisher Knows About Old Southern Cooking of 1881, generally considered the first cookbook written by an African American — which may point to a later origin than the traditional account suggests.\n\nLos Angeles got it by 1931, at a restaurant called The Maryland which marketed it as a Southern specialty, and again from 1975 onward through Herb Hudson's Roscoe's House of Chicken and Waffles, opened by a former Harlem resident and now a small chain.",
+  "how": "Fry the chicken — bone-in pieces, or wings on a wing menu. Bake the waffle to order and serve it as a breakfast waffle, with butter and syrup. Chicken goes on top or beside. Hot sauce is the eater's call; in Baltimore, where the dish is popular enough to be a local custom, so is the order in which it goes on.",
+  "today": "Served in specialty restaurants across the United States and on brunch menus that have never heard of Harlem or Lancaster County. *Inference —* the wing version is the newest branch: a wing menu can do the whole dish without a second fryer setting, and it lets a bar sell breakfast at eleven at night."
+ },
+ "kin": [
+  {
+   "to": "harolds-chicken-shack",
+   "as": "Chicago's fried-chicken counter out of the same soul food tradition this dish's Harlem version belongs to.",
+   "rel": "place"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "as": "Another Chicago house frying the chicken half of this plate.",
+   "rel": "place"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "The other place fried chicken and a starch arrive as one plate, with bread instead of a waffle.",
+   "rel": "contrast"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "Nashville's starch under the bird; here it is sweet and on top.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hot-honey",
+   "as": "The sweet-hot finish that does on a wing what syrup does here.",
+   "rel": "sauce"
+  },
+  {
+   "to": "brine",
+   "as": "The buttermilk soak the chicken half usually gets first.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "as": "The flour coat that makes the chicken half work against syrup.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-chicken-and-waffles",
+  "s:wp-soul-food",
+  "s:wp-fried-chicken"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chicken-and-waffles"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the Baltimore custom is cited; the method is general"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-chicken-and-waffles",
+    "note": "closing sentence marked inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

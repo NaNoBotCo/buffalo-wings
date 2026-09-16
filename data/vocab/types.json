@@ -1,0 +1,27 @@
+{
+ "note": "The eleven node types and how the directory groups each one. Order here is the order on the front page.",
+ "entries": [
+  {"key": "style", "name": "Styles", "one": "style", "path": "style",
+   "blurb": "City by city: what gets tossed on, what gets left off, who claims it.", "group_by": "facets.state"},
+  {"key": "sauce", "name": "Sauces and dips", "one": "sauce", "path": "sauce",
+   "blurb": "Cayenne and butter, lemon pepper, mumbo, mild sauce, gochujang, ranch, blue cheese.", "group_by": "facets.base"},
+  {"key": "dish", "name": "On the side", "one": "dish", "path": "dish",
+   "blurb": "Celery, fries, pizza logs, beef on weck, the plate the wings ride in on.", "group_by": "facets.course"},
+  {"key": "fry", "name": "In the kitchen", "one": "practice", "path": "fry",
+   "blurb": "Cuts, coatings, oils, fryers, smokers, the toss.", "group_by": "facets.kind"},
+  {"key": "place", "name": "Wing joints", "one": "place", "path": "place",
+   "blurb": "Bars, shacks, takeout windows and dining rooms, open and gone.", "group_by": "address.state"},
+  {"key": "person", "name": "People", "one": "person", "path": "person",
+   "blurb": "Cooks, founders, families, writers, organizers.", "group_by": "facets.role"},
+  {"key": "org", "name": "Organizations", "one": "organization", "path": "org",
+   "blurb": "Councils, festivals, trade groups, archives.", "group_by": "facets.state"},
+  {"key": "event", "name": "Events", "one": "event", "path": "event",
+   "blurb": "Festivals, eating contests, Super Bowl Sunday.", "group_by": "facets.state"},
+  {"key": "term", "name": "Words", "one": "word", "path": "word",
+   "blurb": "Flat, drum, party wing, wet, dry, naked, extra crispy.", "group_by": "facets.letter"},
+  {"key": "art", "name": "Signs and art", "one": "piece", "path": "art",
+   "blurb": "Chickens on signboards, neon, murals, mascots, the festival poster.", "group_by": "facets.kind"},
+  {"key": "story", "name": "Stories", "one": "story", "path": "story",
+   "blurb": "The origin fight, the ranch war, the long reads.", "group_by": "facets.kind"}
+ ]
+}

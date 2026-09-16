@@ -1,0 +1,408 @@
+{
+ "schema": 1,
+ "id": "boneless-is-not-a-wing",
+ "type": "story",
+ "names": {
+  "name": "Boneless is not a wing",
+  "aliases": [
+   "Berkheimer v. REKM",
+   "The boneless wing case"
+  ],
+  "sort": "boneless is not a wing"
+ },
+ "region": [
+  "us",
+  "ohio-valley"
+ ],
+ "facets": {
+  "kind": "essay",
+  "state": "OH"
+ },
+ "text": {
+  "what": "On 25 July 2024 the Supreme Court of Ohio held, 4 to 3, that a diner who swallowed a chicken bone from a boneless wing could not take his negligence claim to a jury, because he could reasonably have guarded against it. The case is Berkheimer v. REKM, L.L.C., 2024-Ohio-2787, 177 Ohio St.3d 431, docket 2023-0293. The majority wrote that calling the item a boneless wing described a cooking style. The dissent called that reasoning jabberwocky, twice. The argument the case dropped into is older than the case and older than the menu category: a boneless wing is breast meat, battered and fried, and the federal standard that governs what may be labelled a wing does not cover a restaurant menu at all."
+ },
+ "sections": [
+  {
+   "h": "The case, and what is in the record",
+   "text": "Michael Berkheimer ate boneless wings at Wings on Brookwood in 2016. A bone roughly five centimetres long lodged in his oesophagus, tearing it; infection followed in his thoracic cavity, and with it fever and difficulty breathing. He sued the restaurant, its food supplier and a chicken farm in negligence and breach of warranty. The trial court granted summary judgment to the defendants; the Supreme Court of Ohio affirmed on 25 July 2024, 4 to 3.\n\nJustice Joseph T. Deters wrote for the majority. Justice Michael P. Donnelly wrote the dissent. Ohio applies a reasonable-expectation test: whether a consumer could reasonably have expected the injurious substance in the food and so could have guarded against it.\n\n*Inference —* one caution about this page. The court's own PDF of the opinion was unreachable from this project on 16 September 2026, as were the Justia and CourtListener copies; the quotations below are reproduced from reporting that printed them, and each is attributed to the outlet that printed it. Anyone relying on the exact wording should read the slip opinion."
+  },
+  {
+   "h": "What the majority said",
+   "text": "On the bone itself, Holland & Knight quotes the majority: \"Like the oyster shell at issue in Allen, it is apparent that the bone ingested by Berkheimer was so large relative to the size of the food item he was eating that, as a matter of law, he reasonably could have guarded against it.\"\n\nOn the word on the menu, the same passage is quoted by Holland & Knight and by Reason's Volokh Conspiracy: \"it is common sense that that label was merely a description of the cooking style.\"\n\nThe holding is about tort liability under Ohio's reasonable-expectation test. It is not a ruling about labelling, about advertising, or about what a restaurant may print."
+  },
+  {
+   "h": "What the dissent said",
+   "text": "Justice Donnelly's dissent is quoted by Reason's Volokh Conspiracy: \"The result in this case is another nail in the coffin of the American jury system\"; \"More utter jabberwocky\"; and, on the majority's cooking-style reading, \"Jabberwocky. There is, of course, no authority for this assertion, because no sensible person has ever\" — the post's excerpt breaks there.\n\nOn what a diner understands, he is quoted: \"When they read the word 'boneless,' they think that it means 'without bones,' as do all sensible people.\" CBS News prints a further line: \"Does anyone really believe that the parents in this country who feed their young children boneless wings...expect bones to be in the chicken?\"\n\nThe dissent's complaint is procedural as much as lexical: that the question of what a diner could reasonably expect is a jury's to answer, and the majority took it away."
+  },
+  {
+   "h": "What a boneless wing is made of",
+   "text": "Breast meat. Russ Whitman, a poultry analyst at Urner Barry, told The Counter in February 2018 how it is done: \"they take a piece of breast meat, and they essentially strip it down, cut it into five three-inch long pieces, and coat it with buffalo sauce, and throw it in a fryer.\" Asked whether it is a wing, he said: \"I mean, no, it's not a wing at all. It's white meat, it's breast meat. Is it fair? I don't know what the rules are. It's misleading.\"\n\nThe process is the chicken nugget's process, which Robert C. Baker worked out at Cornell in the 1950s and published unpatented: coat the meat so it holds together, then batter it so the coating survives frying and freezing. A boneless wing is that, cut larger and sauced."
+  },
+  {
+   "h": "Why the category exists",
+   "text": "Wings got expensive and some diners wanted a neater thing to eat. Restaurants answered with a menu line called boneless wings — skinless boneless breast, floured and spiced, fried or baked, and sauced the same way the bone-in ones are. Sometimes it was sold under the spelling wyngz.\n\nBy the National Chicken Council's figures as reported by The Counter in 2018, traditional wings still accounted for 64% of all wings served in restaurants, with boneless orders falling that year. Datassential has since projected boneless growing on menus while bone-in stays flat. *Inference —* a category that is 36% of a market and growing is not a fringe; it is half the argument's reason for existing."
+  },
+  {
+   "h": "Wyngz",
+   "text": "The federal standard is narrow. 9 CFR 381.170(b)(7): \"'Wings' shall include the entire wing with all muscle and skin tissue intact, except that the wingtip may be removed.\" A poultry product that is not that may not be labelled a wing.\n\nSo when Nestlé wanted to put boneless chicken pieces in a DiGiorno frozen pizza box in 2011, USDA's Food Safety and Inspection Service offered a spelling instead. Consumer Reports, writing on 3 February 2011, reported the terms: \"The FSIS allows the use of the term 'wyngz' to denote a product that is in the shape of a wing or a bite-size appetizer type product under the following conditions\" — among them that the poultry is white chicken and that the product contains no wing meat — and that the agency stipulates \"no other misspellings are permitted.\" Stephen Colbert put the spelling on television, which is how most people heard of it.\n\nThe rule reaches a package. It does not reach a menu: FSIS and FDA labelling standards govern what is printed on a label, and a restaurant's menu board is not one. *Inference —* that gap is the whole reason the question reached a court as a tort claim rather than a labelling complaint."
+  },
+  {
+   "h": "The older argument",
+   "text": "*Tradition holds —* people were saying a boneless wing is not a wing long before 2024 and long before wyngz. The sentence gets said across a bar counter and in the comments under every wing post, and it takes two forms that are worth keeping apart: a claim about anatomy, which is simply correct — breast is not wing — and a claim about worth, which is a preference. The court decided neither."
+  },
+  {
+   "h": "What the decision does and does not settle",
+   "text": "It settles that in Ohio, a plaintiff in Berkheimer's position does not reach a jury on those facts. *Inference —* it does not define the word boneless, it does not bind any other state, it does not touch federal labelling, and it does not stop a restaurant calling the item whatever it likes. What it did do is hand both sides of a bar argument a court citation, which is why it is quoted far more often than it is read."
+  }
+ ],
+ "kin": [
+  {
+   "to": "boneless",
+   "as": "The word the court read as a cooking style and the dissent read as a promise.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "The menu item itself: breast meat, floured, fried, sauced like a wing.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing",
+   "as": "The word the federal standard protects on a label and leaves unprotected on a menu.",
+   "rel": "contrast"
+  },
+  {
+   "to": "flat",
+   "as": "One of the two pieces a bone-in order actually contains, and the reason the count works differently.",
+   "rel": "part"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "How a boneless wing is built: coat the meat, batter the coat, fry it.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "as": "The flour-and-spice step that makes a strip of breast hold a crust.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Sells both, side by side, and prices them against each other.",
+   "rel": "place"
+  },
+  {
+   "to": "wingstop",
+   "as": "Carries boneless as a full parallel menu, sauced from the same list as bone-in.",
+   "rel": "place"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Why the category appeared: wing meat got dear and breast meat did not.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:web-courtlistener-berkheimer",
+  "s:web-volokh-boneless",
+  "s:web-cbs-boneless-wings",
+  "s:web-hklaw-boneless",
+  "s:web-counter-boneless",
+  "s:web-ecfr-381-170",
+  "s:web-consumer-reports-wyngz",
+  "s:web-thompson-coburn-wings",
+  "s:wp-chicken-nugget",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-courtlistener-berkheimer"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "cited",
+    "source": "s:web-cbs-boneless-wings",
+    "note": "caption, docket and citation from CourtListener's case record; facts and vote from CBS News; the closing caution records that the slip opinion itself could not be retrieved on 16 September 2026"
+   },
+   "sections[1].text": {
+    "tier": "cited",
+    "source": "s:web-hklaw-boneless",
+    "note": "majority quotations as printed by Holland & Knight and by Reason's Volokh Conspiracy; not checked against the slip opinion"
+   },
+   "sections[2].text": {
+    "tier": "cited",
+    "source": "s:web-volokh-boneless",
+    "note": "dissent quotations as printed by Reason's Volokh Conspiracy and CBS News; one excerpt breaks mid-sentence in the source and is shown that way"
+   },
+   "sections[3].text": {
+    "tier": "cited",
+    "source": "s:web-counter-boneless"
+   },
+   "sections[4].text": {
+    "tier": "inference",
+    "note": "the 64% figure is the National Chicken Council's as reported by The Counter in 2018; the Datassential projection is reported at second hand and is not checked against Datassential"
+   },
+   "sections[5].text": {
+    "tier": "cited",
+    "source": "s:web-ecfr-381-170",
+    "note": "the regulation is quoted from the eCFR; the wyngz conditions are quoted from Consumer Reports quoting FSIS, because the FSIS policy book itself refused this project's requests"
+   },
+   "sections[6].text": {
+    "tier": "tradition"
+   },
+   "sections[7].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "boneless-is-not-a-wing/boneless-is-not-a-wing-buffalo-wings-at-concert-sarah-stierch.jpg",
+   "source": "commons",
+   "title": "File:Buffalo Wings at Concert - Sarah Stierch.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Buffalo_Wings_at_Concert_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings_at_Concert_-_Sarah_Stierch.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Sarah Stierch",
+   "credit": "Own work",
+   "alt": "Buffalo wings at a buffet.",
+   "date": "2007-05-20",
+   "primary": true,
+   "sha256": "db00445088520c69b5cd5e856de8a8ac51cf56b18e225702447d0cdb9eaed025"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "On 25 July 2024 the Supreme Court of Ohio held, 4 to 3, that a diner who swallowed a chicken bone from a boneless wing could not take his negligence claim to a jury, because he could reasonably have guarded against it.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "ohio-valley",
+   "name": "The Ohio Valley",
+   "state": null,
+   "note": "Columbus, Cincinnati, Louisville"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The word the court read as a cooking style and the dissent read as a promise.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "The menu item itself: breast meat, floured, fried, sauced like a wing.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "The word the federal standard protects on a label and leaves unprotected on a menu.",
+   "rel": "contrast"
+  },
+  {
+   "to": "flat",
+   "type": "term",
+   "name": "flat",
+   "as": "One of the two pieces a bone-in order actually contains, and the reason the count works differently.",
+   "rel": "part"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "How a boneless wing is built: coat the meat, batter the coat, fry it.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The flour-and-spice step that makes a strip of breast hold a crust.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "Sells both, side by side, and prices them against each other.",
+   "rel": "place"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Carries boneless as a full parallel menu, sauced from the same list as bone-in.",
+   "rel": "place"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Why the category appeared: wing meat got dear and breast meat did not.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-courtlistener-berkheimer",
+   "kind": "web",
+   "title": "Berkheimer v. REKM, L.L.C. — case record (docket 2023-0293, 2024-Ohio-2787, 177 Ohio St.3d 431, filed 2024-07-25)",
+   "publisher": "CourtListener, Free Law Project",
+   "url": "https://www.courtlistener.com/opinion/10680649/berkheimer-v-rekm-llc/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-volokh-boneless",
+   "kind": "web",
+   "title": "Should Consumers Expect to Find Bones in \"Boneless Wings\"?",
+   "author": "Jonathan H. Adler",
+   "publisher": "Reason — The Volokh Conspiracy",
+   "url": "https://reason.com/volokh/2024/07/25/should-consumers-expect-to-find-bones-in-boneless-wings/",
+   "accessed": "2026-09-16",
+   "note": "reproduces passages of the Deters majority and the Donnelly dissent"
+  },
+  {
+   "id": "s:web-cbs-boneless-wings",
+   "kind": "web",
+   "title": "Diners who order boneless chicken wings can't expect them to really be boneless, court rules",
+   "publisher": "CBS News (Aimee Picchi)",
+   "url": "https://www.cbsnews.com/news/boneless-chicken-wings-can-have-bones-lawsuit-ohio-supreme-court/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-hklaw-boneless",
+   "kind": "web",
+   "title": "Court Decision Concerning \"Boneless Chicken Wings\" Ignites Political Firestorm in Ohio",
+   "publisher": "Holland & Knight LLP",
+   "url": "https://www.hklaw.com/en/insights/publications/2024/08/court-decision-concerning-boneless-chicken-wings-ignites",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-counter-boneless",
+   "kind": "web",
+   "title": "Boneless chicken wings: It's not a lie if you believe it",
+   "author": "Sam Bloch",
+   "publisher": "The Counter",
+   "url": "https://thecounter.org/super-bowl-boneless-chicken-wings-poultry-economics/",
+   "accessed": "2026-09-16",
+   "note": "published 1 February 2018; quotes Russ Whitman of Urner Barry"
+  },
+  {
+   "id": "s:web-ecfr-381-170",
+   "kind": "dataset",
+   "title": "9 CFR 381.170 — Standards for kinds and classes, and for cuts of raw poultry",
+   "publisher": "Electronic Code of Federal Regulations, US Government Publishing Office",
+   "url": "https://www.ecfr.gov/current/title-9/section-381.170",
+   "accessed": "2026-09-16",
+   "note": "US Government work, public domain"
+  },
+  {
+   "id": "s:web-consumer-reports-wyngz",
+   "kind": "web",
+   "title": "Stephen Colbert's right: wyngz rhetoric",
+   "publisher": "Consumer Reports",
+   "url": "https://www.consumerreports.org/cro/news/2011/02/stephen-colbert-s-right-wyngz-rhetoric/index.htm",
+   "accessed": "2026-09-16",
+   "note": "published 3 February 2011; quotes the FSIS policy on the spelling"
+  },
+  {
+   "id": "s:web-thompson-coburn-wings",
+   "kind": "web",
+   "title": "'Boneless wings' or 'saucy nugs': Viral video provides lesson on food labeling laws",
+   "publisher": "Thompson Coburn LLP",
+   "url": "https://www.thompsoncoburn.com/insights/boneless-wings-or-saucy-nugs-viral-video-provides-lesson-on-food-labeling-la-102jbqy/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-nugget",
+   "kind": "wikipedia",
+   "title": "Chicken nugget",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_nugget",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-courtlistener-berkheimer"
+  }
+ },
+ "primary_image": {
+  "file": "boneless-is-not-a-wing/boneless-is-not-a-wing-buffalo-wings-at-concert-sarah-stierch.jpg",
+  "source": "commons",
+  "title": "File:Buffalo Wings at Concert - Sarah Stierch.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Buffalo_Wings_at_Concert_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings_at_Concert_-_Sarah_Stierch.jpg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "author": "Sarah Stierch",
+  "credit": "Own work",
+  "alt": "Buffalo wings at a buffet.",
+  "date": "2007-05-20",
+  "primary": true,
+  "sha256": "db00445088520c69b5cd5e856de8a8ac51cf56b18e225702447d0cdb9eaed025"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "The argument itself, with the people who make it named and quoted.",
+   "rel": "story"
+  },
+  {
+   "from": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "The other argument this tradition holds at full volume, with the same rule: quote it, do not settle it.",
+   "rel": "story"
+  },
+  {
+   "from": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The argument, with the people who make it quoted by name.",
+   "rel": "story"
+  },
+  {
+   "from": "free-to-use",
+   "type": "story",
+   "name": "Free to use",
+   "as": "The story where a court record could not be fetched and reporting had to stand in for it.",
+   "rel": "story"
+  },
+  {
+   "from": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "The menu category the 2018 price inversion built, and which outlived it.",
+   "rel": "story"
+  }
+ ]
+}

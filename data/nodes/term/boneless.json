@@ -1,0 +1,103 @@
+{
+ "id": "boneless",
+ "names": {
+  "name": "boneless",
+  "aliases": [
+   "boneless wings",
+   "wyngz",
+   "boneless bites"
+  ],
+  "said": "An adjective that got promoted: on most menus 'boneless' is now a noun and the wing is silent."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "B",
+  "part_of_speech": "adjective"
+ },
+ "etymology": {
+  "root": "bone + -less, the Old English privative suffix; the menu sense attaches the adjective to 'wing' and then lets the noun drop, leaving 'boneless' standing alone",
+  "first_attested": "25 July 2024 as a term of art in Ohio law, when the Supreme Court of Ohio construed 'boneless wings' in Berkheimer v. REKM, L.L.C., 2024-Ohio-2787 — a dated judicial reading, not the word's first use, which is older and undated here",
+  "note": "The related spelling 'wyngz' is a labelling rule, not a joke. Consumer Reports, reporting the FSIS policy in February 2011, records that the agency allows the spelling for a product shaped like a wing or sold as a bite-size appetizer only under conditions including that the poultry is white chicken and \"the product does not contain any wing meat\", and that \"no other misspellings are permitted\". Wiktionary glosses it as a respelling of wings.",
+  "tier": "cited",
+  "source": "s:web-berkheimer-opinion"
+ },
+ "text": {
+  "what": "Breast meat cut into pieces, floured and spiced, fried or baked, then sauced like a wing and sold under the wing's name. Wikipedia describes them as \"essentially small pieces of skinless, boneless chicken breast that are coated in flour and spices, then fried or baked, like a chicken nugget\", sometimes marketed as wyngz. Restaurants added them as raw wing prices rose and as some diners asked for a neater plate.",
+  "story": "The word went to court. Michael Berkheimer ordered boneless wings with parmesan garlic sauce at Wings on Brookwood in Butler County, Ohio, and days later an emergency room found a chicken bone lodged in his oesophagus. He sued the restaurant, its supplier and the chicken farm. On 25 July 2024 the Supreme Court of Ohio affirmed summary judgment against him, 4-3.\n\nJustice Joseph T. Deters wrote for the majority that the label was \"merely a description of the cooking style\", and that \"A diner reading 'boneless wings' on a menu would no more believe that the restaurant was warranting the absence of bones\" than believe the item came off a wing. Justice Michael P. Donnelly, dissenting, called that reasoning \"utter jabberwocky\" and wrote: \"The reasonable expectation that a person has when someone sells or serves him or her boneless chicken wings is that the chicken does not have bones in it.\" He also asked: \"Does anyone really believe that the parents in this country who feed their young children boneless wings or chicken tenders or chicken nuggets or chicken fingers expect bones to be in the chicken? Of course they don't.\"\n\nThe holding is Ohio's and it is about negligence, not about menus: it decides who bears a risk, not what a word ought to mean. Four justices and three justices read the same two words differently, in writing, and both readings are on the record.",
+  "how": "Ordered the way a bone-in wing is — count, sauce, dip — and eaten with fingers or a fork, which is the point people who order them make. They come in pieces of roughly even size, so a twenty-piece boneless and a twenty-piece bone-in are not the same amount of food."
+ },
+ "kin": [
+  {
+   "to": "boneless-wings",
+   "as": "The dish this word names, and where the eating is described.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing",
+   "as": "The word it borrows, which is the whole dispute.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "as": "The argument, with the people who make it quoted by name.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-word",
+   "as": "The other word the sauce carried onto breast meat.",
+   "rel": "term"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "The coating that makes it possible; skinless breast needs one.",
+   "rel": "fry"
+  },
+  {
+   "to": "wingstop",
+   "as": "Sells them beside bone-in, in the same flavours, at its own price.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Built a menu on the pair and lets a table order both.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:web-berkheimer-opinion",
+  "s:web-berkheimer-nbc",
+  "s:web-berkheimer-hklaw",
+  "s:web-wyngz-consumer-reports",
+  "s:web-wyngz-wiktionary",
+  "s:wp-chicken-nugget"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-wyngz-consumer-reports"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-berkheimer-nbc",
+    "note": "the slip opinion PDF refused this project's fetch on 2026-09-16; the quotations are taken from the Associated Press report carried by NBC News and the Holland & Knight case note, which agree on them. Verify against 2024-Ohio-2787 before this line is relied on."
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

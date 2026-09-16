@@ -1,0 +1,322 @@
+{
+ "id": "sweet-chili-sauce",
+ "names": {
+  "name": "Sweet chili sauce",
+  "aliases": [
+   "sweet Thai chili sauce",
+   "nam chim kai",
+   "น้ำจิ้มไก่"
+  ],
+  "said": "Nam chim kai (น้ำจิ้มไก่) is Thai for dipping sauce for chicken. The name says what it is for."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "base": "other",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A clear, thickened red sauce of chillies, rice wine vinegar and sugar, often with garlic and sometimes fish sauce. Red chilli peppers — Fresno, Thai or red jalapeños — give it its flecks. Known in Thailand as nam chim kai, a dipping sauce for chicken, and used across Thai, Afghan, Malaysian and Western cooking. In European Chinese restaurants it is the dip for prawn toast, egg rolls, lettuce wraps, spring rolls and chicken wings.",
+  "story": "It arrived on American wing boards through the takeaway counter rather than the wing bar. In Australia, New Zealand, Europe, Canada and the United States it is stocked as a condiment in takeaway shops and supermarkets, and it is sold bottled everywhere.\n\nThe wing board made room for it. As the wing market grew, restaurants created and used sauces beyond Buffalo, some of them drawn from Chinese, Japanese, Thai, Caribbean and Indian cooking.\n\n*Inference —* sweet chili is the sauce that taught American wing menus that sweet and chile could sit in the same bottle without tomato between them. Hot honey and mango habanero both work the same seam.",
+  "how": "Straight from the bottle. It is already thickened, so it coats a fried wing without warming and does not need butter or oil to carry it. Toss, or serve in a cup as a dip. A kitchen after more heat adds sriracha or fresh chilli, and a kitchen after more bite adds lime.",
+  "today": "On supermarket shelves and takeaway counters across the country, and on wing boards as a standing flavour. As of 16 September 2026 the USDA label panel for Ka-Me Sweet Chili Sauce reads 220 mg sodium and 6 g sugar in a 1-tablespoon serving, with water first, cane sugar second and pickled chili third. No Scoville number is published — usual for this shelf."
+ },
+ "kin": [
+  {
+   "to": "hot-honey",
+   "as": "The other sweet-and-chile pour on the board; this one is thickened and vinegared, that one is honey.",
+   "rel": "kin"
+  },
+  {
+   "to": "mango-habanero",
+   "as": "The American version of the same idea, with fruit doing the sweetening.",
+   "rel": "kin"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "as": "The Korean sweet-chile glaze, fermented rather than vinegared.",
+   "rel": "contrast"
+  },
+  {
+   "to": "teriyaki-sauce",
+   "as": "Shares the Asian-condiment shelf that wing boards borrow from.",
+   "rel": "kin"
+  },
+  {
+   "to": "jerk-marinade",
+   "as": "Turns up beside jerk wings as the sweet dip.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-toss",
+   "as": "Needs no warming to go in the bowl — it is already thick enough to coat.",
+   "rel": "fry"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "as": "As often a dip in a cup as a coating on the wing.",
+   "rel": "fry"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "mango-habanero",
+   "tell": "Fruit. Mango habanero leads with corn syrup and mango puree; sweet chili is sugar, chilli and vinegar with nothing else sweet in it."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "other",
+  "maker": "PANOS Brands LLC (Ka-Me)",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "water",
+   "cane sugar",
+   "pickled chili (chili, salt, vinegar)",
+   "pickled garlic (garlic salt, vinegar)",
+   "modified corn starch",
+   "salt",
+   "white vinegar",
+   "xanthan gum",
+   "citric acid"
+  ],
+  "pepper_rank": 3,
+  "vinegar_rank": 7,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 2,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 1,
+  "sodium_mg_per_tbsp": 220,
+  "sugar_g_per_tbsp": 6,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-ka-me-sweet-chili",
+  "url": "https://fdc.nal.usda.gov/food-details/2523929/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Ka-Me Sweet Chili Sauce, 7 fl oz. Label serving is 1 Tbsp (15 mL), so the per-tablespoon figures are the label's own. The USDA transcription runs 'SALT WHITE VINEGAR' with no comma; read here as two ingredients, salt at 6 and white vinegar at 7, with vinegar also inside the pickled chili and pickled garlic at 3 and 4. The chile is named only as 'chili', with no variety, so no Scoville figure follows."
+ },
+ "recipes": [
+  {
+   "title": "Sweet chili sauce, as described",
+   "source": "s:wp-sweet-chili-sauce",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Sweet_chili_sauce",
+   "region": "Thailand",
+   "ingredients": [
+    "red chili peppers (Fresno chile, Thai or red jalapeños)",
+    "rice wine vinegar",
+    "garlic (sometimes)",
+    "fish sauce (sometimes)",
+    "a sweetening ingredient such as fruit, refined sugar or honey"
+   ],
+   "note": "Ingredients only, in the source's order, with its own 'sometimes' kept. No quantities are given and none are added."
+  }
+ ],
+ "sources": [
+  "s:wp-sweet-chili-sauce",
+  "s:wp-buffalo-wing",
+  "s:wp-sriracha",
+  "s:fdc-ka-me-sweet-chili"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-sweet-chili-sauce"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-ka-me-sweet-chili",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-sweet-chili-sauce"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the additions and the no-warming point are general kitchen practice"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-ka-me-sweet-chili"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A clear, thickened red sauce of chillies, rice wine vinegar and sugar, often with garlic and sometimes fish sauce. Red chilli peppers — Fresno, Thai or red jalapeños — give it its flecks.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "The other sweet-and-chile pour on the board; this one is thickened and vinegared, that one is honey.",
+   "rel": "kin"
+  },
+  {
+   "to": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "The American version of the same idea, with fruit doing the sweetening.",
+   "rel": "kin"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "The Korean sweet-chile glaze, fermented rather than vinegared.",
+   "rel": "contrast"
+  },
+  {
+   "to": "teriyaki-sauce",
+   "type": "sauce",
+   "name": "Teriyaki sauce",
+   "as": "Shares the Asian-condiment shelf that wing boards borrow from.",
+   "rel": "kin"
+  },
+  {
+   "to": "jerk-marinade",
+   "type": "sauce",
+   "name": "Jerk marinade",
+   "as": "Turns up beside jerk wings as the sweet dip.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Needs no warming to go in the bowl — it is already thick enough to coat.",
+   "rel": "fry"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "As often a dip in a cup as a coating on the wing.",
+   "rel": "fry"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-sweet-chili-sauce",
+   "kind": "wikipedia",
+   "title": "Sweet chili sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sweet_chili_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-sriracha",
+   "kind": "wikipedia",
+   "title": "Sriracha",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sriracha",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-ka-me-sweet-chili",
+   "kind": "dataset",
+   "title": "Ka-Me Sweet Chili Sauce — branded food label (FDC ID 2523929)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2523929/nutrients",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-sweet-chili-sauce"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-sweet-chili-sauce"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the additions and the no-warming point are general kitchen practice"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:fdc-ka-me-sweet-chili"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "The sweet-hot register yangnyeom works in, arrived at from a different kitchen.",
+   "rel": "kin"
+  },
+  {
+   "from": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "The other sweet-and-chile pour on a wing board, thickened and vinegared rather than pure sugar.",
+   "rel": "kin"
+  },
+  {
+   "from": "jerk-marinade",
+   "type": "sauce",
+   "name": "Jerk marinade",
+   "as": "The other sweet-and-chile dip a jerk counter may put beside the wings.",
+   "rel": "kin"
+  },
+  {
+   "from": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "The same sweet-then-chile idea, reached through sugar and vinegar instead of fruit purée.",
+   "rel": "kin"
+  },
+  {
+   "from": "teriyaki-sauce",
+   "type": "sauce",
+   "name": "Teriyaki sauce",
+   "as": "Shares the Asian-condiment shelf that American wing boards borrow from.",
+   "rel": "kin"
+  },
+  {
+   "from": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "The other sweet-chile glaze on an American wing menu; rice vinegar and sugar rather than fermented soybean and rice.",
+   "rel": "kin"
+  },
+  {
+   "from": "hot-honey-word",
+   "type": "term",
+   "name": "hot honey",
+   "as": "Sweet-and-hot by a different route, from a different kitchen.",
+   "rel": "contrast"
+  }
+ ]
+}

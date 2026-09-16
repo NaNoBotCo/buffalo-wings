@@ -1,0 +1,284 @@
+{
+ "schema": 1,
+ "id": "teressa-bellissimo",
+ "type": "person",
+ "names": {
+  "name": "Teressa Bellissimo",
+  "aliases": [
+   "Teressa Bellisimo"
+  ],
+  "sort": "Bellissimo, Teressa"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "role": [
+   "cook",
+   "founder",
+   "family"
+  ],
+  "state": "NY",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Cooked at the Anchor Bar in Buffalo, which she opened with her husband Frank in 1935 and lived above. The bar credits her with frying the first plate of Buffalo wings on 4 March 1964 and sending it out with celery and blue cheese. She died in her apartment over the bar in November 1985, aged 84.",
+  "story": "Teressa and Frank Bellissimo opened the Anchor Bar on Main Street in 1935. She ran the kitchen; he ran the front.\n\nThe house account puts her at the stove late on 4 March 1964. Her son Dominic was tending bar, friends of his arrived, and little food was left. Teressa took the wings that were headed for soup or the bin, deep-fried them, and flavoured them with butter, cayenne and other ingredients. She brought out cut celery and blue cheese to dip in. The first plates went out free.\n\nThe Bellissimos told the rest of it more than one way. Dominic gave Calvin Trillin a midnight version in 1980, keyed to the bar's mostly Catholic drinkers being able to eat meat again at twelve. Frank told a version in which a delivery went wrong and wings arrived instead of the backs and necks that went into the spaghetti sauce, and he asked Teressa to do something with them. In every version she is the one who cooks.\n\n*Inference —* the tellings that survive come through Dominic and through Frank. No statement by Teressa herself reached this project's sources; what she thought of the story is not on the record here.\n\nShe was 84 when she died in November 1985. Frank had died in October 1980, also 84; Dominic in March 1991, at 68. In 2006 the National Buffalo Wing Festival put Frank and Teressa in the first class of its Hall of Flame.",
+  "today": "Her name rides on the bar, the bottled sauce and the trademarked phrase. The celery and the cup of blue cheese she grabbed off the antipasto tray are still on the plate in bars that never heard of her."
+ },
+ "kin": [
+  {
+   "to": "anchor-bar",
+   "as": "Her kitchen, her apartment upstairs, and the house that tells her story.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style the bar dates to the night she fried wings meant for the soup pot.",
+   "rel": "style"
+  },
+  {
+   "to": "frank-bellissimo",
+   "as": "Opened the bar with her in 1935 and told his own version of the wing's first night.",
+   "rel": "person"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "as": "Her son, behind the bar that night, and the one who carried the story out into print.",
+   "rel": "person"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Came off the antipasto tray because that was what the bar had, and never left the plate.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "The dip she sent out with the first wings, which fixed it as Buffalo's.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Stands at the centre of it and left no account of her own.",
+   "rel": "story"
+  },
+  {
+   "to": "john-young",
+   "as": "Was breading and saucing whole wings across town from 1961, three years ahead of her date.",
+   "rel": "contrast"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Put her and Frank in the first Hall of Flame class in 2006.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-anchor-bar",
+  "s:wp-buffalo-wing",
+  "s:trillin-1980",
+  "s:web-hall-of-flame"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference",
+    "note": "the trademark and the bottled sauce are cited; the last sentence reasons from national practice"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Cooked at the Anchor Bar in Buffalo, which she opened with her husband Frank in 1935 and lived above.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Her kitchen, her apartment upstairs, and the house that tells her story.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style the bar dates to the night she fried wings meant for the soup pot.",
+   "rel": "style"
+  },
+  {
+   "to": "frank-bellissimo",
+   "type": "person",
+   "name": "Frank Bellissimo",
+   "as": "Opened the bar with her in 1935 and told his own version of the wing's first night.",
+   "rel": "person"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "type": "person",
+   "name": "Dominic Bellissimo",
+   "as": "Her son, behind the bar that night, and the one who carried the story out into print.",
+   "rel": "person"
+  },
+  {
+   "to": "celery-and-carrots",
+   "type": "dish",
+   "name": "celery and carrots",
+   "as": "Came off the antipasto tray because that was what the bar had, and never left the plate.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The dip she sent out with the first wings, which fixed it as Buffalo's.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Stands at the centre of it and left no account of her own.",
+   "rel": "story"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Was breading and saucing whole wings across town from 1961, three years ahead of her date.",
+   "rel": "contrast"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "Put her and Frank in the first Hall of Flame class in 2006.",
+   "rel": "event"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  },
+  {
+   "id": "s:web-hall-of-flame",
+   "kind": "web",
+   "title": "Hall of Flame",
+   "publisher": "National Buffalo Chicken Wing Festival",
+   "url": "https://buffalowing.com/festival-history/hall-of-flame/",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the trademark and the bottled sauce are cited; the last sentence reasons from national practice"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Fried the wings the Anchor Bar's version turns on.",
+   "rel": "person"
+  },
+  {
+   "from": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "Took it off the antipasto tray on the night the Anchor Bar dates the wing to.",
+   "rel": "person"
+  },
+  {
+   "from": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Tossed the wings in cayenne sauce the Anchor Bar version turns on.",
+   "rel": "person"
+  },
+  {
+   "from": "celery-and-carrots",
+   "type": "dish",
+   "name": "celery and carrots",
+   "as": "Fried the wings and sent the vegetables out with them.",
+   "rel": "person"
+  },
+  {
+   "from": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Cooked here and gets the credit the house gives.",
+   "rel": "person"
+  },
+  {
+   "from": "dominic-bellissimo",
+   "type": "person",
+   "name": "Dominic Bellissimo",
+   "as": "His mother, whom he asked for something to feed his friends.",
+   "rel": "person"
+  },
+  {
+   "from": "frank-bellissimo",
+   "type": "person",
+   "name": "Frank Bellissimo",
+   "as": "His wife, his cook, and the one his version asks to do something with the wings.",
+   "rel": "person"
+  },
+  {
+   "from": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Fried the wings every Anchor Bar version turns on.",
+   "rel": "person"
+  }
+ ]
+}

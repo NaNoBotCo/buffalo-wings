@@ -1,0 +1,227 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "jojo-potatoes",
+ "names": {
+  "name": "jojo potatoes",
+  "aliases": [
+   "jojos",
+   "jo jos",
+   "potato jojos"
+  ],
+  "said": "Say jojo and a Portland counter knows what you mean; say potato wedge and you get something else."
+ },
+ "region": [
+  "pacific-northwest",
+  "upstate-ny",
+  "us"
+ ],
+ "facets": {
+  "course": "side"
+ },
+ "text": {
+  "what": "A potato wedge that has been breaded, pressure-fried and spiced — not a bare wedge, and not a fry. The pressure fryer is a pressure cooker filled with hot oil, so the potato cooks fast and hard while keeping its water. Sold beside fried chicken across the Pacific Northwest, and in pockets of Montana, Minnesota, Nebraska, Northeast Ohio and upstate New York.",
+  "story": "Willamette Week ran down the origin in 2017 and found two accounts. Paul Nicewonger says his father, a Vancouver, Washington salesman, invented the jojo around 1958, demonstrating pressure fryers at a restaurant trade show next to Idaho potato vendors — he needed something cheap and quick to throw in the oil. Ron Echtenkamp of Ballantyne Strong credits Ed Nelson, a Flavor-Crisp salesman, with making them by accident at a Chicago trade show in 1961. The paper did not settle it.\n\nThe machine carried the food. Flavor-Crisp, Henny Penny and the Broaster Company of Beloit, Wisconsin built the pressure fryers, and \"broasting\" became the trade word for what came out of them. Because the fryers were sold region by region, each region came to believe it had invented the jojo.\n\n*Inference —* the jojo is a salesman's demo that outlived the sales route, which is why its map looks like a distributor's territory rather than a cuisine.",
+  "how": "Cut a potato into thick wedges with the skin on. Bread and season them, then pressure-fry. The lid holds steam over the oil, which raises the boiling point inside the fryer and cooks the wedge through before its crust burns. Out of the basket they go beside fried chicken, and in the same shops that sell chicken they take the same sauce the chicken takes.",
+  "today": "Grocery-store delis and chicken counters across Oregon and Washington still sell them by the half-dozen. *Tradition holds —* a shop that calls them wedges is selling something else, and a shop that calls them jojos is usually running a pressure fryer."
+ },
+ "kin": [
+  {
+   "to": "french-fries",
+   "as": "The other potato at the same counter, cut thin and fried bare rather than breaded under pressure.",
+   "rel": "contrast"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "Needs the pressure version of it, which is where the trade word broasting comes from.",
+   "rel": "fry"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "Gets the same flour-and-spice coat a Rochester wing gets, on a potato.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "as": "The coating step that separates a jojo from a plain wedge.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "as": "Shares the chicken's oil in a shop that runs one fryer.",
+   "rel": "fry"
+  },
+  {
+   "to": "wing-basket",
+   "as": "The side that fills out a chicken order west of the Rockies, where celery does not.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:web-wweek-jojo",
+  "s:wp-deep-frying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wweek-jojo"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "inference",
+    "note": "the pressure explanation reasons from the fryer described in the source; the cut and coat are cited"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "blurb": "A potato wedge that has been breaded, pressure-fried and spiced — not a bare wedge, and not a fry. The pressure fryer is a pressure cooker filled with hot oil, so the potato cooks fast and hard while keeping its water.",
+ "region_terms": [
+  {
+   "key": "pacific-northwest",
+   "name": "The Pacific Northwest",
+   "state": null,
+   "note": "Seattle, Portland"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "Syracuse, the Southern Tier, the Mohawk Valley"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "The other potato at the same counter, cut thin and fried bare rather than breaded under pressure.",
+   "rel": "contrast"
+  },
+  {
+   "to": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "Needs the pressure version of it, which is where the trade word broasting comes from.",
+   "rel": "fry"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "Gets the same flour-and-spice coat a Rochester wing gets, on a potato.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The coating step that separates a jojo from a plain wedge.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "Shares the chicken's oil in a shop that runs one fryer.",
+   "rel": "fry"
+  },
+  {
+   "to": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "The side that fills out a chicken order west of the Rockies, where celery does not.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-wweek-jojo",
+   "kind": "web",
+   "title": "The History of the American Jojo, Which is Definitely Not a Potato Wedge",
+   "publisher": "Willamette Week (Matthew Korfhage)",
+   "url": "https://www.wweek.com/restaurants/reviews/2017/07/12/the-history-of-the-american-jojo-which-is-definitely-not-a-potato-wedge/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-wweek-jojo"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-wweek-jojo"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "the pressure explanation reasons from the fryer described in the source; the cut and coat are cited"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "The same potato breaded and pressure-fried instead of cut thin and fried twice.",
+   "rel": "contrast"
+  },
+  {
+   "from": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The same coat on a potato, under pressure.",
+   "rel": "dish"
+  },
+  {
+   "from": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "Comes out of the pressure version of this machine, which is where broasting got its name.",
+   "rel": "dish"
+  },
+  {
+   "from": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The same step on a potato wedge, before the pressure fryer.",
+   "rel": "dish"
+  },
+  {
+   "from": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "Shares a shop's oil with the chicken, which is why they taste related.",
+   "rel": "dish"
+  }
+ ]
+}

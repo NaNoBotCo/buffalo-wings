@@ -1,0 +1,86 @@
+{
+ "id": "all-flats",
+ "names": {
+  "name": "all flats",
+  "aliases": [
+   "all drums",
+   "all flats no drums",
+   "flats only"
+  ],
+  "said": "Tacked to the end of the order: 'twenty, lemon pepper, all flats.'"
+ },
+ "region": [
+  "atlanta",
+  "us"
+ ],
+ "facets": {
+  "letter": "A",
+  "part_of_speech": "phrase"
+ },
+ "etymology": {
+  "root": "all + flats (plural of flat); an order-modifier phrase, mirrored by all drums",
+  "first_attested": "2018, in 2 Chainz's 'Hot Wings': \"She just want her 20-piece/ All flats with the lemon pepper\" — the earliest dated printing this project can name",
+  "note": "*Inference —* the phrase can only exist where a counter holds enough volume to sort, which is why it belongs to high-turnover wing counters and chains rather than to a bar running one case a night.",
+  "tier": "cited",
+  "source": "s:wp-lemon-pepper-wings"
+ },
+ "text": {
+  "what": "An order that refuses half the bird. A wing splits one-for-one into a drumette and a flat, so a kitchen filling an all-flats order has to sell the drumettes to somebody else — which is why the answer is often no, and why the places that say yes charge for it.",
+  "how": "Say it last, after count and flavour, and expect a wait: somebody is picking through a pan. Chains that will do it price it per wing rather than per order. A counter that cannot do it will say 'they come mixed', which is the polite form of no."
+ },
+ "kin": [
+  {
+   "to": "flat",
+   "as": "The piece the order is asking for, and why.",
+   "rel": "term"
+  },
+  {
+   "to": "drumette",
+   "as": "The piece the order leaves behind, which is somebody else's problem.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "as": "The argument this phrase is the loud end of.",
+   "rel": "story"
+  },
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "The style the phrase travels with in the songs that carry it.",
+   "rel": "style"
+  },
+  {
+   "to": "wingstop",
+   "as": "One of the counters with enough volume to sort a pan, and it prices the sorting.",
+   "rel": "place"
+  },
+  {
+   "to": "wing",
+   "as": "One bird, two pieces, which is the arithmetic the phrase runs into.",
+   "rel": "whole"
+  }
+ ],
+ "sources": [
+  "s:wp-lemon-pepper-wings",
+  "s:wp-buffalo-wing",
+  "s:wp-wingstop"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the per-wing surcharge is reported by customers rather than read off a menu by this project"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

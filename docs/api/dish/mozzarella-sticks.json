@@ -1,0 +1,241 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "mozzarella-sticks/mozzarella-sticks-mozzarella-sticks.jpg",
+   "source": "commons",
+   "title": "File:Mozzarella sticks.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mozzarella_sticks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMozzarella_sticks.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "travel oriented",
+   "credit": "https://www.flickr.com/photos/traveloriented/33972117202/",
+   "alt": "Mozzarella sticks",
+   "date": "2017-04-14",
+   "primary": true,
+   "sha256": "ad3134d5071188e405b6784a7264eb0ef64a5358846e1175812809905dc4289d"
+  }
+ ],
+ "id": "mozzarella-sticks",
+ "names": {
+  "name": "mozzarella sticks",
+  "aliases": [
+   "mozz sticks",
+   "fried mozzarella"
+  ],
+  "said": "Ordered by the table, not the person, and judged on the pull."
+ },
+ "region": [
+  "us",
+  "upstate-ny"
+ ],
+ "facets": {
+  "course": "side"
+ },
+ "text": {
+  "what": "Elongated pieces of mozzarella coated in breadcrumbs or batter and fried, served as an hors d'oeuvre with marinara. On a wing menu they are the thing a table orders when half of it does not want wings.",
+  "story": "Frying cheese in batter is old: a recipe for fried cheese sticks appears in Le Ménagier de Paris in 1393, though food historians hold that medieval French fried cheeses had little in common with what the modern stick became.\n\nThe American article dates to the 1970s. The historian Joel Jensen puts it down to two things arriving together: \"the increasing availability of mass-produced mozzarella cheese beginning in the 1960s\", and new efficient frying technologies for fast-paced food businesses such as bowling alleys and sports bars. The food writer Arthur Schwartz names mozzarella milanese — mozzarella dredged in flour, egg and breadcrumbs, then pan-fried — as the \"prototype\", a midweek Italian dish made from older mozzarella and eaten \"within seconds\" of leaving the pan.\n\n*Inference —* the stick and the wing share a birth certificate. Both are cheap protein that only became a menu item once a bar had a fryer running all evening, and both spread through the same bowling alleys and sports bars in the same decade.",
+  "how": "Cut mozzarella into fingers, coat in breadcrumbs or batter, and bake or fry in oil. Marinara for dipping is the restaurant default; plum sauce, jalapeño jelly, ketchup, barbecue sauce, honey mustard and ranch all appear. Serve immediately — the pull is the point and it is gone in minutes.",
+  "today": "Provolone, Edam, cheddar and American are all fried the same way. In New York's Capital District the sticks come with raspberry sauce, which is regional and not a mistake. In American public schools, Bosco pizza sticks — soft breadsticks stuffed with mozzarella, with tomato sauce to dip — have become a staple."
+ },
+ "kin": [
+  {
+   "to": "pizza-logs",
+   "as": "Western New York's version of the same idea, wrapped in an egg-roll skin instead of breaded.",
+   "rel": "contrast"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "Shares the wings' oil, and arrived on menus when bars got one.",
+   "rel": "fry"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "The same crumb coat a Rochester wing wears.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "as": "Flour, egg, breadcrumbs — the sequence its Italian prototype is named for.",
+   "rel": "fry"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "One of the cups it turns up with, on the same table as the wings.",
+   "rel": "sauce"
+  },
+  {
+   "to": "wing-basket",
+   "as": "The order it shares a table with, for the half of the table not eating wings.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-mozzarella-sticks",
+  "s:wp-deep-frying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mozzarella-sticks"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mozzarella-sticks",
+    "note": "closing paragraph marked inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "Elongated pieces of mozzarella coated in breadcrumbs or batter and fried, served as an hors d'oeuvre with marinara. On a wing menu they are the thing a table orders when half of it does not want wings.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "Syracuse, the Southern Tier, the Mohawk Valley"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "pizza-logs",
+   "type": "dish",
+   "name": "pizza logs",
+   "as": "Western New York's version of the same idea, wrapped in an egg-roll skin instead of breaded.",
+   "rel": "contrast"
+  },
+  {
+   "to": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "Shares the wings' oil, and arrived on menus when bars got one.",
+   "rel": "fry"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The same crumb coat a Rochester wing wears.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "Flour, egg, breadcrumbs — the sequence its Italian prototype is named for.",
+   "rel": "fry"
+  },
+  {
+   "to": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "One of the cups it turns up with, on the same table as the wings.",
+   "rel": "sauce"
+  },
+  {
+   "to": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "The order it shares a table with, for the half of the table not eating wings.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mozzarella-sticks",
+   "kind": "wikipedia",
+   "title": "Mozzarella sticks",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mozzarella_sticks",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-mozzarella-sticks"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-mozzarella-sticks",
+   "note": "closing paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-mozzarella-sticks"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-mozzarella-sticks"
+  }
+ },
+ "primary_image": {
+  "file": "mozzarella-sticks/mozzarella-sticks-mozzarella-sticks.jpg",
+  "source": "commons",
+  "title": "File:Mozzarella sticks.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mozzarella_sticks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AMozzarella_sticks.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "travel oriented",
+  "credit": "https://www.flickr.com/photos/traveloriented/33972117202/",
+  "alt": "Mozzarella sticks",
+  "date": "2017-04-14",
+  "primary": true,
+  "sha256": "ad3134d5071188e405b6784a7264eb0ef64a5358846e1175812809905dc4289d"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "pizza-logs",
+   "type": "dish",
+   "name": "pizza logs",
+   "as": "The other fried cheese on the same appetizer list, breaded instead of wrapped.",
+   "rel": "contrast"
+  },
+  {
+   "from": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The crumb version of the same idea, on cheese.",
+   "rel": "dish"
+  },
+  {
+   "from": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "Shares the oil with the wings, which is why both taste of the shop.",
+   "rel": "dish"
+  },
+  {
+   "from": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "Flour, egg, breadcrumb on cheese; the sequence its prototype is named for.",
+   "rel": "dish"
+  }
+ ]
+}

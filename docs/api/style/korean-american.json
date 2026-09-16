@@ -1,0 +1,364 @@
+{
+ "schema": 1,
+ "id": "korean-american",
+ "type": "style",
+ "names": {
+  "name": "Korean fried chicken wings",
+  "aliases": [
+   "KFC (Korean fried chicken)",
+   "yangnyeom wings",
+   "soy garlic wings",
+   "chikin"
+  ],
+  "said": "Order half and half — yangnyeom ban, huraideu ban — and the box comes divided down the middle."
+ },
+ "region": [
+  "korean-american",
+  "nyc",
+  "socal",
+  "us"
+ ],
+ "facets": {
+  "cut": "whole wing",
+  "base": "soy-sweet",
+  "cooked": "double-fried",
+  "heat": "medium"
+ },
+ "text": {
+  "what": "Chicken fried twice so the crust comes out thin and brittle — Julia Moskin of The New York Times called it \"thin, crackly and almost transparent\" — then hand-painted with sauce by brush rather than shaken in a bowl, so the coating stays a thin film and the crust keeps its snap. Two sauces carry the style: yangnyeom, sweet and spicy on a gochujang base, and ganjang, soy and sugar and a great deal of garlic. Wings and drums arrive whole or jointed depending on the house. Pickled radish comes in a tub alongside, and beer with it; the pairing has its own word, chimaek, from chicken and maekju.",
+  "story": "Frying chicken is old in Korea — a fifteenth-century method survives, and an early Joseon dish called pogye was cooked in oil with soy sauce, sesame oil, flour-and-water and vinegar poured in turn. The modern chain runs from the late 1960s, when Myeongdong Yeongyang Center in Seoul sold whole chicken roasted over an electric oven. U.S. military presence after the Korean War introduced deep-fried chicken; cooking oil did not become widely available until the 1970s. Lims Chicken, the first modern franchise, opened in 1977 in the basement of the Shinsegae department store on Chungmu-ro, founded by Yu Seok-ho, and was taken up as a pairing for draft beer.\n\nYangnyeom has a date and a reason. Yun Jonggye, running a fried chicken restaurant in Daegu in 1982, noticed customers struggling with the hard crisp shell — scraped palates among the complaints — and marinated the chicken sweet and spicy to soften it. Kentucky Fried Chicken opened in South Korea in 1984. The Asian financial crisis of the late 1990s pushed laid-off workers into opening chicken shops, and the count kept climbing: over 20,000 restaurants by 2013, 36,000 by 2017, 40,000 as of 2026, with 1,800 more run abroad by Korean brands in 60 countries — double the figure of ten years earlier. Almost a third of the chicken eaten in South Korea is fried.\n\nThe American side arrived through those brands. Bonchon, founded by Jinduk Seo in Busan in 2002, opened its first U.S. location in Fort Lee, New Jersey, built the business on a double-fry method and two centrally manufactured sauces — soy garlic and spicy — and closed its South Korean retail operations by the end of 2016 to franchise abroad. It now runs about 500 restaurants in more than ten countries, with more than 150 in the U.S. generating over 60 percent of worldwide revenue, and moved its global headquarters to Dallas in 2021. Mexicana, Kyochon, Genesis BBQ, Pelicana and Nene followed the same route out.\n\n*Inference —* the style met the American wing market halfway. A cuisine that sells whole birds and boneless sunsal in Korea sells wings and drums in the United States, because that is the cut an American bar menu is built around.",
+  "how": "Cut or leave whole, season before frying — spices, sugar and salt go on both before and after — and fry once at a lower heat to cook it through, rest it, then fry again hot to drive off moisture and set a thin shell. Smaller or medium birds, which give more tender meat. Brush the sauce on in a thin even layer rather than tossing, or leave it plain as huraideu. Yangnyeom for sweet-and-spicy, ganjang for soy-garlic, banban for half of each. Serve with pickled radish cubes and beer or a carbonated drink.",
+  "today": "Korean chains run across 21 U.S. states and Bonchon was one of the few restaurant groups still adding stores through the COVID-19 pandemic. Its owner VIG Partners put the brand up for auction in March 2026; the process drew over 100 potential buyers from the United States and Asia. The National Chicken Council's Super Bowl LX note, dated 28 January 2026, listed Korean barbecue among the global flavours moving into American wing menus."
+ },
+ "kin": [
+  {
+   "to": "double-fry",
+   "as": "The two passes through the oil that make the crust thin and brittle, and the technical heart of the style.",
+   "rel": "fry"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "as": "The sweet-and-spicy gochujang sauce Yun Jonggye worked up in Daegu in 1982 to soften a shell customers found too hard.",
+   "rel": "sauce"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "as": "Ganjang chicken's sauce — soy, sugar, garlic — and the other half of a banban order.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pickled-radish",
+   "as": "Comes in its own tub, and its job is to cut the fat between pieces.",
+   "rel": "dish"
+  },
+  {
+   "to": "bonchon",
+   "as": "Carried the method to Fort Lee, New Jersey and then across 21 states, with its sauces made centrally in Korea.",
+   "rel": "place"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "Beer with fried chicken is the point, not the accompaniment; Korean has a word for the pair, chimaek.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-toss",
+   "as": "What this style refuses — the sauce goes on with a brush so the crust survives it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Sunsal chikin is the same idea by another route, and predates the American argument about it.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo",
+   "as": "The American style it shares a bar with: one fry and a loose butter sauce there, two fries and a brushed film here.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "as": "The sweet-hot register yangnyeom works in, arrived at from a different kitchen.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "buffalo",
+   "tell": "Bite and listen. A double-fried wing snaps and the sauce is a thin painted film; a Buffalo wing is soft-skinned under a loose sauce that runs on the plate."
+  },
+  {
+   "id": "teriyaki-sauce",
+   "tell": "Soy and sugar in both. Ganjang chicken is heavy on garlic and goes on a shatter-crisp crust; teriyaki is a glaze with mirin behind it and no garlic requirement."
+  }
+ ],
+ "sources": [
+  "s:wp-korean-fried-chicken",
+  "s:wp-bonchon-chicken",
+  "s:wp-gochujang",
+  "s:web-ncc-superbowl-lx",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-korean-fried-chicken",
+    "note": "the rest-between-fries step is general frying practice rather than cited"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-bonchon-chicken",
+    "note": "the closing paragraph is this project's inference and is marked"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "korean-american/korean-american-yangnyeom-chikin.jpg",
+   "source": "commons",
+   "title": "File:Yangnyeom-chikin.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yangnyeom-chikin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AYangnyeom-chikin.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "travel oriented",
+   "credit": "https://www.flickr.com/photos/traveloriented/10362831185/",
+   "alt": "Yangnyeom-chikin (spicy fried chicken)",
+   "date": "2013-10-19",
+   "primary": true,
+   "sha256": "21cab4cb30fa6460846e19071711be28f42986f487c90886396de0b8cdeda238"
+  }
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "Chicken fried twice so the crust comes out thin and brittle — Julia Moskin of The New York Times called it \"thin, crackly and almost transparent\" — then hand-painted with sauce by brush rather than shaken in a bowl, so…",
+ "region_terms": [
+  {
+   "key": "korean-american",
+   "name": "Korean America",
+   "state": null,
+   "note": "Los Angeles, Queens, Fort Lee, Annandale, Chicago; a cuisine, not a place"
+  },
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the five boroughs; jerk wings, Harold's-style fried, Korean fried chicken"
+  },
+  {
+   "key": "socal",
+   "name": "Southern California",
+   "state": "CA",
+   "note": "Los Angeles, Orange County, San Diego"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The two passes through the oil that make the crust thin and brittle, and the technical heart of the style.",
+   "rel": "fry"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "The sweet-and-spicy gochujang sauce Yun Jonggye worked up in Daegu in 1982 to soften a shell customers found too hard.",
+   "rel": "sauce"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "type": "sauce",
+   "name": "Soy garlic sauce",
+   "as": "Ganjang chicken's sauce — soy, sugar, garlic — and the other half of a banban order.",
+   "rel": "sauce"
+  },
+  {
+   "to": "pickled-radish",
+   "type": "dish",
+   "name": "pickled radish",
+   "as": "Comes in its own tub, and its job is to cut the fat between pieces.",
+   "rel": "dish"
+  },
+  {
+   "to": "bonchon",
+   "type": "place",
+   "name": "Bonchon",
+   "as": "Carried the method to Fort Lee, New Jersey and then across 21 states, with its sauces made centrally in Korea.",
+   "rel": "place"
+  },
+  {
+   "to": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "Beer with fried chicken is the point, not the accompaniment; Korean has a word for the pair, chimaek.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "What this style refuses — the sauce goes on with a brush so the crust survives it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Sunsal chikin is the same idea by another route, and predates the American argument about it.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The American style it shares a bar with: one fry and a loose butter sauce there, two fries and a brushed film here.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "type": "sauce",
+   "name": "Sweet chili sauce",
+   "as": "The sweet-hot register yangnyeom works in, arrived at from a different kitchen.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-korean-fried-chicken",
+   "kind": "wikipedia",
+   "title": "Korean fried chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Korean_fried_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-bonchon-chicken",
+   "kind": "wikipedia",
+   "title": "Bonchon Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonchon_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-gochujang",
+   "kind": "wikipedia",
+   "title": "Gochujang",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gochujang",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ncc-superbowl-lx",
+   "kind": "web",
+   "title": "Americans to Eat 1.48 Billion Chicken Wings for Super Bowl LX",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Wing Country — this project's own reasoning",
+   "publisher": "Wing Country",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken",
+   "note": "the closing paragraph is this project's inference and is marked"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken",
+   "note": "the rest-between-fries step is general frying practice rather than cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken"
+  }
+ },
+ "primary_image": {
+  "file": "korean-american/korean-american-yangnyeom-chikin.jpg",
+  "source": "commons",
+  "title": "File:Yangnyeom-chikin.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yangnyeom-chikin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AYangnyeom-chikin.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "travel oriented",
+  "credit": "https://www.flickr.com/photos/traveloriented/10362831185/",
+  "alt": "Yangnyeom-chikin (spicy fried chicken)",
+  "date": "2013-10-19",
+  "primary": true,
+  "sha256": "21cab4cb30fa6460846e19071711be28f42986f487c90886396de0b8cdeda238"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "soy-garlic-sauce",
+   "type": "sauce",
+   "name": "Soy garlic sauce",
+   "as": "One of the two sauces the style is ordered by.",
+   "rel": "style"
+  },
+  {
+   "from": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "The style is this glaze, the double fry and the box it arrives in.",
+   "rel": "style"
+  },
+  {
+   "from": "pickled-radish",
+   "type": "dish",
+   "name": "pickled radish",
+   "as": "The style this tub arrives with, always, and unasked.",
+   "rel": "style"
+  },
+  {
+   "from": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "Names the pairing in one word, chimaek, from chicken and maekju.",
+   "rel": "style"
+  },
+  {
+   "from": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The style built on this method, and the one that named the crust.",
+   "rel": "style"
+  },
+  {
+   "from": "bonchon",
+   "type": "place",
+   "name": "Bonchon",
+   "as": "The chain that carried the style out of Korea first, and the one many Americans meet it through.",
+   "rel": "style"
+  }
+ ]
+}

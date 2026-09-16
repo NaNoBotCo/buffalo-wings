@@ -1,0 +1,203 @@
+{
+ "schema": 1,
+ "id": "adrian-miller",
+ "type": "person",
+ "names": {
+  "name": "Adrian Miller",
+  "aliases": [
+   "the Soul Food Scholar",
+   "Adrian E. Miller"
+  ],
+  "sort": "Miller, Adrian"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "role": [
+   "writer",
+   "scholar"
+  ],
+  "state": "CO"
+ },
+ "text": {
+  "what": "Food writer and historian of African American cooking, based in Denver. He describes himself as \"a two-time James Beard Award-winning culinary author, professional speaker, certified barbecue judge, and recovering attorney based in Denver, Colorado.\" His books are where the fried chicken counter and the barbecue pit get written up as history rather than as colour.",
+  "story": "Miller grew up in Aurora, Colorado, took an A.B. in international relations at Stanford and a J.D. at Georgetown Law in 1995. From 1999 to 2001 he was a special assistant to President Bill Clinton on the Initiative for One America, which his own site describes as the first free-standing White House office to address racial, religious and ethnic reconciliation. He later worked as a policy analyst for Governor Bill Ritter.\n\nSoul Food: The Surprising Story of an American Cuisine, One Plate at a Time came out from the University of North Carolina Press in 2013 and won the James Beard Foundation Book Award for Reference and Scholarship in 2014. The President's Kitchen Cabinet followed in 2017 and was nominated for an NAACP Image Award. Black Smoke: African Americans and the United States of Barbecue arrived in 2021 and won the 2022 James Beard Award for Reference, History, and Scholarship. Cooking to the President's Taste: Asian Heritage Chefs in White House History was published by the White House Historical Association in May 2025.\n\nHe is executive director of the Colorado Council of Churches — the first African American and, his site notes, the first layperson to hold the post — and sits on the board of the Southern Foodways Alliance.",
+  "today": "Sources read on 16 September 2026 record him living in Denver, writing and speaking; no later record was checked."
+ },
+ "kin": [
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Sits on its board, and its oral histories are the archive his kind of argument runs on.",
+   "rel": "org"
+  },
+  {
+   "to": "harold-pierce",
+   "as": "The South Side chicken counter is the sort of institution his soul food history takes seriously.",
+   "rel": "person"
+  },
+  {
+   "to": "bob-gibson",
+   "as": "Black Smoke is the book-length account of African Americans in US barbecue, the labour history around pits like his.",
+   "rel": "person"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "as": "A Black neighbourhood condiment of the kind his work puts on the record instead of in a footnote.",
+   "rel": "style"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "The wing that comes off a barbecue pit, which is the tradition his 2021 book is about.",
+   "rel": "style"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "as": "One of the cooks the food-history field he works in has spent twenty years recording.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:web-adrian-miller-about",
+  "s:web-wp-adrian-miller"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-adrian-miller-about"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wp-adrian-miller",
+    "note": "living status as recorded by the sources on 16 September 2026"
+   },
+   "kin[1].as": {
+    "tier": "inference"
+   },
+   "kin[3].as": {
+    "tier": "inference"
+   },
+   "kin[5].as": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Food writer and historian of African American cooking, based in Denver.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "Sits on its board, and its oral histories are the archive his kind of argument runs on.",
+   "rel": "org"
+  },
+  {
+   "to": "harold-pierce",
+   "type": "person",
+   "name": "Harold Pierce",
+   "as": "The South Side chicken counter is the sort of institution his soul food history takes seriously.",
+   "rel": "person"
+  },
+  {
+   "to": "bob-gibson",
+   "type": "person",
+   "name": "Bob Gibson",
+   "as": "Black Smoke is the book-length account of African Americans in US barbecue, the labour history around pits like his.",
+   "rel": "person"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "A Black neighbourhood condiment of the kind his work puts on the record instead of in a footnote.",
+   "rel": "style"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "The wing that comes off a barbecue pit, which is the tradition his 2021 book is about.",
+   "rel": "style"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "type": "person",
+   "name": "André Prince Jeffries",
+   "as": "One of the cooks the food-history field he works in has spent twenty years recording.",
+   "rel": "person"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-adrian-miller-about",
+   "kind": "web",
+   "title": "Meet Adrian",
+   "publisher": "adrianemiller.com",
+   "url": "https://adrianemiller.com/about/meet-adrian/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-adrian-miller",
+   "kind": "web",
+   "title": "Adrian Miller",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Adrian_Miller",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-adrian-miller-about"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-adrian-miller-about"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-wp-adrian-miller",
+   "note": "living status as recorded by the sources on 16 September 2026"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "bob-gibson",
+   "type": "person",
+   "name": "Bob Gibson",
+   "as": "Wrote the book-length history of African Americans in US barbecue that the sauce's white-run Decatur pit sits beside.",
+   "rel": "person"
+  },
+  {
+   "from": "harold-pierce",
+   "type": "person",
+   "name": "Harold Pierce",
+   "as": "Writes the history of Black foodways this chain is a chapter of.",
+   "rel": "person"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "Writes the history of Black cooks and fried chicken that this kind of transcript supports.",
+   "rel": "person"
+  }
+ ]
+}

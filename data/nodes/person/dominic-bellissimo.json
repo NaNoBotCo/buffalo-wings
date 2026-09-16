@@ -1,0 +1,81 @@
+{
+ "schema": 1,
+ "id": "dominic-bellissimo",
+ "type": "person",
+ "names": {
+  "name": "Dominic Bellissimo",
+  "aliases": [
+   "Dom Bellissimo"
+  ],
+  "sort": "Bellissimo, Dominic"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "role": [
+   "family",
+   "founder"
+  ],
+  "state": "NY",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Son of Frank and Teressa Bellissimo, tending the Anchor Bar on the night the house dates its wings to, 4 March 1964. He later owned the bar and spent decades promoting it and the wing. He died in March 1991, aged 68.",
+  "story": "Dominic was behind the bar. Late on 4 March 1964 a group of his friends came in, and he asked his mother to put something together for them.\n\nSixteen years later he gave Calvin Trillin a different hinge for the same night. Trillin's 1980 New Yorker piece quotes him: \"It was Friday night in the bar and since people were buying a lot of drinks he wanted to do something nice for them at midnight when the mostly Catholic patrons would be able to eat meat again.\" In that telling the clock does the work — meat became allowed at twelve — and the idea for wings was his mother's.\n\nA third version, his father's, has a delivery arriving wrong. All three ran side by side for years, and the family never picked one.\n\nDominic sold the story as much as he sold the wings. He was the one reporters reached; he is the reason the Anchor Bar's date is the date most people can name. He died in March 1991 at 68. Ivano Toscani, who began working for the Bellissimos in the mid-1970s and later owned the place, died in November 2018.",
+  "today": "The bar's own telling still runs on his 1964 date and his mother's fryer."
+ },
+ "kin": [
+  {
+   "to": "anchor-bar",
+   "as": "Tended this bar on the night it dates its wings to, then owned it and sold its story.",
+   "rel": "place"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "His mother, whom he asked for something to feed his friends.",
+   "rel": "person"
+  },
+  {
+   "to": "frank-bellissimo",
+   "as": "His father, who told a version with a wrong delivery in it rather than a midnight.",
+   "rel": "person"
+  },
+  {
+   "to": "calvin-trillin",
+   "as": "Took his midnight version down in 1980 and printed it in The New Yorker.",
+   "rel": "person"
+  },
+  {
+   "to": "buffalo",
+   "as": "Put the date, 4 March 1964, into every later account of the style.",
+   "rel": "style"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Gave two of the three family versions himself, years apart, to different listeners.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-anchor-bar",
+  "s:wp-buffalo-wing",
+  "s:trillin-1980"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

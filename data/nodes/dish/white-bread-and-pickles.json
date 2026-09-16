@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "white-bread-and-pickles",
+ "names": {
+  "name": "white bread and pickles",
+  "aliases": [
+   "bread and pickles",
+   "the bread"
+  ],
+  "said": "The bread is under the chicken, not beside it, and by the end it is the best thing in the box."
+ },
+ "region": [
+  "nashville",
+  "the-south"
+ ],
+ "facets": {
+  "course": "bread",
+  "styles": [
+   "nashville-hot"
+  ]
+ },
+ "text": {
+  "what": "Two slices of plain white sandwich bread with pickle chips on top, and the hot chicken laid over both. The bread catches the cayenne paste and the fat coming off the bird; the pickles cut it. It is not a side — it is the plate.",
+  "story": "Nashville hot chicken is served atop slices of white bread with pickle chips, and it is both the spice paste and that presentation that separate it from dishes like the Buffalo wing. The style comes out of African American communities in the Southern United States; anecdotal evidence puts spicy fried chicken in Nashville's Black neighbourhoods for generations, possibly from the 1930s, with the current style of paste dating only to the mid-1970s.\n\nThe originating family is generally accepted to be André Prince Jeffries's. She has run Prince's Hot Chicken Shack since 1980; before that it belonged to her great-uncle Thornton Prince III. Jeffries tells the development as an accident: after a late Saturday night, Thornton's girlfriend cooked him a fried chicken breakfast with extra pepper as revenge, and he liked it. By the mid-1930s he and his brothers had a recipe and the BBQ Chicken Shack.\n\n*Inference —* the bread does the work celery does in Buffalo — something cheap and cold against something hot — but it does it underneath instead of alongside, and it ends up eaten rather than left.",
+  "how": "Lay two slices flat in the box or on the paper. Pickle chips on the bread. Chicken straight out of the fryer on top, paste applied by the server with a spoon and gloves and pressed lightly into the crust by hand. Serve at once; the point is that the bread soaks.",
+  "today": "Every Nashville hot chicken counter builds it this way, and the chains that took the style national — KFC's Nashville Hot from January 2016, and others — kept the paste and mostly dropped the bread. *Tradition holds —* eating the bread at the end is the standard finish, and the pickles are the only mercy on offer."
+ },
+ "kin": [
+  {
+   "to": "nashville-hot",
+   "as": "The style this bread is the floor of; no bread, and the paste has nowhere to go.",
+   "rel": "style"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "The counter the presentation is traced to, run by André Prince Jeffries since 1980.",
+   "rel": "place"
+  },
+  {
+   "to": "hattie-bs",
+   "as": "Serves the same bread-and-pickle build to a much longer line.",
+   "rel": "place"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "as": "Another Nashville counter working the same paste and the same slice of bread.",
+   "rel": "place"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "The cayenne paste the bread is there to catch.",
+   "rel": "sauce"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Buffalo's version of the same job, beside the wing rather than under it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "as": "Runs the shack the style is traced to, and tells its origin as an act of revenge.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-hot-chicken",
+  "s:wp-prince-s-hot-chicken-shack",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hot-chicken"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-hot-chicken",
+    "note": "the last sentence is hedged as tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "kin[2].as": {
+    "tier": "inference",
+    "note": "the build is cited for the style; the queue is not"
+   }
+  }
+ },
+ "confidence": "high"
+}

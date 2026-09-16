@@ -1,0 +1,98 @@
+{
+ "schema": 1,
+ "id": "harold-pierce",
+ "type": "person",
+ "names": {
+  "name": "Harold Pierce",
+  "aliases": [
+   "Harold P. Pierce",
+   "the Fried Chicken King"
+  ],
+  "sort": "Pierce, Harold"
+ },
+ "region": [
+  "chicago"
+ ],
+ "facets": {
+  "role": [
+   "founder",
+   "cook"
+  ],
+  "state": "IL",
+  "styles": [
+   "chicago-mild-sauce"
+  ]
+ },
+ "text": {
+  "what": "Founded Harold's Chicken Shack in Chicago on 22 June 1950 and built it into the South Side's fried chicken chain, where a wing dinner comes cut over fries and drowned in mild sauce. Born 11 August 1917 in Midway, Alabama; died 8 March 1988 in Kankakee, Illinois, of prostate cancer, aged 70.",
+  "story": "Pierce came to Chicago in 1943 and drove a car for a living — chauffeur to Jack Stern, a furniture store owner. He and his first wife Hilda already ran a small restaurant on 39th Street called the H & H, selling dumplings and chicken feet, when he opened the first Shack in 1950 near the estate where he worked. The two Wikipedia articles read for this record disagree on the corner: the chain's article says 47th and Kenwood, his own says 47th and Greenwood.\n\nWhat he did differently was refuse to standardise. He wanted each franchisee to develop its own personality rather than fit a mould, and he did not interfere with how the stores were run. One condition held: franchisees bought their chickens from Gene Rosen. So a Harold's may be a window with bulletproof glass or a room you sit down in; it may or may not have fountain drinks, delivery, catering. The constants are the chicken dinners and the emblem of a cook chasing a bird with a cleaver, sometimes in neon, sometimes hand-painted, the cook often dressed as a king.\n\nThe map is not an accident either. The chain concentrated on the South Side in part because redlining limited where a Black owner could expand.\n\nAfter his death his second wife Willa took the business and pushed it outside Chicago; she died on 21 January 2003. His daughter Kristen Pierce, chief executive of the chain, died in January 2026.",
+  "how": "Order a wing dinner and it arrives over fries with a slice of white bread, sauce poured across the lot. Mild sauce is the house pour — ketchup, barbecue sauce and hot sauce in proportions nobody agrees on — and the name says nothing reliable about heat.",
+  "today": "Over 100 locations existed across the country as of 2025, roughly forty of them in Chicago, with outposts from Phoenix to Brooklyn Center to Atlanta. The Chicago rap catalogue names the place constantly."
+ },
+ "kin": [
+  {
+   "to": "harolds-chicken-shack",
+   "as": "His, from 22 June 1950, and named for him on every sign.",
+   "rel": "place"
+  },
+  {
+   "to": "mild-sauce",
+   "as": "The pour his counters made famous, over the wings and the fries both.",
+   "rel": "sauce"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "as": "The style is his order of operations: fry the wing, bury it, hand it over the counter.",
+   "rel": "style"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "as": "The West Side counter people name alongside his when they argue about whose sauce.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "as": "The cleaver-wielding cook, crowned, in neon or house paint — his emblem, redrawn store by store.",
+   "rel": "art"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "Bottled Mumbo in the same city and the same decades; the two sauces get compared and are not the same product.",
+   "rel": "contrast"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "Writes the history of Black foodways this chain is a chapter of.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:web-wp-harold-pierce",
+  "s:wp-harold-s-chicken-shack",
+  "s:wp-mild-sauce"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-harold-pierce"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-mild-sauce",
+    "note": "the recipe range is as the mild sauce article gives it; the plate description is general to the chain"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-harold-s-chicken-shack"
+   },
+   "kin[6].as": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

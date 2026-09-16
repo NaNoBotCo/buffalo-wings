@@ -1,0 +1,76 @@
+{
+ "schema": 1,
+ "id": "al-morganti",
+ "type": "person",
+ "names": {
+  "name": "Al Morganti",
+  "sort": "Morganti, Al"
+ },
+ "region": [
+  "philadelphia"
+ ],
+ "facets": {
+  "role": [
+   "broadcaster",
+   "organizer"
+  ],
+  "state": "PA"
+ },
+ "text": {
+  "what": "Philadelphia hockey writer and broadcaster, born 28 May 1953, and the man Wing Bowl is credited to. He covered the Flyers for the Philadelphia Inquirer from 1979 to 1989, analysed the NHL for ESPN from 1993 to 2005, and sat on WIP's morning show from 1993 to 2023, where he judged the eating stunts that got competitors into the contest.",
+  "story": "Wing Bowl was Morganti's idea, born of the Eagles not going to a Super Bowl any time soon — and, by one account, of being sick of watching the Buffalo Bills go and lose. The first one, in 1993, was two combatants in the lobby of the Wyndham Franklin Plaza. Joan Brewington turned up in a bathrobe and boxing gloves, punching the air like a prizefighter, which set the tone for everything after. Carmen Cordero won and took home a hibachi.\n\nThe qualifying system ran through Morganti. To get in you performed an eating stunt live on the morning show with him judging: twenty cups of oatmeal, 3.75 pounds of creamed spinach with 3.75 pounds of hot sauce, five Big Macs. He threw out stunts he called cheating — dipping bread in a drink to get it down, pulling hot dogs off their buns — and he disliked drinking stunts. When Joey Chestnut offered a gallon of milk, the hosts thought it too easy, and it took El Wingador vouching for the difficulty to get the offer accepted, with five minutes on the clock.\n\nIn 2009 he granted one dispensation, letting Wing Bowl 8 champion \"Tollman Joe\" into an all-amateur field without a stunt, on the grounds that he was the only amateur ever to beat El Wingador.",
+  "today": "Sources read on 16 September 2026 record him as a pre- and post-game analyst for the Philadelphia Flyers, and as living."
+ },
+ "kin": [
+  {
+   "to": "wing-bowl",
+   "as": "His idea, in 1993, and his rules at the door for twenty-six years.",
+   "rel": "event"
+  },
+  {
+   "to": "angelo-cataldi",
+   "as": "The co-host who turned the idea into a 20,000-seat morning broadcast.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "Nearly kept him out over a gallon of milk being too easy.",
+   "rel": "person"
+  },
+  {
+   "to": "bill-simmons-el-wingador",
+   "as": "The champion whose word got Chestnut's qualifying stunt accepted.",
+   "rel": "person"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "Invented the counter-programming: a Friday in Philadelphia for a Sunday Philadelphia was not in.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:web-wp-al-morganti",
+  "s:wp-wing-bowl"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-wp-al-morganti"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-wp-al-morganti",
+    "note": "living status and current role as recorded by Wikipedia on 16 September 2026"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

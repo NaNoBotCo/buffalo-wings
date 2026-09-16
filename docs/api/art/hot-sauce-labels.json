@@ -1,0 +1,392 @@
+{
+ "schema": 1,
+ "id": "hot-sauce-labels",
+ "type": "art",
+ "names": {
+  "name": "Hot sauce labels",
+  "aliases": [
+   "hot sauce bottle art",
+   "pepper sauce labels"
+  ],
+  "sort": "hot sauce labels"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "print"
+ },
+ "text": {
+  "what": "A hot sauce label sells one thing before it sells any other: how much it will hurt. The genre has a settled vocabulary — devils, flames, skulls, warning text set like a hazard placard, a name that is a dare, and often a number. Beneath the artwork the same panel carries what federal law requires, including an ingredient list in descending order by weight, which is why this site can read a bottle's ingredient rank off a photograph of its back. The front is a promise. The back is a fact."
+ },
+ "sections": [
+  {
+   "h": "The promise on the front",
+   "text": "*Tradition holds —* the front panel works a short list of devices. A devil, horned and usually cheerful. Flame, as a border, a background, or lettering on fire. A skull, sometimes with the pepper in its teeth. A pepper drawn as a character. Warning type in a yellow-and-black band, borrowed from industrial hazard signage. A name doing the dare — atomic, ghost, reaper, death, insanity.\n\nThe register is comic rather than frightening, and deliberately so: the buyer is being invited to take a risk that is safe."
+  },
+  {
+   "h": "The number, and when it means anything",
+   "text": "Scoville heat units get printed on labels as a headline figure. A Scoville number is only worth something where somebody publishes the measurement and says who made it, which is why this site records a scoville value on a sauce only where a maker or a lab publishes one, and never estimates it.\n\nWhat a label always does carry is the maker's own heat word — mild, medium, hot, extra hot, atomic — and this site records that verbatim, as the maker's claim rather than as a measurement."
+  },
+  {
+   "h": "The heritage label",
+   "text": "The oldest American brands keep old labels on purpose. Tabasco, from the McIlhenny Company, appeared in 1868 and is the earliest recognisable brand in the US hot sauce trade; its diamond label, small bottle and green cap are effectively unchanged as design elements. Frank's RedHot's 1965 label survives as an image on Wikimedia Commons under CC BY-SA 4.0.\n\n*Inference —* a heritage label is an argument about age in the same way a wing shop's hand-painted window is. It says the recipe has not moved. Whether the recipe has moved is a separate question the label does not answer."
+  },
+  {
+   "h": "The challenge bottle",
+   "text": "*Tradition holds —* a category of label exists for sauces that are not really condiments: extract sauces sold as an ordeal, in small bottles, often with a coffin, a skull-shaped bottle, or a wax seal, and with copy that instructs the buyer to use one drop. They are the bottled version of the extra-hot wing challenge a bar runs with a photograph on the wall for whoever finishes.\n\nThe design signals the change of category. A sauce meant for food gets a food label; a sauce meant for a dare gets packaging borrowed from poisons and from heavy metal record sleeves."
+  },
+  {
+   "h": "What the back panel must say",
+   "text": "The regulated side. An ingredient list in descending order by weight, a net quantity, a nutrition panel with a stated serving size, the maker's name and place, and allergen information where it applies.\n\nThat ordering requirement is what makes a label usable as data. Read the list and you know whether the sauce leads with peppers, with vinegar, with tomato or with sugar, which is more informative about how it will taste than anything on the front. This site's sauce profiles are built out of exactly that: ingredient rank in label order, plus sodium and sugar per tablespoon from the panel."
+  },
+  {
+   "h": "The shelf",
+   "text": "*Inference —* hot sauce is merchandised in a way that pushes the labels toward shouting. It sits in a long row of small bottles, most of a similar shape, at a similar price, where the whole differentiation happens in about four inches of front panel viewed at arm's length. That is a harder design brief than a wing counter's sign has, and it explains the volume of the graphics better than any claim about the buyers does."
+  }
+ ],
+ "kin": [
+  {
+   "to": "franks-redhot",
+   "as": "The cayenne sauce the Buffalo bowl is built on; its 1965 label survives as a freely licensed image.",
+   "rel": "sauce"
+  },
+  {
+   "to": "crystal-hot-sauce",
+   "as": "The other bottle that turns up in a Buffalo bowl, with a label that has barely moved.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "What most of these bottles end up inside, once butter is melted into them.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mango-habanero",
+   "as": "A flavour that lives mostly as a label and a menu line rather than as a bottle.",
+   "rel": "sauce"
+  },
+  {
+   "to": "atomic",
+   "as": "The heat word that gets printed largest, and that this site records verbatim as the maker's claim.",
+   "rel": "term"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "as": "The same promise at building scale: say the heat before you say the name.",
+   "rel": "art"
+  },
+  {
+   "to": "neon-chicken",
+   "as": "Shares the flame vocabulary, lit instead of printed.",
+   "rel": "art"
+  },
+  {
+   "to": "free-to-use",
+   "as": "Why the back panel matters here: label data is public, label artwork is not.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-hot-sauce",
+  "s:wp-tabasco-sauce",
+  "s:wp-scoville-scale",
+  "s:usda-fdc",
+  "s:web-commons-search"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "cited",
+    "source": "s:wp-scoville-scale"
+   },
+   "sections[2].text": {
+    "tier": "cited",
+    "source": "s:wp-tabasco-sauce",
+    "note": "the 1868 date is cited; the Frank's RedHot label file and its CC BY-SA 4.0 licence read off Commons extmetadata on 16 September 2026; the closing paragraph is this project's reading"
+   },
+   "sections[4].text": {
+    "tier": "cited",
+    "source": "s:usda-fdc",
+    "note": "descending-order ingredient listing is the convention FoodData Central's branded panels record, and is what this site's sauce profiles rank from"
+   },
+   "sections[5].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "hot-sauce-labels/hot-sauce-labels-1965-frank-s-red-hot-label.png",
+   "source": "commons",
+   "title": "File:1965 Frank's Red Hot label.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/1965_Frank%27s_Red_Hot_label.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A1965_Frank%27s_Red_Hot_label.png",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Remote People",
+   "credit": "Own work",
+   "alt": "A 1965 Frank's Red Hot sauce label.",
+   "date": "2022-01-12",
+   "primary": true,
+   "sha256": "db45f8da0b1850651278d3fc72e33576eb7709e3b1816a09194b765196c8f9e7"
+  },
+  {
+   "file": "hot-sauce-labels/hot-sauce-labels-blairs-after-death-sauce.jpg",
+   "source": "commons",
+   "title": "File:Blairs after death sauce.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Blairs_after_death_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABlairs_after_death_sauce.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Malatinszky",
+   "credit": "Own work",
+   "alt": "Photo of a bottle of Blair's After Death Souce on a store shelf.",
+   "date": "2012-11-16 20:40:47",
+   "primary": false,
+   "sha256": "e82ac701657715040658ae5af2acbefb5f9032485f6dda950f1e54f84b4e5f0c"
+  },
+  {
+   "file": "hot-sauce-labels/hot-sauce-labels-hot-sauce-shelves-in-rouses-market-new-orleans-january-2025.jpg",
+   "source": "commons",
+   "title": "File:Hot sauce shelves in Rouses Market, New Orleans January 2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Hot_sauce_shelves_in_Rouses_Market%2C_New_Orleans_January_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHot_sauce_shelves_in_Rouses_Market%2C_New_Orleans_January_2025.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "pelican",
+   "credit": "https://www.flickr.com/photos/pelican/54286600129/",
+   "alt": "Hot sauce shelves in Rouses Market, New Orleans January 2025",
+   "date": "2025-01-15 09:13:07",
+   "primary": false,
+   "sha256": "b202cb2a35ca4bdfd25227e7fedb220431061a567ff817d88d02fdf4172c016c"
+  },
+  {
+   "file": "hot-sauce-labels/hot-sauce-labels-truff-hotter-sauce.jpg",
+   "source": "commons",
+   "title": "File:TRUFF Hotter Sauce.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/TRUFF_Hotter_Sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATRUFF_Hotter_Sauce.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Reuben Strayer",
+   "credit": "https://www.flickr.com/photos/cutey5/51579840609/",
+   "alt": "Hotter version of TRUFF truffle-flavored hot sauce.",
+   "date": "2021-08-30 02:15:30",
+   "primary": false,
+   "sha256": "e0f1262ab005745e4fcee77ec7f6a716121e6bb147696348f55c02a367d55d29"
+  },
+  {
+   "file": "hot-sauce-labels/hot-sauce-labels-tabasco-sauce.jpg",
+   "source": "commons",
+   "title": "File:Tabasco sauce.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tabasco_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATabasco_sauce.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Andrew Dunn",
+   "credit": "http://www.andrewdunnphoto.com",
+   "alt": "Tabasco sauce bottle. This image most likely contains elements that are trademarks of the McIlhenny Company.",
+   "date": "2005-08-13",
+   "primary": false,
+   "sha256": "c49288efa4286136d46cca9d841c7a37e3523cc34fb24d5d733ea21ebdbe462f"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A hot sauce label sells one thing before it sells any other: how much it will hurt.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "The cayenne sauce the Buffalo bowl is built on; its 1965 label survives as a freely licensed image.",
+   "rel": "sauce"
+  },
+  {
+   "to": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "The other bottle that turns up in a Buffalo bowl, with a label that has barely moved.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "What most of these bottles end up inside, once butter is melted into them.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "A flavour that lives mostly as a label and a menu line rather than as a bottle.",
+   "rel": "sauce"
+  },
+  {
+   "to": "atomic",
+   "type": "term",
+   "name": "atomic",
+   "as": "The heat word that gets printed largest, and that this site records verbatim as the maker's claim.",
+   "rel": "term"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "The same promise at building scale: say the heat before you say the name.",
+   "rel": "art"
+  },
+  {
+   "to": "neon-chicken",
+   "type": "art",
+   "name": "Neon chicken",
+   "as": "Shares the flame vocabulary, lit instead of printed.",
+   "rel": "art"
+  },
+  {
+   "to": "free-to-use",
+   "type": "story",
+   "name": "Free to use",
+   "as": "Why the back panel matters here: label data is public, label artwork is not.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-hot-sauce",
+   "kind": "wikipedia",
+   "title": "Hot sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-tabasco-sauce",
+   "kind": "wikipedia",
+   "title": "Tabasco sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tabasco_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-scoville-scale",
+   "kind": "wikipedia",
+   "title": "Scoville scale",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scoville_scale",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:usda-fdc",
+   "kind": "dataset",
+   "title": "FoodData Central",
+   "publisher": "US Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "branded-food label panels; public domain"
+  },
+  {
+   "id": "s:web-commons-search",
+   "kind": "web",
+   "title": "Wikimedia Commons file search (MediaWiki API, action=query&list=search, namespace 6)",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/w/api.php",
+   "accessed": "2026-09-16",
+   "note": "used to find candidate file titles and to read each file's licence, author and date from extmetadata"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": {
+  "file": "hot-sauce-labels/hot-sauce-labels-1965-frank-s-red-hot-label.png",
+  "source": "commons",
+  "title": "File:1965 Frank's Red Hot label.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/1965_Frank%27s_Red_Hot_label.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3A1965_Frank%27s_Red_Hot_label.png",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Remote People",
+  "credit": "Own work",
+  "alt": "A 1965 Frank's Red Hot sauce label.",
+  "date": "2022-01-12",
+  "primary": true,
+  "sha256": "db45f8da0b1850651278d3fc72e33576eb7709e3b1816a09194b765196c8f9e7"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "The yellow can is doing the same work a hot sauce label does — a regional identity you can hold.",
+   "rel": "art"
+  },
+  {
+   "from": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "Its chef-and-steaming-pot sign became a New Orleans landmark before it was a label.",
+   "rel": "art"
+  },
+  {
+   "from": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Its orange-and-black bottle is one of the labels the shelf is read by.",
+   "rel": "art"
+  },
+  {
+   "from": "old-bay",
+   "type": "sauce",
+   "name": "Old Bay Seasoning",
+   "as": "The yellow can is a label people recognise from across a shop.",
+   "rel": "art"
+  },
+  {
+   "from": "capital-city-mambo-sauce",
+   "type": "place",
+   "name": "Capital City Mambo Sauce",
+   "as": "A label that had to put a city on a jar before a supermarket would stock it.",
+   "rel": "art"
+  },
+  {
+   "from": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "The same trade of promising heat in a glance, at bottle scale instead of building scale.",
+   "rel": "art"
+  },
+  {
+   "from": "neon-chicken",
+   "type": "art",
+   "name": "Neon chicken",
+   "as": "Shares the flame-and-glow vocabulary, shrunk to a bottle.",
+   "rel": "art"
+  },
+  {
+   "from": "rooster-weathervanes",
+   "type": "art",
+   "name": "Rooster weathervanes",
+   "as": "The same trick at bottle scale — an animal or a devil standing in for what is inside.",
+   "rel": "art"
+  }
+ ]
+}

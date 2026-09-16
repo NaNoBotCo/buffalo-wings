@@ -1,0 +1,335 @@
+{
+ "schema": 1,
+ "id": "wing-bowl",
+ "type": "event",
+ "names": {
+  "name": "Wing Bowl",
+  "aliases": [
+   "Wing Bowl Las Vegas"
+  ],
+  "sort": "Wing Bowl"
+ },
+ "region": [
+  "philadelphia"
+ ],
+ "facets": {
+  "state": "PA",
+  "status": "open",
+  "founded": 1993,
+  "when": "the Friday before the Super Bowl",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A competitive wing-eating contest run by a Philadelphia sports radio station on the Friday before the Super Bowl. Al Morganti and Angelo Cataldi of WIP started it in 1993, for a city whose football team kept not reaching the Super Bowl. Two eaters and 150 spectators in a hotel lobby the first year; crowds over 20,000 in an arena by the 2000s, at six in the morning, with a field of qualifiers, costumed entourages, and women called Wingettes escorting the eaters. WIP ended it in 2018. A Las Vegas edition ran on 7 February 2026.",
+  "story": "Morganti came up with it because the Eagles were going nowhere, and, it is also said, because he had had enough of the Buffalo Bills reaching Super Bowls and losing them. Wing Bowl I was held in the lobby of the Wyndham Franklin Plaza in Center City. Joan Brewington turned up in a bathrobe and boxing gloves, punching the air; Carmen Cordero won and took home a hibachi.\n\nEntry came two ways: perform an eating stunt live on the WIP morning show with Morganti judging — twenty cups of oatmeal, five Big Macs, a gallon of milk — or win a Wingoff at a bar in Philadelphia or South Jersey. Morganti disallowed stunts he considered cheating, like dunking bread to get it down. Mayor Ed Rendell handed out a Liberty Bell trophy at four of them. Umpire Eric Gregg was commissioner from the second year until his death in 2006, then Pat Croce, then Jon Dorenbos for the last five.\n\nThe counts climbed and climbed. Jonathan Squibb won three straight from 2009 to 2011, ending at 255. Takeru Kobayashi ate 337 in 2012. Molly Schuyler ate 363 in 2014, Patrick Bertoletti 444 in 2015, Schuyler 429 in 2016 and then 501 in the last Philadelphia edition, Wing Bowl XXVI on 2 February 2018. Prizes by then ran to a truck, a motorcycle, a ring and cash.\n\nThe criticism is part of the record and was published while the event still ran. Philadelphia Magazine's Richard Rys, writing on 18 January 2015 under the headline \"Wing Bowl: Is It Time to End It?\", called it \"WIP's annual celebration of the most primal male instincts (gluttony, protracted leering, getting shitfaced on Miller Lite at six in the morning)\" and described what he had watched happen to women in the crowd: \"I've seen men grab two women by their heads and try to make them kiss, or claw at women's shirts when the camera pans past.\" Columnist Ronnie Polaneczky, quoted in the same piece, described a strip-club mentality in which all women are for sale. WIP announced the end on 30 October 2018, nine months after the Eagles won Super Bowl LII; program director Spike Eskin said \"When Wing Bowl started … a large part of it was the lead-up to the Super Bowl never involved the Eagles. We just wanted to get to the promised land.\" When a documentary, No One Died: The Wing Bowl Story, arrived in August 2026, the Philadelphia Inquirer quoted Taggart, who made it, on what it had to carry: \"You have to show the El Wingador stuff. You have to show the ugly of the fights and some of the misogyny.\"",
+  "how": "Thirty minutes of eating in the Philadelphia years, judged by wing count. The Las Vegas revival ran twenty competitors in rounds for a $5,000 winner-takes-all prize, and the winning 189 was scored 85, 71 and 33 across three of them.",
+  "today": "The Plaza Hotel & Casino in Las Vegas held Wing Bowl on 7 February 2026, the first outside Philadelphia. Molly Schuyler won it with 189 wings, ahead of Bob Shoudt on 162 and Dan Kennedy on 117 — her fourth Wing Bowl win, after 2014, 2016 and the 501 of 2018."
+ },
+ "geo": {
+  "lat": 39.9011004,
+  "lon": -75.1720165,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "3601 South Broad Street",
+  "city": "Philadelphia",
+  "county": "Philadelphia",
+  "state": "PA",
+  "postcode": "19148"
+ },
+ "links": [
+  {
+   "label": "Wing Bowl Las Vegas — Plaza Hotel & Casino",
+   "url": "https://www.plazahotelcasino.com/entertainment/wing-bowl/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "angelo-cataldi",
+   "as": "Co-founded it and hosted it on WIP for twenty-six years.",
+   "rel": "person"
+  },
+  {
+   "to": "al-morganti",
+   "as": "Thought it up, because the Eagles were not going to the Super Bowl, and judged the qualifying stunts.",
+   "rel": "person"
+  },
+  {
+   "to": "bill-simmons-el-wingador",
+   "as": "Five-time champion, and the name the documentary says you cannot leave out.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "Won Wing Bowl XIV after talking his way in with a gallon of milk.",
+   "rel": "person"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "Scheduled against it — the Friday before, for a city whose team was not playing.",
+   "rel": "event"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "The Buffalo festival crowned champions too, and was born of a city's own dish rather than a radio show.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Ate the style by the hundred, 300 miles from where it started.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:wp-wing-bowl",
+  "s:web-phillymag-wing-bowl-2015",
+  "s:web-inquirer-wing-bowl-doc",
+  "s:web-eatfeats-wing-bowl-lv-2026",
+  "s:wp-joey-chestnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-phillymag-wing-bowl-2015",
+    "note": "history from the Wikipedia article; the criticism quoted from Philadelphia Magazine, 18 January 2015, and the Philadelphia Inquirer, 22 August 2026"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-eatfeats-wing-bowl-lv-2026",
+    "note": "results of the 7 February 2026 Las Vegas edition"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the South Philadelphia arena that held it from 2000 to 2018, named Wells Fargo Center then and Xfinity Mobile Arena in 2026; geocoded against OpenStreetMap"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A competitive wing-eating contest run by a Philadelphia sports radio station on the Friday before the Super Bowl.",
+ "region_terms": [
+  {
+   "key": "philadelphia",
+   "name": "Philadelphia",
+   "state": "PA",
+   "note": "Wing Bowl country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "angelo-cataldi",
+   "type": "person",
+   "name": "Angelo Cataldi",
+   "as": "Co-founded it and hosted it on WIP for twenty-six years.",
+   "rel": "person"
+  },
+  {
+   "to": "al-morganti",
+   "type": "person",
+   "name": "Al Morganti",
+   "as": "Thought it up, because the Eagles were not going to the Super Bowl, and judged the qualifying stunts.",
+   "rel": "person"
+  },
+  {
+   "to": "bill-simmons-el-wingador",
+   "type": "person",
+   "name": "Bill \"El Wingador\" Simmons",
+   "as": "Five-time champion, and the name the documentary says you cannot leave out.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "Won Wing Bowl XIV after talking his way in with a gallon of milk.",
+   "rel": "person"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "Scheduled against it — the Friday before, for a city whose team was not playing.",
+   "rel": "event"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "The Buffalo festival crowned champions too, and was born of a city's own dish rather than a radio show.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Ate the style by the hundred, 300 miles from where it started.",
+   "rel": "style"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-wing-bowl",
+   "kind": "wikipedia",
+   "title": "Wing Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wing_Bowl",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-phillymag-wing-bowl-2015",
+   "kind": "article",
+   "title": "Wing Bowl: Is It Time to End It?",
+   "author": "Richard Rys",
+   "publisher": "Philadelphia Magazine",
+   "url": "https://www.phillymag.com/news/2015/01/18/wing-bowl-time-to-end-it/",
+   "year": 2015,
+   "accessed": "2026-09-16",
+   "note": "18 January 2015; the criticism, in the critic's own words"
+  },
+  {
+   "id": "s:web-inquirer-wing-bowl-doc",
+   "kind": "article",
+   "title": "A new Wing Bowl documentary chose to celebrate the event instead of focusing on the 'ugly'",
+   "author": "Matt Breen",
+   "publisher": "The Philadelphia Inquirer",
+   "url": "https://www.inquirer.com/sports/wing-bowl-documentary-movie-no-one-died-cataldi-wip-20260822.html",
+   "year": 2026,
+   "accessed": "2026-09-16",
+   "note": "22 August 2026"
+  },
+  {
+   "id": "s:web-eatfeats-wing-bowl-lv-2026",
+   "kind": "web",
+   "title": "Molly Schuyler wins 2026 Las Vegas Wing Bowl",
+   "author": "OJ Rifkin",
+   "publisher": "EatFeats",
+   "url": "https://eatfeats.com/2026-las-vegas-wing-bowl.html",
+   "year": 2026,
+   "accessed": "2026-09-16",
+   "note": "7 February 2026; round-by-round results of the Las Vegas revival"
+  },
+  {
+   "id": "s:wp-joey-chestnut",
+   "kind": "wikipedia",
+   "title": "Joey Chestnut",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Joey_Chestnut",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-phillymag-wing-bowl-2015",
+   "note": "history from the Wikipedia article; the criticism quoted from Philadelphia Magazine, 18 January 2015, and the Philadelphia Inquirer, 22 August 2026"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-eatfeats-wing-bowl-lv-2026",
+   "note": "results of the 7 February 2026 Las Vegas edition"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "the South Philadelphia arena that held it from 2000 to 2018, named Wells Fargo Center then and Xfinity Mobile Arena in 2026; geocoded against OpenStreetMap"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "The other Philadelphia wing institution: a radio eating contest, held across town, that this bar is not part of.",
+   "rel": "contrast"
+  },
+  {
+   "from": "al-morganti",
+   "type": "person",
+   "name": "Al Morganti",
+   "as": "His idea, in 1993, and his rules at the door for twenty-six years.",
+   "rel": "event"
+  },
+  {
+   "from": "angelo-cataldi",
+   "type": "person",
+   "name": "Angelo Cataldi",
+   "as": "His show made it in 1993 and his voice sold it for twenty-six years.",
+   "rel": "event"
+  },
+  {
+   "from": "bill-simmons-el-wingador",
+   "type": "person",
+   "name": "Bill \"El Wingador\" Simmons",
+   "as": "Won it five times and became the thing it was known for.",
+   "rel": "event"
+  },
+  {
+   "from": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "Won it in 2007 and set its 241-wing mark in 2008.",
+   "rel": "event"
+  },
+  {
+   "from": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "Covered in the council's own 2012 wing feature, competitive eating and all.",
+   "rel": "event"
+  },
+  {
+   "from": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "The other big wing contest, born nine years earlier in Philadelphia and built for radio rather than for a city's own dish.",
+   "rel": "contrast"
+  },
+  {
+   "from": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "Held on the Friday before, by a city whose team kept missing the game.",
+   "rel": "event"
+  },
+  {
+   "from": "atomic",
+   "type": "term",
+   "name": "atomic",
+   "as": "The other place wings became a spectacle with a crowd and a prize.",
+   "rel": "event"
+  },
+  {
+   "from": "wing-festival-posters",
+   "type": "art",
+   "name": "Wing festival posters",
+   "as": "Philadelphia's radio-built contest, whose promotional art borrowed from boxing rather than from food.",
+   "rel": "event"
+  }
+ ]
+}

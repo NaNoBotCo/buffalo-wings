@@ -1,0 +1,157 @@
+{
+ "schema": 1,
+ "id": "blondies-sports-bar",
+ "type": "place",
+ "names": {
+  "name": "Blondies Sports",
+  "aliases": [
+   "Blondies Sports Bar",
+   "Blondie's"
+  ],
+  "sort": "Blondies Sports"
+ },
+ "region": [
+  "nyc"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A sports bar on West 79th Street between Amsterdam and Broadway, on Manhattan's Upper West Side, with televisions in every sightline and a wing order most of the room is there for. NYC Tourism calls it \"a female-owned fixture on the Upper West Side for more than 35 years.\" It runs late — later than almost any wing room in this set.",
+  "story": "Manhattan does not have a wing style of its own. What it has is bars that import Buffalo's and keep them open until the West Coast games finish, and Blondies is the Upper West Side's.\n\nThe ownership is on the record where it matters: NYC Tourism, the city's own visitor bureau, describes it as female-owned and \"one of the city's few women-owned sports bars.\" Neither that listing nor any other page read here names the owner.\n\nThe all-you-can-eat wing night is the room's best-known offer and the least stable fact about it. NYC Tourism puts it on Monday nights. A local listings site writing in June 2026 warns the other way: \"The all-you-can-eat wings deal has come and gone over the years — check whether it's running before counting on it.\" Both are in the record; a reader crossing town on a Monday should ring first.",
+  "how": "Fried and sauced in the Buffalo manner, served with the game. Time Out's phrase for the kitchen is \"greasy pub grub like wings and burgers,\" which is the compliment a sports bar is fishing for.",
+  "today": "Open seven days as of September 2026. Closing times run late and disagree between sources: Time Out's listing runs 1am Sunday and Monday to 4am Friday and Saturday, while a 2026 listings page puts weeknights nearer midnight and says game days run longer."
+ },
+ "geo": {
+  "lat": 40.7832747,
+  "lon": -73.9791292,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "212 West 79th Street",
+  "city": "New York",
+  "county": "New York",
+  "state": "NY",
+  "postcode": "10024"
+ },
+ "links": [
+  {
+   "label": "NYC Tourism listing",
+   "url": "https://www.nyctourism.com/nightlife/blondies-sports/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "woman-owned",
+   "source": "s:web-nyctourism-blondies",
+   "tier": "cited",
+   "note": "NYC Tourism, the city's visitor bureau, calls it \"a female-owned fixture on the Upper West Side\"; the owner is not named there",
+   "url": "https://www.nyctourism.com/nightlife/blondies-sports/"
+  },
+  {
+   "tag": "bar",
+   "source": "s:web-nyctourism-blondies",
+   "tier": "cited",
+   "note": "listed under nightlife as a sports bar",
+   "url": "https://www.nyctourism.com/nightlife/blondies-sports/"
+  },
+  {
+   "tag": "wing-night",
+   "source": "s:web-nyctourism-blondies",
+   "tier": "cited",
+   "note": "Monday: all-you-can-eat wings. A June 2026 listings page says the deal has come and gone over the years; check before travelling.",
+   "url": "https://www.nyctourism.com/nightlife/blondies-sports/"
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-timeout-blondies",
+   "tier": "cited",
+   "note": "Time Out's listing runs the bar to 1am on the quietest nights and 4am on Friday and Saturday",
+   "url": "https://www.timeout.com/newyork/bars/blondies-sports-bar"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Open daily; closing runs late and varies by night and by the sports calendar",
+  "source": "s:web-happyhour-blondies",
+  "url": "https://happy-hour.nyc/bars-restaurants/blondies",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "sources disagree on closing times; the days-open list is the part they agree on"
+ },
+ "kin": [
+  {
+   "to": "wing-night",
+   "as": "Runs one, on Mondays, all you can eat — and the offer has come and gone.",
+   "rel": "term"
+  },
+  {
+   "to": "buffalo",
+   "as": "Serves the style four hundred miles from where it started, to a room watching somebody else's game.",
+   "rel": "style"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day this room exists for, and the day the wing trade counts its year by.",
+   "rel": "event"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "The other thing the table orders, and the reason the wings come by the dozen.",
+   "rel": "dish"
+  },
+  {
+   "to": "atomic-wings",
+   "as": "The other Manhattan answer to the Buffalo wing: a counter built for delivery rather than a room built for the game.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hooters",
+   "as": "The national version of the same trade — televisions, wings, a long bar — that Blondies predates in this neighbourhood.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:web-nyctourism-blondies",
+  "s:web-timeout-blondies",
+  "s:web-happyhour-blondies",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-nyctourism-blondies"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-happyhour-blondies",
+    "note": "Time Out's hours listing is undated in the page body; the two sources conflict and both are given"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

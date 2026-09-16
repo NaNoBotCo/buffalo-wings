@@ -1,0 +1,353 @@
+{
+ "schema": 1,
+ "id": "rochester-breaded",
+ "type": "style",
+ "names": {
+  "name": "Rochester breaded wings",
+  "aliases": [
+   "Rochester-style wings",
+   "breaded wings",
+   "Country Sweet wings"
+  ],
+  "said": "Order in Rochester and the counter asks which sauce, not how hot. Country Sweet is a sauce, a brand and an answer."
+ },
+ "region": [
+  "rochester",
+  "upstate-ny",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "cut": "party wing",
+  "base": "sweet-tomato",
+  "cooked": "fried",
+  "heat": "medium"
+ },
+ "text": {
+  "what": "A chicken wing dredged in seasoned flour before it goes in the oil, fried until the coating sets hard, then glazed rather than tossed loose — most often in Country Sweet, a sweet-and-tangy sauce a Rochester kitchen built in 1977 that is neither barbecue nor cayenne-and-butter. Breading is the whole argument: seventy miles west, Buffalo puts the wing in the fryer bare. Rochester bars also pour plain cayenne sauce, barbecue, teriyaki and garlic parmesan, so a breaded wing is a coating rather than a single flavour.",
+  "story": "Country Sweet dates itself to 1977, when Tom Lask worked up a sauce in a Rochester home kitchen; the company's own account calls it neither barbecue nor Buffalo. It sells the sauce in mild, hot and BBQ, and sells the wings hand-breaded. That is the firmest dated fact this project could find for the style.\n\nEverything around it is thin. No published history of Rochester's breaded wing turned up in the sources searched here — no founder, no first bar, no year. The city's documented food identity runs elsewhere: the Garbage Plate, trademarked by Nick Tahou Hots and traced to 1918, and the Zweigle's white hot. Wings sit underneath that, carried by menus rather than by writing about menus.\n\n*Tradition holds —* a half-and-half order comes half in the sweet sauce and half in hot, and a 'hot plate' means the wings and the sides under one pour. This project found no published source describing either, so both stay unverified here.\n\nThe rivalry gets stated in print even where the history does not. CITY Magazine, naming Jeremiah's Tavern the city's best wings, wrote: \"It's easy to find really good wings on damn near every corner in Buffalo. Around here? A little more challenging.\"",
+  "how": "Dredge the cut wing in seasoned flour — some shops dip in buttermilk or egg first, some go dry — and drop it in the oil. The coating browns into a shell that holds sauce on its surface instead of soaking it in, which is why a sweet glaze works here and slides off a bare Buffalo wing. Fry, then glaze: Country Sweet goes on as a sticky coat rather than a loose toss in a bowl. Blue cheese and celery come alongside, same as west of here. A tavern that fries bare will say so on the board; breaded and naked both sell in this city.",
+  "today": "Country Sweet runs shops in Rochester and Greece and bottles the sauce for grocery shelves. Bar menus carry long sauce lists beside the house breading: Jeremiah's Tavern, read on 16 September 2026, offered sixteen sauces including Garlic Parm, Cajun Dry Rub, Jamaican Jerk and Korean BBQ, with ten traditional wings at $17.99 and twelve boneless at $16.00. *Inference —* the breading, not the sauce, is what makes the plate legible as Rochester's; the sauce list is the same list every American wing counter now prints."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "Seventy miles west, frying the same cut bare — the style this one is defined against, and the argument that gives it a name.",
+   "rel": "contrast"
+  },
+  {
+   "to": "country-sweet-chicken-and-ribs",
+   "as": "Dates the sauce to a Rochester home kitchen in 1977 and hand-breads the wings it goes on.",
+   "rel": "place"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "as": "Named the city's best wings by CITY Magazine, and prints sixteen sauces beside them.",
+   "rel": "place"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "The coating that separates this style from Buffalo's, and the reason a sweet glaze sticks.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "as": "The flour step Buffalo skips.",
+   "rel": "fry"
+  },
+  {
+   "to": "garbage-plate",
+   "as": "Rochester's documented dish, trademarked and dated to 1918, where this style has no such paper trail.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "Comes with the wings here too; the city argues about breading, not about the dip.",
+   "rel": "sauce"
+  },
+  {
+   "to": "extra-crispy",
+   "as": "What a breaded wing is already, before anyone asks for it.",
+   "rel": "term"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Buffalo's origin is contested in public; Rochester's is simply unwritten.",
+   "rel": "story"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "buffalo",
+   "tell": "Bite the skin. A breaded wing has a flour shell that crunches and stays dry under the sauce; a Buffalo wing has bare skin and the sauce is on it, not in a crust."
+  },
+  {
+   "id": "garlic-parm",
+   "tell": "Garlic parm names a sauce and travels anywhere. Rochester-style names a coating, and the sauce on top can be anything the bar pours."
+  }
+ ],
+ "sources": [
+  "s:web-countrysweet",
+  "s:web-roccitymag-jeremiahs",
+  "s:web-jeremiahs-menu",
+  "s:wp-buffalo-wing",
+  "s:wp-garbage-plate",
+  "s:wp-rochester-new-york",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the mechanics of dredging and glazing are general frying knowledge; the hand-breading and the sauce names are the company's own words"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-jeremiahs-menu",
+    "note": "the closing sentence is this project's inference and is marked as such"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A chicken wing dredged in seasoned flour before it goes in the oil, fried until the coating sets hard, then glazed rather than tossed loose — most often in Country Sweet, a sweet-and-tangy sauce a Rochester kitchen…",
+ "region_terms": [
+  {
+   "key": "rochester",
+   "name": "Rochester",
+   "state": "NY",
+   "note": "seventy miles east of Buffalo and breading its wings, which Buffalo notices"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "Syracuse, the Southern Tier, the Mohawk Valley"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Seventy miles west, frying the same cut bare — the style this one is defined against, and the argument that gives it a name.",
+   "rel": "contrast"
+  },
+  {
+   "to": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "Dates the sauce to a Rochester home kitchen in 1977 and hand-breads the wings it goes on.",
+   "rel": "place"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "Named the city's best wings by CITY Magazine, and prints sixteen sauces beside them.",
+   "rel": "place"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The coating that separates this style from Buffalo's, and the reason a sweet glaze sticks.",
+   "rel": "fry"
+  },
+  {
+   "to": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The flour step Buffalo skips.",
+   "rel": "fry"
+  },
+  {
+   "to": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "Rochester's documented dish, trademarked and dated to 1918, where this style has no such paper trail.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "Comes with the wings here too; the city argues about breading, not about the dip.",
+   "rel": "sauce"
+  },
+  {
+   "to": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "What a breaded wing is already, before anyone asks for it.",
+   "rel": "term"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Buffalo's origin is contested in public; Rochester's is simply unwritten.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-countrysweet",
+   "kind": "web",
+   "title": "Country Sweet Chicken & Ribs",
+   "publisher": "Country Sweet Chicken & Ribs",
+   "url": "https://countrysweet.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-roccitymag-jeremiahs",
+   "kind": "web",
+   "title": "Best Wings: Jeremiah's Tavern",
+   "publisher": "CITY Magazine (Rochester)",
+   "url": "https://www.roccitymag.com/special-sections/best-wings-jeremiahs-tavern-15530762/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-jeremiahs-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/menu/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-garbage-plate",
+   "kind": "wikipedia",
+   "title": "Garbage Plate",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garbage_Plate",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-rochester-new-york",
+   "kind": "wikipedia",
+   "title": "Rochester, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rochester,_New_York",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Wing Country — this project's own reasoning",
+   "publisher": "Wing Country",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-countrysweet"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the mechanics of dredging and glazing are general frying knowledge; the hand-breading and the sauce names are the company's own words"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-jeremiahs-menu",
+   "note": "the closing sentence is this project's inference and is marked as such"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Seventy miles east, breading the same bird — the nearest rival and the oldest argument.",
+   "rel": "contrast"
+  },
+  {
+   "from": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "Shares the city and the argument: Rochester breads its wings and buries its sides, seventy miles from a city that does neither.",
+   "rel": "style"
+  },
+  {
+   "from": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The style this method defines, and the case it makes against its neighbour.",
+   "rel": "style"
+  },
+  {
+   "from": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The city that made this step its own.",
+   "rel": "style"
+  },
+  {
+   "from": "atomic-wings",
+   "type": "place",
+   "name": "Atomic Wings",
+   "as": "Does in Manhattan what Rochester gets argued with for doing seventy miles from Buffalo.",
+   "rel": "kin"
+  },
+  {
+   "from": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "One of the counters the style is named for: coat first, fry, then glaze.",
+   "rel": "style"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Shares the breading that Buffalo argues about, without sharing the city.",
+   "rel": "contrast"
+  },
+  {
+   "from": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "Sits inside the breaded city and fries its wings bare, which is the argument in one kitchen.",
+   "rel": "contrast"
+  },
+  {
+   "from": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "Seventy miles from Buffalo and breading, which is what gives this word something to point at.",
+   "rel": "contrast"
+  }
+ ]
+}

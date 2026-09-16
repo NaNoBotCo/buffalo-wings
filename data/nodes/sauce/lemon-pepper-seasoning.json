@@ -1,0 +1,191 @@
+{
+ "id": "lemon-pepper-seasoning",
+ "names": {
+  "name": "Lemon pepper",
+  "aliases": [
+   "lemon pepper seasoning",
+   "LP"
+  ],
+  "said": "An Atlanta counter says 'lemon pepper' and means the dry shake; say 'wet' and you have ordered something else."
+ },
+ "region": [
+  "atlanta",
+  "us"
+ ],
+ "facets": {
+  "base": "citrus-pepper",
+  "heat": "none"
+ },
+ "text": {
+  "what": "A dry blend of granulated lemon zest and cracked black peppercorns. The zest is mashed into the pepper so citrus oil soaks in, then the mix is baked and dried. Commercial blends add salt, sugar, onion powder, garlic powder, citric acid, lemon flavouring, sometimes cayenne. It started as a seafood seasoning and became the wing seasoning Atlanta is known for.",
+  "story": "William Shoffeitt, a product engineer in Healdsburg, California, launched lemon pepper seasoning commercially in July 1967 through his company, Shoffeitt's Enhance Seasoners. It sold along the West Coast, went out at food trade shows, and reached the shelves of Sears and JCPenney.\n\nAtlanta made it a wing. Cooks there began adding lemon pepper to Buffalo wings to cut the heat, and the dry wing became emblematic of the city's food. Its mid-2000s run has been attributed to its not marking clothes the way an orange sauce does — a point made about rappers then wearing white t-shirts. Keisha Lance Bottoms, later mayor of Atlanta, said in 2017 that \"Lemon pepper wings are Atlanta\". Eric Kim wrote in The New York Times in 2022 that \"in Atlanta, lemon pepper is queen\".\n\n*Inference —* the blend's move from fish counter to wing counter is the whole story of its second life, and the label never changed to follow it.",
+  "how": "Shaken onto the wings straight out of the fryer, while the skin is hot enough to hold it. No sauce, no bowl — a dry wing stays crisp because nothing wet touches it. Some kitchens shake it over a wing that has already been through butter or Buffalo sauce, which is where wet begins.",
+  "today": "On every supermarket spice shelf and behind every Atlanta wing counter. As of 16 September 2026 the USDA label panel for McCormick Lemon & Pepper Seasoning reads 180 mg sodium in a ¼-tablespoon serving — 720 mg in a whole tablespoon, which nobody eats. Salt is the first ingredient, ahead of the pepper; the lemon arrives as citric acid at 3 and lemon oil at 10."
+ },
+ "kin": [
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "The style this blend defines, and the reason a dry wing is an Atlanta wing.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "as": "What happens when the same shake lands on a wing that has already been through butter or sauce.",
+   "rel": "descendant"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "This is the dry half of the counter's two-word vocabulary.",
+   "rel": "term"
+  },
+  {
+   "to": "american-deli",
+   "as": "An Atlanta counter that shakes it, and where the wet version was invented.",
+   "rel": "place"
+  },
+  {
+   "to": "jr-cricketts",
+   "as": "Put 'lemon pepper wet' on the menu in 2017 after a television episode sent people asking for it.",
+   "rel": "place"
+  },
+  {
+   "to": "old-bay",
+   "as": "The other dry shake that owns a city; celery salt and paprika instead of zest and black pepper.",
+   "rel": "contrast"
+  },
+  {
+   "to": "memphis-rub",
+   "as": "The other dry answer to a wing, built on sugar and paprika rather than citrus.",
+   "rel": "kin"
+  },
+  {
+   "to": "all-flats",
+   "as": "Travels with it in the order that Atlanta made famous.",
+   "rel": "term"
+  },
+  {
+   "to": "naked-fry",
+   "as": "Needs a bare crisp skin, because the shake has nothing to stick to on a battered wing.",
+   "rel": "fry"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lemon-pepper-wet",
+   "tell": "Whether anything wet touched the wing. This record is the dry shake in the jar."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "citrus-pepper",
+  "maker": "McCormick & Company, Inc.",
+  "town": "Hunt Valley",
+  "state": "MD",
+  "ingredients": [
+   "salt",
+   "black pepper",
+   "citric acid",
+   "onion",
+   "sugar",
+   "garlic",
+   "calcium stearate",
+   "silicon dioxide and calcium silicate (to make free flowing)",
+   "celery seed",
+   "lemon oil",
+   "FD&C Yellow No. 5 Lake"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 0,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 5,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 0.25,
+  "sodium_mg_per_tbsp": 720,
+  "sugar_g_per_tbsp": 0,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-mccormick-lemon-pepper",
+  "url": "https://fdc.nal.usda.gov/food-details/2034704/nutrients",
+  "accessed": "2026-09-16",
+  "note": "McCormick Lemon & Pepper Seasoning, 28 oz food-service jar. Label serving is ¼ Tbsp (0.9 g); label sodium 180 mg, so 180 × 4 = 720 mg per tablespoon. A tablespoon is an arithmetic unit here, not a portion. pepper_rank is 0 on purpose: the blend's pepper is black pepper at position 2, not a chile, and the ranks record chile heat. Sugar is a listed ingredient at 5 but the label declares 0 g sugar in a serving that small. No heat word and no Scoville number on the jar."
+ },
+ "sources": [
+  "s:wp-lemon-pepper",
+  "s:wp-lemon-pepper-wings",
+  "s:fdc-mccormick-lemon-pepper"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-mccormick-lemon-pepper",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the shake-while-hot method is counter practice; the composition is cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-mccormick-lemon-pepper"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "recipes": [
+  {
+   "title": "McCormick Lemon & Pepper Seasoning, as labelled",
+   "source": "s:fdc-mccormick-lemon-pepper",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/2034704/nutrients",
+   "region": "United States",
+   "ingredients": [
+    "salt",
+    "black pepper",
+    "citric acid",
+    "onion",
+    "sugar",
+    "garlic",
+    "calcium stearate",
+    "silicon dioxide and calcium silicate (to make free flowing)",
+    "celery seed",
+    "lemon oil",
+    "FD&C Yellow No. 5 Lake"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. Salt leads; the lemon arrives as acid at 3 and oil at 10."
+  },
+  {
+   "title": "Lemon pepper, as described",
+   "source": "s:wp-lemon-pepper",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper",
+   "region": "United States",
+   "ingredients": [
+    "granulated lemon zest",
+    "cracked black peppercorns",
+    "salt",
+    "sugar",
+    "onion powder",
+    "garlic powder",
+    "citric acid",
+    "natural or artificial lemon flavoring",
+    "cayenne pepper",
+    "other spices or preservatives"
+   ],
+   "note": "Ingredients only. The first two are the source's primary pair; the rest are what it says commercial and homemade variations may add. No quantities are given and none are added."
+  }
+ ]
+}

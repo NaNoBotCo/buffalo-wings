@@ -1,0 +1,242 @@
+{
+ "id": "blue-cheese-dressing",
+ "names": {
+  "name": "Blue cheese dressing",
+  "aliases": [
+   "bleu cheese",
+   "blue cheese",
+   "chunky blue"
+  ],
+  "said": "In Buffalo it arrives without being ordered. Asking for ranch instead is noticed."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "base": "dairy",
+  "heat": "none"
+ },
+ "text": {
+  "what": "A thick white dip of blue cheese with mayonnaise and buttermilk, sour cream or yogurt, plus milk, vinegar, onion powder and garlic powder. A vinaigrette version exists — salad oil, blue cheese, vinegar and seasonings — and is not what comes with wings. Sold by most major dressing makers in the United States and Canada, and served as the dip beside Buffalo wings and raw vegetables.",
+  "story": "It reached the wing on the first night, if the Anchor Bar's account holds: Teressa Bellissimo sent the wings out with celery and blue cheese taken off the bar's antipasto tray. Whether that was 1964 is one of the arguments the origin carries.\n\nWhat is not argued is which dip Buffalo uses. The standard description of a Buffalo wing gives blue cheese or ranch; the same source records that ranch is the most popular wing dip in the United States. Buffalo's own bars serve blue cheese.\n\nThe dip has a chemistry problem the argument ignores. Water and oil separate in it — an unstable emulsion — and salad dressings spoil through organisms like Saccharomyces bailii and Lactobacillus fructivorans, the latter an acid-tolerant facultative anaerobe that survives the low pH a blue cheese dressing sits at.\n\n*Inference —* the chunks are the point. A smooth blue cheese dressing and a chunky one taste alike on a spoon and do not behave alike on a wing, because the chunks survive the dip and the smooth part does not.",
+  "how": "Cold, in a cup, beside the wing — never poured over it. A wing goes in, comes out with a load of cheese, and the celery goes in after to clear the palate. Home versions whisk mayonnaise, buttermilk and sour cream with lemon juice or vinegar and fold blue cheese in at the end, cubed rather than crumbled so some of it stays in pieces.",
+  "today": "On every wing plate in western New York and in the dip section of every wing chain. As of 16 September 2026 the USDA label panel for Ken's Steak House Chunky Blue Cheese Dressing reads 290 mg sodium, 13 g fat and 1 g sugar in a 2-tablespoon serving — 145 mg and 0.5 g in one tablespoon. Soybean oil is first; blue cheese is fourth, behind water and vinegar."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "The dip the style serves, and the one a medium order arrives with unasked.",
+   "rel": "style"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "The rival in the cup, and the best-selling dressing in America since 1992.",
+   "rel": "contrast"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Shares the plate and does the same job from the other direction.",
+   "rel": "dish"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "Took it off the antipasto tray on the night the Anchor Bar dates the wing to.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Where the antipasto tray was, in the account the bar tells.",
+   "rel": "place"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "The long-running argument this dip is one side of.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "What it is there to cut; the fat in it takes the cayenne off the tongue.",
+   "rel": "contrast"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "as": "The cup is the same idea applied to the dip rather than the sauce.",
+   "rel": "fry"
+  },
+  {
+   "to": "alabama-white-sauce",
+   "as": "The other white sauce on a wing, built to be dunked in rather than dipped from a cup.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "ranch-dressing",
+   "tell": "Cheese against herbs. Blue cheese dressing has visible blue cheese in it; ranch has buttermilk, garlic, onion, chives, parsley and dill."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "dairy",
+  "maker": "Ken's Foods, Inc.",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "soybean oil",
+   "water",
+   "distilled vinegar",
+   "blue cheese (pasteurized milk, cheese cultures, salt, enzymes)",
+   "salt",
+   "sugar",
+   "modified corn starch",
+   "natural flavor",
+   "palm oil",
+   "sodium and calcium caseinates",
+   "propylene glycol alginate",
+   "lactic acid",
+   "potassium sorbate (preservative)",
+   "xanthan gum",
+   "garlic",
+   "polysorbate 60",
+   "onion",
+   "yeast extract",
+   "spice",
+   "cellulose gum",
+   "calcium disodium EDTA",
+   "locust bean gum",
+   "beta carotene (color)"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 3,
+  "fat_rank": 1,
+  "tomato_rank": 0,
+  "sugar_rank": 6,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 2,
+  "sodium_mg_per_tbsp": 145,
+  "sugar_g_per_tbsp": 0.5,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-kens-chunky-blue-cheese",
+  "url": "https://fdc.nal.usda.gov/food-details/2673535/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Ken's Steak House Chunky Blue Cheese Dressing, 16 fl oz. Label serving is 2 Tbsp (30 g); sodium 290 mg and sugars 1 g per serving, so 145 mg and 0.5 g per tablespoon. soy_rank is 0 — soybean oil at rank 1 is a fat and is counted under fat_rank. Palm oil at 9 is a second fat the single rank cannot show. No chile, no heat word, no Scoville number. The house dressings Buffalo bars make have no label."
+ },
+ "recipes": [
+  {
+   "title": "Blue Cheese Dressing",
+   "source": "s:wikibooks-blue-cheese-dressing",
+   "license": "CC BY-SA 4.0",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Blue_Cheese_Dressing",
+   "author": "Wikibooks Cookbook contributors",
+   "region": "United States",
+   "yield": "3 cups (770 g)",
+   "ingredients": [
+    "2 tbsp (30 ml) lemon juice or vinegar (cider or white wine)",
+    "2/3 cup (160 ml) buttermilk",
+    "1 cup (230 g) mayonnaise",
+    "¾ cup (180 g) sour cream",
+    "½ tsp salt",
+    "½ tsp black pepper",
+    "½ tsp garlic powder",
+    "½ tsp onion powder",
+    "4 oz (115 g) any variety of blue cheese"
+   ],
+   "text": "Combine all ingredients except the blue cheese and whisk until smooth and homogeneous.\nDice the blue cheese into approximately ½ inch (1 cm) cubes. Most blue cheese is crumbly, so you'll wind up with a lot of crumbs as well as larger chunks.\nPour the mayonnaise mixture into a serving container and stir in the cubes and crumbs of cheese.",
+   "note": "Wikibooks Cookbook, CC BY-SA 4.0, copied in full with the source named. The page says it is adapted from the Buttermilk Ranch Dressing recipe on the same site — the two dips are one recipe apart."
+  },
+  {
+   "title": "Cream Dressing II",
+   "source": "s:farmer-1910",
+   "license": "Public domain",
+   "year": 1910,
+   "author": "Fannie Merritt Farmer",
+   "book": "The Boston Cooking-School Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/65061",
+   "region": "Boston",
+   "ingredients": [
+    "1 teaspoon mustard",
+    "1 teaspoon salt",
+    "2 teaspoons flour",
+    "1½ teaspoons powdered sugar",
+    "Few grains cayenne",
+    "1 teaspoon melted butter",
+    "Yolk 1 egg",
+    "⅓ cup hot vinegar",
+    "½ cup thick cream"
+   ],
+   "text": "Mix dry ingredients, add butter, egg, and vinegar slowly. Cook over boiling water, stirring constantly, until mixture thickens; cool, and add to heavy cream, beaten until stiff.",
+   "note": "Copied verbatim, old spellings kept. No blue cheese in it — a thick cooked cream dressing with cayenne and vinegar, the sort of dip an American table had before a bottled one existed."
+  }
+ ],
+ "sources": [
+  "s:wp-blue-cheese-dressing",
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:fdc-kens-chunky-blue-cheese",
+  "s:wikibooks-blue-cheese-dressing",
+  "s:farmer-1910"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-blue-cheese-dressing"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-kens-chunky-blue-cheese",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the service is Buffalo practice; the composition is cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-kens-chunky-blue-cheese"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [
+  {
+   "file": "blue-cheese-dressing/blue-cheese-dressing-blue-cheese-dressing.jpg",
+   "source": "commons",
+   "title": "File:Blue cheese dressing.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Blue_cheese_dressing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABlue_cheese_dressing.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "jules",
+   "credit": "https://www.flickr.com/photos/stone-soup/37680859251/",
+   "alt": "One Pot Chicken served with brocolli and blue cheese dressing.",
+   "date": "2017-10-13 16:08:37",
+   "primary": true,
+   "sha256": "b5396ad06190463bce18696771a17d7c1db820712eed12d533f252ad2111668c"
+  },
+  {
+   "file": "blue-cheese-dressing/blue-cheese-dressing-hopmonk-march-2026-sarah-stierch-03.jpg",
+   "source": "commons",
+   "title": "File:Hopmonk - March 2026 - Sarah Stierch 03.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Hopmonk_-_March_2026_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHopmonk_-_March_2026_-_Sarah_Stierch_03.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Missvain",
+   "credit": "Own work",
+   "alt": "Buffalo wings with ranch and blue cheese at Hopmonk, Sonoma, California",
+   "date": "Taken on 14 March 2026",
+   "primary": false,
+   "sha256": "78216eed45e9eebab759ecfc1cc4af5d0a4c72f3a777abd30c415aad91fadebf"
+  }
+ ],
+ "updated": "2026-09-16"
+}

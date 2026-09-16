@@ -1,0 +1,102 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "fried-rice-plate",
+ "names": {
+  "name": "the fried rice plate",
+  "aliases": [
+   "wings over fried rice",
+   "wings and rice"
+  ],
+  "sort": "fried rice plate",
+  "said": "Order across a turntable in bulletproof glass: wings over fried rice, mumbo on the side or on top."
+ },
+ "region": [
+  "dc",
+  "us"
+ ],
+ "facets": {
+  "course": "main",
+  "styles": [
+   "dc-mumbo"
+  ]
+ },
+ "text": {
+  "what": "Whole fried chicken wings served over egg fried rice with mumbo sauce, sold from Chinese-American carryouts across the Washington, D.C. metropolitan region. The wings are not cut; they go into the oil whole and come out as a set of three-jointed pieces laid over the rice.",
+  "story": "The dish belongs to two kitchens at once. Chinese-American restaurants pioneered take-out and delivery in the United States — New York delivery was pioneered in the 1970s by Empire Szechuan Gourmet Franchise, which hired Taiwanese students from Columbia to do it — and they were among the first American restaurants to use picture menus. Fried rice earned its place on those menus because it is fast, uses rice cooled overnight, and suited American tastes; the American version takes more soy sauce than the versions found in China.\n\nMumbo sauce came in from the other side of the counter. It is a takeout condiment specialty of Washington, D.C., put onto fried chicken wings, french fries, fried jumbo shrimp and fried rice, and it is often compared to Chicago's mild sauce, also a takeout sauce of that city's Black neighbourhoods.\n\n*Inference —* the plate is what happens when a Chinese-American carryout menu meets a Black Washington sauce over the same counter, and neither side's cookbook explains it on its own.",
+  "how": "Fry the wings whole and hard — no cut at the joints, so the drumette, flat and tip arrive attached. Bed of egg fried rice, made from rice cooled overnight. Sauce goes over the wings, or into a cup, depending on what the customer says. The whole thing comes in a hinged foam or plastic container and it is eaten with a plastic fork over the lid.",
+  "today": "Still the standard order at Chinese-American carryouts across the DMV. *Tradition holds —* every regular has a position on whether the sauce goes over the rice or stays in the cup, and the counter asks."
+ },
+ "kin": [
+  {
+   "to": "mumbo-sauce",
+   "as": "The sauce that makes this plate a D.C. plate rather than a takeout combination.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dc-mumbo",
+   "as": "The style this plate is the standard order of.",
+   "rel": "style"
+  },
+  {
+   "to": "mumbo-fries",
+   "as": "The same sauce over the other starch, from the same counter.",
+   "rel": "kin"
+  },
+  {
+   "to": "yums-carry-out",
+   "as": "One of the D.C. carryouts this plate is ordered across.",
+   "rel": "place"
+  },
+  {
+   "to": "horaces-and-dickies",
+   "as": "Another D.C. counter on this project's list, selling out of the same tradition.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-cut",
+   "as": "The step this plate skips: the wing goes in whole, tip and all.",
+   "rel": "fry"
+  },
+  {
+   "to": "mild-sauce",
+   "as": "Chicago's equivalent condiment, on chicken and fries instead of rice.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-american-chinese-cuisine",
+  "s:wp-mumbo-sauce",
+  "s:wp-mild-sauce"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-american-chinese-cuisine"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the whole-wing fry and the container are trade practice; the rice and the sauce are cited"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "kin[3].as": {
+    "tier": "inference",
+    "note": "the carryout is on this project's D.C. list; no source names this dish on its menu"
+   },
+   "kin[4].as": {
+    "tier": "inference",
+    "note": "same"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true
+}

@@ -1,0 +1,385 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "naked-fry/naked-fry-fried-chicken-wings.jpg",
+   "source": "commons",
+   "title": "File:Fried chicken wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Fried_chicken_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AFried_chicken_wings.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "白洛嘉",
+   "credit": "Own work",
+   "alt": "pickled with onions, rosemary, lemon juice and salt water.",
+   "date": "2018-07-19",
+   "primary": true,
+   "sha256": "d22c0ed1880f61d71874d91c7802bde94b3a45aadd9064b7e31c0991aabc523e"
+  }
+ ],
+ "id": "naked-fry",
+ "names": {
+  "name": "the naked fry",
+  "sort": "naked fry",
+  "aliases": [
+   "naked",
+   "unbreaded",
+   "bare"
+  ],
+  "said": "Naked on a menu means no flour touched it. In Buffalo it is not a menu word, because there is nothing else to order."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "kind": "coating"
+ },
+ "text": {
+  "what": "Frying a wing with nothing on it — no batter, no flour, no crumb. The skin browns and crisps on its own, the fat under it renders into the oil, and the sauce goes on afterwards. A Buffalo wing is an unbreaded chicken wing section, deep-fried and then coated or dipped in cayenne sauce and melted butter.",
+  "story": "The Anchor Bar states the rule flatly in its own account: the wings are not grilled, only deep-fried and slightly crispy, and the sauce is added after the wing has been cooked. Traditionally the wings are deep-fried in oil, without breading or flour, until well browned.\n\nSeventy miles east the same bird goes in dredged, and that is the oldest argument in the tradition. John Young's Buffalo wings from 1961 were breaded too — uncut, breaded, deep fried and served in his own tomato-based mumbo sauce — so the bare fry is not even the older Buffalo practice, only the one the city kept.\n\n*Inference —* the bare fry is a bet on skin. With no coat, everything the eater tastes as crisp is rendered chicken skin, which means the fry temperature and the time have nowhere to hide.",
+  "how": "Dry the pieces. Into hot oil bare, at a high enough heat that water leaving the skin pushes oil away from the surface — foods deep-fried at proper temperatures absorb very little. Fry until well browned and the skin crackles. Drain, then into the bowl with sauce. Sauce goes on after the fryer, never before; sauce in the oil burns and breaks.",
+  "today": "The Buffalo houses hold the line on it, and the National Buffalo Wing Festival's field is built around it. *Tradition holds —* a shop that fries bare will say so unprompted, and a shop that breads will not call it breading."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "The style built on this method; take the coat off and the argument with Rochester starts.",
+   "rel": "style"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "The other answer to the same question, seventy miles east.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked",
+   "as": "The menu word for this, and what it does and does not promise.",
+   "rel": "term"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "States the rule in its own words: deep-fried only, sauce added after.",
+   "rel": "place"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step that follows, and the only step that touches the wing after the oil.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "as": "With no coat between skin and oil, the fat is tasted directly.",
+   "rel": "fry"
+  },
+  {
+   "to": "john-young",
+   "as": "Breaded his Buffalo wings from 1961, which makes the bare fry the younger local practice.",
+   "rel": "person"
+  },
+  {
+   "to": "air-fryer",
+   "as": "The home attempt at the same result without a pot of oil.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:wp-deep-frying",
+  "s:wp-national-buffalo-wing-festival"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-anchor-bar",
+    "note": "closing paragraph marked inference"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "Frying a wing with nothing on it — no batter, no flour, no crumb. The skin browns and crisps on its own, the fat under it renders into the oil, and the sauce goes on afterwards.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style built on this method; take the coat off and the argument with Rochester starts.",
+   "rel": "style"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The other answer to the same question, seventy miles east.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "The menu word for this, and what it does and does not promise.",
+   "rel": "term"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "States the rule in its own words: deep-fried only, sauce added after.",
+   "rel": "place"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The step that follows, and the only step that touches the wing after the oil.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "With no coat between skin and oil, the fat is tasted directly.",
+   "rel": "fry"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Breaded his Buffalo wings from 1961, which makes the bare fry the younger local practice.",
+   "rel": "person"
+  },
+  {
+   "to": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "The home attempt at the same result without a pot of oil.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-national-buffalo-wing-festival",
+   "kind": "wikipedia",
+   "title": "National Buffalo Wing Festival",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Buffalo_Wing_Festival",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar",
+   "note": "closing paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": {
+  "file": "naked-fry/naked-fry-fried-chicken-wings.jpg",
+  "source": "commons",
+  "title": "File:Fried chicken wings.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Fried_chicken_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AFried_chicken_wings.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "白洛嘉",
+  "credit": "Own work",
+  "alt": "pickled with onions, rosemary, lemon juice and salt water.",
+  "date": "2018-07-19",
+  "primary": true,
+  "sha256": "d22c0ed1880f61d71874d91c7802bde94b3a45aadd9064b7e31c0991aabc523e"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "What the wing has to be for a dry seasoning to stick — no batter to hide under.",
+   "rel": "fry"
+  },
+  {
+   "from": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Fried bare, which is the method the style is argued over.",
+   "rel": "fry"
+  },
+  {
+   "from": "garlic-parm",
+   "type": "style",
+   "name": "Garlic parmesan wings",
+   "as": "What the wing needs to be for butter and cheese to grip it.",
+   "rel": "fry"
+  },
+  {
+   "from": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Needs bare skin to cling to; breading soaks it up instead.",
+   "rel": "fry"
+  },
+  {
+   "from": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "Needs a bare crisp skin, because the shake has nothing to stick to on a battered wing.",
+   "rel": "fry"
+  },
+  {
+   "from": "old-bay",
+   "type": "sauce",
+   "name": "Old Bay Seasoning",
+   "as": "Needs bare crisp skin; a breaded wing swallows the shake.",
+   "rel": "fry"
+  },
+  {
+   "from": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "The bare-skin result it is trying to reach with a tablespoon of oil instead of a vat.",
+   "rel": "contrast"
+  },
+  {
+   "from": "baking-powder-bake",
+   "type": "fry",
+   "name": "the baking powder bake",
+   "as": "The bar method this is trying to reproduce without a pot of oil.",
+   "rel": "contrast"
+  },
+  {
+   "from": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The other answer to the same question, seventy miles west.",
+   "rel": "contrast"
+  },
+  {
+   "from": "brine",
+   "type": "fry",
+   "name": "the brine",
+   "as": "The method with no prep at all, which is the argument against this one.",
+   "rel": "contrast"
+  },
+  {
+   "from": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "The bare wing that meets this oil with nothing between them.",
+   "rel": "fry"
+  },
+  {
+   "from": "dredge",
+   "type": "fry",
+   "name": "the dredge",
+   "as": "The method that omits this entirely, and argues that omission is the point.",
+   "rel": "contrast"
+  },
+  {
+   "from": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "With no coating in the way, the fat is tasted directly on the skin.",
+   "rel": "fry"
+  },
+  {
+   "from": "grill",
+   "type": "fry",
+   "name": "the grill",
+   "as": "The method Buffalo holds to, and the one its houses name this against.",
+   "rel": "contrast"
+  },
+  {
+   "from": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The step before: bare skin, so the sauce has something to stick to and nothing to soak.",
+   "rel": "fry"
+  },
+  {
+   "from": "gabriels-gate",
+   "type": "place",
+   "name": "Gabriel's Gate",
+   "as": "No batter here — the crust is skin, fried.",
+   "rel": "fry"
+  },
+  {
+   "from": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "The method the word names — dry skin into hot oil, nothing between.",
+   "rel": "fry"
+  },
+  {
+   "from": "the-flat-and-the-drum",
+   "type": "story",
+   "name": "The flat and the drum",
+   "as": "Why the flat's skin matters: bare in the oil, the skin is the whole of the crust.",
+   "rel": "fry"
+  }
+ ]
+}

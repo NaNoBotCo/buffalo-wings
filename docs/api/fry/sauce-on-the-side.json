@@ -1,0 +1,288 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "sauce-on-the-side",
+ "names": {
+  "name": "sauce on the side",
+  "aliases": [
+   "on the side",
+   "naked with sauce",
+   "dry with a cup"
+  ],
+  "said": "Ask for it on the side in Buffalo and the counter will repeat the order back to you."
+ },
+ "region": [
+  "us",
+  "western-ny"
+ ],
+ "facets": {
+  "kind": "method"
+ },
+ "text": {
+  "what": "Ordering the wings unsauced with the sauce in a cup. The argument is whether the sauce is a step in the cooking or a condiment at the table — and the traditions answer it differently, on the record, in their own methods.",
+  "story": "Buffalo's account treats the toss as part of the dish: the cooked wings are placed in a bowl or pot and shaken to coat them completely in sauce before serving, and the Anchor Bar states that the sauce is added after the wing has been cooked. Both sentences put the sauce in the kitchen, not on the table.\n\nOther traditions put it elsewhere on purpose. Bonchon brushes sauce onto the chicken by hand after frying rather than tossing it in containers, a process intended to distribute the seasoning evenly without compromising the texture of its double-fried crust. Atlanta runs the same split as a menu choice: lemon pepper wings are tossed in a dry seasoning after cooking, while lemon pepper wet, invented at the American Deli, coats them in sauce instead. Memphis does it as a whole style — wet or dry, and the customer picks. Nashville's paste is applied by the server with a spoon and gloves, immediately after the fryer in the more traditional method, which is neither tossed nor on the side.\n\nWhat the dip is, nobody disputes: traditionally Buffalo wings are served with blue cheese dipping sauce on the side, and ranch dressing is the most popular wing dipping sauce in the United States. So the side cup has always existed. The argument is only about which cup.\n\n*Inference —* the case for the side is texture and the case for the bowl is distribution, and both are right about their own wing. A bare-fried wing has no crust to protect and a soaked one tastes of the sauce all the way round; a double-fried shell has a crust worth protecting and goes dull the moment it soaks. This project reports the positions and takes none of them.",
+  "how": "Fry as usual and skip the bowl. Sauce warm in a cup, wings dry in the basket, and the eater dips piece by piece — which puts sauce on the outside only and leaves the skin tight. A middle course exists and shops use it: toss half the order and cup the rest, or brush rather than shake. A dry-rub order is already this arrangement under a different name.",
+  "today": "Available almost everywhere and asked for often, particularly for children and for takeout, where a tossed wing goes soft on the drive. *Tradition holds —* Buffalo counters will do it and will not pretend to like it, and takeaway containers have made the request common enough that most menus no longer note it."
+ },
+ "kin": [
+  {
+   "to": "the-toss",
+   "as": "The step this order refuses, and the one Buffalo treats as part of cooking.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style whose own account puts the sauce in the kitchen rather than the table.",
+   "rel": "style"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "The cup that was always on the side, which is why the request sounds reasonable.",
+   "rel": "sauce"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "The most popular dipping sauce in the country, and always served this way.",
+   "rel": "sauce"
+  },
+  {
+   "to": "double-fry",
+   "as": "The method with the most to lose from a bowl, and the one that brushes instead.",
+   "rel": "fry"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "Memphis runs the same choice as a style rather than as a special request.",
+   "rel": "term"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "as": "Atlanta's name for choosing the sauced side of this argument.",
+   "rel": "sauce"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "as": "The other argument this tradition holds at full volume, with the same rule: quote it, do not settle it.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:wp-bonchon-chicken",
+  "s:wp-lemon-pepper-wings",
+  "s:wp-hot-chicken"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wing",
+    "note": "closing paragraph marked inference; every position is attributed to the tradition that holds it"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "Ordering the wings unsauced with the sauce in a cup. The argument is whether the sauce is a step in the cooking or a condiment at the table — and the traditions answer it differently, on the record, in their own methods.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The step this order refuses, and the one Buffalo treats as part of cooking.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style whose own account puts the sauce in the kitchen rather than the table.",
+   "rel": "style"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The cup that was always on the side, which is why the request sounds reasonable.",
+   "rel": "sauce"
+  },
+  {
+   "to": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "The most popular dipping sauce in the country, and always served this way.",
+   "rel": "sauce"
+  },
+  {
+   "to": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The method with the most to lose from a bowl, and the one that brushes instead.",
+   "rel": "fry"
+  },
+  {
+   "to": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "Memphis runs the same choice as a style rather than as a special request.",
+   "rel": "term"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "type": "sauce",
+   "name": "Lemon pepper wet",
+   "as": "Atlanta's name for choosing the sauced side of this argument.",
+   "rel": "sauce"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "The other argument this tradition holds at full volume, with the same rule: quote it, do not settle it.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-bonchon-chicken",
+   "kind": "wikipedia",
+   "title": "Bonchon Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonchon_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-lemon-pepper-wings",
+   "kind": "wikipedia",
+   "title": "Lemon pepper wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper_wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hot chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing",
+   "note": "closing paragraph marked inference; every position is attributed to the tradition that holds it"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "alabama-white",
+   "type": "style",
+   "name": "Alabama white sauce wings",
+   "as": "How white sauce most often reaches a wing outside Alabama — as a dip rather than a dunk.",
+   "rel": "fry"
+  },
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "Where the sauce goes when a dry wing is ordered and somebody at the table still wants it.",
+   "rel": "fry"
+  },
+  {
+   "from": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The cup is the same idea applied to the dip rather than the sauce.",
+   "rel": "fry"
+  },
+  {
+   "from": "sweet-chili-sauce",
+   "type": "sauce",
+   "name": "Sweet chili sauce",
+   "as": "As often a dip in a cup as a coating on the wing.",
+   "rel": "fry"
+  },
+  {
+   "from": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The argument this method keeps starting: a crust worth protecting, and a sauce that wants to soak it.",
+   "rel": "fry"
+  },
+  {
+   "from": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The argument about whether this step is compulsory.",
+   "rel": "contrast"
+  },
+  {
+   "from": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "Ordered with it by anyone who wants the crust to last past the parking lot.",
+   "rel": "fry"
+  }
+ ]
+}

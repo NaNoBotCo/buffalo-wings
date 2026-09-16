@@ -1,0 +1,89 @@
+{
+ "id": "wing-night",
+ "names": {
+  "name": "wing night",
+  "aliases": [
+   "Wing Wednesday",
+   "wing special",
+   "25-cent wings"
+  ],
+  "said": "Named after the night, not the wing: Wing Wednesday, Thirsty Thursday with wings attached."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "W",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "wing + night, on the pattern of ladies' night, trivia night, open-mic night — a weekday plus the thing that fills it",
+  "first_attested": "",
+  "note": "Alliteration decides the branding: Wing Wednesday is the name that repeats, because the W's match. *Inference —* the alliteration explains the name, not the practice; the practice sits on whichever night the bar is otherwise empty.",
+  "tier": "inference"
+ },
+ "text": {
+  "what": "A weekly price special on wings, usually sold by the piece and usually paired with a drink minimum. The deal is the draw; the pitcher is the margin.",
+  "how": "Which night? No single one owns it. Buffalo Wing Guide, which keeps a running list of western New York specials, files them under Monday through Sunday plus Every Day — every weekday carries some. A bar-marketing write-up describes the pull the other way round, saying wing night is what \"makes a bar busy on Monday or Tuesday night\". So the answer is that wing night lands where the week is slow, and the name it gets depends on which letter it can rhyme with.",
+  "today": "Buffalo Wing Guide's 2026 list warns that \"all wing specials and pricing are subject to change. Please call bar or restaurant to verify accuracy\" — which is the state of every posted wing price after three years of wing costs moving."
+ },
+ "kin": [
+  {
+   "to": "the-pitcher",
+   "as": "What the special is really selling; the wings are priced to move it.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing-basket",
+   "as": "The portion a wing night is counted in.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Why a per-piece special is a harder promise some years than others.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Ran the weekly special at national scale and made the day part of the brand.",
+   "rel": "place"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The one wing night nobody has to advertise.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:web-buffalo-wing-guide-specials",
+  "s:web-gourmet-marketing-wing-night",
+  "s:wp-buffalo-wild-wings"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-buffalo-wing-guide-specials"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "inference"
+   },
+   "text.what": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-buffalo-wing-guide-specials"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-buffalo-wing-guide-specials"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

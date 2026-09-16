@@ -1,0 +1,147 @@
+{
+ "schema": 1,
+ "id": "chickie-and-petes",
+ "type": "place",
+ "names": {
+  "name": "Chickie's & Pete's",
+  "aliases": [
+   "Chickie's and Pete's"
+  ],
+  "sort": "Chickie's & Pete's"
+ },
+ "region": [
+  "philadelphia"
+ ],
+ "facets": {
+  "state": "PA",
+  "status": "open",
+  "founded": 1977,
+  "cooked": "fried",
+  "styles": [
+   "buffalo",
+   "smoked-bbq-wing"
+  ]
+ },
+ "text": {
+  "what": "A Philadelphia sports bar and crab house that began as a Mayfair taproom in 1977 and now runs stadium, casino and airport rooms. Crabfries are what it is known for; Chickie's Wings come classic in six or ten, boneless in eight or twelve, in buffalo, sweet heat, dry rub or barbecue, with celery and blue cheese or ranch.",
+  "story": "Peter and Henrietta Ciarrocchi ran a deli and in 1977 bought a small neighbourhood taproom called Wally's, at 4010 Robbins Avenue in Mayfair, northeast Philadelphia. Peter made three changes: he put stools at a standing-only bar, he ended the men-only rule, and he named the place for himself and his wife, whom everybody called Chickie.\n\nPeter died in 1987 and his son Pete took it on. The Crabfries came from him — crinkle-cut fries dusted with a crab-boil spice blend and served with a warm white cheese sauce, no crab meat in them — and by 2008 the company counted five million orders sold. It trademarked \"crab fries\" in 2007 and sued over the phrase in 2011; one defendant settled out of court in August 2012. In February 2014 the company agreed to pay $8.5 million to settle a Department of Labor investigation and an employee suit over wage and hour law.\n\nThe expansion ran through stadiums: a building near Veterans Stadium in 1998, then Lincoln Financial Field, two casinos, and four rooms at Philadelphia International Airport. ESPN voted it the number one sports bar in North America in 2011.\n\n*Inference —* the wing here is a sports-bar wing, and the sports bar is the point. Philadelphia's loudest wing institution was a radio eating contest rather than a fryer; this is where the same city went to sit down.",
+  "today": "Seven locations across Philadelphia and southern New Jersey as of 2023: Robbins Avenue and Roosevelt Boulevard in Philadelphia, Lincoln Financial Field in South Philadelphia, Parx Casino in Bensalem Township, the Tropicana in Atlantic City, Bordentown and Egg Harbor Township. The wing board in September 2026 reads buffalo, sweet heat, dry rub or barbecue, classic or boneless."
+ },
+ "geo": {
+  "lat": 40.0274043,
+  "lon": -75.0599741,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "4010 Robbins Avenue",
+  "city": "Philadelphia",
+  "county": "Philadelphia",
+  "state": "PA",
+  "postcode": "19135"
+ },
+ "links": [
+  {
+   "label": "Chickie's & Pete's",
+   "url": "https://www.chickiesandpetes.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "bar",
+   "source": "s:web-wp-chickies-and-petes",
+   "tier": "cited",
+   "note": "began as a taproom in 1977 and trades as a sports bar and crab house"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-wp-chickies-and-petes",
+   "tier": "cited",
+   "note": "founded by Peter and Henrietta Ciarrocchi; their son Pete Ciarrocchi has run it since 1987"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-chickies-petes-menu",
+   "tier": "cited",
+   "note": "the Crabfries cheese sauce and the crab-boil spice blend are proprietary; the wing board carries a house sweet heat and dry rub"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "ESPN voted it the number one sports bar in North America",
+   "year": 2011,
+   "source": "s:web-wp-chickies-and-petes"
+  }
+ ],
+ "kin": [
+  {
+   "to": "wing-bowl",
+   "as": "The other Philadelphia wing institution: a radio eating contest, held across town, that this bar is not part of.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Sold here alongside the classic, in eights and twelves, on the same board and at the same counts.",
+   "rel": "dish"
+  },
+  {
+   "to": "french-fries",
+   "as": "Its own version, Crabfries, carries a trademark the company has sued to defend.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "as": "One of four finishes on the wing board, in a room that sells crab first.",
+   "rel": "style"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Still on the plate here, with blue cheese or ranch, four hundred miles from Buffalo.",
+   "rel": "dish"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "Puts the question on the menu and lets the order settle it.",
+   "rel": "story"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "A stadium-and-casino wing operation, which is what that day is built on.",
+   "rel": "event"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "An $8.5 million wage settlement in 2014 is part of what a cheap bar wing has cost somebody.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:web-wp-chickies-and-petes",
+  "s:web-chickies-petes-menu",
+  "s:web-chickies-petes-locations"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-chickies-and-petes"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node, Chickie's & Pete's, 4010 Robbins Avenue, northeast Philadelphia"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-chickies-petes-menu",
+    "note": "the wing board is from the company's own menu page; the location list is from Wikipedia and dated 2023"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

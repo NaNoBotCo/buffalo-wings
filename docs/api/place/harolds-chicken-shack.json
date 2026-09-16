@@ -1,0 +1,404 @@
+{
+ "schema": 1,
+ "id": "harolds-chicken-shack",
+ "type": "place",
+ "names": {
+  "name": "Harold's Chicken Shack",
+  "aliases": [
+   "Harold's Chicken",
+   "Harold's",
+   "Harold's: The Fried Chicken King"
+  ],
+  "sort": "Harold's Chicken Shack"
+ },
+ "region": [
+  "chicago"
+ ],
+ "facets": {
+  "state": "IL",
+  "status": "open",
+  "founded": 1950,
+  "cooked": "fried",
+  "styles": [
+   "chicago-mild-sauce"
+  ]
+ },
+ "text": {
+  "what": "A Chicago fried-chicken institution founded by Harold Pierce in 1950 and franchised to friends and family, now past a hundred storefronts. The constants across the shops are the chicken dinners and the emblem of a cook chasing a chicken with a cleaver, often crowned; everything else — technique, seasoning, menu — varies shop to shop. The counter question is mild sauce or hot.",
+  "story": "Harold P. Pierce was born 11 August 1917 in Midway, Alabama and came to Chicago in 1943, where he drove as a chauffeur. He and his wife Hilda ran a soul food restaurant on 39th Street called the H&H, whose specialities were dumplings and chicken feet. A friend, Gene Rosen, kept a poultry shop nearby and supplied the birds Pierce worked his recipe on.\n\nHarold's Chicken Shack opened on 22 June 1950, at 47th Street on the South Side. The sources disagree about which corner: Wikipedia's article on the restaurant says 47th and Kenwood, near the estate where Pierce had worked; its article on Pierce says 47th and Greenwood. A 2026 Block Club Chicago piece reports 1235 East 47th Street and says the Greenwood corner came in 1962. This record puts the map pin at 1235 East 47th and leaves the argument open.\n\nPierce franchised the idea rather than standardising it. Franchisees bought their chickens from Rosen and were otherwise left alone, so technique, seasoning and menu vary shop to shop; the constants are the chicken dinners and the cook-and-cleaver emblem, sometimes in neon, sometimes hand-painted. Concentration on the South Side owes something to redlining, which limited where Pierce could expand. Some shops serve through bulletproof glass, which arrived as a necessity rather than a look.\n\nPierce retired in the early 1980s to Beaverville, Illinois, and raised hunting dogs. His second wife, Willa, took the business and expanded it beyond Chicago; she died on 21 January 2003. Pierce died on 8 March 1988 in Kankakee, Illinois, aged 70, of prostate cancer. Kristen Pierce, his daughter and the company's chief executive, died in January 2026.",
+  "how": "*Tradition holds —* you order by number. The chicken is fried after the order goes in and dropped over fries, so the fries take the grease, with a slice of white bread on top. The counter question is mild sauce, hot sauce, both or neither. Mild sauce is the sweeter one, close to a barbecue sauce, that Harold's helped make standard on the South and West Sides.",
+  "today": "As of 2025 the chain reported more than a hundred locations, about forty of them in Chicago, with clusters on the South Side and the southern suburbs, several on the West Side, western suburban shops in Oak Park and Aurora, a few on the North Side, and stores in Indiana, downstate Illinois, Arizona, Georgia, Nevada, Missouri, Texas, Minnesota, North Carolina and California. An Atlanta location opened in 2012 with a bar, as Harold's Chicken and Ice Bar; the Charlotte store carries a bar and hookah. The corporate picture is contested enough that Block Club Chicago ran a 2026 explainer on it, and this record does not try to settle who holds the name."
+ },
+ "geo": {
+  "lat": 41.809569,
+  "lon": -87.5959671,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "city": "Chicago",
+  "county": "Cook",
+  "state": "IL"
+ },
+ "links": [],
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:wp-harold-s-chicken-shack",
+   "tier": "cited",
+   "note": "Wikipedia names the founder, Harold Pierce, as an African-American entrepreneur, and describes a chain operating primarily in Chicago's predominantly Black communities; the Wikipedia article on Pierce carries the same"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-wp-harold-pierce",
+   "tier": "cited",
+   "note": "Pierce franchised to friends and family; his second wife Willa ran the business after him, and his daughter Kristen Pierce was chief executive until her death in January 2026"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:wp-mild-sauce",
+   "tier": "cited",
+   "note": "Wikipedia names Harold's among the Chicago shops that made mild sauce popular"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "Named repeatedly in Chicago hip-hop — Kanye West, Common, Rhymefest, Chance the Rapper, Freddie Gibbs, Lupe Fiasco, Dreezy, and by Kendrick Lamar on Fredo Santana's \"Jealous\"; Wale called it overrated on \"That Way\"",
+   "year": null,
+   "source": "s:wp-harold-s-chicken-shack",
+   "note": "the argument counts as attention paid, both ways"
+  },
+  {
+   "by": "other",
+   "what": "Shown on the television series South Side, in music videos for BJ The Chicago Kid's \"It's True\" and Freddie Gibbs's \"Harold's\", and next to the bar in the film Weird Science",
+   "year": null,
+   "source": "s:wp-harold-s-chicken-shack"
+  }
+ ],
+ "kin": [
+  {
+   "to": "chicago-mild-sauce",
+   "as": "One of the two counters Wikipedia credits with making mild sauce the South Side default.",
+   "rel": "style"
+  },
+  {
+   "to": "mild-sauce",
+   "as": "The question the counter asks before it hands the bag over.",
+   "rel": "sauce"
+  },
+  {
+   "to": "harold-pierce",
+   "as": "Founded it in 1950 and franchised it without standardising it, so no two shops fry quite alike.",
+   "rel": "person"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "as": "The West Side counter Wikipedia names beside this one for mild sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "french-fries",
+   "as": "The chicken goes down on top of them, and they take the grease.",
+   "rel": "dish"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "as": "Carries the best-known one: a cook chasing a chicken with a cleaver, often crowned, in neon or hand paint.",
+   "rel": "art"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "The other Chicago sauce name of the same decades, and the trademark that the D.C. mumbo fight turned on.",
+   "rel": "person"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Not the trade here: this counter sells the bird in bone-in pieces, wings among them.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-harold-s-chicken-shack",
+  "s:web-wp-harold-pierce",
+  "s:wp-mild-sauce",
+  "s:web-blockclub-harolds"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-harold-s-chicken-shack"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim, 1235 East 47th Street, North Kenwood, Chicago — one of three addresses the sources give for the first shop"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "source": "s:wp-mild-sauce",
+    "note": "the fries-under-the-chicken and white-bread service is general knowledge of the Chicago chicken shack; the mild sauce question is cited"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-harold-s-chicken-shack"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A Chicago fried-chicken institution founded by Harold Pierce in 1950 and franchised to friends and family, now past a hundred storefronts.",
+ "region_terms": [
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "mild sauce, the South Side chicken shack"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "One of the two counters Wikipedia credits with making mild sauce the South Side default.",
+   "rel": "style"
+  },
+  {
+   "to": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "The question the counter asks before it hands the bag over.",
+   "rel": "sauce"
+  },
+  {
+   "to": "harold-pierce",
+   "type": "person",
+   "name": "Harold Pierce",
+   "as": "Founded it in 1950 and franchised it without standardising it, so no two shops fry quite alike.",
+   "rel": "person"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "type": "place",
+   "name": "Uncle Remus Saucy Fried Chicken",
+   "as": "The West Side counter Wikipedia names beside this one for mild sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "The chicken goes down on top of them, and they take the grease.",
+   "rel": "dish"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "Carries the best-known one: a cook chasing a chicken with a cleaver, often crowned, in neon or hand paint.",
+   "rel": "art"
+  },
+  {
+   "to": "argia-b-collins",
+   "type": "person",
+   "name": "Argia B. Collins",
+   "as": "The other Chicago sauce name of the same decades, and the trademark that the D.C. mumbo fight turned on.",
+   "rel": "person"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Not the trade here: this counter sells the bird in bone-in pieces, wings among them.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-harold-s-chicken-shack",
+   "kind": "wikipedia",
+   "title": "Harold's Chicken Shack",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harold%27s_Chicken_Shack",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-harold-pierce",
+   "kind": "web",
+   "title": "Harold Pierce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harold_Pierce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mild-sauce",
+   "kind": "wikipedia",
+   "title": "Mild sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mild_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-blockclub-harolds",
+   "kind": "web",
+   "title": "What's Going On With Harold's Chicken? Your Questions (Mostly) Answered",
+   "publisher": "Block Club Chicago",
+   "date": "2026-08-14",
+   "url": "https://blockclubchicago.org/2026/08/14/whats-going-on-with-harolds-chicken/",
+   "accessed": "2026-09-16",
+   "note": "rate-limited to this project; read only through a search engine's extract, so anything drawn from it is marked needs_verification"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-harold-s-chicken-shack"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-harold-s-chicken-shack"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "source": "s:wp-mild-sauce",
+   "note": "the fries-under-the-chicken and white-bread service is general knowledge of the Chicago chicken shack; the mild sauce question is cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-harold-s-chicken-shack"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Nominatim, 1235 East 47th Street, North Kenwood, Chicago — one of three addresses the sources give for the first shop"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-harold-s-chicken-shack"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "black-owned",
+   "label": "Black-owned",
+   "icon": "✊🏾",
+   "group": "ownership",
+   "evidence": "the owner's own statement, a press profile naming the owner, a Black-owned business directory",
+   "resources": [
+    "r:eatokra",
+    "r:black-restaurant-week",
+    "r:sfa-oral-histories"
+   ],
+   "source": "s:wp-harold-s-chicken-shack",
+   "note": "Wikipedia names the founder, Harold Pierce, as an African-American entrepreneur, and describes a chain operating primarily in Chicago's predominantly Black communities; the Wikipedia article on Pierce carries the same",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:web-wp-harold-pierce",
+   "note": "Pierce franchised to friends and family; his second wife Willa ran the business after him, and his daughter Kristen Pierce was chief executive until her death in January 2026",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:wp-mild-sauce",
+   "note": "Wikipedia names Harold's among the Chicago shops that made mild sauce popular",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "Named repeatedly in Chicago hip-hop — Kanye West, Common, Rhymefest, Chance the Rapper, Freddie Gibbs, Lupe Fiasco, Dreezy, and by Kendrick Lamar on Fredo Santana's \"Jealous\"; Wale called it overrated on \"That Way\"",
+   "url": "",
+   "year": null,
+   "source": "s:wp-harold-s-chicken-shack"
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "Shown on the television series South Side, in music videos for BJ The Chicago Kid's \"It's True\" and Freddie Gibbs's \"Harold's\", and next to the bar in the film Weird Science",
+   "url": "",
+   "year": null,
+   "source": "s:wp-harold-s-chicken-shack"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "Opened 22 June 1950 at 47th and Kenwood, and the shop most responsible for carrying mild sauce out of the South Side.",
+   "rel": "place"
+  },
+  {
+   "from": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "One of the shops that made it popular, and where the pour goes over bread.",
+   "rel": "place"
+  },
+  {
+   "from": "chicken-and-waffles",
+   "type": "dish",
+   "name": "chicken and waffles",
+   "as": "Chicago's fried-chicken counter out of the same soul food tradition this dish's Harlem version belongs to.",
+   "rel": "place"
+  },
+  {
+   "from": "uncle-remus-saucy-fried-chicken",
+   "type": "place",
+   "name": "Uncle Remus Saucy Fried Chicken",
+   "as": "The South Side counter Wikipedia names beside this one whenever mild sauce comes up.",
+   "rel": "kin"
+  },
+  {
+   "from": "harold-pierce",
+   "type": "person",
+   "name": "Harold Pierce",
+   "as": "His, from 22 June 1950, and named for him on every sign.",
+   "rel": "place"
+  },
+  {
+   "from": "mild-sauce-word",
+   "type": "term",
+   "name": "mild sauce",
+   "as": "One of the counters that made the word travel.",
+   "rel": "place"
+  },
+  {
+   "from": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "A chain whose sign is its own argument, repeated across the South Side of Chicago.",
+   "rel": "place"
+  },
+  {
+   "from": "rooster-weathervanes",
+   "type": "art",
+   "name": "Rooster weathervanes",
+   "as": "A chain whose sign carries a drawn bird of exactly this descent.",
+   "rel": "place"
+  }
+ ]
+}

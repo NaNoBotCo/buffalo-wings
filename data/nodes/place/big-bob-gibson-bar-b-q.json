@@ -1,0 +1,173 @@
+{
+ "schema": 1,
+ "id": "big-bob-gibson-bar-b-q",
+ "type": "place",
+ "names": {
+  "name": "Big Bob Gibson Bar-B-Q",
+  "aliases": [
+   "Big Bob Gibson's Bar-B-Q",
+   "Big Bob Gibson"
+  ],
+  "sort": "Big Bob Gibson Bar-B-Q"
+ },
+ "region": [
+  "the-south"
+ ],
+ "facets": {
+  "state": "AL",
+  "status": "open",
+  "founded": 1925,
+  "cooked": "smoked",
+  "styles": [
+   "alabama-white",
+   "smoked-bbq-wing"
+  ]
+ },
+ "text": {
+  "what": "The Decatur, Alabama pit where white barbecue sauce was invented: mayonnaise, vinegar and black pepper, made for smoked chicken. Bob Gibson started it in 1925; four generations of his family have run it since, and its competition team won first place for smoked wings at Memphis in May in 2021.",
+  "story": "Bob Gibson (1888-1972) worked for the L&N Railroad and barbecued at weekends over a dugout pit in his backyard off Danville Road, on an oak plank nailed to a sycamore. The house quotes the line that turned it into a business, from Roslyn Mitchell: \"Your future is not in the railroad, but in Bar-B-Q.\" He opened a restaurant on Moulton Road with his brother-in-law Sam Woodall called Gib-All's, then continued under his own name.\n\nThe white sauce was his. He split and seasoned chickens, smoked them about three hours over hickory, and dunked them in mayonnaise, vinegar and black pepper. It began as a chicken sauce and stayed one.\n\nIn 1952 Gibson handed the operation to his daughter Catherine McLemore (1919-2004) for half ownership and opened on Sixth Avenue. After his death five grandchildren and their spouses ran it, led by Don McLemore (1941-2026). Chris Lilly, from Florence, joined in 1992 on marrying Amy McLemore, Gibson's great-granddaughter, and runs the competition team. Don McLemore recorded an oral history with the Southern Foodways Alliance on 15 November 2006, for the Alabama BBQ leg of the Southern BBQ Trail: the 1925 backyard start, the meringue pies, a 1988 fire that took the original building, and a rebuild next door that kept the old neon.\n\nThe sources disagree on small things. The Encyclopedia of Alabama dates Gibson's death to 1972 and a Sixth Avenue building to 1987; the oral history says McLemore joined in 1972, a year before Gibson died, and puts the fire in 1988. The 1952 Sixth Avenue opening is in both.\n\nAt Memphis in May the family has taken five grand championships — 2000, 2003, 2011, 2014 and 2017 — twelve category wins in pork shoulder, and, in 2021, first place in smoked wings.",
+  "how": "Split the bird, season it, smoke it about three hours over hickory, then dunk it in the white sauce — mayonnaise, apple cider vinegar, lemon juice, black pepper and salt, thin enough to take a whole split chicken. The sauce goes on after the smoke and was made for chicken only.",
+  "today": "Two Decatur restaurants. The Sixth Avenue room at 1715 6th Avenue SE, phone (256) 350-6969, is open seven days, 9.30 a.m. to 8.15 p.m. for dine-in and to 8.30 p.m. at the drive-through. The Danville Road room at 2520 Danville Road SW, phone (256) 350-0404, keeps the same times Monday to Saturday. The pit turned a hundred in 2025."
+ },
+ "geo": {
+  "lat": 34.5794626,
+  "lon": -86.9785639,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1715 6th Avenue SE",
+  "city": "Decatur",
+  "county": "Morgan",
+  "state": "AL",
+  "postcode": "35601"
+ },
+ "links": [
+  {
+   "label": "Big Bob Gibson Bar-B-Q",
+   "url": "https://bigbobgibson.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "smoked",
+   "source": "s:web-encyclopedia-alabama-big-bob",
+   "tier": "cited",
+   "note": "chickens split, seasoned and smoked about three hours over hickory before the sauce"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-encyclopedia-alabama-big-bob",
+   "tier": "cited",
+   "note": "Bob Gibson to his daughter Catherine McLemore in 1952, then five grandchildren and their spouses, then Chris Lilly by marriage into the fourth generation"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-encyclopedia-alabama-big-bob",
+   "tier": "cited",
+   "note": "the white sauce was invented here in 1925 and is the reason the place is in this set"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "sfa",
+   "what": "Oral history with Don McLemore, interviewed by Amy C. Evans for the Alabama BBQ leg of the Southern BBQ Trail",
+   "year": 2006,
+   "source": "s:web-sfa-big-bob-gibson",
+   "url": "https://www.southernfoodways.org/interview/big-bob-gibsons-bar-b-q/"
+  },
+  {
+   "by": "other",
+   "what": "Memphis in May World Championship Barbecue Cooking Contest: five grand championships (2000, 2003, 2011, 2014, 2017), twelve pork shoulder wins, and first place in smoked wings in 2021",
+   "year": 2021,
+   "source": "s:web-encyclopedia-alabama-big-bob",
+   "url": "https://encyclopediaofalabama.org/article/big-bob-gibson-bbq/"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Open 7 days, 9.30 a.m. to 8.15 p.m. dine-in, 8.30 p.m. drive-through — the 6th Avenue room",
+  "source": "s:web-big-bob-gibson-locations",
+  "url": "https://bigbobgibson.com/pages/locations",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the Danville Road room is Monday to Saturday, so a Sunday there is closed while a Sunday here is open"
+ },
+ "kin": [
+  {
+   "to": "alabama-white",
+   "as": "Invented it here in 1925, for smoked chicken, and the style has carried the pit's name ever since.",
+   "rel": "origin"
+  },
+  {
+   "to": "alabama-white-sauce",
+   "as": "Mayonnaise, vinegar, lemon juice, black pepper and salt, thin enough to dunk a split bird in.",
+   "rel": "sauce"
+  },
+  {
+   "to": "bob-gibson",
+   "as": "Built the backyard pit in 1925 and made the sauce that outlived him.",
+   "rel": "person"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "Won first place in smoked wings at Memphis in May in 2021, off a pit that was built for whole chickens.",
+   "rel": "style"
+  },
+  {
+   "to": "central-bbq",
+   "as": "The Memphis pit whose founders came off the same competition circuit.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Recorded Don McLemore here in 2006 for the Southern BBQ Trail.",
+   "rel": "org"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "Offers a third answer to the dip question, and it is mayonnaise with vinegar in it.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:web-encyclopedia-alabama-big-bob",
+  "s:web-sfa-big-bob-gibson",
+  "s:web-big-bob-gibson-history",
+  "s:web-big-bob-gibson-locations"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-encyclopedia-alabama-big-bob"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node, Big Bob Gibson's Bar-B-Q, 1715 6th Avenue SE, Decatur"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-encyclopedia-alabama-big-bob"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-big-bob-gibson-locations"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

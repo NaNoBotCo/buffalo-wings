@@ -1,0 +1,93 @@
+{
+ "schema": 1,
+ "id": "jim-disbrow",
+ "type": "person",
+ "names": {
+  "name": "Jim Disbrow",
+  "aliases": [
+   "James Disbrow",
+   "Jimmy Disbrow"
+  ],
+  "sort": "Disbrow, Jim"
+ },
+ "region": [
+  "ohio-valley",
+  "us"
+ ],
+ "facets": {
+  "role": [
+   "founder"
+  ],
+  "state": "OH",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Figure skater, skating official and co-founder of Buffalo Wild Wings, born 9 July 1948 and dead of brain cancer on 16 October 2002, aged 54. He started the chain in 1982 because he could not find a Buffalo-style wing in Ohio.",
+  "story": "Disbrow had polio as a child and took up skating to strengthen his legs. He won junior men's silver at the 1966 U.S. Figure Skating Championships, skated pairs with Katie Walker, toured two years with Holiday on Ice, and became a judge.\n\nIn 1982 he finished judging an amateur competition at Kent State and met up with Scott Lowery, whose parents had been his skating coaches and guardians. The two went looking for Buffalo-style chicken wings in Kent, Ohio, and could not find any. So they opened their own place — near Ohio State in Columbus, and called it Buffalo Wild Wings & Weck, the weck being beef on weck, the Buffalo sandwich they also put on the menu.\n\nWithin six months Mark Lutz came in as a third partner. Six more locations followed in Ohio, Indiana and Steamboat Springs, Colorado, and franchising started in 1992 at a fee of $15,000 to $20,000 plus a percentage of sales. In late 1994 Disbrow hired Sally Smith as a part-time chief financial officer; to get her full-time the company moved its headquarters to the Minneapolis-Saint Paul area, where she wanted to stay. Smith found the books so haphazard that the firm's profit or loss before 1995 could not be determined. She became president and CEO in August 1996 and Disbrow moved to chairman.\n\nHe was diagnosed with brain cancer shortly after being elected president of the U.S. Figure Skating Association in 1998, served in that office to 2000, and led the U.S. team at the 1998 Winter Olympics. He died in October 2002, a year before the company went public on NASDAQ.\n\nThe National Buffalo Wing Festival put the Buffalo Wild Wings founders in its Hall of Flame in 2007.",
+  "today": "The chain he started runs over 1,300 locations across all fifty states as of March 2025, out of Sandy Springs, Georgia, under Inspire Brands. It reached the city it is named for in 2000, eighteen years after opening."
+ },
+ "kin": [
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Founded it in 1982 with Scott Lowery and chaired it until he died.",
+   "rel": "place"
+  },
+  {
+   "to": "beef-on-weck",
+   "as": "The Weck in the original name: he put the Buffalo sandwich on the menu beside the wings.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "as": "Opened a restaurant because Ohio had none of this and he wanted some.",
+   "rel": "style"
+  },
+  {
+   "to": "weck",
+   "as": "The word he kept in a chain's name for sixteen years before dropping it.",
+   "rel": "term"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Put his chain's founders in the Hall of Flame in 2007, five years after his death.",
+   "rel": "event"
+  },
+  {
+   "to": "antonio-swad",
+   "as": "Built the other national wing chain, twelve years later and from a different starting point.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "His chain sells them from breast meat alongside the bone-in, which is the argument's front line.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:web-wp-james-disbrow",
+  "s:wp-buffalo-wild-wings",
+  "s:web-hall-of-flame"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-james-disbrow"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wild-wings",
+    "note": "skating career from the Disbrow article; company history from the Buffalo Wild Wings article"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wild-wings"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

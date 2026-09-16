@@ -1,0 +1,80 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "pizza-logs",
+ "names": {
+  "name": "pizza logs",
+  "aliases": [
+   "pizza egg rolls"
+  ],
+  "said": "Comes in threes or sixes with a cup of marinara, and it is the thing a Buffalo table orders while the wings are still frying."
+ },
+ "region": [
+  "western-ny",
+  "upstate-ny"
+ ],
+ "facets": {
+  "course": "side"
+ },
+ "text": {
+  "what": "Mozzarella, and often pepperoni, rolled in an egg-roll wrapper and deep-fried, served with marinara to dip. A Western New York bar snack that sits on the same appetizer list as wings and sells in freezer cases across upstate.",
+  "story": "The name is older than the Buffalo product. Barry Popik dates the phrase in print to 11 March 1970, in an advertisement in The Daily Herald of Provo, Utah for Jeno's Frozen Pizza Logs. The Buffalo article of the name belongs to Finger Food Products of Niagara Falls, New York, which claims a first use of \"Original Pizza Logs\" on 31 December 1992 and filed for the trademark on 7 February 2013; it registered on 8 October 2013.\n\n*Inference —* the wrapper is the tell. Buffalo took an egg-roll skin off a Chinese-American supply shelf and put pizza inside it, which is the same move the city's Chinese-American carryouts made in the other direction with the wing.",
+  "how": "Roll mozzarella, and pepperoni if it is going in, tight inside an egg-roll wrapper and seal the edge. Deep-fry until the wrapper blisters. Rest before serving or the cheese runs. Marinara in a cup; ranch in a cup if the table asks for it.",
+  "today": "Sold frozen by the bag and hot by the basket across Western New York, and pushed as a stadium and arena snack — Popik records the Pittsburgh Penguins naming Pizza Logs their \"Official Finger Food\" in a post on 14 December 2018."
+ },
+ "kin": [
+  {
+   "to": "mozzarella-sticks",
+   "as": "The other fried cheese on the same appetizer list, breaded instead of wrapped.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Shares the city, the fryer and the basket; ordered while the wings cook.",
+   "rel": "style"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "Goes into the same oil the wings come out of.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "The other thing Buffalo does by folding pizza into a wing order.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "The order it shares a table with.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing-basket",
+   "as": "Arrives in the same basket, often before the wings do.",
+   "rel": "whole"
+  }
+ ],
+ "sources": [
+  "s:web-popik-pizza-logs",
+  "s:wp-mozzarella-sticks"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-popik-pizza-logs"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method is general; no cited recipe"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true
+}

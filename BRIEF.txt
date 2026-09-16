@@ -1,0 +1,82 @@
+WING COUNTRY — AGENT BRIEF (shared by every drafting agent)
+==========================================================
+Repo: this directory. Every path below is relative to it.
+Corpus: a scratch folder of Wikipedia articles as plain text, one per file, each with its
+        URL and fetch date at the top. The brief that launches an agent names the folder;
+        tools/fetch_wiki.py rebuilds it.
+
+READ FIRST, IN THIS ORDER
+  1. AUTHORING.txt              the record spec and the full cast list
+  2. schema/node.schema.json    what a record must look like
+  3. data/nodes/style/buffalo.json · data/nodes/term/wing.json · data/nodes/place/anchor-bar.json
+     the three exemplars, written by hand. Match their depth, their voice and their
+     provenance discipline. A style record carries what / story / how / today and 8-12 kin.
+  4. data/vocab/*.json          regions, facets, tags, recognizers, types
+
+WHAT YOU DO
+  Write the records in YOUR batch (below), one JSON file per record at
+  data/nodes/<type>/<id>.json. Nothing else. Do not touch tools/, do not touch
+  data/sources/sources.json, do not edit another agent's records.
+
+SOURCES
+  Cite only ids that exist in data/sources/sources.json, OR add your own to
+  data/sources/new-<your-batch-name>.json in the same shape:
+    {"sources":[{"id":"s:web-slug","kind":"web","title":"...","publisher":"...",
+                 "url":"https://...","accessed":"2026-09-16"}]}
+  build.py merges those in. Use s:wp-<slug> ids for the corpus articles (the slug is the
+  filename without .txt). For anything not in the corpus, use WebFetch and register the
+  page as s:web-<slug> with its real title, publisher, URL and the date you read it.
+  NEVER invent a source, a URL, an ISBN, a date, a price, a quote, a menu item or a death.
+
+PROVENANCE, WHICH IS THE POINT OF THE PROJECT
+  provenance.default.tier plus per-field overrides. Tiers:
+    cited      a named source in sources[] backs this
+    harvested  a tool fetched it from an open dataset (OSM, USDA)
+    tradition  general knowledge of the tradition; hedge it in the prose
+    inference  this project reasoning from the above; say so in the prose
+    field      somebody stood there (nothing carries this yet)
+  In text.story mark each stretch inline: plain prose = cited; *Tradition holds —* ;
+  *Inference —*. A fact you cannot source goes in hedged or stays out.
+  Set needs_verification: true and confidence: "medium"/"low" where you are unsure.
+
+VOICE (house rules; validate.py enforces the first one)
+  BANNED WORDS, hard error: load-bearing, honest, authentic, inauthentic, purist,
+  tourist, real wings, true wings, proper wings, the real thing, sacrilege. A quotation
+  in quotation marks is exempt, so quote and attribute instead of asserting.
+  Wings run on argument — Buffalo against Rochester, flat against drum, bone-in against
+  boneless, blue cheese against ranch. REPORT every argument. JOIN none of them. Chains,
+  frozen bags, air fryers and party packs get described the same way a bar with a
+  forty-year fryer does.
+  Write short. Lead with a verb. Cut "the" and "what" wherever the sentence survives it.
+  Fewer adjectives, more verbs. Contractions are fine. Define every non-obvious word in a
+  clause at first use. No sentence that announces the next sentence. No closing summary.
+  Prices carry their date.
+
+KIN IS THE SITE'S SPINE
+  Each kin entry says what the other node IS to this one, in one sentence a reader
+  standing on this page would want. Not "see also". The other record answers in its own
+  words, so write yours from here. Link ONLY to ids on the cast list in AUTHORING.txt.
+  Aim for 5-12 kin on a rich record, 3-6 on a small one. Reach across batches freely —
+  the other agent is writing that record right now.
+
+PLACES
+  geo from OpenStreetMap where data/harvest/osm-places.json has the row (grep it by name),
+  otherwise the street address geocoded by hand with precision:"street" or "town".
+  tags[] EVERY tag names its evidence. Ownership and welcome tags (black-owned,
+  woman-owned, lgbtq-friendly) come only from the owner's own words, a press profile
+  naming the owner, or a public directory. Never from a name, a photograph or a guess.
+  The validator refuses tier tradition or inference on a tag.
+  hours: THREE STATES, NEVER TWO — open, closed, and nobody published it. A day in
+  neither list is unknown. Guessing a closure is worse than a blank.
+  recognitions[]: `by` from data/vocab/recognizers.json, one per recognizer per place.
+
+PICTURES
+  images[] stays empty. Put candidate Wikimedia Commons file titles in
+  x_commons_files: ["File:...jpg"] and a later pass fetches them with their licences.
+
+FINISH BY
+  running, from the repo root:  BUILD_DRAFT=1 python3 tools/validate.py
+  Fix every ERROR that names one of YOUR records. Kin-target warnings for records other
+  agents are still writing are expected and fine.
+  Then report: how many records you wrote, which cast-list ids you could NOT source and
+  why, and any fact you had to hedge.

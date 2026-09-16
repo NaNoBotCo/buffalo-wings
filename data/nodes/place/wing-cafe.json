@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "id": "wing-cafe",
+ "type": "place",
+ "names": {
+  "name": "The Wing Cafe & Tap House",
+  "aliases": [
+   "The Wing Cafe and Tap House",
+   "Wing Cafe"
+  ],
+  "sort": "Wing Cafe & Tap House"
+ },
+ "region": [
+  "atlanta"
+ ],
+ "facets": {
+  "state": "GA",
+  "status": "open",
+  "founded": 1995,
+  "cooked": "fried",
+  "styles": [
+   "buffalo",
+   "garlic-parm",
+   "atlanta-lemon-pepper"
+  ]
+ },
+ "text": {
+  "what": "A wing bar on Roswell Road in east Cobb County, outside Atlanta, carrying thirty-five to forty sauces and marinades and thirty to fifty beers on tap. It opened as a Wild Wing Cafe and kept trading under its own name after the chain link ended.",
+  "story": "The room turned thirty in June 2025, which puts its opening around 1995, under the Wild Wing Café name. The Cobb County Courier wrote it up that month: a suburban wing bar with karaoke, trivia, music bingo, poker nights, weekend bands, seasonal crawfish boils, a covered patio that takes dogs and a tiki bar.\n\nThe sauce board is the point. The Courier counted more than thirty-five, naming Garlic Parmesan, Raspberry Chipotle BBQ, classic Buffalo, a General Tso's style, Smokin' Maple Bacon and a beer-built one called Endless Summer, with cilantro, garlic and lime.\n\n*Inference —* the long-board format belongs to the 1990s casual wing bar rather than to any city's wing. Atlanta's own argument, lemon pepper wet against dry, is a two-item question; a forty-sauce board is a different proposition, and both are on the same road.",
+  "today": "Open daily, at 2145 Roswell Road in Marietta, as the Cobb County Courier reported in June 2025."
+ },
+ "geo": {
+  "lat": 33.9684874,
+  "lon": -84.491808,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "2145 Roswell Road",
+  "city": "Marietta",
+  "county": "Cobb",
+  "state": "GA",
+  "postcode": "30062"
+ },
+ "links": [
+  {
+   "label": "The Wing Cafe & Tap House",
+   "url": "https://www.thewingmarietta.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "bar",
+   "source": "s:web-cobb-courier-wing-cafe",
+   "tier": "cited",
+   "note": "a full bar, thirty to fifty craft beers on tap, cocktails and wine"
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-cobb-courier-wing-cafe",
+   "tier": "cited",
+   "note": "the Cobb County Courier reported a midnight close, seven days, in June 2025"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "local-press",
+   "what": "Cobb County Courier profile marking thirty years in business",
+   "year": 2025,
+   "source": "s:web-cobb-courier-wing-cafe",
+   "url": "https://cobbcountycourier.com/2025/06/the-wing-cafe-and-tap-house-30-years-of-friends-and-flavor/"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Open daily from 11 a.m. to midnight, as reported in June 2025",
+  "source": "s:web-cobb-courier-wing-cafe",
+  "url": "https://cobbcountycourier.com/2025/06/the-wing-cafe-and-tap-house-30-years-of-friends-and-flavor/",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "days are from the Courier; other listings put the close at 11 p.m., so read the closing time as unsettled and the days as seven"
+ },
+ "kin": [
+  {
+   "to": "garlic-parm",
+   "as": "Carries it on a board of thirty-five-plus sauces, next to a raspberry chipotle and a General Tso's.",
+   "rel": "style"
+  },
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "The city wing this suburban sauce board sits beside, twenty miles up the road.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo",
+   "as": "One flavour among forty here, which is what happens to a city's wing when it becomes a menu item.",
+   "rel": "style"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "Thirty to fifty taps, and the wings are what you order with them.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing-night",
+   "as": "Karaoke, trivia, music bingo and poker nights: the weekday calendar a wing bar runs on.",
+   "rel": "term"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "The other 1990s long-sauce-board wing bar, which went national where this one stayed on Roswell Road.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:web-cobb-courier-wing-cafe"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-cobb-courier-wing-cafe"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node for The Wing Cafe & Tap House, 2145 Roswell Road, Marietta"
+   },
+   "facets.founded": {
+    "tier": "inference",
+    "source": "s:this-project",
+    "note": "the Courier dated thirty years in June 2025 without naming an opening year; 1995 is that arithmetic, not a source"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

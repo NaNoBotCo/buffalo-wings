@@ -1,0 +1,475 @@
+{
+ "id": "ranch-dressing",
+ "names": {
+  "name": "Ranch dressing",
+  "aliases": [
+   "ranch",
+   "Hidden Valley Ranch"
+  ],
+  "said": "Say 'ranch' anywhere in America and a cup arrives. Say it in Buffalo and somebody looks up."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "base": "dairy",
+  "heat": "none"
+ },
+ "text": {
+  "what": "A savoury creamy dressing of buttermilk, salt, garlic, onion, black pepper and herbs — commonly chives, parsley and dill — mixed into mayonnaise or another oil emulsion. Sour cream and yogurt sometimes stand in for the buttermilk or the mayonnaise. It has been the best-selling salad dressing in the United States since 1992, when it passed Italian, and it is the most popular wing dip in the country.",
+  "story": "Steve Henson made the first version in the early 1950s in the Anchorage area, where he worked as a plumbing contractor and cooked for his crews. He retired from plumbing at thirty-five, moved with his wife Gayle to Santa Barbara County, California, and in 1956 bought a guest ranch in San Marcos Pass which he renamed Hidden Valley Ranch. He served the dressing at the ranch steakhouse; guests bought jars to take home. His friend Audrey Ovington, owner of Cold Spring Tavern, was the first commercial customer. By 1957 he was selling packets of mix in stores, and mail-ordering the dry ingredients at 75 cents apiece until every room in the house was given over to it.\n\nThe Hensons incorporated, built a factory, and sold nationally. Manufacturing moved to San Jose, then Colorado, then Sparks, Nevada in 1972. In October 1972 Clorox bought Hidden Valley Ranch for $8 million and Henson retired. Clorox reformulated it several times — adding buttermilk flavouring to the seasoning so the dressing could be made with cheaper regular milk — and in 1983 developed a shelf-stable bottled version.\n\nThe name started a fight. Ranch Style Beans had been on sale since the early 1930s, and in 1975 its Texas maker Waples-Platter sued Kraft Foods and General Foods for using \"ranch style\" on salad dressings. Judge Eldon Brooks Mahon tried the case in Fort Worth in 1976 and ruled for Waples-Platter; his opinion catalogues the ranch and ranch-style products then on the market, most of them built to compete with Hidden Valley. Henson himself was deposed about the history.\n\nIt reached the wing through pizza. Domino's began offering ranch as a condiment with its chicken wings and pizzas in 1994, and the pairing took. Cool Ranch Doritos had arrived in 1987; Hidden Valley Ranch Wavy Lay's in 1994.",
+  "how": "Cold, in a cup, beside the wing. Home versions mix buttermilk, mayonnaise and sour cream with lemon juice, minced garlic, onion powder, black pepper and dried herbs, and want an hour in the refrigerator before the herbs give anything up. It doubles as the dip for the celery and carrots and as the dressing on the salad nobody ordered.",
+  "today": "Best-selling dressing in the country and, by the count in the standard wing description, the most popular wing dip. In 2017 a study by the Association for Dressings and Sauces found 40% of Americans named ranch their favourite dressing. As of 16 September 2026 the USDA label panel for Hidden Valley Original Ranch Topping & Dip reads 240 mg sodium and 1 g sugar in a 2-tablespoon serving — 120 mg and 0.5 g in one tablespoon. Soybean oil first, egg yolk third, buttermilk sixth. No Scoville number, and nothing on the label to warrant one."
+ },
+ "kin": [
+  {
+   "to": "blue-cheese-dressing",
+   "as": "The rival in the cup, and the one Buffalo serves.",
+   "rel": "contrast"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "The argument this dip is the winning side of nationally and the losing side of in one city.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo",
+   "as": "Named in the style's service alongside blue cheese, and the one Buffalo does not reach for.",
+   "rel": "style"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "The other thing in the basket it gets dipped in.",
+   "rel": "dish"
+  },
+  {
+   "to": "wingstop",
+   "as": "Sells it as a dip beside thirteen wing sauces.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "What it is there to cool, and what it is accused of cancelling out.",
+   "rel": "contrast"
+  },
+  {
+   "to": "garlic-parmesan-sauce",
+   "as": "Shares the garlic-and-dairy register; this one stays in the cup.",
+   "rel": "kin"
+  },
+  {
+   "to": "alabama-white-sauce",
+   "as": "The Southern white sauce built for dunking rather than dipping.",
+   "rel": "kin"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "The order it turns up with most often, and the pairing the argument gets loudest about.",
+   "rel": "dish"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "blue-cheese-dressing",
+   "tell": "Herbs against cheese. Ranch is buttermilk, garlic, onion and dill; blue cheese has visible cheese in it."
+  },
+  {
+   "id": "garlic-parmesan-sauce",
+   "tell": "Where it goes. Ranch sits in a cup; garlic parm goes on the wing."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "dairy",
+  "maker": "The HVR Company (Hidden Valley)",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "soybean oil",
+   "water",
+   "egg yolk",
+   "sugar",
+   "salt",
+   "cultured nonfat buttermilk",
+   "natural flavors (milk, soy)",
+   "spices",
+   "dried garlic",
+   "dried onion",
+   "vinegar",
+   "phosphoric acid",
+   "xanthan gum",
+   "modified food starch",
+   "artificial flavor",
+   "disodium phosphate",
+   "sorbic acid and calcium disodium EDTA as preservatives"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 11,
+  "fat_rank": 1,
+  "tomato_rank": 0,
+  "sugar_rank": 4,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 2,
+  "sodium_mg_per_tbsp": 120,
+  "sugar_g_per_tbsp": 0.5,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-hidden-valley-ranch",
+  "url": "https://fdc.nal.usda.gov/food-details/2085943/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Hidden Valley Original Ranch Topping & Dip, 12 fl oz. Label serving is 2 Tbsp (30 mL); sodium 240 mg and sugars 1 g per serving, so 120 mg and 0.5 g per tablespoon. soy_rank is 0 — soybean oil at 1 is a fat, and the 'soy' in natural flavors at 7 is an allergen note, not soy sauce. The herbs the dressing is described by reach this label as 'spices' at 8. Brand owner name is as the USDA record carries it."
+ },
+ "recipes": [
+  {
+   "title": "Buttermilk Ranch Dressing",
+   "source": "s:wikibooks-buttermilk-ranch-dressing",
+   "license": "CC BY-SA 4.0",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Buttermilk_Ranch_Dressing",
+   "author": "Wikibooks Cookbook contributors",
+   "region": "United States",
+   "yield": "2¾ cups",
+   "ingredients": [
+    "2 tbsp lemon juice",
+    "1 cup buttermilk",
+    "1 cup mayonnaise",
+    "¾ cup sour cream",
+    "2 cloves garlic, minced",
+    "1 tsp oregano",
+    "2 tsp onion powder",
+    "½ tsp black pepper"
+   ],
+   "text": "Mix ingredients until smooth.",
+   "note": "Wikibooks Cookbook, CC BY-SA 4.0, copied in full with the source named. Oregano rather than the dill and chives most descriptions name — the Cookbook's own version, not a commercial one."
+  },
+  {
+   "title": "Boiled Dressing I",
+   "source": "s:farmer-1910",
+   "license": "Public domain",
+   "year": 1910,
+   "author": "Fannie Merritt Farmer",
+   "book": "The Boston Cooking-School Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/65061",
+   "region": "Boston",
+   "ingredients": [
+    "½ tablespoon salt",
+    "1 teaspoon mustard",
+    "1½ tablespoons sugar",
+    "Few grains cayenne",
+    "½ tablespoon flour",
+    "Yolks 2 eggs",
+    "1½ tablespoons melted butter",
+    "¾ cup milk",
+    "¼ cup vinegar"
+   ],
+   "text": "Mix dry ingredients, add yolks of eggs slightly beaten, butter, milk, and vinegar very slowly. Cook over boiling water until mixture thickens; strain and cool.",
+   "note": "Copied verbatim, old spellings kept. The American creamy dressing before the emulsion came out of a bottle: egg yolk, milk, vinegar, cooked over water until it thickened. Forty-odd years before Steve Henson's crews."
+  }
+ ],
+ "sources": [
+  "s:wp-ranch-dressing",
+  "s:wp-buffalo-wing",
+  "s:wp-wingstop",
+  "s:fdc-hidden-valley-ranch",
+  "s:wikibooks-buttermilk-ranch-dressing",
+  "s:farmer-1910"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ranch-dressing"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-hidden-valley-ranch",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the resting time is general kitchen practice; the composition is cited"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-ranch-dressing",
+    "note": "the 2017 survey and the sales ranking are cited; the label figures are the USDA panel"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [
+  {
+   "file": "ranch-dressing/ranch-dressing-ranch-dressing.jpg",
+   "source": "commons",
+   "title": "File:Ranch dressing.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ranch_dressing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARanch_dressing.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Whitney from Chicago, IL",
+   "credit": "Ranch Dressing\n\nUploaded by Diádoco",
+   "alt": "whitneyinchicago.wordpress.com/2009/07/11/summery-salads-...",
+   "date": "2009-07-09 11:40",
+   "primary": true,
+   "sha256": "3fb89eb5d10368c2360a165e37c335387ae7964ce846b15de0549e1f7604a8fa"
+  },
+  {
+   "file": "ranch-dressing/ranch-dressing-hopmonk-march-2026-sarah-stierch-02.jpg",
+   "source": "commons",
+   "title": "File:Hopmonk - March 2026 - Sarah Stierch 02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hopmonk_-_March_2026_-_Sarah_Stierch_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHopmonk_-_March_2026_-_Sarah_Stierch_02.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Missvain",
+   "credit": "Own work",
+   "alt": "Buffalo wings with ranch and blue cheese at Hopmonk, Sonoma, California",
+   "date": "Taken on 14 March 2026",
+   "primary": false,
+   "sha256": "d1c452625dbd6bafad85fa2ec401c7930e0c149b01434ea74706755cf983604a"
+  }
+ ],
+ "updated": "2026-09-16",
+ "blurb": "A savoury creamy dressing of buttermilk, salt, garlic, onion, black pepper and herbs — commonly chives, parsley and dill — mixed into mayonnaise or another oil emulsion.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The rival in the cup, and the one Buffalo serves.",
+   "rel": "contrast"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "type": "story",
+   "name": "Ranch against blue cheese",
+   "as": "The argument this dip is the winning side of nationally and the losing side of in one city.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Named in the style's service alongside blue cheese, and the one Buffalo does not reach for.",
+   "rel": "style"
+  },
+  {
+   "to": "celery-and-carrots",
+   "type": "dish",
+   "name": "celery and carrots",
+   "as": "The other thing in the basket it gets dipped in.",
+   "rel": "dish"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Sells it as a dip beside thirteen wing sauces.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "What it is there to cool, and what it is accused of cancelling out.",
+   "rel": "contrast"
+  },
+  {
+   "to": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "Shares the garlic-and-dairy register; this one stays in the cup.",
+   "rel": "kin"
+  },
+  {
+   "to": "alabama-white-sauce",
+   "type": "sauce",
+   "name": "Alabama white sauce",
+   "as": "The Southern white sauce built for dunking rather than dipping.",
+   "rel": "kin"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "The order it turns up with most often, and the pairing the argument gets loudest about.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-ranch-dressing",
+   "kind": "wikipedia",
+   "title": "Ranch dressing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ranch_dressing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-wingstop",
+   "kind": "wikipedia",
+   "title": "Wingstop",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wingstop",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-hidden-valley-ranch",
+   "kind": "dataset",
+   "title": "Hidden Valley Original Ranch Topping & Dip — branded food label (FDC ID 2085943)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2085943/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wikibooks-buttermilk-ranch-dressing",
+   "kind": "web",
+   "title": "Cookbook:Buttermilk Ranch Dressing",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Buttermilk_Ranch_Dressing",
+   "accessed": "2026-09-16",
+   "note": "CC BY-SA 4.0; Cookbook:Ranch Dressing redirects here"
+  },
+  {
+   "id": "s:farmer-1910",
+   "kind": "book",
+   "title": "The Boston Cooking-School Cook Book",
+   "author": "Fannie Merritt Farmer",
+   "publisher": "Little, Brown, and Company, Boston",
+   "year": 1910,
+   "url": "https://www.gutenberg.org/ebooks/65061",
+   "accessed": "2026-09-16",
+   "note": "revised edition, title page 1910; copyright 1896-1906. Public domain, read via Project Gutenberg ebook 65061"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-ranch-dressing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-ranch-dressing"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the resting time is general kitchen practice; the composition is cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-ranch-dressing",
+   "note": "the 2017 survey and the sales ranking are cited; the label figures are the USDA panel"
+  }
+ },
+ "primary_image": {
+  "file": "ranch-dressing/ranch-dressing-ranch-dressing.jpg",
+  "source": "commons",
+  "title": "File:Ranch dressing.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ranch_dressing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ARanch_dressing.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Whitney from Chicago, IL",
+  "credit": "Ranch Dressing\n\nUploaded by Diádoco",
+  "alt": "whitneyinchicago.wordpress.com/2009/07/11/summery-salads-...",
+  "date": "2009-07-09 11:40",
+  "primary": true,
+  "sha256": "3fb89eb5d10368c2360a165e37c335387ae7964ce846b15de0549e1f7604a8fa"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "alabama-white",
+   "type": "style",
+   "name": "Alabama white sauce wings",
+   "as": "The other white sauce on an American wing plate, and the one this gets mistaken for — that one is a cold dressing, this one goes on hot meat.",
+   "rel": "contrast"
+  },
+  {
+   "from": "garlic-parm",
+   "type": "style",
+   "name": "Garlic parmesan wings",
+   "as": "The dip that goes with it, since blue cheese argues with the cheese already on the wing.",
+   "rel": "sauce"
+  },
+  {
+   "from": "alabama-white-sauce",
+   "type": "sauce",
+   "name": "Alabama white sauce",
+   "as": "The other white dip on a wing plate; both start from an oil-and-egg emulsion, this one takes horseradish and vinegar instead of buttermilk and herbs.",
+   "rel": "kin"
+  },
+  {
+   "from": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The rival in the cup, and the best-selling dressing in America since 1992.",
+   "rel": "contrast"
+  },
+  {
+   "from": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "Shares the garlic-and-dairy register, and often turns up in the same order as the dip.",
+   "rel": "kin"
+  },
+  {
+   "from": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The other dressing folded in, and the more common one nationally.",
+   "rel": "sauce"
+  },
+  {
+   "from": "celery-and-carrots",
+   "type": "dish",
+   "name": "celery and carrots",
+   "as": "The dip most of America reaches for instead, and the argument that follows.",
+   "rel": "sauce"
+  },
+  {
+   "from": "mozzarella-sticks",
+   "type": "dish",
+   "name": "mozzarella sticks",
+   "as": "One of the cups it turns up with, on the same table as the wings.",
+   "rel": "sauce"
+  },
+  {
+   "from": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "The most popular dipping sauce in the country, and always served this way.",
+   "rel": "sauce"
+  },
+  {
+   "from": "ranch-vs-blue-cheese",
+   "type": "story",
+   "name": "Ranch against blue cheese",
+   "as": "Steve Henson's buttermilk dressing, best-selling in the United States since 1992 and the one most survey respondents name for wings.",
+   "rel": "sauce"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "dredge",
+ "names": {
+  "name": "the dredge",
+  "sort": "dredge",
+  "aliases": [
+   "dredging",
+   "the flour",
+   "the breading station"
+  ],
+  "said": "Three trays: flour, egg, crumb. One hand wet, one hand dry, or you end up with a glove."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "coating"
+ },
+ "text": {
+  "what": "Coating food before it fries. One common method for preparing food for deep frying involves adding multiple layers of batter around the food — cornmeal, flour or tempura — and breadcrumbs may be used. On a wing it is the difference between Buffalo and Rochester; on everything else at the counter it is simply how the thing is made.",
+  "story": "Every tradition at this counter has its own dredge. Nashville hot chicken is marinated in buttermilk to carry flavour and hold the meat's juices, then floured and fried, with the cayenne paste applied by the server afterward with a spoon and gloves. The mozzarella stick's Italian prototype, mozzarella milanese, is mozzarella dredged in flour, egg and breadcrumbs and pan-fried. John Young's Buffalo wings from 1961 were breaded, deep fried and served in a tomato-based mumbo sauce.\n\n*Inference —* the three-stage dredge is a moisture problem solved in order. Flour dries the surface so egg will grip; egg is glue; crumb is the crust. Skip a stage and the coat slides off in the oil, which is why a station is set up as trays and not as a bowl.",
+  "how": "Dry the pieces first; wet food sheds flour. Season the flour, not the meat, if the coat is the only seasoning going on. Flour, then egg, then crumb — one hand for dry trays and one for wet, or both hands cake. Rest the coated pieces a few minutes so the flour hydrates and bonds. Shake off surplus: loose flour burns in the oil and dirties the vat for the next load. A single flour dredge gives a thin crust; a double dip gives a craggy one.",
+  "today": "Standard across American fried chicken, and the practice a Buffalo house defines itself against. *Tradition holds —* a shop's flour is the part of the recipe it will not discuss, and the part customers assume is a secret when it is often just flour, salt and pepper."
+ },
+ "kin": [
+  {
+   "to": "breaded-fry",
+   "as": "What this step produces, and the style built on it.",
+   "rel": "fry"
+  },
+  {
+   "to": "rochester-breaded",
+   "as": "The city that made this step its own.",
+   "rel": "style"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The method that omits this entirely, and argues that omission is the point.",
+   "rel": "contrast"
+  },
+  {
+   "to": "brine",
+   "as": "The step before it: buttermilk or salt water, which is also what makes flour stick.",
+   "rel": "fry"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "Buttermilk, flour, fryer, then paste — this step in the middle of that order.",
+   "rel": "style"
+  },
+  {
+   "to": "mozzarella-sticks",
+   "as": "Flour, egg, breadcrumb on cheese; the sequence its prototype is named for.",
+   "rel": "dish"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "The coat here is standing in for skin that was never there.",
+   "rel": "dish"
+  },
+  {
+   "to": "jojo-potatoes",
+   "as": "The same step on a potato wedge, before the pressure fryer.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-deep-frying",
+  "s:wp-hot-chicken",
+  "s:wp-mozzarella-sticks",
+  "s:wp-buffalo-wing",
+  "s:wp-fried-chicken"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-hot-chicken",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "station practice, not a cited recipe"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

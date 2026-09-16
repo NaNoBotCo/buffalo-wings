@@ -1,0 +1,157 @@
+{
+ "schema": 1,
+ "id": "buffalo-wild-wings",
+ "type": "place",
+ "names": {
+  "name": "Buffalo Wild Wings",
+  "aliases": [
+   "Buffalo Wild Wings & Weck",
+   "BW3",
+   "BDubs",
+   "BWW"
+  ],
+  "said": "Regulars say B-Dubs. The older nickname, BW3, counts the three words of the original name: Buffalo Wild Wings & Weck.",
+  "sort": "Buffalo Wild Wings"
+ },
+ "region": [
+  "ohio-valley",
+  "us"
+ ],
+ "facets": {
+  "state": "GA",
+  "status": "open",
+  "founded": 1982,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A sports-bar chain that put a Buffalo wing on a menu in Columbus, Ohio in 1982 and then on menus in all fifty states. Jim Disbrow and Scott Lowery opened it beside Ohio State University after failing to find Buffalo-style wings in Ohio. Wings go out in a long list of sauces and dry rubs — the chain's own sauce page counted 26 of them on 16 September 2026 — and the room is built around televised sport. Inspire Brands has owned it since 2018 and runs it from a support center in Sandy Springs, Georgia, which takes an Atlanta mailing address.",
+  "story": "Jim Disbrow finished judging a figure-skating competition at Kent State in 1982, went looking for the wings he had eaten in Buffalo, and found none. He and Scott Lowery opened Buffalo Wild Wings & Weck near Ohio State in Columbus instead. The weck was beef on weck, the Buffalo sandwich they served alongside; it left the name later, and the wings stayed.\n\nGrowth came in bursts and nearly stopped once. Six more locations followed in Ohio, Indiana and Steamboat Springs. Franchising started in 1992 through a Chicago law firm, at a fee of $15,000 to $20,000 plus a share of sales. In late 1994 Disbrow hired a part-time chief financial officer, Sally Smith, and to get her full-time moved the company to Minnesota; Smith found lenders, the Internal Revenue Service and a possible bankruptcy waiting, and could not work out whether the company had made or lost money before 1995. That year it took $12 million and lost $1.6 million. Smith became president and chief executive in August 1996.\n\nThe chain reached its own namesake city late. Location 100 opened in Apple Valley, Minnesota in October 1999. Only in 2000, at 140 locations across 19 states, did one open in Buffalo, New York. Shares began trading on NASDAQ in November 2003. Disbrow died in October 2002.\n\nRoark Capital Group and The Wendy's Company bought the chain for about $2.4 billion plus debt in a deal completed on 5 February 2018; Arby's Restaurant Group was renamed Inspire Brands and became the parent. Canada opened in 2010 and closed for good in June 2023.",
+  "how": "Bone-in wings fry and then go into a sauce or a dry seasoning, chosen off a board arranged by heat. The company's sauces page, read on 16 September 2026, describes \"26 Signature Sauces & Dry Rubs\", the hottest of them Blazin'. Boneless wings are made from breast meat. Bottled versions of the sauces have sold through grocery since the 1990s, when the company upgraded the packaging to push home sales.",
+  "today": "Over 1,300 locations across all fifty US states as of March 2025, run out of the Sandy Springs, Georgia support center by Inspire Brands, which also owns Arby's, Dunkin', Jimmy John's, Baskin-Robbins and Sonic. *Inference —* the sauce board, not the fry, is what the chain exports: a reader in Tucson picks Asian Zing or Nashville Hot off the same list as a reader in Buffalo."
+ },
+ "geo": {
+  "lat": 33.9353992,
+  "lon": -84.3599421,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "Three Glenlake Parkway NE",
+  "city": "Atlanta",
+  "county": "Fulton",
+  "state": "GA",
+  "postcode": "30328"
+ },
+ "links": [
+  {
+   "label": "Buffalo Wild Wings",
+   "url": "https://www.buffalowildwings.com/"
+  },
+  {
+   "label": "Sauces and dry rubs",
+   "url": "https://www.buffalowildwings.com/sauces-flavors/"
+  }
+ ],
+ "tags": [],
+ "recognitions": [
+  {
+   "by": "buffalo-wing-festival",
+   "what": "Buffalo Wild Wings' founders inducted into the National Buffalo Wing Hall of Flame, on the chain's 25th anniversary",
+   "year": 2007,
+   "source": "s:web-buffalowing-hall-of-flame",
+   "url": "https://buffalowing.com/hall-of-flame/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "jim-disbrow",
+   "as": "Could not find a Buffalo wing in Ohio in 1982, so he opened this.",
+   "rel": "person"
+  },
+  {
+   "to": "beef-on-weck",
+   "as": "The Weck in the original name — the Buffalo sandwich that shared the first menu and then left it.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "as": "Took the style out of western New York on a franchise, and reached Buffalo itself only in 2000.",
+   "rel": "style"
+  },
+  {
+   "to": "mango-habanero",
+   "as": "One of the sauces off the board, and an argument about heat that a chain menu made national.",
+   "rel": "sauce"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Sells them made from breast meat, beside the bone-in ones, on the same sauce list.",
+   "rel": "dish"
+  },
+  {
+   "to": "hooters",
+   "as": "Opened a year later, on the same wing and a different sell.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wingstop",
+   "as": "The counter-and-app chain that grew faster on a shorter menu, twelve years younger.",
+   "rel": "contrast"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "A sports bar on the biggest sports day of the American year.",
+   "rel": "event"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "1,300 kitchens buying the same cut is one reason the wholesale price moves.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wild-wings",
+  "s:wp-buffalo-wing",
+  "s:web-bww-sauces",
+  "s:web-inspire-contact",
+  "s:web-buffalowing-hall-of-flame"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wild-wings"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "tradition",
+    "note": "the nicknames are in the Wikipedia article; that BW3 counts the three words is this project reading the old name"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-bww-sauces",
+    "fetched_at": "2026-09-16"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wild-wings",
+    "note": "the last sentence is this project's reading, marked in the prose"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Inspire Brands' Global Support Center, geocoded against OpenStreetMap; the 1982 Columbus storefront's address is not on this disk"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-inspire-contact",
+    "note": "parent company headquarters, not the first location"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

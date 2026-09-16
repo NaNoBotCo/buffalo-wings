@@ -1,0 +1,828 @@
+{
+"note": "mined by build.py from data/nodes names + aliases — synonymy only",
+"groups": [
+[
+"alabama white sauce wings",
+"decatur-style",
+"white barbecue sauce wings",
+"white sauce wings"
+],
+[
+"lemon pepper dry",
+"lemon pepper wet",
+"lemon pepper wings",
+"lp wings"
+],
+[
+"chesapeake wings",
+"crab seasoning wings",
+"crab-spiced wings",
+"old bay wings"
+],
+[
+"buffalo wings",
+"buffalo-style wings",
+"hot wings",
+"wings"
+],
+[
+"jamaican jerk wings",
+"jerk chicken wings",
+"jerk wings"
+],
+[
+"chicago mild sauce wings",
+"fried hard with mild",
+"mild sauce wings",
+"south side wings"
+],
+[
+"carryout wings",
+"mambo sauce wings",
+"mumbo sauce wings",
+"wings and mumbo"
+],
+[
+"garlic parm",
+"garlic parmesan",
+"garlic parmesan wings",
+"parm wings"
+],
+[
+"chikin",
+"kfc (korean fried chicken)",
+"korean fried chicken wings",
+"soy garlic wings",
+"yangnyeom wings"
+],
+[
+"dry heat",
+"dry rub wings",
+"dry wings",
+"memphis dry-rub wings"
+],
+[
+"hot chicken wings",
+"hot wings, nashville style",
+"nashville hot wings"
+],
+[
+"breaded wings",
+"country sweet wings",
+"rochester breaded wings",
+"rochester-style wings"
+],
+[
+"barbecue wings",
+"pit wings",
+"smoked barbecue wings",
+"smoked wings"
+],
+[
+"alabama white sauce",
+"white barbecue sauce",
+"white sauce"
+],
+[
+"bleu cheese",
+"blue cheese",
+"blue cheese dressing",
+"chunky blue"
+],
+[
+"buffalo sauce",
+"hot sauce and butter",
+"medium",
+"wing sauce"
+],
+[
+"crystal",
+"crystal hot sauce"
+],
+[
+"frank's",
+"frank's redhot"
+],
+[
+"garlic parm",
+"garlic parmesan",
+"garlic parmesan sauce"
+],
+[
+"honey barbecue sauce",
+"honey barbeque",
+"honey bbq"
+],
+[
+"chili honey",
+"hot honey",
+"spicy honey"
+],
+[
+"jamaican jerk spice",
+"jerk marinade",
+"jerk seasoning",
+"jerk spice"
+],
+[
+"lemon pepper",
+"lemon pepper seasoning",
+"lp"
+],
+[
+"lemon pepper wet",
+"lemon pepper wet wings",
+"lp wet"
+],
+[
+"mango hab",
+"mango habanero",
+"sweet heat"
+],
+[
+"dry",
+"dry rub",
+"memphis dry rub",
+"memphis rub"
+],
+[
+"chicago mild sauce",
+"mild sauce"
+],
+[
+"mambo sauce",
+"mumbo sauce",
+"mumbo® sauce"
+],
+[
+"cayenne paste",
+"hot oil",
+"nashville hot paste",
+"the paste"
+],
+[
+"old bay",
+"old bay seasoning",
+"the yellow can"
+],
+[
+"hidden valley ranch",
+"ranch",
+"ranch dressing"
+],
+[
+"ganjang chicken sauce",
+"ganjang-chikin sauce",
+"soy garlic",
+"soy garlic sauce"
+],
+[
+"nam chim kai",
+"sweet chili sauce",
+"sweet thai chili sauce",
+"น้ำจิ้มไก่"
+],
+[
+"tare",
+"teriyaki",
+"teriyaki sauce"
+],
+[
+"seasoned sauce",
+"sweet and spicy",
+"yangnyeom",
+"yangnyeom sauce"
+],
+[
+"beef on kummelweck",
+"beef on weck"
+],
+[
+"boneless",
+"boneless chicken wings",
+"boneless wings",
+"wyngz"
+],
+[
+"buffalo chicken dip",
+"buffalo chicken wing dip",
+"wing dip"
+],
+[
+"buffalo chicken pie",
+"buffalo chicken pizza",
+"wing pizza"
+],
+[
+"celery",
+"celery and carrots",
+"the vegetables",
+"veggie sticks"
+],
+[
+"chicken 'n' waffles",
+"chicken and waffles"
+],
+[
+"chicken riggies",
+"riggies",
+"utica riggies"
+],
+[
+"chips",
+"french fries",
+"fries"
+],
+[
+"the fried rice plate",
+"wings and rice",
+"wings over fried rice"
+],
+[
+"garbage plate",
+"junkyard plate",
+"plate",
+"rochester plate",
+"trash plate"
+],
+[
+"jo jos",
+"jojo potatoes",
+"jojos",
+"potato jojos"
+],
+[
+"fried mozzarella",
+"mozz sticks",
+"mozzarella sticks"
+],
+[
+"fries with mumbo",
+"mambo fries",
+"mumbo fries"
+],
+[
+"chicken-mu",
+"danmuji",
+"pickled radish",
+"치킨무"
+],
+[
+"pizza egg rolls",
+"pizza logs"
+],
+[
+"a pitcher",
+"chimaek",
+"pitcher of beer",
+"the pitcher"
+],
+[
+"bread and pickles",
+"the bread",
+"white bread and pickles"
+],
+[
+"a basket of wings",
+"the plate",
+"the wing basket",
+"wing order"
+],
+[
+"air frying",
+"countertop convection oven",
+"the air fryer"
+],
+[
+"baked wings",
+"no-fry wings",
+"oven wings",
+"the baking powder bake"
+],
+[
+"breaded",
+"dredged and fried",
+"rochester-style",
+"the breaded fry"
+],
+[
+"brining",
+"buttermilk soak",
+"dry brine",
+"the brine"
+],
+[
+"chip pan",
+"fry vat",
+"pressure fryer",
+"the deep fryer",
+"the fryer"
+],
+[
+"frying twice",
+"the double fry",
+"two-stage fry"
+],
+[
+"dredging",
+"the breading station",
+"the dredge",
+"the flour"
+],
+[
+"frying oil",
+"shortening",
+"tallow",
+"the fat",
+"the oil"
+],
+[
+"grilled wings",
+"over coals",
+"the drum",
+"the grill"
+],
+[
+"bare",
+"naked",
+"the naked fry",
+"unbreaded"
+],
+[
+"blanching",
+"par-frying",
+"pre-cooking",
+"the first fry",
+"the par-cook"
+],
+[
+"dry with a cup",
+"naked with sauce",
+"on the side",
+"sauce on the side"
+],
+[
+"smoke then fry",
+"smoke-fried wings",
+"smoked and flashed"
+],
+[
+"shaking the wings",
+"the bowl",
+"the toss",
+"tossing"
+],
+[
+"breaking down a wing",
+"jointing the wing",
+"segmenting",
+"the wing cut"
+],
+[
+"american deli",
+"american deli international, inc."
+],
+[
+"anchor bar",
+"anchor bar buffalo"
+],
+[
+"bar bill",
+"bar-bill",
+"bar-bill tavern"
+],
+[
+"big bob gibson",
+"big bob gibson bar-b-q",
+"big bob gibson's bar-b-q"
+],
+[
+"blondie's",
+"blondies sports",
+"blondies sports bar"
+],
+[
+"bonchon",
+"bonchon chicken",
+"bonchon international inc.",
+"본촌치킨"
+],
+[
+"bdubs",
+"buffalo wild wings",
+"bw3",
+"bww"
+],
+[
+"capital city",
+"capital city mambo sauce",
+"capital city, llc"
+],
+[
+"cbq",
+"central barbecue",
+"central bbq"
+],
+[
+"chickie's & pete's",
+"chickie's and pete's"
+],
+[
+"ching's best wings",
+"ching's hot wings",
+"ching's hotwings"
+],
+[
+"duff's",
+"duff's famous wings",
+"duff's sheridan drive"
+],
+[
+"elmo's",
+"elmo's bar & restaurant",
+"elmo's restaurant & bar"
+],
+[
+"gabriel's gate",
+"gabriel's gate restaurant"
+],
+[
+"harold's",
+"harold's chicken",
+"harold's chicken shack"
+],
+[
+"hattie b's",
+"hattie b's hot chicken"
+],
+[
+"hooters",
+"hooters of america",
+"hooters, inc.",
+"original hooters"
+],
+[
+"horace & dickie's seafood",
+"horace & dickies",
+"horace and dickie's"
+],
+[
+"jeremiah's",
+"jeremiah's monroe ave",
+"jeremiah's tavern"
+],
+[
+"j.r. crickets",
+"jr cricket's",
+"the original j.r. crickets"
+],
+[
+"la nova",
+"la nova pizzeria",
+"la nova wings"
+],
+[
+"mammoser's",
+"mammoser's tavern & restaurant"
+],
+[
+"911 tavern",
+"nine-eleven tavern",
+"the nine-eleven tavern"
+],
+[
+"peppa's",
+"peppa's jerk chicken",
+"peppa's jerk chicken restaurant"
+],
+[
+"bbq chicken shack",
+"prince's hot chicken",
+"prince's hot chicken shack",
+"prince's hot chicken south"
+],
+[
+"wingnutz",
+"wingnutz bar & grill",
+"wingnutz bar and grill",
+"wingnutz buffalo"
+],
+[
+"wingstop",
+"wingstop inc.",
+"wingstop restaurants"
+],
+[
+"yum's",
+"yum's carry out",
+"yum's ii",
+"yum's ii carry-out"
+],
+[
+"adrian e. miller",
+"adrian miller",
+"the soul food scholar"
+],
+[
+"andre prince jeffries",
+"andré prince jeffries",
+"miss andré"
+],
+[
+"argia b's",
+"argia b. collins",
+"argia b. collins sr."
+],
+[
+"bill \"el wingador\" simmons",
+"bill simmons",
+"el wingador"
+],
+[
+"big bob gibson",
+"bob gibson",
+"robert gibson"
+],
+[
+"bud trillin",
+"calvin marshall trillin",
+"calvin trillin"
+],
+[
+"dom bellissimo",
+"dominic bellissimo"
+],
+[
+"drew cerza",
+"the wing king"
+],
+[
+"harold p. pierce",
+"harold pierce",
+"the fried chicken king"
+],
+[
+"james disbrow",
+"jim disbrow",
+"jimmy disbrow"
+],
+[
+"jaws",
+"joey chestnut",
+"joseph christian chestnut"
+],
+[
+"john mack young",
+"john young",
+"king of wings"
+],
+[
+"teressa bellisimo",
+"teressa bellissimo"
+],
+[
+"james thornton prince",
+"thornton james prince",
+"thornton prince",
+"thornton prince iii"
+],
+[
+"buffalo, new york",
+"city hall, niagara square",
+"city of buffalo"
+],
+[
+"national broiler council",
+"national chicken council",
+"ncc"
+],
+[
+"sfa",
+"southern foodways alliance"
+],
+[
+"southeastern",
+"uspoultry"
+],
+[
+"national buffalo wing festival",
+"wing fest"
+],
+[
+"chicken wing day",
+"july 29",
+"national chicken wing day"
+],
+[
+"super bowl sunday",
+"super sunday",
+"the big game"
+],
+[
+"wing bowl",
+"wing bowl las vegas"
+],
+[
+"all drums",
+"all flats",
+"all flats no drums",
+"flats only"
+],
+[
+"atomic",
+"atomic wings",
+"nuclear",
+"triple atomic"
+],
+[
+"boneless",
+"boneless bites",
+"boneless wings",
+"wyngz"
+],
+[
+"buffalo",
+"buffalo sauce (attributive)",
+"buffalo-style"
+],
+[
+"drum",
+"drumette",
+"drums",
+"first segment wing portion",
+"wing drumette"
+],
+[
+"crispy",
+"extra crispy",
+"hard fried",
+"well done"
+],
+[
+"flapper",
+"flipper",
+"pointer"
+],
+[
+"flat",
+"flats",
+"mid-section",
+"second segment wing portion",
+"wing flat",
+"wingette"
+],
+[
+"chili honey",
+"hot honey",
+"spicy honey"
+],
+[
+"mild",
+"mild sauce"
+],
+[
+"mambo",
+"mambo sauce",
+"mumbo",
+"mumbo sauce"
+],
+[
+"naked",
+"naked wings",
+"unbreaded"
+],
+[
+"party wing",
+"party wings",
+"split wings",
+"wingettes and drumettes"
+],
+[
+"kimmelweck",
+"kummelweck",
+"kümmelweck",
+"weck"
+],
+[
+"dry rub",
+"lemon pepper wet",
+"wet",
+"wet and dry"
+],
+[
+"25-cent wings",
+"wing night",
+"wing special",
+"wing wednesday"
+],
+[
+"third segment",
+"tip",
+"wing tip",
+"wingtip"
+],
+[
+"chicken wing",
+"wing",
+"wings"
+],
+[
+"buffalo murals",
+"buffalo public art",
+"buffalo wall art"
+],
+[
+"chicken shack signs",
+"fried chicken signs",
+"wing counter signage"
+],
+[
+"hot sauce bottle art",
+"hot sauce labels",
+"pepper sauce labels"
+],
+[
+"neon bird",
+"neon chicken",
+"neon chicken sign"
+],
+[
+"cockerel vane",
+"rooster weathervanes",
+"weathercock"
+],
+[
+"wing contest promotional art",
+"wing fest poster art",
+"wing festival posters"
+],
+[
+"berkheimer v. rekm",
+"the boneless wing case"
+],
+[
+"free to use",
+"sources and licences"
+],
+[
+"ranch against blue cheese",
+"the dip argument"
+],
+[
+"buffalo wings",
+"buffalo wing",
+"hot wings",
+"wings",
+"wing"
+],
+[
+"barbecue",
+"barbeque",
+"bar-b-q",
+"bbq"
+],
+[
+"blue cheese",
+"bleu cheese",
+"blue cheese dressing"
+],
+[
+"drumette",
+"drummette",
+"drum",
+"drumstick end"
+],
+[
+"flat",
+"wingette",
+"flapper",
+"wingette flat"
+],
+[
+"lemon pepper",
+"lemon-pepper",
+"lemon peppa"
+],
+[
+"mumbo",
+"mambo",
+"mumbo sauce",
+"mambo sauce"
+],
+[
+"old bay",
+"chesapeake seasoning",
+"crab seasoning"
+],
+[
+"korean fried chicken",
+"kfc korean",
+"yangnyeom"
+],
+[
+"boneless wings",
+"boneless",
+"chicken nuggets"
+]
+]
+}

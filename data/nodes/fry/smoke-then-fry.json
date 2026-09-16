@@ -1,0 +1,100 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "smoke-then-fry",
+ "names": {
+  "name": "smoke then fry",
+  "aliases": [
+   "smoked and flashed",
+   "smoke-fried wings"
+  ],
+  "said": "Smoked wings, flashed. The second step takes seconds and it is the one the kitchen worries about."
+ },
+ "region": [
+  "memphis",
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "kind": "smoke"
+ },
+ "text": {
+  "what": "Cooking the wing through in smoke, then dropping it briefly into hot oil or onto high heat to tighten the skin. Smoke gives flavour and colour that a fryer cannot; the fryer gives a crust that smoke alone leaves flabby. The rub or the sauce goes on after.",
+  "story": "The temperatures explain the problem. Hot smoking runs at 52–80 °C / 126–176 °F, which cooks food while flavouring it but is far below the 177–191 °C a crust needs; smoke roasting, above 121 °C / 250 °F, combines roasting and smoking and still leaves poultry skin soft. Above 85 °C / 185 °F foods can shrink, buckle or split, so a smoker cannot simply be turned up. Hickory, oak, pecan, apple and mesquite are the common North American woods; different tree species have different ratios of components and so give different flavours.\n\nBuffalo's own reference text records the alternatives without endorsing them: traditionally the wings are deep-fried, but alternatively they may be baked, grilled, or broiled.\n\n*Tradition holds —* barbecue houses that sell wings usually smoke first and finish in the fryer, and describe the finish in seconds rather than minutes. This project has not found a published house method that states a time.\n\n*Inference —* the technique is a barbecue kitchen borrowing a bar's last step, which is why it shows up on menus where the pit is the main business and the wing is the appetiser.",
+  "how": "Dry the wings, rub if the house rubs. Smoke at a hot-smoking temperature until cooked through, taking colour from the wood. Rest and dry the surface. Drop into hot oil for a short finish, or onto direct high heat, only long enough to set the skin. Sauce or dust after; a sauce applied before the fryer burns, and a rub applied before the smoke can turn bitter over a long cook.",
+  "today": "Standard at barbecue counters that sell wings, and increasingly at bars with a smoker out back. *Inference —* it is also a scheduling method: the smoke happens in the morning and the fryer happens to order, so a slow cook reaches a bar's service speed."
+ },
+ "kin": [
+  {
+   "to": "smoked-bbq-wing",
+   "as": "The style this method makes, and the one that argues with the fryer for possession of the wing.",
+   "rel": "style"
+  },
+  {
+   "to": "central-bbq",
+   "as": "A Memphis pit on this project's list, where a wing arrives out of the smoke rather than the vat.",
+   "rel": "place"
+  },
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "as": "The Alabama house whose white sauce is built for smoked chicken.",
+   "rel": "place"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "The dust that goes on after, in place of a sauce.",
+   "rel": "sauce"
+  },
+  {
+   "to": "alabama-white-sauce",
+   "as": "The mayonnaise-and-vinegar dip this method is usually finished into.",
+   "rel": "sauce"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "Borrowed for the last thirty seconds, and only for the skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "grill",
+   "as": "The other finish, over direct heat instead of in oil.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "The choice this method forces at the end: dust it or sauce it.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:web-wp-smoking-cooking",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-smoking-cooking"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-wp-smoking-cooking",
+    "note": "the house method is explicitly unsourced and hedged; closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "no published house method found; this is the sequence the technique requires"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true
+}

@@ -1,0 +1,264 @@
+{
+ "note": "The wing-picker. Six questions, each answer gives points to styles. The scoring runs in the reader's own browser. The result links to the style's page; it is a game, not a verdict.",
+ "title": "Which wing claims you?",
+ "lede": "Six questions. At the end a city hands you a plate. Argue with it; that is the point of wings.",
+ "questions": [
+  {
+   "q": "The sauce should be…",
+   "a": [
+    {
+     "t": "orange, thin, cayenne and melted butter — it runs off the wing",
+     "s": {
+      "buffalo": 4,
+      "rochester-breaded": 2
+     }
+    },
+    {
+     "t": "not sauce at all. Seasoning. Dry.",
+     "s": {
+      "memphis-dry-rub": 4,
+      "baltimore-old-bay": 3,
+      "atlanta-lemon-pepper": 2
+     }
+    },
+    {
+     "t": "sweet, sticky, red, and it should stain your fingers",
+     "s": {
+      "chicago-mild-sauce": 3,
+      "korean-american": 3,
+      "smoked-bbq-wing": 2
+     }
+    },
+    {
+     "t": "hot enough to hurt, and I mean it",
+     "s": {
+      "nashville-hot": 4,
+      "caribbean-jerk": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": "Dip:",
+   "a": [
+    {
+     "t": "blue cheese. Chunky. This is not up for discussion.",
+     "s": {
+      "buffalo": 4,
+      "rochester-breaded": 2
+     }
+    },
+    {
+     "t": "ranch, and Buffalo can fight me",
+     "s": {
+      "atlanta-lemon-pepper": 2,
+      "garlic-parm": 2,
+      "smoked-bbq-wing": 2
+     }
+    },
+    {
+     "t": "white barbecue sauce — mayonnaise, vinegar, black pepper",
+     "s": {
+      "alabama-white": 5
+     }
+    },
+    {
+     "t": "no dip. The sauce is the dip.",
+     "s": {
+      "nashville-hot": 2,
+      "korean-american": 3,
+      "caribbean-jerk": 2,
+      "dc-mumbo": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": "Skin:",
+   "a": [
+    {
+     "t": "naked. Fried bare, twice if it needs it.",
+     "s": {
+      "buffalo": 3,
+      "korean-american": 2,
+      "atlanta-lemon-pepper": 2
+     }
+    },
+    {
+     "t": "breaded, and fried until it crunches",
+     "s": {
+      "rochester-breaded": 5,
+      "chicago-mild-sauce": 2
+     }
+    },
+    {
+     "t": "shatter-crisp, however you got there",
+     "s": {
+      "korean-american": 4,
+      "chicago-mild-sauce": 2
+     }
+    },
+    {
+     "t": "smoked first, then whatever finishes it",
+     "s": {
+      "smoked-bbq-wing": 5,
+      "memphis-dry-rub": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": "What is underneath?",
+   "a": [
+    {
+     "t": "celery and carrot sticks, on the plate, being ignored",
+     "s": {
+      "buffalo": 4
+     }
+    },
+    {
+     "t": "french fries, and the sauce goes over all of it",
+     "s": {
+      "chicago-mild-sauce": 4,
+      "dc-mumbo": 4
+     }
+    },
+    {
+     "t": "fried rice, from the same counter",
+     "s": {
+      "atlanta-lemon-pepper": 4
+     }
+    },
+    {
+     "t": "white bread and pickles",
+     "s": {
+      "nashville-hot": 4,
+      "alabama-white": 2,
+      "memphis-dry-rub": 1
+     }
+    }
+   ]
+  },
+  {
+   "q": "Pick your piece:",
+   "a": [
+    {
+     "t": "flats. Every time. More skin, more sauce.",
+     "s": {
+      "buffalo": 2,
+      "korean-american": 2,
+      "atlanta-lemon-pepper": 2
+     }
+    },
+    {
+     "t": "drums. I want a handle.",
+     "s": {
+      "nashville-hot": 2,
+      "chicago-mild-sauce": 2,
+      "caribbean-jerk": 2
+     }
+    },
+    {
+     "t": "whole wing, tip and all, one piece",
+     "s": {
+      "korean-american": 3,
+      "smoked-bbq-wing": 2,
+      "caribbean-jerk": 2
+     }
+    },
+    {
+     "t": "party wings, a big greasy pile, no counting",
+     "s": {
+      "chicago-mild-sauce": 3,
+      "atlanta-lemon-pepper": 2,
+      "dc-mumbo": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": "The seasoning shaker on the table says…",
+   "a": [
+    {
+     "t": "OLD BAY",
+     "s": {
+      "baltimore-old-bay": 5
+     }
+    },
+    {
+     "t": "lemon pepper",
+     "s": {
+      "atlanta-lemon-pepper": 5
+     }
+    },
+    {
+     "t": "garlic and parmesan, and the pizzeria made it",
+     "s": {
+      "garlic-parm": 5
+     }
+    },
+    {
+     "t": "nothing. There is a bottle of cayenne pepper sauce instead.",
+     "s": {
+      "buffalo": 3,
+      "nashville-hot": 2
+     }
+    }
+   ]
+  }
+ ],
+ "results": {
+  "buffalo": {
+   "title": "Buffalo",
+   "say": "Cayenne and butter, fried bare, blue cheese, celery you will not eat. You say wings, never Buffalo wings, and you know what year it is supposed to have started."
+  },
+  "rochester-breaded": {
+   "title": "Rochester",
+   "say": "Breaded, crunchy, seventy miles east of the argument and winning it locally. Half-and-half if you cannot decide, and a plate under it if you are serious."
+  },
+  "atlanta-lemon-pepper": {
+   "title": "Atlanta",
+   "say": "Lemon pepper, and the only real question is wet or dry. Fried rice on the side, from the same counter, in the same bag."
+  },
+  "chicago-mild-sauce": {
+   "title": "Chicago",
+   "say": "Fried hard, mild sauce over the whole thing, fries underneath soaking it up. The South Side settled this and did not ask anyone."
+  },
+  "dc-mumbo": {
+   "title": "Washington, D.C.",
+   "say": "Mumbo sauce, out a carryout window, on wings and fries together. Sweet, red, and named in an argument that reaches Chicago."
+  },
+  "baltimore-old-bay": {
+   "title": "Baltimore",
+   "say": "Old Bay. On the wings, on the fries, on the rim of the glass. Maryland put it on a crab first and never stopped."
+  },
+  "nashville-hot": {
+   "title": "Nashville",
+   "say": "Cayenne paste in frying fat, white bread underneath to catch it, pickles on top to survive it. You have made your peace with consequences."
+  },
+  "memphis-dry-rub": {
+   "title": "Memphis",
+   "say": "Dry. Rubbed before, dusted after, off the same counter as the ribs. A wet wing is a different order and you will not be making it."
+  },
+  "korean-american": {
+   "title": "Korean America",
+   "say": "Fried twice, crust like glass, sweet-hot glaze, pickled radish to reset the mouth. You order the whole wing and eat the tip."
+  },
+  "caribbean-jerk": {
+   "title": "Jerk",
+   "say": "Allspice, thyme and scotch bonnet, marinated overnight, over fire rather than in oil. Brooklyn, the Bronx, Miami, Hartford — pick your block."
+  },
+  "alabama-white": {
+   "title": "Alabama white",
+   "say": "Mayonnaise, vinegar, a lot of black pepper, and a smoked wing dunked straight into it. North Alabama has been doing this since 1925 and rarely mentions it."
+  },
+  "smoked-bbq-wing": {
+   "title": "The barbecue joint",
+   "say": "Whole wings on the smoker beside the brisket. Slower than a fryer, and the skin is the part you argue about."
+  },
+  "garlic-parm": {
+   "title": "Garlic parmesan",
+   "say": "Butter, garlic, a snowfall of cheese, no pepper anywhere. The pizzeria's answer, and now half the country's."
+  }
+ }
+}

@@ -1,0 +1,463 @@
+{
+ "id": "mumbo-sauce",
+ "names": {
+  "name": "Mumbo sauce",
+  "aliases": [
+   "mambo sauce",
+   "Mumbo® Sauce"
+  ],
+  "said": "Ordered by the squeeze: 'wings and fries, mumbo on everything.' Spelled mumbo in Chicago and on the trademark, mambo on plenty of D.C. counters."
+ },
+ "region": [
+  "dc",
+  "chicago",
+  "us"
+ ],
+ "facets": {
+  "base": "sweet-tomato",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A carryout condiment of Washington, D.C.: red-orange, thick, poured over fried chicken wings, french fries, fried jumbo shrimp and fried rice. Close to barbecue sauce but sweeter, and either spicier or more sour depending on whose it is. The consistency and the flavour vary shop to shop. Its origin and its ingredients are both disputed, and so is its spelling.",
+  "story": "The trademark belongs to Chicago. Argia B. Collins Sr. used the Mumbo name for a barbecue sauce he developed for his Chicago restaurant from at least 1950; his successor-in-interest, Select Brands, LLC, registered it with the US Patent and Trademark Office on 25 May 1999, Registration No. 2,247,855. Select Brands has challenged D.C. sellers who use the term.\n\nThe D.C. account runs through a restaurant called Wings-n-Things in the late 1960s, according to Capital City Mumbo Sauce. A John Young's Wings-n-Things had been serving mumbo sauce on chicken wings in Buffalo, New York since the early 1960s, and Young credited a Washington, D.C. restaurant for the sauce — a boxer had told him a D.C. place was doing good business in wings, so he specialised. Since Collins's sauce runs back to the 1950s, before it showed up at Wings-n-Things, the D.C. version is speculated to be a transplant of the Chicago original. After two years of argument the Trademark Trial and Appeal Board found that a D.C.-based company could not take the name from its Chicago founder.\n\nIt stays a live argument in the city. In 2018 Mayor Muriel Bowser called mumbo sauce \"annoying\" in a Facebook post and questioned whether it was \"quintessential\" D.C.; her spokesperson said the remarks were meant to liven Thanksgiving discussions. McDonald's released a limited-time version on 9 October 2023 with a media campaign and a short YouTube documentary on the sauce's history.\n\nThe name carries beyond the counter: the go-go group Mambo Sauce took its name from it, Christylez Bacon performs a song about it, Black Flag Brewing in Columbia, Maryland named a beer Mambo Sauce, and Camille Acker's collection Training School for Negro Girls contains a story called \"Mambo Sauce\".",
+  "how": "Poured, not tossed. A carryout squeezes it over the wings and the fries in the box so both arrive wet, or hands it over in a lidded cup. Every shop mixes its own; the bottled Capital City version starts with ketchup, then sugar, then water, then soy sauce, and takes its heat from a cayenne pepper hot sauce well down the list.",
+  "today": "Bottled by Capital City and by others, and made in-house at carryouts across the District. As of 16 September 2026 the USDA label panel for Capital City Mild Mambo Sauce reads 160 mg sodium and 10 g sugar in a 2-tablespoon serving — 80 mg and 5 g in one tablespoon. Nobody publishes a Scoville number for it. The house sauces have no label at all."
+ },
+ "kin": [
+  {
+   "to": "dc-mumbo",
+   "as": "The style built on it: a carryout box of wings and fries with this poured over both.",
+   "rel": "style"
+  },
+  {
+   "to": "mild-sauce",
+   "as": "Chicago's near-twin, and the sauce the trademark case says came first.",
+   "rel": "contrast"
+  },
+  {
+   "to": "john-young",
+   "as": "Put it on breaded whole wings in Buffalo from 1961, and credited a Washington restaurant for it.",
+   "rel": "person"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "Registered the Mumbo name in Chicago and won it back from a D.C. company.",
+   "rel": "person"
+  },
+  {
+   "to": "mumbo-fries",
+   "as": "The other half of the box, and where most of the sauce ends up.",
+   "rel": "dish"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "as": "Bottles the D.C. version and tells the Wings-n-Things origin.",
+   "rel": "place"
+  },
+  {
+   "to": "yums-carry-out",
+   "as": "A D.C. counter where the wings arrive already wet with it.",
+   "rel": "place"
+  },
+  {
+   "to": "mumbo",
+   "as": "The word itself, and the mumbo-or-mambo argument over it.",
+   "rel": "term"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "What Buffalo used instead, and what John Young's wings were not tossed in.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fried-rice-plate",
+   "as": "Goes over this too, at the Chinese carryouts that sell both.",
+   "rel": "dish"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "mild-sauce",
+   "tell": "City and label. Mild sauce is Chicago's word; mumbo is the registered Chicago trademark that D.C. adopted. The bottles taste close."
+  },
+  {
+   "id": "honey-bbq-sauce",
+   "tell": "Mumbo runs thinner and sourer, and a national honey barbecue sauce leads with corn syrup rather than ketchup."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "sweet-tomato",
+  "maker": "Capital City, LLC",
+  "town": "Washington",
+  "state": "DC",
+  "ingredients": [
+   "tomato ketchup",
+   "sugar",
+   "water",
+   "soy sauce",
+   "vinegar",
+   "cayenne pepper hot sauce",
+   "paprika"
+  ],
+  "pepper_rank": 6,
+  "vinegar_rank": 5,
+  "fat_rank": 0,
+  "tomato_rank": 1,
+  "sugar_rank": 2,
+  "mustard_rank": 0,
+  "soy_rank": 4,
+  "serving_tbsp": 2,
+  "sodium_mg_per_tbsp": 80,
+  "sugar_g_per_tbsp": 5,
+  "scoville": null,
+  "heat_claim": "Mild",
+  "source": "s:fdc-capital-city-mild-mambo",
+  "url": "https://fdc.nal.usda.gov/food-details/2147935/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Capital City Mild Mambo Sauce, 12 fl oz. Label serving is 2 Tbsp (21 g); sodium 160 mg and sugars 10 g per serving, so 80 mg and 5 g per tablespoon. Ranks count the top-level list only — the ketchup carries its own sugar and vinegar inside the parenthesis, which the tomato_rank of 1 does not show. heat_claim is the maker's own front-label word. The Sweet Hot bottle shows the same sodium and sugar and adds habanero pepper extract. Nobody publishes a Scoville figure; the carryout versions have no label to read at all."
+ },
+ "recipes": [
+  {
+   "title": "Chili sauce (No. 2)",
+   "source": "s:harland-1906",
+   "license": "Public domain",
+   "year": 1906,
+   "author": "Marion Harland",
+   "book": "Marion Harland's Complete Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "region": "United States",
+   "ingredients": [
+    "two dozen ripe tomatoes",
+    "six onions",
+    "two red peppers",
+    "a teacupful of granulated sugar",
+    "four tablespoonfuls of salt",
+    "three teaspoonfuls, each, of powdered allspice, cloves and cinnamon",
+    "a teaspoonful of ground ginger",
+    "two quarts of vinegar"
+   ],
+   "text": "Peel and chop two dozen ripe tomatoes and six onions. Remove the seeds from two red peppers and chop the peppers fine; then stir them into the tomatoes and onions. Season all with a teacupful of granulated sugar, four tablespoonfuls of salt, three teaspoonfuls, each, of powdered allspice, cloves and cinnamon, and a teaspoonful of ground ginger. Pour over all two quarts of vinegar, and boil in a porcelain-lined kettle for two and a half hours. When cool, bottle and seal.",
+   "note": "Copied verbatim, old spellings kept. Not mumbo sauce — an American home 'chili sauce', tomato and vinegar and sugar and red pepper, bottled and kept. It is the shelf-stable tomato condiment the carryout sauces were later built on top of."
+  }
+ ],
+ "sources": [
+  "s:wp-mumbo-sauce",
+  "s:wp-mild-sauce",
+  "s:wp-buffalo-wing",
+  "s:fdc-capital-city-mild-mambo",
+  "s:harland-1906"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-capital-city-mild-mambo",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the pour is general carryout practice; the bottled ingredient order is cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-capital-city-mild-mambo"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [
+  {
+   "file": "mumbo-sauce/mumbo-sauce-mumbo-sauce.jpg",
+   "source": "commons",
+   "title": "File:Mumbo sauce.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mumbo_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMumbo_sauce.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "justgrimes",
+   "credit": "https://www.flickr.com/photos/notbrucelee/6015998118/",
+   "alt": "A bottle of Capital City Mumbo Sauce from the Washington, DC area.",
+   "date": "4 August 2011, 14:04:52",
+   "primary": true,
+   "sha256": "3f228736620960f40fa8e17f69341b09583017920d655dd1d8bfaee63d05962b"
+  }
+ ],
+ "updated": "2026-09-16",
+ "blurb": "A carryout condiment of Washington, D.C.: red-orange, thick, poured over fried chicken wings, french fries, fried jumbo shrimp and fried rice.",
+ "region_terms": [
+  {
+   "key": "dc",
+   "name": "Washington, D.C.",
+   "state": "DC",
+   "note": "mumbo sauce, the carryout counter"
+  },
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "mild sauce, the South Side chicken shack"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "The style built on it: a carryout box of wings and fries with this poured over both.",
+   "rel": "style"
+  },
+  {
+   "to": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "Chicago's near-twin, and the sauce the trademark case says came first.",
+   "rel": "contrast"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Put it on breaded whole wings in Buffalo from 1961, and credited a Washington restaurant for it.",
+   "rel": "person"
+  },
+  {
+   "to": "argia-b-collins",
+   "type": "person",
+   "name": "Argia B. Collins",
+   "as": "Registered the Mumbo name in Chicago and won it back from a D.C. company.",
+   "rel": "person"
+  },
+  {
+   "to": "mumbo-fries",
+   "type": "dish",
+   "name": "mumbo fries",
+   "as": "The other half of the box, and where most of the sauce ends up.",
+   "rel": "dish"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "type": "place",
+   "name": "Capital City Mambo Sauce",
+   "as": "Bottles the D.C. version and tells the Wings-n-Things origin.",
+   "rel": "place"
+  },
+  {
+   "to": "yums-carry-out",
+   "type": "place",
+   "name": "Yum's II Carry-Out",
+   "as": "A D.C. counter where the wings arrive already wet with it.",
+   "rel": "place"
+  },
+  {
+   "to": "mumbo",
+   "type": "term",
+   "name": "mumbo",
+   "as": "The word itself, and the mumbo-or-mambo argument over it.",
+   "rel": "term"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "What Buffalo used instead, and what John Young's wings were not tossed in.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fried-rice-plate",
+   "type": "dish",
+   "name": "the fried rice plate",
+   "as": "Goes over this too, at the Chinese carryouts that sell both.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mumbo-sauce",
+   "kind": "wikipedia",
+   "title": "Mumbo sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mumbo_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mild-sauce",
+   "kind": "wikipedia",
+   "title": "Mild sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mild_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-capital-city-mild-mambo",
+   "kind": "dataset",
+   "title": "Capital City Mild Mambo Sauce — branded food label (FDC ID 2147935)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2147935/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:harland-1906",
+   "kind": "book",
+   "title": "Marion Harland's Complete Cook Book: A Practical and Exhaustive Manual of Cookery and Housekeeping",
+   "author": "Marion Harland",
+   "publisher": "The Bobbs-Merrill Company, Indianapolis",
+   "year": 1906,
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "accessed": "2026-09-16",
+   "note": "new edition, revised and enlarged; copyright 1903 and 1906. Public domain, read via Project Gutenberg ebook 64459"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the pour is general carryout practice; the bottled ingredient order is cited"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:fdc-capital-city-mild-mambo"
+  }
+ },
+ "primary_image": {
+  "file": "mumbo-sauce/mumbo-sauce-mumbo-sauce.jpg",
+  "source": "commons",
+  "title": "File:Mumbo sauce.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mumbo_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AMumbo_sauce.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "justgrimes",
+  "credit": "https://www.flickr.com/photos/notbrucelee/6015998118/",
+  "alt": "A bottle of Capital City Mumbo Sauce from the Washington, DC area.",
+  "date": "4 August 2011, 14:04:52",
+  "primary": true,
+  "sha256": "3f228736620960f40fa8e17f69341b09583017920d655dd1d8bfaee63d05962b"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "The sauce this style is entirely about, and the thing two cities and a trademark board have fought over.",
+   "rel": "sauce"
+  },
+  {
+   "from": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "What John Young put on his Buffalo wings instead, three years earlier — tomato, not cayenne and butter.",
+   "rel": "contrast"
+  },
+  {
+   "from": "honey-bbq-sauce",
+   "type": "sauce",
+   "name": "Honey barbecue sauce",
+   "as": "The D.C. relative, thinner and sourer and built on ketchup.",
+   "rel": "kin"
+  },
+  {
+   "from": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "Its D.C. cousin, and the one that carries the registered Chicago trademark.",
+   "rel": "contrast"
+  },
+  {
+   "from": "fried-rice-plate",
+   "type": "dish",
+   "name": "the fried rice plate",
+   "as": "The sauce that makes this plate a D.C. plate rather than a takeout combination.",
+   "rel": "sauce"
+  },
+  {
+   "from": "mumbo-fries",
+   "type": "dish",
+   "name": "mumbo fries",
+   "as": "The sauce, its Chicago trademark and its D.C. claim.",
+   "rel": "sauce"
+  },
+  {
+   "from": "capital-city-mambo-sauce",
+   "type": "place",
+   "name": "Capital City Mambo Sauce",
+   "as": "Bottles it, and publishes the D.C. origin story that the Chicago trademark holder disputes.",
+   "rel": "sauce"
+  },
+  {
+   "from": "horaces-and-dickies",
+   "type": "place",
+   "name": "Horace & Dickie's Seafood",
+   "as": "The bottle that travels down a D.C. counter like this one, whatever came out of the fryer.",
+   "rel": "sauce"
+  },
+  {
+   "from": "yums-carry-out",
+   "type": "place",
+   "name": "Yum's II Carry-Out",
+   "as": "Poured here from a house recipe, which is how the sauce works — one per carryout.",
+   "rel": "sauce"
+  },
+  {
+   "from": "argia-b-collins",
+   "type": "person",
+   "name": "Argia B. Collins",
+   "as": "His bottle, his trademark, and the reason the name is contested at all.",
+   "rel": "sauce"
+  },
+  {
+   "from": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "What he poured over the wings, spelled mambo as often as mumbo, and what the 1982 city proclamation credited him with.",
+   "rel": "sauce"
+  },
+  {
+   "from": "mumbo",
+   "type": "term",
+   "name": "mumbo",
+   "as": "The sauce the word names, with what goes in it.",
+   "rel": "sauce"
+  },
+  {
+   "from": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "What John Young put on his wings, which is why his dish and the Anchor Bar's are not the same dish.",
+   "rel": "sauce"
+  }
+ ]
+}

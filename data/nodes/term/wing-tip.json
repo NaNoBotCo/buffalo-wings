@@ -1,0 +1,79 @@
+{
+ "id": "wing-tip",
+ "names": {
+  "name": "wing tip",
+  "aliases": [
+   "tip",
+   "wingtip",
+   "third segment"
+  ],
+  "sort": "wing tip"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "W",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "wing + tip, a plain compound; the piece also answers to flapper and to pointer, and all three names describe the same shape from a different angle",
+  "first_attested": "",
+  "note": "Wikipedia's Buffalo wing article names the three segments \"drumette, flat, and flapper or pointer\"; its poultry article gives \"the wing tip (also called the 'flapper')\". *Inference —* tip is what a butcher calls it, flapper what a cook calls it, pointer what a diner calls it when handed one.",
+  "tier": "cited",
+  "source": "s:wp-buffalo-wing"
+ },
+ "text": {
+  "what": "Third segment, the pointed end. Skin, cartilage, two slivers of bone, almost no meat. Usually cut off before the wing reaches a fryer and boiled into stock instead, though some restaurants serve it still joined to the flat.",
+  "how": "Where it survives on the plate, it is eaten whole — crust, cartilage and all — or left in the bone bowl. Where it does not, it goes into a stockpot: collagen from the joints is what makes chicken stock set, so the least saleable piece of the wing is the one worth most to a kitchen that makes its own."
+ },
+ "kin": [
+  {
+   "to": "flapper",
+   "as": "The same piece under the name a kitchen uses for it.",
+   "rel": "same-word"
+  },
+  {
+   "to": "wing",
+   "as": "The third of its three segments, and the one a menu usually leaves out of the count.",
+   "rel": "whole"
+  },
+  {
+   "to": "flat",
+   "as": "What it is attached to, and what it gets cut away from.",
+   "rel": "kin"
+  },
+  {
+   "to": "wing-cut",
+   "as": "The cut that removes it, the first of the two.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "as": "A pack defined partly by this piece's absence.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-as-food",
+  "s:wp-poultry"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the stock use is general kitchen knowledge; the practice of serving the tip attached is cited"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

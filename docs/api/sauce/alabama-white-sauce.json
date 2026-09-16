@@ -1,0 +1,336 @@
+{
+ "id": "alabama-white-sauce",
+ "names": {
+  "name": "Alabama white sauce",
+  "aliases": [
+   "white barbecue sauce",
+   "white sauce"
+  ],
+  "said": "A tub of it goes on the table in north Alabama the way a red sauce does everywhere else."
+ },
+ "region": [
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "base": "dairy",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A mayonnaise-based barbecue sauce, thin, pale and sharp. Typical ingredients are vinegar, lemon juice, salt, pepper, cayenne pepper and horseradish stirred into mayonnaise. It goes on barbecue chicken, which is an Alabama speciality, and on wings — dunked whole rather than brushed.",
+  "story": "White sauce was invented in Decatur, Alabama in 1925. It is believed to have been made by Bob Gibson at Big Bob Gibson Bar-B-Q there.\n\nAlabama barbecue centres on pork cooked in open pits over hickory, with oak and pecan also used. A vinegar-based sauce like North Carolina's is common in the north of the state; a tomato-based one is usual south of Birmingham. White sauce stayed a north Alabama thing until 1994, when it began to be bottled and sold commercially.\n\nBarbecue became popular in Alabama in the early 19th century, with roots in Native American cooking. Local militias held barbecues to get members to turn up for yearly drills, and they served as political and civic gatherings; by the late 1820s some social reformers opposed them, arguing they encouraged \"political debasement\" or that the alcohol and merrymaking were a moral problem. They failed. The first barbecue restaurants opened in the 1890s; the oldest continuously operating one in the state is Golden Rule Bar-B-Q, founded in 1891. In 2015 the Alabama Department of Tourism ran \"The Year of Alabama Barbecue\".",
+  "how": "Dunk, do not brush. A whole smoked or fried chicken goes into the tub and comes out coated; wings go in by the basket. Mayonnaise splits over direct heat, so the sauce meets the bird after the fire, not during. It doubles as a dressing for the slaw beside it.",
+  "today": "Bottled since 1994 and now sold nationally by several Alabama makers. As of 16 September 2026 the USDA label panel for Saw's Alabama White Sauce reads 300 mg sodium, 1 g sugar and 17 g fat in a 2-tablespoon serving — 150 mg and 0.5 g in one tablespoon, with soybean oil first and two vinegars on the list. Big Bob Gibson's own bottle returns no record in FoodData Central, so its panel is not on this disk. Nobody publishes a Scoville number."
+ },
+ "kin": [
+  {
+   "to": "alabama-white",
+   "as": "The style is this tub and the chicken that goes into it.",
+   "rel": "style"
+  },
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "as": "Decatur, 1925, and the invention claim the sauce carries.",
+   "rel": "place"
+  },
+  {
+   "to": "bob-gibson",
+   "as": "Credited with making it, at his own pit.",
+   "rel": "person"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "The other white dip on a wing plate; both start from an oil-and-egg emulsion, this one takes horseradish and vinegar instead of buttermilk and herbs.",
+   "rel": "kin"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "Shares the dairy shelf and the wing plate, and takes its sharpness from vinegar rather than cheese.",
+   "rel": "kin"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "The cooking this sauce meets at the end, never during — mayonnaise splits over fire.",
+   "rel": "fry"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "The wing most often dunked in it.",
+   "rel": "style"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The red barbecue sauce this one is the local answer to.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "ranch-dressing",
+   "tell": "Sharpness and use. White sauce is vinegar-and-horseradish thin and gets dunked in; ranch is herb-and-buttermilk and sits in a cup."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "dairy",
+  "maker": "In-Between Sportwear, Inc. (Saw's)",
+  "town": "Birmingham",
+  "state": "AL",
+  "ingredients": [
+   "refined soybean oil",
+   "water",
+   "distilled vinegar",
+   "salted egg yolk",
+   "sugar",
+   "apple cider vinegar",
+   "spices",
+   "eggs",
+   "salt",
+   "onion powder",
+   "sodium benzoate",
+   "potassium sorbate",
+   "xanthan gum",
+   "paprika",
+   "garlic powder",
+   "natural flavor",
+   "EDTA disodium"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 3,
+  "fat_rank": 1,
+  "tomato_rank": 0,
+  "sugar_rank": 5,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 2,
+  "sodium_mg_per_tbsp": 150,
+  "sugar_g_per_tbsp": 0.5,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-saws-alabama-white-sauce",
+  "url": "https://fdc.nal.usda.gov/food-details/1955770/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Saw's Alabama White Sauce, 12 fl oz. Label serving is 2 Tbsp (28 g); sodium 300 mg and sugars 1 g per serving, so 150 mg and 0.5 g per tablespoon. This is a Birmingham bottle, not Decatur's: Big Bob Gibson Bar-B-Q, which the invention is credited to, returns no record in FoodData Central, so its panel is not on this disk. pepper_rank is 0 because no chile is named on the label — only 'spices' at 7 and paprika at 14, and the cayenne and horseradish that descriptions of the sauce name do not appear on this one. The brand owner name is as the USDA record carries it. No Scoville number is published."
+ },
+ "recipes": [
+  {
+   "title": "Barbecued squirrels",
+   "source": "s:harland-1906",
+   "license": "Public domain",
+   "year": 1906,
+   "author": "Marion Harland",
+   "book": "Marion Harland's Complete Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "region": "United States",
+   "ingredients": [
+    "four tablespoonfuls of vinegar",
+    "two tablespoonfuls of butter",
+    "a teaspoonful, each, of sugar and made mustard",
+    "a half teaspoonful, each, of salt and pepper"
+   ],
+   "text": "Broil, as already directed, lay upon a hot dish, ribs downward, and cover with a sauce made by heating together four tablespoonfuls of vinegar with two of butter; a teaspoonful, each, of sugar and made mustard, a half teaspoonful, each, of salt and pepper. Boil one minute; pour over the squirrels, and let them stand, covered, ten minutes before serving.",
+   "note": "Copied verbatim, old spellings kept. Not white sauce — no mayonnaise, and squirrels rather than chicken — but the same manoeuvre: a sharp fat-and-vinegar sauce poured over meat after the fire, and left to sit ten minutes."
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-alabama",
+  "s:fdc-saws-alabama-white-sauce",
+  "s:harland-1906"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-alabama"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-saws-alabama-white-sauce",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the dunk and the splitting mayonnaise are general pit practice; the sauce's composition and use on chicken are cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-saws-alabama-white-sauce"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A mayonnaise-based barbecue sauce, thin, pale and sharp. Typical ingredients are vinegar, lemon juice, salt, pepper, cayenne pepper and horseradish stirred into mayonnaise.",
+ "region_terms": [
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "alabama-white",
+   "type": "style",
+   "name": "Alabama white sauce wings",
+   "as": "The style is this tub and the chicken that goes into it.",
+   "rel": "style"
+  },
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "type": "place",
+   "name": "Big Bob Gibson Bar-B-Q",
+   "as": "Decatur, 1925, and the invention claim the sauce carries.",
+   "rel": "place"
+  },
+  {
+   "to": "bob-gibson",
+   "type": "person",
+   "name": "Bob Gibson",
+   "as": "Credited with making it, at his own pit.",
+   "rel": "person"
+  },
+  {
+   "to": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "The other white dip on a wing plate; both start from an oil-and-egg emulsion, this one takes horseradish and vinegar instead of buttermilk and herbs.",
+   "rel": "kin"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "Shares the dairy shelf and the wing plate, and takes its sharpness from vinegar rather than cheese.",
+   "rel": "kin"
+  },
+  {
+   "to": "smoke-then-fry",
+   "type": "fry",
+   "name": "smoke then fry",
+   "as": "The cooking this sauce meets at the end, never during — mayonnaise splits over fire.",
+   "rel": "fry"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "The wing most often dunked in it.",
+   "rel": "style"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "type": "sauce",
+   "name": "Honey barbecue sauce",
+   "as": "The red barbecue sauce this one is the local answer to.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-alabama",
+   "kind": "wikipedia",
+   "title": "Barbecue in Alabama",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_Alabama",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-saws-alabama-white-sauce",
+   "kind": "dataset",
+   "title": "Saw's Alabama White Sauce — branded food label (FDC ID 1955770)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/1955770/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:harland-1906",
+   "kind": "book",
+   "title": "Marion Harland's Complete Cook Book: A Practical and Exhaustive Manual of Cookery and Housekeeping",
+   "author": "Marion Harland",
+   "publisher": "The Bobbs-Merrill Company, Indianapolis",
+   "year": 1906,
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "accessed": "2026-09-16",
+   "note": "new edition, revised and enlarged; copyright 1903 and 1906. Public domain, read via Project Gutenberg ebook 64459"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-alabama"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-alabama"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the dunk and the splitting mayonnaise are general pit practice; the sauce's composition and use on chicken are cited"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:fdc-saws-alabama-white-sauce"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "alabama-white",
+   "type": "style",
+   "name": "Alabama white sauce wings",
+   "as": "The sauce itself — mayonnaise, vinegar, lemon, pepper — invented in Decatur in 1925 and bottled from 1994.",
+   "rel": "sauce"
+  },
+  {
+   "from": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The other white sauce on a wing, built to be dunked in rather than dipped from a cup.",
+   "rel": "kin"
+  },
+  {
+   "from": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "The Southern white sauce built for dunking rather than dipping.",
+   "rel": "kin"
+  },
+  {
+   "from": "smoke-then-fry",
+   "type": "fry",
+   "name": "smoke then fry",
+   "as": "The mayonnaise-and-vinegar dip this method is usually finished into.",
+   "rel": "sauce"
+  },
+  {
+   "from": "big-bob-gibson-bar-b-q",
+   "type": "place",
+   "name": "Big Bob Gibson Bar-B-Q",
+   "as": "Mayonnaise, vinegar, lemon juice, black pepper and salt, thin enough to dunk a split bird in.",
+   "rel": "sauce"
+  },
+  {
+   "from": "bob-gibson",
+   "type": "person",
+   "name": "Bob Gibson",
+   "as": "Mayonnaise, vinegar and black pepper, mixed by him to dunk smoked chickens in.",
+   "rel": "sauce"
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "id": "mild-sauce",
+ "names": {
+  "name": "Mild sauce",
+  "aliases": [
+   "Chicago mild sauce"
+  ],
+  "said": "'Mild sauce on it' is a heat instruction nowhere else in America would read as a sauce order."
+ },
+ "region": [
+  "chicago",
+  "us"
+ ],
+ "facets": {
+  "base": "sweet-tomato",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A red-brown condiment poured over fried chicken and wings on Chicago's South and West Sides. Recipes vary a great deal; many versions combine ketchup, barbecue sauce and hot sauce. Close kin to barbecue sauce and to mumbo sauce, and particularly associated with Black communities in Chicago. The name is not a heat rating — it is what the sauce is called.",
+  "story": "Fried chicken and barbecue restaurants made it: Harold's Chicken Shack, Uncle Remus Saucy Fried Chicken, Lem's Bar-B-Q. The chicken shack pours it over the bird and the white bread underneath, and the bread does the soaking.\n\n*Tradition holds —* every shop guards its own mix, and the argument over whose is best runs shop by shop rather than recipe by recipe.\n\nThe trademark history runs through the sauce next door. Argia B. Collins Sr. was using the Mumbo name for a Chicago barbecue sauce from at least 1950; the Trademark Trial and Appeal Board later held that a D.C. company could not take that name from its Chicago founder. *Inference —* mild sauce and mumbo sauce are the same family of Black Chicago carryout condiment, one of which travelled east and picked up a second spelling.",
+  "how": "Poured over the chicken in the box, not served beside it. A shop with a squeeze bottle asks whether you want mild sauce, hot sauce, both, or neither; both means the mild goes on first. The bread at the bottom of the box is part of the delivery system.",
+  "today": "Sold bottled by several small makers and mixed in-house at the shacks. As of 16 September 2026 the USDA label panel for Aisha's Mild Sauce reads 280 mg sodium and 11 g sugar in a 2-tablespoon serving — 140 mg and 5.5 g in one tablespoon. No maker publishes a Scoville figure, and the shacks' own sauces carry no label."
+ },
+ "kin": [
+  {
+   "to": "chicago-mild-sauce",
+   "as": "The style built around it: a shack, a fryer, white bread and this poured over.",
+   "rel": "style"
+  },
+  {
+   "to": "mumbo-sauce",
+   "as": "Its D.C. cousin, and the one that carries the registered Chicago trademark.",
+   "rel": "contrast"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "as": "One of the shops that made it popular, and where the pour goes over bread.",
+   "rel": "place"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "as": "Another of the shops named as making it popular on the West Side.",
+   "rel": "place"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "Sold Chicago's other name for this sauce from at least 1950 and registered it.",
+   "rel": "person"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "The bread at the bottom of the box is what catches it.",
+   "rel": "dish"
+  },
+  {
+   "to": "mild-sauce-word",
+   "as": "Why 'mild' here names a sauce rather than a heat level.",
+   "rel": "term"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The supermarket relative: same sweet tomato family, different city and a corn-syrup lead.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "mumbo-sauce",
+   "tell": "The word. Both are sweet tomato carryout sauces; Chicago says mild sauce, D.C. says mumbo or mambo."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "sweet-tomato",
+  "maker": "Southern Signature, Inc.",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "tomato puree",
+   "sugar",
+   "vinegar",
+   "corn syrup solids",
+   "modified food starch",
+   "salt",
+   "caramel color",
+   "hydrolyzed soy and wheat proteins",
+   "spices",
+   "lemon juice powder",
+   "sodium benzoate",
+   "onion powder",
+   "garlic powder",
+   "caramel color",
+   "artificial color"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 3,
+  "fat_rank": 0,
+  "tomato_rank": 1,
+  "sugar_rank": 2,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 2,
+  "sodium_mg_per_tbsp": 140,
+  "sugar_g_per_tbsp": 5.5,
+  "scoville": null,
+  "heat_claim": "Mild",
+  "source": "s:fdc-aishas-mild-sauce",
+  "url": "https://fdc.nal.usda.gov/food-details/2422784/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Aisha's Mild Sauce, 18 oz. Label serving is 2 Tbsp (31 g); sodium 280 mg and sugars 11 g per serving, so 140 mg and 5.5 g per tablespoon. soy_rank is 0 because the label lists hydrolyzed soy and wheat proteins, which is not soy sauce. pepper_rank is 0: no chile or pepper sauce is named, only 'spices'. heat_claim is the product's own front-label word, and on this sauce the word names the sauce rather than its heat. The maker's town is not stated on the USDA record and is not recorded here. The shacks' house sauces have no published label."
+ },
+ "recipes": [
+  {
+   "title": "Chili sauce (No. 1)",
+   "source": "s:harland-1906",
+   "license": "Public domain",
+   "year": 1906,
+   "author": "Marion Harland",
+   "book": "Marion Harland's Complete Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "region": "United States",
+   "ingredients": [
+    "three dozen large tomatoes",
+    "a dozen onions",
+    "half a dozen green peppers",
+    "a teacupful of brown sugar",
+    "five tablespoonfuls of salt",
+    "half a dozen teaspoonfuls, each, of powdered allspice, cloves and cinnamon",
+    "two teaspoonfuls of ground ginger",
+    "a saltspoonful of paprika",
+    "three quarts of vinegar"
+   ],
+   "text": "Peel, and cut up together three dozen large tomatoes and a dozen onions. Chop into bits half a dozen green peppers and mix with the tomatoes and onions. Stir together a teacupful of brown sugar, five tablespoonfuls of salt, half a dozen teaspoonfuls, each, of powdered allspice, cloves and cinnamon, two teaspoonfuls of ground ginger, and a saltspoonful of paprika. Put these spices into three quarts of vinegar, add the vegetables, mix thoroughly, and cook steadily for two hours. When cold, bottle and seal.",
+   "note": "Copied verbatim, old spellings kept. A pre-1930 American bottled tomato sauce, sweet and spiced and vinegared — the shelf ancestor of the ketchup-and-barbecue-sauce mixes the shacks make now, not a recipe for mild sauce itself."
+  }
+ ],
+ "sources": [
+  "s:wp-mild-sauce",
+  "s:wp-mumbo-sauce",
+  "s:wp-harold-s-chicken-shack",
+  "s:fdc-aishas-mild-sauce",
+  "s:harland-1906"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mild-sauce"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-aishas-mild-sauce",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mild-sauce",
+    "note": "the shops and the ketchup-barbecue-hot-sauce formulation are cited; the guarded-recipe stretch is marked tradition and the family claim is marked inference"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-aishas-mild-sauce"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16"
+}

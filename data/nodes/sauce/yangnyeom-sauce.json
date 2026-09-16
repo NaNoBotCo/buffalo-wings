@@ -1,0 +1,200 @@
+{
+ "id": "yangnyeom-sauce",
+ "names": {
+  "name": "Yangnyeom sauce",
+  "aliases": [
+   "yangnyeom",
+   "seasoned sauce",
+   "sweet and spicy"
+  ],
+  "said": "양념 means seasoning. Order banban — 반반, half-half — and the box arrives half in this sauce, half plain."
+ },
+ "region": [
+  "korean-american",
+  "us"
+ ],
+ "facets": {
+  "base": "other",
+  "heat": "medium"
+ },
+ "text": {
+  "what": "A sweet and spicy glaze built on gochujang — a fermented Korean paste of red chili powder, glutinous rice, fermented soybean powder, barley malt powder and salt — with garlic, sugar and other seasonings. Painted onto fried chicken with a brush after the fryer, in a thin even coat rather than a toss. Yangnyeom chicken is the dish; this is what makes it.",
+  "story": "Yun Jonggye started it in 1982, at a fried chicken restaurant in Daegu that later became Mexican Chicken. He noticed customers struggling with the hard, crisp layers of fried chicken — scraped palates among the complaints — and decided to soften the shell by marinating the bird sweet and spicy.\n\nThe ground was already laid. Frying chicken in Korea goes back centuries; pogye (포계) in the early Joseon dynasty was sautéed in oil with soy sauce, sesame oil, flour-and-water and vinegar poured on in turn. Chicken-eating took off in the late 1960s when Myeongdong Yeongyang Center began selling whole chicken roasted over an electric oven, and US military presence after the Korean War brought deep-frying. The first modern franchise, Lims Chicken, opened in 1977 in the basement of the Shinsegae Department Store on Chungmu-ro in Seoul. Beer made it a habit: chimaek, from chicken and maekju.\n\nGochujang itself is older than the chile in it. Pepper paste appears in Korean texts from 1433 and 1445, before chili peppers reached Korea — Portuguese traders brought those to East Asia in the early 16th century. Sunchang gochujang has been a regional speciality since the 14th century.\n\nJulia Moskin of The New York Times called yangnyeom chicken \"the apotheosis of the Korean style\" of fried chicken. By 2026 there were 40,000 fried chicken restaurants in South Korea and 1,800 more run internationally by Korean brands in sixty countries.",
+  "how": "Double-fry first, so the crust can take a wet coat without going soft. Warm the sauce, then hand-paint it on with a brush — the point is a thin layer over the whole bird rather than a soaked one. Serve with pickled radish and beer. Half-and-half orders get one sauce and one plain in the same box.",
+  "today": "Made in-house at Korean fried chicken shops and sold bottled by several importers. As of 16 September 2026 the USDA label panel for Roland Spicy Gochujang Korean BBQ Sauce reads 469 mg sodium and 7 g sugar in a 2-tablespoon serving — 234 mg and 3.5 g in one tablespoon, with red pepper paste second. Nobody publishes a Scoville number. Gochujang has its own scale, the Gochujang hot-taste unit, measured by chromatography of capsaicin and dihydrocapsaicin and sorted into five levels from Mild to Extreme Hot — but that rates the paste, not a finished sauce."
+ },
+ "kin": [
+  {
+   "to": "korean-american",
+   "as": "The style is this glaze, the double fry and the box it arrives in.",
+   "rel": "style"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "as": "The other half of the order, and the sauce most shops pair it against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "double-fry",
+   "as": "The crust that lets a wet glaze go on without collapsing.",
+   "rel": "fry"
+  },
+  {
+   "to": "pickled-radish",
+   "as": "The cube of daikon that comes in the same box to cut the sugar.",
+   "rel": "dish"
+  },
+  {
+   "to": "bonchon",
+   "as": "Built a chain on two sauces, of which this is the spicy one.",
+   "rel": "place"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "as": "The other sweet-chile glaze on an American wing menu; rice vinegar and sugar rather than fermented soybean and rice.",
+   "rel": "kin"
+  },
+  {
+   "to": "hot-honey",
+   "as": "Reaches the same sweet-then-heat place with honey instead of fermentation.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "The American answer to the same question, and the one that shakes rather than paints.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "soy-garlic-sauce",
+   "tell": "Colour and lead ingredient. Yangnyeom is red and leads with gochujang; soy garlic is brown and leads with soy sauce."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "other",
+  "maker": "American Roland Food LLC",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "water",
+   "red pepper paste",
+   "fructooligosaccharides",
+   "sugar",
+   "soy sauce",
+   "red pepper",
+   "seasoning mix",
+   "modified corn starch",
+   "garlic",
+   "apple juice concentrate",
+   "cajun spice",
+   "rice wine",
+   "malt vinegar",
+   "ginger",
+   "paprika oleoresin",
+   "thiamine",
+   "citric acid"
+  ],
+  "pepper_rank": 2,
+  "vinegar_rank": 13,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 4,
+  "mustard_rank": 0,
+  "soy_rank": 5,
+  "serving_tbsp": 2,
+  "sodium_mg_per_tbsp": 234.5,
+  "sugar_g_per_tbsp": 3.5,
+  "scoville": null,
+  "heat_claim": "Spicy",
+  "source": "s:fdc-roland-gochujang-korean-bbq",
+  "url": "https://fdc.nal.usda.gov/food-details/1958977/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Roland Spicy Gochujang Korean BBQ Sauce, 13.7 oz. Label serving is 2 Tbsp (34 g); sodium 469 mg and sugars 7 g per serving, so 234.5 mg and 3.5 g per tablespoon. 'Red pepper paste' at rank 2 is gochujang. heat_claim is the maker's own front-label word. A Korean shop's own yangnyeom is mixed in the kitchen and carries no label, so this is a shelf bottle standing in for it, not the shop sauce. Ken's Foods sells a KOGI Sticky Spicy Wing Sauce with Gochujang whose USDA record omits sodium entirely, which is why it is not used here. No Scoville number is published."
+ },
+ "recipes": [
+  {
+   "title": "Yangnyeom chicken sauce, as described",
+   "source": "s:wp-yangnyeom-chicken",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Yangnyeom_chicken",
+   "region": "South Korea",
+   "ingredients": [
+    "gochujang",
+    "garlic",
+    "sugar",
+    "other spices"
+   ],
+   "note": "Ingredients only. The source names four things and no quantities; nothing is added to the list here."
+  }
+ ],
+ "sources": [
+  "s:wp-yangnyeom-chicken",
+  "s:wp-korean-fried-chicken",
+  "s:wp-gochujang",
+  "s:fdc-roland-gochujang-korean-bbq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-korean-fried-chicken"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-roland-gochujang-korean-bbq",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-korean-fried-chicken"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-korean-fried-chicken",
+    "note": "the brush, the thin layer, the radish and the beer are cited; the reason for the double fry is general practice"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-roland-gochujang-korean-bbq"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [
+  {
+   "file": "yangnyeom-sauce/yangnyeom-sauce-korean-fried-chicken-yangnyeom.jpg",
+   "source": "commons",
+   "title": "File:Korean fried chicken yangnyeom.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Korean_fried_chicken_yangnyeom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKorean_fried_chicken_yangnyeom.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Yosomono",
+   "credit": "https://www.flickr.com/photos/preetamrai/5576204096/",
+   "alt": "Korean fried chicken with yangnyeom (spicy sauce)",
+   "date": "2011-03-28",
+   "primary": true,
+   "sha256": "faf433eb47037fcce85bb3f2815314f2cf83eb331e2807d79530a60a67e3616e"
+  },
+  {
+   "file": "yangnyeom-sauce/yangnyeom-sauce-yangnyeom-chicken.jpg",
+   "source": "commons",
+   "title": "File:Yangnyeom-chicken.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Yangnyeom-chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AYangnyeom-chicken.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Brandon Oh",
+   "credit": "https://pixabay.com/photo-669639/ archive copy at the Wayback Machine",
+   "alt": "yangnyeom-chicken (fried chicken with spicy sauce)",
+   "date": "2014-05-07",
+   "primary": false,
+   "sha256": "f57c0450cafb41608981214f5daad1f1f619af3d5818d5805c4e2c64d3d37a27"
+  }
+ ],
+ "updated": "2026-09-16"
+}

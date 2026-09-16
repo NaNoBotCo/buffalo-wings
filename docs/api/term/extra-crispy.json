@@ -1,0 +1,216 @@
+{
+ "id": "extra-crispy",
+ "names": {
+  "name": "extra crispy",
+  "aliases": [
+   "well done",
+   "hard fried",
+   "crispy"
+  ],
+  "said": "'Extra crispy' at the register; 'well done' on the ticket."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "E",
+  "part_of_speech": "phrase"
+ },
+ "etymology": {
+  "root": "extra (Latin extra 'outside, beyond') + crispy (Old English crisp, from Latin crispus 'curled', re-pointed in English to mean brittle) — an intensifier stuck to a texture word",
+  "first_attested": "",
+  "note": "*Inference —* the phrase is an instruction wearing the grammar of a flavour. It goes in the same slot on the ticket as 'hot' or 'lemon pepper', but it asks the fryer for time rather than the sauce station for anything.",
+  "tier": "tradition"
+ },
+ "text": {
+  "what": "An order for more time in the oil. Not a flavour, not an upcharge in most places: a request that the wing stay down until the skin goes hard and the colour goes past golden. Kitchens read it as a range, which is why the same words get you different wings at two counters a block apart.",
+  "how": "A cook answers it three ways — leave them longer in one fry, pull the basket up and drop it back for a second hit, or run the whole order through a proper double fry. Ordering it costs minutes, so a busy kitchen will sometimes decline. Ask for it and for sauce on the side and the crust survives the drive home; ask for it and a heavy toss and you have undone it."
+ },
+ "kin": [
+  {
+   "to": "double-fry",
+   "as": "The technique that delivers what the phrase asks for, when a kitchen has time for it.",
+   "rel": "fry"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "The machine the instruction is aimed at.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked",
+   "as": "The other instruction a counter takes about texture, this one about coating.",
+   "rel": "term"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "as": "Ordered with it by anyone who wants the crust to last past the parking lot.",
+   "rel": "fry"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step that undoes it, second by second.",
+   "rel": "contrast"
+  },
+  {
+   "to": "air-fryer",
+   "as": "Bought largely by people chasing this phrase at home.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-deep-frying"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition",
+   "note": "counter language; described from general practice, not from a cited menu"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "An order for more time in the oil. Not a flavour, not an upcharge in most places: a request that the wing stay down until the skin goes hard and the colour goes past golden.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The technique that delivers what the phrase asks for, when a kitchen has time for it.",
+   "rel": "fry"
+  },
+  {
+   "to": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "The machine the instruction is aimed at.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "The other instruction a counter takes about texture, this one about coating.",
+   "rel": "term"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "Ordered with it by anyone who wants the crust to last past the parking lot.",
+   "rel": "fry"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The step that undoes it, second by second.",
+   "rel": "contrast"
+  },
+  {
+   "to": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "Bought largely by people chasing this phrase at home.",
+   "rel": "fry"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "tradition",
+   "note": "counter language; described from general practice, not from a cited menu"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "What 'fried hard' asks for, in the words another city uses.",
+   "rel": "term"
+  },
+  {
+   "from": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "What a breaded wing is already, before anyone asks for it.",
+   "rel": "term"
+  },
+  {
+   "from": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "What a menu calls a coat taken further, and what that word does and does not settle.",
+   "rel": "term"
+  },
+  {
+   "from": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The American menu word that often means this, and sometimes means only longer.",
+   "rel": "term"
+  },
+  {
+   "from": "bonchon",
+   "type": "place",
+   "name": "Bonchon",
+   "as": "Sells the idea as a whole business: the second fry is what the word is asking for.",
+   "rel": "term"
+  },
+  {
+   "from": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "The other instruction a counter takes about texture.",
+   "rel": "term"
+  }
+ ]
+}

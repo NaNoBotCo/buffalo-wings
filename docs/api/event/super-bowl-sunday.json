@@ -1,0 +1,411 @@
+{
+ "schema": 1,
+ "id": "super-bowl-sunday",
+ "type": "event",
+ "names": {
+  "name": "Super Bowl Sunday",
+  "aliases": [
+   "Super Sunday",
+   "the Big Game"
+  ],
+  "sort": "Super Bowl Sunday"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "status": "open",
+  "founded": 1967,
+  "when": "the second Sunday in February, since 2022",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "The biggest wing day in the United States, and the second-biggest American eating day of any kind after Thanksgiving dinner. The National Football League's championship game has been played on a Sunday since 1967 and on the second Sunday in February since 2022. The National Chicken Council projected 1.48 billion wings eaten around Super Bowl LX, in a release dated 28 January 2026 — a trade association's estimate of its own industry's product, not a government count.",
+  "story": "Wings arrived at the Super Bowl through the 1980s and 1990s, on the back of the chains and the pizza companies. Buffalo Wild Wings opened in 1982 and Hooters in 1983. Domino's put Buffalo wings on its national menu in 1994, after the Buffalo Bills had gone to four straight Super Bowls and lost all four; Pizza Hut followed in 1995.\n\nThe number is now an annual ritual of its own. The council's Wing Report goes out in late January, and the figure walks into February news copy with the council's name attached and the word estimate usually dropped: 1.42 billion for LVI, 1.45 billion for LVII, 1.47 billion for LIX, 1.48 billion for LX. The 2026 release translated that into wings circling the planet almost three times and a forty-mile convoy of trucks.\n\nThe unit is a wing portion, not a bird's wing. An older council page, built on the 2012 report, says so plainly and adds that about half come from restaurants and half from grocery stores, that the flapper is mostly exported, and that then chief economist Bill Roenigk reckoned three times as many Americans eat wings on this Sunday as on an ordinary one.\n\nPrices run on the same calendar. Wholesale wings rise in the fourth quarter as restaurants stock up and usually peak in January. For LX the council reported fresh retail wings at a four-week average of $3.47 a pound, down 2.8 percent year on year, with US broiler production up 2.2 percent in 2025 and cold storage at 57 million pounds — the lowest November total in more than a decade outside 2020.\n\nThe league's lawyers shape how the day is sold. The NFL polices the phrases Super Bowl and Super Bowl Sunday, so non-sponsors advertise wing deals against \"the Big Game\" instead.",
+  "how": "Wings get ordered for a time, not for a table: bars and shops take orders days ahead, kitchens batch-fry from mid-afternoon, and grocery cases fill with heat-and-eat trays that are the same product restaurants buy. Boneless and bone-in go out together; celery, carrots, blue cheese and ranch go out beside them; buffalo chicken dip covers the people who did not want to hold a bone.",
+  "today": "Super Bowl LX was played on 8 February 2026 at Levi's Stadium in Santa Clara, California, where Seattle beat New England 29–13. The Wing Report for that game, dated 28 January 2026, projected 1.48 billion wings, about 10 million more than the year before."
+ },
+ "links": [
+  {
+   "label": "Chicken Wing Report 2026 — National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "national-chicken-council",
+   "as": "Publishes the number this day is measured in, and is a trade association rather than a statistical agency.",
+   "rel": "org"
+  },
+  {
+   "to": "wing-bowl",
+   "as": "Held on the Friday before, by a city whose team kept missing the game.",
+   "rel": "event"
+  },
+  {
+   "to": "wingstop",
+   "as": "Told the council in 2012 it expected 5.6 million wings on this one Sunday, at 290 percent of an average Sunday's sales.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "A sports bar built for exactly this afternoon.",
+   "rel": "place"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Shares the platter, and doubles the count without touching a wing.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-chicken-dip",
+   "as": "The party-table version, for the half of the room that will not hold a bone.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "Arrived on national menus in the same stretch: Domino's added wings in 1994, Pizza Hut in 1995.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Sets the annual peak: wholesale wings climb through the fourth quarter and top out in January.",
+   "rel": "story"
+  },
+  {
+   "to": "party-wing",
+   "as": "The cut the billion is counted in — drumette and flat, sold as two pieces.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-super-bowl",
+  "s:wp-buffalo-wing",
+  "s:web-ncc-wing-report-lx",
+  "s:web-ncc-wing-report-lix",
+  "s:web-ncc-wings-hot-topic"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-super-bowl"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-ncc-wing-report-lx",
+    "note": "the 1.42 and 1.45 billion figures for LVI and LVII come from the council's own release headlines, listed on its site and read 16 September 2026"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "how the day runs in a kitchen is this project's reading of the council's own foodservice-and-retail split and the ready-to-eat trade it describes; nobody stood in a kitchen for this record"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ncc-wing-report-lx",
+    "fetched_at": "2026-09-16"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "The biggest wing day in the United States, and the second-biggest American eating day of any kind after Thanksgiving dinner.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "Publishes the number this day is measured in, and is a trade association rather than a statistical agency.",
+   "rel": "org"
+  },
+  {
+   "to": "wing-bowl",
+   "type": "event",
+   "name": "Wing Bowl",
+   "as": "Held on the Friday before, by a city whose team kept missing the game.",
+   "rel": "event"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Told the council in 2012 it expected 5.6 million wings on this one Sunday, at 290 percent of an average Sunday's sales.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "A sports bar built for exactly this afternoon.",
+   "rel": "place"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Shares the platter, and doubles the count without touching a wing.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The party-table version, for the half of the room that will not hold a bone.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "Arrived on national menus in the same stretch: Domino's added wings in 1994, Pizza Hut in 1995.",
+   "rel": "dish"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Sets the annual peak: wholesale wings climb through the fourth quarter and top out in January.",
+   "rel": "story"
+  },
+  {
+   "to": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "The cut the billion is counted in — drumette and flat, sold as two pieces.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-super-bowl",
+   "kind": "wikipedia",
+   "title": "Super Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ncc-wing-report-lx",
+   "kind": "org",
+   "title": "Americans to Eat 1.48 Billion Chicken Wings for Super Bowl LX",
+   "author": "National Chicken Council",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/",
+   "year": 2026,
+   "accessed": "2026-09-16",
+   "note": "the 2026 Wing Report release, dated 28 January 2026; cites Circana POS and CREST data, a Wells Fargo food report and USDA cold storage, and states no method for the 1.48 billion figure itself"
+  },
+  {
+   "id": "s:web-ncc-wing-report-lix",
+   "kind": "org",
+   "title": "Americans to Eat 1.47 Billion Chicken Wings for Super Bowl LIX",
+   "author": "National Chicken Council",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-47-billion-chicken-wings-for-super-bowl-lix/",
+   "year": 2025,
+   "accessed": "2026-09-16",
+   "note": "dated 30 January 2025; the prior year's figure"
+  },
+  {
+   "id": "s:web-ncc-wings-hot-topic",
+   "kind": "org",
+   "title": "Chicken Wings – A Hot Topic!",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/chicken-wings-a-hot-topic/",
+   "accessed": "2026-09-16",
+   "note": "undated feature built on the 2012 Wing Report; the page that says the count is of wing PORTIONS, splits them half foodservice half retail, and explains the flapper export"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-super-bowl"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-ncc-wing-report-lx",
+   "note": "the 1.42 and 1.45 billion figures for LVI and LVII come from the council's own release headlines, listed on its site and read 16 September 2026"
+  },
+  "text.how": {
+   "tier": "inference",
+   "note": "how the day runs in a kitchen is this project's reading of the council's own foodservice-and-retail split and the ready-to-eat trade it describes; nobody stood in a kitchen for this record"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-ncc-wing-report-lx",
+   "fetched_at": "2026-09-16"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The day this is made for, on the second-biggest American eating day of the year.",
+   "rel": "event"
+  },
+  {
+   "from": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "The day both halves of it get delivered.",
+   "rel": "event"
+  },
+  {
+   "from": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "The day the pitcher moves to a living room and stays a pitcher.",
+   "rel": "event"
+  },
+  {
+   "from": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "The day the household machines outnumber the commercial ones by a wide margin.",
+   "rel": "event"
+  },
+  {
+   "from": "baking-powder-bake",
+   "type": "fry",
+   "name": "the baking powder bake",
+   "as": "The day this method cooks more wings than any fryer.",
+   "rel": "event"
+  },
+  {
+   "from": "par-cook",
+   "type": "fry",
+   "name": "the par-cook",
+   "as": "The day no kitchen in America starts a wing order cold.",
+   "rel": "event"
+  },
+  {
+   "from": "blondies-sports-bar",
+   "type": "place",
+   "name": "Blondies Sports",
+   "as": "The day this room exists for, and the day the wing trade counts its year by.",
+   "rel": "event"
+  },
+  {
+   "from": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "A sports bar on the biggest sports day of the American year.",
+   "rel": "event"
+  },
+  {
+   "from": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "A stadium-and-casino wing operation, which is what that day is built on.",
+   "rel": "event"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "A wings-and-beer room on the day the wing count gets counted.",
+   "rel": "event"
+  },
+  {
+   "from": "wingnutz",
+   "type": "place",
+   "name": "Wingnutz",
+   "as": "A sports bar built after a sports podcast; the calendar it lives on runs to February.",
+   "rel": "event"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "The chain's biggest day: in 2012 it projected 5.6 million wings and sales 290 percent over an average Sunday.",
+   "rel": "event"
+  },
+  {
+   "from": "al-morganti",
+   "type": "person",
+   "name": "Al Morganti",
+   "as": "Invented the counter-programming: a Friday in Philadelphia for a Sunday Philadelphia was not in.",
+   "rel": "event"
+  },
+  {
+   "from": "angelo-cataldi",
+   "type": "person",
+   "name": "Angelo Cataldi",
+   "as": "Wing Bowl existed because Philadelphia had no stake in the game that week.",
+   "rel": "event"
+  },
+  {
+   "from": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "Wing Bowl put him on a stage the Friday before the game, which is the week wings are counted in.",
+   "rel": "event"
+  },
+  {
+   "from": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "Supplies the number the day is measured in: 1.48 billion wings, projected on 28 January 2026.",
+   "rel": "event"
+  },
+  {
+   "from": "national-chicken-wing-day",
+   "type": "event",
+   "name": "National Chicken Wing Day",
+   "as": "The bigger wing day by volume, and the one with a number attached.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wing-bowl",
+   "type": "event",
+   "name": "Wing Bowl",
+   "as": "Scheduled against it — the Friday before, for a city whose team was not playing.",
+   "rel": "event"
+  },
+  {
+   "from": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "The day these packs are bought for, in numbers a council counts.",
+   "rel": "event"
+  },
+  {
+   "from": "wing-night",
+   "type": "term",
+   "name": "wing night",
+   "as": "The one wing night nobody has to advertise.",
+   "rel": "event"
+  },
+  {
+   "from": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "The single day the whole industry's headline number is built around.",
+   "rel": "event"
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "schema": 1,
+ "id": "baltimore-old-bay",
+ "type": "style",
+ "names": {
+  "name": "Old Bay wings",
+  "aliases": [
+   "Chesapeake wings",
+   "crab-spiced wings",
+   "crab seasoning wings"
+  ],
+  "said": "Say Old Bay in Maryland and nobody asks which brand. The yellow can is the noun."
+ },
+ "region": [
+  "baltimore",
+  "us"
+ ],
+ "facets": {
+  "state": "MD",
+  "cut": "party wing",
+  "base": "dry-rub",
+  "cooked": "fried",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A wing finished in Old Bay — a blend of eighteen herbs and spices built in Baltimore in 1939, celery salt first, with red and black pepper and paprika, and bay leaves, mustard, cardamom, cloves and ginger among the rest. It goes on dry out of the fryer, or in butter as a wet toss, and it is the same can that goes on steamed blue crab, on fries, on popcorn and around the rim of a beer glass. Salt and celery seed do the work, not heat; a customer who wants heat adds hot sauce on top.",
+  "story": "The seasoning has a documented history and the wing does not.\n\nGustav Brunn built a wholesale spice business in Wertheim, Germany, moved it to Frankfurt, and was arrested after Kristallnacht and sent to Buchenwald. His wife paid a lawyer a large sum for his release; the family already held American visas and escaped to New York and then Baltimore, where Brunn had relatives. He arrived with a small spice grinder, founded the Baltimore Spice Company in 1939, and made \"Delicious Brand Shrimp and Crab Seasoning\", later renamed Old Bay after the Baltimore Steam Packet Company — the Old Bay Line — which ran passenger ships from Baltimore to Norfolk in the early 1900s. McCormick & Company of Hunt Valley bought the brand in 1990.\n\n*Tradition holds —* the wing came later and came sideways, the way everything else in the Chesapeake got seasoned: the can was already on the counter. Wikipedia lists chicken wings among the things Old Bay is put on, alongside fried chicken, french fries, tater tots, corn, boiled peanuts, potato salad and guacamole, and notes that several movie theatres in the region keep it in the condiment section. This project found no source naming a first restaurant, a cook or a year for the wing itself, and none is asserted here.\n\nThe can's reach is easier to date than the wing's. Utz of Hanover, Pennsylvania built its Crab Chip on a similar blend; Herr's uses Old Bay itself; Lay's introduced Chesapeake Bay Crab Spice chips in 2018. Flying Dog brewed an Old Bay summer ale, Dead Rise, for the seasoning's 75th anniversary in 2014. McCormick released Old Bay Hot Sauce ahead of Super Bowl LIV in 2020; it sold out within thirty minutes, crashed the website, and $3.49 bottles resold online for between $50 and $200. Old Bay Goldfish crackers followed in 2022 and sold out online in nine hours. The can went from metal to plastic in 2017, and in December 2025 McCormick announced a return to metal.",
+  "how": "Fry the wing bare so the skin is dry enough to hold powder, then shake it in Old Bay while it is still hot. Wet version: toss in melted butter first, then the seasoning, which gives a paste rather than a dust. Some kitchens mix Old Bay into the dredge as well as onto the finished wing; some steam or bake instead of frying, because the seasoning does not need a crust to read. Serve with whatever the bar pours — this is a seasoning, not a sauce, so blue cheese, ranch and vinegar all sit comfortably beside it.",
+  "today": "Old Bay wings run on Maryland and Virginia bar menus, through the wider Mid-Atlantic, and into New England and the Gulf Coast where the can already travelled. McCormick sells an Old Bay hot sauce and several blend variants — with garlic, with lemon, with brown sugar — that put the same flavour on a wing by a different route. *Inference —* the style spreads with the can rather than with a recipe, which is why it has no founding restaurant to point at."
+ },
+ "kin": [
+  {
+   "to": "old-bay",
+   "as": "The blend the whole style is — celery salt, red and black pepper, paprika and fifteen more, built in Baltimore in 1939.",
+   "rel": "sauce"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "The other American wing finished dry, though that rub comes off a smoker and this one comes off a crab pot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "Another city's seasoning wing, with citrus where this has celery seed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "The pair of words that decide whether the seasoning goes on bare or through butter.",
+   "rel": "term"
+  },
+  {
+   "to": "naked-fry",
+   "as": "What the wing has to be for a dry seasoning to stick — no batter to hide under.",
+   "rel": "fry"
+  },
+  {
+   "to": "french-fries",
+   "as": "Take the same can, at the same bar, in the same basket.",
+   "rel": "dish"
+  },
+  {
+   "to": "chickie-and-petes",
+   "as": "Built a business on a seasoned fry in the next state up, on the same Mid-Atlantic taste for spiced potatoes.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style that made a wing a sauced thing; Old Bay answers with a wing that is seasoned and not sauced at all.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "as": "The yellow can is doing the same work a hot sauce label does — a regional identity you can hold.",
+   "rel": "art"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "memphis-dry-rub",
+   "tell": "Look for celery salt and paprika without smoke. Old Bay is salty and celery-forward off a fryer; a Memphis rub carries smoke and comes off a pit."
+  },
+  {
+   "id": "atlanta-lemon-pepper",
+   "tell": "Citrus. Lemon pepper leads with zest; Old Bay leads with celery seed and salt, and there is no lemon in the can."
+  }
+ ],
+ "sources": [
+  "s:wp-old-bay-seasoning",
+  "s:wp-buffalo-wing",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-old-bay-seasoning"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-old-bay-seasoning",
+    "note": "the wing's own origin is unsourced and is marked as tradition inline; no first restaurant or year is asserted"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "method is general knowledge of the bars; the seasoning's composition is cited"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-old-bay-seasoning",
+    "note": "closing sentence is this project's inference and is marked"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "baltimore-old-bay/baltimore-old-bay-old-bay-seasoning.jpg",
+   "source": "commons",
+   "title": "File:Old Bay Seasoning.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Old_Bay_Seasoning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AOld_Bay_Seasoning.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "L1veb4y0udi3",
+   "credit": "Own work",
+   "alt": "Cropped version of \"Old Bay\". 16 oz. can of Old Bay spice with a small heap of its contents in the foreground.",
+   "date": "2015-04-21 00:12:07",
+   "primary": true,
+   "sha256": "f6863a5f5bf41eb2ab88c0da38180536b14701de31287b2efc41238bf18d9e01"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A wing finished in Old Bay — a blend of eighteen herbs and spices built in Baltimore in 1939, celery salt first, with red and black pepper and paprika, and bay leaves, mustard, cardamom, cloves and ginger among the…",
+ "region_terms": [
+  {
+   "key": "baltimore",
+   "name": "Baltimore",
+   "state": "MD",
+   "note": "Old Bay on everything, wings included"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "old-bay",
+   "type": "sauce",
+   "name": "Old Bay Seasoning",
+   "as": "The blend the whole style is — celery salt, red and black pepper, paprika and fifteen more, built in Baltimore in 1939.",
+   "rel": "sauce"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "The other American wing finished dry, though that rub comes off a smoker and this one comes off a crab pot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "atlanta-lemon-pepper",
+   "type": "style",
+   "name": "Lemon pepper wings",
+   "as": "Another city's seasoning wing, with citrus where this has celery seed.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "The pair of words that decide whether the seasoning goes on bare or through butter.",
+   "rel": "term"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "What the wing has to be for a dry seasoning to stick — no batter to hide under.",
+   "rel": "fry"
+  },
+  {
+   "to": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "Take the same can, at the same bar, in the same basket.",
+   "rel": "dish"
+  },
+  {
+   "to": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "Built a business on a seasoned fry in the next state up, on the same Mid-Atlantic taste for spiced potatoes.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style that made a wing a sauced thing; Old Bay answers with a wing that is seasoned and not sauced at all.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "type": "art",
+   "name": "Hot sauce labels",
+   "as": "The yellow can is doing the same work a hot sauce label does — a regional identity you can hold.",
+   "rel": "art"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-old-bay-seasoning",
+   "kind": "wikipedia",
+   "title": "Old Bay Seasoning",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_Bay_Seasoning",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Wing Country — this project's own reasoning",
+   "publisher": "Wing Country",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-old-bay-seasoning"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-old-bay-seasoning",
+   "note": "the wing's own origin is unsourced and is marked as tradition inline; no first restaurant or year is asserted"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "method is general knowledge of the bars; the seasoning's composition is cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-old-bay-seasoning",
+   "note": "closing sentence is this project's inference and is marked"
+  }
+ },
+ "primary_image": {
+  "file": "baltimore-old-bay/baltimore-old-bay-old-bay-seasoning.jpg",
+  "source": "commons",
+  "title": "File:Old Bay Seasoning.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Old_Bay_Seasoning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AOld_Bay_Seasoning.jpg",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "L1veb4y0udi3",
+  "credit": "Own work",
+  "alt": "Cropped version of \"Old Bay\". 16 oz. can of Old Bay spice with a small heap of its contents in the foreground.",
+  "date": "2015-04-21 00:12:07",
+  "primary": true,
+  "sha256": "f6863a5f5bf41eb2ab88c0da38180536b14701de31287b2efc41238bf18d9e01"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "old-bay",
+   "type": "sauce",
+   "name": "Old Bay Seasoning",
+   "as": "The style is this can, applied to a wing.",
+   "rel": "style"
+  }
+ ]
+}

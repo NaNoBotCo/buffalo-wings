@@ -1,0 +1,348 @@
+{
+ "schema": 1,
+ "id": "hooters",
+ "type": "place",
+ "names": {
+  "name": "Hooters",
+  "aliases": [
+   "Hooters, Inc.",
+   "Original Hooters",
+   "Hooters of America"
+  ],
+  "sort": "Hooters"
+ },
+ "region": [
+  "florida",
+  "us"
+ ],
+ "facets": {
+  "state": "FL",
+  "status": "open",
+  "founded": 1983,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A restaurant chain that sells breaded wings, beer and a uniform. Six Clearwater, Florida businessmen incorporated Hooters, Inc. on 1 April 1983 and opened the first restaurant on 4 October that year at 2800 Gulf to Bay Boulevard, in a failed nightclub they bought cheap. Waiting staff are young women in a branded tank top and orange running shorts, called Hooters Girls, and the company has defended that hiring in court for thirty years. The wings come four ways: hand-breaded, naked, grilled in Daytona Beach sauce, or boneless.",
+  "story": "The six founders — Lynn D. Stewart, Gil DiGiannantonio, Ed Droste, Billy Ranieri, Ken Wimmer and Dennis Johnson — picked April Fools' Day to incorporate because they expected to fail, and built a small graveyard of headstones at the door for the businesses that had died in the same building.\n\nControl left Clearwater almost at once. Hugh Connerty bought the rights in December 1984; Robert H. Brooks and a group of Atlanta investors bought him out and built Hooters of America past 425 stores. Brooks died in 2006. Wellspring Capital, then Chanticleer Holdings and other investors in January 2011, then Nord Bay Capital and TriArtisan in July 2019 each took a turn owning it. The Clearwater company kept the Tampa Bay, Chicago and one Manhattan restaurant, the casino rights and the grocery sauces.\n\nThe uniform is the chain's documented controversy, and the record runs in two directions. Three men denied jobs in Orland Park, Illinois sued in 1997 and were awarded $19,100 each; four men in Maryland got $10,350 each. The settlement let Hooters keep hiring only women as waiting staff, and required other floor jobs — bartenders, hosts — to be filled without regard to gender. Hooters argues a bona fide occupational qualification: that the business is undermined if the policy goes. An older employee handbook, published by The Smoking Gun, had women sign that \"The Hooters concept is based on female sex appeal and the work environment is one in which joking and entertaining conversations are commonplace.\" Four California chapters of the National Organization for Women complained to district attorneys in 2010 that the chain advertised itself as a family restaurant while defending its hiring on sex appeal, and asked authorities to make it choose. Hooters answers that it donates to charities promoting women's entrepreneurship, promotes Hooters Girls into management, and that 40 percent of its restaurant managers are women. Studies cited in the Wikipedia article associate the work with lower job satisfaction and higher anxiety; other writers argue that the choice of workplace is the woman's to make.\n\nOther suits followed on other grounds. A federal jury awarded former Newport, Kentucky waitress Sara Steinhoff $275,000 in 2000 over unwanted advances and retaliation. Job applicants in West Covina, California were secretly filmed undressing in 2004. Farryn Johnson was awarded $250,000 in April 2015 after an arbitrator found race discrimination contributed to her firing over blonde highlights in her hair at the Baltimore restaurant. On 22 October 2024 Hooters of America paid $250,000 and signed a three-year consent decree to settle a US Equal Employment Opportunity Commission suit over a Greensboro, North Carolina restaurant that laid off about 43 people in the pandemic and recalled, the agency alleged, primarily white and lighter-skinned employees.\n\nSales fell from $1.2 billion in 2009 to $678 million in 2024. Hooters of America filed for Chapter 11 on 31 March 2025 with 305 restaurants worldwide. The Clearwater founders and a group of franchisees bought the Atlanta company on 14 October 2025 and said they would make the attire slightly more modest, end bikini nights, and return the brand to family-friendlier ground.",
+  "how": "Hooters Original Style wings are breaded by hand and tossed in a chosen sauce; the chain's own menu page, read 16 September 2026, calls them \"The style we invented over 40 years ago\". Naked wings skip the breading. Daytona Beach style wings are naked, tossed in the Daytona sauce, then seared on a grill. Boneless wings are hand-breaded breast meat. Nearly every restaurant holds a beer and wine licence, and a full bar where the local permit allows.",
+  "today": "The Clearwater founders' company, with Hoot Owl Restaurants LLC, finished buying Hooters of America on 14 October 2025 and controlled 140 of 198 US locations — about 200 restaurants and an estimated $700 million in system-wide sales, per Tampa Bay Business and Wealth on 3 November 2025. Closures continued through 2026: the last Long Island restaurant on 16 February, Mall of America on 22 March after 33 years, and by August 2026 every location in New York, Massachusetts, Connecticut and Minnesota, with notice given on a sheet of paper taped inside the door. A fast-casual spinoff called Hoots, launched 2017, drops the menu length and dresses servers of both sexes in t-shirts and khakis."
+ },
+ "geo": {
+  "lat": 27.9609583,
+  "lon": -82.7212313,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "2800 Gulf to Bay Boulevard",
+  "city": "Clearwater",
+  "county": "Pinellas",
+  "state": "FL",
+  "postcode": "33759"
+ },
+ "links": [
+  {
+   "label": "Hooters",
+   "url": "https://www.hooters.com/"
+  },
+  {
+   "label": "Original Hooters — the Clearwater founders' company",
+   "url": "https://originalhooters.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "breaded",
+   "source": "s:web-hooters-menu-wings",
+   "tier": "cited",
+   "note": "Hooters Original Style wings are \"breaded by hand\" in the chain's own menu copy; naked and grilled Daytona styles are on the same page"
+  }
+ ],
+ "recognitions": [],
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "Carried the style out of western New York on a franchise from 1983, breaded rather than bare.",
+   "rel": "style"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "Breads its house wing by hand, which is the older Rochester answer done at national scale.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked",
+   "as": "Prints the word on its own menu, as the option that skips the breading.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Sells hand-breaded breast meat under the wing heading, like most of the chains.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Opened a year earlier in Columbus; the two chains carried the wing national together in the 1980s.",
+   "rel": "contrast"
+  },
+  {
+   "to": "rochester-breaded",
+   "as": "Shares the breading that Buffalo argues about, without sharing the city.",
+   "rel": "contrast"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "A wings-and-beer room on the day the wing count gets counted.",
+   "rel": "event"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Sales fell from $1.2 billion in 2009 to $678 million in 2024, and the wings kept costing what wings cost.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-hooters",
+  "s:wp-buffalo-wing",
+  "s:web-hooters-menu-wings",
+  "s:web-tbbw-hooters-2025",
+  "s:web-eeoc-hooters-2024"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hooters"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-hooters-menu-wings",
+    "fetched_at": "2026-09-16"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-tbbw-hooters-2025"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the first restaurant, 2800 Gulf to Bay Boulevard, geocoded against OpenStreetMap; not the Atlanta or Clearwater corporate office"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-tbbw-hooters-2025",
+    "note": "the first location, opened 4 October 1983, on Gulf to Bay Boulevard in Clearwater; the street number 2800 comes from the OpenStreetMap record for the restaurant"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A restaurant chain that sells breaded wings, beer and a uniform. Six Clearwater, Florida businessmen incorporated Hooters, Inc.",
+ "region_terms": [
+  {
+   "key": "florida",
+   "name": "Florida",
+   "state": "FL",
+   "note": "Tampa, Miami; the chain that went national started here"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Carried the style out of western New York on a franchise from 1983, breaded rather than bare.",
+   "rel": "style"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "Breads its house wing by hand, which is the older Rochester answer done at national scale.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "Prints the word on its own menu, as the option that skips the breading.",
+   "rel": "term"
+  },
+  {
+   "to": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Sells hand-breaded breast meat under the wing heading, like most of the chains.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "Opened a year earlier in Columbus; the two chains carried the wing national together in the 1980s.",
+   "rel": "contrast"
+  },
+  {
+   "to": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Shares the breading that Buffalo argues about, without sharing the city.",
+   "rel": "contrast"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "A wings-and-beer room on the day the wing count gets counted.",
+   "rel": "event"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Sales fell from $1.2 billion in 2009 to $678 million in 2024, and the wings kept costing what wings cost.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-hooters",
+   "kind": "wikipedia",
+   "title": "Hooters",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hooters",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-hooters-menu-wings",
+   "kind": "web",
+   "title": "Wings",
+   "publisher": "Hooters of America, LLC",
+   "url": "https://www.hooters.com/menu/wings",
+   "accessed": "2026-09-16",
+   "note": "the four wing styles the chain sells in its own words"
+  },
+  {
+   "id": "s:web-tbbw-hooters-2025",
+   "kind": "article",
+   "title": "Hooters' Clearwater-based founders regain full ownership of brand",
+   "author": "Chuck Merlis",
+   "publisher": "Tampa Bay Business and Wealth",
+   "url": "https://tbbwmag.com/2025/11/03/hooters-clearwater-founders-regain-full-ownership/",
+   "year": 2025,
+   "accessed": "2026-09-16",
+   "note": "3 November 2025; the 14 October 2025 acquisition, the restaurant counts, and the relaunch plan"
+  },
+  {
+   "id": "s:web-eeoc-hooters-2024",
+   "kind": "court",
+   "title": "Hooters of America, LLC to Pay $250,000 to Settle EEOC Race and Color Lawsuit",
+   "publisher": "U.S. Equal Employment Opportunity Commission",
+   "url": "https://www.eeoc.gov/newsroom/hooters-america-llc-pay-250000-settle-eeoc-race-and-color-lawsuit",
+   "year": 2024,
+   "accessed": "2026-09-16",
+   "note": "22 October 2024; EEOC v. Hooters of America, LLC, No. 1:23-cv-00722 (M.D.N.C.)"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-hooters"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-hooters"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-hooters-menu-wings",
+   "fetched_at": "2026-09-16"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-tbbw-hooters-2025"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "the first restaurant, 2800 Gulf to Bay Boulevard, geocoded against OpenStreetMap; not the Atlanta or Clearwater corporate office"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-tbbw-hooters-2025",
+   "note": "the first location, opened 4 October 1983, on Gulf to Bay Boulevard in Clearwater; the street number 2800 comes from the OpenStreetMap record for the restaurant"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "breaded",
+   "label": "Breaded",
+   "icon": "🍞",
+   "group": "kitchen",
+   "evidence": "the menu, the business's own words, or a press piece that describes the wing",
+   "resources": [],
+   "source": "s:web-hooters-menu-wings",
+   "note": "Hooters Original Style wings are \"breaded by hand\" in the chain's own menu copy; naked and grilled Daytona styles are on the same page",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "Built a chain on wings and beer and says so in its own words.",
+   "rel": "place"
+  },
+  {
+   "from": "blondies-sports-bar",
+   "type": "place",
+   "name": "Blondies Sports",
+   "as": "The national version of the same trade — televisions, wings, a long bar — that Blondies predates in this neighbourhood.",
+   "rel": "kin"
+  },
+  {
+   "from": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "Opened a year later, on the same wing and a different sell.",
+   "rel": "contrast"
+  },
+  {
+   "from": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "Won its world wing-eating championship at Clearwater in 2013, 179 wings in ten minutes.",
+   "rel": "place"
+  },
+  {
+   "from": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "Prints the word on its menu because its own default is breaded.",
+   "rel": "place"
+  }
+ ]
+}

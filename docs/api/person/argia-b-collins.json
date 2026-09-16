@@ -1,0 +1,312 @@
+{
+ "schema": 1,
+ "id": "argia-b-collins",
+ "type": "person",
+ "names": {
+  "name": "Argia B. Collins",
+  "aliases": [
+   "Argia B. Collins Sr.",
+   "Argia B's"
+  ],
+  "sort": "Collins, Argia B."
+ },
+ "region": [
+  "chicago",
+  "dc"
+ ],
+ "facets": {
+  "role": [
+   "founder",
+   "cook",
+   "sauce-maker"
+  ],
+  "state": "IL",
+  "styles": [
+   "chicago-mild-sauce",
+   "dc-mumbo"
+  ]
+ },
+ "text": {
+  "what": "Chicago barbecue man who made and bottled Mumbo sauce, and whose trademark on the name later beat a Washington, D.C. company that had been selling a sauce called mumbo for years. Salon records him as born in 1926 in Indianola, Mississippi and dead in 2003.",
+  "story": "Collins came north from Mississippi and opened barbecue on the South Side. The company that owns the brand says he moved to Chicago's west side in the mid-1940s after Navy service and opened his first restaurant in 1950 in Bronzeville; Salon puts his arrival and first restaurant in the early 1950s. He ran the flagship at 7809 South Halsted until he retired in 1992, with another location in Gary, Indiana. His daughter Misty Collins told Salon how the bottling started: \"People kept asking for it in the barbecue house, so he decided he would start bottling it.\"\n\nHe was a founding member of Operation Breadbasket, and fed its organisers. Jesse Jackson, quoted in the same piece on getting Black-made products onto grocery shelves: \"These products have never been allowed display space before. They were so good, they just began to move to the general market.\" Boundary Stones dates the first wholesale and grocery sales to November 1968, and has three flavours — mild, tangy, hickory — in two sizes by 1970. Jewel, Dominick's and A&P carried it.\n\nThe name is where it gets contested, and this record settles nothing.\n\nWhat Wikipedia's mumbo sauce article says: the Mumbo trademark was first used by Collins for a barbecue sauce he developed for his Chicago restaurant, used since at least as early as 1950, and his successor-in-interest Select Brands, LLC registered it with the USPTO on 25 May 1999 under Registration No. 2,247,855. Salon and Boundary Stones both date a Mumbo Sauce trademark filing to 1958. Select Brands has challenged D.C. uses of the term as incorrect and as potential infringement.\n\nWhat Washington says: mumbo or mambo sauce is a D.C. carryout condiment, poured on wings, fries, fried shrimp and fried rice, and grew up in Black-owned and later Asian-owned carryouts from the 1960s. Capital City says the sauce came out of a restaurant called Wings-n-Things in the late 1960s; Boundary Stones names Wings 'N Things at 7th and Florida NW, or Johnny Boy on Southern Avenue in Capitol Heights, Maryland, as candidates. Arsha Jones, who founded Capital City Mumbo Sauce in May 2011, told the Chicago Tribune in 2013: \"Philly has cheesesteaks. Chicago has deep dish pizza. We have mumbo sauce, and it's our thing.\"\n\nWhat the Trademark Trial and Appeal Board did: Capital City petitioned to cancel Select Brands' registration, arguing the formulas differ, that Select Brands' product is used as a marinade rather than a dip, and that \"mumbo sauce\" had gone generic in Washington. In 2013 the Board dismissed the petition, finding the genericness case unproven and the mark validly maintained in use. Capital City renamed itself Capital City Mambo Sauce and appealed. Select Brands' spokeswoman Lehia Franklin Acox put the Chicago side this way: \"It's unique to have a product from here, but known more elsewhere. This is a matter of cultural pride.\"\n\nA third thread crosses both. John Young was pouring a sauce he called mumbo over breaded wings in Buffalo in the early 1960s, and said a boxer had told him about a Washington restaurant doing well with wings. Wikipedia notes the speculation that the D.C. sauce is a transplanted Chicago one, and marks it as speculation.\n\nMayor Muriel Bowser put a match to the whole thing on Facebook on 20 November 2018: \"Is anybody else annoyed by Mumbo sauce? I wish people would stop suggesting that it is quintessential DC. I'm just saying I was a full grown woman before I had heard of mumbo sauce! So there, I've said it.\" Her post drew over 2,300 comments within hours; a spokesperson said she meant to liven up Thanksgiving.",
+  "today": "MUMBO is a registered mark of Select Brands LLC of Chicago and the sauce is still made there. Capital City sells under Mambo. McDonald's ran a limited-time mumbo dipping sauce in the United States from 9 October 2023 with a short documentary attached."
+ },
+ "kin": [
+  {
+   "to": "mumbo-sauce",
+   "as": "His bottle, his trademark, and the reason the name is contested at all.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mumbo",
+   "as": "The word, which he registered and which Washington uses without him.",
+   "rel": "term"
+  },
+  {
+   "to": "dc-mumbo",
+   "as": "The style that carries his name east; who taught whom is disputed and unresolved here.",
+   "rel": "contrast"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "as": "Lost the 2013 cancellation petition against his successor's mark and changed its own spelling.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "as": "Grew up in the same South Side carryout economy, in bottles on the same shelves.",
+   "rel": "style"
+  },
+  {
+   "to": "harold-pierce",
+   "as": "Opened a chicken counter in the same city the same year; their two sauces get confused constantly.",
+   "rel": "contrast"
+  },
+  {
+   "to": "john-young",
+   "as": "Poured a sauce called mumbo on Buffalo wings while this trademark was young, and credited Washington for the idea.",
+   "rel": "contrast"
+  },
+  {
+   "to": "yums-carry-out",
+   "as": "The kind of D.C. counter the argument is actually about: wings, fries, a squeeze bottle.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-mumbo-sauce",
+  "s:web-salon-mambo-sauce",
+  "s:web-boundary-stones-mumbo",
+  "s:web-mandour-ttab-mumbo",
+  "s:web-mumbosauce-about",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:web-salon-mambo-sauce",
+    "note": "birth and death years are as Salon gives them, 17 January 2021; the Chicago Sun-Times obituary index carries the same years but was not readable on 16 September 2026"
+   },
+   "text.story": {
+    "tier": "cited",
+    "note": "each claim is attributed to the party making it; the trademark dates differ between sources and both are given"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Chicago barbecue man who made and bottled Mumbo sauce, and whose trademark on the name later beat a Washington, D.C. company that had been selling a sauce called mumbo for years.",
+ "region_terms": [
+  {
+   "key": "chicago",
+   "name": "Chicago",
+   "state": "IL",
+   "note": "mild sauce, the South Side chicken shack"
+  },
+  {
+   "key": "dc",
+   "name": "Washington, D.C.",
+   "state": "DC",
+   "note": "mumbo sauce, the carryout counter"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mumbo-sauce",
+   "type": "sauce",
+   "name": "Mumbo sauce",
+   "as": "His bottle, his trademark, and the reason the name is contested at all.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mumbo",
+   "type": "term",
+   "name": "mumbo",
+   "as": "The word, which he registered and which Washington uses without him.",
+   "rel": "term"
+  },
+  {
+   "to": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "The style that carries his name east; who taught whom is disputed and unresolved here.",
+   "rel": "contrast"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "type": "place",
+   "name": "Capital City Mambo Sauce",
+   "as": "Lost the 2013 cancellation petition against his successor's mark and changed its own spelling.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "Grew up in the same South Side carryout economy, in bottles on the same shelves.",
+   "rel": "style"
+  },
+  {
+   "to": "harold-pierce",
+   "type": "person",
+   "name": "Harold Pierce",
+   "as": "Opened a chicken counter in the same city the same year; their two sauces get confused constantly.",
+   "rel": "contrast"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Poured a sauce called mumbo on Buffalo wings while this trademark was young, and credited Washington for the idea.",
+   "rel": "contrast"
+  },
+  {
+   "to": "yums-carry-out",
+   "type": "place",
+   "name": "Yum's II Carry-Out",
+   "as": "The kind of D.C. counter the argument is actually about: wings, fries, a squeeze bottle.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mumbo-sauce",
+   "kind": "wikipedia",
+   "title": "Mumbo sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mumbo_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-salon-mambo-sauce",
+   "kind": "web",
+   "title": "The story of mambo (or mumbo) sauce, the condiment that likely fueled the civil rights movement (Ashlie D. Stevens, 17 January 2021)",
+   "publisher": "Salon",
+   "url": "https://www.salon.com/2021/01/17/the-story-of-mambo-or-mumbo-sauce-the-condiment-that-likely-fueled-the-civil-rights-movement/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-boundary-stones-mumbo",
+   "kind": "web",
+   "title": "Mumbo Sauce: Is It Really 'Quintessential' D.C.? (Aliyah Thompson, 7 July 2023)",
+   "publisher": "Boundary Stones, WETA",
+   "url": "https://boundarystones.weta.org/2023/07/07/mumbo-sauce-it-really-quintessential-dc",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-mandour-ttab-mumbo",
+   "kind": "web",
+   "title": "TTAB Rules that Washington D.C. Can't Claim \"Mumbo Sauce\" Trademark",
+   "publisher": "Mandour & Associates",
+   "url": "https://www.mandourlaw.com/ttab-rules-that-washington-d-c-cant-claim-mumbo-sauce-trademark/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-mumbosauce-about",
+   "kind": "web",
+   "title": "The history of Mumbo Bar-B-Q Sauce",
+   "publisher": "Select Brands LLC (mumbosauce.com)",
+   "url": "https://mumbosauce.com/about-mumbo-sauce/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-salon-mambo-sauce",
+   "note": "birth and death years are as Salon gives them, 17 January 2021; the Chicago Sun-Times obituary index carries the same years but was not readable on 16 September 2026"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "each claim is attributed to the party making it; the trademark dates differ between sources and both are given"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "Trademarked a Chicago barbecue sauce called Mumbo, the thread that ties this style to Washington's.",
+   "rel": "person"
+  },
+  {
+   "from": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "Trademarked Mumbo in Chicago in 1958, which is why the D.C. claim has to answer to a Chicago one.",
+   "rel": "person"
+  },
+  {
+   "from": "mild-sauce",
+   "type": "sauce",
+   "name": "Mild sauce",
+   "as": "Sold Chicago's other name for this sauce from at least 1950 and registered it.",
+   "rel": "person"
+  },
+  {
+   "from": "mumbo-sauce",
+   "type": "sauce",
+   "name": "Mumbo sauce",
+   "as": "Registered the Mumbo name in Chicago and won it back from a D.C. company.",
+   "rel": "person"
+  },
+  {
+   "from": "capital-city-mambo-sauce",
+   "type": "place",
+   "name": "Capital City Mambo Sauce",
+   "as": "The Chicago sauce maker whose Mumbo trademark beat a D.C. claim to the name at the Trademark Trial and Appeal Board.",
+   "rel": "person"
+  },
+  {
+   "from": "harolds-chicken-shack",
+   "type": "place",
+   "name": "Harold's Chicken Shack",
+   "as": "The other Chicago sauce name of the same decades, and the trademark that the D.C. mumbo fight turned on.",
+   "rel": "person"
+  },
+  {
+   "from": "harold-pierce",
+   "type": "person",
+   "name": "Harold Pierce",
+   "as": "Bottled Mumbo in the same city and the same decades; the two sauces get compared and are not the same product.",
+   "rel": "contrast"
+  },
+  {
+   "from": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Held the Chicago Mumbo trademark while Young was pouring a sauce by that name on Buffalo wings.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mumbo",
+   "type": "term",
+   "name": "mumbo",
+   "as": "Used the name in Chicago from at least 1950; the registration runs through his successor.",
+   "rel": "person"
+  }
+ ]
+}

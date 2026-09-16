@@ -1,0 +1,120 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "deep-fryer/deep-fryer-only-ate-19-wings-2521632544.jpg",
+   "source": "commons",
+   "title": "File:Only ate 19 wings (2521632544).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Only_ate_19_wings_%282521632544%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AOnly_ate_19_wings_%282521632544%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "istolethetv",
+   "credit": "only ate 19 wings",
+   "alt": "only ate 19 wings",
+   "date": "2008-05-09 23:45",
+   "primary": true,
+   "sha256": "69ff86c8571d6809401e1557f7cc84ec40926bae4c9ca7c60815c9849298713e"
+  }
+ ],
+ "id": "deep-fryer",
+ "names": {
+  "name": "the deep fryer",
+  "sort": "deep fryer",
+  "aliases": [
+   "the fryer",
+   "fry vat",
+   "chip pan",
+   "pressure fryer"
+  ],
+  "said": "A bar counts its age in fryers. Forty years on one vat is a thing people say about a place before they say anything about the sauce."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "fryer"
+ },
+ "text": {
+  "what": "The machine or pot the wing goes into: food submerged in hot fat rather than shallow-fried in a pan. A commercial vat, a chip pan, a wok, a Dutch oven or a cast-iron pot all do it. Industrially, a pressure fryer or a vacuum fryer may be used. Fry baskets contain the food in the fryer and strain it on the way out, and a thermometer is the other tool that matters.",
+  "story": "The physics is the reason the method works and the reason it burns people. Deep frying puts food in oil typically between 350 °F / 177 °C and 375 °F / 191 °C, though fryers can pass 400 °F / 205 °C. Hot oil heats the water inside the food and steams it; the vapour pushes outward and oil cannot travel against that flow, so as long as the oil is hot enough and the food is not in too long, penetration stays at the surface — foods deep-fried at proper temperatures absorb less than about 2 tbsp per 2.5 cups of oil used. Cook too long and the water is gone and the oil comes in.\n\nThe informal tests are older than the thermometers. A pinch of flour should sizzle without burning. A piece dropped in should sink a little and come back up: sinking without resurfacing means the oil is too cold, not sinking at all means it is too hot.\n\nThe pressure version runs a different physics. A pressure fryer is a pressure cooker filled with hot oil, so food cooks fast at high heat while keeping its water — the machine behind broasting, and behind the jojo.\n\n*Inference —* the fryer is what made the wing a bar food rather than a kitchen food. It needs no cook watching a pan, it turns out a countable portion in minutes, and it will do fries, mozzarella sticks and pizza logs out of the same oil while it waits.",
+  "how": "Bring the oil to temperature and hold it there; a basket of cold wings drops it, so fry in loads the vat can recover from. Dry the food before it goes in. Drain over the vat, not onto paper, or the crust steams itself soft. Strain solids out at the end of service — oil can be reused a few times after straining, and excessive reuse of the same oil breaks it down. Never water on an oil fire: water flashes to steam and throws burning oil in all directions, which is a slopover. Class F extinguisher, a lid, or a fire blanket; most commercial deep fryers carry automatic foam suppression.",
+  "today": "Fast food is one of the most common ways deep-fried food is eaten in North America, and soybean oil is a popular medium there. *Tradition holds —* a shop's oil schedule is the thing regulars notice and never name; they say the wings taste different on a Tuesday."
+ },
+ "kin": [
+  {
+   "to": "frying-oil",
+   "as": "What fills it, and the choice that changes how everything out of it tastes.",
+   "rel": "part"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The bare wing that meets this oil with nothing between them.",
+   "rel": "fry"
+  },
+  {
+   "to": "double-fry",
+   "as": "Two passes through it, with a rest that is part of the method.",
+   "rel": "fry"
+  },
+  {
+   "to": "par-cook",
+   "as": "The first pass held back for service, which is how a busy vat keeps up.",
+   "rel": "fry"
+  },
+  {
+   "to": "air-fryer",
+   "as": "The countertop machine that reaches for the same result without the oil.",
+   "rel": "contrast"
+  },
+  {
+   "to": "jojo-potatoes",
+   "as": "Comes out of the pressure version of this machine, which is where broasting got its name.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing-basket",
+   "as": "The fry basket the serving basket is shaped after.",
+   "rel": "whole"
+  },
+  {
+   "to": "mozzarella-sticks",
+   "as": "Shares the oil with the wings, which is why both taste of the shop.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-deep-frying",
+  "s:web-wweek-jojo",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-deep-frying",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-deep-frying",
+    "note": "load sizing and draining are trade practice; the fire and oil-reuse facts are cited"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-deep-frying",
+    "note": "final sentence hedged as tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

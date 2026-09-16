@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "id": "smoked-bbq-wing",
+ "type": "style",
+ "names": {
+  "name": "Smoked barbecue wings",
+  "aliases": [
+   "barbecue wings",
+   "smoked wings",
+   "pit wings"
+  ],
+  "said": "A pit sells wings the way it sells everything else — by the pound, off the same fire, at the same window."
+ },
+ "region": [
+  "texas",
+  "kansas-city",
+  "memphis",
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "cut": "party wing",
+  "base": "sweet-tomato",
+  "cooked": "smoked",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A wing cooked on a barbecue pit rather than in oil: rubbed, smoked over wood until the fat renders, then finished — brushed with a tomato sauce and set over higher heat to tack up, or dropped briefly in the fryer so the skin crisps. Regional sauce follows regional pit. Kansas City runs thick tomato sauces; Memphis runs the dry-and-wet split; Texas leans on the rub and the wood. The wing is a side item on those menus, cooked with the ribs and the shoulder and sold beside them.",
+  "story": "American barbecue's regional map is old and well drawn, and the wing arrived on it late. The pits and their dates are documented — Charlie Vergos' Rendezvous in Memphis from 1948, Interstate Bar-B-Que from 1978, Neely's from 1988, Central BBQ from 2002 — and the chicken sits on those menus beside beef and pork. Central BBQ's smoked chicken wings are named in the record of Memphis barbecue, which is one of the few places a smoked wing gets recorded as a menu item at all.\n\nKansas City is the thick-tomato pole; Gates Bar-B-Q is noted for a spicier version built on cumin and celery salt. Texas splits four ways: East Texas by way of the Southern tradition, Central Texas out of German and Czech butcher shops, West Texas over mesquite with goat and mutton, South Texas barbacoa from a cow's head. Alabama's contribution is the pale sauce: chicken smoked in the pit and then coated or dunked in Bob Gibson's white sauce.\n\n*Inference —* the smoked wing is the pit's answer to the sports-bar wing, not an older tradition with its own history. This project found no source dating a first barbecue-joint wing or naming the pit that started it, and none is asserted.\n\n*Tradition holds —* the finishing step exists because smoke alone leaves wing skin slack, and a pit that wants a wing to eat like a wing puts heat on it at the end.",
+  "how": "Rub the wings and hold them. Smoke at low heat over wood — hickory through the South, oak and mesquite in Texas — until the fat has rendered and the meat pulls. Then make a decision: brush with sauce and put the wings back over direct heat until the sugar tacks and darkens, or drop them in hot oil for a minute to tighten the skin and sauce them after. Sauce goes on at the end either way, because a tomato sauce with sugar in it burns over a long cook. A dry finish — rub again, no sauce — makes it a Memphis dry wing instead.",
+  "today": "Barbecue restaurants ship, franchise and appear on television, and the smoked wing travels with them. Home smokers and pellet grills put the method in back yards, where it competes with the fryer and the air fryer for the same bird. *Inference —* what a pit sells as a wing is a cheaper cut of the same labour: hours of wood for a piece that a fryer turns out in ten minutes."
+ },
+ "kin": [
+  {
+   "to": "smoke-then-fry",
+   "as": "The finishing move that fixes slack skin, and the one step that makes a smoked wing eat like a fried one.",
+   "rel": "fry"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The sweet tomato sauce that goes on at the end, once the long cook is over and the sugar can no longer burn.",
+   "rel": "sauce"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "The same pit finishing dry instead of sauced; the fork in the road is whether anything gets brushed on.",
+   "rel": "kin"
+  },
+  {
+   "to": "alabama-white",
+   "as": "The same pit finishing pale — smoked and then dunked in a mayonnaise-and-vinegar sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "central-bbq",
+   "as": "A Memphis pit from 2002 whose smoked wings are named in the record of the style.",
+   "rel": "place"
+  },
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "as": "The Alabama pit that smokes chicken and then dunks it, on the same logic.",
+   "rel": "place"
+  },
+  {
+   "to": "memphis-rub",
+   "as": "What goes on before the wood, and again at the end if the wing is going out dry.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-toss",
+   "as": "The bar's method, which this style replaces with a brush and a second pass over the fire.",
+   "rel": "contrast"
+  },
+  {
+   "to": "grill",
+   "as": "Direct heat, used here at the end rather than throughout.",
+   "rel": "fry"
+  },
+  {
+   "to": "par-cook",
+   "as": "What a long smoke amounts to when a fryer finishes the job.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo",
+   "as": "The fried wing this style answers at the same bar, with hours of wood behind it instead of ten minutes of oil.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "memphis-dry-rub",
+   "tell": "Whether sauce was brushed on. Both come off the same pit; one goes out red and sticky, the other goes out dusted and dry."
+  },
+  {
+   "id": "caribbean-jerk",
+   "tell": "When the seasoning went on. Jerk marinates before the fire and finishes charred; a barbecue wing is rubbed, smoked plain, then sauced at the end."
+  },
+  {
+   "id": "honey-bbq-sauce",
+   "tell": "One is the cook, one is the bottle. A fried wing tossed in barbecue sauce is not a smoked wing, and most wings sold as 'BBQ' never saw wood."
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-the-united-states",
+  "s:wp-memphis-style-barbecue",
+  "s:wp-barbecue-in-alabama",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-the-united-states"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "pit practice; the regional sauces and woods are cited, the finishing decision is general knowledge"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-memphis-style-barbecue",
+    "note": "two paragraphs are marked inference and tradition inline; no first smoked wing is asserted"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the closing sentence is this project's reasoning and is marked"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

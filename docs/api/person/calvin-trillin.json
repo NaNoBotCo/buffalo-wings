@@ -1,0 +1,211 @@
+{
+ "schema": 1,
+ "id": "calvin-trillin",
+ "type": "person",
+ "names": {
+  "name": "Calvin Trillin",
+  "aliases": [
+   "Calvin Marshall Trillin",
+   "Bud Trillin"
+  ],
+  "sort": "Trillin, Calvin"
+ },
+ "region": [
+  "us",
+  "western-ny",
+  "nyc"
+ ],
+ "facets": {
+  "role": [
+   "writer"
+  ],
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "American journalist and food writer, born 5 December 1935 in Kansas City, Missouri. He joined The New Yorker in 1963 and wrote its \"U.S. Journal\" series from 1967 to 1982, a piece a month from somewhere in the country. One of those pieces, in 1980, took the Buffalo wing out of western New York.",
+  "story": "Trillin's method was to go somewhere small and write it at full length. \"An Attempt to Compile a Short History of the Buffalo Chicken Wing\" is the title he gave the 1980 piece, and the hedge in it is the point: he went to Buffalo, he asked the Bellissimos, and he came back with more than one answer.\n\nDominic Bellissimo gave him the midnight version — \"It was Friday night in the bar and since people were buying a lot of drinks he wanted to do something nice for them at midnight when the mostly Catholic patrons would be able to eat meat again\" — and Trillin printed it alongside the others rather than choosing.\n\nThe piece is why the rest of the country knows the Anchor Bar's date. It is also, read now, the earliest widely circulated document that the story had versions.\n\nHis food books — American Fried (1974), Alice, Let's Eat (1978), Third Helpings (1983) — were collected in 1994 as The Tummy Trilogy. He was elected to the American Academy of Arts and Letters in 2008 and won the Thurber Prize for American Humor in 2012.",
+  "today": "The corpus article read for this record, dated 16 September 2026, has him living in Greenwich Village and writing. No later record was checked."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "His 1980 New Yorker piece is how the style's story left western New York.",
+   "rel": "style"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Went there, asked, and printed the answers without picking one.",
+   "rel": "place"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "as": "Gave him the midnight-Friday version, which the piece quotes.",
+   "rel": "person"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Wrote the first widely read account that the story came in versions, and titled it an attempt.",
+   "rel": "story"
+  },
+  {
+   "to": "john-young",
+   "as": "Was selling breaded wings in Buffalo before the date Trillin's piece carried, and is not in it.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-calvin-trillin",
+  "s:trillin-1980",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-calvin-trillin"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-calvin-trillin",
+    "note": "living status as recorded in the corpus article fetched 2026-09-16; not verified past that date"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the paragraph calling the piece the earliest widely circulated record of the versions is this project's reading; the quotations and dates are cited"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "American journalist and food writer, born 5 December 1935 in Kansas City, Missouri. He joined The New Yorker in 1963 and wrote its \"U.S. Journal\" series from 1967 to 1982, a piece a month from somewhere in the country.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "nyc",
+   "name": "New York City",
+   "state": "NY",
+   "note": "the five boroughs; jerk wings, Harold's-style fried, Korean fried chicken"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "His 1980 New Yorker piece is how the style's story left western New York.",
+   "rel": "style"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Went there, asked, and printed the answers without picking one.",
+   "rel": "place"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "type": "person",
+   "name": "Dominic Bellissimo",
+   "as": "Gave him the midnight-Friday version, which the piece quotes.",
+   "rel": "person"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Wrote the first widely read account that the story came in versions, and titled it an attempt.",
+   "rel": "story"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Was selling breaded wings in Buffalo before the date Trillin's piece carried, and is not in it.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-calvin-trillin",
+   "kind": "wikipedia",
+   "title": "Calvin Trillin",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Calvin_Trillin",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-calvin-trillin"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "the paragraph calling the piece the earliest widely circulated record of the versions is this project's reading; the quotations and dates are cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-calvin-trillin",
+   "note": "living status as recorded in the corpus article fetched 2026-09-16; not verified past that date"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "dominic-bellissimo",
+   "type": "person",
+   "name": "Dominic Bellissimo",
+   "as": "Took his midnight version down in 1980 and printed it in The New Yorker.",
+   "rel": "person"
+  },
+  {
+   "from": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "Printed the phrase in The New Yorker in 1980 and sent it out of the city.",
+   "rel": "person"
+  },
+  {
+   "from": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Wrote the 1980 New Yorker piece that carried the Anchor Bar version out of western New York.",
+   "rel": "person"
+  }
+ ]
+}

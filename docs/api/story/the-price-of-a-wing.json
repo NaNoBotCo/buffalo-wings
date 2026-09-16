@@ -1,0 +1,468 @@
+{
+ "schema": 1,
+ "id": "the-price-of-a-wing",
+ "type": "story",
+ "names": {
+  "name": "The price of a wing",
+  "aliases": [
+   "What a wing costs"
+  ],
+  "sort": "price of a wing"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "In 1964 the wing was the cheapest thing on the bird, which is the premise every origin story rests on. In the week of 7 to 11 September 2026 it traded wholesale at 110.02 cents a pound, twice the price of a drumstick and ten times the price of the backs and necks that the Anchor Bar story says were supposed to arrive instead. It has been dearer than that: 325 cents a pound in May 2021, when cold storage ran to its lowest level since 2012. Every figure on this page carries its date and whose figure it is, and the ones I could not get are named too."
+ },
+ "sections": [
+  {
+   "h": "The cheap end of the bird",
+   "text": "Chicken wings were inexpensive and undesirable in the early 1960s, normally thrown away or kept back for stock or soup. That is the condition the Buffalo story turns on and the condition that has been reversed. *Inference —* the reversal is the dish's doing: a cut only becomes expensive once people order it by name."
+  },
+  {
+   "h": "Where the numbers come from",
+   "text": "Two USDA series carry most of the weight here, and both are free to read.\n\nThe Weekly National Chicken Report, from the Agricultural Marketing Service's Livestock, Poultry and Grain Market News, prices parts in cents per pound, domestic, fresh, conventional, FOB, with a weighted average, a range, the week's volume, and the previous week for comparison.\n\nThe Weekly Grocery Store Chicken Feature Activity report gives advertised retail prices in dollars per pound, with the number of sampled stores running each ad, drawn from store circulars, newspaper ads and retailer websites.\n\nThe National Chicken Council publishes a Chicken Wing Report each January, which is the number newspapers print. It is a trade association's estimate for a single Sunday."
+  },
+  {
+   "h": "What a wing costs a buyer this week",
+   "text": "Weekly National Chicken Report, 7 to 11 September 2026. Wings – Whole: range 82.00 to 136.00 cents a pound, weighted average 110.02, on 507,000 pounds, down 2.35 cents from the previous week's 112.37 on 517,000 pounds.\n\nThe rest of the bird, same table, same week, in cents per pound: boneless-skinless breast 121.35, boneless-skinless thighs 148.48, tenderloins 113.50, bone-in thighs 72.89, bone-in legs 71.12, drumsticks 55.35, leg quarters in bulk 52.76, backs and necks stripped 10.91, frames 9.66.\n\nRead down that list against the Anchor Bar's third version of its own story — the one where backs and necks were ordered and wings turned up by mistake. In September 2026 the mistake would have cost roughly ten times what the order did."
+  },
+  {
+   "h": "2021",
+   "text": "USDA's Economic Research Service published the account on 11 March 2022, drawing on its February 2022 Livestock, Dairy, and Poultry Outlook.\n\nPandemic demand for takeout wings pulled cold storage down to its lowest level since 2012. Supply-chain disruption dropped inventories a further 27% by January 2021. In April 2021 wholesale wing prices ran 180% above a year earlier. They peaked at $3.25 a pound in May 2021. As cold storage recovered from May onward, prices fell through the rest of the year; by January 2022 wings were $2.68 a pound — 24 cents above January 2021, and 49 cents below the 2021 peak."
+  },
+  {
+   "h": "The inversion, and its reversal",
+   "text": "In February 2018 The Counter reported jumbo wings at $2.16 a pound wholesale while boneless breast meat traded at $1.03 — the wing at more than twice the price of the cut a boneless wing is made from. On Super Bowl Sunday 2015 wings had gone for $1.91.\n\nIn the week of 7 to 11 September 2026 the relationship has flipped back: boneless-skinless breast at 121.35 cents, wings at 110.02. *Inference —* a restaurant deciding this month whether to push bone-in or boneless faces a different arithmetic than one deciding it in 2018, and the menu category that got built during the inversion has outlived the price gap that built it."
+  },
+  {
+   "h": "What a counter charges",
+   "text": "Weekly Grocery Store Chicken Feature Activity, issued 11 September 2026, for ads running 5 to 17 September 2026. Prices are dollars per pound, weighted across the stores advertising the item.\n\nParty Wings, Flats and Drums, conventional, fresh, regular pack: $3.27 across 2,022 stores, against $2.93 the previous week and $3.99 a year earlier. Value pack: $2.88 across 1,479 stores. Antibiotic-free regular: $4.67 across 406 stores. Frozen IQF, conventional: $3.28 across 4,614 stores. V-Cut Wings, conventional, regular: $2.66 across 334 stores.\n\nFrom the hot case, priced per piece rather than per pound: fried or baked bone-in wings in bulk at $0.90 a piece across 1,980 stores. The boneless line shows only a year-ago figure, $0.56 a piece across 15 stores."
+  },
+  {
+   "h": "The Super Bowl number",
+   "text": "The National Chicken Council released its Chicken Wing Report for Super Bowl LX on 28 January 2026: Americans would eat 1.48 billion wings watching the game, about 10 million more than the year before. The release runs the usual comparisons — the wings would circle the planet nearly three times, and hauling them would take more than 3,400 fully loaded semi-trucks.\n\nOn price the release cites Wells Fargo's Super Bowl Food Report: retail fresh wings averaging $3.47 a pound on a four-week moving average, down 2.8% year on year. Tom Super, the council's spokesman, is quoted: \"I think Bradley Cooper is wrong: Football is for food. Especially when it comes to the Super Bowl, where wings rule the roost.\"\n\nThe release does not publish the method behind the 1.48 billion. *Inference —* an estimate without its method is a headline, and it is reprinted every January as though it were a count."
+  },
+  {
+   "h": "What I could not get",
+   "text": "A wholesale series that prices a flat apart from a drumette. USDA's report prices Wings – Whole only, and its retail report bundles flats and drums into one line; the foodservice distributors that publish case prices refused this project's requests on 16 September 2026, and Urner Barry's series, which poultry traders use for exactly this, is sold by subscription.\n\nA bar's own posted price. Menus for the Buffalo shops sit behind ordering platforms that serve nothing to a plain request; Bar-Bill and Duff's both refused on 16 September 2026. So the counter prices above are a grocery hot case, not a bar, and they are labelled as such.\n\nA long price series in one place. The USDA reports are weekly snapshots; assembling a run of years from them means collecting week by week, and the ERS chart that does assemble one stops in early 2022."
+  }
+ ],
+ "kin": [
+  {
+   "to": "wing",
+   "as": "The cut whose price this page tracks, from throwaway to 110 cents a pound.",
+   "rel": "term"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "as": "Why no series prices one piece against the other: the wholesale line is Wings – Whole and nothing finer.",
+   "rel": "story"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "as": "The menu category the 2018 price inversion built, and which outlived it.",
+   "rel": "story"
+  },
+  {
+   "to": "national-chicken-council",
+   "as": "Publishes the Wing Report every January; a producers' trade association, which is worth knowing when reading the number.",
+   "rel": "org"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The single day the whole industry's headline number is built around.",
+   "rel": "event"
+  },
+  {
+   "to": "wing-night",
+   "as": "What a bar does when the cut is cheap, and stops doing when it is not.",
+   "rel": "term"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Its third origin version has backs and necks arriving as wings by mistake; in 2026 that mistake costs ten times the order.",
+   "rel": "place"
+  },
+  {
+   "to": "party-wing",
+   "as": "How the grocery sells it, and the line USDA's retail report actually prices.",
+   "rel": "term"
+  },
+  {
+   "to": "wingstop",
+   "as": "Built a national chain on the cut during the years it was cheap.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:web-ams-weekly-chicken",
+  "s:web-ams-retail-chicken",
+  "s:web-ers-wing-cold-storage",
+  "s:web-ncc-superbowl-lx",
+  "s:web-counter-boneless",
+  "s:nccouncil-wing-report",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:web-ams-weekly-chicken",
+   "fetched_at": "2026-09-16"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wing"
+   },
+   "sections[2].text": {
+    "tier": "harvested",
+    "source": "s:web-ams-weekly-chicken",
+    "fetched_at": "2026-09-16",
+    "note": "figures read off the report PDF; the last paragraph sets them against the cited Anchor Bar story"
+   },
+   "sections[3].text": {
+    "tier": "cited",
+    "source": "s:web-ers-wing-cold-storage"
+   },
+   "sections[4].text": {
+    "tier": "inference",
+    "note": "the 2018 and 2015 figures are The Counter's, the 2026 figures USDA's; the comparison is this project's"
+   },
+   "sections[5].text": {
+    "tier": "harvested",
+    "source": "s:web-ams-retail-chicken",
+    "fetched_at": "2026-09-16"
+   },
+   "sections[6].text": {
+    "tier": "cited",
+    "source": "s:web-ncc-superbowl-lx"
+   },
+   "sections[7].text": {
+    "tier": "inference",
+    "note": "a record of what this project asked for and did not get on 16 September 2026, not a claim that the data does not exist"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "the-price-of-a-wing/the-price-of-a-wing-buffalo-wings-6676460575.jpg",
+   "source": "commons",
+   "title": "File:Buffalo Wings (6676460575).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Buffalo_Wings_%286676460575%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings_%286676460575%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Charli Lopez from Rochester, USA",
+   "credit": "P1000058.JPG",
+   "alt": "Effortlessly uploaded by &lt;a href=\"http://www.eye.fi\" rel=\"noreferrer nofollow\"&gt;Eye-Fi&lt;/a&gt;",
+   "date": "2012-01-10 20:19",
+   "primary": true,
+   "sha256": "eb6646f0ce20d22834933c730bb16c9c6ad2d2071487752ac8d8ff156d3c559c"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "In 1964 the wing was the cheapest thing on the bird, which is the premise every origin story rests on.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "The cut whose price this page tracks, from throwaway to 110 cents a pound.",
+   "rel": "term"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "type": "story",
+   "name": "The flat and the drum",
+   "as": "Why no series prices one piece against the other: the wholesale line is Wings – Whole and nothing finer.",
+   "rel": "story"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "The menu category the 2018 price inversion built, and which outlived it.",
+   "rel": "story"
+  },
+  {
+   "to": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "Publishes the Wing Report every January; a producers' trade association, which is worth knowing when reading the number.",
+   "rel": "org"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "The single day the whole industry's headline number is built around.",
+   "rel": "event"
+  },
+  {
+   "to": "wing-night",
+   "type": "term",
+   "name": "wing night",
+   "as": "What a bar does when the cut is cheap, and stops doing when it is not.",
+   "rel": "term"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Its third origin version has backs and necks arriving as wings by mistake; in 2026 that mistake costs ten times the order.",
+   "rel": "place"
+  },
+  {
+   "to": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "How the grocery sells it, and the line USDA's retail report actually prices.",
+   "rel": "term"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Built a national chain on the cut during the years it was cheap.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ams-weekly-chicken",
+   "kind": "dataset",
+   "title": "Weekly National Chicken Report (AMS_3646), report for 9/7/2026 to 9/11/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_3646.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; wholesale cents per pound, FOB"
+  },
+  {
+   "id": "s:web-ams-retail-chicken",
+   "kind": "dataset",
+   "title": "Weekly Grocery Store Chicken Feature Activity (AMS_2756), Fri Sep 11 2026, ads ending 9/5/2026 to 9/17/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_2756.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; advertised retail prices, dollars per pound"
+  },
+  {
+   "id": "s:web-ers-wing-cold-storage",
+   "kind": "web",
+   "title": "Rising cold storage supplies of U.S. chicken wings contributed to lower wholesale prices at end of 2021",
+   "publisher": "USDA Economic Research Service, Charts of Note",
+   "url": "https://www.ers.usda.gov/data-products/charts-of-note/103459",
+   "accessed": "2026-09-16",
+   "note": "published 11 March 2022; draws on Livestock, Dairy, and Poultry Outlook, February 2022"
+  },
+  {
+   "id": "s:web-ncc-superbowl-lx",
+   "kind": "web",
+   "title": "Americans to Eat 1.48 Billion Chicken Wings for Super Bowl LX",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-counter-boneless",
+   "kind": "web",
+   "title": "Boneless chicken wings: It's not a lie if you believe it",
+   "author": "Sam Bloch",
+   "publisher": "The Counter",
+   "url": "https://thecounter.org/super-bowl-boneless-chicken-wings-poultry-economics/",
+   "accessed": "2026-09-16",
+   "note": "published 1 February 2018; quotes Russ Whitman of Urner Barry"
+  },
+  {
+   "id": "s:nccouncil-wing-report",
+   "kind": "org",
+   "title": "Chicken Wing Report",
+   "author": "National Chicken Council",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "harvested",
+   "source": "s:web-ams-weekly-chicken",
+   "fetched_at": "2026-09-16"
+  }
+ },
+ "primary_image": {
+  "file": "the-price-of-a-wing/the-price-of-a-wing-buffalo-wings-6676460575.jpg",
+  "source": "commons",
+  "title": "File:Buffalo Wings (6676460575).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Buffalo_Wings_%286676460575%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings_%286676460575%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Charli Lopez from Rochester, USA",
+  "credit": "P1000058.JPG",
+  "alt": "Effortlessly uploaded by &lt;a href=\"http://www.eye.fi\" rel=\"noreferrer nofollow\"&gt;Eye-Fi&lt;/a&gt;",
+  "date": "2012-01-10 20:19",
+  "primary": true,
+  "sha256": "eb6646f0ce20d22834933c730bb16c9c6ad2d2071487752ac8d8ff156d3c559c"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "The wholesale wing price is the reason this item exists at all.",
+   "rel": "story"
+  },
+  {
+   "from": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "What the count costs, and why that number moves.",
+   "rel": "story"
+  },
+  {
+   "from": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "The vat is the other cost line, after the bird.",
+   "rel": "story"
+  },
+  {
+   "from": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "1,300 kitchens buying the same cut is one reason the wholesale price moves.",
+   "rel": "story"
+  },
+  {
+   "from": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "An $8.5 million wage settlement in 2014 is part of what a cheap bar wing has cost somebody.",
+   "rel": "story"
+  },
+  {
+   "from": "chings-hot-wings",
+   "type": "place",
+   "name": "Ching's Hot Wings",
+   "as": "Prices a three-piece at $8.25 in September 2026, which is what a counted wing costs at a shop this size.",
+   "rel": "story"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Sales fell from $1.2 billion in 2009 to $678 million in 2024, and the wings kept costing what wings cost.",
+   "rel": "story"
+  },
+  {
+   "from": "horaces-and-dickies",
+   "type": "place",
+   "name": "Horace & Dickie's Seafood",
+   "as": "A counter that closed on rent and parking tickets rather than on the fryer, which is most of what the price of a wing means.",
+   "rel": "story"
+  },
+  {
+   "from": "la-nova-pizzeria",
+   "type": "place",
+   "name": "La Nova Pizzeria",
+   "as": "Its plant is one reason a wing in another state costs what it costs.",
+   "rel": "story"
+  },
+  {
+   "from": "wingnutz",
+   "type": "place",
+   "name": "Wingnutz",
+   "as": "Went from a hall kitchen to three rooms in three years, which is what a viral wing costs and earns.",
+   "rel": "story"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "A chain this size buys wings by the truckload, so its menu price moves with the wholesale one.",
+   "rel": "story"
+  },
+  {
+   "from": "antonio-swad",
+   "type": "person",
+   "name": "Antonio Swad",
+   "as": "Built a business on wings as the entrée, in the decades the wholesale price stopped being cheap.",
+   "rel": "story"
+  },
+  {
+   "from": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "Publishes the price and supply data the argument runs on: $3.47 a pound retail, four-week average, January 2026.",
+   "rel": "story"
+  },
+  {
+   "from": "us-poultry-and-egg-association",
+   "type": "org",
+   "name": "U.S. Poultry & Egg Association",
+   "as": "Publishes the production and economic data the price argument rests on.",
+   "rel": "story"
+  },
+  {
+   "from": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "Sets the annual peak: wholesale wings climb through the fourth quarter and top out in January.",
+   "rel": "story"
+  },
+  {
+   "from": "wing-night",
+   "type": "term",
+   "name": "wing night",
+   "as": "Why a per-piece special is a harder promise some years than others.",
+   "rel": "story"
+  },
+  {
+   "from": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "Why the category appeared: wing meat got dear and breast meat did not.",
+   "rel": "story"
+  },
+  {
+   "from": "free-to-use",
+   "type": "story",
+   "name": "Free to use",
+   "as": "Built entirely out of the two USDA series described here, week and all.",
+   "rel": "story"
+  },
+  {
+   "from": "the-flat-and-the-drum",
+   "type": "story",
+   "name": "The flat and the drum",
+   "as": "The wholesale series quoted here in full, and what it did between 2021 and now.",
+   "rel": "story"
+  }
+ ]
+}

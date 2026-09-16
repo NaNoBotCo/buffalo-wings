@@ -1,0 +1,301 @@
+{
+ "schema": 1,
+ "id": "alabama-white",
+ "type": "style",
+ "names": {
+  "name": "Alabama white sauce wings",
+  "aliases": [
+   "white barbecue sauce wings",
+   "white sauce wings",
+   "Decatur-style"
+  ],
+  "said": "In north Alabama, white sauce needs no adjective. Everywhere else it needs the state's name in front of it."
+ },
+ "region": [
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "AL",
+  "cut": "whole wing",
+  "base": "dairy",
+  "cooked": "smoked",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "Wings smoked over hickory and then coated or dunked in white sauce — a mayonnaise-based barbecue sauce with vinegar, lemon juice, black pepper, salt, and in many versions cayenne and horseradish. It is thin, sharp and pale, and it goes on at the end of the cook rather than during it, because mayonnaise breaks over heat. The result is tangy rather than sweet, with none of the tomato or molasses a reader expects from the word barbecue.",
+  "story": "Bob Gibson invented it in Decatur, Alabama in 1925, at Big Bob Gibson Bar-B-Q, and it was used on chicken. That is the fact every account agrees on: the sauce, the man, the town, the year, the bird.\n\nThe method is recorded as smoke first, then dunk. Alabama's barbecue is a chicken-and-hickory tradition as much as a pork one, and white sauce is the sauce that goes with the chicken.\n\nIt stayed a north Alabama thing for most of a century. The sauce was bottled and sold commercially from 1994, which is when it began appearing outside the region.\n\n*Tradition holds —* the mayonnaise is there to keep white meat from drying over a long smoke, the fat standing in for basting. This project could not source that explanation to a document and marks it as the story the tradition tells rather than an established reason.\n\n*Inference —* the wing is a later and smaller application of a whole-chicken sauce. Nothing in the sources searched here dates a first white-sauce wing or names the cook who made one.",
+  "how": "Rub the wings with salt and pepper and smoke them over hickory until the skin renders and the meat is done through — some pits finish them hot, over direct heat or in oil, because a slow smoke leaves wing skin slack. Then dunk: a pan of white sauce, the wings in and straight out, so the coat is thin and even. Sauce at the end and off the heat, because mayonnaise splits. Serve with more of the same in a cup. The sauce keeps in the fridge and sharpens for a day or two.",
+  "today": "Bottled white sauce sells nationally and turns up on wing boards a long way from Decatur, where it usually arrives as a dip rather than a coat. *Inference —* it reads to most American drinkers as a rival to ranch, which is not what it is: white sauce is a vinegar sauce built on mayonnaise and meant to go on hot meat, and ranch is a cold buttermilk-and-herb dressing meant for dipping."
+ },
+ "kin": [
+  {
+   "to": "alabama-white-sauce",
+   "as": "The sauce itself — mayonnaise, vinegar, lemon, pepper — invented in Decatur in 1925 and bottled from 1994.",
+   "rel": "sauce"
+  },
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "as": "Where the sauce was made and where the smoke-then-dunk method is recorded.",
+   "rel": "origin"
+  },
+  {
+   "to": "bob-gibson",
+   "as": "Made the sauce in 1925 and put it on chicken before he put it on anything else.",
+   "rel": "person"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "Same pit, different finish: this one gets dunked in a pale vinegar sauce instead of brushed with a red one.",
+   "rel": "kin"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "The other white sauce on an American wing plate, and the one this gets mistaken for — that one is a cold dressing, this one goes on hot meat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "How a pit gets wing skin to tighten before the sauce goes on.",
+   "rel": "fry"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "as": "How white sauce most often reaches a wing outside Alabama — as a dip rather than a dunk.",
+   "rel": "fry"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "The neighbouring barbecue city's answer to the same pit: a rub at the end where this uses a sauce.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "The other wing named for a place and defined by one sauce, though that one is fried and tossed and this one is smoked and dunked.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "ranch-dressing",
+   "tell": "Taste for vinegar and pepper. White sauce is thin and sharp and built to go on hot smoked meat; ranch is a cold buttermilk-and-herb dressing served in a cup."
+  },
+  {
+   "id": "smoked-bbq-wing",
+   "tell": "Colour. Both come off a pit; one finishes pale and tangy, the other red and sweet."
+  }
+ ],
+ "sources": [
+  "s:wp-barbecue-in-alabama",
+  "s:wp-barbecue-in-the-united-states",
+  "s:wp-ranch-dressing",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-alabama"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-barbecue-in-alabama",
+    "note": "the mayonnaise-as-basting explanation is marked tradition inline; the wing-cut paragraph is this project's inference and is marked"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "pit practice; the smoke-then-dunk order and the sauce's composition are cited"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the ranch comparison is this project's reasoning and is marked inline"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Wings smoked over hickory and then coated or dunked in white sauce — a mayonnaise-based barbecue sauce with vinegar, lemon juice, black pepper, salt, and in many versions cayenne and horseradish.",
+ "region_terms": [
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "alabama-white-sauce",
+   "type": "sauce",
+   "name": "Alabama white sauce",
+   "as": "The sauce itself — mayonnaise, vinegar, lemon, pepper — invented in Decatur in 1925 and bottled from 1994.",
+   "rel": "sauce"
+  },
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "type": "place",
+   "name": "Big Bob Gibson Bar-B-Q",
+   "as": "Where the sauce was made and where the smoke-then-dunk method is recorded.",
+   "rel": "origin"
+  },
+  {
+   "to": "bob-gibson",
+   "type": "person",
+   "name": "Bob Gibson",
+   "as": "Made the sauce in 1925 and put it on chicken before he put it on anything else.",
+   "rel": "person"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "Same pit, different finish: this one gets dunked in a pale vinegar sauce instead of brushed with a red one.",
+   "rel": "kin"
+  },
+  {
+   "to": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "The other white sauce on an American wing plate, and the one this gets mistaken for — that one is a cold dressing, this one goes on hot meat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "smoke-then-fry",
+   "type": "fry",
+   "name": "smoke then fry",
+   "as": "How a pit gets wing skin to tighten before the sauce goes on.",
+   "rel": "fry"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "How white sauce most often reaches a wing outside Alabama — as a dip rather than a dunk.",
+   "rel": "fry"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "The neighbouring barbecue city's answer to the same pit: a rub at the end where this uses a sauce.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The other wing named for a place and defined by one sauce, though that one is fried and tossed and this one is smoked and dunked.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-barbecue-in-alabama",
+   "kind": "wikipedia",
+   "title": "Barbecue in Alabama",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_Alabama",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-barbecue-in-the-united-states",
+   "kind": "web",
+   "title": "Barbecue in the United States",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Barbecue_in_the_United_States",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-ranch-dressing",
+   "kind": "wikipedia",
+   "title": "Ranch dressing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ranch_dressing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Wing Country — this project's own reasoning",
+   "publisher": "Wing Country",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-alabama"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-barbecue-in-alabama",
+   "note": "the mayonnaise-as-basting explanation is marked tradition inline; the wing-cut paragraph is this project's inference and is marked"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "pit practice; the smoke-then-dunk order and the sauce's composition are cited"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the ranch comparison is this project's reasoning and is marked inline"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "The neighbouring barbecue state's wing, which answers the same pit with a sauce instead of a rub.",
+   "rel": "contrast"
+  },
+  {
+   "from": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "The same pit finishing pale — smoked and then dunked in a mayonnaise-and-vinegar sauce.",
+   "rel": "kin"
+  },
+  {
+   "from": "alabama-white-sauce",
+   "type": "sauce",
+   "name": "Alabama white sauce",
+   "as": "The style is this tub and the chicken that goes into it.",
+   "rel": "style"
+  },
+  {
+   "from": "big-bob-gibson-bar-b-q",
+   "type": "place",
+   "name": "Big Bob Gibson Bar-B-Q",
+   "as": "Invented it here in 1925, for smoked chicken, and the style has carried the pit's name ever since.",
+   "rel": "origin"
+  },
+  {
+   "from": "bob-gibson",
+   "type": "person",
+   "name": "Bob Gibson",
+   "as": "The style is his sauce moved onto a wing.",
+   "rel": "style"
+  },
+  {
+   "from": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "The sauce's oral record runs back to a 1925 railway worker's weekend barbecues, as told to this archive.",
+   "rel": "style"
+  }
+ ]
+}

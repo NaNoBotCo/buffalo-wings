@@ -1,0 +1,226 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "garbage-plate",
+ "names": {
+  "name": "Garbage Plate",
+  "aliases": [
+   "trash plate",
+   "plate",
+   "Rochester plate",
+   "junkyard plate"
+  ],
+  "said": "Order it by what goes on it: two cheeseburgers, mac salad and home fries, hot sauce, onions, mustard. The name belongs to one restaurant; everyone else says plate."
+ },
+ "region": [
+  "rochester",
+  "upstate-ny"
+ ],
+ "facets": {
+  "course": "main"
+ },
+ "text": {
+  "what": "Hot dog or hamburger meat and a meat hot sauce piled on a bed of side dishes — usually macaroni salad and home fries — with onions and mustard, and buttered bread alongside. Rochester's signature dish, and a trademark of one restaurant that every other restaurant has to work around.",
+  "story": "Alexander Tahou, a Greek immigrant, opened West Main Texas Hots in Rochester in 1918. The first version was hots — standard hot dogs or Rochester-style white hots — with potatoes, cold beans and buttered Italian bread. His son Nick took over in the 1940s, renamed the place Nick Tahou Hots, added hamburger meat and macaroni salad, and introduced the chili-like hot meat sauce that holds the dish together; that sauce came from a family recipe belonging to a Mexican friend of Alexander's.\n\nThe name arrived from outside. By the 1980s college students were coming in and asking for \"that plate with all the garbage on it\". The family resisted — as they put it, \"it's food; it doesn't sound good\" — then filed a United States trademark for Garbage Plate in 1991, which stopped anyone else selling one under that name. So Rochester eats trash plates, junkyard plates, hot plates, rubbish plates, sloppy plates and messy plates instead, and The Red Fern sells a vegan Compost Plate.\n\nJim Memmott of the Democrat and Chronicle called it \"Rochester's signature thing\", arguing it eclipses Kodak. In August 2017 the Rochester Red Wings briefly renamed themselves the Rochester Plates for the dish's centenary, brought the name back in 2018 for Thursday home games, and unveiled a plate-themed mascot named Mac in 2019.",
+  "how": "Build from the bottom: two sides first — macaroni salad, home fries, french fries or beans — then the meat, then the hot meat sauce over everything, then raw onion and mustard. Buttered white bread on the side to push with. Eat it with a fork, standing or sitting, usually late.",
+  "today": "Versions have spread past the Rochester metropolitan area to New York City, Pittsburgh, Raleigh and Denver. *Tradition holds —* the plate is widely eaten as a hangover remedy, and news outlets repeat that as often as they describe it."
+ },
+ "kin": [
+  {
+   "to": "rochester-breaded",
+   "as": "Shares the city and the argument: Rochester breads its wings and buries its sides, seventy miles from a city that does neither.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo",
+   "as": "The other Western New York dish that made it onto a national menu, and the one that got there first.",
+   "rel": "contrast"
+  },
+  {
+   "to": "french-fries",
+   "as": "One of the two sides underneath, and the one most copycat plates default to.",
+   "rel": "part"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "as": "Sells Rochester its wings in the same city that eats the plate.",
+   "rel": "place"
+  },
+  {
+   "to": "country-sweet-chicken-and-ribs",
+   "as": "The other Rochester counter a plate-eater knows by name.",
+   "rel": "place"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "What sits beside it, and part of why it is eaten at the hour it is eaten.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-garbage-plate",
+  "s:wp-rochester-new-york"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-garbage-plate"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the build order is how it is described locally, not a cited recipe"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "kin[3].as": {
+    "tier": "inference",
+    "note": "both are Rochester; no source puts them together"
+   },
+   "kin[4].as": {
+    "tier": "inference",
+    "note": "same"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "Hot dog or hamburger meat and a meat hot sauce piled on a bed of side dishes — usually macaroni salad and home fries — with onions and mustard, and buttered bread alongside.",
+ "region_terms": [
+  {
+   "key": "rochester",
+   "name": "Rochester",
+   "state": "NY",
+   "note": "seventy miles east of Buffalo and breading its wings, which Buffalo notices"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "Syracuse, the Southern Tier, the Mohawk Valley"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Shares the city and the argument: Rochester breads its wings and buries its sides, seventy miles from a city that does neither.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The other Western New York dish that made it onto a national menu, and the one that got there first.",
+   "rel": "contrast"
+  },
+  {
+   "to": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "One of the two sides underneath, and the one most copycat plates default to.",
+   "rel": "part"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "Sells Rochester its wings in the same city that eats the plate.",
+   "rel": "place"
+  },
+  {
+   "to": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "The other Rochester counter a plate-eater knows by name.",
+   "rel": "place"
+  },
+  {
+   "to": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "What sits beside it, and part of why it is eaten at the hour it is eaten.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-garbage-plate",
+   "kind": "wikipedia",
+   "title": "Garbage Plate",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Garbage_Plate",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-rochester-new-york",
+   "kind": "wikipedia",
+   "title": "Rochester, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rochester,_New_York",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-garbage-plate"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-garbage-plate"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the build order is how it is described locally, not a cited recipe"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-garbage-plate"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Rochester's documented dish, trademarked and dated to 1918, where this style has no such paper trail.",
+   "rel": "dish"
+  },
+  {
+   "from": "chicken-riggies",
+   "type": "dish",
+   "name": "chicken riggies",
+   "as": "Rochester's claim on a plate, sixty miles west of Utica's claim on a pasta.",
+   "rel": "contrast"
+  },
+  {
+   "from": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "Rochester puts home fries under the meat instead, and calls the result the city's dish.",
+   "rel": "contrast"
+  },
+  {
+   "from": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "Shares a city and a habit: Rochester puts sauce on top of everything and names it after the sauce.",
+   "rel": "dish"
+  },
+  {
+   "from": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "Sells a version under its own street number, as every Rochester kitchen must to avoid the trademark.",
+   "rel": "dish"
+  }
+ ]
+}

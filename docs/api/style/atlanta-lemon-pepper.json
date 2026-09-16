@@ -1,0 +1,374 @@
+{
+ "schema": 1,
+ "id": "atlanta-lemon-pepper",
+ "type": "style",
+ "names": {
+  "name": "Lemon pepper wings",
+  "aliases": [
+   "lemon pepper dry",
+   "lemon pepper wet",
+   "LP wings"
+  ],
+  "said": "The order is a count, a cut and a state: twenty, all flats, lemon pepper wet."
+ },
+ "region": [
+  "atlanta",
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "GA",
+  "cut": "party wing",
+  "base": "citrus-pepper",
+  "cooked": "fried",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A wing cooked without breading and finished in lemon pepper — granulated lemon zest mashed with cracked black pepper, then baked and dried, usually with salt and sugar in the blend. Atlanta orders it two ways. Dry means the seasoning goes on alone. Wet means a sauce underneath it, butter or a lemon sauce or Buffalo, with the dry seasoning shaken over the top. The wing plate comes with fried rice at a great many Atlanta counters, and Wikipedia calls the dish emblematic of the city's cuisine.",
+  "story": "Lemon pepper is a commercial product before it is a wing. William Shoffeitt, a product engineer in Healdsburg, California, launched the blend in July 1967 through Shoffeitt's Enhance Seasoners, sold it along the West Coast, and moved it through trade shows and department stores including Sears and JCPenney. It was aimed at seafood.\n\nAtlanta turned it into a wing. Wikipedia's account is that people there began adding lemon pepper to Buffalo wings to cut the heat, and that the dish took hold in the mid-2000s — attributed in part to its not marking a white t-shirt the way an orange sauce does, which mattered to rappers wearing them. The wings are a fixture of Atlanta's strip clubs; Chris Kirschner of The Athletic reported that the food at those clubs, wings above all, drew celebrity customers. Keisha Lance Bottoms, before she was mayor, said in 2017: \"Lemon pepper wings are Atlanta.\" Eric Kim wrote in The New York Times in 2022 that \"in Atlanta, lemon pepper is queen,\" calling the wings \"central to [the city's] social fabric.\"\n\nThe wet version's paper trail is knottier than the phrase suggests. Wikipedia credits its invention to the American Deli in Atlanta. The second episode of Atlanta put \"lemon pepper wet\" in a character's hands from J.R. Crickets — a restaurant that did not then have it on the menu, though it sold a similar item called Fester wings that customers already called lemon pepper wet; the show's writer Stephen Glover said he wanted the character hooked up with something off-menu, and the dish on screen was modelled on the American Deli's. J.R. Crickets added lemon pepper wet to the menu in 2017 in the show's honour. Mike Jordan of Eater Atlanta credited the episode with popularising it. So the restaurant most famous for the dish is not the restaurant credited with inventing it, and the fame arrived through television.\n\nThe wings run through Atlanta music and back out. 2 Chainz's \"Hot Wings\" (2018): \"She just want her 20-piece/ All flats with the lemon pepper.\" Drake's \"Lemon Pepper Freestyle\" (2021) features Rick Ross, who owns Wingstop locations and has named them in several songs. In 2020 Lou Williams of the Los Angeles Clippers was nicknamed Lemon Pepper Lou after reports he ordered the wings with Jack Harlow at Magic City during a trip outside the NBA bubble; the club already sold a \"Louwill Lemon Pepper BBQ Wings\". He objected to the nickname, then trademarked it.",
+  "how": "Fry the wing bare and hot. Dry: shake it in lemon pepper straight out of the oil while the skin still holds seasoning. Wet: toss it first in melted butter, a lemon sauce or Buffalo sauce, then hit it with the dry blend on top, so it reads sharp and salty over something slick. Wikipedia's own description says the wings are roasted rather than fried; Atlanta counters fry them, and *Inference —* the encyclopedia is describing a home method rather than the takeout window. Many shops use a premade blend rather than mashing zest into pepper themselves.",
+  "today": "Chains sell lemon pepper nationally, and the flavour has spun off tacos, loaded fries, pierogies, pizza, beer and soda. It was already Wingstop's second-most-ordered Super Bowl flavour in the National Chicken Council's wing round-up, behind Original Hot and ahead of Hickory Smoked BBQ. *Inference —* Atlanta's version survives the export because what makes it local is the order rather than the recipe: the count, the all-flats, the wet-or-dry, and the fried rice under the plate."
+ },
+ "kin": [
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "The blend itself — lemon zest mashed into cracked pepper, baked and dried — launched for seafood in 1967 and turned here into a wing.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "as": "The wet half of the order: a sauce under the seasoning, credited to the American Deli and made famous by a television episode set somewhere else.",
+   "rel": "sauce"
+  },
+  {
+   "to": "american-deli",
+   "as": "Credited with inventing lemon pepper wet, and the restaurant the Atlanta scene was actually modelled on.",
+   "rel": "origin"
+  },
+  {
+   "to": "jr-cricketts",
+   "as": "Where Atlanta filmed the wings, without having them on the menu; it added lemon pepper wet in 2017 in the show's honour.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-cafe",
+   "as": "An Atlanta wing counter working the same plate.",
+   "rel": "place"
+  },
+  {
+   "to": "fried-rice-plate",
+   "as": "What sits under the wings at an Atlanta counter, and part of why the plate reads local.",
+   "rel": "dish"
+  },
+  {
+   "to": "all-flats",
+   "as": "Half the order in Atlanta, and named in the verse that carried the dish out of the city.",
+   "rel": "term"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "The two states this style is ordered in, and the pair of words that do the work.",
+   "rel": "term"
+  },
+  {
+   "to": "wingstop",
+   "as": "Sells lemon pepper nationally; it ranked second among its Super Bowl flavours in the National Chicken Council's round-up.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style lemon pepper was laid over to cut its heat, by Wikipedia's account of how it started.",
+   "rel": "origin"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "The other American wing sold dry, from a rib counter rather than a fryer.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "memphis-dry-rub",
+   "tell": "Taste for citrus. Lemon pepper is zest and black pepper, sharp and salty; a Memphis rub is paprika-and-pepper off the smoker, with no lemon in it."
+  },
+  {
+   "id": "lemon-pepper-wet",
+   "tell": "One is the style, one is the sauce. Order lemon pepper and you can still be asked wet or dry."
+  }
+ ],
+ "sources": [
+  "s:wp-lemon-pepper-wings",
+  "s:wp-lemon-pepper",
+  "s:wp-buffalo-wing",
+  "s:wp-wingstop",
+  "s:web-ncc-wings-hot-topic",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "frying method is general; the roasted-versus-fried discrepancy is flagged inline as this project's inference"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-ncc-wings-hot-topic",
+    "note": "closing sentence is this project's inference and is marked"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A wing cooked without breading and finished in lemon pepper — granulated lemon zest mashed with cracked black pepper, then baked and dried, usually with salt and sugar in the blend. Atlanta orders it two ways.",
+ "region_terms": [
+  {
+   "key": "atlanta",
+   "name": "Atlanta",
+   "state": "GA",
+   "note": "lemon pepper, wet and dry, and the wing plate with fried rice"
+  },
+  {
+   "key": "the-south",
+   "name": "The American South",
+   "state": null
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "The blend itself — lemon zest mashed into cracked pepper, baked and dried — launched for seafood in 1967 and turned here into a wing.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "type": "sauce",
+   "name": "Lemon pepper wet",
+   "as": "The wet half of the order: a sauce under the seasoning, credited to the American Deli and made famous by a television episode set somewhere else.",
+   "rel": "sauce"
+  },
+  {
+   "to": "american-deli",
+   "type": "place",
+   "name": "American Deli",
+   "as": "Credited with inventing lemon pepper wet, and the restaurant the Atlanta scene was actually modelled on.",
+   "rel": "origin"
+  },
+  {
+   "to": "jr-cricketts",
+   "type": "place",
+   "name": "J.R. Crickets",
+   "as": "Where Atlanta filmed the wings, without having them on the menu; it added lemon pepper wet in 2017 in the show's honour.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-cafe",
+   "type": "place",
+   "name": "The Wing Cafe & Tap House",
+   "as": "An Atlanta wing counter working the same plate.",
+   "rel": "place"
+  },
+  {
+   "to": "fried-rice-plate",
+   "type": "dish",
+   "name": "the fried rice plate",
+   "as": "What sits under the wings at an Atlanta counter, and part of why the plate reads local.",
+   "rel": "dish"
+  },
+  {
+   "to": "all-flats",
+   "type": "term",
+   "name": "all flats",
+   "as": "Half the order in Atlanta, and named in the verse that carried the dish out of the city.",
+   "rel": "term"
+  },
+  {
+   "to": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "The two states this style is ordered in, and the pair of words that do the work.",
+   "rel": "term"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Sells lemon pepper nationally; it ranked second among its Super Bowl flavours in the National Chicken Council's round-up.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style lemon pepper was laid over to cut its heat, by Wikipedia's account of how it started.",
+   "rel": "origin"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "The other American wing sold dry, from a rib counter rather than a fryer.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-lemon-pepper-wings",
+   "kind": "wikipedia",
+   "title": "Lemon pepper wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper_wings",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-lemon-pepper",
+   "kind": "wikipedia",
+   "title": "Lemon pepper",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-wingstop",
+   "kind": "wikipedia",
+   "title": "Wingstop",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wingstop",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ncc-wings-hot-topic",
+   "kind": "org",
+   "title": "Chicken Wings – A Hot Topic!",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/chicken-wings-a-hot-topic/",
+   "accessed": "2026-09-16",
+   "note": "undated feature built on the 2012 Wing Report; the page that says the count is of wing PORTIONS, splits them half foodservice half retail, and explains the flapper export"
+  },
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Wing Country — this project's own reasoning",
+   "publisher": "Wing Country",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "frying method is general; the roasted-versus-fried discrepancy is flagged inline as this project's inference"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-ncc-wings-hot-topic",
+   "note": "closing sentence is this project's inference and is marked"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "Another city's seasoning wing, with citrus where this has celery seed.",
+   "rel": "contrast"
+  },
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "The other dry American wing, out of a fryer rather than a pit, and sold in the same Memphis shops.",
+   "rel": "contrast"
+  },
+  {
+   "from": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "The style this blend defines, and the reason a dry wing is an Atlanta wing.",
+   "rel": "style"
+  },
+  {
+   "from": "lemon-pepper-wet",
+   "type": "sauce",
+   "name": "Lemon pepper wet",
+   "as": "The style it belongs to, and the argument inside it: dry or wet.",
+   "rel": "style"
+  },
+  {
+   "from": "american-deli",
+   "type": "place",
+   "name": "American Deli",
+   "as": "Sells the city's wing in both its forms, dry and wet, at a counter price.",
+   "rel": "style"
+  },
+  {
+   "from": "jr-cricketts",
+   "type": "place",
+   "name": "J.R. Crickets",
+   "as": "Put the city's wet version on a menu under that name in 2017, after customers had ordered it that way for years.",
+   "rel": "style"
+  },
+  {
+   "from": "wing-cafe",
+   "type": "place",
+   "name": "The Wing Cafe & Tap House",
+   "as": "The city wing this suburban sauce board sits beside, twenty miles up the road.",
+   "rel": "style"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Carries Atlanta's seasoning to every state as a flavour name on a national menu board.",
+   "rel": "style"
+  },
+  {
+   "from": "all-flats",
+   "type": "term",
+   "name": "all flats",
+   "as": "The style the phrase travels with in the songs that carry it.",
+   "rel": "style"
+  },
+  {
+   "from": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "The style this pair of words belongs to.",
+   "rel": "style"
+  }
+ ]
+}

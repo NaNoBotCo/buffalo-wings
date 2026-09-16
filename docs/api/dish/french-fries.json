@@ -1,0 +1,376 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "french-fries/french-fries-french-fries.jpg",
+   "source": "commons",
+   "title": "File:French Fries.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AFrench_Fries.JPG",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "StockSnap",
+   "credit": "pixabay.com/photos/french-fries-salt-food-brown-food-923687/",
+   "alt": "French fries",
+   "date": "2014-11-18",
+   "primary": true,
+   "sha256": "fabdabea1f924f6abaa38070d6e81f86dcf8ec32ca64db1225f1cf59333aeba6"
+  }
+ ],
+ "id": "french-fries",
+ "names": {
+  "name": "french fries",
+  "aliases": [
+   "fries",
+   "chips"
+  ],
+  "said": "An order is a side until somebody dumps the wings on top of it, and then it is the plate."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "course": "side"
+ },
+ "text": {
+  "what": "Potatoes cut into even batonnet or julienne strips, dried, and deep-fried. Beside wings they do three jobs: they soak the sauce that drips, they stretch a small order into a meal, and in several cities they become the plate the wings sit on.",
+  "story": "The fry arrived at the wing counter already carrying its own argument about fat. Beef suet was recommended as the superior frying medium in the older literature, and Belgian practice calls for filtered cattle fat — blanc de boeuf, ossewit. McDonald's fried in a mixture of 93% beef tallow and 7% cottonseed oil until 1990, when it changed to vegetable oil with beef flavouring. Horse fat was standard in northern France and Belgium until recently.\n\n*Inference —* that switch is the same argument a wing shop has with itself, one fryer down: the fat is the flavour, and the fat is also the thing a chain answers to a nutrition panel for.",
+  "how": "Cut even strips and dry them. Fry twice: a first bath at about 160 °C / 320 °F to cook the potato through, then a second at about 190 °C / 375 °F to crisp the outside. For thin 2–3 mm strips the first bath runs about three minutes and the second only seconds. Salt out of the oil. Beside wings the fries usually come out of the same oil as the wings, which means they taste of whatever else that fryer has been doing.",
+  "today": "Wingstop lists fries among its sides alongside fried corn and veggie sticks. In Washington, D.C. the fries take mumbo sauce; in Chicago they go under the chicken and take mild sauce; in Atlanta they turn up as loaded fries under lemon pepper. *Inference —* wherever a city has its own wing sauce, it also has a fry that carries it."
+ },
+ "kin": [
+  {
+   "to": "mumbo-fries",
+   "as": "What these become in a D.C. carryout when the sauce goes over the top.",
+   "rel": "descendant"
+  },
+  {
+   "to": "jojo-potatoes",
+   "as": "The same potato breaded and pressure-fried instead of cut thin and fried twice.",
+   "rel": "contrast"
+  },
+  {
+   "to": "double-fry",
+   "as": "The two-bath method these are built on, and the one Korean wing shops borrowed.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "as": "The argument these carry into the shop: tallow, cottonseed, soy, canola.",
+   "rel": "fry"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "Shares the wings' oil in most shops, which is why the fries taste of the wings.",
+   "rel": "fry"
+  },
+  {
+   "to": "wingstop",
+   "as": "Sells them as a side beside fried corn and veggie sticks.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-basket",
+   "as": "Lines the basket or holds the wings up out of their own sauce.",
+   "rel": "whole"
+  },
+  {
+   "to": "garbage-plate",
+   "as": "Rochester puts home fries under the meat instead, and calls the result the city's dish.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:web-wp-french-fries",
+  "s:wp-deep-frying",
+  "s:wp-wingstop",
+  "s:wp-mumbo-sauce",
+  "s:wp-mild-sauce",
+  "s:wp-lemon-pepper-wings"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-french-fries"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-wp-french-fries",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-wp-french-fries",
+    "note": "the shared-fryer sentence is trade practice, not cited"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-wingstop",
+    "note": "closing sentence marked inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "Potatoes cut into even batonnet or julienne strips, dried, and deep-fried.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "mumbo-fries",
+   "type": "dish",
+   "name": "mumbo fries",
+   "as": "What these become in a D.C. carryout when the sauce goes over the top.",
+   "rel": "descendant"
+  },
+  {
+   "to": "jojo-potatoes",
+   "type": "dish",
+   "name": "jojo potatoes",
+   "as": "The same potato breaded and pressure-fried instead of cut thin and fried twice.",
+   "rel": "contrast"
+  },
+  {
+   "to": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The two-bath method these are built on, and the one Korean wing shops borrowed.",
+   "rel": "fry"
+  },
+  {
+   "to": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "The argument these carry into the shop: tallow, cottonseed, soy, canola.",
+   "rel": "fry"
+  },
+  {
+   "to": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "Shares the wings' oil in most shops, which is why the fries taste of the wings.",
+   "rel": "fry"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Sells them as a side beside fried corn and veggie sticks.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "Lines the basket or holds the wings up out of their own sauce.",
+   "rel": "whole"
+  },
+  {
+   "to": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "Rochester puts home fries under the meat instead, and calls the result the city's dish.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-wp-french-fries",
+   "kind": "web",
+   "title": "French fries",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/French_fries",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-wingstop",
+   "kind": "wikipedia",
+   "title": "Wingstop",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wingstop",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mumbo-sauce",
+   "kind": "wikipedia",
+   "title": "Mumbo sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mumbo_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-mild-sauce",
+   "kind": "wikipedia",
+   "title": "Mild sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mild_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-lemon-pepper-wings",
+   "kind": "wikipedia",
+   "title": "Lemon pepper wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lemon_pepper_wings",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-wp-french-fries"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-wp-french-fries",
+   "note": "closing paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-wp-french-fries",
+   "note": "the shared-fryer sentence is trade practice, not cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-wingstop",
+   "note": "closing sentence marked inference"
+  }
+ },
+ "primary_image": {
+  "file": "french-fries/french-fries-french-fries.jpg",
+  "source": "commons",
+  "title": "File:French Fries.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AFrench_Fries.JPG",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "StockSnap",
+  "credit": "pixabay.com/photos/french-fries-salt-food-brown-food-923687/",
+  "alt": "French fries",
+  "date": "2014-11-18",
+  "primary": true,
+  "sha256": "fabdabea1f924f6abaa38070d6e81f86dcf8ec32ca64db1225f1cf59333aeba6"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "Take the same can, at the same bar, in the same basket.",
+   "rel": "dish"
+  },
+  {
+   "from": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "Under the wings and taking the same pour; the fries are part of the dish, not a side.",
+   "rel": "dish"
+  },
+  {
+   "from": "old-bay",
+   "type": "sauce",
+   "name": "Old Bay Seasoning",
+   "as": "Gets the same shake in the same basket, usually without being asked for.",
+   "rel": "dish"
+  },
+  {
+   "from": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "One of the two sides underneath, and the one most copycat plates default to.",
+   "rel": "part"
+  },
+  {
+   "from": "jojo-potatoes",
+   "type": "dish",
+   "name": "jojo potatoes",
+   "as": "The other potato at the same counter, cut thin and fried bare rather than breaded under pressure.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mumbo-fries",
+   "type": "dish",
+   "name": "mumbo fries",
+   "as": "The potato underneath, doing what it does under every city's sauce.",
+   "rel": "part"
+  },
+  {
+   "from": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "Under the wings or beside them, and the cheapest way to make a count into a meal.",
+   "rel": "part"
+  },
+  {
+   "from": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The same two-bath architecture, on a potato and with published temperatures.",
+   "rel": "dish"
+  },
+  {
+   "from": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "Carries the same tallow argument, with a published date on the switch.",
+   "rel": "dish"
+  },
+  {
+   "from": "par-cook",
+   "type": "fry",
+   "name": "the par-cook",
+   "as": "The published version of this method, with temperatures and times.",
+   "rel": "dish"
+  },
+  {
+   "from": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "Its own version, Crabfries, carries a trademark the company has sued to defend.",
+   "rel": "dish"
+  },
+  {
+   "from": "harolds-chicken-shack",
+   "type": "place",
+   "name": "Harold's Chicken Shack",
+   "as": "The chicken goes down on top of them, and they take the grease.",
+   "rel": "dish"
+  },
+  {
+   "from": "horaces-and-dickies",
+   "type": "place",
+   "name": "Horace & Dickie's Seafood",
+   "as": "On the sides board with hush puppies, yams and collards, and under the sauce if you ask.",
+   "rel": "dish"
+  },
+  {
+   "from": "uncle-remus-saucy-fried-chicken",
+   "type": "place",
+   "name": "Uncle Remus Saucy Fried Chicken",
+   "as": "What the sauce goes over when it is not going over the chicken.",
+   "rel": "dish"
+  }
+ ]
+}

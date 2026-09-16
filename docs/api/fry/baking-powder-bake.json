@@ -1,0 +1,227 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "baking-powder-bake",
+ "names": {
+  "name": "the baking powder bake",
+  "sort": "baking powder bake",
+  "aliases": [
+   "oven wings",
+   "baked wings",
+   "no-fry wings"
+  ],
+  "said": "Baking powder, not baking soda. Recipe writers put that in capitals because readers keep getting it wrong."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "method"
+ },
+ "text": {
+  "what": "The home method that gets wing skin to crisp in an oven: toss dried wings with baking powder and salt, bake low to render and dry, then hot to brown. No fryer, no pot of oil, and a crust that holds sauce for about as long as it takes to eat.",
+  "story": "The trick is a pH trick. Baking powder is alkaline — the opposite of acidic — so, as Christine Pittman of TheCookful puts it, \"The addition of the baking powder therefore raises the pH level in the chicken, allowing the peptide bonds in the skin to break down, which in turn lets the skin get more crisp and brown.\" Nagi Maehashi of RecipeTin Eats describes the same result by a different mechanism: \"the baking powder draws moisture to the surface of the skin so it can evaporate, thereby making the skin crispier.\"\n\nThe method arrived with the appliance. Convection — a fan moving air around the food to heat it evenly — was already in home ovens, and small countertop convection ovens are now marketed as air fryers; US household ownership was reported at 36% in 2020 and estimated at 60% in 2023.\n\n*Inference —* this is the version of the wing most Americans actually cook. The fryer belongs to the bar; the oven belongs to the house, and the baking powder is what closes the gap between them.",
+  "how": "Dry the wings thoroughly. Toss with baking powder and salt — RecipeTin Eats uses 5 teaspoons of baking powder and 3/4 teaspoon of salt for 4 lb / 2 kg of wings. Rack over a tray so air reaches underneath. Bake low first, 120 °C / 250 °F for 30 minutes, to render fat and dry the skin, then raise to 220 °C / 425 °F for 40–50 minutes to cook through and brown. Sauce after the oven. Use baking powder, not baking soda; RecipeTin Eats warns in capitals that readers who have swapped them found the result \"INEDIBLE\".",
+  "today": "The standard home recipe across American food sites, and the method most often reached for on Super Bowl Sunday, the second-largest American eating day after Thanksgiving. *Inference —* the recipes agree on the ratio and the two temperatures and disagree on the chemistry, which suggests the method was found by cooking rather than by explanation."
+ },
+ "kin": [
+  {
+   "to": "air-fryer",
+   "as": "The countertop convection oven this method runs in when the big oven is busy.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The bar method this is trying to reproduce without a pot of oil.",
+   "rel": "contrast"
+  },
+  {
+   "to": "deep-fryer",
+   "as": "What this exists to avoid, and the thing it is always measured against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Goes on after the oven, the same way it goes on after the fryer.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-toss",
+   "as": "Still the last step; the bowl does not care how the wing got cooked.",
+   "rel": "fry"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day this method cooks more wings than any fryer.",
+   "rel": "event"
+  },
+  {
+   "to": "brine",
+   "as": "The other way salt is used on skin here — drawing water out rather than holding it in.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:web-cookful-crispy-wings",
+  "s:web-recipetin-crispy-wings",
+  "s:wp-convection-oven",
+  "s:wp-super-bowl"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-cookful-crispy-wings"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-cookful-crispy-wings",
+    "note": "two recipe writers give different mechanisms; both are quoted rather than reconciled. Closing paragraph marked inference."
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the Super Bowl ranking is cited; the claim about how the method was found is this project's reasoning"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:web-recipetin-crispy-wings"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "The home method that gets wing skin to crisp in an oven: toss dried wings with baking powder and salt, bake low to render and dry, then hot to brown.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "The countertop convection oven this method runs in when the big oven is busy.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The bar method this is trying to reproduce without a pot of oil.",
+   "rel": "contrast"
+  },
+  {
+   "to": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "What this exists to avoid, and the thing it is always measured against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Goes on after the oven, the same way it goes on after the fryer.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Still the last step; the bowl does not care how the wing got cooked.",
+   "rel": "fry"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "The day this method cooks more wings than any fryer.",
+   "rel": "event"
+  },
+  {
+   "to": "brine",
+   "type": "fry",
+   "name": "the brine",
+   "as": "The other way salt is used on skin here — drawing water out rather than holding it in.",
+   "rel": "fry"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-cookful-crispy-wings",
+   "kind": "web",
+   "title": "How To Bake Chicken Wings That Are SOOO Crispy",
+   "publisher": "TheCookful (Christine Pittman)",
+   "url": "https://thecookful.com/bake-chicken-wings-crispy/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-recipetin-crispy-wings",
+   "kind": "web",
+   "title": "Truly Crispy Oven Baked Chicken Wings",
+   "publisher": "RecipeTin Eats (Nagi Maehashi)",
+   "url": "https://www.recipetineats.com/crispy-oven-baked-chicken-wings-honey-garlic-sauce/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-convection-oven",
+   "kind": "wikipedia",
+   "title": "Convection oven",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Convection_oven",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-super-bowl",
+   "kind": "wikipedia",
+   "title": "Super Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-cookful-crispy-wings"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-cookful-crispy-wings",
+   "note": "two recipe writers give different mechanisms; both are quoted rather than reconciled. Closing paragraph marked inference."
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-cookful-crispy-wings"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the Super Bowl ranking is cited; the claim about how the method was found is this project's reasoning"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "The chemistry most air fryer wing recipes borrow wholesale.",
+   "rel": "fry"
+  },
+  {
+   "from": "brine",
+   "type": "fry",
+   "name": "the brine",
+   "as": "Runs a dry brine inside it — salt on skin, overnight, for the same drying reason.",
+   "rel": "fry"
+  }
+ ]
+}

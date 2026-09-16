@@ -1,0 +1,70 @@
+{
+ "id": "flapper",
+ "names": {
+  "name": "flapper",
+  "aliases": [
+   "pointer",
+   "flipper"
+  ]
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "F",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "flap (verb) + -er, the agent suffix — the part that does the flapping; pointer is built the same way off point",
+  "first_attested": "",
+  "note": "Two agent nouns for one piece, each naming a different property: flapper names what it did on the bird, pointer names its shape on the plate. Wikipedia's Buffalo wing article lists them together, \"flapper or pointer\". *Inference —* nobody arbitrates between them because the piece is rarely sold, so neither word has to win.",
+  "tier": "cited",
+  "source": "s:wp-buffalo-wing"
+ },
+ "text": {
+  "what": "Cook's name for the wing tip: the pointed third segment, the one that carried the flight feathers. Skin and cartilage over two thin bones. It is the piece that gets thrown in the stock bucket, which is why most people who eat wings weekly have never heard the word.",
+  "how": "Said in a kitchen, not at a table. A cook breaking cases says flapper; the same cook writes 'tips' on the stock log."
+ },
+ "kin": [
+  {
+   "to": "wing-tip",
+   "as": "The same piece under the butcher's name, and the one a label prints.",
+   "rel": "same-word"
+  },
+  {
+   "to": "wing",
+   "as": "Its third segment, counted by anatomy and not by the menu.",
+   "rel": "whole"
+  },
+  {
+   "to": "flat",
+   "as": "The piece it hangs off until the first cut.",
+   "rel": "kin"
+  },
+  {
+   "to": "wing-cut",
+   "as": "The cut that decides whether this word ever gets said.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-poultry"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

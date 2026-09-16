@@ -1,0 +1,440 @@
+{
+ "schema": 1,
+ "id": "free-to-use",
+ "type": "story",
+ "names": {
+  "name": "Free to use",
+  "aliases": [
+   "Sources and licences",
+   "What this project stands on"
+  ],
+  "sort": "free to use"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "resources"
+ },
+ "text": {
+  "what": "Every map, price, coordinate and recipe on this site comes from somewhere a reader can go and check. This page names each archive, dataset, directory and licence, says what it is good for, says what it will not tell you, and names the ones this project could not get into. Licences are quoted from the publisher's own terms. Dates are the dates I read them, which for all of these is 16 September 2026."
+ },
+ "sections": [
+  {
+   "h": "OpenStreetMap",
+   "text": "Licence: the Open Data Commons Open Database License, ODbL 1.0. The project's own terms require two things of a reuser — credit OpenStreetMap by displaying its attribution notice, and make clear that the data is available under the Open Database License — and add the share-alike condition: alter or build on the data and you may distribute the result only under the same licence.\n\nGood for: a bar's coordinates, its street address, sometimes its opening days, sometimes its cuisine tag. It is the source behind the pins on this site's maps.\n\nWill not tell you: whether a place is any good, whether it is still trading, or whether the hours are current. The data is edited by volunteers, a closed shop can sit on the map for years, and a shop that never got mapped is simply absent. An absence in OpenStreetMap is not evidence a place does not exist."
+  },
+  {
+   "h": "Natural Earth",
+   "text": "Licence: public domain. Used here for the Admin 1 states-and-provinces layer at 1:50 million, which is what draws the state outlines on the map.\n\nGood for: country and state shapes, coastlines, lakes, at a scale that renders fast and small.\n\nWill not tell you: anything at city scale. At 1:50m a county is a few pixels and a neighbourhood does not exist."
+  },
+  {
+   "h": "USDA FoodData Central",
+   "text": "Licence: a work of the United States government, public domain. It carries branded-food label panels — the ingredient list in label order, serving size, sodium, sugars — alongside standard-reference and survey food data.\n\nGood for: reading a bottled sauce the way its own label states it, which is how every sauce profile on this site records ingredient rank, sodium per tablespoon and sugar per tablespoon.\n\nWill not tell you: what is in a house sauce. A bar's recipe is not on a label, and most of the sauces that matter most on this site are made in a kitchen, not a bottling plant."
+  },
+  {
+   "h": "USDA Agricultural Marketing Service",
+   "text": "Licence: US government work, public domain. Two weekly reports do the work here. The Weekly National Chicken Report (AMS_3646) gives wholesale parts prices in cents per pound with ranges, weighted averages and volumes. The Weekly Grocery Store Chicken Feature Activity report (AMS_2756) gives advertised retail prices in dollars per pound with the number of sampled stores behind each one, gathered from store circulars, newspaper ads and retailer websites.\n\nGood for: a price with a date, a method and a sample size — the kind of number that can be quoted without hedging.\n\nWill not tell you: what a flat costs as against a drumette. The wholesale report prices Wings – Whole and stops; the retail report bundles Party Wings, Flats and Drums into one line. It is also a weekly snapshot, not a series: a run of years has to be assembled week by week."
+  },
+  {
+   "h": "The Code of Federal Regulations",
+   "text": "Licence: US government work, public domain, readable in full at the eCFR. 9 CFR 381.170(b) is the section that matters to wings: it defines Wings, Wing drummette and Wing portion, and it is quoted verbatim in two of this site's stories.\n\nGood for: settling what a word means on a package.\n\nWill not tell you: what a word means on a menu. The federal poultry standards govern labels. A restaurant's menu board is not a label, which is the gap that sent the boneless-wing argument to a tort court instead of a regulator."
+  },
+  {
+   "h": "Wikimedia Commons",
+   "text": "Licence: varies by file, but Commons accepts only free content — material anyone may use for any purpose, including commercially and in derivative works. Non-commercial-only and no-derivatives licences are refused, and the policy states plainly that Commons does not accept content under the condition of fair use.\n\nGood for: photographs with a licence attached to the file. Two public collections carry most of the American roadside material this site's art pages point at: John Margolies's roadside photographs at the Library of Congress and Carol M. Highsmith's, both public domain, and the Smithsonian American Art Museum's open-access releases under CC0.\n\nWill not tell you: whether you may use the picture for everything. A free licence covers copyright and nothing else — personality rights, trademarks and the rights in whatever the photograph depicts survive it. A photograph of a mural is two works, and the mural's copyright is not the photographer's to license."
+  },
+  {
+   "h": "Wikibooks Cookbook",
+   "text": "Licence: CC BY-SA 4.0. Reusable in full, with attribution, and only under the same licence.\n\nGood for: recipe text this site can print whole rather than reducing to an ingredient list. Public-domain American cookbooks printed before 1930 travel the same way.\n\nWill not tell you: how a particular shop does it. A community recipe is a method, not a provenance, and this site treats it as one."
+  },
+  {
+   "h": "National Chicken Council",
+   "text": "Licence: none — a trade association's website, free to read, not free to redistribute. It represents producers and processors accounting for about 95% of US chicken production, and it lobbies Congress and the federal agencies.\n\nGood for: the Chicken Wing Report each January, the Super Bowl consumption estimate that every newspaper reprints, and the Harris Poll dip and flavour questions it commissions, which are the only public numbers on ranch against blue cheese at the wing counter.\n\nWill not tell you: how the estimate was made. The releases publish the figure and not the method. They are also an industry's own numbers about its own product, which is not a reason to discard them and is a reason to say whose they are every time."
+  },
+  {
+   "h": "Visit Buffalo's Wing Trail",
+   "text": "Licence: none — a destination marketing organisation's webpage, free to read, not an open dataset. It names fourteen stops across Buffalo, Amherst, Getzville, Williamsville, East Aurora, Hamburg and Orchard Park, and sorts them by wing style.\n\nGood for: a named, dated list of which shops the city itself puts forward, which this site records as a recognition rather than a ranking.\n\nWill not tell you: who was left off, or why. A trail is a promotion. Inclusion measures attention paid, and nothing about the wings."
+  },
+  {
+   "h": "Southern Foodways Alliance oral histories",
+   "text": "Licence: rights held by the Southern Foodways Alliance, an institute of the Center for the Study of Southern Culture at the University of Mississippi. Interviews — audio and transcripts — are free to read and listen to online. Using the material in research, scholarship, artistic production or publication requires permission from SFA first.\n\nGood for: cooks and owners in their own recorded words, including the Nashville hot chicken kitchens this site's Tennessee records lean on. The interviews are dated and the interviewer is named, which is more provenance than most food writing carries.\n\nWill not tell you: anything you may quote at length without asking. Free to read is not free to reuse, and this site cites these interviews rather than reproducing them."
+  },
+  {
+   "h": "Court opinions",
+   "text": "Licence: a judicial opinion of a US court is a public record and carries no copyright. Berkheimer v. REKM, L.L.C., 2024-Ohio-2787, 177 Ohio St.3d 431, docket 2023-0293, decided 25 July 2024, is the one this site leans on.\n\nGood for: exact words, attributed to the judge who wrote them, in a document that will still be there next year.\n\nWill not tell you: anything, if you cannot fetch it. On 16 September 2026 the Supreme Court of Ohio's own PDF refused this project's connection, and the Justia, CourtListener and FindLaw copies returned 403 or a challenge page. The quotations on that story are therefore taken from reporting that printed them, and are labelled that way."
+  },
+  {
+   "h": "What this project could not get into",
+   "text": "Named plainly, because a gap that is not named looks like a decision.\n\nCalvin Trillin's An Attempt to Compile a Short History of the Buffalo Chicken Wing, The New Yorker, 25 August 1980. In copyright and behind the magazine's paywall. It is cited throughout as the source of Dominic Bellissimo's midnight telling, and quoted only at the length that reporting about it quotes.\n\nThe FSIS Food Standards and Labeling Policy Book, which carries the wyngz policy in the agency's own words. The USDA servers returned 403 to every request on 16 September 2026, so the policy is quoted from Consumer Reports quoting FSIS.\n\nUrner Barry's poultry price series, the one the trade actually uses to price a flat against a drumette. Subscription only.\n\nCircana and NielsenIQ retail scanner data, which would show ranch and blue cheese dollar sales side by side. Subscription only.\n\nRestaurant menus. The Buffalo shops' own prices sit behind ordering platforms that serve nothing to a plain request; Bar-Bill and Duff's both refused on 16 September 2026.\n\nMural photographs. Buffalo's murals are copyrighted by the artists who painted them, and at least one Buffalo muralist has invoiced businesses for commercial use of images of his wall. This site links to murals and does not reproduce them."
+  }
+ ],
+ "kin": [
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Built entirely out of the two USDA series described here, week and all.",
+   "rel": "story"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "as": "The story where a court record could not be fetched and reporting had to stand in for it.",
+   "rel": "story"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "What happens when the archives named here hold nothing: the argument runs on testimony.",
+   "rel": "story"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "as": "Runs on the one public poll there is, because the scanner data is sold by subscription.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-wing-trail",
+   "as": "A promoter's list of fourteen shops, recorded here as attention paid and not as a ranking.",
+   "rel": "org"
+  },
+  {
+   "to": "national-chicken-council",
+   "as": "Publishes the number every January and not the method behind it.",
+   "rel": "org"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Oral histories free to read, rights retained, permission required to reuse.",
+   "rel": "org"
+  },
+  {
+   "to": "buffalo-murals",
+   "as": "Why this site links to walls and does not reproduce them: the paint is somebody's copyright.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:web-osm-copyright",
+  "s:osm",
+  "s:naturalearth",
+  "s:usda-fdc",
+  "s:web-ams-weekly-chicken",
+  "s:web-ams-retail-chicken",
+  "s:web-ecfr-381-170",
+  "s:web-commons-licensing",
+  "s:web-commons-search",
+  "s:wikibooks-cookbook",
+  "s:nccouncil-wing-report",
+  "s:web-ncc-superbowl-lx",
+  "s:web-visit-buffalo-wing-trail",
+  "s:web-sfa-oral-history",
+  "s:web-courtlistener-berkheimer",
+  "s:trillin-1980",
+  "s:web-consumer-reports-wyngz",
+  "s:web-spectrum-mural-copyright",
+  "s:wp-national-chicken-council"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-osm-copyright"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "cited",
+    "source": "s:web-osm-copyright",
+    "note": "licence terms paraphrased from the OpenStreetMap copyright page; the caution about absences is this project's"
+   },
+   "sections[3].text": {
+    "tier": "harvested",
+    "source": "s:web-ams-weekly-chicken",
+    "fetched_at": "2026-09-16"
+   },
+   "sections[5].text": {
+    "tier": "cited",
+    "source": "s:web-commons-licensing",
+    "note": "collection attributions read off each file's own extmetadata through the Commons API"
+   },
+   "sections[7].text": {
+    "tier": "cited",
+    "source": "s:wp-national-chicken-council"
+   },
+   "sections[8].text": {
+    "tier": "cited",
+    "source": "s:web-visit-buffalo-wing-trail"
+   },
+   "sections[9].text": {
+    "tier": "cited",
+    "source": "s:web-sfa-oral-history"
+   },
+   "sections[10].text": {
+    "tier": "cited",
+    "source": "s:web-courtlistener-berkheimer",
+    "note": "the fetch failures are this project's own record of 16 September 2026"
+   },
+   "sections[11].text": {
+    "tier": "inference",
+    "note": "a log of what this project asked for and did not get on 16 September 2026; not a claim that any of it is unobtainable by other means"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "Every map, price, coordinate and recipe on this site comes from somewhere a reader can go and check.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Built entirely out of the two USDA series described here, week and all.",
+   "rel": "story"
+  },
+  {
+   "to": "boneless-is-not-a-wing",
+   "type": "story",
+   "name": "Boneless is not a wing",
+   "as": "The story where a court record could not be fetched and reporting had to stand in for it.",
+   "rel": "story"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "What happens when the archives named here hold nothing: the argument runs on testimony.",
+   "rel": "story"
+  },
+  {
+   "to": "ranch-vs-blue-cheese",
+   "type": "story",
+   "name": "Ranch against blue cheese",
+   "as": "Runs on the one public poll there is, because the scanner data is sold by subscription.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-wing-trail",
+   "type": "org",
+   "name": "Buffalo Wing Trail",
+   "as": "A promoter's list of fourteen shops, recorded here as attention paid and not as a ranking.",
+   "rel": "org"
+  },
+  {
+   "to": "national-chicken-council",
+   "type": "org",
+   "name": "National Chicken Council",
+   "as": "Publishes the number every January and not the method behind it.",
+   "rel": "org"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "type": "org",
+   "name": "Southern Foodways Alliance",
+   "as": "Oral histories free to read, rights retained, permission required to reuse.",
+   "rel": "org"
+  },
+  {
+   "to": "buffalo-murals",
+   "type": "art",
+   "name": "Buffalo murals",
+   "as": "Why this site links to walls and does not reproduce them: the paint is somebody's copyright.",
+   "rel": "art"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-osm-copyright",
+   "kind": "web",
+   "title": "Copyright and Licence",
+   "publisher": "OpenStreetMap Foundation",
+   "url": "https://www.openstreetmap.org/copyright",
+   "accessed": "2026-09-16",
+   "note": "ODbL 1.0; attribution and share-alike"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "note": "ODbL 1.0, share-alike"
+  },
+  {
+   "id": "s:naturalearth",
+   "kind": "dataset",
+   "title": "Natural Earth, Admin 1 – States, Provinces, 1:50m",
+   "publisher": "Natural Earth",
+   "url": "https://www.naturalearthdata.com/",
+   "note": "public domain"
+  },
+  {
+   "id": "s:usda-fdc",
+   "kind": "dataset",
+   "title": "FoodData Central",
+   "publisher": "US Department of Agriculture, Agricultural Research Service",
+   "url": "https://fdc.nal.usda.gov/",
+   "note": "branded-food label panels; public domain"
+  },
+  {
+   "id": "s:web-ams-weekly-chicken",
+   "kind": "dataset",
+   "title": "Weekly National Chicken Report (AMS_3646), report for 9/7/2026 to 9/11/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_3646.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; wholesale cents per pound, FOB"
+  },
+  {
+   "id": "s:web-ams-retail-chicken",
+   "kind": "dataset",
+   "title": "Weekly Grocery Store Chicken Feature Activity (AMS_2756), Fri Sep 11 2026, ads ending 9/5/2026 to 9/17/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_2756.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; advertised retail prices, dollars per pound"
+  },
+  {
+   "id": "s:web-ecfr-381-170",
+   "kind": "dataset",
+   "title": "9 CFR 381.170 — Standards for kinds and classes, and for cuts of raw poultry",
+   "publisher": "Electronic Code of Federal Regulations, US Government Publishing Office",
+   "url": "https://www.ecfr.gov/current/title-9/section-381.170",
+   "accessed": "2026-09-16",
+   "note": "US Government work, public domain"
+  },
+  {
+   "id": "s:web-commons-licensing",
+   "kind": "web",
+   "title": "Commons:Licensing",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-commons-search",
+   "kind": "web",
+   "title": "Wikimedia Commons file search (MediaWiki API, action=query&list=search, namespace 6)",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/w/api.php",
+   "accessed": "2026-09-16",
+   "note": "used to find candidate file titles and to read each file's licence, author and date from extmetadata"
+  },
+  {
+   "id": "s:wikibooks-cookbook",
+   "kind": "web",
+   "title": "Wikibooks Cookbook",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook",
+   "note": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:nccouncil-wing-report",
+   "kind": "org",
+   "title": "Chicken Wing Report",
+   "author": "National Chicken Council",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/"
+  },
+  {
+   "id": "s:web-ncc-superbowl-lx",
+   "kind": "web",
+   "title": "Americans to Eat 1.48 Billion Chicken Wings for Super Bowl LX",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/americans-to-eat-1-48-billion-chicken-wings-for-super-bowl-lx/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-visit-buffalo-wing-trail",
+   "kind": "web",
+   "title": "Buffalo Wing Trail",
+   "publisher": "Visit Buffalo Niagara",
+   "url": "https://visitbuffalo.com/buffalo-wing-trail/",
+   "accessed": "2026-09-16",
+   "note": "the trail's own page; fourteen stops listed on the day it was read"
+  },
+  {
+   "id": "s:web-sfa-oral-history",
+   "kind": "oral-history",
+   "title": "Oral History",
+   "publisher": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/oral-history/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-courtlistener-berkheimer",
+   "kind": "web",
+   "title": "Berkheimer v. REKM, L.L.C. — case record (docket 2023-0293, 2024-Ohio-2787, 177 Ohio St.3d 431, filed 2024-07-25)",
+   "publisher": "CourtListener, Free Law Project",
+   "url": "https://www.courtlistener.com/opinion/10680649/berkheimer-v-rekm-llc/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  },
+  {
+   "id": "s:web-consumer-reports-wyngz",
+   "kind": "web",
+   "title": "Stephen Colbert's right: wyngz rhetoric",
+   "publisher": "Consumer Reports",
+   "url": "https://www.consumerreports.org/cro/news/2011/02/stephen-colbert-s-right-wyngz-rhetoric/index.htm",
+   "accessed": "2026-09-16",
+   "note": "published 3 February 2011; quotes the FSIS policy on the spelling"
+  },
+  {
+   "id": "s:web-spectrum-mural-copyright",
+   "kind": "web",
+   "title": "Buffalo mural artist sends invoices for copyright infringement",
+   "author": "Brianne Roesser",
+   "publisher": "Spectrum News 1 Buffalo",
+   "url": "https://spectrumlocalnews.com/nys/buffalo/news/2023/04/12/mural-artist-sends-invoices-for-copyright-infringement",
+   "accessed": "2026-09-16",
+   "note": "published 12 April 2023"
+  },
+  {
+   "id": "s:wp-national-chicken-council",
+   "kind": "wikipedia",
+   "title": "National Chicken Council",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Chicken_Council",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-osm-copyright"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "buffalo-murals",
+   "type": "art",
+   "name": "Buffalo murals",
+   "as": "Why this site points at walls and does not print them: the paint is somebody's copyright.",
+   "rel": "story"
+  },
+  {
+   "from": "hot-sauce-labels",
+   "type": "art",
+   "name": "Hot sauce labels",
+   "as": "Why the back panel matters here: label data is public, label artwork is not.",
+   "rel": "story"
+  }
+ ]
+}

@@ -1,0 +1,414 @@
+{
+ "id": "nashville-hot-oil",
+ "names": {
+  "name": "Nashville hot paste",
+  "aliases": [
+   "hot oil",
+   "the paste",
+   "cayenne paste"
+  ],
+  "said": "Ordered by rung: mild, medium, hot, extra hot, and a top rung each shop names for itself."
+ },
+ "region": [
+  "nashville",
+  "us"
+ ],
+ "facets": {
+  "base": "other",
+  "heat": "very hot"
+ },
+ "text": {
+  "what": "A cayenne paste, spooned onto fried chicken the moment it leaves the fryer. Fat carries it — lard or a ladle of the frying oil itself — which is why it soaks in rather than sitting on top, and why the bird turns deep red. Some shops add sugar, garlic or extra hot sauce. Some apply it before breading instead of after. Recipes are kept close.",
+  "story": "Spicy fried chicken has been served in Nashville's African-American communities for generations; anecdotal evidence puts the dish as early as the 1930s, though the current style of spice paste may only run back to the mid-1970s.\n\nThe origin generally accepted belongs to the family of André Prince Jeffries, who has run Prince's Hot Chicken Shack since 1980. Before that it belonged to her great-uncle, Thornton Prince III. Jeffries says the development was an accident: Thornton was a womaniser, and after a late Saturday night his girlfriend cooked him a fried chicken breakfast with extra pepper as revenge. He liked it. By the mid-1930s he and his brothers had their own recipe and had opened the BBQ Chicken Shack café.\n\nBy 2015 an estimated two dozen restaurants in the Nashville area served hot chicken. Bill Purcell, mayor of Nashville, sponsored the Music City Hot Chicken Festival and called his table at Prince's his \"second office\". KFC began selling Nashville Hot Chicken across its US restaurants in January 2016 after a Pittsburgh-area trial it called the most successful product testing in its recent history, and ran it in the UK from 22 May to 18 June 2017. Buffalo Wild Wings offers Nashville hot-style wings.\n\n*Inference —* the paste is the only sauce in this set that is applied with a spoon and a gloved hand rather than poured or shaken, and that is what keeps it off supermarket shelves in its own form.",
+  "how": "Fry the wings. While they drain, whisk cayenne and the shop's other powders into hot fat — lard, or oil dipped straight out of the fryer. Spoon it over with a gloved hand and squeeze it lightly into the crust. White bread underneath catches what runs off; pickle chips go on top. Sauce and bird are never separated, so there is no dip and no bowl.",
+  "today": "Sold across Nashville and, since 2016, by chains that bottle or powder an approximation. Frank's RedHot sells a Nashville Hot Wings Sauce whose label reads 340 mg sodium and 2 g sugar in a tablespoon as of 16 September 2026 — vinegar-led, with canola oil fourth, which is a bottle's answer to a paste. The shacks' own pastes have no label, no sodium figure and no Scoville number, and are held as secrets."
+ },
+ "kin": [
+  {
+   "to": "nashville-hot",
+   "as": "The style is this paste and the bread under it.",
+   "rel": "style"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "Where the accepted origin sits, and where the paste goes on with a spoon.",
+   "rel": "place"
+  },
+  {
+   "to": "thornton-prince",
+   "as": "The pepper-for-revenge breakfast that the shop's own account starts from.",
+   "rel": "person"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "as": "Has run the shop since 1980 and tells the origin.",
+   "rel": "person"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "The plate it lands on; the bread takes the run-off and gets eaten last.",
+   "rel": "dish"
+  },
+  {
+   "to": "frying-oil",
+   "as": "The fat in the paste often comes straight out of the fryer.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "The other cayenne answer to a wing; butter and a bowl instead of fat and a spoon.",
+   "rel": "contrast"
+  },
+  {
+   "to": "franks-redhot",
+   "as": "Sells a bottled Nashville Hot wings sauce under the same brand that anchors Buffalo.",
+   "rel": "kin"
+  },
+  {
+   "to": "hattie-bs",
+   "as": "Runs the heat ladder as a menu, mild through the top rung.",
+   "rel": "place"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "buffalo-sauce",
+   "tell": "What carries the cayenne. Buffalo sauce carries it in butter and vinegar; this carries it in frying fat and goes on with a spoon."
+  }
+ ],
+ "profile": {
+  "kind": "house",
+  "base": "other",
+  "maker": null,
+  "town": "Nashville",
+  "state": "TN",
+  "ingredients": [
+   "cayenne pepper",
+   "lard or frying oil",
+   "sugar, garlic or additional hot sauce in some shops"
+  ],
+  "pepper_rank": null,
+  "vinegar_rank": null,
+  "fat_rank": null,
+  "tomato_rank": null,
+  "sugar_rank": null,
+  "mustard_rank": null,
+  "soy_rank": null,
+  "serving_tbsp": null,
+  "sodium_mg_per_tbsp": null,
+  "sugar_g_per_tbsp": null,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:wp-hot-chicken",
+  "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+  "accessed": "2026-09-16",
+  "note": "kind is 'house'. Recipes, cooking methods and preparation steps are described as closely guarded secrets proprietary to each restaurant, so there is no label and nothing to weigh. The ingredient line is what the cited description names, in no label order — the ranks are null rather than guessed. For a bottled approximation with a real panel, see Frank's RedHot Nashville Hot Wings Sauce, FDC 2621729: distilled vinegar, aged cayenne red peppers, sugar, canola oil, water, molasses, salt, spices; 1 tbsp serving, 340 mg sodium, 2 g sugar. That is a different object and is not recorded as this one."
+ },
+ "sources": [
+  "s:wp-hot-chicken",
+  "s:wp-prince-s-hot-chicken-shack",
+  "s:wp-hattie-b-s-hot-chicken",
+  "s:fdc-franks-redhot-nashville-hot",
+  "s:wp-cayenne-pepper"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hot-chicken"
+  },
+  "fields": {
+   "profile": {
+    "tier": "cited",
+    "source": "s:wp-hot-chicken",
+    "note": "no label exists; every number stays null"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the gloved spoon and the bread are the cited service; the fryer-oil detail is general shop practice"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-franks-redhot-nashville-hot",
+    "note": "the bottled figures are the USDA label; the absence of a label on shop pastes is stated as an absence"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "recipes": [
+  {
+   "title": "Nashville hot chicken spice paste, as described",
+   "source": "s:wp-hot-chicken",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "region": "Nashville",
+   "ingredients": [
+    "cayenne pepper",
+    "sugar (some restaurants)",
+    "garlic (some restaurants)",
+    "additional hot sauce (some restaurants)"
+   ],
+   "note": "Ingredients only, and barely that. The source says recipes, cooking methods and preparation steps are often closely guarded secrets proprietary to the specific restaurant; cayenne is the one ingredient it names for a typical paste. The fat that carries it is not specified there, so it is left off this list."
+  },
+  {
+   "title": "Frank's RedHot Nashville Hot Wings Sauce, as labelled",
+   "source": "s:fdc-franks-redhot-nashville-hot",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/2621729/nutrients",
+   "region": "United States",
+   "ingredients": [
+    "distilled vinegar",
+    "aged cayenne red peppers",
+    "sugar",
+    "canola oil",
+    "water",
+    "molasses",
+    "salt",
+    "spices (including black pepper, paprika)",
+    "garlic powder",
+    "onion powder",
+    "modified corn starch",
+    "xanthan gum (thickener)",
+    "natural flavor"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. A bottle's answer to a paste: vinegar first, oil fourth, and nothing in it that goes on with a gloved hand."
+  }
+ ],
+ "blurb": "A cayenne paste, spooned onto fried chicken the moment it leaves the fryer.",
+ "region_terms": [
+  {
+   "key": "nashville",
+   "name": "Nashville",
+   "state": "TN",
+   "note": "hot chicken, and the wings cooked the same way"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "The style is this paste and the bread under it.",
+   "rel": "style"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "Where the accepted origin sits, and where the paste goes on with a spoon.",
+   "rel": "place"
+  },
+  {
+   "to": "thornton-prince",
+   "type": "person",
+   "name": "Thornton Prince",
+   "as": "The pepper-for-revenge breakfast that the shop's own account starts from.",
+   "rel": "person"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "type": "person",
+   "name": "André Prince Jeffries",
+   "as": "Has run the shop since 1980 and tells the origin.",
+   "rel": "person"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "The plate it lands on; the bread takes the run-off and gets eaten last.",
+   "rel": "dish"
+  },
+  {
+   "to": "frying-oil",
+   "type": "fry",
+   "name": "frying oil",
+   "as": "The fat in the paste often comes straight out of the fryer.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "The other cayenne answer to a wing; butter and a bowl instead of fat and a spoon.",
+   "rel": "contrast"
+  },
+  {
+   "to": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Sells a bottled Nashville Hot wings sauce under the same brand that anchors Buffalo.",
+   "rel": "kin"
+  },
+  {
+   "to": "hattie-bs",
+   "type": "place",
+   "name": "Hattie B's Hot Chicken",
+   "as": "Runs the heat ladder as a menu, mild through the top rung.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hot chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-prince-s-hot-chicken-shack",
+   "kind": "wikipedia",
+   "title": "Prince's Hot Chicken Shack",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prince%27s_Hot_Chicken_Shack",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hattie-b-s-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hattie B's Hot Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hattie_B%27s_Hot_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-franks-redhot-nashville-hot",
+   "kind": "dataset",
+   "title": "Frank's RedHot Nashville Hot Wings Sauce — branded food label (FDC ID 2621729)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2621729/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-cayenne-pepper",
+   "kind": "wikipedia",
+   "title": "Cayenne pepper",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cayenne_pepper",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-hot-chicken"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-hot-chicken"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the gloved spoon and the bread are the cited service; the fryer-oil detail is general shop practice"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:fdc-franks-redhot-nashville-hot",
+   "note": "the bottled figures are the USDA label; the absence of a label on shop pastes is stated as an absence"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "The cayenne paste loosened with frying fat — the single step that makes a fried wing a Nashville one.",
+   "rel": "sauce"
+  },
+  {
+   "from": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "A slug of Louisiana pepper sauce is one of the things a hot-chicken paste gets built on.",
+   "rel": "kin"
+  },
+  {
+   "from": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Some Nashville pastes take a slug of it; McCormick also sells a bottled Nashville Hot wings sauce under this brand.",
+   "rel": "kin"
+  },
+  {
+   "from": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "Often the sweet finish over a cayenne paste, and the reason a Nashville wing can read sweet.",
+   "rel": "kin"
+  },
+  {
+   "from": "jerk-marinade",
+   "type": "sauce",
+   "name": "Jerk marinade",
+   "as": "The other wing heat built on a single named chile, and the other one applied by hand.",
+   "rel": "kin"
+  },
+  {
+   "from": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "The cayenne paste the bread is there to catch.",
+   "rel": "sauce"
+  },
+  {
+   "from": "boltons-spicy-chicken-and-fish",
+   "type": "place",
+   "name": "Bolton's Spicy Chicken & Fish",
+   "as": "Made here from a recipe handed down inside one family since the 1980s.",
+   "rel": "sauce"
+  },
+  {
+   "from": "hattie-bs",
+   "type": "place",
+   "name": "Hattie B's Hot Chicken",
+   "as": "Built here in six graded strengths, the hottest with ghost pepper.",
+   "rel": "sauce"
+  },
+  {
+   "from": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "The cayenne paste that goes on after the fry, by spoon and glove, and is a closely held recipe.",
+   "rel": "sauce"
+  },
+  {
+   "from": "andre-prince-jeffries",
+   "type": "person",
+   "name": "André Prince Jeffries",
+   "as": "The paste that goes on after the fryer, spooned and pressed by hand.",
+   "rel": "sauce"
+  },
+  {
+   "from": "thornton-prince",
+   "type": "person",
+   "name": "Thornton Prince",
+   "as": "The cayenne paste his kitchen is said to have worked out, applied after the fry.",
+   "rel": "sauce"
+  },
+  {
+   "from": "atomic",
+   "type": "term",
+   "name": "atomic",
+   "as": "Heat built into the cooking fat rather than bolted on as a top rung.",
+   "rel": "contrast"
+  }
+ ]
+}

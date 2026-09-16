@@ -1,0 +1,80 @@
+{
+ "built": "2026-09-16",
+ "scope": "The chicken wing as cooked, sauced, sold, eaten and argued over across the United States: the Buffalo original and every regional variation that followed it.",
+ "records": {
+  "style": 13,
+  "sauce": 22,
+  "dish": 18,
+  "fry": 15,
+  "place": 33,
+  "person": 18,
+  "org": 5,
+  "event": 4,
+  "term": 18,
+  "art": 6,
+  "story": 6
+ },
+ "how_records_are_made": "Hand-written JSON, one per node, each field carrying a provenance tier (cited / harvested / tradition / inference / field). Cited fields name a source in sources.json. Tradition fields are general knowledge of the tradition and are hedged in the text.",
+ "places": {
+  "curated": 33,
+  "harvested_from_osm": 0,
+  "osm_fetched_at": null,
+  "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
+  "osm_query": null
+ },
+ "hours": {
+  "places_with_any_day_known": 17,
+  "open_sunday": 13,
+  "closed_sunday": 4,
+  "sunday_unknown": 16,
+  "reading_an_absence": "A day is 'unknown' unless a source said so. Unknown is never rendered as closed."
+ },
+ "images": {
+  "count": 68,
+  "licences_accepted": [
+   "CC0",
+   "Public domain",
+   "CC BY",
+   "CC BY-SA",
+   "FAL"
+  ]
+ },
+ "tags": {
+  "black-owned": 5,
+  "woman-owned": 2,
+  "lgbtq-friendly": 0,
+  "family-run": 13,
+  "naked": 1,
+  "breaded": 4,
+  "smoked": 3,
+  "house-sauce": 23,
+  "choose-your-piece": 0,
+  "bone-in-only": 3,
+  "wing-night": 1,
+  "late-night": 9,
+  "halal": 1,
+  "cash-only": 2,
+  "sold-out-closes": 0,
+  "takeout-window": 6,
+  "bar": 12,
+  "closed": 0
+ },
+ "tags_note": "Each tag carries the source it came from — the owner's words, a press profile, a public directory or a list. A place with no tag is one this project has not read.",
+ "recognitions": 47,
+ "recipes": 28,
+ "sources": 292,
+ "not_yet": [
+  "field observations (no record carries the field tier yet)",
+  "menu prices with dates on most places",
+  "most cities beyond the ones written up",
+  "photographs for most records",
+  "Scoville numbers nobody publishes"
+ ],
+ "tiers": {
+  "cited": "Cited — a named source, linked",
+  "harvested": "Harvested — fetched from an open dataset, with its licence",
+  "tradition": "Tradition — general knowledge of the tradition, hedged",
+  "inference": "Inference — this project's own reasoning from the above",
+  "field": "Field — someone stood there"
+ }
+}

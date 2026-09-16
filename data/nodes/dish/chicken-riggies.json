@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "chicken-riggies",
+ "names": {
+  "name": "chicken riggies",
+  "aliases": [
+   "Utica riggies",
+   "riggies"
+  ],
+  "said": "Riggies is rigatoni. Ask for hot and you get cherry peppers; ask for sweet and you get the other kind."
+ },
+ "region": [
+  "upstate-ny"
+ ],
+ "facets": {
+  "course": "main"
+ },
+ "text": {
+  "what": "An Italian-American pasta dish from the Utica–Rome area of New York: chicken, rigatoni, and hot or sweet peppers in a spicy cream-and-tomato sauce. Variations are many; the peppers and the rigatoni are the constants.",
+  "story": "Its origin is unclear, and many chefs from the Utica area claim the dish.\n\n*Inference —* that sentence is the same sentence upstate New York keeps writing about its own food. A hundred miles west, three Bellissimo accounts and one John Young compete over a wing; here a dozen Utica kitchens compete over a pasta, and in neither case does a document settle it. What both traditions do instead is hold contests.",
+  "how": "Brown chicken, build a sauce of tomato and cream, and load it with peppers — cherry peppers for heat, sweet peppers for the other way. Toss through rigatoni, whose ridges and bore hold a sauce that thin-walled pasta would shed.",
+  "today": "Served across the Utica–Rome corridor as a restaurant staple and a home dish. *Tradition holds —* riggies, greens and half-moons are the three things a Utica table names as its own."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "The other upstate New York dish whose origin a dozen people claim; same state, same kind of argument.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Runs the same shape here: many claimants, no document.",
+   "rel": "story"
+  },
+  {
+   "to": "pizza-logs",
+   "as": "The other Italian-American thing upstate New York fries and passes around.",
+   "rel": "kin"
+  },
+  {
+   "to": "garbage-plate",
+   "as": "Rochester's claim on a plate, sixty miles west of Utica's claim on a pasta.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "What a riggies table drinks, the same as a wing table.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-chicken-riggies",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chicken-riggies"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method is general practice; the ingredients are cited"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true
+}

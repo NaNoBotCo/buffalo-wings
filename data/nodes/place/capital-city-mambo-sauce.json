@@ -1,0 +1,146 @@
+{
+ "schema": 1,
+ "id": "capital-city-mambo-sauce",
+ "type": "place",
+ "names": {
+  "name": "Capital City Mambo Sauce",
+  "aliases": [
+   "Capital City",
+   "Capital City, LLC"
+  ],
+  "sort": "Capital City Mambo Sauce"
+ },
+ "region": [
+  "dc"
+ ],
+ "facets": {
+  "state": "MD",
+  "status": "open",
+  "founded": 2011
+ },
+ "text": {
+  "what": "A bottler, not a counter. Arsha and Charles Jones started Capital City in a home kitchen in 2011 to put D.C. mambo sauce in a jar, and the company now runs a headquarters and distribution building at Melford Town Center in Bowie, Maryland. The bottles reach Giant, Safeway, Wegmans and Target.",
+  "story": "Capital City, LLC was established in 2011. The company says it was created \"to give a taste of home to Washington, D.C. metropolitan natives\" — Arsha Jones, a Washington native, made the sauce in her kitchen, and the family turned it into a business. Its own about page calls it \"a minority, family-owned company\" based in Arnold, Maryland.\n\nIts history page puts the sauce's origin at Wings-n-Things, \"an African American-owned restaurant,\" whose first shop it places at 7th and Florida Avenue NW in the late 1960s, where mambo sauce was made as a condiment for fried chicken wings. That account is one side of a long argument. The Mumbo trademark belongs to a Chicago line: Argia B. Collins Sr. used it from at least 1950, his successor Select Brands registered it in 1999, and the Trademark Trial and Appeal Board found a D.C. company could not take the name from its Chicago founder.\n\nCharles Jones died in October 2019, aged 45 or 46 by different counts; Arsha Jones has run the company since. In 2017 the founders took Black Enterprise's Family Business award.\n\nOn 18 May 2021 the company signed for 8,280 square feet at 5021 Howerton Way in Melford Town Center, Bowie, moving its corporate headquarters and distribution out of a smaller Anne Arundel County warehouse. That address is why this bottler has a place record at all: it is a building a reader could drive to, not a shop they can eat in.",
+  "today": "Bottled mambo sauce sells through national grocery. The company's own about page still names Arnold, Maryland as its base, while the 2021 lease named Bowie; this record maps the Bowie building and flags the disagreement."
+ },
+ "geo": {
+  "lat": 38.9566003,
+  "lon": -76.7054417,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "5021 Howerton Way",
+  "city": "Bowie",
+  "county": "Prince George's",
+  "state": "MD",
+  "postcode": "20715"
+ },
+ "links": [
+  {
+   "label": "Capital City",
+   "url": "https://www.capitalcity.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:web-capital-city-about",
+   "tier": "cited",
+   "note": "the company's own words: \"a minority, family-owned company\"",
+   "url": "https://www.capitalcity.com/pages/about-us"
+  },
+  {
+   "tag": "woman-owned",
+   "source": "s:web-botwc-arsha-jones",
+   "tier": "cited",
+   "note": "Arsha Jones is named as founder and has run the company since her husband's death; the company's own about page names her as the person who made the sauce",
+   "url": "https://www.becauseofthemwecan.com/blogs/news/inside-capital-city-founder-arsha-jones-mission-safeguard-legacy-taste-mambo-sauce"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "Black Enterprise Family Business award to Arsha and Charles Jones",
+   "year": 2017,
+   "source": "s:web-blacknews-capital-city",
+   "url": "https://blacknews.com/news/arsha-charles-jones-owners-capital-city-mambo-sauce-win-black-enterprise-family-business-award/"
+  },
+  {
+   "by": "other",
+   "what": "Profiled by Because of Them We Can as the founder safeguarding a D.C. food tradition",
+   "year": null,
+   "source": "s:web-botwc-arsha-jones",
+   "url": "https://www.becauseofthemwecan.com/blogs/news/inside-capital-city-founder-arsha-jones-mission-safeguard-legacy-taste-mambo-sauce"
+  }
+ ],
+ "kin": [
+  {
+   "to": "mumbo-sauce",
+   "as": "Bottles it, and publishes the D.C. origin story that the Chicago trademark holder disputes.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dc-mumbo",
+   "as": "Took the style out of the carryout window and onto a supermarket shelf.",
+   "rel": "style"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "The Chicago sauce maker whose Mumbo trademark beat a D.C. claim to the name at the Trademark Trial and Appeal Board.",
+   "rel": "person"
+  },
+  {
+   "to": "yums-carry-out",
+   "as": "One of the D.C. carryouts this company's own history names as making its own version.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-young",
+   "as": "Sold wings under mumbo sauce in Buffalo in the early 1960s and pointed at a Washington restaurant for it, which is the chronology this company's account has to sit beside.",
+   "rel": "person"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "as": "A label that had to put a city on a jar before a supermarket would stock it.",
+   "rel": "art"
+  },
+  {
+   "to": "mumbo",
+   "as": "Spells it mambo, which is the other half of the word's own argument.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-mumbo-sauce",
+  "s:web-capital-city-history",
+  "s:web-capital-city-about",
+  "s:web-sjp-capital-city-melford",
+  "s:web-blacknews-capital-city",
+  "s:web-botwc-arsha-jones",
+  "s:web-washingtonian-charles-jones"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-capital-city-about"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim, 5021 Howerton Way, Bowie, Prince George's County"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mumbo-sauce",
+    "note": "the trademark chronology is from Wikipedia's mumbo sauce article; the company's own claims are attributed to the company"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

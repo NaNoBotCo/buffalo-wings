@@ -1,0 +1,614 @@
+{
+ "id": "buffalo-sauce",
+ "names": {
+  "name": "Buffalo sauce",
+  "aliases": [
+   "wing sauce",
+   "hot sauce and butter",
+   "medium"
+  ],
+  "said": "Nobody in a Buffalo kitchen calls it Buffalo sauce. It is the sauce, and you order it by heat: mild, medium, hot."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "base": "cayenne-butter",
+  "heat": "medium",
+  "styles": "buffalo"
+ },
+ "text": {
+  "what": "Cayenne pepper hot sauce cut with melted butter. Two things, warmed together and held warm, poured over fried wings in a metal bowl and shaken. More butter reads mild, less reads hot, and a kitchen moves between the three by changing that ratio rather than the pepper. Worcestershire sauce and garlic powder turn up in plenty of versions. Bottled ready-to-use wing sauce does the same job with oil and butter flavouring in place of butter, because butter separates on a shelf.",
+  "story": "Cayenne pepper sauce arrived in Buffalo in a bottle. Frank's RedHot came out of Cincinnati and a Louisiana pepper farm in 1920; Crystal came out of New Orleans in 1923. Neither was made for wings.\n\nThe sauce got its name in 1964, or later, depending on whose account you take. At the Anchor Bar, Teressa Bellissimo fried wings and tossed them in cayenne sauce; the Bellissimo family told three different versions of that night, and Dominic Bellissimo gave Calvin Trillin one of them in 1980. John Young was selling breaded whole wings in a tomato-based mumbo sauce in Buffalo from 1961, and said the Anchor Bar did not carry wings as a regular menu item until 1974.\n\n*Inference —* the butter is the part that travelled least well. A wing tossed at the counter gets butter; a wing that has to survive a shelf, a delivery bag or a factory gets oil and a butter flavouring. Frank's RedHot Buffalo Wings Sauce lists canola oil fifth and natural butter type flavour eighth, with no butter on the label.\n\nWikipedia's article on the wing notes that Frank's RedHot \"was probably not the hot sauce that was used in the original 1964 Anchor Bar recipe.\" Nobody has produced the bottle.",
+  "how": "Melt butter. Stir in cayenne pepper sauce off the heat and keep the mix warm, not hot, so it does not split. Fry the wings, drain them a moment, drop them in a bowl, pour the sauce over and shake — sauce after the fryer, never before, or the coating steams instead of sticking. Ratio sets the heat: roughly equal parts reads mild, more sauce than butter reads hot. Add Worcestershire sauce, garlic powder or a little vinegar if the house does.",
+  "today": "Sold bottled by every large sauce maker and by most bars as house-made. The bottled kind states its heat on the front; the house kind states it at the counter. Nobody publishes a Scoville figure — the capsaicin measure named for the chemist Wilbur Scoville — for a finished Buffalo sauce, because the butter ratio changes it batch to batch. As of 16 September 2026, the USDA label panel for Frank's RedHot Buffalo Wings Sauce reads 460 mg sodium and no sugar in a tablespoon."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "The whole of what makes a wing Buffalo, and the only sauce that style names.",
+   "rel": "style"
+  },
+  {
+   "to": "franks-redhot",
+   "as": "The cayenne bottle most recipes start from, and the one Buffalo bars buy by the gallon.",
+   "rel": "part"
+  },
+  {
+   "to": "crystal-hot-sauce",
+   "as": "The other cayenne bottle a kitchen may start from; thinner vinegar, darker pepper.",
+   "rel": "part"
+  },
+  {
+   "to": "the-toss",
+   "as": "Where this sauce meets the wing: a metal bowl, a pour, a shake.",
+   "rel": "fry"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "Sits beside it in a cup and is the whole point of the cup.",
+   "rel": "contrast"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Says a bowl of it was mixed here on 4 March 1964.",
+   "rel": "place"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "Tossed the wings in cayenne sauce the Anchor Bar version turns on.",
+   "rel": "person"
+  },
+  {
+   "to": "mumbo-sauce",
+   "as": "What John Young put on his Buffalo wings instead, three years earlier — tomato, not cayenne and butter.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked-fry",
+   "as": "Needs bare skin to cling to; breading soaks it up instead.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-word",
+   "as": "How this sauce lent a city's name to every spiced fried thing on a national menu.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "franks-redhot",
+   "tell": "Butter. Frank's RedHot is one ingredient; Buffalo sauce is that bottle plus melted butter."
+  },
+  {
+   "id": "mumbo-sauce",
+   "tell": "Colour and base. Buffalo sauce is orange and vinegar-forward; mumbo is red-brown and starts with ketchup."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "cayenne-butter",
+  "maker": "McCormick & Company, Inc.",
+  "town": "Springfield",
+  "state": "MO",
+  "ingredients": [
+   "distilled vinegar",
+   "aged cayenne red peppers",
+   "salt",
+   "water",
+   "canola oil",
+   "paprika",
+   "xanthan gum",
+   "natural butter type flavor",
+   "garlic powder"
+  ],
+  "pepper_rank": 2,
+  "vinegar_rank": 1,
+  "fat_rank": 5,
+  "tomato_rank": 0,
+  "sugar_rank": 0,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 1,
+  "sodium_mg_per_tbsp": 460,
+  "sugar_g_per_tbsp": 0,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-franks-redhot-buffalo-wings",
+  "url": "https://fdc.nal.usda.gov/food-details/2039340/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Measured off Frank's RedHot Buffalo Wings Sauce, the ready-to-use bottle, because the sauce a bar mixes at the fryer carries no label at all. Label serving is 1 tbsp (15 mL), so the per-tablespoon figures are the label's own. No butter appears on this label: canola oil at 5 and natural butter type flavor at 8 do that work. The bottle prints no heat word and no Scoville number; Frank's publishes 450 SHU for the Original cayenne sauce but nothing for this one. Springfield, Missouri is the stated production site for Frank's RedHot; McCormick's head office is in Hunt Valley, Maryland."
+ },
+ "recipes": [
+  {
+   "title": "Buffalo Wings",
+   "source": "s:wikibooks-buffalo-wings",
+   "license": "CC BY-SA 4.0",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Buffalo_Wings",
+   "author": "Wikibooks Cookbook contributors",
+   "region": "United States",
+   "ingredients": [
+    "48 chicken wingettes",
+    "Oil for deep frying",
+    "Poultry Shake, as needed",
+    "½ cup unsalted butter, melted",
+    "½ cup Smoky Chipotle Hot Sauce",
+    "¼ cup tomato paste",
+    "1 tbsp soy sauce",
+    "Chili leaves, optional"
+   ],
+   "text": "Sprinkle chicken with the Poultry Shake.\nHeat the oil to 350 °F (180°C). Add the chicken pieces to the hot oil, and fry for 11 minutes. Drain on a cooling rack.\nMeanwhile, combine remaining ingredients. Add wings and toss to coat and serve.\nGarnish with the chili leaves, if desired.",
+   "note": "Wikibooks Cookbook, CC BY-SA 4.0, copied in full with the source named. Note what it does not do: it reaches for chipotle and tomato paste rather than cayenne sauce, and adds soy sauce. A Buffalo bar would recognise the butter and little else."
+  },
+  {
+   "title": "Devilled Bones",
+   "source": "s:farmer-1910",
+   "license": "Public domain",
+   "year": 1910,
+   "author": "Fannie Merritt Farmer",
+   "book": "The Boston Cooking-School Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/65061",
+   "region": "Boston",
+   "ingredients": [
+    "2 tablespoons butter",
+    "1 tablespoon Chili Sauce",
+    "1 tablespoon Worcestershire Sauce",
+    "1 tablespoon Walnut Catsup",
+    "1 teaspoon made mustard",
+    "Few grains cayenne",
+    "Drumsticks, second joints, and wings of a cooked chicken",
+    "Salt",
+    "Pepper",
+    "Flour",
+    "Cup hot stock",
+    "Finely chopped parsley"
+   ],
+   "text": "Melt butter, and add Chili Sauce, Worcestershire Sauce, Walnut Catsup, mustard, and cayenne. Cut four small gashes in each piece of chicken. Sprinkle with salt and pepper, dredge with flour, and cook in the seasoned butter until well browned. Pour on stock, simmer five minutes, and sprinkle with chopped parsley.",
+   "note": "Copied verbatim, old spellings kept. Fifty-four years before the Anchor Bar's date, an American cookbook puts melted butter, cayenne and Worcestershire on the wings of a chicken. *Inference —* the combination was available; what Buffalo added was the fryer and the bowl."
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-frank-s-redhot",
+  "s:wp-crystal-hot-sauce",
+  "s:wp-anchor-bar",
+  "s:trillin-1980",
+  "s:fdc-franks-redhot-buffalo-wings",
+  "s:wikibooks-buffalo-wings",
+  "s:farmer-1910"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-franks-redhot-buffalo-wings",
+    "fetched_at": "2026-09-16"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method is general kitchen practice; the sauce ingredients are cited"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:fdc-franks-redhot-buffalo-wings",
+    "note": "the sodium figure is the USDA label; the Scoville gap is stated as a gap, not estimated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [
+  {
+   "file": "buffalo-sauce/buffalo-sauce-buffalo-wings.jpg",
+   "source": "commons",
+   "title": "File:Buffalo Wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Buffalo_Wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Kunokuno",
+   "credit": "Own work",
+   "alt": "Buffalo Wings",
+   "date": "2025-02-03",
+   "primary": true,
+   "sha256": "6817becf7417176e668d28921adae91110bf82d549dc2d0763107bc1b6a7f4a2"
+  },
+  {
+   "file": "buffalo-sauce/buffalo-sauce-chicken-wings-at-bar-loosister.jpg",
+   "source": "commons",
+   "title": "File:Chicken wings at Bar Loosister.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Chicken_wings_at_Bar_Loosister.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChicken_wings_at_Bar_Loosister.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "JIP",
+   "credit": "Own work",
+   "alt": "A plate of 10 chicken wings with \"Hot as Fuck\" sauce, served at restaurant Bar Loosister in Sörnäinen, Helsinki, Finland.",
+   "date": "2021-09-12",
+   "primary": false,
+   "sha256": "c2b999932d4cd8d47443ad1534f9e824abbf2a60e51633d3b03e5fb424ade8e3"
+  }
+ ],
+ "updated": "2026-09-16",
+ "blurb": "Cayenne pepper hot sauce cut with melted butter. Two things, warmed together and held warm, poured over fried wings in a metal bowl and shaken.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The whole of what makes a wing Buffalo, and the only sauce that style names.",
+   "rel": "style"
+  },
+  {
+   "to": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "The cayenne bottle most recipes start from, and the one Buffalo bars buy by the gallon.",
+   "rel": "part"
+  },
+  {
+   "to": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "The other cayenne bottle a kitchen may start from; thinner vinegar, darker pepper.",
+   "rel": "part"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Where this sauce meets the wing: a metal bowl, a pour, a shake.",
+   "rel": "fry"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "Sits beside it in a cup and is the whole point of the cup.",
+   "rel": "contrast"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Says a bowl of it was mixed here on 4 March 1964.",
+   "rel": "place"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "type": "person",
+   "name": "Teressa Bellissimo",
+   "as": "Tossed the wings in cayenne sauce the Anchor Bar version turns on.",
+   "rel": "person"
+  },
+  {
+   "to": "mumbo-sauce",
+   "type": "sauce",
+   "name": "Mumbo sauce",
+   "as": "What John Young put on his Buffalo wings instead, three years earlier — tomato, not cayenne and butter.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "Needs bare skin to cling to; breading soaks it up instead.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "How this sauce lent a city's name to every spiced fried thing on a national menu.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-frank-s-redhot",
+   "kind": "wikipedia",
+   "title": "Frank's RedHot",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Frank%27s_RedHot",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-crystal-hot-sauce",
+   "kind": "wikipedia",
+   "title": "Crystal Hot Sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crystal_Hot_Sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  },
+  {
+   "id": "s:fdc-franks-redhot-buffalo-wings",
+   "kind": "dataset",
+   "title": "Frank's RedHot Buffalo Wings Sauce — branded food label (FDC ID 2039340)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2039340/nutrients",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wikibooks-buffalo-wings",
+   "kind": "web",
+   "title": "Cookbook:Buffalo Wings",
+   "publisher": "Wikibooks",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Buffalo_Wings",
+   "accessed": "2026-09-16",
+   "note": "CC BY-SA 4.0"
+  },
+  {
+   "id": "s:farmer-1910",
+   "kind": "book",
+   "title": "The Boston Cooking-School Cook Book",
+   "author": "Fannie Merritt Farmer",
+   "publisher": "Little, Brown, and Company, Boston",
+   "year": 1910,
+   "url": "https://www.gutenberg.org/ebooks/65061",
+   "accessed": "2026-09-16",
+   "note": "revised edition, title page 1910; copyright 1896-1906. Public domain, read via Project Gutenberg ebook 65061"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the method is general kitchen practice; the sauce ingredients are cited"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:fdc-franks-redhot-buffalo-wings",
+   "note": "the sodium figure is the USDA label; the Scoville gap is stated as a gap, not estimated"
+  }
+ },
+ "primary_image": {
+  "file": "buffalo-sauce/buffalo-sauce-buffalo-wings.jpg",
+  "source": "commons",
+  "title": "File:Buffalo Wings.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Buffalo_Wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "author": "Kunokuno",
+  "credit": "Own work",
+  "alt": "Buffalo Wings",
+  "date": "2025-02-03",
+  "primary": true,
+  "sha256": "6817becf7417176e668d28921adae91110bf82d549dc2d0763107bc1b6a7f4a2"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Cayenne pepper sauce cut with melted butter, and the whole of what makes a wing Buffalo.",
+   "rel": "sauce"
+  },
+  {
+   "from": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "What it is there to cut; the fat in it takes the cayenne off the tongue.",
+   "rel": "contrast"
+  },
+  {
+   "from": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "One of the two cayenne bottles it gets built from.",
+   "rel": "whole"
+  },
+  {
+   "from": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Half of it, by volume, before the butter goes in.",
+   "rel": "whole"
+  },
+  {
+   "from": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "The other butter-based wing coating, and the one with cayenne in it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "Cut with it at bars selling a hot-honey Buffalo wing: pepper first, honey last.",
+   "rel": "kin"
+  },
+  {
+   "from": "lemon-pepper-wet",
+   "type": "sauce",
+   "name": "Lemon pepper wet",
+   "as": "One of the things the wet can be, at shops that build it on butter and cayenne.",
+   "rel": "part"
+  },
+  {
+   "from": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "The sauce the board was built around, and the one this sits several rungs above on heat.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mumbo-sauce",
+   "type": "sauce",
+   "name": "Mumbo sauce",
+   "as": "What Buffalo used instead, and what John Young's wings were not tossed in.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "The other cayenne answer to a wing; butter and a bowl instead of fat and a spoon.",
+   "rel": "contrast"
+  },
+  {
+   "from": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "What it is there to cool, and what it is accused of cancelling out.",
+   "rel": "contrast"
+  },
+  {
+   "from": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "The American answer to the same question, and the one that shakes rather than paints.",
+   "rel": "contrast"
+  },
+  {
+   "from": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "The same sauce goes on, which is most of why the name travelled.",
+   "rel": "sauce"
+  },
+  {
+   "from": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The cayenne-and-butter sauce this is built from, off the bottle rather than out of a bowl.",
+   "rel": "sauce"
+  },
+  {
+   "from": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "Replaces the tomato entirely; that substitution is the whole dish.",
+   "rel": "sauce"
+  },
+  {
+   "from": "baking-powder-bake",
+   "type": "fry",
+   "name": "the baking powder bake",
+   "as": "Goes on after the oven, the same way it goes on after the fryer.",
+   "rel": "sauce"
+  },
+  {
+   "from": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "What goes into the bowl, and the ratio that sets the heat.",
+   "rel": "sauce"
+  },
+  {
+   "from": "duffs-famous-wings",
+   "type": "place",
+   "name": "Duff's Famous Wings",
+   "as": "Bottles and pours it at eight heats, mild through death.",
+   "rel": "sauce"
+  },
+  {
+   "from": "mammosers-tavern",
+   "type": "place",
+   "name": "Mammoser's Tavern & Restaurant",
+   "as": "Builds its version on four peppers, so the heat arrives late instead of at the front of the mouth.",
+   "rel": "sauce"
+  },
+  {
+   "from": "nine-eleven-tavern",
+   "type": "place",
+   "name": "Nine-Eleven Tavern",
+   "as": "Pours a version nobody outside the family has the recipe for.",
+   "rel": "sauce"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Sells it as Original Hot, and it was the chain's top Super Bowl flavour in 2012.",
+   "rel": "sauce"
+  },
+  {
+   "from": "bill-simmons-el-wingador",
+   "type": "person",
+   "name": "Bill \"El Wingador\" Simmons",
+   "as": "Put his nickname on a bottled wing sauce after Wing Bowl VII.",
+   "rel": "sauce"
+  },
+  {
+   "from": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "What the adjective actually names: cayenne hot sauce and melted butter.",
+   "rel": "sauce"
+  },
+  {
+   "from": "hot-sauce-labels",
+   "type": "art",
+   "name": "Hot sauce labels",
+   "as": "What most of these bottles end up inside, once butter is melted into them.",
+   "rel": "sauce"
+  },
+  {
+   "from": "ranch-vs-blue-cheese",
+   "type": "story",
+   "name": "Ranch against blue cheese",
+   "as": "What the dip is set against: cayenne, vinegar and butter, which is why the dip is dairy and fat.",
+   "rel": "sauce"
+  }
+ ]
+}

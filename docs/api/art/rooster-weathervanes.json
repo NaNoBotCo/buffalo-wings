@@ -1,0 +1,304 @@
+{
+ "schema": 1,
+ "id": "rooster-weathervanes",
+ "type": "art",
+ "names": {
+  "name": "Rooster weathervanes",
+  "aliases": [
+   "weathercock",
+   "cockerel vane"
+  ],
+  "sort": "rooster weathervanes"
+ },
+ "region": [
+  "us",
+  "new-england"
+ ],
+ "facets": {
+  "kind": "mascot"
+ },
+ "text": {
+  "what": "A rooster cut or moulded in sheet metal, balanced on a spindle, and put on a roof to show which way the wind blows. It is the oldest American use of a chicken as a public sign, it predates every wing counter by centuries, and the shape it settled into — flat body, raised comb, fanned tail, one leg forward — is the same silhouette a fried chicken sign draws today. American vanes were made in copper and zinc by nineteenth-century firms working from moulds, and museums now hold them as folk sculpture; the Smithsonian American Art Museum has released photographs of several under CC0."
+ },
+ "sections": [
+  {
+   "h": "What the object is",
+   "text": "A vane is a shape mounted off-centre on a vertical spindle so the wind turns the larger surface downwind and the smaller end points into it. The rooster's tail is the sail; the head is the pointer. Beneath it sit the fixed direction letters, N, S, E, W, on rods.\n\nIt is a working instrument before it is decoration, and the shape has to earn its aerodynamics: the tail has to be broad, the body flat, the whole thing light enough to turn in a light breeze and strong enough to survive a gale."
+  },
+  {
+   "h": "How the bird got up there",
+   "text": "*Tradition holds —* the cockerel came to European roofs through the church, where a weathercock on a steeple carried a religious reading, and the practice moved to civic and farm buildings and then across the Atlantic. The detail of that history is not something this project has sourced; what is documented is the American object that resulted.\n\n*Inference —* by the time the rooster reaches an American barn it is no longer making an argument about anything. It is a shape everybody recognises at a distance, which is the only quality a roof ornament needs."
+  },
+  {
+   "h": "American manufacture",
+   "text": "Nineteenth-century American vanes were commonly made of sheet copper hammered into carved wooden moulds in two halves and soldered together, sometimes gilded, sometimes zinc-headed for weight, and mounted on an iron rod. Some were carved in wood and cut in flat sheet iron by a local smith.\n\nThe Smithsonian American Art Museum holds rooster vanes of this kind — its nineteenth-century examples are catalogued to anonymous makers — and has released images under CC0 through the Smithsonian Open Access programme, which is why they can be shown here and most later signage cannot."
+  },
+  {
+   "h": "The silhouette, and where it went next",
+   "text": "*Inference —* compare a copper vane to a painted chicken on a fry counter's sign and the drawing is nearly the same: body in profile, comb and wattles exaggerated so they read at distance, tail fanned to fill the space, legs simplified to two strokes. The vane's constraints produced that shape — it had to be flat, balanced and legible from the ground — and the sign painter inherited it, because the sign has the same problem.\n\nThe difference is what the bird is claiming. On a barn it points at the weather. Over a fry counter it points at the menu."
+  },
+  {
+   "h": "Weather, and what a vane cannot do",
+   "text": "A vane gives direction and nothing else. It does not measure speed, it lags in gusts, and it reads the wind at roof height rather than at ground level, which on a built-up street is a different wind altogether.\n\n*Tradition holds —* farmers read them in combination with everything else they watched, and a vane's value was that it was visible from the field without going anywhere."
+  },
+  {
+   "h": "Collected, and copied",
+   "text": "*Tradition holds —* old American vanes moved from roofs into the folk art market over the twentieth century, which pulled them off buildings and into rooms, and produced a reproduction trade making new vanes with artificial weathering. A vane indoors is a sculpture; a vane outdoors is an instrument; the same object is being valued for two different things, and the price is set by the first."
+  }
+ ],
+ "kin": [
+  {
+   "to": "chicken-shack-signs",
+   "as": "Inherited the vane's silhouette, and its problem: a bird that has to read from far away.",
+   "rel": "art"
+  },
+  {
+   "to": "neon-chicken",
+   "as": "The same bird lit and hung at street level rather than balanced on a roof.",
+   "rel": "art"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "as": "The same trick at bottle scale — an animal or a devil standing in for what is inside.",
+   "rel": "art"
+  },
+  {
+   "to": "buffalo-murals",
+   "as": "The largest version of the bird-as-mark, and the one with a copyright attached.",
+   "rel": "art"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "as": "A chain whose sign carries a drawn bird of exactly this descent.",
+   "rel": "place"
+  },
+  {
+   "to": "wing",
+   "as": "The part of the bird the vane makes its tail out of, and the part the menu sells.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:web-commons-search",
+  "s:web-commons-licensing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "tradition",
+    "note": "the church-steeple history is general knowledge and is hedged rather than cited; this project did not source it"
+   },
+   "sections[2].text": {
+    "tier": "cited",
+    "source": "s:web-commons-search",
+    "note": "the Smithsonian American Art Museum files, their CC0 status, their nineteenth-century dating and their anonymous attribution read off each file's extmetadata through the Commons API on 16 September 2026; the construction methods are the tradition's general knowledge"
+   },
+   "sections[3].text": {
+    "tier": "inference"
+   },
+   "sections[5].text": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "rooster-weathervanes/rooster-weathervanes-rooster-weathervane-saam-1992-12-3-1.jpg",
+   "source": "commons",
+   "title": "File:Rooster Weathervane-saam-1992.12.3 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Rooster_Weathervane-saam-1992.12.3_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARooster_Weathervane-saam-1992.12.3_1.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "AnonymousUnknown author",
+   "credit": "This file is part of the Smithsonian Institution's Open Access collection.Their website states: \"We have released these images and data into the Public Domain as Creative Commons Zero (CC0), meaning y",
+   "alt": "Unidentified, Rooster Weathervane, late 19th-early 20th century, painted pine on a painted wood base, Smithsonian American Art Museum, Museum purchase from the folk art collection of David L. Davies, ",
+   "date": "late 19th-early 20th century",
+   "primary": true,
+   "sha256": "25bb48fca31ba3723332ded2da2c1c446b9c885add74917ebaad3796caec22b8"
+  },
+  {
+   "file": "rooster-weathervanes/rooster-weathervanes-rooster-weathervane-saam-1992-12-4-1.jpg",
+   "source": "commons",
+   "title": "File:Rooster Weathervane-saam-1992.12.4 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Rooster_Weathervane-saam-1992.12.4_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARooster_Weathervane-saam-1992.12.4_1.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "AnonymousUnknown author",
+   "credit": "This file is part of the Smithsonian Institution's Open Access collection.Their website states: \"We have released these images and data into the Public Domain as Creative Commons Zero (CC0), meaning y",
+   "alt": "Unidentified, Rooster Weathervane, late 19th-early 20th century, carved pine and sheet copper, Smithsonian American Art Museum, Museum purchase from the folk art collection of David L. Davies, 1992.12",
+   "date": "late 19th-early 20th century",
+   "primary": false,
+   "sha256": "282bdbf342c0c50bc594bf02564c9611249eaf6fa2e02db686601b491b7f0e8d"
+  },
+  {
+   "file": "rooster-weathervanes/rooster-weathervanes-rooster-weathervane-saam-1986-65-366-1.jpg",
+   "source": "commons",
+   "title": "File:Rooster Weathervane SAAM-1986.65.366 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Rooster_Weathervane_SAAM-1986.65.366_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARooster_Weathervane_SAAM-1986.65.366_1.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "AnonymousUnknown author",
+   "credit": "This file is part of the Smithsonian Institution's Open Access collection.Their website states: \"We have released these images and data into the Public Domain as Creative Commons Zero (CC0), meaning y",
+   "alt": "Unidentified (American), Rooster Weathervane, 19th century, sheet and wrought iron, Smithsonian American Art Museum, Gift of Herbert Waide Hemphill, Jr. and museum purchase made possible by Ralph Cros",
+   "date": "19th centurydate QS:P571,+1850-00-00T00:",
+   "primary": false,
+   "sha256": "67f15e24a4fa53ba69fa79f0aa91cc412012fc18cf98447cdea4ae75db4ecc0e"
+  },
+  {
+   "file": "rooster-weathervanes/rooster-weathervanes-rooster-weathervanes-saam-dsc00786.jpg",
+   "source": "commons",
+   "title": "File:Rooster weathervanes - SAAM - DSC00786.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Rooster_weathervanes_-_SAAM_-_DSC00786.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARooster_weathervanes_-_SAAM_-_DSC00786.JPG",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Daderot",
+   "credit": "Self-photographed",
+   "alt": "Rooster weathervanes, late 19th - early 20th century, artists unknown. Folk art in the Smithsonian American Art Museum (National Portrait Gallery), Washington, DC, USA.",
+   "date": "2011-04-07 15:28:04",
+   "primary": false,
+   "sha256": "1315057baee3acf165213c6152bdfa09631560f091f9174ea5f7a7a66a2bbcd4"
+  },
+  {
+   "file": "rooster-weathervanes/rooster-weathervanes-wla-amart-rooster-weathervane.jpg",
+   "source": "commons",
+   "title": "File:WLA amart Rooster Weathervane.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/WLA_amart_Rooster_Weathervane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWLA_amart_Rooster_Weathervane.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Wikipedia Loves Art participant \"red_herring\"",
+   "credit": "Uploaded from the Wikipedia Loves Art photo pool on Flickr",
+   "alt": "Rooster Weathervane19th centuryUnidentifiedsheet and wrought iron29 x 65 1/2 x 1 3/4 in. (73.6 x 166.4 x 4.5 cm.)Smithsonian American Art MuseumGift of Herbert Waide Hemphill, Jr. and museum purchase ",
+   "date": "Taken in February 2009",
+   "primary": false,
+   "sha256": "dbbbe7d0b58f283ffebd8fe47e01b2fdc435334f2962db6c753fafd70e2ecc99"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A rooster cut or moulded in sheet metal, balanced on a spindle, and put on a roof to show which way the wind blows.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  },
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "Boston, Providence, Hartford"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "Inherited the vane's silhouette, and its problem: a bird that has to read from far away.",
+   "rel": "art"
+  },
+  {
+   "to": "neon-chicken",
+   "type": "art",
+   "name": "Neon chicken",
+   "as": "The same bird lit and hung at street level rather than balanced on a roof.",
+   "rel": "art"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "type": "art",
+   "name": "Hot sauce labels",
+   "as": "The same trick at bottle scale — an animal or a devil standing in for what is inside.",
+   "rel": "art"
+  },
+  {
+   "to": "buffalo-murals",
+   "type": "art",
+   "name": "Buffalo murals",
+   "as": "The largest version of the bird-as-mark, and the one with a copyright attached.",
+   "rel": "art"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "type": "place",
+   "name": "Harold's Chicken Shack",
+   "as": "A chain whose sign carries a drawn bird of exactly this descent.",
+   "rel": "place"
+  },
+  {
+   "to": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "The part of the bird the vane makes its tail out of, and the part the menu sells.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-commons-search",
+   "kind": "web",
+   "title": "Wikimedia Commons file search (MediaWiki API, action=query&list=search, namespace 6)",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/w/api.php",
+   "accessed": "2026-09-16",
+   "note": "used to find candidate file titles and to read each file's licence, author and date from extmetadata"
+  },
+  {
+   "id": "s:web-commons-licensing",
+   "kind": "web",
+   "title": "Commons:Licensing",
+   "publisher": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": {
+  "file": "rooster-weathervanes/rooster-weathervanes-rooster-weathervane-saam-1992-12-3-1.jpg",
+  "source": "commons",
+  "title": "File:Rooster Weathervane-saam-1992.12.3 1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Rooster_Weathervane-saam-1992.12.3_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ARooster_Weathervane-saam-1992.12.3_1.jpg",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "AnonymousUnknown author",
+  "credit": "This file is part of the Smithsonian Institution's Open Access collection.Their website states: \"We have released these images and data into the Public Domain as Creative Commons Zero (CC0), meaning y",
+  "alt": "Unidentified, Rooster Weathervane, late 19th-early 20th century, painted pine on a painted wood base, Smithsonian American Art Museum, Museum purchase from the folk art collection of David L. Davies, ",
+  "date": "late 19th-early 20th century",
+  "primary": true,
+  "sha256": "25bb48fca31ba3723332ded2da2c1c446b9c885add74917ebaad3796caec22b8"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "The oldest form of the same idea: a bird put up as a mark for the place beneath it.",
+   "rel": "art"
+  },
+  {
+   "from": "neon-chicken",
+   "type": "art",
+   "name": "Neon chicken",
+   "as": "The same bird as a mark, three centuries earlier and driven by wind instead of current.",
+   "rel": "art"
+  }
+ ]
+}

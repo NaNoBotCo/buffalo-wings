@@ -1,0 +1,88 @@
+# Wing Country
+
+**flats, drums, dips, and who fried the first one** — a directory of the chicken wing in
+the United States, built the way [wichaa.net](https://wichaa.net) is built: one JSON
+record per node of the tradition, every field carrying where it came from, every page
+saying what its neighbours are to it.
+
+**Live: https://nanobotco.github.io/buffalo-wings/**
+
+158 records · 1,188 kin links · 33 places · 22 sauce labels read ·
+28 recipes · 68 pictures · 292 sources · 85 tags on places
+
+## What is in it
+
+| | |
+|---|---|
+| **Styles** | Buffalo, Rochester, Atlanta lemon pepper, Chicago mild sauce, D.C. mumbo, Baltimore Old Bay, Nashville hot, Memphis dry rub, Korean American, jerk, Alabama white, the smoked wing, garlic parmesan |
+| **Sauces and dips** | 22 records, each with its label read off the Nutrition Facts panel and its ingredients in the order the maker prints them |
+| **On the side** | 18 — celery, fries, pizza logs, beef on weck, the garbage plate, boneless wings |
+| **In the kitchen** | 15 — the cut, the dredge, the double fry, the toss, the oil |
+| **Places** | 33 written up, from the Anchor Bar to Prince's to Wingstop |
+| **People** | 18 — the Bellissimos, John Young, Thornton Prince, Drew Cerza, Calvin Trillin |
+| **Words** | 18 with their roots: drumette, flat, flapper, party wing, weck, mumbo, atomic |
+| **Stories** | who fried the first one · ranch against blue cheese · the flat and the drum · whether a boneless wing is a wing · what a wing costs · where all of this came from |
+
+## Pages that answer a question
+
+- **[/near/](https://nanobotco.github.io/buffalo-wings/near/)** — wings near you, sorted
+  by distance, with filter chips for naked, breaded, smoked, wing night, open today,
+  Black-owned, woman-owned and LGBTQ+ welcoming. Each tag carries the source it came from.
+- **[/sauce/](https://nanobotco.github.io/buffalo-wings/sauce/)** — every bottle read off
+  its own label: sodium and sugar per tablespoon, what comes first on the list, where the
+  makers are.
+- **[/wing/](https://nanobotco.github.io/buffalo-wings/wing/)** — drumette, flat, tip, and
+  which pieces each style serves.
+- **[/make/](https://nanobotco.github.io/buffalo-wings/make/)** — build a sauce, a rub or a
+  dip. Every proportion names its own source, and says plainly where the proportions are
+  this project's own.
+- **[/numbers/](https://nanobotco.github.io/buffalo-wings/numbers/)** — distance to the
+  nearest counter anywhere in the lower forty-eight, founding years, what the recipes call
+  for, days open.
+- **[/quiz/](https://nanobotco.github.io/buffalo-wings/quiz/)** — six questions, and a city
+  hands you a plate.
+
+## Provenance
+
+Every field carries a tier: **cited** (a named source, linked) · **harvested** (fetched
+from an open dataset, with its licence) · **tradition** (general knowledge, hedged in the
+prose) · **inference** (this project reasoning from the above) · **field** (somebody stood
+there). In a narrative, each stretch is marked inline: plain prose is cited,
+*Tradition holds —* hedges, *Inference —* reasons.
+
+Hours run on three states, never two: open, closed, and nobody published it. A day in
+neither list is unknown and drops out of the filters.
+
+## For machines
+
+[`/api/nodes.json`](https://nanobotco.github.io/buffalo-wings/api/nodes.json) ·
+[`/api/index.json`](https://nanobotco.github.io/buffalo-wings/api/index.json) ·
+[`/api/places.json`](https://nanobotco.github.io/buffalo-wings/api/places.json) ·
+[`/api/sauces.json`](https://nanobotco.github.io/buffalo-wings/api/sauces.json) ·
+[`/api/kin.json`](https://nanobotco.github.io/buffalo-wings/api/kin.json) ·
+[`/api/coverage.json`](https://nanobotco.github.io/buffalo-wings/api/coverage.json) ·
+[`llms.txt`](https://nanobotco.github.io/buffalo-wings/llms.txt) ·
+[`llms-full.txt`](https://nanobotco.github.io/buffalo-wings/llms-full.txt) ·
+[CSV](https://nanobotco.github.io/buffalo-wings/nodes.csv) ·
+[JSONL](https://nanobotco.github.io/buffalo-wings/nodes.jsonl)
+
+## Running it
+
+```bash
+python3 tools/validate.py     # every record must pass
+python3 tools/build.py        # records -> build/api + search tables
+python3 tools/cards.py        # the 1200x630 share cards
+python3 tools/site.py         # build/site
+python3 tools/serve.py        # http://127.0.0.1:8796
+python3 -m unittest discover -s tests
+./publish.sh                  # build into docs/, which GitHub Pages serves
+```
+
+Stdlib only, plus Pillow for the cards. `README.txt` is the working guide;
+`AUTHORING.txt` is the record spec.
+
+## Licence
+
+Records CC BY 4.0. Place points OpenStreetMap, ODbL 1.0 (share-alike). Pictures each
+carry their own licence in a sidecar. Pre-1930 recipes are public domain; Wikibooks
+recipes are CC BY-SA 4.0. Code MIT. See [LICENSE](LICENSE).

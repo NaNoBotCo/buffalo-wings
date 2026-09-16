@@ -1,0 +1,218 @@
+{
+ "id": "naked",
+ "names": {
+  "name": "naked",
+  "aliases": [
+   "naked wings",
+   "unbreaded"
+  ],
+  "said": "'Naked or breaded?' — a question you hear where breading is the default, and almost never in Buffalo."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "N",
+  "part_of_speech": "adjective"
+ },
+ "etymology": {
+  "root": "Old English nacod 'bare, unclothed' → Middle English naked; the menu sense is a metaphor, breading read as clothing",
+  "first_attested": "",
+  "note": "*Inference —* the word only exists because somewhere else is the default. A Buffalo bar has no use for it: its wings are unbreaded, so bare is the unmarked case and needs no name. Hooters, whose house style is hand-breaded, does need one, and prints it.",
+  "tier": "tradition"
+ },
+ "text": {
+  "what": "Unbreaded. A wing fried in nothing but its own skin, no flour, no batter, no dredge. Hooters, which breads by hand as its original style, lists the alternative as Naked Wings and describes them: \"Traditional style. No breading, but just as good. Order them with your favorite Hooters wing sauce or rub.\"",
+  "how": "Say it before the sauce: naked, hot, ranch. Naked skin crisps and then goes soft under sauce fast, so naked wings are tossed later and carried out quicker than breaded ones — which is the argument for eating them at the bar rather than in a box."
+ },
+ "kin": [
+  {
+   "to": "naked-fry",
+   "as": "The method the word names — dry skin into hot oil, nothing between.",
+   "rel": "fry"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "The thing it is defined against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hooters",
+   "as": "Prints the word on its menu because its own default is breaded.",
+   "rel": "place"
+  },
+  {
+   "to": "rochester-breaded",
+   "as": "Seventy miles from Buffalo and breading, which is what gives this word something to point at.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Unbreaded by default, so the word is not needed there.",
+   "rel": "style"
+  },
+  {
+   "to": "extra-crispy",
+   "as": "The other instruction a counter takes about texture.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:web-hooters-wings-menu",
+  "s:wp-buffalo-wing",
+  "s:wp-hooters"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-hooters-wings-menu"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "tradition",
+    "note": "the Old English chain is general etymology; the menu sense is described, not dated"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "Unbreaded. A wing fried in nothing but its own skin, no flour, no batter, no dredge. Hooters, which breads by hand as its original style, lists the alternative as Naked Wings and describes them: \"Traditional style.",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The method the word names — dry skin into hot oil, nothing between.",
+   "rel": "fry"
+  },
+  {
+   "to": "breaded-fry",
+   "type": "fry",
+   "name": "the breaded fry",
+   "as": "The thing it is defined against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Prints the word on its menu because its own default is breaded.",
+   "rel": "place"
+  },
+  {
+   "to": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Seventy miles from Buffalo and breading, which is what gives this word something to point at.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Unbreaded by default, so the word is not needed there.",
+   "rel": "style"
+  },
+  {
+   "to": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "The other instruction a counter takes about texture.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-hooters-wings-menu",
+   "kind": "web",
+   "title": "Wings",
+   "publisher": "Hooters",
+   "url": "https://www.hooters.com/menu/wings/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hooters",
+   "kind": "wikipedia",
+   "title": "Hooters",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hooters",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-hooters-wings-menu"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "tradition",
+   "note": "the Old English chain is general etymology; the menu sense is described, not dated"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "What the wing has to be for a rub to stay granular on it.",
+   "rel": "term"
+  },
+  {
+   "from": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The menu word for this, and what it does and does not promise.",
+   "rel": "term"
+  },
+  {
+   "from": "central-bbq",
+   "type": "place",
+   "name": "Central BBQ",
+   "as": "One of the six wing finishes, and here it means no sauce rather than no breading.",
+   "rel": "term"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Prints the word on its own menu, as the option that skips the breading.",
+   "rel": "term"
+  },
+  {
+   "from": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "The other instruction a counter takes about texture, this one about coating.",
+   "rel": "term"
+  }
+ ]
+}

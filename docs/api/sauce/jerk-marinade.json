@@ -1,0 +1,359 @@
+{
+ "id": "jerk-marinade",
+ "names": {
+  "name": "Jerk marinade",
+  "aliases": [
+   "jerk seasoning",
+   "jerk spice",
+   "Jamaican jerk spice"
+  ],
+  "said": "One word covers three things: the rub, the wet marinade made from it, and the way of cooking. A jerk stand sells all three at once."
+ },
+ "region": [
+  "caribbean-american",
+  "us"
+ ],
+ "facets": {
+  "base": "other",
+  "heat": "hot"
+ },
+ "text": {
+  "what": "A wet marinade, or a dry rub, built on allspice and Scotch bonnet peppers — both native to Jamaica and grown there by the Taíno. Scallion, thyme, garlic, ginger, cloves, cinnamon, nutmeg, brown sugar, soy sauce, vinegar and salt turn up in it. The heat is the Scotch bonnet's. The word 'jerk' names the rub, the marinade and mop sauce made from it, and the cooking technique, all three.",
+  "story": "Jerking came from Jamaica's indigenous people, the Arawak and Taíno, and was taken up by the descendants of 17th-century Jamaican Maroons who lived among them. In 1516 the Spanish historian Gonzalo Fernández de Oviedo y Valdés recorded how the Taíno prepared and preserved meat and fish on a barbacoa, seasoning with native hot peppers — Scotch bonnet and cayenne — and pimento. Meats were sometimes wrapped in papaya leaves to tenderise before jerking. Local game went on it: coney, iguana, wild hog, agouti, wild birds, waterfowl, turtle, and a range of seafood.\n\nSpanish colonists adopted Taíno methods to survive and introduced pig, cattle and chicken in the 1500s, curing them over a barbacoa with pimento wood and berries. When the Spanish were invaded in 1655 they freed the enslaved Africans, who fled into the countryside and became some of the first Jamaican Maroons; they intermingled with the remaining Taíno and learned jerking. By the end of the 18th century most groups had switched to imported pork, while the Maroons kept hunting wild hogs and jerking them.\n\nThe word comes from charqui, a Spanish term of Quechua origin for dried meat, which became 'jerky' in English.\n\nMethod followed portability. Around the 1960s Caribbean entrepreneurs began cutting oil barrels lengthwise, drilling ventilation holes and hinging lids to hold the smoke; the barrel drum is now standard across the island. Jerk stands sell the meat with hard dough bread, bammy, fried dumplings and festival.\n\nJerk travelled with the Caribbean diaspora — Britain, Canada, the United States, coastal Panama, Costa Rica, Honduras, Nicaragua, San Andrés. In September 2015 the Jamaican government registered Jamaica Jerk as a geographical indication, making Jamaica the first English-speaking Caribbean country to do so.",
+  "how": "Marinate, then cook over smoke. Blend the wet version and work it under the skin; leave the wings in it for hours. Cook over pimento wood, in a halved oil drum with the lid down, or in a wood-burning oven; a home kitchen uses a grill and finishes in the fryer. Reserve some marinade unheated as a mop sauce and brush it on at the end. The Scotch bonnet's heat sits behind the allspice, which is the flavour people name first.",
+  "today": "Sold bottled in every Caribbean grocery in the United States and in most supermarkets. As of 16 September 2026 the USDA label panel for Spur Tree Jamaican Jerk Seasoning reads 700 mg sodium and 1 g sugar in a 1-tablespoon serving, with scallion first and Scotch bonnet pepper second. No maker in this set publishes a Scoville number for it."
+ },
+ "kin": [
+  {
+   "to": "caribbean-jerk",
+   "as": "The style is this marinade and the drum it is cooked in.",
+   "rel": "style"
+  },
+  {
+   "to": "peppas-jerk-chicken",
+   "as": "A New York jerk counter where the wings come off the drum.",
+   "rel": "place"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "The method it belongs to: smoke for the flavour, fryer or grill for the skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "grill",
+   "as": "The barrel with the lid down is a grill doing a smoker's job.",
+   "rel": "fry"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "The other wing heat built on a single named chile, and the other one applied by hand.",
+   "rel": "kin"
+  },
+  {
+   "to": "crystal-hot-sauce",
+   "as": "Both lean on an aged or fermented chile rather than a fresh one.",
+   "rel": "kin"
+  },
+  {
+   "to": "hot-honey",
+   "as": "Turns up brushed over jerk wings at the end, where the sugar meets the Scotch bonnet.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "as": "The other sweet-and-chile dip a jerk counter may put beside the wings.",
+   "rel": "kin"
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "other",
+  "maker": "Georgia Peach Products, Inc. (Spur Tree Jamaican)",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "scallion",
+   "Scotch bonnet pepper",
+   "sea salt",
+   "cane vinegar",
+   "onion",
+   "garlic",
+   "pimento",
+   "thyme",
+   "cane sugar",
+   "caramel color",
+   "dextrose",
+   "yeast extract",
+   "sodium benzoate (preservative)"
+  ],
+  "pepper_rank": 2,
+  "vinegar_rank": 4,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 9,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 1,
+  "sodium_mg_per_tbsp": 700,
+  "sugar_g_per_tbsp": 1,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-spur-tree-jerk-seasoning",
+  "url": "https://fdc.nal.usda.gov/food-details/2617055/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Spur Tree Jamaican Jerk Seasoning, 35 oz. Label serving is 1 tbsp (18 g), so the per-tablespoon figures are the label's own. A wet seasoning, which is why it measures by the tablespoon where dry jerk rubs measure by the quarter-teaspoon — Grace Jerk Seasoning, FDC 2567137, is a dry powder at 140 mg sodium per ¼ tsp. 'Pimento' at rank 7 is allspice, the Jamaican name for it. No heat word and no Scoville number on the jar."
+ },
+ "recipes": [
+  {
+   "title": "Jamaican jerk seasoning, as described",
+   "source": "s:wp-jerk-cooking",
+   "license": "ingredients-only",
+   "url": "https://en.wikipedia.org/wiki/Jerk_(cooking)",
+   "region": "Jamaica",
+   "ingredients": [
+    "allspice",
+    "Scotch bonnet peppers",
+    "cloves",
+    "cinnamon",
+    "scallions",
+    "nutmeg",
+    "thyme",
+    "garlic",
+    "brown sugar",
+    "ginger",
+    "soy sauce",
+    "vinegar",
+    "salt"
+   ],
+   "note": "Ingredients only — a list of ingredients states a fact, and there is no free-licence instruction text to copy. Order is the source's, not a label's, so no ranks are read off it. Allspice and Scotch bonnet are the two the source calls principal; the rest it lists as things that may be included."
+  }
+ ],
+ "sources": [
+  "s:wp-jerk-cooking",
+  "s:fdc-spur-tree-jerk-seasoning"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-jerk-cooking"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-spur-tree-jerk-seasoning",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-jerk-cooking"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the marinating times and the home-kitchen finish are general practice; the drum, the pimento wood and the mop sauce are cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-spur-tree-jerk-seasoning"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [
+  {
+   "file": "jerk-marinade/jerk-marinade-jerk-chicken.jpg",
+   "source": "commons",
+   "title": "File:Jerk chicken.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jerk_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AJerk_chicken.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "stu_spivack",
+   "credit": "https://www.flickr.com/photos/35034346243@N01/2885399528/",
+   "alt": "Food of the Caribbean",
+   "date": "2008-09-24 14:51:56",
+   "primary": true,
+   "sha256": "beb10f703193bab6bc89d27a6d172f8ae0f5b0799a6d9d0d0fa32154387c504c"
+  }
+ ],
+ "updated": "2026-09-16",
+ "blurb": "A wet marinade, or a dry rub, built on allspice and Scotch bonnet peppers — both native to Jamaica and grown there by the Taíno.",
+ "region_terms": [
+  {
+   "key": "caribbean-american",
+   "name": "Caribbean America",
+   "state": null,
+   "note": "Brooklyn, the Bronx, Miami, Hartford; jerk wings and their kin"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "caribbean-jerk",
+   "type": "style",
+   "name": "Jerk wings",
+   "as": "The style is this marinade and the drum it is cooked in.",
+   "rel": "style"
+  },
+  {
+   "to": "peppas-jerk-chicken",
+   "type": "place",
+   "name": "Peppa's Jerk Chicken",
+   "as": "A New York jerk counter where the wings come off the drum.",
+   "rel": "place"
+  },
+  {
+   "to": "smoke-then-fry",
+   "type": "fry",
+   "name": "smoke then fry",
+   "as": "The method it belongs to: smoke for the flavour, fryer or grill for the skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "grill",
+   "type": "fry",
+   "name": "the grill",
+   "as": "The barrel with the lid down is a grill doing a smoker's job.",
+   "rel": "fry"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "The other wing heat built on a single named chile, and the other one applied by hand.",
+   "rel": "kin"
+  },
+  {
+   "to": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "Both lean on an aged or fermented chile rather than a fresh one.",
+   "rel": "kin"
+  },
+  {
+   "to": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "Turns up brushed over jerk wings at the end, where the sugar meets the Scotch bonnet.",
+   "rel": "kin"
+  },
+  {
+   "to": "sweet-chili-sauce",
+   "type": "sauce",
+   "name": "Sweet chili sauce",
+   "as": "The other sweet-and-chile dip a jerk counter may put beside the wings.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-jerk-cooking",
+   "kind": "wikipedia",
+   "title": "Jerk (cooking)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jerk_(cooking)",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-spur-tree-jerk-seasoning",
+   "kind": "dataset",
+   "title": "Spur Tree Jamaican Jerk Seasoning — branded food label (FDC ID 2617055)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2617055/nutrients",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-jerk-cooking"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-jerk-cooking"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the marinating times and the home-kitchen finish are general practice; the drum, the pimento wood and the mop sauce are cited"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:fdc-spur-tree-jerk-seasoning"
+  }
+ },
+ "primary_image": {
+  "file": "jerk-marinade/jerk-marinade-jerk-chicken.jpg",
+  "source": "commons",
+  "title": "File:Jerk chicken.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jerk_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AJerk_chicken.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "author": "stu_spivack",
+  "credit": "https://www.flickr.com/photos/35034346243@N01/2885399528/",
+  "alt": "Food of the Caribbean",
+  "date": "2008-09-24 14:51:56",
+  "primary": true,
+  "sha256": "beb10f703193bab6bc89d27a6d172f8ae0f5b0799a6d9d0d0fa32154387c504c"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "caribbean-jerk",
+   "type": "style",
+   "name": "Jerk wings",
+   "as": "Allspice and Scotch bonnet, and the reason the seasoning goes on before the fire instead of after it.",
+   "rel": "sauce"
+  },
+  {
+   "from": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "Both lean on a fermented or aged chile rather than a fresh one, and both run thin.",
+   "rel": "kin"
+  },
+  {
+   "from": "hot-honey",
+   "type": "sauce",
+   "name": "Hot honey",
+   "as": "Brushed over jerk wings at the end, where honey meets Scotch bonnet.",
+   "rel": "kin"
+  },
+  {
+   "from": "sweet-chili-sauce",
+   "type": "sauce",
+   "name": "Sweet chili sauce",
+   "as": "Turns up beside jerk wings as the sweet dip.",
+   "rel": "kin"
+  },
+  {
+   "from": "grill",
+   "type": "fry",
+   "name": "the grill",
+   "as": "Allspice and Scotch bonnet, applied before the heat rather than after.",
+   "rel": "sauce"
+  },
+  {
+   "from": "central-bbq",
+   "type": "place",
+   "name": "Central BBQ",
+   "as": "Jerked is one of the six, on a Memphis pit rather than a Caribbean grill.",
+   "rel": "sauce"
+  },
+  {
+   "from": "peppas-jerk-chicken",
+   "type": "place",
+   "name": "Peppa's Jerk Chicken",
+   "as": "Works dry here — rub and wash rather than a wet soak — and the scotch-bonnet sauce goes on after.",
+   "rel": "sauce"
+  }
+ ]
+}

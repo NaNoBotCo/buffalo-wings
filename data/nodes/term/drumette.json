@@ -1,0 +1,103 @@
+{
+ "id": "drumette",
+ "names": {
+  "name": "drumette",
+  "aliases": [
+   "drum",
+   "drums",
+   "wing drumette",
+   "first segment wing portion"
+  ],
+  "said": "A counter says 'drums'. A grader says 'first segment wing portion'."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "D",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "drum (the drumstick it resembles) + -ette, the French diminutive that English borrowed for small versions of things",
+  "first_attested": "",
+  "note": "The National Chicken Council writes it as the trade does: \"The wing is usually split into two parts or portions, known as the 'drumette' and the mid-section or 'flat'\". USDA's Agricultural Marketing Service labels the same piece 'Grade A First Segment Wing Portion (Wing Drumette)' in its grading photographs — the parenthesis is the government conceding the kitchen's word. *Inference —* the -ette says small drumstick, which is what a diner sees, not what an anatomist sees: the drumette is the humerus, the arm bone, not a leg at all.",
+  "tier": "cited",
+  "source": "s:web-ncc-wings-hot-topic"
+ },
+ "text": {
+  "what": "Upper of the three wing segments, and the meatiest. One bone, meat bunched at one end, skin all round: it eats like a small drumstick, which is where the name comes from. White meat, same as the breast. Two per bird.",
+  "how": "Hold it by the narrow end and eat down, or stand it up and push the meat off the bone in one piece — bar tables argue about which. Sauce pools in the cup at the thick end, so a drumette carries more of whatever it was tossed in than a flat does.",
+  "today": "Grocery party-wing packs print drumette and flat on the label together; Sanderson Farms sells it as 'Chicken Party Wings Flats & Drummettes', with the second m that the trade spelling keeps dropping."
+ },
+ "kin": [
+  {
+   "to": "wing",
+   "as": "One of the two pieces a menu means when it says wing.",
+   "rel": "whole"
+  },
+  {
+   "to": "flat",
+   "as": "The other piece off the same joint, and the one people compare it against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing-tip",
+   "as": "Cut from the far end of the same wing, and usually not sold.",
+   "rel": "kin"
+  },
+  {
+   "to": "wing-cut",
+   "as": "The knife that makes it: through the joint between humerus and radius.",
+   "rel": "fry"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "as": "The argument this word is one half of.",
+   "rel": "story"
+  },
+  {
+   "to": "party-wing",
+   "as": "What a grocery calls it when it is bagged with the flats.",
+   "rel": "term"
+  },
+  {
+   "to": "national-chicken-council",
+   "as": "Writes 'drumette' into its own trade wording, which is how the word travels.",
+   "rel": "org"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-as-food",
+  "s:wp-poultry",
+  "s:web-ncc-wings-hot-topic",
+  "s:web-usda-ams-wing",
+  "s:web-openfoodfacts-party-wings"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chicken-as-food"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-ncc-wings-hot-topic",
+    "note": "the USDA caption wording could not be read from the AMS page itself — see the note on s:web-usda-ams-wing"
+   },
+   "text.how": {
+    "tier": "tradition"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-openfoodfacts-party-wings"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

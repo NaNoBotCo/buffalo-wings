@@ -1,0 +1,198 @@
+{
+ "schema": 1,
+ "id": "ranch-vs-blue-cheese",
+ "type": "story",
+ "names": {
+  "name": "Ranch against blue cheese",
+  "aliases": [
+   "The dip argument"
+  ],
+  "sort": "ranch against blue cheese"
+ },
+ "region": [
+  "us",
+  "western-ny"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "Buffalo sends out blue cheese. America buys ranch. Blue cheese reached the wing plate on the first night of the Anchor Bar story, off the antipasto tray, and it is still the house cup along the city's wing trail. Ranch was invented by a plumbing contractor named Steve Henson in the early 1950s, sold by mail from a Santa Barbara County guest ranch from 1957, bought by Clorox in 1972, and has outsold every other salad dressing in the United States since 1992. Asked what they eat wings with, more Americans say ranch than say blue cheese, by roughly two to one in the trade association's own polling. Both numbers and both dips are set out below, with whose figures they are and when they were taken."
+ },
+ "sections": [
+  {
+   "h": "What Buffalo puts on the plate",
+   "text": "The Anchor Bar's account has Teressa Bellissimo sending the first wings out with celery and blue cheese taken from the bar's antipasto tray. Nothing about that was a decision about dips; it was what the kitchen had. Sixty years on it is the house standard: a medium order in Buffalo arrives with celery, carrots and a cup of chunky blue cheese whether or not anybody asked."
+  },
+  {
+   "h": "What blue cheese is",
+   "text": "Blue cheese dressing runs blue cheese, mayonnaise, and buttermilk, sour cream, yogurt or milk, with vinegar, onion powder and garlic powder. There is also a vinaigrette version — oil, blue cheese, vinegar, seasonings — that is not what comes in the cup. It separates: oil and water coming apart is a known problem with the emulsion, and the organisms that spoil salad dressings, Saccharomyces bailii and Lactobacillus fructivorans, tolerate acid and low pH well enough to live in it. *Inference —* a dip that breaks and a dip that spoils is a dip a bar has to make often or buy carefully, which is part of why the cup is a house signature in Buffalo and a pumped condiment elsewhere."
+  },
+  {
+   "h": "Where ranch came from",
+   "text": "Steve Henson (1918–2007), a Thayer, Nebraska native, worked as a plumbing contractor in the Anchorage area and cooked for his own crews. He put together the dressing in the early 1950s. He retired from plumbing at 35, moved with his wife Gayle to Santa Barbara County, California, and in 1956 bought a guest ranch in San Marcos Pass that they renamed Hidden Valley Ranch.\n\nGuests at the ranch steakhouse bought jars to take home. The first commercial customer was Henson's friend Audrey Ovington, who owned Cold Spring Tavern. By 1957 Henson was selling packets of dry mix in stores, and by mail at 75 cents apiece, eventually giving over every room in the house to the operation. The guest ranch closed by the mid-1960s; the mail-order business did not. Clorox bought the brand in October 1972 for $8 million and Henson retired. The name is why a federal court in Fort Worth spent 1976 deciding who else could write 'ranch style' on a label."
+  },
+  {
+   "h": "How ranch got onto the wing",
+   "text": "Ranch spread as a flavour before it spread as a wing dip. Clorox added buttermilk flavouring so the mix could be made with ordinary milk, and in 1983 developed a shelf-stable bottle. Cool Ranch Doritos arrived in 1987 and Hidden Valley Ranch Wavy Lay's in 1994. In 1992 ranch passed Italian to become the best-selling salad dressing in the United States. In 1994 Domino's began offering ranch as a condiment with its chicken wings and its pizzas, and the pairing took. *Inference —* the wing did not choose ranch; the delivery pizza chain put a cup of it in the box, and the wing was in the same box."
+  },
+  {
+   "h": "The numbers, and whose they are",
+   "text": "The National Chicken Council — the trade association for the producers, which is worth knowing when reading its polling — has run the question through Harris Poll for years. In the survey fielded 9 to 11 January 2018 among 2,086 US adults, of whom 1,381 eat wings, the sides and sauces typically eaten with wings ranked: ranch 59%, buffalo or hot sauce 48%, barbecue sauce 48% (those two tied), honey mustard 35%, blue cheese 33%, teriyaki 23%, sriracha 15%. The council noted ranch had climbed steadily, from 51% in 2014 to 56% in 2015.\n\nSeparately, the Association for Dressings and Sauces found in 2017 that 40% of Americans named ranch their favourite dressing outright. Ranch has led the US salad dressing category since 1992.\n\n*Inference —* none of these figures is a count of dips poured beside wings. They are answers to a survey question, and they are the closest public measure that exists."
+  },
+  {
+   "h": "What the chains do",
+   "text": "Wingstop makes its ranch in the restaurant every day and has built marketing around it: in March 2026 it released a limited-edition 32-ounce cup of ranch, and its chief brand officer Donnie Upshaw said \"Our fans turned our housemade ranch into a phenomenon, and when the love is this real, subtlety doesn't make sense.\" The chain makes its bleu cheese fresh in the morning too. It publishes no ratio between the two.\n\n*Inference —* no chain I could find publishes how many cups of each it sells, which means the loudest evidence in this argument is marketing, not accounting."
+  },
+  {
+   "h": "The argument, as each side puts it",
+   "text": "Buffalo's case is provenance and fit: blue cheese was on the plate first, its sharpness and its fat sit against cayenne and vinegar differently than a herbed buttermilk mayonnaise does, and the city's shops send it out unasked. Ranch's case is that most people asked say they prefer it, that it is milder and reads as less demanding of the eater, and that it is already in the box. Both positions are held sincerely and loudly, and neither is a claim this project settles."
+  },
+  {
+   "h": "What is not measured",
+   "text": "No public series counts dip cups at a wing counter. Retail scanner data that would show ranch and blue cheese dollar sales side by side is sold by subscription, by Circana and by NielsenIQ, and is not open. Restaurant point-of-sale data is private to the chains. So the argument runs on survey answers, category share for bottled dressing sold in grocery stores, and what a bar hands you — three different things, none of them the same measurement."
+  }
+ ],
+ "kin": [
+  {
+   "to": "blue-cheese-dressing",
+   "as": "The dip Buffalo sends out unasked; it reached the plate off the Anchor Bar's antipasto tray.",
+   "rel": "sauce"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "Steve Henson's buttermilk dressing, best-selling in the United States since 1992 and the one most survey respondents name for wings.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style whose plate this argument is fought over.",
+   "rel": "style"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Came out of the same antipasto tray as the blue cheese, and stayed for the same reason.",
+   "rel": "dish"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Where the blue cheese cup enters the record, on the first night of its own story.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-wing-trail",
+   "as": "Fourteen Buffalo-area stops, and the blue cheese cup is the house default at them.",
+   "rel": "org"
+  },
+  {
+   "to": "wingstop",
+   "as": "Makes ranch in the store every morning and sells it as a brand of its own.",
+   "rel": "place"
+  },
+  {
+   "to": "national-chicken-council",
+   "as": "Runs the Harris Poll that produces the ranch-versus-blue-cheese percentages everyone quotes.",
+   "rel": "org"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "What the dip is set against: cayenne, vinegar and butter, which is why the dip is dairy and fat.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Same night, same tray — the blue cheese arrives in the story that nobody can document.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-ranch-dressing",
+  "s:wp-blue-cheese-dressing",
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:web-ncc-wing-poll-2018",
+  "s:web-wingstop-ranch-cup",
+  "s:web-visit-buffalo-wing-trail"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-ranch-dressing"
+  },
+  "fields": {
+   "sections[1].text": {
+    "tier": "inference",
+    "note": "composition and spoilage are cited; the closing sentence reasons from them"
+   },
+   "sections[3].text": {
+    "tier": "inference",
+    "note": "dates and the Domino's move are cited; the last sentence is this project's reading"
+   },
+   "sections[4].text": {
+    "tier": "inference",
+    "note": "percentages are the council's own; the caveat on what they measure is this project's"
+   },
+   "sections[5].text": {
+    "tier": "inference",
+    "note": "the Wingstop release is cited; the absence of a published ratio is this project's search result, not a claim that no such figure exists"
+   },
+   "sections[6].text": {
+    "tier": "tradition",
+    "note": "how each side states its case, as the tradition states it; no source adjudicates"
+   },
+   "sections[7].text": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "ranch-vs-blue-cheese/ranch-vs-blue-cheese-buffalo-wings-01.jpg",
+   "source": "commons",
+   "title": "File:Buffalo wings-01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Buffalo_wings-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_wings-01.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Clotee Pridgen Allochuku",
+   "credit": "Chili's Wings Over Buffalo auf flickr",
+   "alt": "Buffalo Wings mit Dip-Sauce und Staudensellerie.",
+   "date": "2012-05-13",
+   "primary": true,
+   "sha256": "4d52409570f55cde01be092d330c620c06db19701dea8992dcaa968124603da2"
+  },
+  {
+   "file": "ranch-vs-blue-cheese/ranch-vs-blue-cheese-homemade-buffalo-wings.jpg",
+   "source": "commons",
+   "title": "File:Homemade buffalo wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Homemade_buffalo_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHomemade_buffalo_wings.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "stef yau",
+   "credit": "https://www.flickr.com/photos/daxiang/111169153/ Flickr account",
+   "alt": "A plate of home-made buffalo wings.",
+   "date": "2006-03-11",
+   "primary": false,
+   "sha256": "8904d59a5c7a4f78e66e5f5e47727900377da4fc057cd88a09287ac0f03ccf0f"
+  },
+  {
+   "file": "ranch-vs-blue-cheese/ranch-vs-blue-cheese-hopmonk-march-2026-sarah-stierch-02.jpg",
+   "source": "commons",
+   "title": "File:Hopmonk - March 2026 - Sarah Stierch 02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Hopmonk_-_March_2026_-_Sarah_Stierch_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHopmonk_-_March_2026_-_Sarah_Stierch_02.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Missvain",
+   "credit": "Own work",
+   "alt": "Buffalo wings with ranch and blue cheese at Hopmonk, Sonoma, California",
+   "date": "Taken on 14 March 2026",
+   "primary": false,
+   "sha256": "d1c452625dbd6bafad85fa2ec401c7930e0c149b01434ea74706755cf983604a"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

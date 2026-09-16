@@ -1,0 +1,184 @@
+{
+ "note": "Levels run from what a Buffalo fryer actually does — nothing at all before the oil — outward to a full barbecue rub. Quantities per pound are this project's rule of thumb and say so; the proportions inside each level are either a published recipe's own ratios or ours, stated either way.",
+ "house_note": "At a Buffalo counter the wing goes into the oil bare and nothing is on it. Seasoning happens after the fryer, in a metal bowl, with sauce. A rub belongs to the dry half of the menu — Memphis, Atlanta, Baltimore, the smoker — and to wings that get baked or grilled rather than fried. Salt early and you draw water out of the skin, which is the one thing you do not want before a fryer.",
+ "meats": [
+  {
+   "key": "ten",
+   "label": "Ten pieces",
+   "lb": 1,
+   "note": "about a pound of party wings, five wings split"
+  },
+  {
+   "key": "twenty",
+   "label": "Twenty pieces",
+   "lb": 2,
+   "note": "two pounds, one bar order"
+  },
+  {
+   "key": "fifty",
+   "label": "Fifty pieces",
+   "lb": 5,
+   "note": "five pounds, a family bag"
+  },
+  {
+   "key": "hundred",
+   "label": "A hundred pieces",
+   "lb": 10,
+   "note": "ten pounds, which is a Super Bowl"
+  }
+ ],
+ "heats": [
+  {
+   "key": "none",
+   "label": "No heat",
+   "mult": 0.0
+  },
+  {
+   "key": "mild",
+   "label": "Mild",
+   "mult": 0.5
+  },
+  {
+   "key": "medium",
+   "label": "Medium",
+   "mult": 1.0
+  },
+  {
+   "key": "hot",
+   "label": "Hot",
+   "mult": 2.0
+  }
+ ],
+ "heat_ingredients": [
+  "cayenne pepper",
+  "red pepper flakes",
+  "ground black pepper",
+  "coarse black pepper"
+ ],
+ "levels": [
+  {
+   "key": "nothing",
+   "name": "Nothing at all",
+   "tbsp_per_lb": 0.0,
+   "says": "What a Buffalo fryer puts on a wing before it goes in: nothing. The bowl does the seasoning afterwards.",
+   "anchor": {
+    "kind": "cited",
+    "source": "s:this-project",
+    "note": "The style record has it — fried bare, no batter, no flour, sauce after the fryer. There is nothing to weigh here, and that is the point."
+   },
+   "parts": {},
+   "when": [
+    "Dry the wings properly. Wet skin steams instead of crisping.",
+    "Fry them bare.",
+    "Season in the bowl, with sauce, after they come out."
+   ]
+  },
+  {
+   "key": "salt-pepper",
+   "name": "Salt and black pepper",
+   "tbsp_per_lb": 0.33,
+   "says": "The next step out, and as far as most dry wings need to go.",
+   "anchor": {
+    "kind": "cited",
+    "source": "s:this-project",
+    "note": "Two ingredients, two parts salt to one of pepper by volume. The ratio and the rate are this project's."
+   },
+   "parts": {
+    "salt": 2.0,
+    "ground black pepper": 1.0
+   },
+   "when": [
+    "Toss the wings in it an hour ahead if they are going in an oven or on a grill.",
+    "If they are going in a fryer, season them after, not before."
+   ]
+  },
+  {
+   "key": "lemon-pepper",
+   "name": "Lemon pepper",
+   "tbsp_per_lb": 0.5,
+   "says": "Atlanta's dry order. Shaken on hot, so it sticks to the fat still on the skin.",
+   "anchor": {
+    "kind": "named",
+    "title": "Cookbook:Lemon Pepper",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Pepper",
+    "source": "s:wikibooks-cookbook",
+    "note": "Wikibooks names the components and gives no amounts. The list is its; the proportions are ours."
+   },
+   "parts": {
+    "ground black pepper": 3.0,
+    "dried lemon zest": 2.0,
+    "salt": 2.0,
+    "garlic powder": 1.0,
+    "onion powder": 1.0,
+    "citric acid": 0.25
+   },
+   "when": [
+    "Shake it over the wings the moment they leave the oil, while they are still slick.",
+    "For wet, melt butter and stir a spoonful of the blend through it, then toss.",
+    "Dry the lemon zest in a low oven first, or it clumps."
+   ]
+  },
+  {
+   "key": "jerk",
+   "name": "Jamaican jerk spice",
+   "tbsp_per_lb": 0.75,
+   "says": "Allspice, thyme, cinnamon, nutmeg and a lot of cayenne. A rub that is also a marinade.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Jamaican Jerk Spice I",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Jamaican_Jerk_Spice_I",
+    "source": "s:wikibooks-cookbook",
+    "note": "The recipe's own ratios, scaled: two tablespoons of cayenne against a teaspoon each of cinnamon, nutmeg, allspice and onion powder, two of thyme, and a tablespoon each of sugar, dried onion and salt."
+   },
+   "parts": {
+    "cayenne pepper": 6.0,
+    "salt": 3.0,
+    "sugar": 3.0,
+    "dried minced onion": 3.0,
+    "dried thyme": 2.0,
+    "ground cinnamon": 1.0,
+    "ground nutmeg": 1.0,
+    "ground allspice": 1.0,
+    "onion powder": 1.0
+   },
+   "when": [
+    "Mix it and keep what you do not use in a sealed jar.",
+    "Rub it into the wings and leave them cold for four hours at least.",
+    "Grill, roast or smoke. Jerk wants fire, not oil."
+   ]
+  },
+  {
+   "key": "barbecue",
+   "name": "A barbecue dry rub",
+   "tbsp_per_lb": 1.0,
+   "says": "Paprika and brown sugar, off the rib counter. The sugar catches on a grill, so watch it.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Dry Rub",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Dry_Rub",
+    "source": "s:wikibooks-cookbook",
+    "note": "The recipe's own ratios — a quarter cup each of paprika and light brown sugar, three tablespoons of salt, a teaspoon each of dry mustard and black pepper, half a teaspoon each of cayenne and cumin. Wikibooks files it under Texas cuisine and it does not claim to be a wing rub."
+   },
+   "parts": {
+    "paprika": 12.0,
+    "light brown sugar": 12.0,
+    "salt": 9.0,
+    "dry mustard": 1.0,
+    "ground black pepper": 1.0,
+    "cayenne pepper": 0.5,
+    "ground cumin": 0.5
+   },
+   "when": [
+    "Rub it on and refrigerate about an hour, as the recipe says.",
+    "Smoke or bake rather than fry — sugar burns in hot oil.",
+    "Dust a second time when they come off, which is the Memphis habit."
+   ]
+  }
+ ]
+}

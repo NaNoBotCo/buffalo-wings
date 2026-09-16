@@ -1,0 +1,177 @@
+{
+ "schema": 1,
+ "id": "elmos-bar-and-restaurant",
+ "type": "place",
+ "names": {
+  "name": "Elmo's Bar & Restaurant",
+  "aliases": [
+   "Elmo's",
+   "Elmo's Restaurant & Bar"
+  ],
+  "sort": "Elmo's Bar and Restaurant"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "cooked": "mixed",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A pitcher-and-television sports bar on Millersport Highway in Getzville, near the University at Buffalo's north campus, whose signature is a wing that goes through the fryer and then onto a grill. The Infatuation calls it the double dip. Orders arrive as sauce combinations — hot and barbecue, cajun and honey mustard — rather than a single heat.",
+  "story": "Bon Appétit's Alex Delaney spent 2018 working through twelve Western New York wing rooms and ranked three. Elmo's came second, behind Gabriel's Gate and ahead of Mammoser's.\n\nThe double dip is what he was ranking. The Infatuation's David Neimanis, writing in February 2025, describes it: \"Fried and sauced like usual, they're then coated in another layer of sauce and grilled, which locks in the smoky undertones while keeping the exterior delightfully crisp.\" Visit Buffalo's trail lists the combinations the second coat makes possible — \"BBQ hot\" and \"Cajun honey mustard\" among them.\n\nVisit Buffalo records the room's other awards without naming years: it has been \"rewarded with award winning wings and hamburgers from Gourmet magazine, The Buffalo News, and more.\"",
+  "how": "Fry, sauce, sauce again, then grill. The second coat caramelises on the grill instead of sitting wet, which is the whole point of the method and the reason the order is named by two sauces rather than one heat.",
+  "today": "Open Monday to Saturday as of September 2026, from 11:30am — noon on Saturday — and running to 2am most nights. Closed Sunday."
+ },
+ "geo": {
+  "lat": 43.0141142,
+  "lon": -78.768637,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "2349 Millersport Highway",
+  "city": "Getzville",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14068"
+ },
+ "links": [
+  {
+   "label": "Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  },
+  {
+   "label": "The Infatuation review",
+   "url": "https://www.theinfatuation.com/buffalo/reviews/elmos-restaurant-and-bar"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "bar",
+   "source": "s:web-infatuation-elmos",
+   "tier": "cited",
+   "note": "The Infatuation calls it \"a beer pitcher-yielding sports bar near the University of Buffalo\"",
+   "url": "https://www.theinfatuation.com/buffalo/reviews/elmos-restaurant-and-bar"
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-restaurantji-elmos",
+   "tier": "cited",
+   "note": "posted to 2am Monday and Wednesday through Saturday",
+   "url": "https://www.restaurantji.com/ny/getzville/elmos-bar-and-resaurant-/"
+  },
+  {
+   "tag": "smoked",
+   "source": "s:web-infatuation-elmos",
+   "tier": "cited",
+   "note": "the second sauce coat is grilled, which The Infatuation says \"locks in the smoky undertones\"; a grill, not a smoker",
+   "url": "https://www.theinfatuation.com/buffalo/reviews/elmos-restaurant-and-bar"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "bon-appetit",
+   "what": "Alex Delaney ranked its wings second of three in Western New York on camera",
+   "year": 2018,
+   "source": "s:web-stepout-bonappetit-wings",
+   "url": "https://stepoutbuffalo.com/best-3-spots-get-wings-wny-according-bon-appetit/"
+  },
+  {
+   "by": "buffalo-wing-trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "source": "s:web-buffalo-wing-trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  },
+  {
+   "by": "local-press",
+   "what": "Visit Buffalo: \"award winning wings and hamburgers from Gourmet magazine, The Buffalo News, and more\"",
+   "source": "s:web-visitbuffalo-elmos",
+   "url": "https://visitbuffalo.com/businesses/elmos-bar-restaurant/"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday 11:30am–2am; Tuesday 11:30am–11:30pm; Wednesday to Friday 11:30am–2am; Saturday noon–2am; closed Sunday",
+  "source": "s:web-restaurantji-elmos",
+  "url": "https://www.restaurantji.com/ny/getzville/elmos-bar-and-resaurant-/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "smoke-then-fry",
+   "as": "Runs the sequence backwards — fry first, then grill the sauce on.",
+   "rel": "contrast"
+  },
+  {
+   "to": "grill",
+   "as": "Uses one as a finishing step rather than a cooking one.",
+   "rel": "fry"
+  },
+  {
+   "to": "gabriels-gate",
+   "as": "Beat this room in Bon Appétit's 2018 ranking with a plain fried wing and Frank's RedHot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mammosers-tavern",
+   "as": "Came third behind it in the same ranking.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "The unit this room measures an evening in.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo",
+   "as": "Cooks the style and then adds a step the style does not have.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:web-infatuation-elmos",
+  "s:web-visitbuffalo-elmos",
+  "s:web-buffalo-wing-trail",
+  "s:web-stepout-bonappetit-wings",
+  "s:web-restaurantji-elmos",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-infatuation-elmos"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-restaurantji-elmos",
+    "note": "a listing site, not the house's own posting; the house has no site this project could read"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

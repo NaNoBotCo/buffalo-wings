@@ -1,0 +1,23 @@
+# Wing Country — https://nanobotco.github.io/buffalo-wings/
+# Everything here is meant to be read by machines as well as people.
+
+User-agent: *
+Allow: /
+
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Corpus: https://nanobotco.github.io/buffalo-wings/llms.txt
+Full-text: https://nanobotco.github.io/buffalo-wings/llms-full.txt
+Records: https://nanobotco.github.io/buffalo-wings/api/nodes.json
+Places: https://nanobotco.github.io/buffalo-wings/api/places.json
+Kin edges: https://nanobotco.github.io/buffalo-wings/api/kin.json
+Scope and gaps: https://nanobotco.github.io/buffalo-wings/api/coverage.json
+Schema: https://nanobotco.github.io/buffalo-wings/schema/node.schema.json
+Tabular: https://nanobotco.github.io/buffalo-wings/nodes.csv · https://nanobotco.github.io/buffalo-wings/nodes.jsonl
+
+Licence: records CC BY 4.0. Place points OpenStreetMap, ODbL 1.0 (share-alike).
+Pictures carry their own licence, stated per file in the record and beside the image.
+Attribution: Wing Country, https://nanobotco.github.io/buffalo-wings/
+
+Every field carries a provenance tier: cited, harvested, tradition, inference, field.
+A tag on a place names its evidence. A missing tag means unread, not absent.

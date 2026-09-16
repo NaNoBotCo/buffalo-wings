@@ -1,0 +1,159 @@
+{
+ "id": "crystal-hot-sauce",
+ "names": {
+  "name": "Crystal Hot Sauce",
+  "aliases": [
+   "Crystal",
+   "Crystal Louisiana's Pure Hot Sauce"
+  ]
+ },
+ "region": [
+  "new-orleans",
+  "us"
+ ],
+ "facets": {
+  "base": "vinegar-pepper",
+  "heat": "mild",
+  "styles": "buffalo"
+ },
+ "text": {
+  "what": "A reddish-orange Louisiana pepper sauce made by Baumer Foods since 1923: aged red cayenne peppers, distilled vinegar, salt. Three ingredients on the 6 fl oz bottle; the gallon jug adds xanthan gum. Writers put it against Tabasco as having \"a more prominent dark chile flavor, and a slightly subdued vinegar profile\". Buffalo kitchens that do not buy Frank's usually buy this.",
+  "story": "Baumer Foods started in New Orleans and stayed a family business. Its factory on Tulane Avenue in Mid-City carried a lighted sign — a chef stirring a pot, steam from the plant venting out through the pot — visible from Interstate 10 and known across the city. The preserves the sign advertised went into US military rations in the Second World War and are no longer made.\n\nHurricane Katrina wrecked much of the New Orleans plant in 2005, sign included. The company moved production up the Mississippi to Reserve, in St. John the Baptist Parish; the sign was replicated and set on top of a new apartment building on the old factory site. As of April 2021 the head office sits in Metairie.\n\nThree million US gallons a year ship to seventy-five countries. The brand is popular in Saudi Arabia, carried there by Louisiana petroleum workers. David Chang has said Crystal is his favourite hot sauce, and Ed Currie, who bred the Carolina Reaper, called it \"probably the best tasting of the table sauces.\"",
+  "how": "Same job as any cayenne bottle: melt butter, stir the sauce in warm, toss fried wings in it. *Tradition holds —* cooks who choose Crystal over Frank's say it needs a touch less butter, because the vinegar sits further back. It is also the pepper sauce that goes into a Nashville paste, into gumbo and onto eggs.",
+  "today": "Made in Reserve, Louisiana; head office in Metairie. As of 16 September 2026 the USDA label panel for the 6 fl oz bottle reads 135 mg sodium in a 1 teaspoon serving — 405 mg in a tablespoon — with no sugar. Baumer publishes no Scoville number, which is the usual case: almost no wing-sauce maker does."
+ },
+ "kin": [
+  {
+   "to": "buffalo-sauce",
+   "as": "One of the two cayenne bottles it gets built from.",
+   "rel": "whole"
+  },
+  {
+   "to": "franks-redhot",
+   "as": "The rival bottle, and the one the standard Buffalo account names.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Named in the style's sauce recipe as the alternative to Frank's.",
+   "rel": "style"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "A slug of Louisiana pepper sauce is one of the things a hot-chicken paste gets built on.",
+   "rel": "kin"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "as": "Its chef-and-steaming-pot sign became a New Orleans landmark before it was a label.",
+   "rel": "art"
+  },
+  {
+   "to": "jerk-marinade",
+   "as": "Both lean on a fermented or aged chile rather than a fresh one, and both run thin.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "franks-redhot",
+   "tell": "The label. Frank's lists garlic powder; Crystal's small bottle lists three things and no garlic."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "vinegar-pepper",
+  "maker": "Baumer Foods, Inc.",
+  "town": "Reserve",
+  "state": "LA",
+  "ingredients": [
+   "aged red cayenne peppers",
+   "distilled vinegar",
+   "salt"
+  ],
+  "pepper_rank": 1,
+  "vinegar_rank": 2,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 0,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 0.333,
+  "sodium_mg_per_tbsp": 405,
+  "sugar_g_per_tbsp": 0,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-crystal-hot-sauce",
+  "url": "https://fdc.nal.usda.gov/food-details/2300103/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Measured off the 6 fl oz bottle. Label serving is 1 tsp (5 mL) = 0.333 tbsp; label sodium is 135 mg, so 135 × 3 = 405 mg per tablespoon. The 64 fl oz food-service jug carries a fourth ingredient, xanthan gum, and its USDA record omits sodium, so the small bottle is used here. No Scoville number is published by the maker or by a lab; Wikipedia's 'medium heat' is a description, not a measurement, and is not recorded as one. Town is the production plant; the head office is in Metairie."
+ },
+ "sources": [
+  "s:wp-crystal-hot-sauce",
+  "s:wp-buffalo-wing",
+  "s:wp-carolina-reaper",
+  "s:wp-tabasco-sauce",
+  "s:fdc-crystal-hot-sauce",
+  "s:wp-scoville-scale",
+  "s:harland-1906"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-crystal-hot-sauce"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-crystal-hot-sauce",
+    "fetched_at": "2026-09-16"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the butter comparison is cooks' practice, hedged; the uses are cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-crystal-hot-sauce"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "recipes": [
+  {
+   "title": "Crystal Louisiana's Pure Hot Sauce, as labelled",
+   "source": "s:fdc-crystal-hot-sauce",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/2300103/nutrients",
+   "region": "Louisiana",
+   "ingredients": [
+    "aged red cayenne peppers",
+    "distilled vinegar",
+    "salt"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. Three lines on the 6 fl oz bottle; the 64 fl oz jug adds xanthan gum. Baumer's ageing process is not published."
+  },
+  {
+   "title": "Pepper vinegar",
+   "source": "s:harland-1906",
+   "license": "Public domain",
+   "year": 1906,
+   "author": "Marion Harland",
+   "book": "Marion Harland's Complete Cook Book",
+   "url": "https://www.gutenberg.org/ebooks/64459",
+   "region": "United States",
+   "ingredients": [
+    "half a dozen red peppers",
+    "three dozen black peppercorns",
+    "two tablespoonfuls of sugar",
+    "a quart of vinegar"
+   ],
+   "text": "Break up half a dozen red peppers. Add three dozen black peppercorns and two tablespoonfuls of sugar to a quart of vinegar. Scald vinegar and sugar, and pour over the peppers. Put in a jar, steep eight hours, strain and bottle.\n\nThis is to be eaten with fish or raw oysters.",
+   "note": "Copied verbatim, old spellings kept. Seventeen years before Baumer started bottling, a home cook is steeping red pepper in vinegar and sending it to the oyster plate."
+  }
+ ]
+}

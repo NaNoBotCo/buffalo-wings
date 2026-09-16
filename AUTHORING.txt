@@ -1,0 +1,148 @@
+WING COUNTRY — WRITING A RECORD
+===============================
+
+One JSON file per node, in data/nodes/<type>/<id>.json. The schema is
+schema/node.schema.json. Copy an exemplar and change every field:
+
+  data/nodes/style/buffalo.json          a style (rich: what / story / how / today, kin, confusable)
+  data/nodes/term/wing.json              a word (etymology block)
+  data/nodes/place/anchor-bar.json       a place (geo, address, links, tags, hours)
+
+Run  python3 tools/validate.py  until your records pass. Kin targets nobody has
+written yet show as errors; expect that while the set is still being built.
+
+TYPES
+  style   a city's way with a wing        sauce   a sauce, a rub or a dip
+  dish    a thing eaten beside it         fry     a cut, a coating, an oil, a fryer, a method
+  place   a bar, shack, counter, kitchen  person  a cook, founder, family, writer, organizer
+  org     a council, trail, archive       event   a festival, a contest, a day
+  term    a word, with its root           art     signs, neon, murals, posters
+  story   a long read
+
+FIELDS THAT CARRY THE WEIGHT
+  names.name     what the tradition calls it. names.said = how a counter says it.
+  text.what      one plain paragraph. Present tense. What it is.
+  text.story     narrative, told as narrative. Scenes, dates, names. Mark each stretch:
+                   plain prose        = cited in this record's sources
+                   *Tradition holds —*  general knowledge, hedged
+                   *Inference —*        this project's own reasoning
+  text.how       how it gets cooked, sauced, served, eaten. text.today = now, dated.
+  kin[]          what another node IS to this one, said from here. One sentence a reader
+                 standing on this page wants: not "see also" but the fact that joins them
+                 ("its celery arrived because Teressa Bellissimo grabbed what the bar had").
+                 The other record answers in its own words. Link only to cast-list ids.
+  etymology      required on type=term, welcome anywhere a name has a root. root = the
+                 chain or the morpheme split; first_attested = a date with a source behind
+                 it, else blank; folk etymologies go in note, labelled folk.
+  facets         open keys per type, see data/vocab/facets.json: state, cut, base, course,
+                 kind, role, status, founded, cooked, heat, styles, when, letter.
+  sources[]      ids from data/sources/sources.json ONLY. Add new ones to
+                 data/sources/new-<yourname>.json in the same shape; build.py merges them.
+                 Wikipedia: s:wp-<slug>. A web page: s:web-<slug> with title, publisher,
+                 url and the date you read it. A book: title, author, publisher, year —
+                 never an ISBN you did not see.
+  provenance     default tier + per-field overrides. Tiers: cited, harvested, tradition,
+                 inference, field. A date, a founding year, a death, a lawsuit, a price:
+                 cite it or hedge it.
+  geo / address  places and events. Coordinates from OSM (data/harvest/osm-places.json) or
+                 the address geocoded by hand; precision says which. address.state takes a
+                 two-letter code.
+  images[]       leave empty. Put candidate Commons titles in x_commons_files:
+                 ["File:Buffalo wings.jpg"]; tools/harvest_commons.py fetches them with
+                 their licences. Only CC0 / PD / CC BY / CC BY-SA / FAL.
+  confidence     high / medium / low. needs_verification: true when a fact stays unchecked.
+
+PLACE FIELDS
+  tags[]          {tag, source, tier?, note?, since?, url?}. Keys in data/vocab/tags.json.
+                  EVERY tag names its evidence. Ownership and welcome tags (black-owned,
+                  woman-owned, lgbtq-friendly) come only from the owner's own words, a
+                  press profile naming the owner, or a public directory — never from a
+                  name, a photograph or a guess. No evidence, no tag; a missing tag says
+                  nothing about a place. The validator refuses tier tradition or inference.
+  recognitions[]  {by, what, year?, source, url?}. `by` from data/vocab/recognizers.json.
+                  One entry per recognizer per place. The count measures attention paid,
+                  never our ranking.
+  hours           {open[], closed[], text, sold_out, seasonal, source, url, tier, checked}.
+                  THREE STATES, NEVER TWO: open, closed, and nobody published it. A day in
+                  neither list is unknown and drops out of the filters. Guessing a closure
+                  is worse than a blank, because a reader drives on it.
+  recipes[]       on sauces and dishes: {title, source, license, year?, url?, author?,
+                  book?, page?, ingredients[]?, text[]?, yield?, note?, region?}.
+                  Public-domain cookbooks (US, before 1930) copy in full into `text`; CC BY
+                  and CC BY-SA texts too, with the source named; everything else is
+                  license: "ingredients-only" with ingredients[] and no text. A list of
+                  ingredients states a fact. Instructions are somebody's writing.
+  profile         on sauces, measured off a label or a published recipe: {kind, base, maker,
+                  town, state, ingredients[] in label order, pepper_rank, vinegar_rank,
+                  fat_rank, tomato_rank, sugar_rank, mustard_rank, soy_rank (1-based
+                  position, 0 absent, null unknown), sodium_mg_per_tbsp, sugar_g_per_tbsp,
+                  serving_tbsp, scoville (ONLY where somebody publishes a number),
+                  heat_claim (the maker's own word, verbatim), source, url, accessed, note}.
+  sections[]      on art and story: [{h, text, images?[indices]}] after text.what.
+
+WORDS AND TONE
+  validate.py refuses: load-bearing, honest, authentic, inauthentic, purist, tourist,
+  real wings, true wings, proper wings, the real thing, sacrilege. Wings run on argument —
+  Buffalo against Rochester, flat against drum, bone-in against boneless, blue cheese
+  against ranch. Report every argument. Join none of them. When somebody says a boneless
+  wing is not a wing, quote them and name them; the sentence takes quotation marks or it
+  does not go in.
+  Chains, frozen bags, air fryers and party packs belong to the tradition and get described
+  the same way a bar with a forty-year fryer does.
+  Write short. Lead with a verb. Cut "the" and "what" wherever the sentence survives it.
+  Fewer adjectives, more verbs. Define every non-obvious word in a clause at first use.
+  Prices carry their date. No sentence that announces the next sentence. No closing summary.
+
+CAST LIST (ids that exist or are being written; link only to these)
+  style   buffalo rochester-breaded atlanta-lemon-pepper chicago-mild-sauce dc-mumbo
+          baltimore-old-bay nashville-hot memphis-dry-rub korean-american caribbean-jerk
+          alabama-white smoked-bbq-wing garlic-parm
+  sauce   buffalo-sauce franks-redhot crystal-hot-sauce mumbo-sauce mild-sauce
+          lemon-pepper-seasoning lemon-pepper-wet old-bay nashville-hot-oil memphis-rub
+          alabama-white-sauce jerk-marinade yangnyeom-sauce soy-garlic-sauce
+          honey-bbq-sauce garlic-parmesan-sauce blue-cheese-dressing ranch-dressing
+          hot-honey sweet-chili-sauce teriyaki-sauce mango-habanero
+  dish    celery-and-carrots french-fries jojo-potatoes beef-on-weck pizza-logs
+          garbage-plate chicken-riggies fried-rice-plate mumbo-fries white-bread-and-pickles
+          pickled-radish boneless-wings buffalo-chicken-dip buffalo-chicken-pizza
+          wing-basket mozzarella-sticks chicken-and-waffles the-pitcher
+  fry     wing-cut naked-fry breaded-fry double-fry baking-powder-bake deep-fryer
+          smoke-then-fry grill air-fryer the-toss frying-oil dredge brine par-cook
+          sauce-on-the-side
+  place   NY-Buffalo: anchor-bar duffs-famous-wings bar-bill-tavern gabriels-gate
+                      nine-eleven-tavern la-nova-pizzeria elmos-bar-and-restaurant
+                      mammosers-tavern wingnutz
+          NY-Rochester: jeremiahs-tavern country-sweet-chicken-and-ribs nicks-tavern
+          NY-other: atomic-wings blondies-sports-bar peppas-jerk-chicken
+          GA: american-deli jr-cricketts wing-cafe
+          IL: harolds-chicken-shack uncle-remus-saucy-fried-chicken
+          DC/MD: yums-carry-out horaces-and-dickies capital-city-mambo-sauce
+          TN: princes-hot-chicken-shack hattie-bs boltons-spicy-chicken-and-fish
+              chings-hot-wings central-bbq
+          AL: big-bob-gibson-bar-b-q
+          PA: chickie-and-petes
+          national chains: wingstop buffalo-wild-wings hooters bonchon
+  person  teressa-bellissimo frank-bellissimo dominic-bellissimo john-young drew-cerza
+          calvin-trillin thornton-prince andre-prince-jeffries bob-gibson harold-pierce
+          argia-b-collins angelo-cataldi al-morganti bill-simmons-el-wingador joey-chestnut
+          jim-disbrow antonio-swad adrian-miller
+  org     national-chicken-council city-of-buffalo buffalo-wing-trail
+          us-poultry-and-egg-association southern-foodways-alliance
+  event   national-buffalo-wing-festival wing-bowl national-chicken-wing-day
+          super-bowl-sunday
+  term    wing drumette flat wing-tip flapper party-wing buffalo-word naked wet-and-dry
+          extra-crispy boneless wing-night all-flats mumbo mild-sauce-word weck
+          hot-honey-word atomic
+          (a word and a sauce never share an id: the word takes -word where they collide)
+  art     chicken-shack-signs neon-chicken wing-festival-posters buffalo-murals
+          hot-sauce-labels rooster-weathervanes
+  story   the-origin-fight ranch-vs-blue-cheese the-flat-and-the-drum
+          boneless-is-not-a-wing the-price-of-a-wing free-to-use
+  Cities are not nodes; name them in address.city and in prose.
+
+VERIFICATION CORPUS
+  Plain-text copies of the Wikipedia articles this set cites sit in the scratchpad folder
+  named in your brief (wiki/*.txt, each with URL and revision). Read those before writing;
+  reach for WebFetch when a fact is not there. A fact you could not find gets written as
+  *Tradition holds —* or left out. Never invent a date, a quote, a price, a menu item or
+  a person's death.

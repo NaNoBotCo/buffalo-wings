@@ -1,0 +1,262 @@
+{
+ "id": "buffalo-word",
+ "names": {
+  "name": "Buffalo",
+  "aliases": [
+   "buffalo-style",
+   "buffalo sauce (attributive)"
+  ],
+  "said": "Lower-cased on most menus now, which is what happens to a place name that becomes a flavour."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "letter": "B",
+  "part_of_speech": "adjective"
+ },
+ "etymology": {
+  "root": "Buffalo, New York (the city) → attributive adjective meaning 'dressed in cayenne hot sauce and melted butter'; the city takes its name from Buffalo Creek, whose own name is disputed",
+  "first_attested": "25 August 1980, in the title of Calvin Trillin's New Yorker piece 'An Attempt to Compile a Short History of the Buffalo Chicken Wing' — the earliest dated printing this project can name, not a claim about the phrase's first use",
+  "note": "The creek's name is argued over. The Buffalo History Museum records the Seneca reading 'Place of the Basswood' for the area, and separately the *folk* etymology that French speakers called it beau fleuve, beautiful river — that one first appeared in print on 23 March 1895, in an unsigned Buffalo Evening News review of a talk by Rev. Samuel T. Clarke, and the museum notes that no copy of Clarke's speech survives, so nobody knows whether he offered evidence. Second *folk* reading, heard at tables everywhere: that the wing has something to do with bison. It does not.",
+  "tier": "cited",
+  "source": "s:web-buffalo-history-name"
+ },
+ "text": {
+  "what": "A city's name working as an adjective. Buffalo now modifies a sauce rather than a place: vinegar-based cayenne hot sauce cut with melted butter, and anything wearing it. The word travelled further than the bird it started on — it has been applied to boneless wings made from breast, to chicken fries, nuggets and popcorn chicken, to shrimp, to cauliflower, to dip and to pizza.",
+  "story": "Buffalo, New York is a port city at the head of the Niagara River, named for the creek. The wing took the city's name the way a garment district takes one: from outside. Nobody in Buffalo orders a Buffalo wing; they order wings, and the qualifier belongs to everyone else. *Inference —* that is the tell of a regional name that went national — the region drops it, the country picks it up.\n\nThe adjective then detached from the meat entirely. Once Buffalo meant a sauce, it could be put on a vegetable, and cauliflower dressed in cayenne and butter is Buffalo cauliflower without anybody claiming it is a wing. *Inference —* what carried is the flavour formula, not the animal, which is why the word survives a menu with no chicken on it at all.",
+  "how": "As an adjective it takes the front of the name: Buffalo wings, Buffalo shrimp, Buffalo chicken dip. Where a menu wants distance from the city it writes 'buffalo-style' instead, and where a chain wants the heat named it writes 'medium' and 'hot' after it."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "The style this word was cut from, and the only one that does not need it.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "What the adjective actually names: cayenne hot sauce and melted butter.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo-chicken-dip",
+   "as": "The adjective applied to a bowl, with no wing in it.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "The adjective applied to a pie, which is how far it has travelled.",
+   "rel": "dish"
+  },
+  {
+   "to": "boneless",
+   "as": "The other word the sauce carried onto breast meat.",
+   "rel": "term"
+  },
+  {
+   "to": "calvin-trillin",
+   "as": "Printed the phrase in The New Yorker in 1980 and sent it out of the city.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "The bar the word is usually traced to, in a claim other people contest.",
+   "rel": "place"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "The argument over who the adjective should be crediting.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:web-buffalo-history-name",
+  "s:trillin-1980",
+  "s:wp-buffalo-new-york"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-buffalo-history-name"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the city and creek facts are cited; the reading of how the adjective spread is this project's"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "A city's name working as an adjective. Buffalo now modifies a sauce rather than a place: vinegar-based cayenne hot sauce cut with melted butter, and anything wearing it.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style this word was cut from, and the only one that does not need it.",
+   "rel": "style"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "What the adjective actually names: cayenne hot sauce and melted butter.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The adjective applied to a bowl, with no wing in it.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "The adjective applied to a pie, which is how far it has travelled.",
+   "rel": "dish"
+  },
+  {
+   "to": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The other word the sauce carried onto breast meat.",
+   "rel": "term"
+  },
+  {
+   "to": "calvin-trillin",
+   "type": "person",
+   "name": "Calvin Trillin",
+   "as": "Printed the phrase in The New Yorker in 1980 and sent it out of the city.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "The bar the word is usually traced to, in a claim other people contest.",
+   "rel": "place"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "The argument over who the adjective should be crediting.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalo-history-name",
+   "kind": "org",
+   "title": "How Did Buffalo Get Its Name?",
+   "publisher": "The Buffalo History Museum",
+   "url": "https://buffalohistory.org/how-did-buffalo-get-its-name/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  },
+  {
+   "id": "s:wp-buffalo-new-york",
+   "kind": "wikipedia",
+   "title": "Buffalo, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo,_New_York",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "the city and creek facts are cited; the reading of how the adjective spread is this project's"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:web-buffalo-history-name"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "How a city's name came to mean a sauce.",
+   "rel": "term"
+  },
+  {
+   "from": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "How this sauce lent a city's name to every spiced fried thing on a national menu.",
+   "rel": "term"
+  },
+  {
+   "from": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "The clearest case of the word meaning a sauce rather than a city or a method.",
+   "rel": "term"
+  },
+  {
+   "from": "boneless",
+   "type": "term",
+   "name": "boneless",
+   "as": "The other word the sauce carried onto breast meat.",
+   "rel": "term"
+  }
+ ]
+}

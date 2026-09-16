@@ -1,0 +1,313 @@
+{
+ "id": "old-bay",
+ "names": {
+  "name": "Old Bay Seasoning",
+  "aliases": [
+   "Old Bay",
+   "the yellow can"
+  ],
+  "said": "In Baltimore it goes on the wings without being ordered, the way blue cheese arrives in Buffalo."
+ },
+ "region": [
+  "baltimore",
+  "us"
+ ],
+ "facets": {
+  "base": "dry-rub",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A blend of eighteen herbs and spices built on celery salt — salt and celery seed — with red pepper, black pepper and paprika. Bay leaves, mustard, cardamom, cloves and ginger are among the others listed for the original product held at the Baltimore Museum of Industry. Made for crab and shrimp; used on wings, fries, popcorn, eggs, corn and a great deal else across Maryland, Virginia and the rest of the Mid-Atlantic.",
+  "story": "Gustav Brunn built a wholesale spice business in Wertheim, Germany, selling to food industries when spices ran short in the hyperinflation after the First World War. The company moved to Frankfurt after the Nazi Party took power. Kristallnacht led to Brunn's arrest and his being sent to Buchenwald. According to his son, Brunn's wife paid a lawyer a large sum to get him released; the family already held American visas, and they escaped to New York City and then to Baltimore, where Brunn had relatives.\n\nHe arrived with a small spice grinder. In 1939 he founded the Baltimore Spice Company and produced \"Delicious Brand Shrimp and Crab Seasoning\", later renamed Old Bay after the Baltimore Steam Packet Company — the \"Old Bay Line\" — which ran passenger ships from Baltimore to Norfolk in the early 1900s.\n\nMcCormick & Company of Hunt Valley, Maryland bought the brand in 1990 and kept the yellow can. In 2017 McCormick switched Old Bay to plastic containers to cut packaging costs; in December 2025 it announced a return to metal cans.\n\nThe seasoning kept colonising things. Utz made a Crab Chip on a similar blend; Herr's uses Old Bay itself; Lay's brought out Chesapeake Bay Crab Spice chips in 2018. Baltimore bars sell a 'Crabby Bo' — a National Bohemian beer whose glass rim is wetted and dipped in the seasoning. Flying Dog brewed Dead Rise for the 75th anniversary in 2014, and George's Beverage Company made Old Bay vodka in 2022. McCormick launched Old Bay Hot Sauce ahead of Super Bowl LIV in 2020; the 10 fl oz bottles retailed at $3.49, sold out in thirty minutes, crashed the website, and resold online for between $50 and $200.",
+  "how": "Shaken over the wings hot out of the fryer, dry, with nothing wet underneath — the celery salt does the work a sauce would. Some Baltimore kitchens go wet: melted butter first, then the shake, which turns it into a paste that clings. Also goes on the fries in the same basket.",
+  "today": "Made by McCormick, sold in the yellow can again from December 2025. As of 16 September 2026 the USDA label panel recorded for the seasoning reads 140 mg sodium in a ¼-teaspoon serving; that works out to 1,680 mg in a tablespoon, a figure the arithmetic gives and nobody eats. The label declares no sugar line. There is no Scoville number for it and there never has been."
+ },
+ "kin": [
+  {
+   "to": "baltimore-old-bay",
+   "as": "The style is this can, applied to a wing.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "The other dry shake that owns a city; salt-and-celery against zest-and-black-pepper.",
+   "rel": "contrast"
+  },
+  {
+   "to": "memphis-rub",
+   "as": "The third dry answer, and the only one of the three built on sugar.",
+   "rel": "kin"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "Baltimore uses the same two words Atlanta does, and means the same thing by them.",
+   "rel": "term"
+  },
+  {
+   "to": "french-fries",
+   "as": "Gets the same shake in the same basket, usually without being asked for.",
+   "rel": "dish"
+  },
+  {
+   "to": "naked-fry",
+   "as": "Needs bare crisp skin; a breaded wing swallows the shake.",
+   "rel": "fry"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "as": "The yellow can is a label people recognise from across a shop.",
+   "rel": "art"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "memphis-rub",
+   "tell": "Sugar. A Memphis rub leads with brown sugar and browns on the wing; Old Bay leads with celery salt and stays powdery."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "dry-rub",
+  "maker": "McCormick & Company, Inc.",
+  "town": "Hunt Valley",
+  "state": "MD",
+  "ingredients": [
+   "celery salt (salt, celery seed)",
+   "spices (including red pepper and black pepper)",
+   "paprika"
+  ],
+  "pepper_rank": 2,
+  "vinegar_rank": 0,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 0,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 0.0417,
+  "sodium_mg_per_tbsp": 1680,
+  "sugar_g_per_tbsp": null,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-old-bay-seasoning",
+  "url": "https://fdc.nal.usda.gov/food-details/404289/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Label serving is ¼ tsp (0.6 g) = 0.0417 tbsp; label sodium 140 mg, so 140 × 12 = 1,680 mg per tablespoon. That is arithmetic for comparison, not a portion anybody serves. The USDA record carries the brand owner as Baltimore Spice Co and was last modified in 2017, before McCormick's packaging changes; the ingredient statement is the three-line short form, not the eighteen spices. sugar_g_per_tbsp is null because the panel declares no sugars line at all — not because it is zero. No Scoville number is published."
+ },
+ "sources": [
+  "s:wp-old-bay-seasoning",
+  "s:fdc-old-bay-seasoning",
+  "s:wp-super-bowl"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-old-bay-seasoning"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-old-bay-seasoning",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the dry and wet applications are Baltimore counter practice"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-old-bay-seasoning"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [
+  {
+   "file": "old-bay/old-bay-old-bay-seasoning.jpg",
+   "source": "commons",
+   "title": "File:Old Bay Seasoning.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Old_Bay_Seasoning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AOld_Bay_Seasoning.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "L1veb4y0udi3",
+   "credit": "Own work",
+   "alt": "Cropped version of \"Old Bay\". 16 oz. can of Old Bay spice with a small heap of its contents in the foreground.",
+   "date": "2015-04-21 00:12:07",
+   "primary": true,
+   "sha256": "f6863a5f5bf41eb2ab88c0da38180536b14701de31287b2efc41238bf18d9e01"
+  }
+ ],
+ "updated": "2026-09-16",
+ "recipes": [
+  {
+   "title": "Old Bay Seasoning, as labelled",
+   "source": "s:fdc-old-bay-seasoning",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/404289/nutrients",
+   "region": "Baltimore",
+   "ingredients": [
+    "celery salt (salt, celery seed)",
+    "spices (including red pepper and black pepper)",
+    "paprika"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. The label's three lines cover eighteen herbs and spices that the maker does not itemise; bay leaves, mustard, cardamom, cloves and ginger are among those named for the original product held at the Baltimore Museum of Industry."
+  }
+ ],
+ "blurb": "A blend of eighteen herbs and spices built on celery salt — salt and celery seed — with red pepper, black pepper and paprika.",
+ "region_terms": [
+  {
+   "key": "baltimore",
+   "name": "Baltimore",
+   "state": "MD",
+   "note": "Old Bay on everything, wings included"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "The style is this can, applied to a wing.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "The other dry shake that owns a city; salt-and-celery against zest-and-black-pepper.",
+   "rel": "contrast"
+  },
+  {
+   "to": "memphis-rub",
+   "type": "sauce",
+   "name": "Memphis dry rub",
+   "as": "The third dry answer, and the only one of the three built on sugar.",
+   "rel": "kin"
+  },
+  {
+   "to": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "Baltimore uses the same two words Atlanta does, and means the same thing by them.",
+   "rel": "term"
+  },
+  {
+   "to": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "Gets the same shake in the same basket, usually without being asked for.",
+   "rel": "dish"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "Needs bare crisp skin; a breaded wing swallows the shake.",
+   "rel": "fry"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "type": "art",
+   "name": "Hot sauce labels",
+   "as": "The yellow can is a label people recognise from across a shop.",
+   "rel": "art"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-old-bay-seasoning",
+   "kind": "wikipedia",
+   "title": "Old Bay Seasoning",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_Bay_Seasoning",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-old-bay-seasoning",
+   "kind": "dataset",
+   "title": "Old Bay Seasoning — branded food label (FDC ID 404289)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/404289/nutrients",
+   "accessed": "2026-09-16",
+   "note": "brand owner recorded as Baltimore Spice Co; label modified 2017"
+  },
+  {
+   "id": "s:wp-super-bowl",
+   "kind": "wikipedia",
+   "title": "Super Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-old-bay-seasoning"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-old-bay-seasoning"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the dry and wet applications are Baltimore counter practice"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:fdc-old-bay-seasoning"
+  }
+ },
+ "primary_image": {
+  "file": "old-bay/old-bay-old-bay-seasoning.jpg",
+  "source": "commons",
+  "title": "File:Old Bay Seasoning.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Old_Bay_Seasoning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3AOld_Bay_Seasoning.jpg",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "author": "L1veb4y0udi3",
+  "credit": "Own work",
+  "alt": "Cropped version of \"Old Bay\". 16 oz. can of Old Bay spice with a small heap of its contents in the foreground.",
+  "date": "2015-04-21 00:12:07",
+  "primary": true,
+  "sha256": "f6863a5f5bf41eb2ab88c0da38180536b14701de31287b2efc41238bf18d9e01"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "The blend the whole style is — celery salt, red and black pepper, paprika and fifteen more, built in Baltimore in 1939.",
+   "rel": "sauce"
+  },
+  {
+   "from": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "The other dry shake that owns a city; celery salt and paprika instead of zest and black pepper.",
+   "rel": "contrast"
+  },
+  {
+   "from": "memphis-rub",
+   "type": "sauce",
+   "name": "Memphis dry rub",
+   "as": "The other regional shaker, without the sugar and with celery salt doing the work.",
+   "rel": "contrast"
+  }
+ ]
+}

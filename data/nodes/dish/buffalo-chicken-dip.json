@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "buffalo-chicken-dip",
+ "names": {
+  "name": "buffalo chicken dip",
+  "aliases": [
+   "buffalo chicken wing dip",
+   "wing dip"
+  ],
+  "said": "Brought in the dish it was baked in, set on a towel, eaten with whatever is nearest."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Shredded chicken, cream cheese, cayenne-and-butter wing sauce and a dairy dressing, baked until it bubbles and eaten hot with chips, celery or bread. It takes the flavour of a wing and removes the bone, the skin, the fryer and the plate.",
+  "story": "The dish belongs to a wider pattern the wing set off. Buffalo as a name is now applied to other spiced fried foods served with dipping sauces — boneless wings, chicken fries, chicken nuggets, popcorn chicken, shrimp, cauliflower — and to dishes seasoned with the sauce rather than fried at all, pizza among them. The sauce travelled and the method stayed behind.\n\nThe occasion carried it. The Super Bowl is the second-largest event for American food consumption, behind Thanksgiving dinner, and a baked dip suits a room where nobody is running a fryer.\n\n*Tradition holds —* the dip is a 1990s-and-after home invention, spread by recipe cards, community cookbooks and hot-sauce marketing rather than by any restaurant. This project has not found a source that names a first cook or a first year, and the origin is recorded here as unsettled rather than as anyone's.",
+  "how": "Shred cooked chicken. Beat it into softened cream cheese with cayenne pepper sauce and butter, or with bottled wing sauce, then fold in blue cheese or ranch dressing and shredded cheese. Bake until it bubbles at the edge. Serve hot in the baking dish with celery, carrots, tortilla chips or torn bread. Cold, it sets solid and is reheated rather than eaten.",
+  "today": "A fixture of American party tables in winter, and a standing item in supermarket deli cases around the Super Bowl. *Inference —* the dip is how the Buffalo flavour reaches households that will not deep-fry indoors, which is most of them."
+ },
+ "kin": [
+  {
+   "to": "buffalo-sauce",
+   "as": "The cayenne-and-butter sauce this is built from, off the bottle rather than out of a bowl.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style whose taste this keeps and whose method it drops.",
+   "rel": "style"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "Folded in rather than served beside, which is the whole design of the dish.",
+   "rel": "sauce"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "The other dressing folded in, and the more common one nationally.",
+   "rel": "sauce"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Comes along as the dipper, doing at a party what it does on a plate.",
+   "rel": "dish"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "The day this is made for, on the second-biggest American eating day of the year.",
+   "rel": "event"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "The other thing Buffalo sauce does to breast meat when the wing gets expensive.",
+   "rel": "kin"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "The same move onto a different carrier.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-super-bowl",
+  "s:wp-frank-s-redhot",
+  "s:wp-blue-cheese-dressing",
+  "s:wp-ranch-dressing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the Buffalo-as-a-name and Super Bowl facts are cited; the origin paragraph is explicitly unsourced and hedged"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the method is the common home build; no cited recipe"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true
+}

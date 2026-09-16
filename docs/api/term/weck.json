@@ -1,0 +1,207 @@
+{
+ "id": "weck",
+ "names": {
+  "name": "weck",
+  "aliases": [
+   "kummelweck",
+   "kümmelweck",
+   "kimmelweck"
+  ],
+  "said": "Rhymes with deck. 'Beef on weck', never 'beef on a weck'."
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "letter": "W",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "German Weck 'bread roll' (the word of the southwestern dialects — Palatinate, Saarland, Baden, Swabia; northern Germans say Brötchen) ← Old High German wecki, weggi 'wedge; wedge-shaped baked good' ← Proto-West Germanic *wagi ← Proto-Germanic *wagjaz 'wedge'. The full compound is kummelweck: German Kümmel 'caraway' (← Middle High German kümel, kumel ← Old High German kumil ← Proto-West Germanic *kumil 'caraway, cumin seed') + Weck. So the name means, exactly, caraway roll — and the bread is a wedge before it is a roll.",
+  "first_attested": "",
+  "note": "*Tradition holds —* a German baker named William Wahr, thought to have come from the Black Forest, made the kummelweck in Buffalo, possibly working from the Swabian Schwäbische Seele, a thin salt-and-caraway loaf left as a ceremonial offering for the dead; a Western New York butcher puts the sandwich's creation in the mid-19th century. The record calls the sandwich's origin not well established, and this project leaves it there.",
+  "tier": "cited",
+  "source": "s:web-wiktionary-weck"
+ },
+ "text": {
+  "what": "Half of a sandwich name that lost its other half. Weck is the kummelweck roll: kosher salt and caraway seeds baked onto the top, softer and fluffier than the German Kümmelbrötchen it descends from. Buffalo-area bakeries are the only commercial source for it. Beef on weck — rare roast beef, hand-carved thin, the top of the roll dipped in jus, horseradish spread to taste — is one of the three foods Buffalo is known for, with wings and sponge candy.",
+  "story": "The roll is a German loan that stopped travelling. Weck is a dialect word from southwestern Germany, carried to a Great Lakes port by German bakers and then fixed to one sandwich in one region, where it stayed. *Inference —* that is why it reads as a Buffalo word rather than a German one: outside western New York nobody has a use for it, so nobody borrowed it further.\n\nIt reached the wing world sideways. Buffalo Wild Wings was started by former western New Yorkers and opened as \"Buffalo Wild Wings and Weck\", abbreviated BW3 — the third W was the weck. The company dropped the W in 1998, and some people still say BW3 anyway. The chain used to serve an updated version of the sandwich called the Thirty-Fifth Weck Sandwich.",
+  "how": "Ordered beside the wings, not instead of them: a Buffalo table that has ordered wings for the room orders a beef on weck for whoever did not want sauce on their hands. A pub owner is said to have used the salty roll to sell more drinks, which is the same trade a wing night makes."
+ },
+ "kin": [
+  {
+   "to": "beef-on-weck",
+   "as": "The sandwich this word is the second half of.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Opened as Buffalo Wild Wings and Weck, which is what the third W in BW3 stood for.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "as": "The city's other famous plate, and the one wings share a table with.",
+   "rel": "style"
+  },
+  {
+   "to": "wing",
+   "as": "What gets ordered with it, by the room rather than the person.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-pitcher",
+   "as": "The salt on the roll was said to be selling this, the way a wing special does.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-beef-on-weck",
+  "s:web-wiktionary-weck",
+  "s:web-wiktionary-kummel",
+  "s:wp-buffalo-wild-wings"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-beef-on-weck"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-wiktionary-weck",
+    "note": "the Kümmel chain is from Wiktionary's German entry, which stops at Proto-West Germanic and does not carry it back to Latin cuminum"
+   },
+   "text.story": {
+    "tier": "inference",
+    "note": "the BW3 facts and the dialect range are cited; the reading of why the word stayed put is this project's"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16",
+ "blurb": "Half of a sandwich name that lost its other half. Weck is the kummelweck roll: kosher salt and caraway seeds baked onto the top, softer and fluffier than the German Kümmelbrötchen it descends from.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "The sandwich this word is the second half of.",
+   "rel": "dish"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "Opened as Buffalo Wild Wings and Weck, which is what the third W in BW3 stood for.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The city's other famous plate, and the one wings share a table with.",
+   "rel": "style"
+  },
+  {
+   "to": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "What gets ordered with it, by the room rather than the person.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "The salt on the roll was said to be selling this, the way a wing special does.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-beef-on-weck",
+   "kind": "wikipedia",
+   "title": "Beef on weck",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beef_on_weck",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wiktionary-weck",
+   "kind": "web",
+   "title": "Weck",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/Weck",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wiktionary-kummel",
+   "kind": "web",
+   "title": "Kümmel",
+   "publisher": "Wiktionary",
+   "url": "https://en.wiktionary.org/wiki/K%C3%BCmmel",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wild-wings",
+   "kind": "wikipedia",
+   "title": "Buffalo Wild Wings",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_Wild_Wings",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-beef-on-weck"
+  },
+  "text.story": {
+   "tier": "inference",
+   "note": "the BW3 facts and the dialect range are cited; the reading of why the word stayed put is this project's"
+  },
+  "text.how": {
+   "tier": "tradition"
+  },
+  "etymology": {
+   "tier": "cited",
+   "source": "s:web-wiktionary-weck",
+   "note": "the Kümmel chain is from Wiktionary's German entry, which stops at Proto-West Germanic and does not carry it back to Latin cuminum"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "The word for the roll, and the German dialect behind it.",
+   "rel": "term"
+  },
+  {
+   "from": "jim-disbrow",
+   "type": "person",
+   "name": "Jim Disbrow",
+   "as": "The word he kept in a chain's name for sixteen years before dropping it.",
+   "rel": "term"
+  }
+ ]
+}

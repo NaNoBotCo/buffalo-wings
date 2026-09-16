@@ -1,0 +1,151 @@
+{
+ "schema": 1,
+ "id": "jr-cricketts",
+ "type": "place",
+ "names": {
+  "name": "J.R. Crickets",
+  "aliases": [
+   "The Original J.R. Crickets",
+   "JR Cricket's"
+  ],
+  "sort": "J.R. Crickets"
+ },
+ "region": [
+  "atlanta"
+ ],
+ "facets": {
+  "state": "GA",
+  "status": "open",
+  "founded": 1982,
+  "cooked": "fried",
+  "styles": [
+   "atlanta-lemon-pepper",
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A Midtown Atlanta wing bar open since 1982, founded by Paul Juliano, who still runs it. Its lemon pepper wet — medium wing sauce with dry lemon pepper shaken over the top — is the wing a television episode made famous, under a name the kitchen did not give it. The house line is “Chicken Is Chicken, but the Wing Is the Thing!”",
+  "story": "Paul Juliano opened the Original J.R. Crickets in Midtown Atlanta in 1982; he is the founder and president, and CBS News Atlanta filmed him in the Midtown kitchen in 2026. *Tradition holds —* that Juliano came from Buffalo, New York, and gave the wings away by the sample because Atlanta had not met them yet. This project found that account only in press summaries it could not open directly, so it stays hedged here.\n\nThe lemon pepper wet order arrived sideways. *Tradition holds —* that a cook named the buffalo-and-lemon combination the Fester after what he thought of it, and that customers ordered the Fester as lemon pepper wet for years; the Atlanta press carries that account, and this project has it secondhand. Then the second episode of Donald Glover's FX series Atlanta put lemon pepper wet in a character's hands and named this restaurant. The writer Stephen Glover has said he wanted the character handed something that was not on the menu, and that the wing he pictured came from the American Deli. In 2017 J.R. Crickets put lemon pepper wet on its own menu under that name.\n\nJuliano told CBS News Atlanta the house lemon pepper has “at least two items in it - ingredients - that nobody else uses.”",
+  "today": "Thirteen locations were listed in September 2026, including the Midtown original at 129 North Avenue, stands inside Mercedes-Benz Stadium and State Farm Arena, and outposts in Tuscaloosa, Alabama and Fort Collins, Colorado. CBS News Atlanta reported the Midtown kitchen running about four thousand wings a day. In March 2026 an Atlanta Journal-Constitution blind tasting of eight finalists put J.R. Crickets first for lemon pepper."
+ },
+ "geo": {
+  "lat": 33.7710457,
+  "lon": -84.383192,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "129 North Avenue NE",
+  "city": "Atlanta",
+  "county": "Fulton",
+  "state": "GA",
+  "postcode": "30308"
+ },
+ "links": [
+  {
+   "label": "J.R. Crickets",
+   "url": "https://jrcrickets.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "bar",
+   "source": "s:web-jr-crickets",
+   "tier": "cited",
+   "note": "the house bills itself as a sports bar and lists beer alongside the wings"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-cbs-atlanta-lemon-pepper",
+   "tier": "cited",
+   "note": "Paul Juliano on the house lemon pepper: \"at least two items in it - ingredients - that nobody else uses\""
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-jr-crickets-locations",
+   "tier": "cited",
+   "note": "posted closing times of 1 a.m. and 2 a.m. at the Cascade, Northlake, Union City and South Cobb rooms"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "local-press",
+   "what": "The Atlanta Journal-Constitution blind-tasted eight finalists and ranked J.R. Crickets first for lemon pepper wings",
+   "year": 2026,
+   "source": "s:web-ajc-lemon-pepper-2026",
+   "url": "https://www.ajc.com/food-and-dining/2026/03/if-youre-looking-for-atlantas-best-lemon-pepper-wings-weve-found-them/"
+  },
+  {
+   "by": "other",
+   "what": "Named on screen in the second episode of the FX series Atlanta, which sent readers looking for lemon pepper wet",
+   "year": 2016,
+   "source": "s:wp-lemon-pepper-wings"
+  }
+ ],
+ "kin": [
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "Put the city's wet version on a menu under that name in 2017, after customers had ordered it that way for years.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "as": "Sold here as the Fester long before it was sold here as lemon pepper wet.",
+   "rel": "sauce"
+  },
+  {
+   "to": "american-deli",
+   "as": "The counter the show's writer says he actually had in mind when the wings went on screen here.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Runs underneath the city's lemon pepper here: the wet order is a medium wing sauce with dry seasoning shaken over it.",
+   "rel": "style"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "One of the two dips this bar puts beside a wing, against ranch, the way a Buffalo room would.",
+   "rel": "sauce"
+  },
+  {
+   "to": "all-flats",
+   "as": "The Atlanta order the 2 Chainz line fixed in place: twenty pieces, all flats, lemon pepper.",
+   "rel": "term"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "Two words that start every wing order at this counter.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-lemon-pepper-wings",
+  "s:web-jr-crickets",
+  "s:web-jr-crickets-locations",
+  "s:web-cbs-atlanta-lemon-pepper",
+  "s:web-ajc-lemon-pepper-2026",
+  "s:web-atlanta-eats-lemon-pepper"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-jr-crickets"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim, 129 North Avenue NE, Old Fourth Ward, Atlanta"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-lemon-pepper-wings"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

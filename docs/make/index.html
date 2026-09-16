@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Make — Wing Country</title>
+<meta name="description" content="Build a wing sauce by style and taste, a rub from nothing at all out to a full barbecue one, or the dip beside the basket. Every proportion says whether it came from a published recipe or from this project.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="color-scheme" content="light dark">
+<meta property="og:site_name" content="Wing Country"><meta property="og:locale" content="en_US">
+<meta property="og:title" content="Make — Wing Country"><meta property="og:description" content="Build a wing sauce by style and taste, a rub from nothing at all out to a full barbecue one, or the dip beside the basket. Every proportion says whether it came from a published recipe or from this pr"><meta property="og:type" content="website">
+<meta property="og:image" content="https://nanobotco.github.io/buffalo-wings/cards/make.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Make a wing sauce, a rub or a dip"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/buffalo-wings/cards/make.jpg"><meta name="twitter:image:alt" content="Make a wing sauce, a rub or a dip"><meta name="twitter:title" content="Make — Wing Country"><meta name="twitter:description" content="Build a wing sauce by style and taste, a rub from nothing at all out to a full barbecue one, or the dip beside the basket. Every proportion says whether it came from a published recipe or from this pr">
+<link rel="canonical" href="https://nanobotco.github.io/buffalo-wings/make/">
+
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#b5431f">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Wing Country" href="../opensearch.xml">
+<link rel="alternate" type="application/atom+xml" title="Wing Country updates" href="../feed.xml">
+<style>
+.dials{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;background:var(--panel);
+  border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:.6rem 0 1.2rem}
+.dial b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);
+  font-family:var(--sign,sans-serif);margin-bottom:.4rem}
+.dial .opts{display:flex;flex-wrap:wrap;gap:.35rem}
+.dial button{font:inherit;font-size:.86rem;font-family:var(--ui,sans-serif);padding:.32rem .72rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.dial button[aria-pressed=true]{background:var(--sauce);border-color:var(--sauce);color:#fff}
+.recipe{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.3rem}
+.recipe h3{margin:.1rem 0 .1rem;font-size:1.3rem}
+.recipe .says{color:var(--mute);font-style:italic;margin:0 0 .9rem}
+.recipe ul{list-style:none;margin:.2rem 0 1rem;padding:0}
+.recipe li{display:flex;gap:.7rem;padding:.3rem 0;border-bottom:1px dotted var(--line);font-size:1rem}
+.recipe li .q{flex:0 0 9.5rem;text-align:right;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:520px){.recipe li{flex-direction:column;gap:0}.recipe li .q{text-align:left;flex:none}}
+.recipe li.zero{display:none}
+.recipe ol{margin:.2rem 0 1rem;padding-left:1.2rem}.recipe ol li{display:list-item;border:0;padding:.15rem 0}
+.recipe .prov{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);padding-top:.7rem;margin-top:.4rem}
+.sugarline{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:.2rem 0 .3rem}
+.sugarline b{font-size:1.5rem;font-family:var(--display,serif)}
+.nearby{font-size:.88rem;color:var(--mute);margin:.5rem 0 0}
+.mk-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+
+.tabs{display:flex;gap:.4rem;margin:.2rem 0 1rem}
+.tabs button{font:inherit;font-family:var(--sign,sans-serif);font-size:.95rem;letter-spacing:.04em;padding:.5rem 1.1rem;
+  border-radius:999px;border:2px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--sauce);border-color:var(--sauce);color:#fff}
+.panel[hidden]{display:none}
+.carolina-note{background:var(--panel);border-left:5px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.2rem 0 1rem;font-size:.95rem}
+.per{font-size:.86rem;color:var(--mute);margin:.1rem 0 .8rem}
+
+.viz{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:1rem 0}
+.viz h3{margin:.1rem 0 .2rem;font-size:1.06rem}.viz .note{font-size:.86rem;color:var(--mute);margin:.1rem 0 .7rem}
+.viz svg{width:100%;height:auto;display:block;overflow:visible}
+.viz .axis{font:500 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .rowlab{font:600 13px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--ink)}
+.viz .vallab{font:600 11.5px -apple-system,"Segoe UI",Roboto,sans-serif;fill:var(--mute)}
+.viz .grid{stroke:var(--line);stroke-width:1}
+.viz .dot{fill:var(--sauce);stroke:var(--panel);stroke-width:2}
+.viz .med{stroke:var(--ink);stroke-width:2;stroke-linecap:round}
+.viz .seg{stroke:var(--panel);stroke-width:2}
+.viz figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
+.legend-row{display:flex;flex-wrap:wrap;gap:.45rem .9rem;margin:.5rem 0 .2rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.legend-row span{display:inline-flex;align-items:center;gap:.35rem;color:var(--ink)}
+.legend-row i{width:.78rem;height:.78rem;border-radius:3px;display:inline-block}
+details.tbl{margin:.6rem 0 0}details.tbl summary{cursor:pointer;font-size:.86rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+details.tbl table{font-size:.86rem;margin-top:.5rem}
+.smallmult{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.9rem;margin-top:.7rem}
+.smallmult figure{margin:0;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:.5rem .55rem}
+.smallmult figcaption{font-size:.84rem;color:var(--ink);font-weight:600;margin:0 0 .25rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.smallmult figcaption small{display:block;font-weight:400;color:var(--mute);font-size:.76rem}
+</style>
+<style>
+:root{--bg:#f7f4ec;--panel:#fffdf6;--ink:#1d1a16;--mute:#6a6257;--line:#e3ddcd;--sauce:#cf4a1e;--smoke:#4a4540;--gold:#b08505;--lemon:#c2960a;--hot:#98301a;--blue:#2f5d8c;--celery:#5c8236;--focus:#1f5fa8;--chip:#efe9da;
+  /* A wing joint letters its own board and hangs it over the fryer. Headings take a
+     geometric sign face, labels take the fat caps of a bar special, and the reading
+     text stays a plain humanist sans. All of it sits on the reader's machine already. */
+  --display:Futura,"Futura Medium","Century Gothic","Avenir Next","Trebuchet MS",sans-serif;
+  --sign:"Arial Black","Helvetica Neue Black",Impact,Haettenschweiler,"Franklin Gothic Heavy",sans-serif;
+  --body:"Avenir Next",Avenir,"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15130f;--panel:#1e1b16;--ink:#f3eee2;--mute:#b2a998;--line:#332e25;--sauce:#f2703f;--smoke:#cfc4b4;--gold:#dfb45a;--lemon:#e8c245;--hot:#f08a6b;--blue:#84aede;--celery:#9ec96f;--focus:#8ab4f8;--chip:#282219}}
+:root[data-theme="dark"]{--bg:#15130f;--panel:#1e1b16;--ink:#f3eee2;--mute:#b2a998;--line:#332e25;--sauce:#f2703f;--smoke:#cfc4b4;--gold:#dfb45a;--lemon:#e8c245;--hot:#f08a6b;--blue:#84aede;--celery:#9ec96f;--focus:#8ab4f8;--chip:#282219}
+*{box-sizing:border-box}html{font-size:19px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.62;font-size:1.02rem}
+a{color:var(--sauce);text-decoration-thickness:.07em;text-underline-offset:.16em}a:hover{color:var(--hot)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+header.top{border-bottom:1px solid var(--line);padding:.7rem 1rem;max-width:66rem;margin:0 auto;display:flex;gap:.6rem 1.2rem;flex-wrap:wrap;align-items:baseline}
+header.top .brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:.01em}header.top .brand b{color:var(--sauce)}
+nav.crumbs{font-size:.84rem;color:var(--mute);font-family:var(--ui)}nav.crumbs a{text-decoration:none}nav.crumbs a:hover{text-decoration:underline}
+main{max-width:66rem;margin:0 auto;padding:1.2rem 1rem 4rem}
+h1{font-family:var(--display);font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.08;margin:.5rem 0 .3rem;font-weight:700;letter-spacing:-.005em}h1 .kind{display:block;font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-family:var(--sign);margin-bottom:.5rem}
+h2{font-family:var(--display);font-size:1.32rem;margin:1.8rem 0 .5rem;border-bottom:2px solid var(--line);padding-bottom:.25rem;font-weight:700}
+h3{font-family:var(--display);font-size:1.06rem;margin:1rem 0 .3rem;font-weight:700}
+.said{font-style:italic;color:var(--mute);margin:.2rem 0 .8rem}.lede{font-size:1.12rem;margin:.2rem 0 1rem}.mute{color:var(--mute)}
+p{margin:.55rem 0}.prose p{margin:.7rem 0}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1.3rem 2.4rem;align-items:start;margin-top:.8rem}
+.dir section{margin:0}.dir h2{margin:.2rem 0 .3rem;border:0;font-size:1.14rem;font-family:var(--display)}.dir h2 a{text-decoration:none;color:var(--ink)}.dir h2 a:hover{color:var(--sauce)}
+.dir ul{list-style:none;margin:0;padding:0 0 0 .7rem;border-left:2px solid var(--line)}.dir li{margin:.14rem 0}.dir li.sub{padding-left:.9rem;font-size:.95rem}
+.count{color:var(--mute);font-size:.85em;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.chip{display:inline-block;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;font-size:.78rem;margin:.1rem .25rem .1rem 0;color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.tier-cited{border-color:var(--focus)}.tier-harvested{border-color:var(--smoke)}.tier-tradition{border-color:var(--gold)}.tier-inference{border-style:dashed}.tier-field{border-color:var(--sauce)}
+table{border-collapse:collapse;width:100%;margin:.4rem 0 1rem;font-size:.95rem}th,td{text-align:left;vertical-align:top;padding:.45rem .5rem;border-bottom:1px solid var(--line)}th{width:28%;color:var(--mute);font-weight:600}
+.kin{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.9rem}.kin a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem;text-decoration:none;color:var(--ink);position:relative}
+.kin a.card b{display:block;font-size:1.03rem;color:var(--sauce);font-family:var(--display);font-weight:700}.kin a.card small{display:block;font-size:.7rem;color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-family:var(--sign)}.kin a.card span{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.kin a.card:hover b{color:var(--hot)}
+figure{margin:0 0 1rem;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.6rem}figure img{width:100%;height:auto;max-height:32rem;object-fit:contain;border-radius:8px;display:block}figcaption{font-size:.8rem;color:var(--mute);margin-top:.4rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(12rem,1fr));gap:.7rem}.gallery figure{margin:0}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.6rem;align-items:center;margin:.6rem 0 1.4rem}.hero h1{font-family:var(--display);font-size:clamp(2.3rem,6vw,3.7rem);letter-spacing:-.01em}.hero .sub{font-size:1.15rem;color:var(--mute);font-style:italic;max-width:32rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}html{font-size:18px}}
+.mapwrap{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.5rem}.mapwrap svg{width:100%;height:auto;display:block}
+.facts{display:flex;flex-wrap:wrap;gap:.8rem;margin:.6rem 0 1.2rem}.fact{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;min-width:8rem;text-align:center}.fact .n{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}.fact .l{font-size:.76rem;color:var(--mute);margin-top:.28rem;font-family:var(--sign);text-transform:uppercase;letter-spacing:.09em}
+.search{display:flex;gap:.5rem;margin:.6rem 0 1rem}.search input{flex:1;font:inherit;font-size:1.1rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink)}.search button{font:inherit;padding:.6rem 1rem;border-radius:10px;border:2px solid var(--sauce);background:var(--sauce);color:#fff;cursor:pointer}
+.tierline{font-size:.9rem;color:var(--mute);margin:.2rem 0 .8rem}.legend{font-size:.85rem;color:var(--mute);border-top:1px solid var(--line);margin-top:2rem;padding-top:.6rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1rem;align-items:start}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:88% center;border-radius:9px;margin-bottom:.55rem;display:block;background:var(--chip)}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem}.card a.t{font-family:var(--display);font-weight:700;text-decoration:none;font-size:1.06rem}.card p{margin:.3rem 0 0;font-size:.9rem;color:var(--mute)}
+footer{max-width:66rem;margin:0 auto;padding:1rem;color:var(--mute);font-size:.85rem;border-top:1px solid var(--line);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}.bots a{margin-right:.7rem}
+.btn{display:inline-block;padding:.55rem 1.05rem;border-radius:999px;background:var(--sauce);color:#fff;text-decoration:none;font-weight:700;border:2px solid var(--sauce);font-family:var(--sign);font-size:.92rem;letter-spacing:.03em}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}.btn:hover{color:#fff;filter:brightness(1.08)}.btn.ghost:hover{color:var(--ink);border-color:var(--sauce)}
+.cta{display:flex;gap:.6rem;flex-wrap:wrap;margin:.8rem 0}
+.etym{background:var(--panel);border-left:4px solid var(--lemon);border-radius:0 12px 12px 0;padding:.7rem 1rem;margin:.8rem 0}
+.wander{font-size:.85rem;color:var(--mute)}
+.pl-list{columns:2;column-gap:2.4rem;font-size:.95rem}.pl-list h3{break-after:avoid;margin:.6rem 0 .2rem}.pl-list ul{margin:0 0 .5rem;padding-left:1rem}@media(max-width:700px){.pl-list{columns:1}}
+mark.tier{background:transparent;color:var(--mute);font-style:italic}
+.whenbox{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem;margin:.4rem 0 1rem}
+.whenbox .hrs{margin:.55rem 0 0;font-size:.95rem}
+.whenbox .hrs.sold{color:var(--sauce);font-weight:600}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0}@media(max-width:700px){.two-up{grid-template-columns:1fr}}
+.pitch{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tagrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.5rem 0 .3rem}
+.tagrow a.tg,.tagrow span.tg{display:inline-flex;align-items:center;gap:.3rem;background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:.15rem .7rem;font-size:.84rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;text-decoration:none;color:var(--ink)}
+.tagrow a.tg:hover{border-color:var(--sauce)}
+.tagrow .tg.own{border-color:var(--gold)}.tagrow .tg.welcome{border-color:#9b59b6}.tagrow .tg.pit{border-color:var(--sauce)}
+.acc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.3rem 0 .6rem;font-size:.86rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.acc b{color:var(--gold)}
+.recipe{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:.8rem 1rem;margin:.8rem 0}
+.recipe h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.recipe .src{font-size:.82rem;color:var(--mute);font-family:-apple-system,"Segoe UI",Roboto,sans-serif}
+.recipe .txt{white-space:pre-wrap;margin:.5rem 0 0;font-size:.97rem}
+.recipe ul{margin:.4rem 0 0;padding-left:1.1rem}
+.sect{margin:1.2rem 0}
+.gal2{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.8rem;margin:.6rem 0}
+.gal2 figure{margin:0}
+@media (prefers-reduced-motion: no-preference){.kin a.card,.card,.fact{transition:transform .18s ease,box-shadow .18s ease}.kin a.card:hover,.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.09)}.btn{transition:transform .15s ease}.btn:hover{transform:scale(1.04)}.search input{transition:box-shadow .2s}.search input:focus{box-shadow:0 0 0 4px color-mix(in srgb,var(--sauce) 22%,transparent)}.mapwrap circle.p{transition:r .15s ease}.mapwrap circle.p:hover{r:6}}
+
+.shareme{margin:2.6rem 0 .4rem;padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.shareme b{display:block;font-size:.95rem;margin-bottom:.55rem}
+.shareme .row{display:flex;flex-wrap:wrap;gap:.45rem}
+.shareme a,.shareme button{font:inherit;font-size:.87rem;font-family:-apple-system,"Segoe UI",Roboto,sans-serif;padding:.4rem .85rem;border-radius:999px;
+  border:1.5px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.35rem}
+.shareme a:hover,.shareme button:hover{border-color:var(--sauce);color:var(--sauce)}
+.shareme .said{font-size:.85rem;color:var(--mute);margin-left:.4rem}
+.shareme .copy{border-color:var(--sauce);color:#fff;background:var(--sauce)}
+.shareme .copy:hover{color:#fff;filter:brightness(1.08)}
+
+.daystrip{height:26px;width:176px;display:block}
+.daykey{font-size:.76rem;color:var(--mute);display:inline-flex;align-items:center;gap:.3rem;font-family:var(--ui,sans-serif)}
+.daykey i{width:.7rem;height:.9rem;border-radius:3px;display:inline-block;margin-left:.5rem}
+.daykey i.on{background:var(--sauce);border:1.6px solid var(--sauce)}
+.daykey i.off{border:1.6px solid var(--mute)}
+.daykey i.unk{border:1.6px dashed var(--line)}
+.sunday-yes{color:var(--sauce);font-weight:700}
+.sunday-no{color:var(--mute)}
+</style>
+
+</head>
+<body>
+<header class="top"><a class="brand" href="../index.html">Wing <b>Country</b></a>
+<nav class="crumbs"><a href="../index.html">Directory</a> · <a href="../near/index.html">Near me</a> · <a href="../places/index.html">Map</a> · <a href="../sauce/index.html">The bottle</a> · <a href="../make/index.html">Make</a> · <a href="../wing/index.html">The bird</a> · <a href="../numbers/index.html">Numbers</a> · <a href="../art/index.html">Signs</a> · <a href="../stories/index.html">Stories</a> · <a href="../quiz/index.html">Quiz</a> · <a href="../search/index.html">Search</a> · <a href="../words/index.html">Words</a> · <a href="../sources/index.html">Where we got it</a> · <a href="../coverage/index.html">Where this stops</a> · <a href="../api/index.json">API</a> · <a href="../llms.txt">llms.txt</a> · <a class="wander" href="../wander.html" title="a page at random">🎲 Wander</a></nav></header>
+<main>
+
+<h1><span class="kind">Wing Country</span>Make</h1>
+<p class="lede">Build a sauce, a rub or a dip from sources this site can cite. A published recipe gets named where one
+exists. Everything else states plainly that the proportions are ours.</p>
+
+<div class="tabs" role="tablist">
+  <button type="button" role="tab" data-panel="sauce" aria-selected="true">A sauce</button>
+  <button type="button" role="tab" data-panel="rub" aria-selected="false">A rub</button>
+  <button type="button" role="tab" data-panel="dip" aria-selected="false">A dip</button>
+</div>
+
+<section class="panel" id="panel-sauce">
+<div class="dials">
+  <div class="dial"><b>Style</b><div class="opts" data-dial="base"><button type="button" data-v="buffalo" aria-pressed="true">Cayenne and butter</button><button type="button" data-v="lemon-pepper-wet" aria-pressed="false">Lemon pepper, wet</button><button type="button" data-v="jerk" aria-pressed="false">Jerk</button><button type="button" data-v="teriyaki" aria-pressed="false">Soy and sweet</button><button type="button" data-v="hot-honey" aria-pressed="false">Hot honey</button><button type="button" data-v="alabama-white" aria-pressed="false">Alabama white</button><button type="button" data-v="garlic-parm" aria-pressed="false">Garlic and parmesan</button></div></div>
+  <div class="dial"><b>Heat</b><div class="opts" data-dial="heat"><button type="button" data-v="mild" aria-pressed="false">Mild</button><button type="button" data-v="medium" aria-pressed="true">Medium</button><button type="button" data-v="hot" aria-pressed="false">Hot</button><button type="button" data-v="atomic" aria-pressed="false">Make it hurt</button></div></div>
+  <div class="dial"><b>Sweetness</b><div class="opts" data-dial="sweet"><button type="button" data-v="dry" aria-pressed="false">Not sweet</button><button type="button" data-v="little" aria-pressed="false">A little</button><button type="button" data-v="sweet" aria-pressed="true">Sweet</button><button type="button" data-v="sweeter" aria-pressed="false">Sweeter</button></div></div>
+  <div class="dial"><b>How much</b><div class="opts" data-dial="batch"><button type="button" data-v="cup" aria-pressed="true">a cup — ten wings</button><button type="button" data-v="pint" aria-pressed="false">a pint — fifty wings</button><button type="button" data-v="quart" aria-pressed="false">a quart — a party</button></div></div>
+</div>
+
+<div class="recipe" id="out"></div>
+
+</section>
+
+<section class="panel" id="panel-rub" hidden>
+<p class="carolina-note">At a Buffalo counter the wing goes into the oil bare and nothing is on it. Seasoning happens after the fryer, in a metal bowl, with sauce. A rub belongs to the dry half of the menu — Memphis, Atlanta, Baltimore, the smoker — and to wings that get baked or grilled rather than fried. Salt early and you draw water out of the skin, which is the one thing you do not want before a fryer.</p>
+<div class="dials">
+  <div class="dial"><b>How far out</b><div class="opts" data-dial="level"><button type="button" data-v="nothing" aria-pressed="false">Nothing at all</button><button type="button" data-v="salt-pepper" aria-pressed="true">Salt and black pepper</button><button type="button" data-v="lemon-pepper" aria-pressed="false">Lemon pepper</button><button type="button" data-v="jerk" aria-pressed="false">Jamaican jerk spice</button><button type="button" data-v="barbecue" aria-pressed="false">A barbecue dry rub</button></div></div>
+  <div class="dial"><b>How many wings</b><div class="opts" data-dial="meat"><button type="button" data-v="ten" aria-pressed="false">Ten pieces</button><button type="button" data-v="twenty" aria-pressed="true">Twenty pieces</button><button type="button" data-v="fifty" aria-pressed="false">Fifty pieces</button><button type="button" data-v="hundred" aria-pressed="false">A hundred pieces</button></div></div>
+  <div class="dial"><b>Heat</b><div class="opts" data-dial="heat"><button type="button" data-v="none" aria-pressed="false">No heat</button><button type="button" data-v="mild" aria-pressed="false">Mild</button><button type="button" data-v="medium" aria-pressed="true">Medium</button><button type="button" data-v="hot" aria-pressed="false">Hot</button></div></div>
+</div>
+<div class="recipe" id="rubout"></div>
+<p class="legend">Amounts per pound are this project's rule of thumb, not a kitchen's measurement — the proportions
+inside each level are the cited thing. Ten pieces is taken as a pound.</p>
+</section>
+
+<section class="panel" id="panel-dip" hidden>
+<p class="carolina-note">Buffalo serves blue cheese and America buys ranch, by a distance. Both are cold, both are mostly fat, and both exist to put out a fire the sauce started. Make either one the day before — the garlic and the pepper need the night.</p>
+<div class="dials">
+  <div class="dial"><b>Which dip</b><div class="opts" data-dial="kind"><button type="button" data-v="blue-cheese" aria-pressed="true">Blue cheese</button><button type="button" data-v="ranch" aria-pressed="false">Buttermilk ranch</button><button type="button" data-v="hot-wing-dip" aria-pressed="false">Hot wing dip</button><button type="button" data-v="alabama-white" aria-pressed="false">Alabama white</button></div></div>
+  <div class="dial"><b>How much</b><div class="opts" data-dial="size"><button type="button" data-v="cup" aria-pressed="true">One cup</button><button type="button" data-v="pint" aria-pressed="false">A pint</button><button type="button" data-v="quart" aria-pressed="false">A quart</button><button type="button" data-v="crowd" aria-pressed="false">A Super Bowl</button></div></div>
+  <div class="dial"><b>Sweetness</b><div class="opts" data-dial="sweet"><button type="button" data-v="dry" aria-pressed="false">Barely</button><button type="button" data-v="some" aria-pressed="true">Some</button><button type="button" data-v="sweet" aria-pressed="false">Sweeter</button></div></div>
+  <div class="dial"><b>Heat</b><div class="opts" data-dial="heat"><button type="button" data-v="none" aria-pressed="false">None</button><button type="button" data-v="some" aria-pressed="true">Some</button><button type="button" data-v="more" aria-pressed="false">More</button></div></div>
+</div>
+<div class="recipe" id="slawout"></div>
+<p class="legend">Quantities scale off the finished cup. Three of the four keep a Wikibooks recipe's own proportions
+under CC BY-SA; the fourth says it is ours.</p>
+</section>
+
+<p class="legend">Sugar is worked out from the quantities on screen: 12.6 g of sugar in a
+tablespoon of sugar, 17.0 g in honey, 10.0 g in molasses,
+3.7 g in ketchup. The bottles it is drawn against were read off their own labels for
+<a href="../sauce/index.html">the sauce page</a>. A cayenne-and-butter sauce lands at nothing, and a honey one lands near
+the top — same wing, two different foods.</p>
+
+<script>
+(function(){
+var B={"note": "Every proportion here names where it came from, because a builder that invented recipes would undo the rest of this site. Where a free-to-use recipe exists it is used in its own ratios and credited. Where none exists — and for a cayenne-and-butter wing sauce none does — the proportions are this project's own and say so under the result. Sugar under each result is computed from the quantities on screen, at 12.6 g of sugar in a tablespoon of sugar, 17 g in honey, 10 g in molasses and 3.7 g in ketchup, and drawn against the bottles read for the sauce page. A sauce you make generally lands nowhere near them.", "sugar_g_per_tbsp": {"sugar": 12.6, "brown sugar": 12.6, "molasses": 10.0, "ketchup": 3.7, "honey": 17.0}, "tbsp_per": {"tsp": 0.3333, "tbsp": 1, "cup": 16, "quart": 64, "gallon": 256}, "batches": [{"key": "cup", "label": "a cup — ten wings", "tbsp": 16}, {"key": "pint", "label": "a pint — fifty wings", "tbsp": 32}, {"key": "quart", "label": "a quart — a party", "tbsp": 64}], "heats": [{"key": "mild", "label": "Mild", "mult": 0.65}, {"key": "medium", "label": "Medium", "mult": 1.0}, {"key": "hot", "label": "Hot", "mult": 1.35}, {"key": "atomic", "label": "Make it hurt", "mult": 1.8}], "sweets": [{"key": "dry", "label": "Not sweet", "mult": 0.0}, {"key": "little", "label": "A little", "mult": 0.5}, {"key": "sweet", "label": "Sweet", "mult": 1.0}, {"key": "sweeter", "label": "Sweeter", "mult": 1.8}], "bases": [{"key": "buffalo", "sauce": "buffalo-sauce", "style": "buffalo", "name": "Cayenne and butter", "region": "Buffalo, and every bar that copied it", "says": "Two ingredients doing the work. Butter carries the pepper and nothing thickens it.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "No free-to-use Buffalo wing sauce recipe exists to build on: the Anchor Bar's is a trade secret and the bottle recipes are somebody's copyright. Cited here is only what the sauce IS — a vinegar-based cayenne pepper sauce cut with melted butter, sometimes with Worcestershire and garlic powder. The ratio here is this project's own, and a cook who wants it milder pours more butter, which is exactly how a bar does it."}, "method_tier": "tradition", "ingredients": [{"name": "cayenne pepper sauce", "per_tbsp": 0.58, "role": "body", "dial": "heat", "unit_hint": "Frank's RedHot or Crystal — the thin, vinegary kind, not a thick chilli sauce"}, {"name": "unsalted butter, melted", "per_tbsp": 0.38, "role": "fat"}, {"name": "cider vinegar", "per_tbsp": 0.025, "role": "sharp"}, {"name": "Worcestershire sauce", "per_tbsp": 0.012, "role": "season"}, {"name": "garlic powder", "per_tbsp": 0.008, "role": "season"}, {"name": "honey", "per_tbsp": 0.03, "role": "sweet", "dial": "sweet", "sugar": "honey"}], "method": ["Melt the butter gently. Do not brown it.", "Whisk the pepper sauce in off the heat, then the vinegar, the Worcestershire and the garlic.", "Hold it warm. It splits if it sits; whisk it back together.", "Fry the wings first, sauce them after, in a metal bowl, shaken."], "href": "../sauce/buffalo-sauce/index.html", "style_href": "../style/buffalo/index.html", "style_name": "Buffalo wings"}, {"key": "lemon-pepper-wet", "sauce": "lemon-pepper-wet", "style": "atlanta-lemon-pepper", "name": "Lemon pepper, wet", "region": "Atlanta", "says": "Dry seasoning loosened in butter until it clings. Order it dry and you skip the second step.", "anchor": {"kind": "ancestor", "title": "Cookbook:Lemon Pepper", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Pepper", "source": "s:wikibooks-cookbook", "note": "Wikibooks names what goes in a lemon-pepper blend — dehydrated lemon zest and black pepper, often with salt, garlic and onion powders and citric acid — and gives no amounts at all. The components are its; the proportions below are ours."}, "method_tier": "inference", "ingredients": [{"name": "unsalted butter, melted", "per_tbsp": 0.62, "role": "body"}, {"name": "lemon pepper seasoning", "per_tbsp": 0.2, "role": "season", "dial": "heat"}, {"name": "lemon juice", "per_tbsp": 0.1, "role": "sharp"}, {"name": "grated lemon zest", "per_tbsp": 0.03, "role": "season"}, {"name": "garlic powder", "per_tbsp": 0.02, "role": "season"}, {"name": "honey", "per_tbsp": 0.03, "role": "sweet", "dial": "sweet", "sugar": "honey"}], "method": ["Melt the butter and take it off the heat.", "Stir the seasoning, the zest and the garlic through it.", "Add the lemon juice last so it stays bright.", "Toss the wings in it, then dust with more dry seasoning at the end."], "href": "../sauce/lemon-pepper-wet/index.html", "style_href": "../style/atlanta-lemon-pepper/index.html", "style_name": "Lemon pepper wings"}, {"key": "jerk", "sauce": "jerk-marinade", "style": "caribbean-jerk", "name": "Jerk", "region": "Jamaica, by way of Brooklyn, the Bronx, Miami and Hartford", "says": "Allspice, thyme and chile. A marinade before the fire, not a sauce after it.", "anchor": {"kind": "recipe", "title": "Cookbook:Jamaican Jerk Spice I", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Jamaican_Jerk_Spice_I", "source": "s:wikibooks-cookbook", "note": "The dry spice below keeps the Wikibooks recipe's own ratios — cayenne, cinnamon, nutmeg, allspice, onion powder, thyme, sugar, dried onion, salt. The oil, lime and soy that turn it into a wet marinade are ours."}, "method_tier": "inference", "ingredients": [{"name": "vegetable oil", "per_tbsp": 0.36, "role": "body"}, {"name": "lime juice", "per_tbsp": 0.16, "role": "sharp"}, {"name": "soy sauce", "per_tbsp": 0.1, "role": "season"}, {"name": "cayenne pepper", "per_tbsp": 0.085, "role": "heat", "dial": "heat"}, {"name": "dried minced onion", "per_tbsp": 0.043, "role": "season"}, {"name": "salt", "per_tbsp": 0.043, "role": "season"}, {"name": "dried thyme", "per_tbsp": 0.029, "role": "season"}, {"name": "sugar", "per_tbsp": 0.043, "role": "sweet", "dial": "sweet", "sugar": "sugar"}, {"name": "ground allspice", "per_tbsp": 0.014, "role": "season"}, {"name": "ground cinnamon", "per_tbsp": 0.014, "role": "season"}, {"name": "ground nutmeg", "per_tbsp": 0.014, "role": "season"}, {"name": "onion powder", "per_tbsp": 0.014, "role": "season"}], "method": ["Combine the dry spices first and keep what you do not use in a sealed jar.", "Whisk the oil, lime and soy into the spice until it is a loose paste.", "Coat the wings and leave them cold for at least four hours, overnight if you can.", "Grill or roast them. Jerk wants live fire or a hot oven, not a fryer."], "href": "../sauce/jerk-marinade/index.html", "style_href": "../style/caribbean-jerk/index.html", "style_name": "Jerk wings"}, {"key": "teriyaki", "sauce": "teriyaki-sauce", "style": "korean-american", "name": "Soy and sweet", "region": "Japanese and Korean American kitchens, and every wing menu since the 1990s", "says": "Soy, mirin, sugar. It glazes rather than coats, and it burns if the pan is hot.", "anchor": {"kind": "recipe", "title": "Cookbook:Teriyaki Sauce", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Teriyaki_Sauce", "source": "s:wikibooks-cookbook", "note": "Scaled from the recipe's own two-parts-soy, two-parts-mirin, one-part-brown-sugar, with its teaspoon each of ginger and garlic. The proportions are the recipe's. Teriyaki is Japanese; the Korean American wing it sits beside on a menu is a different sauce with a different history, and that record says so."}, "method_tier": "cited", "ingredients": [{"name": "soy sauce", "per_tbsp": 0.375, "role": "body"}, {"name": "mirin", "per_tbsp": 0.375, "role": "body"}, {"name": "brown sugar", "per_tbsp": 0.187, "role": "sweet", "dial": "sweet", "sugar": "brown sugar"}, {"name": "fresh ginger, finely chopped", "per_tbsp": 0.031, "role": "season"}, {"name": "garlic, finely chopped", "per_tbsp": 0.031, "role": "season"}, {"name": "gochugaru or red pepper flakes", "per_tbsp": 0.02, "role": "heat", "dial": "heat"}], "method": ["Warm everything in a small pan over a low heat until the sugar dissolves.", "Do not boil it down unless you want a glaze; it thickens as it cools.", "Brush it on fried wings rather than tossing them, or it slides off.", "A half teaspoon of cornstarch boiled in will hold it on, per the recipe's own note."], "href": "../sauce/teriyaki-sauce/index.html", "style_href": "../style/korean-american/index.html", "style_name": "Korean fried chicken wings"}, {"key": "hot-honey", "sauce": "hot-honey", "style": "nashville-hot", "name": "Hot honey", "region": "everywhere, since about 2010", "says": "Sweet first, then the burn arrives late. The most recent thing on this list by decades.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "No free-to-use recipe carries this one. The proportions are ours, built to keep honey first on the list, which is where every commercial bottle puts it."}, "method_tier": "inference", "ingredients": [{"name": "honey", "per_tbsp": 0.7, "role": "body", "dial": "sweet", "sugar": "honey"}, {"name": "cider vinegar", "per_tbsp": 0.14, "role": "sharp"}, {"name": "red pepper flakes", "per_tbsp": 0.055, "role": "heat", "dial": "heat"}, {"name": "cayenne pepper sauce", "per_tbsp": 0.09, "role": "heat", "dial": "heat"}, {"name": "salt", "per_tbsp": 0.008, "role": "season"}], "method": ["Warm the honey with the flakes until it loosens. Do not let it catch.", "Off the heat, stir in the vinegar, the pepper sauce and the salt.", "Leave it an hour so the flakes give up their heat, then strain if you want it clear.", "Drizzle rather than toss; it sets on a cooling wing."], "href": "../sauce/hot-honey/index.html", "style_href": "../style/nashville-hot/index.html", "style_name": "Nashville hot wings"}, {"key": "alabama-white", "sauce": "alabama-white-sauce", "style": "alabama-white", "name": "Alabama white", "region": "north Alabama, and the smokers that borrowed it", "says": "Mayonnaise, vinegar and black pepper. Thin, sharp, and it breaks over heat.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "Composed from the sauce record's cited description — mayonnaise, vinegar, black pepper, lemon, sometimes horseradish. Big Bob Gibson's own formula is not published, and nothing here claims to be it."}, "method_tier": "inference", "ingredients": [{"name": "mayonnaise", "per_tbsp": 0.62, "role": "body"}, {"name": "cider vinegar", "per_tbsp": 0.22, "role": "sharp"}, {"name": "lemon juice", "per_tbsp": 0.05, "role": "sharp"}, {"name": "coarse black pepper", "per_tbsp": 0.035, "role": "season", "dial": "heat"}, {"name": "prepared horseradish", "per_tbsp": 0.03, "role": "heat", "dial": "heat"}, {"name": "salt", "per_tbsp": 0.01, "role": "season"}, {"name": "sugar", "per_tbsp": 0.02, "role": "sweet", "dial": "sweet", "sugar": "sugar"}], "method": ["Whisk everything cold. It wants to be pourable, not spoonable.", "Rest it overnight if you can; the pepper needs the time.", "Dunk smoked wings in it straight off the cooker, or serve it in a cup.", "Keep it off direct heat. Mayonnaise splits."], "href": "../sauce/alabama-white-sauce/index.html", "style_href": "../style/alabama-white/index.html", "style_name": "Alabama white sauce wings"}, {"key": "garlic-parm", "sauce": "garlic-parmesan-sauce", "style": "garlic-parm", "name": "Garlic and parmesan", "region": "the pizzeria, and then the whole country", "says": "Butter, garlic, cheese. The one flavour on a wing menu that owes nothing to a pepper.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "No free-to-use recipe exists for the wing version. Composed to keep butter first and cheese fine enough to cling, which is what the sauce record describes."}, "method_tier": "inference", "ingredients": [{"name": "unsalted butter, melted", "per_tbsp": 0.55, "role": "body"}, {"name": "finely grated parmesan", "per_tbsp": 0.22, "role": "body"}, {"name": "garlic, crushed", "per_tbsp": 0.1, "role": "season"}, {"name": "olive oil", "per_tbsp": 0.07, "role": "fat"}, {"name": "chopped parsley", "per_tbsp": 0.03, "role": "season"}, {"name": "red pepper flakes", "per_tbsp": 0.02, "role": "heat", "dial": "heat"}, {"name": "honey", "per_tbsp": 0.015, "role": "sweet", "dial": "sweet", "sugar": "honey"}], "method": ["Warm the butter and oil with the garlic until the garlic smells sweet, not brown.", "Take it off the heat before the cheese goes in, or the cheese turns to string.", "Toss the wings, then finish with more cheese and the parsley.", "Grate the cheese finer than feels necessary. Coarse cheese falls off."], "href": "../sauce/garlic-parmesan-sauce/index.html", "style_href": "../style/garlic-parm/index.html", "style_name": "Garlic parmesan wings"}]}, BOTTLES=[{"n": "Buffalo sauce", "b": "cayenne-butter", "g": 0}, {"n": "Lemon pepper", "b": "citrus-pepper", "g": 0}, {"n": "Alabama white sauce", "b": "dairy", "g": 0.5}, {"n": "Blue cheese dressing", "b": "dairy", "g": 0.5}, {"n": "Ranch dressing", "b": "dairy", "g": 0.5}, {"n": "Memphis dry rub", "b": "dry-rub", "g": 12}, {"n": "Garlic parmesan sauce", "b": "herb-garlic", "g": 1}, {"n": "Hot honey", "b": "other", "g": 14}, {"n": "Jerk marinade", "b": "other", "g": 1}, {"n": "Mango habanero", "b": "other", "g": 7}, {"n": "Sweet chili sauce", "b": "other", "g": 6}, {"n": "Yangnyeom sauce", "b": "other", "g": 3.5}, {"n": "Soy garlic sauce", "b": "soy-sweet", "g": 6}, {"n": "Teriyaki sauce", "b": "soy-sweet", "g": 2}, {"n": "Honey barbecue sauce", "b": "sweet-tomato", "g": 7.5}, {"n": "Mild sauce", "b": "sweet-tomato", "g": 5.5}, {"n": "Mumbo sauce", "b": "sweet-tomato", "g": 5}, {"n": "Crystal Hot Sauce", "b": "vinegar-pepper", "g": 0}, {"n": "Frank's RedHot", "b": "vinegar-pepper", "g": 0}];
+var pick={base:B.bases[0].key, heat:"medium", sweet:"sweet", batch:"cup"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FRAC=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function nice(tbsp){
+  /* the kitchen unit a cook would actually reach for */
+  if(tbsp<=0) return null;
+  var p=function(v,w){return frac(v)+" "+w+(v>1.02?"s":"")};
+  if(tbsp>=16) return p(tbsp/16,"cup");
+  if(tbsp>=1) return p(tbsp,"tablespoon");
+  return p(tbsp*3,"teaspoon");
+}
+function frac(v){
+  var whole=Math.floor(v+1e-9), rem=v-whole, best="", bd=9;
+  for(var i=0;i<FRAC.length;i++){var d=Math.abs(rem-FRAC[i][0]); if(d<bd){bd=d;best=FRAC[i][1];}}
+  if(rem<0.06) return String(whole||"0");
+  /* a kitchen has no 0.58 of a spoon: snap to the nearest named fraction unless it is
+     genuinely far from all of them */
+  if(bd>0.1&&whole===0) return (Math.round(v*100)/100).toString();
+  if(best==="1"){whole+=1;best="";}
+  return (whole?whole+(best?" ":""):"")+best;
+}
+function base(){return B.bases.filter(function(b){return b.key===pick.base})[0]}
+function mult(list,key){var m=list.filter(function(x){return x.key===key})[0]; return m?m.mult:1}
+function compute(){
+  var b=base(), tbsp=B.batches.filter(function(x){return x.key===pick.batch})[0].tbsp;
+  var hm=mult(B.heats,pick.heat), sm=mult(B.sweets,pick.sweet);
+  var rows=[], vol=0, sugar=0;
+  b.ingredients.forEach(function(ing){
+    var f=ing.per_tbsp;
+    if(ing.dial==="heat") f*=hm;
+    if(ing.dial==="sweet") f*=sm;
+    var q=f*tbsp;
+    vol+=q;
+    if(ing.sugar) sugar+=q*B.sugar_g_per_tbsp[ing.sugar];
+    rows.push({name:ing.name, q:q, hint:ing.unit_hint||""});
+  });
+  return {b:b, rows:rows, vol:vol, sugar:vol>0?sugar/vol:0, tbsp:tbsp};
+}
+function scale(g){
+  /* the same 0 to 12.6 scale the sauce page uses */
+  var w=420, x0=10, x1=w-10, pos=function(v){return x0+(x1-x0)*Math.min(v/12.6,1)};
+  var o='<svg viewBox="0 0 '+w+' 64" role="img" aria-label="Where this sauce sits for sugar against the bottles measured for this site">';
+  o+='<rect x="'+x0+'" y="26" width="'+(x1-x0)+'" height="8" rx="4" fill="var(--chip)"/>';
+  BOTTLES.forEach(function(bt){ o+='<circle cx="'+pos(bt.g).toFixed(1)+'" cy="30" r="3.4" fill="var(--mute)" opacity=".65"><title>'+esc(bt.n)+' — '+bt.g+' g</title></circle>'; });
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="11" fill="var(--sauce)" opacity=".25"/>';
+  o+='<circle cx="'+pos(g).toFixed(1)+'" cy="30" r="7" fill="var(--sauce)" stroke="var(--panel)" stroke-width="2"/>';
+  o+='<text x="'+x0+'" y="56" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">0 g</text>';
+  o+='<text x="'+x1+'" y="56" text-anchor="end" fill="var(--mute)" style="font:600 11px var(--ui,sans-serif)">12.6 g — a spoonful of sugar</text>';
+  return o+'</svg>';
+}
+function gap(g,key){
+  /* the distance between what you just built and what the shelf sells, which is nearly
+     all sugar — the site's own measurement, not an opinion about either one */
+  var mine=BOTTLES.filter(function(b){return b.b===key}).map(function(b){return b.g}).sort(function(a,c){return a-c});
+  if(mine.length<2) return "";
+  var med=mine[Math.floor(mine.length/2)];
+  var d=med-g;
+  if(Math.abs(d)<0.6) return '<p class="nearby">That is about where the bottles of this kind sit — a median of '+med+' g.</p>';
+  if(d>0) return '<p class="nearby">A bottle of this kind carries about <b>'+med+' g</b>, so the shelf is '+
+    (d/Math.max(g,0.1)>=2?'several times':'a good deal')+' sweeter than this. Closing that gap means adding sugar until it is '+
+    'roughly a quarter of the jar by weight, which is what those labels describe.</p>';
+  return '<p class="nearby">That is sweeter than the bottles of this kind, which sit around '+med+' g.</p>';
+}function render(){
+  var r=compute(), b=r.b, a=b.anchor;
+  var heat=B.heats.filter(function(x){return x.key===pick.heat})[0].label.toLowerCase();
+  var sweet=B.sweets.filter(function(x){return x.key===pick.sweet})[0].label.toLowerCase();
+  var batch=B.batches.filter(function(x){return x.key===pick.batch})[0].label;
+  var ing=r.rows.map(function(x){
+    var q=nice(x.q);
+    return '<li class="'+(q?'':'zero')+'"><span class="q">'+esc(q||'')+'</span><span>'+esc(x.name)+
+      (x.hint?' <span class="mute">('+esc(x.hint)+')</span>':'')+'</span></li>';
+  }).join("");
+  var near=BOTTLES.filter(function(bt){return bt.b===b.key})
+      .sort(function(p,q){return Math.abs(p.g-r.sugar)-Math.abs(q.g-r.sugar)}).slice(0,3);
+  var prov;
+  if(a.kind==="recipe") prov='Built on <b>'+esc(a.title)+'</b>'+(a.year?', '+a.year:'')+', '+esc(a.publisher)+
+      ' — '+esc(a.license)+(a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the recipe</a>':'')+'. '+esc(a.note||'');
+  else if(a.kind==="ancestor") prov='Descends from <b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+
+      ' ('+esc(a.license)+'). '+esc(a.note||'');
+  else prov='<b>These proportions are this project\'s own.</b> '+esc(a.note||'');
+  document.getElementById("out").innerHTML=
+    '<h3>'+esc(b.name)+', '+esc(heat)+', '+esc(sweet)+' — '+esc(batch)+'</h3>'+
+    '<p class="says">'+esc(b.says)+' · '+esc(b.region)+'</p>'+
+    '<ul>'+ing+'</ul>'+
+    '<h4>How</h4><ol>'+b.method.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>'+
+    '<div class="sugarline"><b>'+r.sugar.toFixed(1)+' g</b><span class="mute">of sugar in a tablespoon of it</span></div>'+
+    scale(r.sugar)+
+    gap(r.sugar,b.key)+
+    (near.length?'<p class="nearby">Nearest bottles on the shelf: '+near.map(function(x){return esc(x.n)+' ('+x.g+' g)'}).join(' · ')+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="copy">Copy the recipe</button>'+
+    (b.href?'<a class="btn ghost" href="'+b.href+'">About this sauce</a>':'')+
+    (b.style_href?'<a class="btn ghost" href="'+b.style_href+'">'+esc(b.style_name)+'</a>':'')+'</div>'+
+    '<p class="prov">'+prov+' Method '+(b.method_tier==="cited"?'as published':b.method_tier==="tradition"?'as the tradition has it':'is ours')+'.</p>';
+  document.getElementById("copy").addEventListener("click",function(){
+    var txt=b.name+' sauce — '+heat+', '+sweet+', '+batch+'\n\n'+
+      r.rows.filter(function(x){return nice(x.q)}).map(function(x){return nice(x.q)+'  '+x.name}).join('\n')+
+      '\n\n'+b.method.join('\n')+'\n\n'+r.sugar.toFixed(1)+' g sugar per tablespoon.\n'+
+      'From Wing Country — https://nanobotco.github.io/buffalo-wings/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      document.getElementById("copy").textContent="Copied";
+      setTimeout(function(){document.getElementById("copy").textContent="Copy the recipe"},1600);},function(){});
+  });
+}
+document.querySelector("#panel-sauce .dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var group=btn.closest("[data-dial]"), k=group.dataset.dial;
+  pick[k]=btn.dataset.v;
+  [].forEach.call(group.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+
+/* ------------------------------------------------------------------ the rub */
+(function(){
+var R={"note": "Levels run from what a Buffalo fryer actually does — nothing at all before the oil — outward to a full barbecue rub. Quantities per pound are this project's rule of thumb and say so; the proportions inside each level are either a published recipe's own ratios or ours, stated either way.", "house_note": "At a Buffalo counter the wing goes into the oil bare and nothing is on it. Seasoning happens after the fryer, in a metal bowl, with sauce. A rub belongs to the dry half of the menu — Memphis, Atlanta, Baltimore, the smoker — and to wings that get baked or grilled rather than fried. Salt early and you draw water out of the skin, which is the one thing you do not want before a fryer.", "meats": [{"key": "ten", "label": "Ten pieces", "lb": 1, "note": "about a pound of party wings, five wings split"}, {"key": "twenty", "label": "Twenty pieces", "lb": 2, "note": "two pounds, one bar order"}, {"key": "fifty", "label": "Fifty pieces", "lb": 5, "note": "five pounds, a family bag"}, {"key": "hundred", "label": "A hundred pieces", "lb": 10, "note": "ten pounds, which is a Super Bowl"}], "heats": [{"key": "none", "label": "No heat", "mult": 0.0}, {"key": "mild", "label": "Mild", "mult": 0.5}, {"key": "medium", "label": "Medium", "mult": 1.0}, {"key": "hot", "label": "Hot", "mult": 2.0}], "heat_ingredients": ["cayenne pepper", "red pepper flakes", "ground black pepper", "coarse black pepper"], "levels": [{"key": "nothing", "name": "Nothing at all", "tbsp_per_lb": 0.0, "says": "What a Buffalo fryer puts on a wing before it goes in: nothing. The bowl does the seasoning afterwards.", "anchor": {"kind": "cited", "source": "s:this-project", "note": "The style record has it — fried bare, no batter, no flour, sauce after the fryer. There is nothing to weigh here, and that is the point."}, "parts": {}, "when": ["Dry the wings properly. Wet skin steams instead of crisping.", "Fry them bare.", "Season in the bowl, with sauce, after they come out."]}, {"key": "salt-pepper", "name": "Salt and black pepper", "tbsp_per_lb": 0.33, "says": "The next step out, and as far as most dry wings need to go.", "anchor": {"kind": "cited", "source": "s:this-project", "note": "Two ingredients, two parts salt to one of pepper by volume. The ratio and the rate are this project's."}, "parts": {"salt": 2.0, "ground black pepper": 1.0}, "when": ["Toss the wings in it an hour ahead if they are going in an oven or on a grill.", "If they are going in a fryer, season them after, not before."]}, {"key": "lemon-pepper", "name": "Lemon pepper", "tbsp_per_lb": 0.5, "says": "Atlanta's dry order. Shaken on hot, so it sticks to the fat still on the skin.", "anchor": {"kind": "named", "title": "Cookbook:Lemon Pepper", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Lemon_Pepper", "source": "s:wikibooks-cookbook", "note": "Wikibooks names the components and gives no amounts. The list is its; the proportions are ours."}, "parts": {"ground black pepper": 3.0, "dried lemon zest": 2.0, "salt": 2.0, "garlic powder": 1.0, "onion powder": 1.0, "citric acid": 0.25}, "when": ["Shake it over the wings the moment they leave the oil, while they are still slick.", "For wet, melt butter and stir a spoonful of the blend through it, then toss.", "Dry the lemon zest in a low oven first, or it clumps."]}, {"key": "jerk", "name": "Jamaican jerk spice", "tbsp_per_lb": 0.75, "says": "Allspice, thyme, cinnamon, nutmeg and a lot of cayenne. A rub that is also a marinade.", "anchor": {"kind": "recipe", "title": "Cookbook:Jamaican Jerk Spice I", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Jamaican_Jerk_Spice_I", "source": "s:wikibooks-cookbook", "note": "The recipe's own ratios, scaled: two tablespoons of cayenne against a teaspoon each of cinnamon, nutmeg, allspice and onion powder, two of thyme, and a tablespoon each of sugar, dried onion and salt."}, "parts": {"cayenne pepper": 6.0, "salt": 3.0, "sugar": 3.0, "dried minced onion": 3.0, "dried thyme": 2.0, "ground cinnamon": 1.0, "ground nutmeg": 1.0, "ground allspice": 1.0, "onion powder": 1.0}, "when": ["Mix it and keep what you do not use in a sealed jar.", "Rub it into the wings and leave them cold for four hours at least.", "Grill, roast or smoke. Jerk wants fire, not oil."]}, {"key": "barbecue", "name": "A barbecue dry rub", "tbsp_per_lb": 1.0, "says": "Paprika and brown sugar, off the rib counter. The sugar catches on a grill, so watch it.", "anchor": {"kind": "recipe", "title": "Cookbook:Dry Rub", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Dry_Rub", "source": "s:wikibooks-cookbook", "note": "The recipe's own ratios — a quarter cup each of paprika and light brown sugar, three tablespoons of salt, a teaspoon each of dry mustard and black pepper, half a teaspoon each of cayenne and cumin. Wikibooks files it under Texas cuisine and it does not claim to be a wing rub."}, "parts": {"paprika": 12.0, "light brown sugar": 12.0, "salt": 9.0, "dry mustard": 1.0, "ground black pepper": 1.0, "cayenne pepper": 0.5, "ground cumin": 0.5}, "when": ["Rub it on and refrigerate about an hour, as the recipe says.", "Smoke or bake rather than fry — sugar burns in hot oil.", "Dust a second time when they come off, which is the Memphis habit."]}]}, pick={level:R.levels[1].key, meat:"twenty", heat:"medium"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FR=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function frac(v){var w=Math.floor(v+1e-9),r=v-w,b="",bd=9;
+  for(var i=0;i<FR.length;i++){var d=Math.abs(r-FR[i][0]); if(d<bd){bd=d;b=FR[i][1];}}
+  if(r<0.06)return String(w||"0");
+  if(bd>0.08&&w===0)return (Math.round(v*100)/100).toString();
+  if(b==="1"){w+=1;b="";}
+  return (w?w+(b?" ":""):"")+b;}
+function nice(tbsp){if(tbsp<=0)return null;
+  var p=function(v,wd){return frac(v)+" "+wd+(v>1.02?"s":"")};
+  if(tbsp>=16)return p(tbsp/16,"cup");
+  if(tbsp>=1)return p(tbsp,"tablespoon");
+  return p(tbsp*3,"teaspoon");}
+function rate(tbspPerLb){
+  /* under a tablespoon reads better as teaspoons, which is where every level but the last sits */
+  if(tbspPerLb>=1) return frac(tbspPerLb)+' tablespoon'+(tbspPerLb>1.02?'s':'');
+  var t=tbspPerLb*3; return frac(t)+' teaspoon'+(t>1.02?'s':'');
+}
+function lvl(){return R.levels.filter(function(x){return x.key===pick.level})[0]}
+function render(){
+  var L=lvl(), M=R.meats.filter(function(x){return x.key===pick.meat})[0];
+  var hm=R.heats.filter(function(x){return x.key===pick.heat})[0];
+  var total=L.tbsp_per_lb*M.lb, rows=[], sum=0;
+  for(var k in L.parts){
+    var f=L.parts[k];
+    if(R.heat_ingredients.indexOf(k)>=0) f*=hm.mult;
+    rows.push({name:k, q:f*total}); sum+=f*total;
+  }
+  var a=L.anchor, prov;
+  if(a.kind==="recipe") prov='<b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' — '+esc(a.license)+
+     (a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the recipe</a>':'')+'. '+esc(a.note);
+  else if(a.kind==="named") prov='<b>'+esc(a.title)+'</b>, from '+esc(a.publisher)+
+     (a.url?' · <a href="'+esc(a.url)+'" rel="noopener">the article</a>':'')+'. '+esc(a.note);
+  else prov=esc(a.note);
+  document.getElementById("rubout").innerHTML=
+    '<h3>'+esc(L.name)+' — for '+esc(M.label.toLowerCase())+'</h3>'+
+    '<p class="says">'+esc(L.says)+'</p>'+
+    '<p class="per">'+esc(M.label)+' is taken as <b>'+M.lb+' lb</b> ('+esc(M.note)+'), at '+
+      rate(L.tbsp_per_lb)+' of rub to the pound.</p>'+
+    '<ul>'+rows.map(function(x){var q=nice(x.q);
+      return '<li class="'+(q?'':'zero')+'"><span class="q">'+esc(q||'')+'</span><span>'+esc(x.name)+'</span></li>';}).join("")+'</ul>'+
+    '<p class="per">About '+esc(nice(sum)||"nothing")+' of rub in all.</p>'+
+    (L.when?'<h4>When</h4><ol>'+L.when.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="rubcopy">Copy the rub</button>'+
+    '<a class="btn ghost" href="../wing/index.html">Which part of the bird</a>'+
+    '<a class="btn ghost" href="../fry/the-toss/index.html">The toss</a></div>'+
+    '<p class="prov">'+prov+'</p>';
+  document.getElementById("rubcopy").addEventListener("click",function(){
+    var txt=L.name+' — for '+M.label.toLowerCase()+' ('+M.lb+' lb)\n\n'+
+      rows.filter(function(x){return nice(x.q)}).map(function(x){return nice(x.q)+'  '+x.name}).join('\n')+
+      '\n\nFrom Wing Country — https://nanobotco.github.io/buffalo-wings/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      var b=document.getElementById("rubcopy"); b.textContent="Copied";
+      setTimeout(function(){b.textContent="Copy the rub"},1600);},function(){});
+  });
+}
+document.querySelector("#panel-rub .dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
+  [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+
+/* ------------------------------------------------------------------ the dip */
+(function(){
+var S={"note": "Four cups beside the basket. Two keep a published recipe's own quantities; two are composed from the records' cited descriptions and say so. Everything scales off the finished cup.", "house_note": "Buffalo serves blue cheese and America buys ranch, by a distance. Both are cold, both are mostly fat, and both exist to put out a fire the sauce started. Make either one the day before — the garlic and the pepper need the night.", "sizes": [{"key": "cup", "label": "One cup", "cups": 1, "lb": 0.5}, {"key": "pint", "label": "A pint", "cups": 2, "lb": 1}, {"key": "quart", "label": "A quart", "cups": 4, "lb": 2}, {"key": "crowd", "label": "A Super Bowl", "cups": 12, "lb": 6}], "sweets": [{"key": "dry", "label": "Barely", "mult": 0.4}, {"key": "some", "label": "Some", "mult": 1.0}, {"key": "sweet", "label": "Sweeter", "mult": 1.8}], "heats": [{"key": "none", "label": "None", "mult": 0.0}, {"key": "some", "label": "Some", "mult": 1.0}, {"key": "more", "label": "More", "mult": 2.0}], "kinds": [{"key": "blue-cheese", "name": "Blue cheese", "dish": "blue-cheese-dressing", "region": "Buffalo, and the plate the wing arrived on", "says": "Chunky, cold, and not negotiable in western New York.", "anchor": {"kind": "recipe", "title": "Cookbook:Blue Cheese Dressing", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Blue_Cheese_Dressing", "source": "s:wikibooks-cookbook", "note": "The recipe's own quantities, scaled to the cup. Wikibooks notes it is adapted from its own buttermilk ranch."}, "per_cup": [{"name": "mayonnaise", "q": 0.4, "unit": "cup"}, {"name": "sour cream", "q": 0.3, "unit": "cup"}, {"name": "buttermilk", "q": 0.27, "unit": "cup"}, {"name": "blue cheese, diced and crumbled", "q": 1.6, "unit": "oz"}, {"name": "lemon juice or cider vinegar", "q": 0.8, "unit": "tbsp"}, {"name": "salt", "q": 0.2, "unit": "tsp"}, {"name": "ground black pepper", "q": 0.2, "unit": "tsp", "dial": "heat"}, {"name": "garlic powder", "q": 0.2, "unit": "tsp"}, {"name": "onion powder", "q": 0.2, "unit": "tsp"}], "steps": ["Whisk everything except the cheese until it is smooth.", "Dice the cheese into half-inch cubes; the crumbs are meant to be there.", "Fold the cubes and crumbs through. Chill it.", "Keep it thick. A thin blue cheese runs off a wing and lands on your shirt."]}, {"key": "ranch", "name": "Buttermilk ranch", "dish": "ranch-dressing", "region": "everywhere, and outselling blue cheese nationally", "says": "Buttermilk, mayonnaise, sour cream, herbs. Tangy without being sweet.", "anchor": {"kind": "recipe", "title": "Cookbook:Buttermilk Ranch Dressing", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Buttermilk_Ranch_Dressing", "source": "s:wikibooks-cookbook", "note": "The recipe's own quantities, scaled to the cup. Hidden Valley's formula is a trade secret and nothing here claims to be it."}, "per_cup": [{"name": "mayonnaise", "q": 0.36, "unit": "cup"}, {"name": "buttermilk", "q": 0.36, "unit": "cup"}, {"name": "sour cream", "q": 0.27, "unit": "cup"}, {"name": "lemon juice", "q": 0.7, "unit": "tbsp"}, {"name": "garlic, minced", "q": 0.7, "unit": "clove"}, {"name": "onion powder", "q": 0.7, "unit": "tsp"}, {"name": "dried oregano", "q": 0.36, "unit": "tsp"}, {"name": "ground black pepper", "q": 0.18, "unit": "tsp", "dial": "heat"}], "steps": ["Mix until smooth, as the recipe says.", "Rest it overnight. Fresh ranch tastes of raw garlic and little else.", "Thin it with more buttermilk if you want it pourable."]}, {"key": "hot-wing-dip", "name": "Hot wing dip", "dish": "buffalo-chicken-dip", "region": "the potluck table", "says": "Blue cheese and sour cream with cayenne stirred straight in. Not a cooling dip.", "anchor": {"kind": "recipe", "title": "Cookbook:Hot Wing Dip", "publisher": "Wikibooks", "license": "CC BY-SA 4.0", "url": "https://en.wikibooks.org/wiki/Cookbook:Hot_Wing_Dip", "source": "s:wikibooks-cookbook", "note": "The recipe's own quantities, scaled to the cup. It is written to be served WITH wings and celery, not instead of them."}, "per_cup": [{"name": "crumbled blue cheese", "q": 0.65, "unit": "cup"}, {"name": "sour cream", "q": 0.33, "unit": "cup"}, {"name": "cayenne pepper", "q": 1.3, "unit": "tbsp", "dial": "heat"}, {"name": "salt", "q": 0.65, "unit": "tbsp"}, {"name": "garlic, minced", "q": 0.33, "unit": "tbsp"}], "steps": ["Combine the cheese, cayenne, sour cream, garlic and salt in a serving bowl.", "Serve with celery and wings.", "Two tablespoons of cayenne to a cup is what the recipe says. Start at half if that reads high to you."]}, {"key": "alabama-white", "name": "Alabama white", "dish": "alabama-white-sauce", "region": "north Alabama", "says": "A dip you can also cook with, though it splits over heat.", "anchor": {"kind": "composed", "source": "s:this-project", "note": "Composed from the sauce record's cited description — mayonnaise, vinegar, black pepper, lemon, sometimes horseradish. Big Bob Gibson's own formula is unpublished and nothing here claims to be it."}, "per_cup": [{"name": "mayonnaise", "q": 0.62, "unit": "cup"}, {"name": "cider vinegar", "q": 0.22, "unit": "cup"}, {"name": "lemon juice", "q": 0.8, "unit": "tbsp"}, {"name": "coarse black pepper", "q": 1.6, "unit": "tsp", "dial": "heat"}, {"name": "prepared horseradish", "q": 1.2, "unit": "tsp", "dial": "heat"}, {"name": "sugar", "q": 0.8, "unit": "tsp", "dial": "sweet"}, {"name": "salt", "q": 0.4, "unit": "tsp"}], "steps": ["Whisk it cold. It should pour.", "Overnight is better than an hour.", "Dunk smoked wings straight into it, or keep it in a cup beside them."]}]}, pick={kind:S.kinds[0].key, size:"cup", sweet:"some", heat:"some"};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var FS=[[1,"1"],[0.75,"¾"],[0.6667,"⅔"],[0.5,"½"],[0.3333,"⅓"],[0.25,"¼"],[0.125,"⅛"]];
+function frac(v){var w=Math.floor(v+1e-9),r=v-w,b="",bd=9;
+  for(var i=0;i<FS.length;i++){var d=Math.abs(r-FS[i][0]); if(d<bd){bd=d;b=FS[i][1];}}
+  if(r<0.06)return String(w||"0");
+  if(bd>0.08&&w===0)return (Math.round(v*100)/100).toString();
+  if(b==="1"){w+=1;b="";}
+  return (w?w+(b?" ":""):"")+b;}
+function amount(q,unit){
+  /* cups fall back to tablespoons and spoons to each other, so nothing reads as 0.06 cup */
+  if(q<=0)return null;
+  var plural=function(v,w){return frac(v)+" "+w+(v>1.02?"s":"")};
+  if(unit==="cup"){ if(q<0.25) return plural(q*16,"tablespoon"); return plural(q,"cup"); }
+  if(unit==="tbsp"){ if(q<1) return plural(q*3,"teaspoon"); return plural(q,"tablespoon"); }
+  if(unit==="tsp"){ if(q>=3) return plural(q/3,"tablespoon"); return plural(q,"teaspoon"); }
+  if(unit==="egg"){ return frac(q); }
+  return plural(q,unit);
+}
+function kind(){return S.kinds.filter(function(x){return x.key===pick.kind})[0]}
+function render(){
+  var K=kind(), Z=S.sizes.filter(function(x){return x.key===pick.size})[0];
+  var sw=S.sweets.filter(function(x){return x.key===pick.sweet})[0].mult;
+  var ht=S.heats.filter(function(x){return x.key===pick.heat})[0].mult;
+  var rows=K.per_cup.map(function(ing){
+    var q=ing.q*Z.cups;
+    if(ing.dial==="sweet") q*=sw;
+    if(ing.dial==="heat") q*=ht;
+    return {name:ing.name, txt:amount(q,ing.unit), opt:!!ing.optional};
+  });
+  var a=K.anchor, prov;
+  if(a.kind==="recipe") prov='<b>'+esc(a.title)+'</b>, '+esc(a.publisher)+' '+(a.year||'')+' ('+esc(a.license)+'). '+esc(a.note);
+  else prov='<b>These proportions are ours.</b> '+esc(a.note);
+  document.getElementById("slawout").innerHTML=
+    '<h3>'+esc(K.name)+' — '+esc(Z.label.toLowerCase())+'</h3>'+
+    '<p class="says">'+esc(K.says)+' · '+esc(K.region)+'</p>'+
+    '<p class="per">Makes about <b>'+Z.cups+' cup'+(Z.cups>1?'s':'')+'</b>.</p>'+
+    '<ul>'+
+    rows.map(function(x){
+      return '<li class="'+(x.txt?'':'zero')+'"><span class="q">'+esc(x.txt||'')+'</span><span>'+esc(x.name)+
+        (x.opt?' <span class="mute">(optional)</span>':'')+'</span></li>';}).join("")+'</ul>'+
+    '<h4>How</h4><ol>'+K.steps.map(function(m){return '<li>'+esc(m)+'</li>'}).join("")+'</ol>'+
+    (K.swap?'<p class="per"><b>Or:</b> '+esc(K.swap)+'</p>':'')+
+    '<div class="mk-actions"><button type="button" class="btn" id="slawcopy">Copy the dip</button>'+
+    '<a class="btn ghost" href="../sauce/'+esc(K.dish)+'/index.html">About this dip</a></div>'+
+    '<p class="prov">'+prov+(K.verbatim?' Steps quoted from the receipt.':' Steps are ours.')+'</p>';
+  document.getElementById("slawcopy").addEventListener("click",function(){
+    var txt=K.name+' — '+Z.label.toLowerCase()+'\n\n'+
+      rows.filter(function(x){return x.txt}).map(function(x){return x.txt+'  '+x.name}).join('\n')+
+      '\n\n'+K.steps.join('\n')+'\n\nFrom Wing Country — https://nanobotco.github.io/buffalo-wings/make/';
+    (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){
+      var b=document.getElementById("slawcopy"); b.textContent="Copied";
+      setTimeout(function(){b.textContent="Copy the dip"},1600);},function(){});
+  });
+}
+document.querySelector("#panel-dip .dials").addEventListener("click",function(e){
+  var btn=e.target.closest("button[data-v]"); if(!btn)return;
+  var g=btn.closest("[data-dial]"); pick[g.dataset.dial]=btn.dataset.v;
+  [].forEach.call(g.querySelectorAll("button"),function(x){x.setAttribute("aria-pressed",x===btn?"true":"false")});
+  render();
+});
+render();
+})();
+
+/* ------------------------------------------------------------------ the tabs */
+(function(){
+var tabs=document.querySelector(".tabs");
+tabs.addEventListener("click",function(e){
+  var b=e.target.closest("button[data-panel]"); if(!b)return;
+  [].forEach.call(tabs.querySelectorAll("button"),function(x){
+    var on=x===b; x.setAttribute("aria-selected",on?"true":"false");
+    document.getElementById("panel-"+x.dataset.panel).hidden=!on;
+  });
+});
+})();
+</script>
+
+<section class="shareme" data-url="https://nanobotco.github.io/buffalo-wings/make/" data-title="Make — Wing Country"><b>Pass it on</b><div class="row"><button type="button" class="copy" data-sh="copy">Copy link</button><button type="button" data-sh="native" hidden>Share…</button><a href="https://bsky.app/intent/compose?text=Make%20%E2%80%94%20Wing%20Country%20https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fmake%2F" target="_blank" rel="noopener">Bluesky</a><a href="https://mastodonshare.com/?text=Make%20%E2%80%94%20Wing%20Country&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fmake%2F" target="_blank" rel="noopener">Mastodon</a><a href="https://twitter.com/intent/tweet?text=Make%20%E2%80%94%20Wing%20Country&amp;url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fmake%2F" target="_blank" rel="noopener">X</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fmake%2F" target="_blank" rel="noopener">Facebook</a><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fmake%2F&amp;title=Make%20%E2%80%94%20Wing%20Country" target="_blank" rel="noopener">Reddit</a><a href="https://api.whatsapp.com/send?text=Make%20%E2%80%94%20Wing%20Country%20https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fmake%2F" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:?subject=Make%20%E2%80%94%20Wing%20Country&amp;body=https%3A%2F%2Fnanobotco.github.io%2Fbuffalo-wings%2Fmake%2F" target="_blank" rel="noopener">Email</a><span class="said" aria-live="polite"></span></div></section><script>(function(){var s=document.currentScript.previousElementSibling;var n=s.querySelector('[data-sh="native"]');if(navigator.share)n.hidden=false;s.addEventListener("click",function(e){var b=e.target.closest("[data-sh]");if(!b)return;var url=s.dataset.url,title=s.dataset.title,said=s.querySelector(".said");if(b.dataset.sh==="copy"){(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(function(){said.textContent="copied"},function(){said.textContent=url});}else if(b.dataset.sh==="native"){navigator.share({title:title,url:url}).catch(function(){})}});})();</script>
+</main>
+<script>document.addEventListener("keydown",function(e){if(e.key==="r"&&!e.metaKey&&!e.ctrlKey&&!e.altKey&&!/input|textarea/i.test(e.target.tagName))location.href="../wander.html"});</script>
+<footer>
+<div class="bots">For the machines: <a href="../api/nodes.json">nodes.json</a> <a href="../api/places.json">places.json</a> <a href="../api/kin.json">kin.json</a> <a href="../nodes.jsonl">nodes.jsonl</a> <a href="../nodes.csv">nodes.csv</a> <a href="../llms-full.txt">llms-full.txt</a> <a href="../sitemap.xml">sitemap.xml</a> <a href="../feed.xml">feed.xml</a> <a href="../api/coverage.json">coverage</a> <a href="../api/sources.json">sources</a></div>
+<p>Records licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Place points from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Pictures carry their own licences, stated beside each one. Every field says where it came from.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+ "schema": 1,
+ "id": "anchor-bar",
+ "type": "place",
+ "names": {
+  "name": "Anchor Bar",
+  "aliases": [
+   "Anchor Bar Buffalo",
+   "Frank & Teressa's Anchor Bar"
+  ],
+  "sort": "Anchor Bar"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1935,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A bar and restaurant at Main and North in Buffalo, open since 1935, which claims the Buffalo wing and has trademarked the phrase. Frank and Teressa Bellissimo opened it; their son Dominic ran it and sold the story. The dining room keeps the motorcycles, the jukebox and the original bar, and the wings go out bare-fried with blue cheese and celery.",
+  "story": "Frank and Teressa Bellissimo opened the Anchor Bar in 1935. The wing story the house tells dates to the evening of 4 March 1964: Dominic behind the bar, friends arriving late, little food left, and Teressa frying the wings that were meant for soup and tossing them with butter and cayenne. She sent out celery and blue cheese alongside, and the first plates went out free.\n\nFrank died in October 1980, aged 84. Teressa died in her apartment above the bar in November 1985, also 84. Dominic died in March 1991, aged 68. Ivano Toscani, who started working for the Bellissimos in the mid-1970s and later owned the place, died in November 2018.\n\nThe claim has never gone unchallenged. A 1969 local newspaper piece about the bar does not mention wings. Duff's began selling them across town that year. John Young was selling wings in Buffalo from 1961.",
+  "today": "Bottled Anchor Bar sauces sell through Tops and Wegmans in the United States and Sobey's and Metro in Canada. The company began opening other locations in 2012 and ran 18 of them as of 2026."
+ },
+ "geo": {
+  "lat": 42.90743,
+  "lon": -78.87261,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1047 Main Street",
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14209"
+ },
+ "links": [
+  {
+   "label": "Anchor Bar",
+   "url": "https://www.anchorbar.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "naked",
+   "source": "s:wp-anchor-bar",
+   "tier": "cited",
+   "note": "the house line is that the wings are never battered — deep-fried only, sauce added after the fry"
+  },
+  {
+   "tag": "bar",
+   "source": "s:wp-anchor-bar",
+   "tier": "cited"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "City of Buffalo proclamation honouring Frank Bellissimo; 29 July 1977 named Chicken Wing Day",
+   "year": 1977,
+   "source": "s:wp-buffalo-wing"
+  },
+  {
+   "by": "food-network",
+   "what": "Bobby Flay's wing 'throwdown' against Drew Cerza, filmed here",
+   "year": 2007,
+   "source": "s:wp-anchor-bar"
+  }
+ ],
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "Says the style started here, on 4 March 1964, and owns the trademark on the phrase.",
+   "rel": "style"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "Cooked here and gets the credit the house gives.",
+   "rel": "person"
+  },
+  {
+   "to": "dominic-bellissimo",
+   "as": "Tended this bar the night the story turns on, and told the story for thirty years.",
+   "rel": "person"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "as": "Started selling wings across town in 1969, the year a paper wrote this bar up without mentioning them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Holds one side of it, in three versions.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-anchor-bar",
+  "s:wp-buffalo-wing",
+  "s:trillin-1980"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,235 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "frying-oil",
+ "names": {
+  "name": "frying oil",
+  "aliases": [
+   "the fat",
+   "the oil",
+   "shortening",
+   "tallow"
+  ],
+  "said": "Ask what a shop fries in and you learn more about the wings than the sauce list tells you."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "oil"
+ },
+ "text": {
+  "what": "What the wing is cooked in. Deep frying submerges food in hot fat — traditionally lard, today most commonly oil — and the choice of fat sets flavour, how long the vat lasts, what the shop pays and what goes on the allergen sheet. Four answers cover most American wing counters: beef tallow, peanut, soybean and canola.",
+  "story": "Beef fat has the oldest claim and the shortest modern run. Beef suet was recommended as superior in the older frying literature, and Belgian tradition requires fries be fried in filtered cattle fat — blanc de boeuf, ossewit. McDonald's used a mixture of 93% beef tallow and 7% cottonseed oil until 1990, when it switched to vegetable oil with beef flavouring. Horse fat was standard in northern France and Belgium until recently.\n\nSoybean oil took the volume. In the United States especially, soybean oil is a popular medium in fast food, and fast food is one of the most common ways deep-fried food is eaten in North America. Trans fats appear in restaurant frying shortenings because they last longer than most conventional oils before going rancid; in the early 21st century non-hydrogenated vegetable oils with longer lifespans became available. Trans fat formed during frying increases with frying temperature, frying time, oil oxidation and oil reuse, and because chains use different fats in different locations, trans fat levels in fast food vary widely.\n\nCanola is rapeseed. Many countries including the United Kingdom use pure or hydrogenated rapeseed oil for deep-frying; the Mediterranean tradition uses olive oil, and research indicates virgin olive oil is unusual among cooking oils for being very rich in monounsaturated fatty acids. Some studies have found frying in olive and sunflower oils less detrimental to health, and in some cases with positive effects on insulin levels.\n\n*Tradition holds —* peanut oil is the fat American cooks name first for frying chicken and turkey, and the allergen is why plenty of shops will not keep it. This project has not found a cited source for either claim, and both are recorded here as unverified.\n\n*Inference —* the argument over frying fat is the same argument the wing has everywhere else: the thing that makes it taste like itself is the thing a national menu has to answer for.",
+  "how": "Hold the vat at 350–375 °F / 177–191 °C and let it recover between loads. Strain the solids at the end of service; oil can be reused a few times after straining, and excessive reuse breaks it down and releases compounds into the food. Some European countries set public health standards for frying-oil safety. Deep fat frying above 180 °C in the presence of moisture and air drives free radicals, oxidation, hydrolysis, isomerisation and polymerisation — water attacks the ester linkages of triacylglycerols, producing glycerol and free fatty acids, and those acids speed the reaction up. In practice that is what old oil tastes like.",
+  "today": "Chains publish their frying fat and independents rarely do. *Inference —* a shop that runs one vat for wings, fries, mozzarella sticks and fish is selling the oil as much as the recipe, and regulars taste the schedule before they could name it."
+ },
+ "kin": [
+  {
+   "to": "deep-fryer",
+   "as": "The vat this fills, and the temperature it has to hold.",
+   "rel": "whole"
+  },
+  {
+   "to": "naked-fry",
+   "as": "With no coating in the way, the fat is tasted directly on the skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "french-fries",
+   "as": "Carries the same tallow argument, with a published date on the switch.",
+   "rel": "dish"
+  },
+  {
+   "to": "double-fry",
+   "as": "Two passes through the same oil, which ages it faster.",
+   "rel": "fry"
+  },
+  {
+   "to": "air-fryer",
+   "as": "Replaces the bath with a film, and gives up whatever the fat was contributing.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "The vat is the other cost line, after the bird.",
+   "rel": "story"
+  },
+  {
+   "to": "jojo-potatoes",
+   "as": "Shares a shop's oil with the chicken, which is why they taste related.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-deep-frying",
+  "s:web-wp-french-fries"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-deep-frying",
+    "note": "the peanut-oil paragraph is explicitly unsourced and hedged; the closing paragraph is inference"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "blurb": "What the wing is cooked in. Deep frying submerges food in hot fat — traditionally lard, today most commonly oil — and the choice of fat sets flavour, how long the vat lasts, what the shop pays and what goes on the…",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "The vat this fills, and the temperature it has to hold.",
+   "rel": "whole"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "With no coating in the way, the fat is tasted directly on the skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "Carries the same tallow argument, with a published date on the switch.",
+   "rel": "dish"
+  },
+  {
+   "to": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "Two passes through the same oil, which ages it faster.",
+   "rel": "fry"
+  },
+  {
+   "to": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "Replaces the bath with a film, and gives up whatever the fat was contributing.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "The vat is the other cost line, after the bird.",
+   "rel": "story"
+  },
+  {
+   "to": "jojo-potatoes",
+   "type": "dish",
+   "name": "jojo potatoes",
+   "as": "Shares a shop's oil with the chicken, which is why they taste related.",
+   "rel": "dish"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-deep-frying",
+   "kind": "wikipedia",
+   "title": "Deep frying",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deep_frying",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wp-french-fries",
+   "kind": "web",
+   "title": "French fries",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/French_fries",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying",
+   "note": "the peanut-oil paragraph is explicitly unsourced and hedged; the closing paragraph is inference"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-deep-frying"
+  },
+  "text.today": {
+   "tier": "inference"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "The fat in the paste often comes straight out of the fryer.",
+   "rel": "fry"
+  },
+  {
+   "from": "french-fries",
+   "type": "dish",
+   "name": "french fries",
+   "as": "The argument these carry into the shop: tallow, cottonseed, soy, canola.",
+   "rel": "fry"
+  },
+  {
+   "from": "jojo-potatoes",
+   "type": "dish",
+   "name": "jojo potatoes",
+   "as": "Shares the chicken's oil in a shop that runs one fryer.",
+   "rel": "fry"
+  },
+  {
+   "from": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "Uses a film of it rather than a bath, which changes what the fat can contribute.",
+   "rel": "contrast"
+  },
+  {
+   "from": "deep-fryer",
+   "type": "fry",
+   "name": "the deep fryer",
+   "as": "What fills it, and the choice that changes how everything out of it tastes.",
+   "rel": "part"
+  },
+  {
+   "from": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "With no coat between skin and oil, the fat is tasted directly.",
+   "rel": "fry"
+  }
+ ]
+}

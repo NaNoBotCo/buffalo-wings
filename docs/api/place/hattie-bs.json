@@ -1,0 +1,362 @@
+{
+ "schema": 1,
+ "id": "hattie-bs",
+ "type": "place",
+ "names": {
+  "name": "Hattie B's Hot Chicken",
+  "aliases": [
+   "Hattie B's"
+  ],
+  "sort": "Hattie B's Hot Chicken"
+ },
+ "region": [
+  "nashville"
+ ],
+ "facets": {
+  "state": "TN",
+  "status": "open",
+  "founded": 2012,
+  "cooked": "fried",
+  "styles": [
+   "nashville-hot"
+  ]
+ },
+ "text": {
+  "what": "A Nashville hot chicken house founded by a father and son both named Nick Bishop, open in Midtown since 2012 and now in seven cities. It is the one with a printed heat ladder, from Southern (no heat) up to Shut the Cluck Up, and it is where most people outside Nashville meet the dish.",
+  "story": "The first Hattie B's opened in Midtown Nashville on 9 August 2012, at 112 19th Avenue South. The name comes from three women in the Bishop family, all called Hattie. The company is privately held and family owned.\n\nThe chicken is the Nashville preparation: fried, spiced, laid on white bread with pickles. What Hattie B's added was a written scale. Six steps are posted — Southern (No Heat), Mild, Medium, Hot!, Damn Hot!! and Shut the Cluck Up!!! — and the top one is built with ghost peppers.\n\nExpansion followed the ladder. West Nashville in June 2014, Birmingham, Alabama in June 2016, a third Nashville shop in November 2017, Midtown Memphis in April 2018, Atlanta in July 2018, The Cosmopolitan in Las Vegas that autumn, Dallas in February 2022, and in 2026 a first Midwestern shop in Chicago's Wrigleyville, with Wicker Park and River North announced.\n\n*Inference —* the argument this house draws is about what a heat ladder does to a dish. A printed scale makes the heat orderable by a stranger; at a shack it is a conversation with the counter. Both are Nashville hot chicken, and people will tell you at length which is which.",
+  "today": "Columnists in USA Today and Sports Illustrated reviewed it in 2017, and The Daily Meal ranked it sixth that year among America's 75 Best Fried Chicken Spots. The Midtown room at 112 19th Avenue South still carries the queue."
+ },
+ "geo": {
+  "lat": 36.1514926,
+  "lon": -86.7966244,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "112 19th Avenue South",
+  "city": "Nashville",
+  "county": "Davidson",
+  "state": "TN",
+  "postcode": "37203"
+ },
+ "links": [
+  {
+   "label": "Hattie B's Hot Chicken",
+   "url": "https://hattieb.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:wp-hattie-b-s-hot-chicken",
+   "tier": "cited",
+   "note": "founded by a father and son both named Nick Bishop; Wikipedia describes a privately held, family-owned company, and the name comes from three Hatties in the family"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:wp-hattie-b-s-hot-chicken",
+   "tier": "cited",
+   "note": "six house heat levels, the top one built with ghost peppers"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "The Daily Meal ranked it sixth on America's 75 Best Fried Chicken Spots",
+   "year": 2017,
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  },
+  {
+   "by": "usa-today",
+   "what": "Reviewed by a USA Today columnist",
+   "year": 2017,
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Daily from 11 a.m. — the Midtown room",
+  "source": "s:web-nashville-hot-chicken-hattie-bs",
+  "url": "https://nashvillehotchicken.net/restaurants/hattie-bs-midtown",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "a city restaurant guide, not the company's own page; closing times differ between listings, so only the days are recorded here"
+ },
+ "kin": [
+  {
+   "to": "nashville-hot",
+   "as": "Carried the style out of Nashville to eight other cities, with the heat written down.",
+   "rel": "style"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "The shack this house came after and is always measured against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "Built here in six graded strengths, the hottest with ghost pepper.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "Kept from the shack preparation, under every order.",
+   "rel": "dish"
+  },
+  {
+   "to": "chicken-and-waffles",
+   "as": "On the menu beside the hot chicken, which a shack would not have carried.",
+   "rel": "dish"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "as": "The East Nashville counter whose lowest heat is said to start where this one's top end sits.",
+   "rel": "contrast"
+  },
+  {
+   "to": "atomic",
+   "as": "The kind of word a heat ladder needs at the top; here it is Shut the Cluck Up.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-hattie-b-s-hot-chicken",
+  "s:wp-hot-chicken",
+  "s:web-nashville-hot-chicken-hattie-bs"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node, Hattie B's Hot Chicken, 112 19th Avenue South, Nashville"
+   },
+   "hours": {
+    "tier": "cited",
+    "source": "s:web-nashville-hot-chicken-hattie-bs"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Nashville hot chicken house founded by a father and son both named Nick Bishop, open in Midtown since 2012 and now in seven cities.",
+ "region_terms": [
+  {
+   "key": "nashville",
+   "name": "Nashville",
+   "state": "TN",
+   "note": "hot chicken, and the wings cooked the same way"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "Carried the style out of Nashville to eight other cities, with the heat written down.",
+   "rel": "style"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "The shack this house came after and is always measured against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "Built here in six graded strengths, the hottest with ghost pepper.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "Kept from the shack preparation, under every order.",
+   "rel": "dish"
+  },
+  {
+   "to": "chicken-and-waffles",
+   "type": "dish",
+   "name": "chicken and waffles",
+   "as": "On the menu beside the hot chicken, which a shack would not have carried.",
+   "rel": "dish"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "type": "place",
+   "name": "Bolton's Spicy Chicken & Fish",
+   "as": "The East Nashville counter whose lowest heat is said to start where this one's top end sits.",
+   "rel": "contrast"
+  },
+  {
+   "to": "atomic",
+   "type": "term",
+   "name": "atomic",
+   "as": "The kind of word a heat ladder needs at the top; here it is Shut the Cluck Up.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-hattie-b-s-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hattie B's Hot Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hattie_B%27s_Hot_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-hot-chicken",
+   "kind": "wikipedia",
+   "title": "Hot chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hot_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-nashville-hot-chicken-hattie-bs",
+   "kind": "web",
+   "title": "Hattie B's Hot Chicken — Nashville — Midtown",
+   "publisher": "Nashville Hot Chicken Restaurant Guide",
+   "url": "https://nashvillehotchicken.net/restaurants/hattie-bs-midtown",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node, Hattie B's Hot Chicken, 112 19th Avenue South, Nashville"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "family-run",
+   "label": "Family-run",
+   "icon": "👪",
+   "group": "ownership",
+   "evidence": "a press profile or the business's own history",
+   "resources": [],
+   "source": "s:wp-hattie-b-s-hot-chicken",
+   "note": "founded by a father and son both named Nick Bishop; Wikipedia describes a privately held, family-owned company, and the name comes from three Hatties in the family",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:wp-hattie-b-s-hot-chicken",
+   "note": "six house heat levels, the top one built with ghost peppers",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "The Daily Meal ranked it sixth on America's 75 Best Fried Chicken Spots",
+   "url": "",
+   "year": 2017,
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  },
+  {
+   "key": "usa-today",
+   "label": "USA Today 10Best",
+   "what": "Reviewed by a USA Today columnist",
+   "url": "",
+   "year": 2017,
+   "source": "s:wp-hattie-b-s-hot-chicken"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "Opened in 2012 and carried the style to nine cities, with ghost peppers at the top of the heat ladder.",
+   "rel": "place"
+  },
+  {
+   "from": "nashville-hot-oil",
+   "type": "sauce",
+   "name": "Nashville hot paste",
+   "as": "Runs the heat ladder as a menu, mild through the top rung.",
+   "rel": "place"
+  },
+  {
+   "from": "white-bread-and-pickles",
+   "type": "dish",
+   "name": "white bread and pickles",
+   "as": "Serves the same bread-and-pickle build to a much longer line.",
+   "rel": "place"
+  },
+  {
+   "from": "boltons-spicy-chicken-and-fish",
+   "type": "place",
+   "name": "Bolton's Spicy Chicken & Fish",
+   "as": "The house whose printed ladder starts, by one reviewer's reckoning, below this counter's baseline.",
+   "rel": "contrast"
+  },
+  {
+   "from": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "The 2012 Nashville house that carried this style to a wider room, with a printed heat ladder.",
+   "rel": "contrast"
+  },
+  {
+   "from": "andre-prince-jeffries",
+   "type": "person",
+   "name": "André Prince Jeffries",
+   "as": "Came along in 2012 selling the style she had been selling for thirty years.",
+   "rel": "contrast"
+  },
+  {
+   "from": "thornton-prince",
+   "type": "person",
+   "name": "Thornton Prince",
+   "as": "Opened in 2012 and took the style to a wider, whiter, younger room than his café ever had.",
+   "rel": "place"
+  }
+ ]
+}

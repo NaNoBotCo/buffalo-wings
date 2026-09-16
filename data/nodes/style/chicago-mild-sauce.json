@@ -1,0 +1,130 @@
+{
+ "schema": 1,
+ "id": "chicago-mild-sauce",
+ "type": "style",
+ "names": {
+  "name": "Chicago mild sauce wings",
+  "aliases": [
+   "mild sauce wings",
+   "South Side wings",
+   "fried hard with mild"
+  ],
+  "said": "The order is the cook and the sauce in four words: wings, fried hard, mild."
+ },
+ "region": [
+  "chicago",
+  "us"
+ ],
+ "facets": {
+  "state": "IL",
+  "base": "sweet-tomato",
+  "cooked": "fried",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "Wings fried hard — left in the oil past golden until the skin goes dark and brittle — then handed over a counter in a box with french fries and a slice of white bread, the whole box doused in mild sauce. Mild sauce is a tomato condiment of Chicago's Black South and West Sides: ketchup and tomato paste with sugar, vinegar and spices, pungent and sweet with a vinegar sting. It is a pour, not a toss. The sauce goes over everything in the box, and the bread and the fries take as much of it as the wings do.",
+  "story": "The sauce's history is recorded through the restaurants that poured it rather than through any single invention. America's Test Kitchen, writing on mild sauce in 2021, says flatly that \"the origins of both sauces are murky\" — meaning mild sauce and its Washington cousin, mumbo. Wikipedia names Harold's Chicken Shack, Uncle Remus Saucy Fried Chicken and Lem's Bar-B-Q as the restaurants that made it popular, and ties it to Black communities in Chicago.\n\nThe dates that do exist belong to the shops. Harold Pierce, who moved to Chicago in 1943 and worked as a chauffeur, opened Harold's Chicken Shack on 22 June 1950 at 47th and Kenwood; he and his wife Hilda also ran a soul food restaurant on 39th called the H&H, whose specialties were dumplings and chicken feet. Pierce let each franchisee build its own character rather than matching a template, so the constants across the chain are the chicken dinners and the emblem of a cook chasing a chicken with a cleaver, sometimes in lights, sometimes hand-painted, often with the cook dressed as a king. Redlining kept his expansion inside Black neighbourhoods, which is part of why the shacks concentrate on the South Side.\n\nArgia B. Collins trademarked his own Chicago barbecue sauce, Mumbo, for a South Side restaurant; WETA's Boundary Stones dates the trademark to 1958 and the family's Chicago restaurants to the 1940s, and the Mumbo mark was registered federally in 1999 by his successor Select Brands. Whether Chicago mild sauce and D.C. mumbo sauce are the same thing travelling, two things converging, or one thing renamed is exactly what neither the trademark record nor the food writing settles.\n\n*Inference —* the shacks' bulletproof-glass counters, which Wikipedia describes as a necessity rather than a design choice at Harold's, shaped the food: everything in this style survives being handed through a slot in a box.",
+  "how": "Cut the wing, flour it lightly or not at all, and fry it hard — longer and darker than a Buffalo wing, until the skin has no give. Lay white bread in the bottom of the box, fries on the bread, wings on the fries. Pour mild sauce over the top, or ask for it on the side and pour it yourself. Recipes vary shop to shop and are not published; the ATK account describes tomato paste and ketchup with sugar, vinegar, cayenne, mustard powder and garlic powder. Many houses also pour hot, and many customers order half mild and half hot.",
+  "today": "Harold's had over 100 locations as of 2025, including three in Atlanta and one in Charlotte, and the chain's daughter-of-the-founder CEO Kristen Pierce died in January 2026. Mild sauce is bottled by several makers and sold on shelves. The question of who owns a sauce that a neighbourhood invented is live: WETA's account of the parallel D.C. fight records a petition arguing mumbo had become generic \"like aspirin\" and a Trademark Trial and Appeal Board ruling that the evidence did not prove it."
+ },
+ "kin": [
+  {
+   "to": "mild-sauce",
+   "as": "The sauce itself — ketchup and tomato paste, sugar, vinegar, cayenne — poured over the whole box rather than tossed with the wings.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mild-sauce-word",
+   "as": "A word that names neither a heat level nor a brand, and confuses every reader who meets it first on a Buffalo menu.",
+   "rel": "term"
+  },
+  {
+   "to": "harolds-chicken-shack",
+   "as": "Opened 22 June 1950 at 47th and Kenwood, and the shop most responsible for carrying mild sauce out of the South Side.",
+   "rel": "place"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "as": "The West Side house Wikipedia names alongside Harold's for making the sauce popular.",
+   "rel": "place"
+  },
+  {
+   "to": "harold-pierce",
+   "as": "Founded the shacks, and let each franchisee build its own character rather than matching a template.",
+   "rel": "person"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "Trademarked a Chicago barbecue sauce called Mumbo, the thread that ties this style to Washington's.",
+   "rel": "person"
+  },
+  {
+   "to": "french-fries",
+   "as": "Under the wings and taking the same pour; the fries are part of the dish, not a side.",
+   "rel": "dish"
+  },
+  {
+   "to": "extra-crispy",
+   "as": "What 'fried hard' asks for, in the words another city uses.",
+   "rel": "term"
+  },
+  {
+   "to": "dc-mumbo",
+   "as": "The same argument in another city: whether one sauce travelled east or two grew separately, and nobody has settled it.",
+   "rel": "contrast"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "as": "The cook chasing a chicken with a cleaver, sometimes in neon, sometimes hand-painted, and never twice the same.",
+   "rel": "art"
+  },
+  {
+   "to": "buffalo",
+   "as": "The other city where a wing is defined by one sauce, though there the sauce is tossed and here it is poured.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "dc-mumbo",
+   "tell": "Geography, mostly. Both are sweet red sauces poured over fried wings and fries at a counter; Chicago's is mild sauce on the South and West Sides, Washington's is mumbo at a carryout, and whether they share an ancestor is unresolved."
+  },
+  {
+   "id": "honey-bbq-sauce",
+   "tell": "A barbecue sauce is brushed or tossed and tastes of smoke and molasses. Mild sauce is thinner, tangier, blunter, and it gets poured over the box."
+  }
+ ],
+ "sources": [
+  "s:wp-mild-sauce",
+  "s:wp-harold-s-chicken-shack",
+  "s:web-atk-chicago-mild-sauce",
+  "s:web-boundary-stones-mumbo",
+  "s:wp-mumbo-sauce",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mild-sauce"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "source": "s:web-atk-chicago-mild-sauce",
+    "note": "the ingredient list is cited; the box order and the half-and-half habit are general knowledge of the counters"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-harold-s-chicken-shack",
+    "note": "the closing paragraph is this project's inference and is marked"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

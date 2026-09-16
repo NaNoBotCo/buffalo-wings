@@ -1,0 +1,165 @@
+{
+ "schema": 1,
+ "id": "atomic-wings",
+ "type": "place",
+ "names": {
+  "name": "Atomic Wings",
+  "sort": "Atomic Wings"
+ },
+ "region": [
+  "nyc",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1989,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A New York wing chain founded in 1989 by a man trying to reproduce what he had eaten as a student in Buffalo. Wings are cut by hand and breaded on the premises, which is not the Buffalo method, and sauced from more than a dozen house mixes. Shops are small — 800 to 1,500 square feet — and built for takeout rather than for sitting.",
+  "story": "The founder is Adam Lippin, and the house dates the idea eight years before the first shop: \"Back in '81, our fearless founder, Adam, was on a mission: to recreate the hot, crispy wings he chowed down on during his college days in Buffalo.\" The first Atomic Wings opened in New York City in 1989, on the Upper East Side.\n\n*Inference —* the name reads as a heat claim rather than a place claim, which is how a New York shop sells a Buffalo idea to people who have not been to Buffalo. The word does its own work; see the term record.\n\nWhat the chain actually sells is a departure from the style it descends from. Restaurant Business, in a September 2020 piece the company reprints, names the difference: \"fresh, hand-cut wings that are breaded in-house.\" A Buffalo wing is fried bare. Breading a wing and calling it Buffalo is the thing Rochester gets argued with about, and Atomic Wings does it in Manhattan without anyone raising it.\n\nZak Omar bought in and runs the company as owner and chief executive. The same 2020 piece counted eleven shops with sixteen more in the pipeline, and quoted Omar drawing a boundary: \"Atomic Wings doesn't aspire to being Buffalo Wild Wings.\"",
+  "how": "Wings arrive fresh, get cut by hand, get breaded in the shop, fry, then take one of more than a dozen house sauces, most of them gluten-free. The chicken is \"all-natural, antibiotic- and hormone-free\" in the house's words. Small rooms, counters, delivery.",
+  "today": "Shops across New York City, Albany, Buffalo and beyond, with a franchise list running into other states as of September 2026. The record's address is the Harlem shop on Frederick Douglass Boulevard, which OpenStreetMap carries with its hours and phone; the first shop was on the Upper East Side."
+ },
+ "geo": {
+  "lat": 40.8025114,
+  "lon": -73.9565294,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "2090 Frederick Douglass Boulevard",
+  "city": "New York",
+  "county": "New York",
+  "state": "NY",
+  "postcode": "10026"
+ },
+ "links": [
+  {
+   "label": "Atomic Wings",
+   "url": "https://www.atomicwings.com/"
+  },
+  {
+   "label": "About",
+   "url": "https://www.atomicwings.com/about"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "breaded",
+   "source": "s:web-atomic-wings-rb",
+   "tier": "cited",
+   "note": "\"fresh, hand-cut wings that are breaded in-house\"",
+   "url": "https://www.atomicwings.com/news/5-things-to-know-about-atomic-wings"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-atomic-wings-about",
+   "tier": "cited",
+   "note": "\"over a dozen delicious signature sauces (most of which are gluten-free)\"",
+   "url": "https://www.atomicwings.com/about"
+  },
+  {
+   "tag": "takeout-window",
+   "source": "s:web-atomic-wings-rb",
+   "tier": "cited",
+   "note": "800 to 1,500 square feet, \"ideally suited to takeout and delivery\"; some shops do seat",
+   "url": "https://www.atomicwings.com/news/5-things-to-know-about-atomic-wings"
+  },
+  {
+   "tag": "halal",
+   "source": "s:osm",
+   "tier": "harvested",
+   "note": "OpenStreetMap carries diet:halal=yes on the Parkside Avenue shop in Brooklyn only, not on the chain"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Harlem shop: 11am–11pm daily",
+  "source": "s:osm",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OpenStreetMap opening_hours on the Frederick Douglass Boulevard shop; other shops post their own"
+ },
+ "kin": [
+  {
+   "to": "atomic",
+   "as": "Put the heat word on a sign in 1989 and made it a brand.",
+   "rel": "term"
+  },
+  {
+   "to": "breaded-fry",
+   "as": "Breads every wing in the shop, which is the choice that separates it from the Buffalo rooms it copies.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo",
+   "as": "Descends from it by a student's memory, and then breads the wing the style fries bare.",
+   "rel": "origin"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "One of the Buffalo rooms its founder studied before opening in Manhattan.",
+   "rel": "origin"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "as": "The other Buffalo room its founder studied.",
+   "rel": "origin"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "The comparison its owner rejects: small shops built for delivery, not a sports bar.",
+   "rel": "contrast"
+  },
+  {
+   "to": "rochester-breaded",
+   "as": "Does in Manhattan what Rochester gets argued with for doing seventy miles from Buffalo.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:web-atomic-wings-about",
+  "s:web-atomic-wings-rb",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-atomic-wings-about"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "one shop of many; the chain has no single address"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

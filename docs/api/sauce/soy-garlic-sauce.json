@@ -1,0 +1,345 @@
+{
+ "id": "soy-garlic-sauce",
+ "names": {
+  "name": "Soy garlic sauce",
+  "aliases": [
+   "ganjang chicken sauce",
+   "ganjang-chikin sauce",
+   "soy garlic"
+  ],
+  "said": "Ganjang (간장) is soy sauce. A Korean counter offers soy garlic or spicy, and banban gets you both."
+ },
+ "region": [
+  "korean-american",
+  "us"
+ ],
+ "facets": {
+  "base": "soy-sweet",
+  "heat": "none"
+ },
+ "text": {
+  "what": "A brown glaze of soy sauce, sugar and garlic, brushed onto fried chicken after the fryer. Sweet and savoury rather than hot; often heavily garlicky. Ganjang-chikin — soy sauce chicken — is the Korean name for the dish it makes. A honey version, sweeter and stickier, is sold alongside it.",
+  "story": "Bonchon standardised two flagship sauces, soy garlic and spicy, made with regional Korean ingredients and manufactured centrally in South Korean facilities so every franchise tastes the same. Jinduk Seo founded the chain in Busan in 2002; its name means \"my hometown\". Its first US location was in Fort Lee, New Jersey, and it is credited as the first Korean fried chicken brand to expand internationally.\n\nThe sauce sits in an old lineage. Pogye (포계), a fried chicken dish of the early Joseon dynasty, was sautéed in oil while soy sauce, sesame oil, flour-and-water and vinegar were poured on in turn.\n\nBonchon stopped retailing in South Korea by the end of 2016 to concentrate on export. VIG Partners took a majority stake in December 2018; the headquarters moved to Dallas, Texas in 2021. Around 500 restaurants operate in over ten countries.\n\n*Inference —* soy garlic is the sauce that carried Korean fried chicken to people who do not want heat, which is most of a mall food court.",
+  "how": "Double-fry, then paint. The sugar in the glaze catches on a still-hot crust and sets glossy; too much of it and the crust goes soft, which is why it is brushed thin rather than tossed. Serve with pickled radish. Scallion-topped padak is the same bird under shredded scallion instead.",
+  "today": "Sold at Korean fried chicken chains across the United States and bottled by small importers. As of 16 September 2026 the USDA label panel for We Love You Soy Garlic Korean Chicken Wing Sauce & Glaze reads 430 mg sodium and 6 g sugar in a 1-tablespoon serving, with soy sauce first, sugar second and granulated garlic fourth. Black pepper is the only pepper on it, and no Scoville number is published — for a sauce that claims no heat, none is expected."
+ },
+ "kin": [
+  {
+   "to": "korean-american",
+   "as": "One of the two sauces the style is ordered by.",
+   "rel": "style"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "as": "The other half of banban, and the spicy one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bonchon",
+   "as": "Standardised it as a flagship sauce and ships it from Korean plants to every franchise.",
+   "rel": "place"
+  },
+  {
+   "to": "teriyaki-sauce",
+   "as": "The nearest American shelf relative: soy, sugar and a glaze, out of Japan rather than Korea.",
+   "rel": "kin"
+  },
+  {
+   "to": "double-fry",
+   "as": "The thin crackly crust this glaze is painted onto.",
+   "rel": "fry"
+  },
+  {
+   "to": "pickled-radish",
+   "as": "Comes in the same box, and cuts the sugar.",
+   "rel": "dish"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The American sweet-brown wing, reached through corn syrup and tomato instead of soy.",
+   "rel": "kin"
+  },
+  {
+   "to": "garlic-parmesan-sauce",
+   "as": "The other garlic-forward wing with no heat in it at all.",
+   "rel": "kin"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "teriyaki-sauce",
+   "tell": "Garlic. Soy garlic leads on it; a Japanese teriyaki tare is soy, mirin and sugar, and garlic is uncommon in the traditional version."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "soy-sweet",
+  "maker": "Korean Delights LLC (We Love You)",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "soy sauce (water, soybeans, wheat, salt)",
+   "sugar",
+   "water",
+   "granulated garlic",
+   "apple juice concentrate",
+   "white distilled vinegar",
+   "corn starch",
+   "granulated onion",
+   "black pepper",
+   "ground ginger"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 6,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 2,
+  "mustard_rank": 0,
+  "soy_rank": 1,
+  "serving_tbsp": 1,
+  "sodium_mg_per_tbsp": 430,
+  "sugar_g_per_tbsp": 6,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-we-love-you-soy-garlic",
+  "url": "https://fdc.nal.usda.gov/food-details/2511275/nutrients",
+  "accessed": "2026-09-16",
+  "note": "We Love You Soy Garlic Korean Chicken Wing Sauce & Glaze, 15 oz. Label serving is 1 tbsp (18 g), so the per-tablespoon figures are the label's own. pepper_rank is 0: black pepper at rank 9 is not a chile. Bonchon's own soy garlic is made in company plants in South Korea and is not sold in a labelled retail bottle, so it returns no USDA record and its panel is not on this disk."
+ },
+ "sources": [
+  "s:wp-bonchon-chicken",
+  "s:wp-korean-fried-chicken",
+  "s:fdc-we-love-you-soy-garlic"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-we-love-you-soy-garlic",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-korean-fried-chicken"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the brushing and the sugar behaviour are general practice; padak and the radish are cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-we-love-you-soy-garlic"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "recipes": [
+  {
+   "title": "We Love You Soy Garlic Korean Chicken Wing Sauce & Glaze, as labelled",
+   "source": "s:fdc-we-love-you-soy-garlic",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/2511275/nutrients",
+   "region": "United States",
+   "ingredients": [
+    "soy sauce (water, soybeans, wheat, salt)",
+    "sugar",
+    "water",
+    "granulated garlic",
+    "apple juice concentrate",
+    "white distilled vinegar",
+    "corn starch",
+    "granulated onion",
+    "black pepper",
+    "ground ginger"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. Bonchon's own soy garlic is made in company plants and is not sold in a labelled retail bottle, so nothing of it can be read here."
+  }
+ ],
+ "blurb": "A brown glaze of soy sauce, sugar and garlic, brushed onto fried chicken after the fryer. Sweet and savoury rather than hot; often heavily garlicky.",
+ "region_terms": [
+  {
+   "key": "korean-american",
+   "name": "Korean America",
+   "state": null,
+   "note": "Los Angeles, Queens, Fort Lee, Annandale, Chicago; a cuisine, not a place"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "One of the two sauces the style is ordered by.",
+   "rel": "style"
+  },
+  {
+   "to": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "The other half of banban, and the spicy one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "bonchon",
+   "type": "place",
+   "name": "Bonchon",
+   "as": "Standardised it as a flagship sauce and ships it from Korean plants to every franchise.",
+   "rel": "place"
+  },
+  {
+   "to": "teriyaki-sauce",
+   "type": "sauce",
+   "name": "Teriyaki sauce",
+   "as": "The nearest American shelf relative: soy, sugar and a glaze, out of Japan rather than Korea.",
+   "rel": "kin"
+  },
+  {
+   "to": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "The thin crackly crust this glaze is painted onto.",
+   "rel": "fry"
+  },
+  {
+   "to": "pickled-radish",
+   "type": "dish",
+   "name": "pickled radish",
+   "as": "Comes in the same box, and cuts the sugar.",
+   "rel": "dish"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "type": "sauce",
+   "name": "Honey barbecue sauce",
+   "as": "The American sweet-brown wing, reached through corn syrup and tomato instead of soy.",
+   "rel": "kin"
+  },
+  {
+   "to": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "The other garlic-forward wing with no heat in it at all.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-bonchon-chicken",
+   "kind": "wikipedia",
+   "title": "Bonchon Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonchon_Chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-korean-fried-chicken",
+   "kind": "wikipedia",
+   "title": "Korean fried chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Korean_fried_chicken",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:fdc-we-love-you-soy-garlic",
+   "kind": "dataset",
+   "title": "We Love You Soy Garlic Korean Chicken Wing Sauce & Glaze — branded food label (FDC ID 2511275)",
+   "publisher": "USDA FoodData Central",
+   "url": "https://fdc.nal.usda.gov/food-details/2511275/nutrients",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-bonchon-chicken"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "the brushing and the sugar behaviour are general practice; padak and the radish are cited"
+  },
+  "text.today": {
+   "tier": "harvested",
+   "source": "s:fdc-we-love-you-soy-garlic"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "Ganjang chicken's sauce — soy, sugar, garlic — and the other half of a banban order.",
+   "rel": "sauce"
+  },
+  {
+   "from": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "The other garlic-forward wing with no heat, reached through soy and sugar instead of dairy.",
+   "rel": "kin"
+  },
+  {
+   "from": "teriyaki-sauce",
+   "type": "sauce",
+   "name": "Teriyaki sauce",
+   "as": "The Korean fried chicken relative; soy and sugar again, with garlic pushed forward.",
+   "rel": "kin"
+  },
+  {
+   "from": "yangnyeom-sauce",
+   "type": "sauce",
+   "name": "Yangnyeom sauce",
+   "as": "The other half of the order, and the sauce most shops pair it against.",
+   "rel": "contrast"
+  },
+  {
+   "from": "pickled-radish",
+   "type": "dish",
+   "name": "pickled radish",
+   "as": "The other flagship coat, brushed on rather than tossed, and cut by the same pickle.",
+   "rel": "sauce"
+  },
+  {
+   "from": "double-fry",
+   "type": "fry",
+   "name": "the double fry",
+   "as": "Brushed onto this crust rather than tossed, so the shell survives.",
+   "rel": "sauce"
+  },
+  {
+   "from": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Brushed on instead, by shops that will not risk the crust in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bonchon",
+   "type": "place",
+   "name": "Bonchon",
+   "as": "One of the two founding sauces, made with Daseo-jong garlic in South Korea and shipped worldwide.",
+   "rel": "sauce"
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "id": "lemon-pepper-wet",
+ "names": {
+  "name": "Lemon pepper wet",
+  "aliases": [
+   "LP wet",
+   "lemon pepper wet wings"
+  ],
+  "said": "Two words at the counter. 'Wet' means sauce underneath the shake, and for years at one Atlanta restaurant it was not on the menu at all."
+ },
+ "region": [
+  "atlanta",
+  "us"
+ ],
+ "facets": {
+  "base": "citrus-pepper",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A wing that has been through something wet and then through lemon pepper. The wet part varies: a lemon sauce instead of a dry rub at some shops, melted butter at others, Buffalo sauce at others again, with the dry seasoning shaken on after. American Deli in Atlanta invented the version the name usually points at.",
+  "story": "The dish reached most of America through television. The second episode of Atlanta shows a character handed \"lemon pepper wet\" wings from J.R. Crickets, a real Atlanta restaurant; the scene went round social media and the dish went with it. At the time J.R. Crickets did not have it on the menu — it had a similar item called \"Fester\" wings that customers kept calling lemon pepper wet. Writer Stephen Glover said he wanted the character \"hooked up\" with something that was not on the menu. The wings the show depicted were actually modelled on a dish from American Deli, a different Atlanta restaurant. J.R. Crickets added lemon pepper wet to its menu in 2017 in honour of the show. Mike Jordan of Eater Atlanta credited the episode with popularising it.\n\nIt kept collecting names. In 2020 Lou Williams of the Los Angeles Clippers picked up the nickname \"Lemon Pepper Lou\" after it was reported that he ordered lemon pepper wings with Jack Harlow at the Magic City strip club during a trip outside the NBA Bubble. Magic City already had a dish named for him, \"Louwill Lemon Pepper BBQ Wings\". He objected to the nickname and later trademarked it.\n\n*Inference —* wet is the only wing order in America whose canonical version was invented by a customer, confirmed by a screenwriter, and then put on the menu by a restaurant that had not been serving it.",
+  "how": "Fry the wings bare. Toss them in the wet part — lemon butter, plain melted butter, or Buffalo sauce — then shake dry lemon pepper over the top while the coating is still tacky. The order matters: shake first and it slides off; shake last and it sits on the surface where you taste it.",
+  "today": "On Atlanta menus and, by 2026, on chain menus far from Atlanta. No maker bottles it, because it is not a bottle — it is a sequence. There is no label to read, no sodium figure, no Scoville number, and every shop's wet is a different wet."
+ },
+ "kin": [
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "The dry shake that goes on last, and the half of the name that comes in a jar.",
+   "rel": "part"
+  },
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "The style it belongs to, and the argument inside it: dry or wet.",
+   "rel": "style"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "The two words this order is built out of.",
+   "rel": "term"
+  },
+  {
+   "to": "american-deli",
+   "as": "Invented the version the name points at, and the one the television episode was modelled on.",
+   "rel": "place"
+  },
+  {
+   "to": "jr-cricketts",
+   "as": "Got the fame and then added the dish, in 2017.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "One of the things the wet can be, at shops that build it on butter and cayenne.",
+   "rel": "part"
+  },
+  {
+   "to": "the-toss",
+   "as": "Happens twice here: once for the sauce, once for the shake.",
+   "rel": "fry"
+  },
+  {
+   "to": "all-flats",
+   "as": "The other half of the order that Atlanta says in one breath.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "lemon-pepper-seasoning",
+   "tell": "A jar against a sequence. The seasoning is an ingredient; wet is a way of applying it."
+  },
+  {
+   "id": "garlic-parmesan-sauce",
+   "tell": "Both end in a dry shake over a wet wing, but garlic parm's wet part is a creamy garlic sauce, not butter or cayenne."
+  }
+ ],
+ "profile": {
+  "kind": "house",
+  "base": "citrus-pepper",
+  "maker": null,
+  "town": "Atlanta",
+  "state": "GA",
+  "ingredients": [
+   "lemon pepper seasoning",
+   "butter or a lemon sauce or Buffalo sauce, depending on the shop"
+  ],
+  "pepper_rank": null,
+  "vinegar_rank": null,
+  "fat_rank": null,
+  "tomato_rank": null,
+  "sugar_rank": null,
+  "mustard_rank": null,
+  "soy_rank": null,
+  "serving_tbsp": null,
+  "sodium_mg_per_tbsp": null,
+  "sugar_g_per_tbsp": null,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:wp-lemon-pepper-wings",
+  "url": "https://en.wikipedia.org/wiki/Lemon_pepper_wings",
+  "accessed": "2026-09-16",
+  "note": "kind is 'house' because no maker bottles this and no label exists to measure. The ingredient line is the range Wikipedia describes — a lemon sauce instead of the dry rub, or butter, or Buffalo sauce, with dry lemon pepper tossed over — not a single recipe. Every rank, every milligram and the Scoville figure are null because nothing is published; none of them is estimated here."
+ },
+ "recipes": [
+  {
+   "title": "Lemon Sauce (For Rabbit or Fowl)",
+   "source": "s:douglas-1903",
+   "license": "Public domain",
+   "year": 1903,
+   "author": "Elizabeth Douglas",
+   "book": "The Soup and Sauce Book",
+   "url": "https://www.gutenberg.org/ebooks/68446",
+   "region": "London",
+   "ingredients": [
+    "1 lemon",
+    "1 liver of fowl or rabbit",
+    "½ pint melted butter",
+    "1 table-spoon chopped parsley"
+   ],
+   "text": "Cook the liver, pound it and put it through a sieve. Peel the lemon, cut the inside, from which the pips must be removed, into very small dice-shaped pieces. Add the lemon and liver to the melted butter. Heat gently, but do not boil. Add the parsley.",
+   "note": "Copied verbatim, old spellings and the hyphen in 'table-spoon' kept. Lemon and melted butter, poured over fowl, sixty-odd years before the seasoning existed. The liver is Douglas's, not Atlanta's."
+  }
+ ],
+ "sources": [
+  "s:wp-lemon-pepper-wings",
+  "s:wp-lemon-pepper",
+  "s:douglas-1903"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "fields": {
+   "profile": {
+    "tier": "cited",
+    "source": "s:wp-lemon-pepper-wings",
+    "note": "no label exists; the range of wet parts is the cited description, and every number stays null"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-lemon-pepper-wings"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the order of operations is counter practice"
+   },
+   "text.today": {
+    "tier": "inference",
+    "note": "the absence of a bottled version is stated as an absence"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16"
+}

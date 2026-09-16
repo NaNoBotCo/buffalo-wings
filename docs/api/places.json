@@ -1,0 +1,1362 @@
+{
+ "built": "2026-09-16",
+ "count": 33,
+ "curated": 33,
+ "harvested": 0,
+ "harvest": null,
+ "places": [
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Open 7 days, 9.30 a.m. to 8.15 p.m. dine-in, 8.30 p.m. drive-through — the 6th Avenue room",
+   "sold_out": false,
+   "id": "big-bob-gibson-bar-b-q",
+   "name": "Big Bob Gibson Bar-B-Q",
+   "state": "AL",
+   "city": "Decatur",
+   "county": "Morgan",
+   "lat": 34.5794626,
+   "lon": -86.9785639,
+   "styles": [
+    "alabama-white",
+    "smoked-bbq-wing"
+   ],
+   "status": "open",
+   "founded": 1925,
+   "cooked": "smoked",
+   "curated": true,
+   "url": "place/big-bob-gibson-bar-b-q/",
+   "blurb": "The Decatur, Alabama pit where white barbecue sauce was invented: mayonnaise, vinegar and black pepper, made for smoked chicken.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "family-run",
+    "house-sauce",
+    "smoked"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "Southern Foodways Alliance",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Monday to Thursday 11 a.m. to 2.30 a.m.; Friday and Saturday 11 a.m. to 3.30 a.m.; Sunday noon to 10 p.m.",
+   "sold_out": false,
+   "id": "yums-carry-out",
+   "name": "Yum's II Carry-Out",
+   "state": "DC",
+   "city": "Washington",
+   "county": "",
+   "lat": 38.9094398,
+   "lon": -77.0317196,
+   "styles": [
+    "dc-mumbo"
+   ],
+   "status": "open",
+   "founded": null,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/yums-carry-out/",
+   "blurb": "A Chinese carryout on 14th Street NW in Washington, open past two most nights, selling fried wings, fried rice and french fries with mumbo sauce over them. It is the first address on most D.C. carryout lists.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "house-sauce",
+    "late-night",
+    "takeout-window"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Other named recognition",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "hooters",
+   "name": "Hooters",
+   "state": "FL",
+   "city": "Clearwater",
+   "county": "Pinellas",
+   "lat": 27.9609583,
+   "lon": -82.7212313,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1983,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/hooters/",
+   "blurb": "A restaurant chain that sells breaded wings, beer and a uniform. Six Clearwater, Florida businessmen incorporated Hooters, Inc.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "breaded"
+   ],
+   "recognitions": 0,
+   "recognized_by": [],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "american-deli",
+   "name": "American Deli",
+   "state": "GA",
+   "city": "Atlanta",
+   "county": "Fulton",
+   "lat": 33.749,
+   "lon": -84.388,
+   "styles": [
+    "atlanta-lemon-pepper"
+   ],
+   "status": "open",
+   "founded": 1989,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/american-deli/",
+   "blurb": "A counter chain out of Atlanta, open since 1989, that sells wings by the ten-piece with a long board of seasonings and sauces.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "house-sauce"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "The local paper or alt-weekly",
+    "Thrillist"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "buffalo-wild-wings",
+   "name": "Buffalo Wild Wings",
+   "state": "GA",
+   "city": "Atlanta",
+   "county": "Fulton",
+   "lat": 33.9353992,
+   "lon": -84.3599421,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1982,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/buffalo-wild-wings/",
+   "blurb": "A sports-bar chain that put a Buffalo wing on a menu in Columbus, Ohio in 1982 and then on menus in all fifty states.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [],
+   "recognitions": 1,
+   "recognized_by": [
+    "National Buffalo Wing Festival"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "jr-cricketts",
+   "name": "J.R. Crickets",
+   "state": "GA",
+   "city": "Atlanta",
+   "county": "Fulton",
+   "lat": 33.7710457,
+   "lon": -84.383192,
+   "styles": [
+    "atlanta-lemon-pepper",
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1982,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/jr-cricketts/",
+   "blurb": "A Midtown Atlanta wing bar open since 1982, founded by Paul Juliano, who still runs it.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "house-sauce",
+    "late-night"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "The local paper or alt-weekly",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Open daily from 11 a.m. to midnight, as reported in June 2025",
+   "sold_out": false,
+   "id": "wing-cafe",
+   "name": "The Wing Cafe & Tap House",
+   "state": "GA",
+   "city": "Marietta",
+   "county": "Cobb",
+   "lat": 33.9684874,
+   "lon": -84.491808,
+   "styles": [
+    "buffalo",
+    "garlic-parm",
+    "atlanta-lemon-pepper"
+   ],
+   "status": "open",
+   "founded": 1995,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/wing-cafe/",
+   "blurb": "A wing bar on Roswell Road in east Cobb County, outside Atlanta, carrying thirty-five to forty sauces and marinades and thirty to fifty beers on tap.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "late-night"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "The local paper or alt-weekly"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "harolds-chicken-shack",
+   "name": "Harold's Chicken Shack",
+   "state": "IL",
+   "city": "Chicago",
+   "county": "Cook",
+   "lat": 41.809569,
+   "lon": -87.5959671,
+   "styles": [
+    "chicago-mild-sauce"
+   ],
+   "status": "open",
+   "founded": 1950,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/harolds-chicken-shack/",
+   "blurb": "A Chicago fried-chicken institution founded by Harold Pierce in 1950 and franchised to friends and family, now past a hundred storefronts.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "black-owned",
+    "family-run",
+    "house-sauce"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Other named recognition",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "uncle-remus-saucy-fried-chicken",
+   "name": "Uncle Remus Saucy Fried Chicken",
+   "state": "IL",
+   "city": "Chicago",
+   "county": "Cook",
+   "lat": 41.8800579,
+   "lon": -87.7654004,
+   "styles": [
+    "chicago-mild-sauce"
+   ],
+   "status": "open",
+   "founded": 1963,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/uncle-remus-saucy-fried-chicken/",
+   "blurb": "A West Side Chicago fried-chicken counter whose sauce is in its name. Gus W. Rickette Sr. and Mary F.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "black-owned",
+    "family-run",
+    "house-sauce",
+    "takeout-window"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "capital-city-mambo-sauce",
+   "name": "Capital City Mambo Sauce",
+   "state": "MD",
+   "city": "Bowie",
+   "county": "Prince George's",
+   "lat": 38.9566003,
+   "lon": -76.7054417,
+   "styles": [],
+   "status": "open",
+   "founded": 2011,
+   "cooked": null,
+   "curated": true,
+   "url": "place/capital-city-mambo-sauce/",
+   "blurb": "A bottler, not a counter. Arsha and Charles Jones started Capital City in a home kitchen in 2011 to put D.C.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "family-run",
+    "woman-owned"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Other named recognition",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "horaces-and-dickies",
+   "name": "Horace & Dickie's Seafood",
+   "state": "MD",
+   "city": "Camp Springs",
+   "county": "Prince George's",
+   "lat": 38.8108417,
+   "lon": -76.8966754,
+   "styles": [
+    "dc-mumbo"
+   ],
+   "status": "open",
+   "founded": 1990,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/horaces-and-dickies/",
+   "blurb": "A fried-fish carryout that ran thirty years at 12th and H Streets NE in Washington and now trades from Prince George's County, Maryland.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "family-run",
+    "takeout-window"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "The local paper or alt-weekly",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "anchor-bar",
+   "name": "Anchor Bar",
+   "state": "NY",
+   "city": "Buffalo",
+   "county": "Erie",
+   "lat": 42.90743,
+   "lon": -78.87261,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1935,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/anchor-bar/",
+   "blurb": "A bar and restaurant at Main and North in Buffalo, open since 1935, which claims the Buffalo wing and has trademarked the phrase. Frank and Teressa Bellissimo opened it; their son Dominic ran it and sold the story.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "naked"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "Other named recognition",
+    "Food Network"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Harlem shop: 11am–11pm daily",
+   "sold_out": false,
+   "id": "atomic-wings",
+   "name": "Atomic Wings",
+   "state": "NY",
+   "city": "New York",
+   "county": "New York",
+   "lat": 40.8025114,
+   "lon": -73.9565294,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1989,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/atomic-wings/",
+   "blurb": "A New York wing chain founded in 1989 by a man trying to reproduce what he had eaten as a student in Buffalo.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "breaded",
+    "halal",
+    "house-sauce",
+    "takeout-window"
+   ],
+   "recognitions": 0,
+   "recognized_by": [],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "bar-bill-tavern",
+   "name": "Bar-Bill Tavern",
+   "state": "NY",
+   "city": "East Aurora",
+   "county": "Erie",
+   "lat": 42.7675581,
+   "lon": -78.6279118,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": null,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/bar-bill-tavern/",
+   "blurb": "A tavern on Main Street in East Aurora, fifteen miles southeast of Buffalo and not in the city at all, whose wings are brushed with sauce by hand rather than tossed.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "family-run",
+    "house-sauce"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "Buffalo Wing Trail",
+    "The local paper or alt-weekly"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Open daily; closing runs late and varies by night and by the sports calendar",
+   "sold_out": false,
+   "id": "blondies-sports-bar",
+   "name": "Blondies Sports",
+   "state": "NY",
+   "city": "New York",
+   "county": "New York",
+   "lat": 40.7832747,
+   "lon": -73.9791292,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": null,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/blondies-sports-bar/",
+   "blurb": "A sports bar on West 79th Street between Amsterdam and Broadway, on Manhattan's Upper West Side, with televisions in every sightline and a wing order most of the room is there for.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "late-night",
+    "wing-night",
+    "woman-owned"
+   ],
+   "recognitions": 0,
+   "recognized_by": [],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Monday to Thursday 11am–9pm, Friday and Saturday 11am–10pm, Sunday noon–9pm",
+   "sold_out": false,
+   "id": "country-sweet-chicken-and-ribs",
+   "name": "Country Sweet Chicken & Ribs",
+   "state": "NY",
+   "city": "Rochester",
+   "county": "Monroe",
+   "lat": 43.1171914,
+   "lon": -77.6219256,
+   "styles": [
+    "rochester-breaded"
+   ],
+   "status": "open",
+   "founded": 1977,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/country-sweet-chicken-and-ribs/",
+   "blurb": "A Rochester counter open since 1977, hand-breading its wings and glazing them in a sauce the founder built in a home kitchen and the city now buys by the bottle.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "breaded",
+    "house-sauce",
+    "takeout-window"
+   ],
+   "recognitions": 0,
+   "recognized_by": [],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Sunday to Thursday 11am–9pm, Friday and Saturday 11am–10pm",
+   "sold_out": false,
+   "id": "duffs-famous-wings",
+   "name": "Duff's Famous Wings",
+   "state": "NY",
+   "city": "Amherst",
+   "county": "Erie",
+   "lat": 42.9791498,
+   "lon": -78.7983599,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1946,
+   "cooked": "double-fried",
+   "curated": true,
+   "url": "place/duffs-famous-wings/",
+   "blurb": "A wing house at Sheridan Drive and Millersport Highway in Amherst, north of Buffalo, open under that corner since 1946 and selling wings since 1969.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "house-sauce"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Buffalo Wing Trail"
+   ],
+   "image": "duffs-famous-wings/duffs-famous-wings-duffs-chicken-wings.jpg"
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday 11:30am–2am; Tuesday 11:30am–11:30pm; Wednesday to Friday 11:30am–2am; Saturday noon–2am; closed Sunday",
+   "sold_out": false,
+   "id": "elmos-bar-and-restaurant",
+   "name": "Elmo's Bar & Restaurant",
+   "state": "NY",
+   "city": "Getzville",
+   "county": "Erie",
+   "lat": 43.0141142,
+   "lon": -78.768637,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": null,
+   "cooked": "mixed",
+   "curated": true,
+   "url": "place/elmos-bar-and-restaurant/",
+   "blurb": "A pitcher-and-television sports bar on Millersport Highway in Getzville, near the University at Buffalo's north campus, whose signature is a wing that goes through the fryer and then onto a grill.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "late-night",
+    "smoked"
+   ],
+   "recognitions": 3,
+   "recognized_by": [
+    "Bon Appétit",
+    "Buffalo Wing Trail",
+    "The local paper or alt-weekly"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Monday to Thursday and Sunday 11:30am–midnight; Friday and Saturday 11:30am–1am",
+   "sold_out": false,
+   "id": "gabriels-gate",
+   "name": "Gabriel's Gate",
+   "state": "NY",
+   "city": "Buffalo",
+   "county": "Erie",
+   "lat": 42.8996579,
+   "lon": -78.8754776,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1969,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/gabriels-gate/",
+   "blurb": "A restaurant and tavern at 145 Allen Street in Buffalo's Allentown, trading since 1969 inside an 1864 brick row house with tin ceilings and two wood-burning fireplaces.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "late-night"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "Bon Appétit",
+    "Buffalo Wing Trail"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Monroe Avenue: Sunday to Wednesday 11am–11pm (kitchen to 10pm); Thursday to Saturday 11am–midnight (kitchen to 11pm)",
+   "sold_out": false,
+   "id": "jeremiahs-tavern",
+   "name": "Jeremiah's Tavern",
+   "state": "NY",
+   "city": "Rochester",
+   "county": "Monroe",
+   "lat": 43.1389642,
+   "lon": -77.5801464,
+   "styles": [
+    "buffalo",
+    "rochester-breaded"
+   ],
+   "status": "open",
+   "founded": null,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/jeremiahs-tavern/",
+   "blurb": "A tavern at 1104 Monroe Avenue in Rochester, the first of four rooms, frying wings that arrive \"fresh, never frozen\" in sauces the company mixes daily at its own commissary.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "house-sauce"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "A city readers' poll"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Sun–Wed 10:00am–10:15pm, Thurs 10:00am–11:15pm, Fri–Sat 10:00am–12:15am",
+   "sold_out": false,
+   "id": "la-nova-pizzeria",
+   "name": "La Nova Pizzeria",
+   "state": "NY",
+   "city": "Buffalo",
+   "county": "Erie",
+   "lat": 42.9151387,
+   "lon": -78.8881731,
+   "styles": [
+    "buffalo",
+    "smoked-bbq-wing"
+   ],
+   "status": "open",
+   "founded": 1957,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/la-nova-pizzeria/",
+   "blurb": "A pizzeria on West Ferry Street in Buffalo's west side, run by three generations of the Todaro family, whose barbecue wing is the local counter-argument to cayenne and butter.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "family-run",
+    "house-sauce",
+    "late-night"
+   ],
+   "recognitions": 0,
+   "recognized_by": [],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday to Saturday 11:30am–11:00pm; closed Sunday",
+   "sold_out": false,
+   "id": "mammosers-tavern",
+   "name": "Mammoser's Tavern & Restaurant",
+   "state": "NY",
+   "city": "Hamburg",
+   "county": "Erie",
+   "lat": 42.7153208,
+   "lon": -78.8292234,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": null,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/mammosers-tavern/",
+   "blurb": "A neighbourhood tavern on South Buffalo Street in Hamburg, twelve miles south of the city, pouring eighteen microbrew drafts and frying a wing in a house sauce built on four kinds of pepper.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "house-sauce"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "Bon Appétit",
+    "Buffalo Wing Trail"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "closed",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Kitchen Tuesday to Thursday 4:30–9pm, Friday and Saturday 4:30–9:30pm; bar until 10pm and 10:30pm",
+   "sold_out": false,
+   "id": "nine-eleven-tavern",
+   "name": "Nine-Eleven Tavern",
+   "state": "NY",
+   "city": "Buffalo",
+   "county": "Erie",
+   "lat": 42.8452004,
+   "lon": -78.8233371,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 1981,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/nine-eleven-tavern/",
+   "blurb": "A cash-only corner tavern in South Buffalo, established 1981, whose wings come out large and heavily sauced in a recipe its late owner kept to himself.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "cash-only",
+    "house-sauce"
+   ],
+   "recognitions": 3,
+   "recognized_by": [
+    "National Buffalo Wing Festival",
+    "The local paper or alt-weekly",
+    "Buffalo Wing Trail"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "The Flatbush Avenue counter runs to 6am; no source read here gives its days. The Prospect Place room posts 11am daily, closing between 10pm and 12:30am.",
+   "sold_out": false,
+   "id": "peppas-jerk-chicken",
+   "name": "Peppa's Jerk Chicken",
+   "state": "NY",
+   "city": "Brooklyn",
+   "county": "Kings",
+   "lat": 40.6549839,
+   "lon": -73.9598946,
+   "styles": [
+    "caribbean-jerk"
+   ],
+   "status": "open",
+   "founded": 2005,
+   "cooked": "grilled",
+   "curated": true,
+   "url": "place/peppas-jerk-chicken/",
+   "blurb": "A Jamaican takeout counter on Flatbush Avenue in Brooklyn's Little Caribbean, run by Gavin Hussey, whose jerk chicken is dry-rubbed, washed with vinegar and charred black before it is hacked apart to order.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "black-owned",
+    "cash-only",
+    "family-run",
+    "late-night",
+    "takeout-window"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Wednesday, Thursday and Sunday 11am–10pm; Friday and Saturday 11am–12:30am. Monday and Tuesday not posted.",
+   "sold_out": false,
+   "id": "wingnutz",
+   "name": "Wingnutz",
+   "state": "NY",
+   "city": "Williamsville",
+   "county": "Erie",
+   "lat": 42.9892342,
+   "lon": -78.7914392,
+   "styles": [
+    "buffalo"
+   ],
+   "status": "open",
+   "founded": 2005,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/wingnutz/",
+   "blurb": "A sports bar on Millersport Highway in Williamsville, run by Ed and Alicia Wrazen, whose wings ran for thirteen years out of a Knights of Columbus hall before they had a restaurant.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "family-run",
+    "house-sauce",
+    "late-night"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "The local paper or alt-weekly",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "chickie-and-petes",
+   "name": "Chickie's & Pete's",
+   "state": "PA",
+   "city": "Philadelphia",
+   "county": "Philadelphia",
+   "lat": 40.0274043,
+   "lon": -75.0599741,
+   "styles": [
+    "buffalo",
+    "smoked-bbq-wing"
+   ],
+   "status": "open",
+   "founded": 1977,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/chickie-and-petes/",
+   "blurb": "A Philadelphia sports bar and crab house that began as a Mayfair taproom in 1977 and now runs stadium, casino and airport rooms.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bar",
+    "family-run",
+    "house-sauce"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "boltons-spicy-chicken-and-fish",
+   "name": "Bolton's Spicy Chicken & Fish",
+   "state": "TN",
+   "city": "Nashville",
+   "county": "Davidson",
+   "lat": 36.1739636,
+   "lon": -86.7613291,
+   "styles": [
+    "nashville-hot"
+   ],
+   "status": "open",
+   "founded": 1997,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/boltons-spicy-chicken-and-fish/",
+   "blurb": "A small East Nashville counter at 624 Main Street selling spicy fried chicken and spicy fried fish, opened in 1997 by Bolton Matthews and Dolly Ingram. The recipe came down from Matthews's uncle Bolton Polk.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "black-owned",
+    "bone-in-only",
+    "family-run",
+    "house-sauce"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "Southern Foodways Alliance",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "central-bbq",
+   "name": "Central BBQ",
+   "state": "TN",
+   "city": "Memphis",
+   "county": "Shelby",
+   "lat": 35.1258836,
+   "lon": -89.9867443,
+   "styles": [
+    "memphis-dry-rub",
+    "smoked-bbq-wing"
+   ],
+   "status": "open",
+   "founded": 2002,
+   "cooked": "smoked",
+   "curated": true,
+   "url": "place/central-bbq/",
+   "blurb": "A Memphis barbecue house started in 2002 by two competition cooks, Craig Blondis and Roger Sapp, on Central Avenue.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bone-in-only",
+    "house-sauce",
+    "smoked"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "Southern Foodways Alliance"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "closed",
+    "Tu": "closed",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Wednesday to Saturday 11 a.m. to 7 p.m.; Sunday noon to 6 p.m.; closed Monday and Tuesday",
+   "sold_out": false,
+   "id": "chings-hot-wings",
+   "name": "Ching's Hot Wings",
+   "state": "TN",
+   "city": "Memphis",
+   "county": "Shelby",
+   "lat": 35.0972295,
+   "lon": -89.9308268,
+   "styles": [
+    "memphis-dry-rub"
+   ],
+   "status": "open",
+   "founded": 2003,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/chings-hot-wings/",
+   "blurb": "A Memphis wing shop on Getwell Road, trading since 2003, selling whole wings by the piece from three to four hundred.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "bone-in-only",
+    "house-sauce"
+   ],
+   "recognitions": 0,
+   "recognized_by": [],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "open"
+   },
+   "hours_text": "Daily from 11 a.m. — the Midtown room",
+   "sold_out": false,
+   "id": "hattie-bs",
+   "name": "Hattie B's Hot Chicken",
+   "state": "TN",
+   "city": "Nashville",
+   "county": "Davidson",
+   "lat": 36.1514926,
+   "lon": -86.7966244,
+   "styles": [
+    "nashville-hot"
+   ],
+   "status": "open",
+   "founded": 2012,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/hattie-bs/",
+   "blurb": "A Nashville hot chicken house founded by a father and son both named Nick Bishop, open in Midtown since 2012 and now in seven cities.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "family-run",
+    "house-sauce"
+   ],
+   "recognitions": 2,
+   "recognized_by": [
+    "Other named recognition",
+    "USA Today 10Best"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "open",
+    "Tu": "open",
+    "We": "open",
+    "Th": "open",
+    "Fr": "open",
+    "Sa": "open",
+    "Su": "closed"
+   },
+   "hours_text": "Monday to Saturday 11 a.m. to 10 p.m.; Sunday closed — the Nolensville Pike shop",
+   "sold_out": false,
+   "id": "princes-hot-chicken-shack",
+   "name": "Prince's Hot Chicken Shack",
+   "state": "TN",
+   "city": "Nashville",
+   "county": "Davidson",
+   "lat": 36.0438469,
+   "lon": -86.7122145,
+   "styles": [
+    "nashville-hot"
+   ],
+   "status": "open",
+   "founded": 1945,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/princes-hot-chicken-shack/",
+   "blurb": "The Nashville hot chicken shack, started by James Thornton Prince and run since 1980 by his great-niece André Prince Jeffries.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "black-owned",
+    "family-run",
+    "house-sauce"
+   ],
+   "recognitions": 4,
+   "recognized_by": [
+    "James Beard Foundation",
+    "Southern Foodways Alliance",
+    "Food Network",
+    "Other named recognition"
+   ],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "bonchon",
+   "name": "Bonchon",
+   "state": "TX",
+   "city": "Dallas",
+   "county": "Dallas",
+   "lat": 32.7762719,
+   "lon": -96.7968559,
+   "styles": [
+    "korean-american"
+   ],
+   "status": "open",
+   "founded": 2002,
+   "cooked": "double-fried",
+   "curated": true,
+   "url": "place/bonchon/",
+   "blurb": "A Korean fried chicken chain that fries each piece twice and paints the sauce on with a brush.",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "breaded",
+    "house-sauce"
+   ],
+   "recognitions": 0,
+   "recognized_by": [],
+   "image": null
+  },
+  {
+   "days": {
+    "Mo": "unknown",
+    "Tu": "unknown",
+    "We": "unknown",
+    "Th": "unknown",
+    "Fr": "unknown",
+    "Sa": "unknown",
+    "Su": "unknown"
+   },
+   "hours_text": "",
+   "sold_out": false,
+   "id": "wingstop",
+   "name": "Wingstop",
+   "state": "TX",
+   "city": "Dallas",
+   "county": "Dallas",
+   "lat": 32.8064167,
+   "lon": -96.7928319,
+   "styles": [
+    "buffalo",
+    "atlanta-lemon-pepper",
+    "garlic-parm"
+   ],
+   "status": "open",
+   "founded": 1994,
+   "cooked": "fried",
+   "curated": true,
+   "url": "place/wingstop/",
+   "blurb": "A fast-food chain built on one part of the bird. Antonio Swad and Bernadette Fiaschetti opened the first Wingstop in Garland, Texas in 1994 and franchised it from 1997; the company is headquartered in Dallas and counted…",
+   "tier": "cited",
+   "osm_id": null,
+   "tags": [
+    "house-sauce"
+   ],
+   "recognitions": 1,
+   "recognized_by": [
+    "National Buffalo Wing Festival"
+   ],
+   "image": null
+  }
+ ]
+}

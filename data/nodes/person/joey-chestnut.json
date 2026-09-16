@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "id": "joey-chestnut",
+ "type": "person",
+ "names": {
+  "name": "Joey Chestnut",
+  "aliases": [
+   "Joseph Christian Chestnut",
+   "Jaws"
+  ],
+  "sort": "Chestnut, Joey"
+ },
+ "region": [
+  "us",
+  "philadelphia",
+  "western-ny"
+ ],
+ "facets": {
+  "role": [
+   "competitor"
+  ],
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "American competitive eater, born 25 November 1983 in Fulton County, Kentucky and raised in Vallejo, California. Major League Eating ranks him first in the world; he holds 55 world records across 55 disciplines and has won the Nathan's hot dog belt 18 times. Several of those records are wings, which is why a wing project has him.",
+  "story": "He came up through asparagus and grilled cheese in 2005 and had a degree in engineering and construction management from San Jose State.\n\nWing Bowl XV, 2007: 182 wings in thirty minutes, a Philadelphia title and a record. Wing Bowl XVI, 1 February 2008: 241 wings in thirty minutes, which stood until Takeru Kobayashi ate 337 at Wing Bowl XX.\n\nBuffalo took longer. On 2 September 2012 he ate 191 wings — 7.61 pounds — in twelve minutes at the National Buffalo Wing Festival, taking the trophy off seven-time champion Sonya Thomas and ending a run that had gone unbroken since 2006. He lost it to Miki Sudo in 2013, took it back in 2014 with 192, raised it to 205 in 2015 and to 220 in 2017, won again in 2016 with 188, and lost it to Geoff Esper in 2019, who ate 281.\n\nIn between he won the Hooters World Wing-Eating Championship at Clearwater, Florida on 25 July 2013 with 179 wings in ten minutes, his second year running.\n\n*Inference —* the wing counts are not comparable across those lines. Wing Bowl ran thirty minutes, Buffalo runs twelve, Hooters ran ten, and the birds are not the same size. A number without its clock is not a record.",
+  "today": "He won an 18th Nathan's title in 2026 with 66 hot dogs and buns. Sources read on 16 September 2026 record him living in Westfield, Indiana."
+ },
+ "kin": [
+  {
+   "to": "wing-bowl",
+   "as": "Won it in 2007 and set its 241-wing mark in 2008.",
+   "rel": "event"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Broke Sonya Thomas's run there in 2012 and holds its 220-wing high from 2017.",
+   "rel": "event"
+  },
+  {
+   "to": "hooters",
+   "as": "Won its world wing-eating championship at Clearwater in 2013, 179 wings in ten minutes.",
+   "rel": "place"
+  },
+  {
+   "to": "al-morganti",
+   "as": "Judged his gallon-of-milk qualifier too easy until a former champion said otherwise.",
+   "rel": "person"
+  },
+  {
+   "to": "bill-simmons-el-wingador",
+   "as": "The Philadelphia champion he was billed against and beat.",
+   "rel": "contrast"
+  },
+  {
+   "to": "drew-cerza",
+   "as": "Runs the Buffalo festival where most of his wing records were set.",
+   "rel": "person"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "Wing Bowl put him on a stage the Friday before the game, which is the week wings are counted in.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-joey-chestnut",
+  "s:wp-wing-bowl",
+  "s:wp-national-buffalo-wing-festival"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-joey-chestnut"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the closing paragraph on incomparable formats is this project's reasoning and is marked inference inline"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-joey-chestnut",
+    "note": "living status as recorded on 16 September 2026"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

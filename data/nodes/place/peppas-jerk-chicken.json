@@ -1,0 +1,172 @@
+{
+ "schema": 1,
+ "id": "peppas-jerk-chicken",
+ "type": "place",
+ "names": {
+  "name": "Peppa's Jerk Chicken",
+  "aliases": [
+   "Peppa's",
+   "Peppa's Jerk Chicken Restaurant"
+  ],
+  "sort": "Peppa's Jerk Chicken"
+ },
+ "region": [
+  "nyc",
+  "caribbean-american"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 2005,
+  "cooked": "grilled",
+  "styles": [
+   "caribbean-jerk"
+  ]
+ },
+ "text": {
+  "what": "A Jamaican takeout counter on Flatbush Avenue in Brooklyn's Little Caribbean, run by Gavin Hussey, whose jerk chicken is dry-rubbed, washed with vinegar and charred black before it is hacked apart to order. It stays open to six in the morning. A house scotch-bonnet jerk sauce goes over the top on request.",
+  "story": "Hussey was born in St. Andrew Parish, Jamaica, third of twelve children, and learned to cook helping his mother feed the younger ones. The nickname Peppa goes back to school and, Black-Owned Brooklyn notes, has nothing to do with chiles.\n\nIn 1995 he co-founded a Flatbush Avenue counter called Danny & Pepper's, selling mostly jerk chicken. Ten years later he opened his own room on the same avenue. The Historic Districts Council, naming Peppa's to its Six to Celebrate list, says \"his unique style of jerking made the restaurant a neighborhood favorite\" and describes it as a staple of Little Caribbean. Two more Brooklyn rooms followed — Crown Heights run by his daughter, East Flatbush by his sister.\n\nHussey on the work, quoted by Black-Owned Brooklyn: \"You can't cook just to sell some food. You have to put the passion in it to get it right — and that's who I am.\"\n\n*Note —* this is a wing catalogue and jerk wings are a national item, but no menu this project could read lists wings at Peppa's. The record is here for the jerk method that the jerk wing descends from, not for a wing order.",
+  "how": "A dry rub and a vinegar wash, then fire until the outside goes black, then the chicken is hacked up with a cleaver for serving. Scotch-bonnet jerk sauce over the top is separate. Time Out's phrase for the result is \"the smokey, perfectly grilled smoked chicken that keeps us coming back.\"",
+  "today": "Four rooms as of September 2026: the Flatbush Avenue original, Crown Heights at 791 Prospect Place, East Flatbush at 689 Utica Avenue, and one in Manhattan. Sources put the original at 730, 736 and 738 Flatbush Avenue — the same storefront, numbered differently by different listings."
+ },
+ "geo": {
+  "lat": 40.6549839,
+  "lon": -73.9598946,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "738 Flatbush Avenue",
+  "city": "Brooklyn",
+  "county": "Kings",
+  "state": "NY",
+  "postcode": "11226"
+ },
+ "links": [
+  {
+   "label": "Peppa's Jerk Chicken",
+   "url": "https://peppasonline.com/"
+  },
+  {
+   "label": "Black-Owned Brooklyn profile",
+   "url": "https://www.blackownedbrooklyn.com/stories/peppas-jerk-chicken"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "black-owned",
+   "source": "s:web-blackowned-brooklyn-peppas",
+   "tier": "cited",
+   "note": "press profile by Cynthia Giwa naming the owner, Gavin Hussey",
+   "url": "https://www.blackownedbrooklyn.com/stories/peppas-jerk-chicken"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-hdc-peppas",
+   "tier": "cited",
+   "note": "the other rooms are run by Hussey's daughter and sister",
+   "url": "https://6tocelebrate.org/site/peppas-jerk-chicken/"
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-blackowned-brooklyn-peppas",
+   "tier": "cited",
+   "note": "the Flatbush Avenue counter runs to 6am",
+   "url": "https://www.blackownedbrooklyn.com/stories/peppas-jerk-chicken"
+  },
+  {
+   "tag": "takeout-window",
+   "source": "s:osm",
+   "tier": "harvested",
+   "note": "OpenStreetMap carries takeaway=only on the Flatbush Avenue row"
+  },
+  {
+   "tag": "cash-only",
+   "source": "s:osm",
+   "tier": "harvested",
+   "note": "OpenStreetMap carries payment:cash=only on the Flatbush Avenue row; the other rooms are not tagged that way"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "Named to the Historic Districts Council's Six to Celebrate as a staple of Little Caribbean; separately profiled by Black-Owned Brooklyn",
+   "year": 2025,
+   "source": "s:web-hdc-peppas",
+   "url": "https://6tocelebrate.org/site/peppas-jerk-chicken/"
+  }
+ ],
+ "hours": {
+  "open": [],
+  "closed": [],
+  "text": "The Flatbush Avenue counter runs to 6am; no source read here gives its days. The Prospect Place room posts 11am daily, closing between 10pm and 12:30am.",
+  "source": "s:web-blackowned-brooklyn-peppas",
+  "url": "https://www.blackownedbrooklyn.com/stories/peppas-jerk-chicken",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "every day is unknown for this address; the posted hours found belong to a different room"
+ },
+ "kin": [
+  {
+   "to": "caribbean-jerk",
+   "as": "Cooks the method the jerk wing borrows: dry rub, vinegar wash, char, then the cleaver.",
+   "rel": "style"
+  },
+  {
+   "to": "jerk-marinade",
+   "as": "Works dry here — rub and wash rather than a wet soak — and the scotch-bonnet sauce goes on after.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mango-habanero",
+   "as": "The bar-menu descendant of a scotch-bonnet sauce like the one poured here.",
+   "rel": "kin"
+  },
+  {
+   "to": "blondies-sports-bar",
+   "as": "Both stay open past every other kitchen in this set, for opposite reasons.",
+   "rel": "kin"
+  },
+  {
+   "to": "grill",
+   "as": "The fire is the whole method here; nothing goes near a fryer.",
+   "rel": "fry"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "The other American style that puts its heat in a paste on the outside of the bird rather than in a sauce afterwards.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:web-blackowned-brooklyn-peppas",
+  "s:web-hdc-peppas",
+  "s:web-timeout-peppas",
+  "s:web-peppas-online",
+  "s:wp-jerk-cooking",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-blackowned-brooklyn-peppas"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "the OpenStreetMap row is numbered 730 Flatbush Avenue; press and listings give 736 and 738"
+   },
+   "facets": {
+    "tier": "cited",
+    "source": "s:web-hdc-peppas",
+    "note": "the founding year rests on the Historic Districts Council's account; one listing gives 2004 instead"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

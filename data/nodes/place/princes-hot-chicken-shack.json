@@ -1,0 +1,196 @@
+{
+ "schema": 1,
+ "id": "princes-hot-chicken-shack",
+ "type": "place",
+ "names": {
+  "name": "Prince's Hot Chicken Shack",
+  "aliases": [
+   "Prince's Hot Chicken",
+   "Prince's Hot Chicken South",
+   "BBQ Chicken Shack"
+  ],
+  "sort": "Prince's Hot Chicken Shack"
+ },
+ "region": [
+  "nashville"
+ ],
+ "facets": {
+  "state": "TN",
+  "status": "open",
+  "founded": 1945,
+  "cooked": "fried",
+  "styles": [
+   "nashville-hot"
+  ]
+ },
+ "text": {
+  "what": "The Nashville hot chicken shack, started by James Thornton Prince and run since 1980 by his great-niece André Prince Jeffries. Chicken — breast, thigh or wing — is marinated, floured, fried to order and painted with a cayenne paste, then served on white bread under pickle slices. Everybody else's hot chicken is measured against it.",
+  "story": "The family story is that hot chicken began as revenge. Thornton Prince was, by the account his own family tells, a womanizer; after a late Saturday night a girlfriend cooked him fried chicken loaded with pepper. He liked it. He and his brothers built their own recipe and opened the Bar-B-Que Chicken Shack. Wikipedia gives 1945 for the business and says the current style of spice paste may only date to the mid-1970s, with spicy fried chicken in Nashville's Black neighbourhoods long before either.\n\nThe café started at 28th Avenue and Jefferson Street, then moved downtown into Hell's Half Acre near the Ryman Auditorium, where Opry stars came after the show. Under segregation the house built a separate room for white guests, who walked through the main dining room and the kitchen to reach it. In 1988 it moved to Ewing Drive in East Nashville.\n\nWhen Thornton Prince died his brother Will took over; Will's wife Maude ran it after him. In 1980 Maude decided that Thornton's great-niece André Prince Jeffries should have it, and Jeffries dropped the BBQ out of the name.\n\nIn December 2018 a Ford Explorer drove into the strip mall holding the Ewing Drive shop and set it on fire. The restaurant itself was not damaged and Jeffries expected two weeks; damage to the building and the landlord's delays turned it into a permanent closure announced seven months later. That location had run since 1989.\n\nJeffries recorded an oral history with the Southern Foodways Alliance on 7 July 2006, for the Nashville Eats project: no advertising, word of mouth for eighteen years, three heats, chicken fried only after the order, a thirty-minute wait, and her own term for the aftermath, \"24-hour chicken.\"",
+  "how": "Marinate, flour, fry to order, then paste. The cayenne paste goes on with a spoon and gloves and is squeezed into the crust by hand. It lands on white bread with pickle chips, and the bread takes the grease and some of the heat.",
+  "today": "Four locations in September 2026: Prince's Hot Chicken South at 5814 Nolensville Pike, a stall in Assembly Food Hall at 5055 Broadway, Tanger Outlets on Cane Ridge Parkway, and a counter at Nashville International Airport by the C/D concourse. A Jefferson Street shop is announced as coming."
+ },
+ "geo": {
+  "lat": 36.0438469,
+  "lon": -86.7122145,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "5814 Nolensville Pike",
+  "city": "Nashville",
+  "county": "Davidson",
+  "state": "TN",
+  "postcode": "37211"
+ },
+ "links": [
+  {
+   "label": "Prince's Hot Chicken",
+   "url": "https://www.princeshotchicken.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:wp-prince-s-hot-chicken-shack",
+   "tier": "cited",
+   "note": "Thornton Prince to his brother Will, to Will's wife Maude, to Thornton's great-niece André Prince Jeffries in 1980"
+  },
+  {
+   "tag": "black-owned",
+   "source": "s:wp-hot-chicken",
+   "tier": "cited",
+   "note": "Wikipedia's hot chicken article credits the dish's origin to the family of André Prince Jeffries, owner since 1980, and places the method within African American communities in the South; the Southern Foodways Alliance oral history is with Jeffries as owner",
+   "url": "https://www.southernfoodways.org/interview/princes-hot-chicken-shack/"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:wp-hot-chicken",
+   "tier": "cited",
+   "note": "the cayenne paste is made in house and its recipe is closely held"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "james-beard",
+   "what": "America's Classic",
+   "year": 2013,
+   "source": "s:wp-prince-s-hot-chicken-shack"
+  },
+  {
+   "by": "sfa",
+   "what": "Oral history with André Prince Jeffries, recorded by Joe York for the Nashville Eats project",
+   "year": 2006,
+   "source": "s:web-sfa-princes",
+   "url": "https://www.southernfoodways.org/interview/princes-hot-chicken-shack/"
+  },
+  {
+   "by": "food-network",
+   "what": "Travel Channel's Food Paradise named it Nashville's best hot chicken (6 February 2013); also on Bizarre Foods America (7 April 2014) and Man v. Food Nation (8 June 2011)",
+   "year": 2013,
+   "source": "s:wp-prince-s-hot-chicken-shack",
+   "note": "the recognizer list has no Travel Channel key; filed under food-network as the nearest television recognizer, and the network is named here"
+  },
+  {
+   "by": "other",
+   "what": "Gourmet named it one of Nashville's four don't-miss dining experiences; The Daily Meal ranked it seventh among America's 75 Best Fried Chicken Spots in 2017",
+   "year": 2017,
+   "source": "s:wp-prince-s-hot-chicken-shack"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa"
+  ],
+  "closed": [
+   "Su"
+  ],
+  "text": "Monday to Saturday 11 a.m. to 10 p.m.; Sunday closed — the Nolensville Pike shop",
+  "source": "s:web-princes-locations",
+  "url": "https://www.princeshotchicken.com/locations",
+  "tier": "cited",
+  "checked": "2026-09-16",
+  "note": "the Assembly Food Hall, Tanger Outlets and airport counters keep their own hours and open on Sunday"
+ },
+ "kin": [
+  {
+   "to": "nashville-hot",
+   "as": "The shack the style is named out of, and the one every other hot chicken house is read against.",
+   "rel": "style"
+  },
+  {
+   "to": "thornton-prince",
+   "as": "Started it, and is the man in the revenge story the family still tells.",
+   "rel": "person"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "as": "Took it in 1980, when Maude — the widow of Thornton's brother Will — decided it should be hers, and dropped the BBQ from the name.",
+   "rel": "person"
+  },
+  {
+   "to": "nashville-hot-oil",
+   "as": "The cayenne paste that goes on after the fry, by spoon and glove, and is a closely held recipe.",
+   "rel": "sauce"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "What the chicken lands on, which is service and heat management at once.",
+   "rel": "dish"
+  },
+  {
+   "to": "hattie-bs",
+   "as": "The 2012 Nashville house that carried this style to a wider room, with a printed heat ladder.",
+   "rel": "contrast"
+  },
+  {
+   "to": "boltons-spicy-chicken-and-fish",
+   "as": "Founded by the nephew of a cook who came up through these kitchens.",
+   "rel": "kin"
+  },
+  {
+   "to": "southern-foodways-alliance",
+   "as": "Recorded André Prince Jeffries in 2006 and made a film about the shack.",
+   "rel": "org"
+  },
+  {
+   "to": "buffalo",
+   "as": "The other cayenne wing: sauce after the fry there too, but butter instead of paste, and celery instead of bread.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-prince-s-hot-chicken-shack",
+  "s:wp-hot-chicken",
+  "s:web-sfa-princes",
+  "s:web-princes-locations"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-prince-s-hot-chicken-shack"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node, Prince's Hot Chicken, 5814 Nolensville Pike, Nashville"
+   },
+   "text.how": {
+    "tier": "cited",
+    "source": "s:wp-hot-chicken"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-princes-locations"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

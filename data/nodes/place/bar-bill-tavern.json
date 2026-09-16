@@ -1,0 +1,148 @@
+{
+ "schema": 1,
+ "id": "bar-bill-tavern",
+ "type": "place",
+ "names": {
+  "name": "Bar-Bill Tavern",
+  "aliases": [
+   "Bar Bill",
+   "Bar-Bill"
+  ],
+  "sort": "Bar-Bill Tavern"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A tavern on Main Street in East Aurora, fifteen miles southeast of Buffalo and not in the city at all, whose wings are brushed with sauce by hand rather than tossed. An order comes as five drums and five flats around a bowl of blue cheese made on the premises. Beef on weck comes off the same kitchen, carved to order.",
+  "story": "The name is the two owners: Visit Buffalo says it is \"named after the tavern's original owners, Barbara and Bill Korzelius,\" and that the trade sits \"inside a 150-year old building that formerly housed an ice cream parlor.\" Visit Buffalo's spotlight piece says the tavern \"just celebrated its 55th anniversary and has been one of Western New York's go-to wing place for decades.\"\n\n*Inference —* that puts the opening somewhere in the late 1960s, but this project could not read a page that states the year, and the arithmetic depends on when the spotlight was written. Treat the founding year as open.\n\nWhat East Aurora argues about is the brush. Staff \"methodically hand-brush each wing with housemade sauces like honey butter BBQ and spicy Asian\" rather than shaking a basket of wings in a bowl, which is the ordinary Buffalo method. The count is fixed too: \"Every order features exactly five drums and five flats perfectly centered around a dipping bowl of blue cheese made in-house daily.\" A drinker who wants all flats is out of luck here and knows it.",
+  "how": "Wings fry, then each one is painted. House sauces run mild, medium and hot — Visit Buffalo notes \"the normal mild, medium and hot run spicy\" — alongside honey butter BBQ, spicy Asian and a suicide sauce. Blue cheese is made daily. The beef for the weck is hand carved while the order stands there.",
+  "today": "Two doors on Main Street in East Aurora as of September 2026: the tavern at 185 and Bar Bill Takeout at 191 Main Street rear, behind Aurora Brew Works. The house does not publish a set of hours this project could read; the East Aurora Chamber directory carries the address and the phone and no hours at all."
+ },
+ "geo": {
+  "lat": 42.7675581,
+  "lon": -78.6279118,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "185 Main Street",
+  "city": "East Aurora",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14052"
+ },
+ "links": [
+  {
+   "label": "Bar-Bill Tavern",
+   "url": "https://www.barbill.com/"
+  },
+  {
+   "label": "Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "house-sauce",
+   "source": "s:web-visitbuffalo-barbill-crawl",
+   "tier": "cited",
+   "note": "staff \"hand-brush each wing with housemade sauces like honey butter BBQ and spicy Asian\"",
+   "url": "https://visitbuffalo.com/crawls/bar-bill-tavern/"
+  },
+  {
+   "tag": "family-run",
+   "source": "s:web-visitbuffalo-barbill-crawl",
+   "tier": "cited",
+   "note": "named for Barbara and Bill Korzelius, the original owners",
+   "url": "https://visitbuffalo.com/crawls/bar-bill-tavern/"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "buffalo-wing-trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "source": "s:web-buffalo-wing-trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  },
+  {
+   "by": "local-press",
+   "what": "Visit Buffalo: \"It tops nearly every 'Best of Buffalo' and 'Best Chicken Wings' list year after year\"",
+   "source": "s:web-visitbuffalo-barbill-spotlight",
+   "url": "https://visitbuffalo.com/classic-buffalo-spotlight-bar-bill-tavern/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "the-toss",
+   "as": "Refuses it: each wing here is brushed by hand instead of shaken in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "to": "all-flats",
+   "as": "The order that cannot be placed here — five drums and five flats, every time.",
+   "rel": "contrast"
+  },
+  {
+   "to": "beef-on-weck",
+   "as": "Comes off the same kitchen, hand carved, and is half of why East Aurora fills up.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "Made here daily, and the bowl the ten wings are arranged around.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "Cooks the style fifteen miles outside the city that named it, and brushes it on instead of tossing.",
+   "rel": "style"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "as": "Settles the argument by decree: five of each, centred on the dip.",
+   "rel": "story"
+  },
+  {
+   "to": "mammosers-tavern",
+   "as": "The other out-of-town tavern on the trail, twelve miles west in Hamburg, arguing pepper against brushwork.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:web-visitbuffalo-barbill-crawl",
+  "s:web-visitbuffalo-barbill-spotlight",
+  "s:web-buffalo-wing-trail",
+  "s:web-eanycc-barbill",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-visitbuffalo-barbill-crawl"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-eanycc-barbill"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

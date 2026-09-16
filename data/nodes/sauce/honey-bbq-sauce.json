@@ -1,0 +1,174 @@
+{
+ "id": "honey-bbq-sauce",
+ "names": {
+  "name": "Honey barbecue sauce",
+  "aliases": [
+   "honey BBQ",
+   "honey barbeque"
+  ],
+  "said": "The order a table puts in for the person who does not want heat, and the one children get."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "base": "sweet-tomato",
+  "heat": "none"
+ },
+ "text": {
+  "what": "A thick sweet red sauce: corn syrup or sugar, vinegar, tomato, honey, smoke flavour and spices. Sticky enough to hold on a wing without butter, sweet enough to caramelise under a broiler or on a grill. Every wing chain sells one, and it is usually the mildest thing on the board.",
+  "story": "Barbecue sauce reached the wing through the pizza chains. Domino's added Buffalo wings to its national menu in 1994 after four Super Bowl appearances by the Buffalo Bills, and Pizza Hut followed the next year. As the market grew, restaurants built out sauces beyond Buffalo — some drawing on Chinese, Japanese, Thai, Caribbean and Indian cooking, some inventing combinations like Blueberry BBQ Wing Sauce or Maple/Bacon Glaze to hold customers' interest.\n\n*Inference —* honey barbecue is the sauce that made a wing board possible. Once a menu had a second sauce it needed a sweet one, and every sauce added after that had somewhere to sit.\n\nThe sweet-and-sour tomato condiment behind it is much older than the wing: American home cookbooks were bottling a spiced 'chili sauce' of tomatoes, vinegar, sugar, onions and red peppers well before 1930.",
+  "how": "Warm it — cold barbecue sauce slides off. Toss the fried wings in it, or brush it on a smoked or grilled wing in the last few minutes so the sugar sets without burning. It will burn: the sugar in it catches long before the skin is done, which is why it goes on at the end and never at the start.",
+  "today": "On every wing board in America. As of 16 September 2026 the USDA label panel for Sweet Baby Ray's Honey Barbecue Sauce reads 300 mg sodium and 15 g sugar in a 2-tablespoon serving — 150 mg and 7.5 g in one tablespoon. High fructose corn syrup is its first ingredient; honey comes fourth, behind tomato paste. No Scoville number is published, and none would mean anything: the label declares no chile at all."
+ },
+ "kin": [
+  {
+   "to": "smoked-bbq-wing",
+   "as": "The style that brushes it on at the end of a smoke.",
+   "rel": "style"
+  },
+  {
+   "to": "memphis-rub",
+   "as": "The dry half of the Memphis fork; this is the wet half, bottled.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mild-sauce",
+   "as": "Chicago's carryout relative, poured rather than tossed and sharper on the vinegar.",
+   "rel": "kin"
+  },
+  {
+   "to": "mumbo-sauce",
+   "as": "The D.C. relative, thinner and sourer and built on ketchup.",
+   "rel": "kin"
+  },
+  {
+   "to": "hot-honey",
+   "as": "What happens when the honey goes in without the tomato and picks up a chile.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo-wild-wings",
+   "as": "Sells it on a board of a dozen-plus sauces where Buffalo is one option among many.",
+   "rel": "place"
+  },
+  {
+   "to": "grill",
+   "as": "Goes on in the last minutes, because the sugar in it catches before the skin is done.",
+   "rel": "fry"
+  },
+  {
+   "to": "wing-night",
+   "as": "The sauce that lets a table order one round for people who disagree about heat.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "hot-honey",
+   "tell": "Tomato. Honey barbecue has it and is thick and red; hot honey is honey, chillies and vinegar, and pours."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "sweet-tomato",
+  "maker": "Sweet Baby Ray's Inc.",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "high fructose corn syrup",
+   "distilled vinegar",
+   "tomato paste",
+   "honey",
+   "modified food starch",
+   "salt",
+   "natural flavor",
+   "caramel color",
+   "pineapple juice concentrate",
+   "spices",
+   "sodium benzoate",
+   "natural smoke flavor",
+   "molasses",
+   "garlic",
+   "corn syrup",
+   "sugar",
+   "tamarind"
+  ],
+  "pepper_rank": 0,
+  "vinegar_rank": 2,
+  "fat_rank": 0,
+  "tomato_rank": 3,
+  "sugar_rank": 1,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 2,
+  "sodium_mg_per_tbsp": 150,
+  "sugar_g_per_tbsp": 7.5,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-sweet-baby-rays-honey-bbq",
+  "url": "https://fdc.nal.usda.gov/food-details/2017251/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Sweet Baby Ray's Honey Barbecue Sauce, 28 oz. Label serving is 2 Tbsp (37 g); sodium 300 mg and sugars 15 g per serving, so 150 mg and 7.5 g per tablespoon. sugar_rank 1 is high fructose corn syrup; the honey the sauce is named for sits at 4, and corn syrup and sugar appear again at 15 and 16. pepper_rank is 0 — no chile is named anywhere on the label. No heat word, no Scoville number."
+ },
+ "recipes": [
+  {
+   "title": "Barbecue Sauce I",
+   "source": "s:wikibooks-barbecue-sauce",
+   "license": "CC BY-SA 4.0",
+   "url": "https://en.wikibooks.org/wiki/Cookbook:Barbecue_Sauce_I",
+   "author": "Wikibooks Cookbook contributors",
+   "region": "Texas",
+   "ingredients": [
+    "¼ cup (62.5 mL) brown sugar",
+    "1 tbsp (15 mL) garlic powder",
+    "1 tbsp (15 mL) paprika powder",
+    "2 tsp (10 mL) salt",
+    "1 heaping tsp (6.66 mL) of ground coffee beans",
+    "1 cup (250 mL) ketchup",
+    "½ cup (125 mL) water",
+    "3 tbsp (45 mL) white vinegar",
+    "A shot of whiskey or ½ shot of cognac",
+    "A squeeze of lemon juice"
+   ],
+   "text": "Mix everything in a pot.\nLet it simmer for around 30 minutes, stirring occasionally.",
+   "note": "Wikibooks Cookbook, CC BY-SA 4.0, copied in full with the source named. No honey in it — this is the ketchup-and-brown-sugar base a honey sauce is a variation on."
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-pizza-hut",
+  "s:fdc-sweet-baby-rays-honey-bbq",
+  "s:harland-1906",
+  "s:wikibooks-barbecue-sauce"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-sweet-baby-rays-honey-bbq",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the timing and the burning are general grill practice"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-sweet-baby-rays-honey-bbq"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "wet-and-dry",
+ "names": {
+  "name": "wet and dry",
+  "aliases": [
+   "lemon pepper wet",
+   "dry rub",
+   "wet"
+  ],
+  "said": "'Lemon pepper. Wet.' Two words after the flavour, and the order changes."
+ },
+ "region": [
+  "atlanta",
+  "us"
+ ],
+ "facets": {
+  "letter": "W",
+  "part_of_speech": "phrase"
+ },
+ "etymology": {
+  "root": "wet + dry, plain antonyms recruited as a pair of menu terms: wet = finished in a liquid sauce, dry = finished in a powder",
+  "first_attested": "",
+  "note": "The pair reached a national audience through Atlanta. 'Lemon pepper wet' was invented at the American Deli in Atlanta; the second episode of the television series Atlanta put it in a character's hands from J.R. Crickets, which had no such item, and J.R. Crickets added it to the menu in 2017 in the show's honour. *Inference —* the phrase was counter shorthand long before the show; the show is only the first dated place this project can point at.",
+  "tier": "cited",
+  "source": "s:wp-lemon-pepper-wings"
+ },
+ "text": {
+  "what": "A two-way choice about the finish, asked after you have picked a flavour. Dry means the cooked wing gets tossed in seasoning — powder on crust. Wet means it gets tossed in something liquid, so butter or sauce carries the same seasoning. Same flavour name, two different foods.",
+  "how": "Order shape is flavour first, then the word: 'lemon pepper wet', 'hot lemon pepper dry'. Some Atlanta counters build wet by tossing in butter or buffalo sauce and then hitting the wings with dry seasoning anyway, which is a third thing with a two-word name. Dry travels better in a box; wet goes soft."
+ },
+ "kin": [
+  {
+   "to": "atlanta-lemon-pepper",
+   "as": "The style this pair of words belongs to.",
+   "rel": "style"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "The powder that 'dry' means.",
+   "rel": "sauce"
+  },
+  {
+   "to": "lemon-pepper-wet",
+   "as": "What 'wet' names when the flavour is lemon pepper.",
+   "rel": "sauce"
+  },
+  {
+   "to": "american-deli",
+   "as": "Where lemon pepper wet was invented, per the record.",
+   "rel": "place"
+  },
+  {
+   "to": "jr-cricketts",
+   "as": "Put the phrase on its menu in 2017 after a television episode sent people asking for it.",
+   "rel": "place"
+  },
+  {
+   "to": "memphis-dry-rub",
+   "as": "Dry as a whole style rather than an option.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-toss",
+   "as": "The step both words describe: what goes in the bowl.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:wp-lemon-pepper-wings",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-lemon-pepper-wings"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:wp-lemon-pepper-wings",
+    "note": "first_attested left empty: the 2017 menu date is dated, the phrase's first use is not"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

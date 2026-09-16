@@ -1,0 +1,357 @@
+{
+ "schema": 1,
+ "id": "gabriels-gate",
+ "type": "place",
+ "names": {
+  "name": "Gabriel's Gate",
+  "aliases": [
+   "Gabriel's Gate Restaurant"
+  ],
+  "sort": "Gabriel's Gate"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1969,
+  "cooked": "fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A restaurant and tavern at 145 Allen Street in Buffalo's Allentown, trading since 1969 inside an 1864 brick row house with tin ceilings and two wood-burning fireplaces. Wings go out big and crispy, sauced with Frank's RedHot, at heats the house runs \"from mild to suicide-hot.\" Bon Appétit put them first in Buffalo in 2018, which is how a corner restaurant on a bar street acquired a line at the door.",
+  "story": "The building came first. It is \"one of the neighborhood's original Tift Row Houses, built in 1864\"; the restaurant dates itself \"Est. 1969.\"\n\nIn 2018 Bon Appétit's Alex Delaney worked through twelve Western New York wing rooms on camera and ranked three. Gabriel's Gate came first, Elmo's second, Mammoser's third. Visit Buffalo's trail describes what he was ranking as \"the standard for a classic wing done right\" — crisp, and sauced with Frank's RedHot rather than anything made in the building.",
+  "how": "Fried, then sauced in Frank's RedHot at the heat asked for: the house line is \"Big, crispy, juicy — sauces from mild to suicide-hot.\" The room keeps hardwood floors, wooden booths, saloon chandeliers and the fireplaces.",
+  "today": "Open seven days as of September 2026, 11:30am to midnight Sunday through Thursday and to 1am Friday and Saturday. The house lists its awards as WNYers Choice wins — French onion soup, burgers, Reuben, mac and cheese, patio — none of them for the wings."
+ },
+ "geo": {
+  "lat": 42.8996579,
+  "lon": -78.8754776,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "145 Allen Street",
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14201"
+ },
+ "links": [
+  {
+   "label": "Gabriel's Gate",
+   "url": "https://gabrielsgate.org/"
+  },
+  {
+   "label": "Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "late-night",
+   "source": "s:web-gabriels-gate",
+   "tier": "cited",
+   "note": "posted to midnight Sunday through Thursday, 1am Friday and Saturday",
+   "url": "https://gabrielsgate.org/"
+  },
+  {
+   "tag": "bar",
+   "source": "s:web-gabriels-gate",
+   "tier": "cited",
+   "note": "the house calls itself a tavern and posts bar hours past the kitchen's",
+   "url": "https://gabrielsgate.org/"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "bon-appetit",
+   "what": "Alex Delaney ranked its wings first of three in Western New York on camera",
+   "year": 2018,
+   "source": "s:web-stepout-bonappetit-wings",
+   "url": "https://stepoutbuffalo.com/best-3-spots-get-wings-wny-according-bon-appetit/"
+  },
+  {
+   "by": "buffalo-wing-trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "source": "s:web-buffalo-wing-trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Monday to Thursday and Sunday 11:30am–midnight; Friday and Saturday 11:30am–1am",
+  "source": "s:web-gabriels-gate",
+  "url": "https://gabrielsgate.org/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "franks-redhot",
+   "as": "Pours it rather than making a sauce, which is what Visit Buffalo names when it calls these a classic wing.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "Cooks the style at the far end of Allen Street from the bar that claims to have started it.",
+   "rel": "style"
+  },
+  {
+   "to": "elmos-bar-and-restaurant",
+   "as": "Came second to this room in Bon Appétit's 2018 ranking, with a double-dipped wing instead of a plain one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mammosers-tavern",
+   "as": "Third in the same 2018 ranking, arguing four peppers against Frank's RedHot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Half a mile away at Main and North, and the reason Allentown gets asked about wings at all.",
+   "rel": "kin"
+  },
+  {
+   "to": "naked-fry",
+   "as": "No batter here — the crust is skin, fried.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:web-gabriels-gate",
+  "s:web-buffalo-wing-trail",
+  "s:web-stepout-bonappetit-wings",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-gabriels-gate"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "address": {
+    "tier": "cited",
+    "source": "s:web-buffalo-wing-trail",
+    "note": "postcode from the trail listing; OpenStreetMap carries the street but no postcode"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A restaurant and tavern at 145 Allen Street in Buffalo's Allentown, trading since 1969 inside an 1864 brick row house with tin ceilings and two wood-burning fireplaces.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Pours it rather than making a sauce, which is what Visit Buffalo names when it calls these a classic wing.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "Cooks the style at the far end of Allen Street from the bar that claims to have started it.",
+   "rel": "style"
+  },
+  {
+   "to": "elmos-bar-and-restaurant",
+   "type": "place",
+   "name": "Elmo's Bar & Restaurant",
+   "as": "Came second to this room in Bon Appétit's 2018 ranking, with a double-dipped wing instead of a plain one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mammosers-tavern",
+   "type": "place",
+   "name": "Mammoser's Tavern & Restaurant",
+   "as": "Third in the same 2018 ranking, arguing four peppers against Frank's RedHot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Half a mile away at Main and North, and the reason Allentown gets asked about wings at all.",
+   "rel": "kin"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "No batter here — the crust is skin, fried.",
+   "rel": "fry"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-gabriels-gate",
+   "kind": "web",
+   "title": "Gabriel's Gate — Buffalo's Famous Wings & Tavern",
+   "publisher": "Gabriel's Gate",
+   "url": "https://gabrielsgate.org/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-buffalo-wing-trail",
+   "kind": "web",
+   "title": "Where to Find the Best Wings in Buffalo, NY — Buffalo Wing Trail",
+   "publisher": "Visit Buffalo",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-stepout-bonappetit-wings",
+   "kind": "web",
+   "title": "The Best 3 Spots to Get Wings in WNY According to Bon Appétit",
+   "publisher": "Step Out Buffalo",
+   "url": "https://stepoutbuffalo.com/best-3-spots-get-wings-wny-according-bon-appetit/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "note": "ODbL 1.0, share-alike"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-gabriels-gate"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-gabriels-gate"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:web-gabriels-gate"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-gabriels-gate"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-buffalo-wing-trail",
+   "note": "postcode from the trail listing; OpenStreetMap carries the street but no postcode"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "late-night",
+   "label": "Open late",
+   "icon": "🌙",
+   "group": "visit",
+   "evidence": "posted hours running past midnight",
+   "resources": [],
+   "source": "s:web-gabriels-gate",
+   "note": "posted to midnight Sunday through Thursday, 1am Friday and Saturday",
+   "tier": "cited",
+   "url": "https://gabrielsgate.org/"
+  },
+  {
+   "key": "bar",
+   "label": "Bar, 21 and over",
+   "icon": "🍺",
+   "group": "visit",
+   "evidence": "the business's own site or a dated press piece",
+   "resources": [],
+   "source": "s:web-gabriels-gate",
+   "note": "the house calls itself a tavern and posts bar hours past the kitchen's",
+   "tier": "cited",
+   "url": "https://gabrielsgate.org/"
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "bon-appetit",
+   "label": "Bon Appétit",
+   "what": "Alex Delaney ranked its wings first of three in Western New York on camera",
+   "url": "https://stepoutbuffalo.com/best-3-spots-get-wings-wny-according-bon-appetit/",
+   "year": 2018,
+   "source": "s:web-stepout-bonappetit-wings"
+  },
+  {
+   "key": "buffalo-wing-trail",
+   "label": "Buffalo Wing Trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/",
+   "year": null,
+   "source": "s:web-buffalo-wing-trail"
+  }
+ ],
+ "acclaim": 2,
+ "kin_in": [
+  {
+   "from": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "A Buffalo tavern on this project's wing list; the sandwich and the wing share those rooms.",
+   "rel": "place"
+  },
+  {
+   "from": "elmos-bar-and-restaurant",
+   "type": "place",
+   "name": "Elmo's Bar & Restaurant",
+   "as": "Beat this room in Bon Appétit's 2018 ranking with a plain fried wing and Frank's RedHot.",
+   "rel": "contrast"
+  },
+  {
+   "from": "mammosers-tavern",
+   "type": "place",
+   "name": "Mammoser's Tavern & Restaurant",
+   "as": "Took first place over this room in Bon Appétit's 2018 ranking.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nine-eleven-tavern",
+   "type": "place",
+   "name": "Nine-Eleven Tavern",
+   "as": "The Allentown corner with the opposite sauce argument: Frank's RedHot straight, no sweetness.",
+   "rel": "contrast"
+  },
+  {
+   "from": "buffalo-wing-trail",
+   "type": "org",
+   "name": "Buffalo Wing Trail",
+   "as": "The Allentown stop, on Allen Street.",
+   "rel": "place"
+  }
+ ]
+}

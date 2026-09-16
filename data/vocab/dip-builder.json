@@ -1,0 +1,306 @@
+{
+ "note": "Four cups beside the basket. Two keep a published recipe's own quantities; two are composed from the records' cited descriptions and say so. Everything scales off the finished cup.",
+ "house_note": "Buffalo serves blue cheese and America buys ranch, by a distance. Both are cold, both are mostly fat, and both exist to put out a fire the sauce started. Make either one the day before — the garlic and the pepper need the night.",
+ "sizes": [
+  {
+   "key": "cup",
+   "label": "One cup",
+   "cups": 1,
+   "lb": 0.5
+  },
+  {
+   "key": "pint",
+   "label": "A pint",
+   "cups": 2,
+   "lb": 1
+  },
+  {
+   "key": "quart",
+   "label": "A quart",
+   "cups": 4,
+   "lb": 2
+  },
+  {
+   "key": "crowd",
+   "label": "A Super Bowl",
+   "cups": 12,
+   "lb": 6
+  }
+ ],
+ "sweets": [
+  {
+   "key": "dry",
+   "label": "Barely",
+   "mult": 0.4
+  },
+  {
+   "key": "some",
+   "label": "Some",
+   "mult": 1.0
+  },
+  {
+   "key": "sweet",
+   "label": "Sweeter",
+   "mult": 1.8
+  }
+ ],
+ "heats": [
+  {
+   "key": "none",
+   "label": "None",
+   "mult": 0.0
+  },
+  {
+   "key": "some",
+   "label": "Some",
+   "mult": 1.0
+  },
+  {
+   "key": "more",
+   "label": "More",
+   "mult": 2.0
+  }
+ ],
+ "kinds": [
+  {
+   "key": "blue-cheese",
+   "name": "Blue cheese",
+   "dish": "blue-cheese-dressing",
+   "region": "Buffalo, and the plate the wing arrived on",
+   "says": "Chunky, cold, and not negotiable in western New York.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Blue Cheese Dressing",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Blue_Cheese_Dressing",
+    "source": "s:wikibooks-cookbook",
+    "note": "The recipe's own quantities, scaled to the cup. Wikibooks notes it is adapted from its own buttermilk ranch."
+   },
+   "per_cup": [
+    {
+     "name": "mayonnaise",
+     "q": 0.4,
+     "unit": "cup"
+    },
+    {
+     "name": "sour cream",
+     "q": 0.3,
+     "unit": "cup"
+    },
+    {
+     "name": "buttermilk",
+     "q": 0.27,
+     "unit": "cup"
+    },
+    {
+     "name": "blue cheese, diced and crumbled",
+     "q": 1.6,
+     "unit": "oz"
+    },
+    {
+     "name": "lemon juice or cider vinegar",
+     "q": 0.8,
+     "unit": "tbsp"
+    },
+    {
+     "name": "salt",
+     "q": 0.2,
+     "unit": "tsp"
+    },
+    {
+     "name": "ground black pepper",
+     "q": 0.2,
+     "unit": "tsp",
+     "dial": "heat"
+    },
+    {
+     "name": "garlic powder",
+     "q": 0.2,
+     "unit": "tsp"
+    },
+    {
+     "name": "onion powder",
+     "q": 0.2,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    "Whisk everything except the cheese until it is smooth.",
+    "Dice the cheese into half-inch cubes; the crumbs are meant to be there.",
+    "Fold the cubes and crumbs through. Chill it.",
+    "Keep it thick. A thin blue cheese runs off a wing and lands on your shirt."
+   ]
+  },
+  {
+   "key": "ranch",
+   "name": "Buttermilk ranch",
+   "dish": "ranch-dressing",
+   "region": "everywhere, and outselling blue cheese nationally",
+   "says": "Buttermilk, mayonnaise, sour cream, herbs. Tangy without being sweet.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Buttermilk Ranch Dressing",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Buttermilk_Ranch_Dressing",
+    "source": "s:wikibooks-cookbook",
+    "note": "The recipe's own quantities, scaled to the cup. Hidden Valley's formula is a trade secret and nothing here claims to be it."
+   },
+   "per_cup": [
+    {
+     "name": "mayonnaise",
+     "q": 0.36,
+     "unit": "cup"
+    },
+    {
+     "name": "buttermilk",
+     "q": 0.36,
+     "unit": "cup"
+    },
+    {
+     "name": "sour cream",
+     "q": 0.27,
+     "unit": "cup"
+    },
+    {
+     "name": "lemon juice",
+     "q": 0.7,
+     "unit": "tbsp"
+    },
+    {
+     "name": "garlic, minced",
+     "q": 0.7,
+     "unit": "clove"
+    },
+    {
+     "name": "onion powder",
+     "q": 0.7,
+     "unit": "tsp"
+    },
+    {
+     "name": "dried oregano",
+     "q": 0.36,
+     "unit": "tsp"
+    },
+    {
+     "name": "ground black pepper",
+     "q": 0.18,
+     "unit": "tsp",
+     "dial": "heat"
+    }
+   ],
+   "steps": [
+    "Mix until smooth, as the recipe says.",
+    "Rest it overnight. Fresh ranch tastes of raw garlic and little else.",
+    "Thin it with more buttermilk if you want it pourable."
+   ]
+  },
+  {
+   "key": "hot-wing-dip",
+   "name": "Hot wing dip",
+   "dish": "buffalo-chicken-dip",
+   "region": "the potluck table",
+   "says": "Blue cheese and sour cream with cayenne stirred straight in. Not a cooling dip.",
+   "anchor": {
+    "kind": "recipe",
+    "title": "Cookbook:Hot Wing Dip",
+    "publisher": "Wikibooks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://en.wikibooks.org/wiki/Cookbook:Hot_Wing_Dip",
+    "source": "s:wikibooks-cookbook",
+    "note": "The recipe's own quantities, scaled to the cup. It is written to be served WITH wings and celery, not instead of them."
+   },
+   "per_cup": [
+    {
+     "name": "crumbled blue cheese",
+     "q": 0.65,
+     "unit": "cup"
+    },
+    {
+     "name": "sour cream",
+     "q": 0.33,
+     "unit": "cup"
+    },
+    {
+     "name": "cayenne pepper",
+     "q": 1.3,
+     "unit": "tbsp",
+     "dial": "heat"
+    },
+    {
+     "name": "salt",
+     "q": 0.65,
+     "unit": "tbsp"
+    },
+    {
+     "name": "garlic, minced",
+     "q": 0.33,
+     "unit": "tbsp"
+    }
+   ],
+   "steps": [
+    "Combine the cheese, cayenne, sour cream, garlic and salt in a serving bowl.",
+    "Serve with celery and wings.",
+    "Two tablespoons of cayenne to a cup is what the recipe says. Start at half if that reads high to you."
+   ]
+  },
+  {
+   "key": "alabama-white",
+   "name": "Alabama white",
+   "dish": "alabama-white-sauce",
+   "region": "north Alabama",
+   "says": "A dip you can also cook with, though it splits over heat.",
+   "anchor": {
+    "kind": "composed",
+    "source": "s:this-project",
+    "note": "Composed from the sauce record's cited description — mayonnaise, vinegar, black pepper, lemon, sometimes horseradish. Big Bob Gibson's own formula is unpublished and nothing here claims to be it."
+   },
+   "per_cup": [
+    {
+     "name": "mayonnaise",
+     "q": 0.62,
+     "unit": "cup"
+    },
+    {
+     "name": "cider vinegar",
+     "q": 0.22,
+     "unit": "cup"
+    },
+    {
+     "name": "lemon juice",
+     "q": 0.8,
+     "unit": "tbsp"
+    },
+    {
+     "name": "coarse black pepper",
+     "q": 1.6,
+     "unit": "tsp",
+     "dial": "heat"
+    },
+    {
+     "name": "prepared horseradish",
+     "q": 1.2,
+     "unit": "tsp",
+     "dial": "heat"
+    },
+    {
+     "name": "sugar",
+     "q": 0.8,
+     "unit": "tsp",
+     "dial": "sweet"
+    },
+    {
+     "name": "salt",
+     "q": 0.4,
+     "unit": "tsp"
+    }
+   ],
+   "steps": [
+    "Whisk it cold. It should pour.",
+    "Overnight is better than an hour.",
+    "Dunk smoked wings straight into it, or keep it in a cup beside them."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "schema": 1,
+ "id": "antonio-swad",
+ "type": "person",
+ "names": {
+  "name": "Antonio Swad",
+  "sort": "Swad, Antonio"
+ },
+ "region": [
+  "texas",
+  "us"
+ ],
+ "facets": {
+  "role": [
+   "founder"
+  ],
+  "state": "TX"
+ },
+ "text": {
+  "what": "Founded Wingstop in Garland, Texas in 1994 with Bernadette Fiaschetti, franchised it from 1997, and sold it in 2003 at ninety units. He had already built Pizza Patrón, started 1986, and sold that in 2017. The National Buffalo Wing Festival put him in its Hall of Flame in 2010.",
+  "story": "Wingstop's premise was narrow on purpose: wings as the order rather than the appetiser, a short menu, and a 1930s and 1940s pre-jet aviation room to sit in. The first franchise opened in 1997. By 2002 the company claimed two million wings served. Swad sold in 2003 with ninety restaurants open; Gemini Investors bought it, Roark Capital took it in 2010, and it went public in 2015 at $19 a share.\n\nHe told Nation's Restaurant News in March 2019, opening a full-service Southern restaurant called Porch Swing in Mesquite, Texas: \"My franchising days are in my rearview mirror.\" On that room's design: \"Everything is pretty well thought out. Even the soundtrack is curated.\" On its menu: \"I wanted to do a menu where everybody could sit down and read every word on the menu and pretty much understand it.\"\n\n*Inference —* the chain outgrew its founder's ownership by a long way. When he sold in 2003 it had ninety stores; the article that carried his rearview-mirror line, sixteen years later, counted more than 1,252.",
+  "today": "Wingstop had over 3,000 restaurants worldwide as of 2026 and operated in 15 countries as of 26 November 2025, headquartered in Dallas. Swad's living status is as his 2019 interview and the festival's pages record it; nothing later was checked."
+ },
+ "kin": [
+  {
+   "to": "wingstop",
+   "as": "Founded it in 1994 in Garland, Texas and sold it in 2003 at ninety stores.",
+   "rel": "place"
+  },
+  {
+   "to": "jim-disbrow",
+   "as": "Opened the other national wing chain twelve years earlier, out of a failed search for wings in Ohio.",
+   "rel": "contrast"
+  },
+  {
+   "to": "national-buffalo-wing-festival",
+   "as": "Inducted him into the Hall of Flame in 2010.",
+   "rel": "event"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "The chain he built added them in 2009, six years after he left it.",
+   "rel": "dish"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "His short menu is where a lot of America first met a lemon pepper wing in a paper bag.",
+   "rel": "sauce"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Built a business on wings as the entrée, in the decades the wholesale price stopped being cheap.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-wingstop",
+  "s:web-nrn-swad-porch-swing",
+  "s:web-hall-of-flame"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-wingstop"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-wingstop",
+    "note": "Swad himself is last recorded here in the March 2019 NRN interview; no later record was read"
+   },
+   "kin[4].as": {
+    "tier": "inference"
+   },
+   "kin[5].as": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

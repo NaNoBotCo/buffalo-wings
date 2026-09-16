@@ -1,0 +1,385 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "the-toss",
+ "names": {
+  "name": "the toss",
+  "sort": "toss",
+  "aliases": [
+   "the bowl",
+   "tossing",
+   "shaking the wings"
+  ],
+  "said": "Wings come out of the fryer and go in the bowl. You can hear it from the bar."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "kind": "method"
+ },
+ "text": {
+  "what": "The metal bowl. Cooked wings go into a bowl or pot, sauce goes over them, and the whole thing is shaken to coat the wings completely before serving. It is the last step of a Buffalo wing and the only one that touches the wing after the oil.",
+  "story": "The step is in the earliest account. The Anchor Bar's own telling has Teressa Bellissimo deep-frying the wings and then flavouring them with a mixture of butter, cayenne pepper and other ingredients; the bar states the rule as plainly as it can be stated — the sauce is added after the wing has been cooked.\n\nHow much butter is in the bowl is how heat is set. Cayenne pepper sauce, melted butter and vinegar are the standard base, made mild, medium or hot, sometimes with Worcestershire sauce and garlic powder; more butter reads mild, less reads hot, and a bar's mild and its hot come out of the same two bottles.\n\nKorean shops refuse the bowl. Bonchon brushes sauce on by hand rather than tossing in containers, to spread the seasoning evenly without compromising the texture of a double-fried shell.\n\n*Inference —* the bowl is a texture decision disguised as a saucing decision. Tossing puts sauce everywhere and softens everything; brushing puts sauce on top and keeps the crust. Every regional style is somewhere on that line, and most of them are arguing about where.",
+  "how": "Hold the sauce warm, not hot — butter splits if it boils. Tip the drained wings into a stainless bowl, pour the sauce over, and shake with the wrist rather than stirring with a spoon; a spoon tears skin and leaves bald patches. Empty the bowl straight onto the plate and let the residue go with it. A dry-rub order gets the same bowl and a dust instead of a liquid.",
+  "today": "Standard in every Buffalo house and in the chains that copied them. *Tradition holds —* the sound of the bowl is a house's signature and the order in which a bar tosses — hottest last, so the bowl does not carry heat into the next order — is an unwritten rule most kitchens keep."
+ },
+ "kin": [
+  {
+   "to": "buffalo-sauce",
+   "as": "What goes into the bowl, and the ratio that sets the heat.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style whose final step this is; skip it and you have fried chicken.",
+   "rel": "style"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The step before: bare skin, so the sauce has something to stick to and nothing to soak.",
+   "rel": "fry"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "as": "The argument about whether this step is compulsory.",
+   "rel": "contrast"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "States the rule in its own words: sauce after the fryer, never before.",
+   "rel": "place"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "The two things the bowl can hold — a liquid or a dust.",
+   "rel": "term"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "as": "Brushed on instead, by shops that will not risk the crust in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing-basket",
+   "as": "Where the bowl empties, residue and all.",
+   "rel": "whole"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:wp-bonchon-chicken"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-anchor-bar",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "bowl handling is trade practice"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "blurb": "The metal bowl. Cooked wings go into a bowl or pot, sauce goes over them, and the whole thing is shaken to coat the wings completely before serving.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "What goes into the bowl, and the ratio that sets the heat.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style whose final step this is; skip it and you have fried chicken.",
+   "rel": "style"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The step before: bare skin, so the sauce has something to stick to and nothing to soak.",
+   "rel": "fry"
+  },
+  {
+   "to": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "The argument about whether this step is compulsory.",
+   "rel": "contrast"
+  },
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "States the rule in its own words: sauce after the fryer, never before.",
+   "rel": "place"
+  },
+  {
+   "to": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "The two things the bowl can hold — a liquid or a dust.",
+   "rel": "term"
+  },
+  {
+   "to": "soy-garlic-sauce",
+   "type": "sauce",
+   "name": "Soy garlic sauce",
+   "as": "Brushed on instead, by shops that will not risk the crust in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing-basket",
+   "type": "dish",
+   "name": "the wing basket",
+   "as": "Where the bowl empties, residue and all.",
+   "rel": "whole"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-bonchon-chicken",
+   "kind": "wikipedia",
+   "title": "Bonchon Chicken",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bonchon_Chicken",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-anchor-bar",
+   "note": "closing paragraph marked inference"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "bowl handling is trade practice"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "caribbean-jerk",
+   "type": "style",
+   "name": "Jerk wings",
+   "as": "The step this style never reaches — the flavour is in the meat before it meets heat.",
+   "rel": "contrast"
+  },
+  {
+   "from": "garlic-parm",
+   "type": "style",
+   "name": "Garlic parmesan wings",
+   "as": "Where the cheese goes in, and where it turns stringy if the bowl is too hot.",
+   "rel": "fry"
+  },
+  {
+   "from": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "What this style refuses — the sauce goes on with a brush so the crust survives it.",
+   "rel": "contrast"
+  },
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "The step this style leaves out — no bowl, no sauce, just a dust.",
+   "rel": "contrast"
+  },
+  {
+   "from": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "The bar's method, which this style replaces with a brush and a second pass over the fire.",
+   "rel": "contrast"
+  },
+  {
+   "from": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Where this sauce meets the wing: a metal bowl, a pour, a shake.",
+   "rel": "fry"
+  },
+  {
+   "from": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Goes into the bowl warm, with butter, and never before the fryer.",
+   "rel": "fry"
+  },
+  {
+   "from": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "Wants the bowl twice: once for the butter, once for the cheese.",
+   "rel": "fry"
+  },
+  {
+   "from": "lemon-pepper-wet",
+   "type": "sauce",
+   "name": "Lemon pepper wet",
+   "as": "Happens twice here: once for the sauce, once for the shake.",
+   "rel": "fry"
+  },
+  {
+   "from": "mango-habanero",
+   "type": "sauce",
+   "name": "Mango habanero",
+   "as": "Goes in the bowl thick and cold, and still coats.",
+   "rel": "fry"
+  },
+  {
+   "from": "sweet-chili-sauce",
+   "type": "sauce",
+   "name": "Sweet chili sauce",
+   "as": "Needs no warming to go in the bowl — it is already thick enough to coat.",
+   "rel": "fry"
+  },
+  {
+   "from": "teriyaki-sauce",
+   "type": "sauce",
+   "name": "Teriyaki sauce",
+   "as": "Fried wings meet it in the bowl; grilled wings meet it on the brush.",
+   "rel": "fry"
+  },
+  {
+   "from": "air-fryer",
+   "type": "fry",
+   "name": "the air fryer",
+   "as": "Still the last step, done in a bowl off the machine.",
+   "rel": "fry"
+  },
+  {
+   "from": "baking-powder-bake",
+   "type": "fry",
+   "name": "the baking powder bake",
+   "as": "Still the last step; the bowl does not care how the wing got cooked.",
+   "rel": "fry"
+  },
+  {
+   "from": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The step that follows, and the only step that touches the wing after the oil.",
+   "rel": "fry"
+  },
+  {
+   "from": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "The step this order refuses, and the one Buffalo treats as part of cooking.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bar-bill-tavern",
+   "type": "place",
+   "name": "Bar-Bill Tavern",
+   "as": "Refuses it: each wing here is brushed by hand instead of shaken in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "from": "bonchon",
+   "type": "place",
+   "name": "Bonchon",
+   "as": "Refuses it — the sauce goes on with a brush, in the company's words, rather than in a bowl.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nine-eleven-tavern",
+   "type": "place",
+   "name": "Nine-Eleven Tavern",
+   "as": "Does it heavily — Visit Buffalo's word for the result is \"saucy.\"",
+   "rel": "fry"
+  },
+  {
+   "from": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Does it in a bowl, by hand, after the fryer — the chain says so on its own front page.",
+   "rel": "fry"
+  },
+  {
+   "from": "extra-crispy",
+   "type": "term",
+   "name": "extra crispy",
+   "as": "The step that undoes it, second by second.",
+   "rel": "contrast"
+  },
+  {
+   "from": "hot-honey-word",
+   "type": "term",
+   "name": "hot honey",
+   "as": "The step it deliberately comes after.",
+   "rel": "fry"
+  },
+  {
+   "from": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "The step both words describe: what goes in the bowl.",
+   "rel": "fry"
+  }
+ ]
+}

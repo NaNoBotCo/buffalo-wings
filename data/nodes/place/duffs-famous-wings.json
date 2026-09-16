@@ -1,0 +1,178 @@
+{
+ "schema": 1,
+ "id": "duffs-famous-wings",
+ "type": "place",
+ "names": {
+  "name": "Duff's Famous Wings",
+  "aliases": [
+   "Duff's",
+   "Duff's Sheridan Drive"
+  ],
+  "sort": "Duff's Famous Wings"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1946,
+  "cooked": "double-fried",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A wing house at Sheridan Drive and Millersport Highway in Amherst, north of Buffalo, open under that corner since 1946 and selling wings since 1969. Eight heat levels run from mild to death, and the house warns at every level that its scale runs hotter than the word suggests. Buffalo's long argument over who started the wing puts Duff's on the other side of it from the Anchor Bar.",
+  "story": "Louise Duffney opened a corner gin mill at Sheridan Drive and Millersport Highway in 1946. The house dates its first wings to 1969: \"It was in 1969 that the local tavern known simply as Duff's served up their first batch of chicken wings. Selling nearly 20 pounds of wings a week.\" Around 1985 the sign caught up with the trade and the name became Duff's Famous Wings.\n\nThat 1969 date does work in the origin argument. The Anchor Bar dates the Buffalo wing to 4 March 1964, but a local newspaper piece about the Anchor Bar in 1969 does not mention wings, and Duff's started selling them across town that same year.\n\nThe heat scale is the other thing people know. Visit Buffalo puts it plainly: \"Order the medium sauce and you'll receive hot wings. Order hot wings, and you might give your tongue first-degree burns.\" The Buffalo sauce runs at eight levels, mild through death.",
+  "how": "Wings arrive fresh, not frozen — the house specifies \"roaster sized wings that are delivered daily\" — and go out double-fried, sauced in recipes the house dates to 1969. Heat is picked at the order, and the printed warning does the rest.",
+  "today": "The Sheridan Drive room still trades on its original corner. Wikipedia counts five Buffalo-area rooms, one in Rochester, one in Southlake, Texas, and three around Toronto; the company's own site lists ten across New York, Texas, Florida and Kentucky as of September 2026. A version of the wings went into Ralph Wilson Stadium in 2014 under a deal with the Buffalo Bills."
+ },
+ "geo": {
+  "lat": 42.9791498,
+  "lon": -78.7983599,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "3651 Sheridan Drive",
+  "city": "Amherst",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14226"
+ },
+ "links": [
+  {
+   "label": "Duff's Famous Wings",
+   "url": "https://www.duffswings.com/"
+  },
+  {
+   "label": "Buffalo Wing Trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "house-sauce",
+   "source": "s:web-duffs-about",
+   "tier": "cited",
+   "note": "the house says its sauces follow \"the same traditional Buffalo sauce recipes that were created in 1969\""
+  },
+  {
+   "tag": "bar",
+   "source": "s:osm",
+   "tier": "harvested",
+   "note": "OpenStreetMap carries bar=yes on the Transit Road room; the Sheridan Drive original is tagged a restaurant"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "buffalo-wing-trail",
+   "what": "Stop on Visit Buffalo's 14-stop Buffalo Wing Trail",
+   "source": "s:web-buffalo-wing-trail",
+   "url": "https://visitbuffalo.com/crawl/buffalo-wing-trail/"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Sunday to Thursday 11am–9pm, Friday and Saturday 11am–10pm",
+  "source": "s:osm",
+  "tier": "harvested",
+  "checked": "2026-09-16",
+  "note": "OpenStreetMap opening_hours on the Sheridan Drive room, read 16 September 2026"
+ },
+ "kin": [
+  {
+   "to": "anchor-bar",
+   "as": "Claims the wing against this house; a 1969 paper wrote the Anchor Bar up without mentioning wings, the year Duff's started selling them.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Cooks the style, and its heat scale is where visitors learn the style's words don't mean what they say.",
+   "rel": "style"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Holds the 1969 end of the argument, with a date and a receipt rather than a story.",
+   "rel": "story"
+  },
+  {
+   "to": "double-fry",
+   "as": "Its wings go through the fryer twice, which is where the crust comes from.",
+   "rel": "fry"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Bottles and pours it at eight heats, mild through death.",
+   "rel": "sauce"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "Goes out beside the wings, and buys back some of the heat.",
+   "rel": "serves"
+  },
+  {
+   "to": "wingnutz",
+   "as": "A newer neighbour just up the same highway, selling the same argument to a different decade.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:web-duffs-about",
+  "s:web-visitbuffalo-duffs",
+  "s:web-buffalo-wing-trail",
+  "s:wp-duff-s-famous-wings",
+  "s:wp-buffalo-wing",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-duffs-about"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "hours": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-duff-s-famous-wings",
+    "note": "Wikipedia's location count and the company's own site disagree; both are given"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "duffs-famous-wings/duffs-famous-wings-duffs-chicken-wings.jpg",
+   "source": "commons",
+   "title": "File:Duffs chicken wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Duffs_chicken_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADuffs_chicken_wings.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tom Varco",
+   "credit": "Own work",
+   "alt": "Picture of hot chicken (buffalo) wings from w:Duff's in w:Buffalo, New York",
+   "date": "2006-06-15",
+   "primary": true,
+   "sha256": "92590825c3bbc2698646069e4721bcd41d57daf6fa7f5c087dfec73882af304c"
+  }
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,397 @@
+{
+ "schema": 1,
+ "id": "the-flat-and-the-drum",
+ "type": "story",
+ "names": {
+  "name": "The flat and the drum",
+  "aliases": [
+   "Flats against drums"
+  ],
+  "sort": "flat and the drum"
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "essay"
+ },
+ "text": {
+  "what": "A chicken wing has three joints and yields two pieces a kitchen will sell: the drumette, which is the humerus with the meat pushed to one end, and the flat, which is the two-boned middle section carrying most of the skin. The tip goes to stock. One bird gives one of each per wing, in a fixed ratio nobody can change, which is the whole economics of the argument: a counter can let you order all flats, but it cannot buy a bird that grows two of them. Federal regulation names the drumette and declines to name the flat. Survey respondents prefer the drum by a wide margin and split sharply by who is answering. No public price series prices one piece against the other."
+ },
+ "sections": [
+  {
+   "h": "The arithmetic",
+   "text": "Cut the wing at both joints and you have three pieces. Two get sold, one gets boiled. Every whole wing therefore yields exactly one drumette and exactly one flat. An order of twenty is twenty pieces, ten birds' worth of one wing each, and left alone it arrives ten and ten.\n\n*Inference —* that fixed one-to-one is why 'all flats' is the only common wing request that costs the seller something real. Every other modification — sauce, heat, extra crisp, dip on the side — changes what leaves the kitchen. This one changes what is left in it."
+  },
+  {
+   "h": "What the government calls them",
+   "text": "Title 9 of the Code of Federal Regulations, section 381.170(b), defines the cuts. Item (7): \"'Wings' shall include the entire wing with all muscle and skin tissue intact, except that the wingtip may be removed.\" Item (18): \"'Wing drummette' consists of the humerus of a poultry wing with adhering skin and meat attached.\" Item (19): \"'Wing portion' consists of a poultry wing except that the drummette has been removed.\"\n\nThe flat has no federal name. It is defined by subtraction — what is left of a wing once the drumette is gone — and spelled 'drummette' with two m's on the way there. *Inference —* the counter's vocabulary ran ahead of the regulator's, which is usual, and the regulator has not caught up."
+  },
+  {
+   "h": "What the counter calls them",
+   "text": "Flat, drum, drumette, party wing, wingette, mid-joint. A grocery bag labelled party wings holds both pieces already split. A counter that asks 'flats or drums?' is offering something most places will not, and a menu line reading ALL FLATS +$ is telling you the same thing in money."
+  },
+  {
+   "h": "Who prefers which",
+   "text": "CivicScience put the question to 6,093 US consumers and published the result on 5 June 2014: 45% of wing-eaters prefer drums, 29% the flats, and 26% like both equally.\n\nThe splits are sharper than the topline. Men chose drums over flats 40% to 20%; women 29% to 24%. Black respondents went the other way, 43% for flats against 30% for drums. Hispanic respondents went hardest for drums, 47% to 16%. Self-described cooking enthusiasts were 32% more likely than average to choose flats; sports enthusiasts chose drums 40% to 17%.\n\nThat survey is twelve years old as of 2026 and I found no newer public one at the same sample size. Read it as the best available figure, not the current one."
+  },
+  {
+   "h": "The case for the flat",
+   "text": "Two thin bones, and between them a strip of meat under a wider sheet of skin than the drumette carries for its weight. Fry it and more of the piece is crackle; sauce it and more of the piece is sauced, because the surface-to-meat ratio is higher. It pulls apart: twist the bones out and the meat comes free in one piece. *Tradition holds —* the flat is the cook's cut, and the CivicScience finding that cooking enthusiasts skew toward it is consistent with that."
+  },
+  {
+   "h": "The case for the drum",
+   "text": "One bone, a handle at the narrow end, meat pushed into a lump at the other. It eats in two bites without engineering, it dips one-handed, and it holds heat longer because the mass is thicker. *Tradition holds —* the drum is what a plate of wings looks like in a photograph, which is not nothing when the wings are being sold."
+  },
+  {
+   "h": "What a wholesaler pays",
+   "text": "USDA Agricultural Marketing Service, Weekly National Chicken Report, for 7 to 11 September 2026: Wings – Whole traded at a weighted average of 110.02 cents per pound, in a range of 82.00 to 136.00, on 507,000 pounds, down 2.35 cents from the previous week's 112.37. In the same table drumsticks ran 55.35 cents, boneless-skinless breast 121.35, and backs and necks stripped 10.91.\n\nThe series prices the wing whole. There is no line for a flat and no line for a drumette. USDA's retail report is the same: it carries 'Party Wings, Flats and Drums' as one item — 2,022 stores advertising conventional fresh at a weighted $3.27 per pound in the week of 5 to 17 September 2026 — and prices V-Cut Wings separately, but never a flat on its own.\n\nSo the premium a bar charges for all flats has no public benchmark behind it. I could not obtain a foodservice price list that separates the two cuts; the distributors that publish case prices refused this project's requests on 16 September 2026, and the subscription series that poultry traders use, Urner Barry's, is not open. That absence is itself the answer to 'what does a flat cost' — nobody publishes it."
+  },
+  {
+   "h": "What a shop does with the drums",
+   "text": "*Inference —* a counter that sells all-flats orders has three ways out, and they are all visible on menus. It can buy pre-separated flats from a processor, paying whatever that costs and leaving the drum problem upstream. It can charge an upcharge large enough that the drums it is left holding are already paid for. Or it can move the drums somewhere else on the menu — the mixed basket, the lunch special, the platter, the dry-rub tray — and price those to clear.\n\nThe same logic runs in reverse at a shop that sells mostly drums, which then has flats to move. Neither shop is doing anything unusual; it is the arithmetic of a bird with one of each."
+  },
+  {
+   "h": "The tip",
+   "text": "The third segment goes by wing tip, flapper or pointer. It is mostly skin, cartilage and bone, and it is where a kitchen's stock comes from. Some shops leave it attached to the flat and sell the two-piece section as it comes off the bird, which changes the count on the plate and the price per pound in the buyer's favour or the seller's, depending how the menu is written."
+  }
+ ],
+ "kin": [
+  {
+   "to": "wing",
+   "as": "The whole limb this page takes apart, and the word that slid from the limb to its pieces.",
+   "rel": "whole"
+  },
+  {
+   "to": "flat",
+   "as": "The two-boned middle piece, the one federal regulation refuses to name.",
+   "rel": "part"
+  },
+  {
+   "to": "drumette",
+   "as": "The humerus end, and the piece 45% of surveyed wing-eaters say they want.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-tip",
+   "as": "The third segment, cut off and boiled, which is why a wing sells as two pieces and not three.",
+   "rel": "part"
+  },
+  {
+   "to": "flapper",
+   "as": "What the tip is called when a counter keeps it on the flat and sells it attached.",
+   "rel": "term"
+  },
+  {
+   "to": "all-flats",
+   "as": "The order this whole argument turns into money — the one request that leaves the kitchen holding something.",
+   "rel": "term"
+  },
+  {
+   "to": "party-wing",
+   "as": "What a grocery calls the pair once a processor has already split them.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Where the knife goes, which decides everything on this page.",
+   "rel": "fry"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "The wholesale series quoted here in full, and what it did between 2021 and now.",
+   "rel": "story"
+  },
+  {
+   "to": "naked-fry",
+   "as": "Why the flat's skin matters: bare in the oil, the skin is the whole of the crust.",
+   "rel": "fry"
+  }
+ ],
+ "sources": [
+  "s:web-ecfr-381-170",
+  "s:web-civicscience-wing-debate",
+  "s:web-ams-weekly-chicken",
+  "s:web-ams-retail-chicken",
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-ecfr-381-170"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "inference",
+    "note": "the yield is arithmetic; the closing reading is this project's"
+   },
+   "sections[1].text": {
+    "tier": "cited",
+    "source": "s:web-ecfr-381-170",
+    "note": "quotations are verbatim from the eCFR text of 9 CFR 381.170(b), read 16 September 2026"
+   },
+   "sections[2].text": {
+    "tier": "tradition"
+   },
+   "sections[4].text": {
+    "tier": "tradition",
+    "note": "the skin-to-meat argument as the tradition states it; the survey cross-tab is cited"
+   },
+   "sections[5].text": {
+    "tier": "tradition"
+   },
+   "sections[6].text": {
+    "tier": "harvested",
+    "source": "s:web-ams-weekly-chicken",
+    "fetched_at": "2026-09-16",
+    "note": "figures read off the USDA AMS PDFs; the closing paragraph records what could not be obtained"
+   },
+   "sections[7].text": {
+    "tier": "inference"
+   },
+   "sections[8].text": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "the-flat-and-the-drum/the-flat-and-the-drum-buffalo-wings-8779045398.jpg",
+   "source": "commons",
+   "title": "File:Buffalo Wings (8779045398).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Buffalo_Wings_%288779045398%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings_%288779045398%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Eugene Kim from San Francisco, USA",
+   "credit": "Buffalo Wings",
+   "alt": "Buffalo Wings",
+   "date": "2013-05-19 12:15",
+   "primary": true,
+   "sha256": "9f04f6779fa467e17e552cf65761d372f3049b3a416f32ec5f4cf3760831c7a7"
+  },
+  {
+   "file": "the-flat-and-the-drum/the-flat-and-the-drum-homemade-buffalo-wings.jpg",
+   "source": "commons",
+   "title": "File:Homemade buffalo wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Homemade_buffalo_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHomemade_buffalo_wings.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "stef yau",
+   "credit": "https://www.flickr.com/photos/daxiang/111169153/ Flickr account",
+   "alt": "A plate of home-made buffalo wings.",
+   "date": "2006-03-11",
+   "primary": false,
+   "sha256": "8904d59a5c7a4f78e66e5f5e47727900377da4fc057cd88a09287ac0f03ccf0f"
+  }
+ ],
+ "confidence": "high",
+ "needs_verification": false,
+ "updated": "2026-09-16",
+ "blurb": "A chicken wing has three joints and yields two pieces a kitchen will sell: the drumette, which is the humerus with the meat pushed to one end, and the flat, which is the two-boned middle section carrying most of the…",
+ "region_terms": [
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "wing",
+   "type": "term",
+   "name": "wing",
+   "as": "The whole limb this page takes apart, and the word that slid from the limb to its pieces.",
+   "rel": "whole"
+  },
+  {
+   "to": "flat",
+   "type": "term",
+   "name": "flat",
+   "as": "The two-boned middle piece, the one federal regulation refuses to name.",
+   "rel": "part"
+  },
+  {
+   "to": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "The humerus end, and the piece 45% of surveyed wing-eaters say they want.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-tip",
+   "type": "term",
+   "name": "wing tip",
+   "as": "The third segment, cut off and boiled, which is why a wing sells as two pieces and not three.",
+   "rel": "part"
+  },
+  {
+   "to": "flapper",
+   "type": "term",
+   "name": "flapper",
+   "as": "What the tip is called when a counter keeps it on the flat and sells it attached.",
+   "rel": "term"
+  },
+  {
+   "to": "all-flats",
+   "type": "term",
+   "name": "all flats",
+   "as": "The order this whole argument turns into money — the one request that leaves the kitchen holding something.",
+   "rel": "term"
+  },
+  {
+   "to": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "What a grocery calls the pair once a processor has already split them.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "Where the knife goes, which decides everything on this page.",
+   "rel": "fry"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "The wholesale series quoted here in full, and what it did between 2021 and now.",
+   "rel": "story"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "Why the flat's skin matters: bare in the oil, the skin is the whole of the crust.",
+   "rel": "fry"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-ecfr-381-170",
+   "kind": "dataset",
+   "title": "9 CFR 381.170 — Standards for kinds and classes, and for cuts of raw poultry",
+   "publisher": "Electronic Code of Federal Regulations, US Government Publishing Office",
+   "url": "https://www.ecfr.gov/current/title-9/section-381.170",
+   "accessed": "2026-09-16",
+   "note": "US Government work, public domain"
+  },
+  {
+   "id": "s:web-civicscience-wing-debate",
+   "kind": "web",
+   "title": "Chicken Wing Debate: Drums or Flats?",
+   "author": "John Dick",
+   "publisher": "CivicScience",
+   "url": "https://civicscience.com/the-great-chicken-wing-debate/",
+   "accessed": "2026-09-16",
+   "note": "published 5 June 2014; 6,093 US respondents"
+  },
+  {
+   "id": "s:web-ams-weekly-chicken",
+   "kind": "dataset",
+   "title": "Weekly National Chicken Report (AMS_3646), report for 9/7/2026 to 9/11/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_3646.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; wholesale cents per pound, FOB"
+  },
+  {
+   "id": "s:web-ams-retail-chicken",
+   "kind": "dataset",
+   "title": "Weekly Grocery Store Chicken Feature Activity (AMS_2756), Fri Sep 11 2026, ads ending 9/5/2026 to 9/17/2026",
+   "publisher": "USDA Agricultural Marketing Service, Livestock, Poultry and Grain Market News",
+   "url": "https://www.ams.usda.gov/mnreports/AMS_2756.pdf",
+   "accessed": "2026-09-16",
+   "note": "public domain; advertised retail prices, dollars per pound"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-chicken-wing",
+   "kind": "wikipedia",
+   "title": "Chicken wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chicken_wing",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-ecfr-381-170"
+  }
+ },
+ "primary_image": {
+  "file": "the-flat-and-the-drum/the-flat-and-the-drum-buffalo-wings-8779045398.jpg",
+  "source": "commons",
+  "title": "File:Buffalo Wings (8779045398).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Buffalo_Wings_%288779045398%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_Wings_%288779045398%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "Eugene Kim from San Francisco, USA",
+  "credit": "Buffalo Wings",
+  "alt": "Buffalo Wings",
+  "date": "2013-05-19 12:15",
+  "primary": true,
+  "sha256": "9f04f6779fa467e17e552cf65761d372f3049b3a416f32ec5f4cf3760831c7a7"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "The argument this cut creates, with both sides said in full.",
+   "rel": "story"
+  },
+  {
+   "from": "bar-bill-tavern",
+   "type": "place",
+   "name": "Bar-Bill Tavern",
+   "as": "Settles the argument by decree: five of each, centred on the dip.",
+   "rel": "story"
+  },
+  {
+   "from": "all-flats",
+   "type": "term",
+   "name": "all flats",
+   "as": "The argument this phrase is the loud end of.",
+   "rel": "story"
+  },
+  {
+   "from": "drumette",
+   "type": "term",
+   "name": "drumette",
+   "as": "The argument this word is one half of.",
+   "rel": "story"
+  },
+  {
+   "from": "flat",
+   "type": "term",
+   "name": "flat",
+   "as": "The argument this word is the other half of.",
+   "rel": "story"
+  },
+  {
+   "from": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Why no series prices one piece against the other: the wholesale line is Wings – Whole and nothing finer.",
+   "rel": "story"
+  }
+ ]
+}

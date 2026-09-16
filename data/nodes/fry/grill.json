@@ -1,0 +1,112 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "grill/grill-chicken-wings-made-in-a-wood-fired-pizza-oven.jpg",
+   "source": "commons",
+   "title": "File:Chicken Wings made in a Wood-fired pizza oven.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chicken_Wings_made_in_a_Wood-fired_pizza_oven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChicken_Wings_made_in_a_Wood-fired_pizza_oven.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Zacatillo1",
+   "credit": "Own work",
+   "alt": "Chicken wings prepared in a wood burning pizza oven at Baronessa Italian Restaurant in Rockville, MD",
+   "date": "2018-07-14",
+   "primary": true,
+   "sha256": "0231279de60a984db61eaab28051a8c8b3bbc149c6839186bdb276a507578f77"
+  }
+ ],
+ "id": "grill",
+ "names": {
+  "name": "the grill",
+  "sort": "grill",
+  "aliases": [
+   "grilled wings",
+   "over coals",
+   "the drum"
+  ],
+  "said": "Grilled wings is a menu category almost everywhere and a fighting word in one city."
+ },
+ "region": [
+  "caribbean-american",
+  "us"
+ ],
+ "facets": {
+  "kind": "heat"
+ },
+ "text": {
+  "what": "Cooking the wing over direct heat instead of in oil. Buffalo's own reference text lists it among the alternatives — traditionally deep-fried, but alternatively baked, grilled, or broiled — and the Anchor Bar's account rules it out for its own wings: they are not grilled, but only deep-fried and slightly crispy.",
+  "story": "The Caribbean tradition arrives at the wing from the grill rather than the fryer. Jerked meat was first cooked by the indigenous Taínos; in 1516 the Spanish historian Gonzalo Fernández de Oviedo y Valdés documented them preparing and preserving meat and fish on a barbacoa, seasoned with native hot peppers and pimento. The Taíno term barabicu, framework of sticks, covers a range of wooden structures including a raised grill for roasting and smoking. Spanish colonists adopted the method for the pigs, cattle and chicken they introduced in the 1500s, curing them over pimento wood and berries.\n\nThe hardware changed in living memory. Around the 1960s Caribbean vendors looking for a portable method began cutting oil barrels lengthwise, drilling ventilation holes and hinging the lids to hold the smoke; fired with charcoal, those drums are now used across Jamaica. Wood-burning ovens do the job too.\n\n*Inference —* a wing suits a grill badly and a drum well. Direct flame flares on rendering fat and burns the skin before the joint cooks; a closed drum runs the fire to one side and turns the same fat into smoke.",
+  "how": "Two zones, always: fire on one side, wings on the other, lid down. Cook through off the heat, then move over the fire for the last minute to colour. Sugar-bearing sauces go on at the very end or they carbonise. A jerk marinade of allspice and Scotch bonnet goes on before, because it is a marinade rather than a glaze.",
+  "today": "On chain menus as a lighter option and on Caribbean-American counters as the whole point. *Tradition holds —* a Buffalo house will tell you unprompted that it does not grill, which is the clearest sign that plenty of places do."
+ },
+ "kin": [
+  {
+   "to": "caribbean-jerk",
+   "as": "The style built over fire rather than in oil, and the one with the longest documented history here.",
+   "rel": "style"
+  },
+  {
+   "to": "jerk-marinade",
+   "as": "Allspice and Scotch bonnet, applied before the heat rather than after.",
+   "rel": "sauce"
+  },
+  {
+   "to": "peppas-jerk-chicken",
+   "as": "A New York counter working the drum-grill tradition.",
+   "rel": "place"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "The other way out of the fryer, with the crust bought back at the end.",
+   "rel": "contrast"
+  },
+  {
+   "to": "naked-fry",
+   "as": "The method Buffalo holds to, and the one its houses name this against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "air-fryer",
+   "as": "The indoor attempt at browning without submerging.",
+   "rel": "kin"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "States in its own account that its wings are not grilled.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:wp-jerk-cooking",
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-jerk-cooking"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-jerk-cooking",
+    "note": "closing paragraph marked inference"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "two-zone grilling is general practice; the marinade is cited"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

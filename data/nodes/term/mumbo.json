@@ -1,0 +1,95 @@
+{
+ "id": "mumbo",
+ "names": {
+  "name": "mumbo",
+  "aliases": [
+   "mambo",
+   "mumbo sauce",
+   "mambo sauce"
+  ],
+  "said": "Spelled mumbo in Chicago and on the trademark, mambo on plenty of D.C. carryout menus. Same sound."
+ },
+ "region": [
+  "dc",
+  "chicago"
+ ],
+ "facets": {
+  "letter": "M",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "no agreed etymon. As a commercial name the chain runs Argia B. Collins Sr.'s Chicago barbecue sauce → the registered mark MUMBO → the D.C. carryout word; the D.C. spelling mambo may be reshaping by the dance name",
+  "first_attested": "1950 as a trademark: Collins and his business used the Mumbo mark from at least as early as 1950, and his successor-in-interest Select Brands, LLC registered it with the USPTO on 25 May 1999, Registration No. 2,247,855",
+  "note": "*Folk —* the mambo spelling invites a story about the dance, and the dance-named D.C. go-go group Mambo Sauce took its name from the condiment rather than the other way round. No source this project found derives the word from the dance, and none derives it from anywhere else either.",
+  "tier": "cited",
+  "source": "s:wp-mumbo-sauce"
+ },
+ "text": {
+  "what": "A word for a sweet-sour-hot red condiment, sold behind plexiglass in Washington carryouts and poured on fried wings, french fries, jumbo shrimp and fried rice. Barbecue-adjacent, sweeter than barbecue sauce, and by most accounts sourer or hotter as well; the recipe varies by counter.",
+  "story": "The word is in dispute, and the dispute is on the record. Argia B. Collins Sr. used Mumbo for a barbecue sauce at his Chicago restaurant from at least 1950; Select Brands, his successor-in-interest, holds the registration and has challenged D.C. uses of the name as infringing.\n\nWashington tells it the other way. Capital City Mumbo Sauce dates the sauce to a restaurant called Wings-n-Things in the late 1960s. Complicating both, John Young was serving Mumbo sauce on chicken wings at John Young's Wings 'n Things in Buffalo from the early 1960s, and Young himself credited a Washington restaurant for the sauce. Because Collins's mark runs back to the 1950s, it has been argued that the D.C. sauce is the Chicago sauce transplanted. After two years of proceedings the Trademark Trial and Appeal Board found that a D.C.-based company could not take the name from its Chicago founder.\n\nThe argument is not only legal. In 2018 D.C. Mayor Muriel Bowser called Mumbo Sauce \"annoying\" in a Facebook post and questioned whether it was \"quintessential\" D.C.; her spokesperson said the remarks were meant to liven Thanksgiving discussions. On 9 October 2023 McDonald's released a version as a limited-time dipping sauce, with a short documentary about the sauce's history alongside it.",
+  "how": "Asked for by the container: 'mumbo on the side', or poured over the box so the fries under the wings take it too."
+ },
+ "kin": [
+  {
+   "to": "mumbo-sauce",
+   "as": "The sauce the word names, with what goes in it.",
+   "rel": "sauce"
+  },
+  {
+   "to": "dc-mumbo",
+   "as": "The wing style built on it.",
+   "rel": "style"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "Used the name in Chicago from at least 1950; the registration runs through his successor.",
+   "rel": "person"
+  },
+  {
+   "to": "john-young",
+   "as": "Put Mumbo sauce on wings in Buffalo in the early 1960s and credited a Washington restaurant for it.",
+   "rel": "person"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "as": "Carries the D.C. account of where the sauce began.",
+   "rel": "place"
+  },
+  {
+   "to": "mild-sauce-word",
+   "as": "Chicago's word for a cousin condiment, and often compared to this one.",
+   "rel": "contrast"
+  },
+  {
+   "to": "mumbo-fries",
+   "as": "The other thing the word gets poured on, usually in the same box.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-mumbo-sauce",
+  "s:wp-mild-sauce",
+  "s:wp-buffalo-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:wp-mumbo-sauce",
+    "note": "the root is recorded as disputed because it is; no etymon is asserted"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

@@ -1,0 +1,304 @@
+{
+ "schema": 1,
+ "id": "chings-hot-wings",
+ "type": "place",
+ "names": {
+  "name": "Ching's Hot Wings",
+  "aliases": [
+   "Ching's Best Wings",
+   "Ching's Hotwings"
+  ],
+  "sort": "Ching's Hot Wings"
+ },
+ "region": [
+  "memphis"
+ ],
+ "facets": {
+  "state": "TN",
+  "status": "open",
+  "founded": 2003,
+  "cooked": "fried",
+  "styles": [
+   "memphis-dry-rub"
+  ]
+ },
+ "text": {
+  "what": "A Memphis wing shop on Getwell Road, trading since 2003, selling whole wings by the piece from three to four hundred. Flavours run dry — Seasoned, Lemon Pepper, Dry Hot — and wet, through honey gold, hot, extra hot and one called Suicide. The house combination is the Kam Special: three dry seasonings with a honey hot drizzle over the top.",
+  "story": "The shop dates itself to 2003 and credits its seasonings and sauces to its founder, whom its own pages do not name. It sits at 1264 Getwell Road in Memphis, and it closes two days a week.\n\nWings come whole — not split into flat and drum — and are ordered by count. In September 2026 three whole wings ran $8.25 and a four-hundred-piece party order of party wings ran $532.00.\n\nThe seasoning board reads as two arguments in one column. Dry Hot and Lemon Pepper belong to the Memphis rib-counter habit of putting seasoning on and stopping there; Honey Gold, Honey Hot and Suicide belong to the sauced wing. The Kam Special refuses to choose: dry seasonings first, then a drizzle.\n\n*Inference —* the honey gold family on this board is close kin to what a Baltimore or a D.C. counter would call a sweet sauce, and the naming is local rather than national. The project has not found a source tracing that line, so it stays an observation about a menu.",
+  "today": "Trading in September 2026 at 1264 Getwell Road, Memphis, phone (901) 743-5545. Closed Monday and Tuesday; open Wednesday to Saturday 11 a.m. to 7 p.m. and Sunday noon to 6 p.m."
+ },
+ "geo": {
+  "lat": 35.0972295,
+  "lon": -89.9308268,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1264 Getwell Road",
+  "city": "Memphis",
+  "county": "Shelby",
+  "state": "TN",
+  "postcode": "38111"
+ },
+ "links": [
+  {
+   "label": "Ching's Hot Wings",
+   "url": "https://chingsbestwings.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "house-sauce",
+   "source": "s:web-chings-home",
+   "tier": "cited",
+   "note": "the shop's own page credits handmade seasonings and sauces prepared by its founder"
+  },
+  {
+   "tag": "bone-in-only",
+   "source": "s:web-chings-menu",
+   "tier": "cited",
+   "note": "the menu sells whole wings and party wings by the piece; no boneless order appears on it"
+  }
+ ],
+ "recognitions": [],
+ "hours": {
+  "open": [
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [
+   "Mo",
+   "Tu"
+  ],
+  "text": "Wednesday to Saturday 11 a.m. to 7 p.m.; Sunday noon to 6 p.m.; closed Monday and Tuesday",
+  "source": "s:web-chings-home",
+  "url": "https://chingsbestwings.com/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "memphis-dry-rub",
+   "as": "Sells the dry side of the city's wing — Seasoned, Lemon Pepper, Dry Hot — off a board that also sells sauce.",
+   "rel": "style"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "Settles the argument with the Kam Special: dry seasonings, then a honey hot drizzle.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Sells whole wings, tip and all, rather than splitting them.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "as": "The other count on this menu, sold up to four hundred pieces at a time.",
+   "rel": "term"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "One of three dry shakes here, and one of the three inside the Kam Special.",
+   "rel": "sauce"
+  },
+  {
+   "to": "garlic-parmesan-sauce",
+   "as": "On the board twice, plain and hot.",
+   "rel": "sauce"
+  },
+  {
+   "to": "central-bbq",
+   "as": "The other Memphis wing in this set, smoked off a rib pit rather than dropped in a fryer.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Prices a three-piece at $8.25 in September 2026, which is what a counted wing costs at a shop this size.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:web-chings-home",
+  "s:web-chings-menu"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-chings-home"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Nominatim, 1264 Getwell Road, Memphis"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-chings-menu",
+    "note": "the closing paragraph is marked as this project's own observation"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A Memphis wing shop on Getwell Road, trading since 2003, selling whole wings by the piece from three to four hundred.",
+ "region_terms": [
+  {
+   "key": "memphis",
+   "name": "Memphis",
+   "state": "TN",
+   "note": "dry rub off the rib counter, put on wings"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "Sells the dry side of the city's wing — Seasoned, Lemon Pepper, Dry Hot — off a board that also sells sauce.",
+   "rel": "style"
+  },
+  {
+   "to": "wet-and-dry",
+   "type": "term",
+   "name": "wet and dry",
+   "as": "Settles the argument with the Kam Special: dry seasonings, then a honey hot drizzle.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-cut",
+   "type": "fry",
+   "name": "the wing cut",
+   "as": "Sells whole wings, tip and all, rather than splitting them.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "type": "term",
+   "name": "party wing",
+   "as": "The other count on this menu, sold up to four hundred pieces at a time.",
+   "rel": "term"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "type": "sauce",
+   "name": "Lemon pepper",
+   "as": "One of three dry shakes here, and one of the three inside the Kam Special.",
+   "rel": "sauce"
+  },
+  {
+   "to": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "On the board twice, plain and hot.",
+   "rel": "sauce"
+  },
+  {
+   "to": "central-bbq",
+   "type": "place",
+   "name": "Central BBQ",
+   "as": "The other Memphis wing in this set, smoked off a rib pit rather than dropped in a fryer.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "type": "story",
+   "name": "The price of a wing",
+   "as": "Prices a three-piece at $8.25 in September 2026, which is what a counted wing costs at a shop this size.",
+   "rel": "story"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-chings-home",
+   "kind": "web",
+   "title": "Ching's Best Wings",
+   "publisher": "Ching's Hot Wings",
+   "url": "https://chingsbestwings.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-chings-menu",
+   "kind": "web",
+   "title": "Menu — Ching's Hot Wings",
+   "publisher": "Ching's Hot Wings",
+   "url": "https://chingsbestwings.com/menu",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-chings-home"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-chings-menu",
+   "note": "the closing paragraph is marked as this project's own observation"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-chings-home"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "Nominatim, 1264 Getwell Road, Memphis"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-chings-home"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:web-chings-home",
+   "note": "the shop's own page credits handmade seasonings and sauces prepared by its founder",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "bone-in-only",
+   "label": "Bone-in only",
+   "icon": "🦴",
+   "group": "order",
+   "evidence": "the menu",
+   "resources": [],
+   "source": "s:web-chings-menu",
+   "note": "the menu sells whole wings and party wings by the piece; no boneless order appears on it",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "memphis-dry-rub",
+   "type": "style",
+   "name": "Memphis dry-rub wings",
+   "as": "One of the wing houses the Memphis Flyer walked through in 2021, on a board that runs well past dry.",
+   "rel": "place"
+  },
+  {
+   "from": "central-bbq",
+   "type": "place",
+   "name": "Central BBQ",
+   "as": "The other Memphis wing in this set, fried and counted rather than smoked.",
+   "rel": "contrast"
+  }
+ ]
+}

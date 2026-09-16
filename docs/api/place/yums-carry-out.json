@@ -1,0 +1,423 @@
+{
+ "schema": 1,
+ "id": "yums-carry-out",
+ "type": "place",
+ "names": {
+  "name": "Yum's II Carry-Out",
+  "aliases": [
+   "Yum's",
+   "Yum's Carry Out",
+   "Yum's II"
+  ],
+  "said": "Yums",
+  "sort": "Yum's II Carry-Out"
+ },
+ "region": [
+  "dc"
+ ],
+ "facets": {
+  "state": "DC",
+  "status": "open",
+  "cooked": "fried",
+  "styles": [
+   "dc-mumbo"
+  ]
+ },
+ "text": {
+  "what": "A Chinese carryout on 14th Street NW in Washington, open past two most nights, selling fried wings, fried rice and french fries with mumbo sauce over them. It is the first address on most D.C. carryout lists.",
+  "story": "Mumbo sauce is a D.C. carryout condiment: sweeter than barbecue sauce, sourer or hotter depending on whose it is, and poured over fried chicken wings, french fries, fried jumbo shrimp and fried rice. Where it began is disputed. The Mumbo trademark traces to Argia B. Collins Sr. in Chicago from at least 1950; Capital City, the D.C. bottler, dates the D.C. sauce to a restaurant called Wings-n-Things in the late 1960s. John Young was selling wings with mumbo sauce in Buffalo, New York in the early 1960s and credited a Washington restaurant for the sauce.\n\nYum's is where a reader lands in that argument. Complex's 2011 guide to D.C. carryout opened with it, at 1413 14th Street NW, describing a counter with no seats, a secret house recipe per shop, and the wing-and-mumbo order as the thing itself. Capital City's own history page lists Yum's among the D.C. Chinese carryouts that built their own versions, with Danny's, Jerry's, Eddie's, Andy's and Kenny's.\n\n*Tradition holds —* the Chen family has run the counter since 1988, and a later upscale Chinese room, Da Hong Pao, opened next door. The Washington Post reported that in 2016; this project could not open the piece directly and marks the family's dates unverified.",
+  "today": "Open every day in September 2026, per the shop's own ordering page: 11 a.m. to 2.30 a.m. Monday to Thursday, 11 a.m. to 3.30 a.m. Friday and Saturday, noon to 10 p.m. Sunday."
+ },
+ "geo": {
+  "lat": 38.9094398,
+  "lon": -77.0317196,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1413 14th Street NW",
+  "city": "Washington",
+  "state": "DC",
+  "postcode": "20005"
+ },
+ "links": [
+  {
+   "label": "Yum's II",
+   "url": "https://yumsii.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "takeout-window",
+   "source": "s:web-complex-dc-carryout",
+   "tier": "cited",
+   "note": "Complex's D.C. carryout guide: these counters have no seating, so the food goes out"
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-yums-ii",
+   "tier": "cited",
+   "note": "posted close of 2.30 a.m. Monday to Thursday and 3.30 a.m. Friday and Saturday"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-complex-dc-carryout",
+   "tier": "cited",
+   "note": "Complex describes each carryout keeping its own mumbo recipe"
+  }
+ ],
+ "recognitions": [
+  {
+   "by": "other",
+   "what": "First entry in Complex's guide to D.C. carryout, \"Wings and Mumbo Sauce To Go\"",
+   "year": 2011,
+   "source": "s:web-complex-dc-carryout",
+   "url": "https://www.complex.com/pop-culture/2011/02/wings-and-mumbo-sauce-to-go-a-guide-to-d-c-carryout"
+  },
+  {
+   "by": "other",
+   "what": "Named on Capital City's own history of mumbo sauce among the D.C. carryouts that made their own",
+   "year": null,
+   "source": "s:web-capital-city-history",
+   "url": "https://www.capitalcity.com/pages/history"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Monday to Thursday 11 a.m. to 2.30 a.m.; Friday and Saturday 11 a.m. to 3.30 a.m.; Sunday noon to 10 p.m.",
+  "source": "s:web-yums-ii",
+  "url": "https://yumsii.com/",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "dc-mumbo",
+   "as": "One of the counters the style is read off: wings, fries, fried rice, sauce over all of it.",
+   "rel": "style"
+  },
+  {
+   "to": "mumbo-sauce",
+   "as": "Poured here from a house recipe, which is how the sauce works — one per carryout.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mumbo-fries",
+   "as": "The order that comes out of this window when the wings are not the point.",
+   "rel": "dish"
+  },
+  {
+   "to": "fried-rice-plate",
+   "as": "The other half of the Chinese carryout menu the wings share a fryer with.",
+   "rel": "dish"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "as": "The bottler that names this counter in its own history of the sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-young",
+   "as": "Sold wings with mumbo sauce in Buffalo in the early 1960s and credited a Washington restaurant for the sauce.",
+   "rel": "person"
+  },
+  {
+   "to": "mumbo",
+   "as": "The word on this counter's squeeze bottles, spelled mumbo or mambo depending on the shop.",
+   "rel": "term"
+  },
+  {
+   "to": "horaces-and-dickies",
+   "as": "The other D.C. carryout in this set, fish-first rather than wings-first.",
+   "rel": "kin"
+  }
+ ],
+ "sources": [
+  "s:wp-mumbo-sauce",
+  "s:web-complex-dc-carryout",
+  "s:web-yums-ii",
+  "s:web-capital-city-history",
+  "s:web-wapo-chen-family"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-complex-dc-carryout"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "OpenStreetMap node named Yum's, 1413 14th Street NW, Logan Circle/Shaw"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mumbo-sauce",
+    "note": "the closing paragraph about the Chen family is hedged: the Washington Post piece behind it could not be read directly"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-yums-ii"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A Chinese carryout on 14th Street NW in Washington, open past two most nights, selling fried wings, fried rice and french fries with mumbo sauce over them. It is the first address on most D.C. carryout lists.",
+ "region_terms": [
+  {
+   "key": "dc",
+   "name": "Washington, D.C.",
+   "state": "DC",
+   "note": "mumbo sauce, the carryout counter"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "One of the counters the style is read off: wings, fries, fried rice, sauce over all of it.",
+   "rel": "style"
+  },
+  {
+   "to": "mumbo-sauce",
+   "type": "sauce",
+   "name": "Mumbo sauce",
+   "as": "Poured here from a house recipe, which is how the sauce works — one per carryout.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mumbo-fries",
+   "type": "dish",
+   "name": "mumbo fries",
+   "as": "The order that comes out of this window when the wings are not the point.",
+   "rel": "dish"
+  },
+  {
+   "to": "fried-rice-plate",
+   "type": "dish",
+   "name": "the fried rice plate",
+   "as": "The other half of the Chinese carryout menu the wings share a fryer with.",
+   "rel": "dish"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "type": "place",
+   "name": "Capital City Mambo Sauce",
+   "as": "The bottler that names this counter in its own history of the sauce.",
+   "rel": "kin"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Sold wings with mumbo sauce in Buffalo in the early 1960s and credited a Washington restaurant for the sauce.",
+   "rel": "person"
+  },
+  {
+   "to": "mumbo",
+   "type": "term",
+   "name": "mumbo",
+   "as": "The word on this counter's squeeze bottles, spelled mumbo or mambo depending on the shop.",
+   "rel": "term"
+  },
+  {
+   "to": "horaces-and-dickies",
+   "type": "place",
+   "name": "Horace & Dickie's Seafood",
+   "as": "The other D.C. carryout in this set, fish-first rather than wings-first.",
+   "rel": "kin"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-mumbo-sauce",
+   "kind": "wikipedia",
+   "title": "Mumbo sauce",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mumbo_sauce",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-complex-dc-carryout",
+   "kind": "web",
+   "title": "Wings and Mumbo Sauce To Go: A Guide to D.C. Carryout",
+   "publisher": "Complex",
+   "date": "2011-02",
+   "url": "https://www.complex.com/pop-culture/2011/02/wings-and-mumbo-sauce-to-go-a-guide-to-d-c-carryout",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-yums-ii",
+   "kind": "web",
+   "title": "Yum's II | Online ordering menu",
+   "publisher": "Yum's II",
+   "url": "https://yumsii.com/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-capital-city-history",
+   "kind": "web",
+   "title": "History",
+   "publisher": "Capital City (Capital City, LLC)",
+   "url": "https://www.capitalcity.com/pages/history",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-wapo-chen-family",
+   "kind": "web",
+   "title": "One family, two Chinese restaurants and a city's astonishing transformation",
+   "publisher": "The Washington Post",
+   "date": "2016-09-28",
+   "url": "https://www.washingtonpost.com/local/one-family-two-chinese-restaurants-and-a-citys-astonishing-transformation/2016/09/28/654bfeea-834f-11e6-ac72-a29979381495_story.html",
+   "accessed": "2026-09-16",
+   "note": "paywalled to this project; read only through a search engine's extract, so anything drawn from it is marked needs_verification"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-complex-dc-carryout"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce",
+   "note": "the closing paragraph about the Chen family is hedged: the Washington Post piece behind it could not be read directly"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:web-yums-ii"
+  },
+  "geo": {
+   "tier": "harvested",
+   "source": "s:osm",
+   "note": "OpenStreetMap node named Yum's, 1413 14th Street NW, Logan Circle/Shaw"
+  },
+  "address": {
+   "tier": "cited",
+   "source": "s:web-complex-dc-carryout"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [
+  {
+   "key": "takeout-window",
+   "label": "Counter or window, no dining room",
+   "icon": "🪟",
+   "group": "visit",
+   "evidence": "the business's own site, a press piece, or OpenStreetMap takeaway=only",
+   "resources": [],
+   "source": "s:web-complex-dc-carryout",
+   "note": "Complex's D.C. carryout guide: these counters have no seating, so the food goes out",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "late-night",
+   "label": "Open late",
+   "icon": "🌙",
+   "group": "visit",
+   "evidence": "posted hours running past midnight",
+   "resources": [],
+   "source": "s:web-yums-ii",
+   "note": "posted close of 2.30 a.m. Monday to Thursday and 3.30 a.m. Friday and Saturday",
+   "tier": "cited",
+   "url": ""
+  },
+  {
+   "key": "house-sauce",
+   "label": "Sauce made in house",
+   "icon": "🥣",
+   "group": "kitchen",
+   "evidence": "the business's own words or a press piece",
+   "resources": [],
+   "source": "s:web-complex-dc-carryout",
+   "note": "Complex describes each carryout keeping its own mumbo recipe",
+   "tier": "cited",
+   "url": ""
+  }
+ ],
+ "recognition_facts": [
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "First entry in Complex's guide to D.C. carryout, \"Wings and Mumbo Sauce To Go\"",
+   "url": "https://www.complex.com/pop-culture/2011/02/wings-and-mumbo-sauce-to-go-a-guide-to-d-c-carryout",
+   "year": 2011,
+   "source": "s:web-complex-dc-carryout"
+  },
+  {
+   "key": "other",
+   "label": "Other named recognition",
+   "what": "Named on Capital City's own history of mumbo sauce among the D.C. carryouts that made their own",
+   "url": "https://www.capitalcity.com/pages/history",
+   "year": null,
+   "source": "s:web-capital-city-history"
+  }
+ ],
+ "acclaim": 1,
+ "kin_in": [
+  {
+   "from": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "A Washington carryout of exactly the kind this style lives in.",
+   "rel": "place"
+  },
+  {
+   "from": "mumbo-sauce",
+   "type": "sauce",
+   "name": "Mumbo sauce",
+   "as": "A D.C. counter where the wings arrive already wet with it.",
+   "rel": "place"
+  },
+  {
+   "from": "fried-rice-plate",
+   "type": "dish",
+   "name": "the fried rice plate",
+   "as": "One of the D.C. carryouts this plate is ordered across.",
+   "rel": "place"
+  },
+  {
+   "from": "capital-city-mambo-sauce",
+   "type": "place",
+   "name": "Capital City Mambo Sauce",
+   "as": "One of the D.C. carryouts this company's own history names as making its own version.",
+   "rel": "kin"
+  },
+  {
+   "from": "horaces-and-dickies",
+   "type": "place",
+   "name": "Horace & Dickie's Seafood",
+   "as": "The other D.C. carryout in this set: wings and fried rice first, where this one is fish first.",
+   "rel": "kin"
+  },
+  {
+   "from": "argia-b-collins",
+   "type": "person",
+   "name": "Argia B. Collins",
+   "as": "The kind of D.C. counter the argument is actually about: wings, fries, a squeeze bottle.",
+   "rel": "place"
+  },
+  {
+   "from": "chicken-shack-signs",
+   "type": "art",
+   "name": "Chicken shack signs",
+   "as": "A Washington carryout of the kind whose menu board, not its facade, is the real sign.",
+   "rel": "place"
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "schema": 1,
+ "id": "angelo-cataldi",
+ "type": "person",
+ "names": {
+  "name": "Angelo Cataldi",
+  "sort": "Cataldi, Angelo"
+ },
+ "region": [
+  "philadelphia"
+ ],
+ "facets": {
+  "role": [
+   "broadcaster",
+   "organizer"
+  ],
+  "state": "PA"
+ },
+ "text": {
+  "what": "Philadelphia sports-radio morning host, born 13 March 1951, whose WIP show founded Wing Bowl in 1993 and ran it for twenty-six years. A newspaperman first: Providence Journal from 1977, Philadelphia Inquirer sports from 1983, a Pulitzer finalist for covering the 1986 Eagles and Buddy Ryan.",
+  "story": "Cataldi joined WIP part-time in 1988 and took the morning show in 1993. The same year the show put on the first Wing Bowl — a wing-eating contest in a hotel lobby, two contestants, about 150 people watching, held on the Friday before a Super Bowl the Eagles were not in.\n\nIt grew into a 20,000-seat event at the Wells Fargo Center with a commissioner, a hall of fame, a women's bracket called the Wingettes, and a qualifying system of on-air eating stunts. Cataldi worked it as a promoter works a fight: going into 2008 he billed Wing Bowl XVI as the greatest ever, with Bill \"El Wingador\" Simmons coming out of retirement against Joey Chestnut. The 200-wing mark fell that day.\n\nWIP cancelled it on 30 October 2018, after the Eagles won Super Bowl LII. Program director Spike Eskin gave the reason: \"When Wing Bowl started ... a large part of it was the lead-up to the Super Bowl never involved the Eagles. We just wanted to get to the promised land.\"\n\nCataldi retired from the morning show on 17 February 2023 and signed off: \"I mocked every athlete who said this when they retire, and I'm going to close by saying it myself — it's time for me to go, Philadelphia. I need to spend more time with my family. Thank you all for an amazing run. Goodbye.\" He wrote a memoir, Loud.",
+  "today": "Wing Bowl returned on 7 February 2026 at the Plaza Hotel & Casino in Las Vegas with twenty competitors, and a documentary, No One Died: The Wing Bowl Story, was released on 15 August 2026. Sources read on 16 September 2026 record Cataldi as living."
+ },
+ "kin": [
+  {
+   "to": "wing-bowl",
+   "as": "His show made it in 1993 and his voice sold it for twenty-six years.",
+   "rel": "event"
+  },
+  {
+   "to": "al-morganti",
+   "as": "Co-host and co-founder; Morganti had the idea, Cataldi had the megaphone.",
+   "rel": "person"
+  },
+  {
+   "to": "bill-simmons-el-wingador",
+   "as": "The five-time champion he built cards around, including the 2008 comeback.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "Billed him against El Wingador in 2008 and got the first 200-wing plate out of it.",
+   "rel": "person"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "as": "Wing Bowl existed because Philadelphia had no stake in the game that week.",
+   "rel": "event"
+  },
+  {
+   "to": "chickie-and-petes",
+   "as": "The Philadelphia wing room the city's crab-fry argument runs through, in the same town and the same weeks.",
+   "rel": "place"
+  }
+ ],
+ "sources": [
+  "s:web-wp-angelo-cataldi",
+  "s:wp-wing-bowl"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-angelo-cataldi"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-wing-bowl",
+    "note": "the Wikipedia article on Cataldi credits the founding to the WIP Morning Show; the Wing Bowl article names Cataldi and Morganti"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-wing-bowl"
+   },
+   "kin[5].as": {
+    "tier": "inference"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Philadelphia sports-radio morning host, born 13 March 1951, whose WIP show founded Wing Bowl in 1993 and ran it for twenty-six years.",
+ "region_terms": [
+  {
+   "key": "philadelphia",
+   "name": "Philadelphia",
+   "state": "PA",
+   "note": "Wing Bowl country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "wing-bowl",
+   "type": "event",
+   "name": "Wing Bowl",
+   "as": "His show made it in 1993 and his voice sold it for twenty-six years.",
+   "rel": "event"
+  },
+  {
+   "to": "al-morganti",
+   "type": "person",
+   "name": "Al Morganti",
+   "as": "Co-host and co-founder; Morganti had the idea, Cataldi had the megaphone.",
+   "rel": "person"
+  },
+  {
+   "to": "bill-simmons-el-wingador",
+   "type": "person",
+   "name": "Bill \"El Wingador\" Simmons",
+   "as": "The five-time champion he built cards around, including the 2008 comeback.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "Billed him against El Wingador in 2008 and got the first 200-wing plate out of it.",
+   "rel": "person"
+  },
+  {
+   "to": "super-bowl-sunday",
+   "type": "event",
+   "name": "Super Bowl Sunday",
+   "as": "Wing Bowl existed because Philadelphia had no stake in the game that week.",
+   "rel": "event"
+  },
+  {
+   "to": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "The Philadelphia wing room the city's crab-fry argument runs through, in the same town and the same weeks.",
+   "rel": "place"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-wp-angelo-cataldi",
+   "kind": "web",
+   "title": "Angelo Cataldi",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Angelo_Cataldi",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-wing-bowl",
+   "kind": "wikipedia",
+   "title": "Wing Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wing_Bowl",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-wp-angelo-cataldi"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl",
+   "note": "the Wikipedia article on Cataldi credits the founding to the WIP Morning Show; the Wing Bowl article names Cataldi and Morganti"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "al-morganti",
+   "type": "person",
+   "name": "Al Morganti",
+   "as": "The co-host who turned the idea into a 20,000-seat morning broadcast.",
+   "rel": "person"
+  },
+  {
+   "from": "bill-simmons-el-wingador",
+   "type": "person",
+   "name": "Bill \"El Wingador\" Simmons",
+   "as": "Promoted him, retired him and unretired him on air.",
+   "rel": "person"
+  },
+  {
+   "from": "wing-bowl",
+   "type": "event",
+   "name": "Wing Bowl",
+   "as": "Co-founded it and hosted it on WIP for twenty-six years.",
+   "rel": "person"
+  }
+ ]
+}

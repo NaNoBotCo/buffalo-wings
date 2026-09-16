@@ -1,0 +1,328 @@
+{
+ "schema": 1,
+ "id": "garlic-parm",
+ "type": "style",
+ "names": {
+  "name": "Garlic parmesan wings",
+  "aliases": [
+   "garlic parm",
+   "parm wings",
+   "garlic parmesan"
+  ],
+  "said": "Abbreviated on nearly every board that sells it: garlic parm, two words, no capitals."
+ },
+ "region": [
+  "western-ny",
+  "upstate-ny",
+  "new-england",
+  "philadelphia",
+  "us"
+ ],
+ "facets": {
+  "cut": "party wing",
+  "base": "herb-garlic",
+  "cooked": "fried",
+  "heat": "none"
+ },
+ "text": {
+  "what": "A fried wing tossed in melted butter or oil with garlic and grated parmesan, often with dried herbs and black pepper, sometimes finished with more cheese out of the bowl so it sits in visible flecks. It carries no chile heat, which is the point: it is the order placed by the person at the table who does not want heat, and it sells beside Buffalo rather than against it. Some kitchens pour it as a sauce, some dust dry cheese onto a buttered wing, and the two versions eat differently — one slick, one powdery.",
+  "story": "The origin is not established, and this record does not supply one.\n\nWhat the sources searched here give is a shape rather than a story. Garlic and parmesan on fried chicken is Italian-American ground, and the wing itself grew up in Italian-American bars and pizzerias — the Anchor Bar was a Bellissimo family business, the wings went out with celery and blue cheese off an antipasto tray, and Buffalo's pizzerias sold wings alongside pies. *Inference —* garlic parm looks like a pizzeria's ingredients applied to a bar's dish. That is a reading of where the ingredients already were, not a documented invention, and this project names no inventor, no restaurant and no year.\n\nThe dating evidence that exists is negative and thin. A 2015 consumer survey by Ask Your Target Market put barbecue at 43 percent, mild Buffalo at 30, hot Buffalo at 24 and plain at 14, and folded garlic parmesan into an \"other\" category at 9 percent alongside teriyaki. The National Chicken Council's Super Bowl wing round-up listed Wingstop's top flavours as Original Hot, Lemon Pepper and Hickory Smoked BBQ, with no garlic parmesan among them. Trade writing since has ranked garlic parmesan among the country's most-ordered flavours; this project could not retrieve a primary national ranking to cite for that, so the claim that it has become a top-two or top-three flavour stays unverified here.\n\n*Inference —* the rise is easier to see on menus than in surveys. Jeremiah's Tavern in Rochester, read on 16 September 2026, listed Garlic Parm among sixteen sauces; every national wing chain carries a version.",
+  "how": "Fry the wing bare and hot, so the skin is dry enough to take fat without going soft. Melt butter with minced or granulated garlic — raw garlic burns and turns bitter, so most kitchens cook it in the butter first or use powder. Toss the wings through it. Add grated parmesan into the bowl for the sauced version, or dust it onto the buttered wings for the dry one; a hard cheese melts into strings if it goes in too hot, which is why some houses add it off the heat. Dried oregano, parsley and cracked pepper are common. Ranch usually goes on the side, and blue cheese fights the cheese already on the wing.",
+  "today": "Garlic parm is on the board at essentially every chain and independent wing counter in the United States, in bottled form on grocery shelves, and in a dry-seasoning version for air fryers and party packs. It also turns up as a half order — half Buffalo, half parm — which is how a table that disagrees about heat resolves it."
+ },
+ "kin": [
+  {
+   "to": "garlic-parmesan-sauce",
+   "as": "The butter, garlic and grated cheese the whole style is, poured or dusted depending on the kitchen.",
+   "rel": "sauce"
+  },
+  {
+   "to": "la-nova-pizzeria",
+   "as": "A Buffalo pizzeria selling wings beside pies — the counter where a pizzeria's ingredients and a bar's dish already met.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "The same crossing in the other direction: the bar's wing put on the pizzeria's pie.",
+   "rel": "kin"
+  },
+  {
+   "to": "pizza-logs",
+   "as": "Another western New York item built from pizzeria parts and sold as bar food.",
+   "rel": "dish"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "as": "Lists Garlic Parm among sixteen sauces, which is how the style actually reaches most drinkers — one line on a long board.",
+   "rel": "place"
+  },
+  {
+   "to": "wingstop",
+   "as": "Carries a version, as does every national chain; the flavour spread through chain menus faster than through any documented tradition.",
+   "rel": "place"
+  },
+  {
+   "to": "the-toss",
+   "as": "Where the cheese goes in, and where it turns stringy if the bowl is too hot.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked-fry",
+   "as": "What the wing needs to be for butter and cheese to grip it.",
+   "rel": "fry"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "The dip that goes with it, since blue cheese argues with the cheese already on the wing.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style it sits next to on every board, and the heat it is ordered instead of.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "buffalo",
+   "tell": "Colour and heat. Garlic parm is pale, cheesy and carries no chile; Buffalo is orange and built on cayenne."
+  },
+  {
+   "id": "garlic-parmesan-sauce",
+   "tell": "One is the style, one is the bottle. A dry garlic-parmesan dust and a poured garlic-parmesan sauce are both sold under the same two words."
+  }
+ ],
+ "sources": [
+  "s:web-aytm-wing-survey",
+  "s:web-ncc-wings-hot-topic",
+  "s:web-jeremiahs-menu",
+  "s:wp-anchor-bar",
+  "s:wp-buffalo-wing",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "source": "s:this-project",
+   "note": "no sourced origin exists for this style in anything searched here; the record says so rather than filling the gap"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "tradition",
+    "note": "the composition is general knowledge of the menus; no single recipe is standard"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-aytm-wing-survey",
+    "note": "the survey and the chain-flavour figures are cited; the Italian-American reading and the menu evidence are marked inference inline"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "kitchen practice; garlic burning and hard cheese stringing are general cooking facts"
+   },
+   "text.today": {
+    "tier": "tradition"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "low",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "A fried wing tossed in melted butter or oil with garlic and grated parmesan, often with dried herbs and black pepper, sometimes finished with more cheese out of the bowl so it sits in visible flecks.",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "upstate-ny",
+   "name": "Upstate New York",
+   "state": "NY",
+   "note": "Syracuse, the Southern Tier, the Mohawk Valley"
+  },
+  {
+   "key": "new-england",
+   "name": "New England",
+   "state": null,
+   "note": "Boston, Providence, Hartford"
+  },
+  {
+   "key": "philadelphia",
+   "name": "Philadelphia",
+   "state": "PA",
+   "note": "Wing Bowl country"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "The butter, garlic and grated cheese the whole style is, poured or dusted depending on the kitchen.",
+   "rel": "sauce"
+  },
+  {
+   "to": "la-nova-pizzeria",
+   "type": "place",
+   "name": "La Nova Pizzeria",
+   "as": "A Buffalo pizzeria selling wings beside pies — the counter where a pizzeria's ingredients and a bar's dish already met.",
+   "rel": "place"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "The same crossing in the other direction: the bar's wing put on the pizzeria's pie.",
+   "rel": "kin"
+  },
+  {
+   "to": "pizza-logs",
+   "type": "dish",
+   "name": "pizza logs",
+   "as": "Another western New York item built from pizzeria parts and sold as bar food.",
+   "rel": "dish"
+  },
+  {
+   "to": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "Lists Garlic Parm among sixteen sauces, which is how the style actually reaches most drinkers — one line on a long board.",
+   "rel": "place"
+  },
+  {
+   "to": "wingstop",
+   "type": "place",
+   "name": "Wingstop",
+   "as": "Carries a version, as does every national chain; the flavour spread through chain menus faster than through any documented tradition.",
+   "rel": "place"
+  },
+  {
+   "to": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "Where the cheese goes in, and where it turns stringy if the bowl is too hot.",
+   "rel": "fry"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "What the wing needs to be for butter and cheese to grip it.",
+   "rel": "fry"
+  },
+  {
+   "to": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "The dip that goes with it, since blue cheese argues with the cheese already on the wing.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "type": "style",
+   "name": "Buffalo wings",
+   "as": "The style it sits next to on every board, and the heat it is ordered instead of.",
+   "rel": "contrast"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-aytm-wing-survey",
+   "kind": "web",
+   "title": "Chicken Wings Survey: Barbecue Named Most Popular Flavor",
+   "publisher": "Ask Your Target Market (AYTM)",
+   "url": "https://aytm.com/post/chicken-wings-survey",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:web-ncc-wings-hot-topic",
+   "kind": "org",
+   "title": "Chicken Wings – A Hot Topic!",
+   "publisher": "National Chicken Council",
+   "url": "https://www.nationalchickencouncil.org/chicken-wings-a-hot-topic/",
+   "accessed": "2026-09-16",
+   "note": "undated feature built on the 2012 Wing Report; the page that says the count is of wing PORTIONS, splits them half foodservice half retail, and explains the flapper export"
+  },
+  {
+   "id": "s:web-jeremiahs-menu",
+   "kind": "web",
+   "title": "Menu",
+   "publisher": "Jeremiah's Tavern",
+   "url": "https://jeremiahstavern.com/menu/",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:this-project",
+   "kind": "web",
+   "title": "Wing Country — this project's own reasoning",
+   "publisher": "Wing Country",
+   "url": ""
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "tradition",
+   "note": "the composition is general knowledge of the menus; no single recipe is standard"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:web-aytm-wing-survey",
+   "note": "the survey and the chain-flavour figures are cited; the Italian-American reading and the menu evidence are marked inference inline"
+  },
+  "text.how": {
+   "tier": "tradition",
+   "note": "kitchen practice; garlic burning and hard cheese stringing are general cooking facts"
+  },
+  "text.today": {
+   "tier": "tradition"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "garlic-parmesan-sauce",
+   "type": "sauce",
+   "name": "Garlic parmesan sauce",
+   "as": "The style is this sauce and the cheese shaken over it.",
+   "rel": "style"
+  },
+  {
+   "from": "wing-cafe",
+   "type": "place",
+   "name": "The Wing Cafe & Tap House",
+   "as": "Carries it on a board of thirty-five-plus sauces, next to a raspberry chipotle and a General Tso's.",
+   "rel": "style"
+  }
+ ]
+}

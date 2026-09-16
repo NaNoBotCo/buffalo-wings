@@ -1,0 +1,174 @@
+{
+ "schema": 1,
+ "id": "buffalo-murals",
+ "type": "art",
+ "names": {
+  "name": "Buffalo murals",
+  "aliases": [
+   "Buffalo wall art",
+   "Buffalo public art"
+  ],
+  "sort": "Buffalo murals"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "kind": "mural",
+  "state": "NY"
+ },
+ "text": {
+  "what": "Buffalo paints its own story on its walls, and the wing is part of what gets painted. The city's public art runs from commissioned murals on Main Street and Hertel Avenue to neighbourhood walls raised by crowdfunding, and at least one of them exists to settle an argument: in November 2021 a mural went up at Jefferson and Carlton, on the corner where John Young's Wings 'n Things stood, recreating the artwork that had hung inside his shop. The murals are copyrighted by the people who painted them, and one Buffalo muralist has invoiced businesses for using images of his wall, which is why this page names walls and does not reproduce them."
+ },
+ "sections": [
+  {
+   "h": "The John Young mural",
+   "text": "It stands at Jefferson Avenue and Carlton Street, the site of John Young's first restaurant. John Baker and the WNY Urban Arts Collective installed it in November 2021, recreating an original work by William Cooper and Dalton Easton that had hung inside the Wings 'n Things shop.\n\nBuffalo Bike Tours raised more than $12,000 for it — a GoFundMe, chicken wing pop-up events, and grants from the Baird Foundation and the Buffalo Niagara Medical Campus. Marc Moscato said the effort would add \"solar lights and interpretative signage in the coming weeks\" and planned \"a public celebration in the spring, with a memorial bike ride to kick of Buffalo Bike Tours 2022 season.\" Members of Young's family stood with the supporters at the unveiling.\n\n*Inference —* the wall does a job no paper in the origin argument does. Young's claim has no menu, no receipt and no trademark behind it; it has a corner, and now the corner is marked."
+  },
+  {
+   "h": "Greetings from Buffalo",
+   "text": "Casey William Milbrand painted Greetings from Buffalo on Ellicott Street in 2016, in the form of a large-letter postcard — a twelve-pointed sun rising behind a red and purple skyline on a field of blue squares. Visit Buffalo helped promote it. It became the city's most photographed wall.\n\nMilbrand is a Buffalo native with a BS in architecture from the University at Buffalo and an MA from the Illinois Institute of Technology."
+  },
+  {
+   "h": "Who owns a photograph of a wall",
+   "text": "In April 2023 Spectrum News 1 Buffalo reported that Milbrand had been invoicing businesses that used images of the mural commercially, including a $5,000 invoice sent to Buffalo Bike Tours on 3 April, and a settlement for what the report calls a modest amount with Roswell Park Comprehensive Cancer Center after court action. His attorney Stuart Shapiro said commercial use requires permission and that invoices may be sent without a prior cease-and-desist.\n\nMilbrand's own statement, as reported: \"You are also free to reach out directly to an artist if you want to use their copyrighted art for commercial purposes. It's just good business practice.\" Marc Moscato of Buffalo Bike Tours disputed the characterisation: \"There's nothing malicious. I'm not monetizing in any way.\"\n\n*Inference —* the episode is the reason this site links to Buffalo's walls rather than reproducing them. A photograph of a mural is two works. The photographer can license one of them."
+  },
+  {
+   "h": "What the genre does for a city",
+   "text": "*Tradition holds —* a mural is the cheapest large claim a neighbourhood can make. It needs a wall, a permission, a lift and a fortnight, and it does not go through a planning process the way a monument does. Buffalo's run to civic self-portraiture: the name of the city in large letters, the grain elevators, the skyline, the bison, and the wing.\n\nVisit Buffalo publishes a neighbourhood guide to the city's public art, which puts the murals on the same footing as the Wing Trail — a marketing list that also functions as the nearest thing to a register."
+  },
+  {
+   "h": "The wing on a wall",
+   "text": "*Inference —* the wing turns up in Buffalo's murals in two modes, and they are different arguments. One is the city's badge: a wing used the way the bison and the grain elevator are used, as a shorthand for the place, on a wall that is about Buffalo rather than about food. The other is specific and contested — a wall that names a person, a corner and a year, and by doing so takes a side in who invented the dish. Only the second kind carries a date and a claim."
+  },
+  {
+   "h": "Paint, and how long it lasts",
+   "text": "*Tradition holds —* exterior mural work is acrylic or elastomeric wall paint, sprayed and brushed, usually over a primed and sometimes a rendered surface, and finished with a UV-resistant clear coat. Red and orange pigments — the wing's own colours — fade first and hardest in sunlight, which is why a wing mural looks older faster than the blues beside it. Maintenance is the artist's if anybody's, and mostly it is nobody's."
+  }
+ ],
+ "kin": [
+  {
+   "to": "the-origin-fight",
+   "as": "One of these walls is a move in it: Young's claim, marked on the corner where his shop stood.",
+   "rel": "story"
+  },
+  {
+   "to": "john-young",
+   "as": "The mural at Jefferson and Carlton recreates the artwork from inside his Wings 'n Things.",
+   "rel": "person"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style the city paints on its own walls alongside the bison and the grain elevators.",
+   "rel": "style"
+  },
+  {
+   "to": "city-of-buffalo",
+   "as": "Proclaimed a Chicken Wing Day in 1977; the walls are where the same civic claim now gets made.",
+   "rel": "org"
+  },
+  {
+   "to": "buffalo-wing-trail",
+   "as": "Visit Buffalo lists the murals the way it lists the wing shops, as a promoted route.",
+   "rel": "org"
+  },
+  {
+   "to": "free-to-use",
+   "as": "Why this site points at walls and does not print them: the paint is somebody's copyright.",
+   "rel": "story"
+  },
+  {
+   "to": "wing-festival-posters",
+   "as": "The same imagery with a date on it, printed instead of painted.",
+   "rel": "art"
+  },
+  {
+   "to": "chicken-shack-signs",
+   "as": "The smaller, working version of the same wall.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:web-buffalorising-young-mural",
+  "s:web-spectrum-mural-copyright",
+  "s:web-visit-buffalo-wing-trail",
+  "s:wp-buffalo-wing",
+  "s:wp-buffalo-new-york"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-buffalorising-young-mural"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "cited",
+    "source": "s:web-buffalorising-young-mural",
+    "note": "the closing paragraph is this project's reading"
+   },
+   "sections[2].text": {
+    "tier": "cited",
+    "source": "s:web-spectrum-mural-copyright"
+   },
+   "sections[3].text": {
+    "tier": "tradition"
+   },
+   "sections[4].text": {
+    "tier": "inference"
+   },
+   "sections[5].text": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "buffalo-murals/buffalo-murals-keep-buffalo-a-secret-mural-main-street-buffalo-new-f2c86cb.jpg",
+   "source": "commons",
+   "title": "File:\"Keep Buffalo a Secret\" mural, Main Street, Buffalo, New York - 20201220.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/%22Keep_Buffalo_a_Secret%22_mural%2C_Main_Street%2C_Buffalo%2C_New_York_-_20201220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%22Keep_Buffalo_a_Secret%22_mural%2C_Main_Street%2C_Buffalo%2C_New_York_-_20201220.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Andre Carrotflower",
+   "credit": "Own work",
+   "alt": "The controversial motto \"KEEP BUFFALO A SECRET\" - made well-known by the locally-based Oxford Pennant Company - is seen as a mural on the north side of the building at 810 Main Street, in the Allentow",
+   "date": "2020-12-20 16:25:30",
+   "primary": true,
+   "sha256": "0d32b6c9b8461584dd67b25251b72e22945996e68043a92f33de4d5b1c9804dc"
+  },
+  {
+   "file": "buffalo-murals/buffalo-murals-we-are-here-mural-commonwealth-avenue-at-hertel-aven-2503c2b.jpg",
+   "source": "commons",
+   "title": "File:\"We Are Here\" mural, Commonwealth Avenue at Hertel Avenue, Buffalo, New York - 20210509.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/%22We_Are_Here%22_mural%2C_Commonwealth_Avenue_at_Hertel_Avenue%2C_Buffalo%2C_New_York_-_20210509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%22We_Are_Here%22_mural%2C_Commonwealth_Avenue_at_Hertel_Avenue%2C_Buffalo%2C_New_York_-_20210509.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Andre Carrotflower",
+   "credit": "Own work",
+   "alt": "As seen on a rainy afternoon in May 2021, the mural on the Commonwealth Avenue side of the building at 1256 Hertel Avenue in the North Park section of Buffalo, New York is entitled We Are Here. It was",
+   "date": "2021-05-09 15:59:19",
+   "primary": false,
+   "sha256": "9d09393999a1963d30b48f55d87e51bea7aa48020ebdc9ba8a87fe091dd1070f"
+  },
+  {
+   "file": "buffalo-murals/buffalo-murals-tavar-zawacki-mural-metamorphosis-buffalo-2019.jpg",
+   "source": "commons",
+   "title": "File:Tavar Zawacki Mural METAMORPHOSIS Buffalo 2019.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Tavar_Zawacki_Mural_METAMORPHOSIS_Buffalo_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATavar_Zawacki_Mural_METAMORPHOSIS_Buffalo_2019.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Hdepot",
+   "credit": "Own work",
+   "alt": "Photograph of Tavar Zawacki’s large-scale mural Metamorphosis #5, completed in September 2019 in Buffalo, New York. Commissioned by the Albright–Knox Art Gallery as part of its Public Art Initiative, ",
+   "date": "2019-09-19",
+   "primary": false,
+   "sha256": "07783fbe3f21ae02156abe974bd1f60c4f6650a28e875d7d9ead38c7111873e6"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

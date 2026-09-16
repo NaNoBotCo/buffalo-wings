@@ -1,0 +1,114 @@
+{
+ "schema": 1,
+ "id": "southern-foodways-alliance",
+ "type": "org",
+ "names": {
+  "name": "Southern Foodways Alliance",
+  "aliases": [
+   "SFA"
+  ],
+  "sort": "Southern Foodways Alliance"
+ },
+ "region": [
+  "the-south",
+  "us"
+ ],
+ "facets": {
+  "state": "MS",
+  "status": "open",
+  "founded": 1999
+ },
+ "text": {
+  "what": "An archive that records what cooks say about their own work. The Southern Foodways Alliance is based at the University of Mississippi's Center for the Study of Southern Culture and, in its own words, \"documents, studies, and explores the diverse food cultures of the changing American South.\" It collects oral histories, makes short documentary films, publishes and podcasts as Gravy, and holds an annual symposium. For a wing record, it is the difference between a claim about a kitchen and a transcript from one.",
+  "story": "Author and activist John Egerton convened a two-day meeting in Birmingham, Alabama on 22 July 1999; fifty people lent their names to the new non-profit. The organising meeting was held at Southern Living, the dinner at Frank and Pardis Stitt's Highlands Bar and Grill. John T. Edge was elected the first director.\n\nWhat the archive holds matters more here than how it was founded. Amy C. Evans interviewed the Gibson family in Decatur, Alabama about Big Bob Gibson, who was smoking pork and chicken at weekend barbecues in 1925 while working for the L & N Railroad, and whose vinegar-and-mayonnaise white sauce is now on wings across north Alabama. The alliance recorded André Prince Jeffries at Prince's Hot Chicken Shack in Nashville, where the line is longer at ten at night than at lunchtime, and gave her a Guardian of the Tradition award on 11 August 2006.\n\n*Inference —* an oral history is a source a wing record can cite where a press profile cannot reach: the cook's own sentence, dated, transcribed, and held by a named institution.",
+  "how": "Interviews are recorded, transcribed, and published with the interviewer named and the date given, grouped into projects by place or trade. Films sit beside them. The symposium meets each autumn in Oxford, Mississippi.",
+  "today": "Still at the Center for the Study of Southern Culture. The 2026 symposium is set for 10–11 October."
+ },
+ "geo": {
+  "lat": 34.3663773,
+  "lon": -89.5187664,
+  "precision": "town",
+  "source": "s:osm"
+ },
+ "address": {
+  "city": "Oxford",
+  "county": "Lafayette",
+  "state": "MS"
+ },
+ "links": [
+  {
+   "label": "Southern Foodways Alliance",
+   "url": "https://www.southernfoodways.org/"
+  },
+  {
+   "label": "Oral history program",
+   "url": "https://www.southernfoodways.org/oral-history/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "Recorded the family that made hot chicken, and gave André Prince Jeffries an award in 2006.",
+   "rel": "place"
+  },
+  {
+   "to": "big-bob-gibson-bar-b-q",
+   "as": "Recorded the Decatur family whose white sauce reached the wing, in an interview by Amy C. Evans.",
+   "rel": "place"
+  },
+  {
+   "to": "andre-prince-jeffries",
+   "as": "Sat for its interview, and named the shack a late-night place in her own words.",
+   "rel": "person"
+  },
+  {
+   "to": "nashville-hot",
+   "as": "The style's oral record lives partly in this archive.",
+   "rel": "style"
+  },
+  {
+   "to": "alabama-white",
+   "as": "The sauce's oral record runs back to a 1925 railway worker's weekend barbecues, as told to this archive.",
+   "rel": "style"
+  },
+  {
+   "to": "adrian-miller",
+   "as": "Writes the history of Black cooks and fried chicken that this kind of transcript supports.",
+   "rel": "person"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "The kind of archive that would have settled it, had anyone recorded Buffalo in 1964.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:web-sfa-about",
+  "s:web-sfa-history-founders",
+  "s:web-sfa-oral-history",
+  "s:web-sfa-princes-interview",
+  "s:web-sfa-big-bob-gibson-interview"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-sfa-about",
+   "fetched_at": "2026-09-16"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:web-sfa-history-founders",
+    "note": "founding from the alliance's own history page; the two interviews from their own pages. The closing paragraph is this project's reasoning, marked in the prose."
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Oxford, Mississippi at town precision — the alliance sits in the Center for the Study of Southern Culture on the University of Mississippi campus"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

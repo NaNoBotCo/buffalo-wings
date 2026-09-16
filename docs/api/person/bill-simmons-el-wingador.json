@@ -1,0 +1,190 @@
+{
+ "schema": 1,
+ "id": "bill-simmons-el-wingador",
+ "type": "person",
+ "names": {
+  "name": "Bill \"El Wingador\" Simmons",
+  "aliases": [
+   "El Wingador",
+   "Bill Simmons"
+  ],
+  "sort": "Simmons, Bill"
+ },
+ "region": [
+  "philadelphia"
+ ],
+ "facets": {
+  "role": [
+   "competitor"
+  ],
+  "state": "NJ"
+ },
+ "text": {
+  "what": "Five-time Wing Bowl champion, born 1 November 1961, and the contest's own house name — El Wingador, 6 foot 5 and 290 pounds at his peak. He put the nickname on a line of wing sauce, went into the Wing Bowl Hall of Fame in February 2006, and went to state prison in 2013 on a cocaine charge.",
+  "story": "Simmons won Wing Bowl five times between 1999 and 2005, the only eater ever to do it. Wikipedia lists the editions as IX, X, XI and XIII, which is four numerals for five titles; the count is reported consistently and the roll call is not, and this record leaves the discrepancy standing rather than picking numbers.\n\nHe was the local man in a field that went professional around him. When Joey Chestnut offered to drink a gallon of milk to qualify in 2006, the hosts thought it soft; Simmons, in the room, said it was hard, and Chestnut got his five minutes. Angelo Cataldi brought Simmons out of retirement in 2008 to face Chestnut and billed it as the greatest Wing Bowl ever. His personal best came later, in 2011: 254 wings, one behind Jonathan Squibb.\n\nHe built a business on the name — an El Wingador sauce line started after Wing Bowl VII, with plans announced in 2019 to restart the company.\n\nOn 16 June 2012 he was charged with first-degree distribution of cocaine and released on $10,000 bail. He said at the time: \"This isn't me. This isn't my style. I messed up big time and I give my sincerest apologies to anyone I have hurt by my actions.\" In July 2013 he pleaded guilty to second-degree possession of cocaine with intent to distribute. He was sentenced on 4 October 2013 to seven years in state prison and released in May 2015.\n\nHis name is on a banner in the rafters of the Wells Fargo Center.",
+  "today": "Wikipedia records him as living, as read on 16 September 2026. Wing Bowl itself returned in Las Vegas on 7 February 2026."
+ },
+ "kin": [
+  {
+   "to": "wing-bowl",
+   "as": "Won it five times and became the thing it was known for.",
+   "rel": "event"
+  },
+  {
+   "to": "angelo-cataldi",
+   "as": "Promoted him, retired him and unretired him on air.",
+   "rel": "person"
+  },
+  {
+   "to": "al-morganti",
+   "as": "Judged the door he came through, and took his word on Chestnut's milk.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "The professional who ended the local era, and whose entry Simmons vouched for.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Put his nickname on a bottled wing sauce after Wing Bowl VII.",
+   "rel": "sauce"
+  }
+ ],
+ "sources": [
+  "s:web-wp-el-wingador",
+  "s:wp-wing-bowl"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-wp-el-wingador"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "note": "the arrest, plea, sentence and release dates and the quotation are from the Wikipedia article; the title-count discrepancy between five wins and four listed editions is flagged in the prose and unresolved"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-wing-bowl"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16",
+ "blurb": "Five-time Wing Bowl champion, born 1 November 1961, and the contest's own house name — El Wingador, 6 foot 5 and 290 pounds at his peak.",
+ "region_terms": [
+  {
+   "key": "philadelphia",
+   "name": "Philadelphia",
+   "state": "PA",
+   "note": "Wing Bowl country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "wing-bowl",
+   "type": "event",
+   "name": "Wing Bowl",
+   "as": "Won it five times and became the thing it was known for.",
+   "rel": "event"
+  },
+  {
+   "to": "angelo-cataldi",
+   "type": "person",
+   "name": "Angelo Cataldi",
+   "as": "Promoted him, retired him and unretired him on air.",
+   "rel": "person"
+  },
+  {
+   "to": "al-morganti",
+   "type": "person",
+   "name": "Al Morganti",
+   "as": "Judged the door he came through, and took his word on Chestnut's milk.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "The professional who ended the local era, and whose entry Simmons vouched for.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Put his nickname on a bottled wing sauce after Wing Bowl VII.",
+   "rel": "sauce"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:web-wp-el-wingador",
+   "kind": "web",
+   "title": "Bill \"El Wingador\" Simmons",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bill_%22El_Wingador%22_Simmons",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-wing-bowl",
+   "kind": "wikipedia",
+   "title": "Wing Bowl",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wing_Bowl",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:web-wp-el-wingador"
+  },
+  "text.story": {
+   "tier": "cited",
+   "note": "the arrest, plea, sentence and release dates and the quotation are from the Wikipedia article; the title-count discrepancy between five wins and four listed editions is flagged in the prose and unresolved"
+  },
+  "text.today": {
+   "tier": "cited",
+   "source": "s:wp-wing-bowl"
+  }
+ },
+ "primary_image": null,
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "al-morganti",
+   "type": "person",
+   "name": "Al Morganti",
+   "as": "The champion whose word got Chestnut's qualifying stunt accepted.",
+   "rel": "person"
+  },
+  {
+   "from": "angelo-cataldi",
+   "type": "person",
+   "name": "Angelo Cataldi",
+   "as": "The five-time champion he built cards around, including the 2008 comeback.",
+   "rel": "person"
+  },
+  {
+   "from": "joey-chestnut",
+   "type": "person",
+   "name": "Joey Chestnut",
+   "as": "The Philadelphia champion he was billed against and beat.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wing-bowl",
+   "type": "event",
+   "name": "Wing Bowl",
+   "as": "Five-time champion, and the name the documentary says you cannot leave out.",
+   "rel": "person"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "flat",
+ "names": {
+  "name": "flat",
+  "aliases": [
+   "wingette",
+   "flats",
+   "wing flat",
+   "second segment wing portion",
+   "mid-section"
+  ],
+  "said": "'Flats or drums?' — and most places cannot answer it."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "letter": "F",
+  "part_of_speech": "noun"
+ },
+ "etymology": {
+  "root": "the adjective flat, turned into a noun for the piece it describes; the competing name wingette is wing + -ette, the same diminutive that built drumette",
+  "first_attested": "",
+  "note": "Two words, one piece. The National Chicken Council calls it \"the mid-section or 'flat'\"; Wikipedia's poultry article gives it as \"the 'wingette' (also called the 'flat')\". USDA's grading captions use neither, labelling it 'Grade A Second Segment Wing Portion (Wing Flat)'. *Inference —* wingette reads as packer's English and flat as counter English, and the counter is winning.",
+  "tier": "cited",
+  "source": "s:web-ncc-wings-hot-topic"
+ },
+ "text": {
+  "what": "Middle segment, two bones with a gap between them, and more skin per bite than any other piece of a chicken. Flat because it is — it lies down in the fryer basket and comes out on one plane. Two per bird.",
+  "how": "Twist out the smaller bone, then pull the larger one, and the meat comes free in a strip; people who order all flats are usually doing that. More surface means more crust and more sauce clinging, which is the case its partisans make against the drumette."
+ },
+ "kin": [
+  {
+   "to": "drumette",
+   "as": "The other half of the split, and the side of the argument this one is against.",
+   "rel": "contrast"
+  },
+  {
+   "to": "wing",
+   "as": "One of the two pieces a menu means when it says wing.",
+   "rel": "whole"
+  },
+  {
+   "to": "all-flats",
+   "as": "The order that asks for nothing but these.",
+   "rel": "term"
+  },
+  {
+   "to": "wing-tip",
+   "as": "Attached to this piece until somebody cuts it off; a few kitchens leave it on.",
+   "rel": "kin"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "as": "The argument this word is the other half of.",
+   "rel": "story"
+  },
+  {
+   "to": "wing-cut",
+   "as": "Where the second cut goes, and why this piece keeps two bones.",
+   "rel": "fry"
+  },
+  {
+   "to": "party-wing",
+   "as": "Bagged with the drumettes and sold as one product.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-as-food",
+  "s:wp-poultry",
+  "s:web-ncc-wings-hot-topic",
+  "s:web-usda-ams-wing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-poultry"
+  },
+  "fields": {
+   "etymology": {
+    "tier": "cited",
+    "source": "s:web-ncc-wings-hot-topic",
+    "note": "the USDA caption wording could not be read from the AMS page itself — see the note on s:web-usda-ams-wing"
+   },
+   "text.how": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": true,
+ "schema": 1,
+ "type": "term",
+ "images": [],
+ "updated": "2026-09-16"
+}

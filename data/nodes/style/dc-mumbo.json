@@ -1,0 +1,145 @@
+{
+ "schema": 1,
+ "id": "dc-mumbo",
+ "type": "style",
+ "names": {
+  "name": "Mumbo sauce wings",
+  "aliases": [
+   "mambo sauce wings",
+   "wings and mumbo",
+   "carryout wings"
+  ],
+  "said": "Spelled mumbo on one plexiglass menu board and mambo on the next, in the same neighbourhood, for the same sauce."
+ },
+ "region": [
+  "dc",
+  "us"
+ ],
+ "facets": {
+  "state": "DC",
+  "cut": "whole wing",
+  "base": "sweet-tomato",
+  "cooked": "fried",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "Fried chicken wings, usually whole and uncut, sold through the window of a Washington carryout and drowned in mumbo sauce — red, sweeter than barbecue sauce and by turns sharper or more sour, depending whose kitchen made it. The same sauce goes on french fries, fried jumbo shrimp and fried rice, and the wings-over-fried-rice box is the form the dish most often takes across the D.C., Maryland and Virginia carryouts. The sauce arrives poured, not tossed, and the container it comes in is styrofoam.",
+  "story": "Two cities claim the sauce and the record does not hand it to either cleanly.\n\nThe Chicago side has the paperwork. Argia B. Collins Sr. carried a family recipe from Mississippi to Chicago in the 1940s and opened barbecue restaurants on the South Side with his brothers, selling a sauce they called mumbo; WETA's Boundary Stones dates his trademark to 1958, and his bottled sauce reached grocery wholesalers by November 1968 and came in mild, tangy and hickory by 1970. His successor Select Brands registered the Mumbo mark federally on 25 May 1999, and has challenged D.C. uses of the name as infringement.\n\nThe Washington side has the neighbourhood. Boundary Stones puts mumbo in D.C. carryouts \"at least since the 1960s\" — Black-owned first, then Asian-owned — and says outright: \"Origin stories vary so it is difficult to say for sure who introduced Mumbo sauce to the District.\" Wings 'N Things at 7th and Florida NW is the name most often given; Johnny Boy in Capitol Heights, Maryland is another. Capital City Mumbo Sauce dates the D.C. sauce to a restaurant called Wings-n-Things in the late 1960s.\n\nAnd a third thread runs through Buffalo. John Young sold breaded whole wings in a tomato sauce he called mumbo at John Young's Wings 'n Things in Buffalo from 1961 — and credited a Washington, D.C. restaurant as where he heard of the idea, by way of a travelling boxer who told him a D.C. place was doing good business in wings. Because Collins's Chicago sauce predates all of it, Wikipedia records the speculation that D.C.'s is a transplanted Chicago sauce; it also records that the Trademark Trial and Appeal Board, after two years, found a D.C. company could not take the name from its Chicago founder. Arsha Jones, who launched Capital City Mumbo Sauce in May 2011, had argued the word had gone generic in D.C. \"like aspirin\"; the board ruled the evidence insufficient and her company became Capital City Mambo Sauce.\n\nThe city argues about it in public. In 2018 Mayor Muriel Bowser called mumbo sauce \"annoying\" in a Facebook post and questioned whether it was \"quintessential\" D.C.; her spokesperson said the remarks were meant to liven up Thanksgiving. McDonald's put out its own version as a limited offering on 9 October 2023 with a short documentary attached.",
+  "how": "Fry the wing whole and hard at a carryout fryer — jointed wings show up, but the uncut whole wing is the D.C. shape. Build the box: fried rice or fries at the bottom, wings on top. Pour the mumbo over, or ask for it in a cup. The sauce is ketchup-forward, sweet, with vinegar and heat behind it; every carryout runs its own, and no two are the same thickness. There is no toss and no dip on the side unless you buy one.",
+  "today": "Mumbo is bottled by more than one company and sold in grocery stores, and the go-go band Mambo Sauce, a Christylez Bacon song, a Black Flag Brewing beer, a Camille Acker short story and an event series called Chicken & Mumbo Sauce all take their names from it. *Inference —* the wing-and-mumbo box outlived the argument about who owns the word, because the carryout counter never asked."
+ },
+ "kin": [
+  {
+   "to": "mumbo-sauce",
+   "as": "The sauce this style is entirely about, and the thing two cities and a trademark board have fought over.",
+   "rel": "sauce"
+  },
+  {
+   "to": "mumbo",
+   "as": "A word spelled two ways in the same block, and litigated as a trademark and as a generic term.",
+   "rel": "term"
+  },
+  {
+   "to": "yums-carry-out",
+   "as": "A Washington carryout of exactly the kind this style lives in.",
+   "rel": "place"
+  },
+  {
+   "to": "horaces-and-dickies",
+   "as": "A D.C. counter in the same fried trade.",
+   "rel": "place"
+  },
+  {
+   "to": "capital-city-mambo-sauce",
+   "as": "Bottled the D.C. sauce in 2011, lost the trademark fight, and changed a letter.",
+   "rel": "place"
+  },
+  {
+   "to": "argia-b-collins",
+   "as": "Trademarked Mumbo in Chicago in 1958, which is why the D.C. claim has to answer to a Chicago one.",
+   "rel": "person"
+  },
+  {
+   "to": "john-young",
+   "as": "Sold breaded wings in mumbo sauce in Buffalo from 1961 and credited a Washington restaurant with the idea.",
+   "rel": "person"
+  },
+  {
+   "to": "mumbo-fries",
+   "as": "The same pour on potatoes, and the other half of the carryout order.",
+   "rel": "dish"
+  },
+  {
+   "to": "fried-rice-plate",
+   "as": "What sits under the wings in the box at a Chinese-owned D.C. carryout.",
+   "rel": "dish"
+  },
+  {
+   "to": "chicago-mild-sauce",
+   "as": "The other city's sweet red pour, and the one this style may or may not descend from.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "John Young's Buffalo shop sold mumbo wings three years before the Anchor Bar's date, which ties the two cities' origin stories together.",
+   "rel": "contrast"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "chicago-mild-sauce",
+   "tell": "Ask the counter what it is called. The sauce, the pour and the box are close enough that the name is the reliable difference; the history that would separate them is unresolved."
+  },
+  {
+   "id": "honey-bbq-sauce",
+   "tell": "Mumbo is sweeter and sourer than barbecue sauce and carries no smoke. A honey barbecue wing tastes of molasses and char; a mumbo wing tastes of ketchup, sugar and vinegar."
+  }
+ ],
+ "sources": [
+  "s:wp-mumbo-sauce",
+  "s:web-boundary-stones-mumbo",
+  "s:wp-american-chinese-cuisine",
+  "s:wp-buffalo-wing",
+  "s:this-project"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mumbo-sauce"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "the box order and the whole-wing shape are general knowledge of the counters; the sauce's uses are cited"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:wp-mumbo-sauce",
+    "note": "the closing sentence is this project's inference and is marked"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "dc-mumbo/dc-mumbo-mumbo-sauce.jpg",
+   "source": "commons",
+   "title": "File:Mumbo sauce.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mumbo_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMumbo_sauce.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "justgrimes",
+   "credit": "https://www.flickr.com/photos/notbrucelee/6015998118/",
+   "alt": "A bottle of Capital City Mumbo Sauce from the Washington, DC area.",
+   "date": "4 August 2011, 14:04:52",
+   "primary": true,
+   "sha256": "3f228736620960f40fa8e17f69341b09583017920d655dd1d8bfaee63d05962b"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}

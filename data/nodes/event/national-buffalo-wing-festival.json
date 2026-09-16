@@ -1,0 +1,135 @@
+{
+ "schema": 1,
+ "id": "national-buffalo-wing-festival",
+ "type": "event",
+ "names": {
+  "name": "National Buffalo Wing Festival",
+  "aliases": [
+   "Wing Fest",
+   "National Buffalo Chicken Wing Festival"
+  ],
+  "sort": "National Buffalo Wing Festival"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 2002,
+  "when": "Labor Day weekend",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "A two-day wing festival held on Labor Day weekend at Sahlen Field, the minor-league ballpark in downtown Buffalo. Drew Cerza founded it in 2002. Vendors sell wings by the order, contests run all weekend — the US Chicken Wing Eating Championship on the Sunday since 2003, plus amateur sauce contests, a 5K, Miss Buffalo Wing and Bobbing for Wings — and a Hall of Flame inducts the people, families and restaurants that shaped the wing.",
+  "story": "Cerza, whom the Buffalo News calls the Wing King, took the idea from a fictional festival in the 2001 film Osmosis Jones, and from a Buffalo News column by Donn Esmonde; the festival inducted both Esmonde and Bill Murray for it, in 2009 and 2011. Jill Greenburg accounted for the run this way: roughly $200,000 raised for local charities, almost 3,000,000 wings and 100 sauce varieties served to over 500,000 visitors. The festival's own site put the charity total at about $550,000 when read on 16 September 2026.\n\nThe eating contest keeps the records. Joey Chestnut took the trophy from seven-time champion Sonya Thomas on 2 September 2012 with 191 wings, 7.61 pounds, in twelve minutes; he lost it to Miki Sudo in 2013, won it back with 192 in 2014, set 205 in 2015 and 220 in 2017. Geoff Esper ate 281 in 2019. Miki Sudo took the women's title in 2021 with 246. James Webb beat Chestnut in 2023. The 2020 festival was cancelled for the pandemic, the nineteenth deferred to 2021; 2021 and 2022 ran at Highmark Stadium in Orchard Park, and the festival returned to Sahlen Field in 2025.\n\nThe Hall of Flame is the festival's own archive of the argument. Frank and Teressa Bellissimo went in first, in 2006, as creators of the original Buffalo wing sauce. Frank's RedHot followed in 2008, as the sauce used in 1964. Wingstop's Antonio Swad went in in 2010, Duff's in 2017, La Nova in 2016, Gabriel's Gate in 2019 for fifty years of wings. In 2013 the hall inducted John Mack Young, posthumously, as an early wing seller who may have predated the Anchor Bar's date — an induction that puts both sides of the origin argument in the same room.",
+  "how": "Pay at the gate, then pay per order inside. Admission was $20 a day for the 2027 festival as advertised on 16 September 2026, children eight and under free, VIP Party Deck $45 a day; a single order of ten wings was about $13.80 plus tax. Vendors come from Buffalo and from out of state, and the Battle of the Border and Buffalo Buffet Bowl set them against each other.",
+  "today": "The 2026 festival, the 25th, inducted the Perdue family into the Hall of Flame. The next one runs Saturday 4 September 2027, 11am to 8pm, and Sunday 5 September, 11am to 6pm, at Sahlen Field."
+ },
+ "geo": {
+  "lat": 42.8804994,
+  "lon": -78.8737899,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "1 James D. Griffin Plaza, Sahlen Field",
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14203"
+ },
+ "links": [
+  {
+   "label": "National Buffalo Wing Festival",
+   "url": "https://buffalowing.com/"
+  },
+  {
+   "label": "Hall of Flame",
+   "url": "https://buffalowing.com/hall-of-flame/"
+  }
+ ],
+ "kin": [
+  {
+   "to": "drew-cerza",
+   "as": "Founded it in 2002 and runs it; the Hall of Flame inducted him in 2011.",
+   "rel": "person"
+  },
+  {
+   "to": "john-young",
+   "as": "Inducted posthumously in 2013, which is the closest the origin argument has come to an official second answer.",
+   "rel": "person"
+  },
+  {
+   "to": "joey-chestnut",
+   "as": "Won here in 2012, 2014, 2015 and 2017, taking the record from 191 wings up to 220.",
+   "rel": "person"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "The Bellissimos were the first Hall of Flame inductees, in 2006.",
+   "rel": "place"
+  },
+  {
+   "to": "duffs-famous-wings",
+   "as": "Inducted in 2017, the other side of the Buffalo argument standing in the same hall.",
+   "rel": "place"
+  },
+  {
+   "to": "la-nova-pizzeria",
+   "as": "Inducted in 2016, for nearly six decades and for putting barbecue wings into distribution.",
+   "rel": "place"
+  },
+  {
+   "to": "franks-redhot",
+   "as": "Inducted in 2008 as the sauce used in the 1964 story.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo",
+   "as": "The style's annual gathering, in the city that named it.",
+   "rel": "style"
+  },
+  {
+   "to": "wing-bowl",
+   "as": "The other big wing contest, born nine years earlier in Philadelphia and built for radio rather than for a city's own dish.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-national-buffalo-wing-festival",
+  "s:web-buffalowing-festival",
+  "s:web-buffalowing-hall-of-flame",
+  "s:wp-buffalo-wing",
+  "s:wp-joey-chestnut"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-national-buffalo-wing-festival"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "cited",
+    "source": "s:web-buffalowing-festival",
+    "note": "prices as posted for the 2027 festival and read on 16 September 2026",
+    "fetched_at": "2026-09-16"
+   },
+   "text.today": {
+    "tier": "cited",
+    "source": "s:web-buffalowing-festival",
+    "fetched_at": "2026-09-16"
+   },
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm",
+    "note": "Sahlen Field, geocoded against OpenStreetMap"
+   }
+  }
+ },
+ "images": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

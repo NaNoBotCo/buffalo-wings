@@ -1,0 +1,774 @@
+{
+ "schema": 1,
+ "id": "buffalo",
+ "type": "style",
+ "names": {
+  "name": "Buffalo wings",
+  "aliases": [
+   "Buffalo-style wings",
+   "hot wings",
+   "wings"
+  ],
+  "said": "In Buffalo nobody says 'Buffalo wings'. They say wings, and a medium order comes with blue cheese and celery whether you asked or not."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "state": "NY",
+  "cut": "party wing",
+  "base": "cayenne-butter",
+  "cooked": "fried",
+  "heat": "medium"
+ },
+ "text": {
+  "what": "A chicken wing cut into a drumette and a flat, deep-fried bare — no batter, no flour — then shaken in a bowl with melted butter and a vinegar-based cayenne pepper sauce, and served hot with celery, carrot sticks and a dip of blue cheese or ranch. Heat runs mild, medium and hot, and the order names the heat before it names the count. The wing is named for Buffalo, New York, and has nothing to do with the animal.",
+  "story": "Chicken wings were cheap in 1964 because almost nobody ate them; they went into stock, into soup, or into the bin. Three stories explain what changed, and the Bellissimo family told all three.\n\nIn the first, Dominic Bellissimo was tending bar at the Anchor Bar on Main Street on a Friday night in March 1964 when friends turned up late, and his mother Teressa fried what she had and tossed it in cayenne sauce. In the second, which Dominic gave Calvin Trillin for The New Yorker in 1980, the midnight hour mattered: the bar's mostly Catholic drinkers could eat meat again at twelve, and he wanted something to hand them. In the third, Frank Bellissimo said a delivery went wrong — wings arrived instead of the backs and necks that went into the spaghetti sauce — and he asked Teressa to do something with them. Teressa sent the wings out with celery and blue cheese from the antipasto tray, and charged nothing for them.\n\nJohn Young tells it differently, and told it first. Young moved to Buffalo from Stockton, Alabama in 1948, aged thirteen, and from 1961 sold whole uncut wings, breaded, deep-fried and drowned in a tomato-based sauce he called mumbo, at John Young's Wings 'n Things. A travelling boxer had told him about a restaurant in Washington, D.C. doing good business in wings, and he decided to specialise. Young registered the name at the county courthouse and left the area in 1970. He said the Anchor Bar did not carry wings as a regular menu item until 1974. A local newspaper profile of the Anchor Bar in 1969 does not mention wings; Duff's, across town, started selling them that same year. In 2013 the National Buffalo Wing Festival put John Young in its Hall of Flame.\n\nThe city settled nothing and celebrated anyway: in 1977 Buffalo issued a proclamation honouring Frank Bellissimo and named 29 July Chicken Wing Day. Trillin's 1980 piece carried the story out of western New York. Buffalo Wild Wings opened in 1982, Hooters in 1983, and the wing stopped being a Buffalo thing.",
+  "how": "Cut the wing at both joints. Keep the drumette and the flat; the tip goes to stock. Fry bare at a high heat until the skin browns and crackles — no dredge, no batter, which is the line Buffalo draws against Rochester. Melt butter into cayenne pepper sauce, classically Frank's RedHot, sometimes Crystal, and hold it warm; more butter reads mild, less reads hot. Drop the wings into a metal bowl, pour the sauce over, and shake. Sauce goes on after the fryer, never before. Celery and carrots on the plate, blue cheese in a cup.",
+  "today": "Every bar in America sells a version, and most sell it beside a dozen other flavours. Buffalo's own joints hold the line on bare frying, blue cheese and a plain orange sauce, and Visit Buffalo Niagara runs an official Buffalo Wing Trail of shops in the region. *Inference —* the style's name now travels further than its method: 'Buffalo' on a national menu marks the sauce, not the fry."
+ },
+ "kin": [
+  {
+   "to": "anchor-bar",
+   "as": "Claims the invention, dates it to 4 March 1964, and has trademarked the phrase.",
+   "rel": "place"
+  },
+  {
+   "to": "john-young",
+   "as": "Sold breaded whole wings in mumbo sauce here from 1961, three years before the Anchor Bar's date.",
+   "rel": "person"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "Fried the wings the Anchor Bar's version turns on.",
+   "rel": "person"
+  },
+  {
+   "to": "buffalo-sauce",
+   "as": "Cayenne pepper sauce cut with melted butter, and the whole of what makes a wing Buffalo.",
+   "rel": "sauce"
+  },
+  {
+   "to": "celery-and-carrots",
+   "as": "Came off the bar's antipasto tray on the first night and never left the plate.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "The dip Buffalo serves; asking for ranch marks you as from somewhere else.",
+   "rel": "sauce"
+  },
+  {
+   "to": "naked-fry",
+   "as": "Fried bare, which is the method the style is argued over.",
+   "rel": "fry"
+  },
+  {
+   "to": "rochester-breaded",
+   "as": "Seventy miles east, breading the same bird — the nearest rival and the oldest argument.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "as": "Three Bellissimo stories, one John Young, and no document that settles it.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-word",
+   "as": "How a city's name came to mean a sauce.",
+   "rel": "term"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "rochester-breaded",
+   "tell": "Breading. A Buffalo wing goes into the oil bare; a Rochester wing goes in dredged."
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:trillin-1980",
+  "s:wp-buffalo-new-york"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference",
+    "note": "the last sentence reasons from the national menus; the Wing Trail is cited"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "buffalo/buffalo-buffalo-wings.jpg",
+   "source": "commons",
+   "title": "File:Buffalo wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Buffalo_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_wings.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "John Tornow",
+   "credit": "https://www.flickr.com/photos/jdtornow/5132779208/in/photolist-8PyQrf-4hAKZ3-ezdrYB-2KSAcD-bc2RDx-4QQtAB-qCpez6-pFpxxQ-qkXDkz-qkQAxU-qkXDj2-7rTbj8-a7VVbL-qkZ7MK-qkXD8a-25DKbv-8PyQH7-ezdqtz-8uAHBE-8uxD",
+   "alt": "A bowl of chicken (Buffalo) wings and celery.",
+   "date": "2010-10-22 18:47:53",
+   "primary": true,
+   "sha256": "8c8cfe5c1de5c4cb2bdd1186d582c8ac7f6449f3666a4741cf687666a33cf697"
+  },
+  {
+   "file": "buffalo/buffalo-buffalowingsplate.jpg",
+   "source": "commons",
+   "title": "File:Buffalowingsplate.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalowingsplate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalowingsplate.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Alvis at English Wikipedia",
+   "credit": "Transferred from en.wikipedia to Commons by Liftarn using CommonsHelper.",
+   "alt": "Homemade Buffalo Wings, coated in Italian bread crumbs, deep fried, with butter, vinegar, and Tabasco hot sauce and chunky bleu cheese dressing dipping sauce.",
+   "date": "29 December 2006 (original upload date)",
+   "primary": false,
+   "sha256": "06dd50c239fce4aa126929729e126127e78971f5a338aa82d8d7f69d168432d8"
+  },
+  {
+   "file": "buffalo/buffalo-duffs-chicken-wings.jpg",
+   "source": "commons",
+   "title": "File:Duffs chicken wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Duffs_chicken_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADuffs_chicken_wings.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tom Varco",
+   "credit": "Own work",
+   "alt": "Picture of hot chicken (buffalo) wings from w:Duff's in w:Buffalo, New York",
+   "date": "2006-06-15",
+   "primary": false,
+   "sha256": "92590825c3bbc2698646069e4721bcd41d57daf6fa7f5c087dfec73882af304c"
+  }
+ ],
+ "confidence": "high",
+ "updated": "2026-09-16",
+ "blurb": "A chicken wing cut into a drumette and a flat, deep-fried bare — no batter, no flour — then shaken in a bowl with melted butter and a vinegar-based cayenne pepper sauce, and served hot with celery, carrot sticks and a…",
+ "region_terms": [
+  {
+   "key": "western-ny",
+   "name": "Western New York",
+   "state": "NY",
+   "note": "Buffalo, Niagara, the counties around them; where the wing starts"
+  },
+  {
+   "key": "us",
+   "name": "The United States",
+   "state": null,
+   "note": "use when a node belongs to the whole country"
+  }
+ ],
+ "kin_out": [
+  {
+   "to": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Claims the invention, dates it to 4 March 1964, and has trademarked the phrase.",
+   "rel": "place"
+  },
+  {
+   "to": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Sold breaded whole wings in mumbo sauce here from 1961, three years before the Anchor Bar's date.",
+   "rel": "person"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "type": "person",
+   "name": "Teressa Bellissimo",
+   "as": "Fried the wings the Anchor Bar's version turns on.",
+   "rel": "person"
+  },
+  {
+   "to": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "Cayenne pepper sauce cut with melted butter, and the whole of what makes a wing Buffalo.",
+   "rel": "sauce"
+  },
+  {
+   "to": "celery-and-carrots",
+   "type": "dish",
+   "name": "celery and carrots",
+   "as": "Came off the bar's antipasto tray on the first night and never left the plate.",
+   "rel": "dish"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The dip Buffalo serves; asking for ranch marks you as from somewhere else.",
+   "rel": "sauce"
+  },
+  {
+   "to": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "Fried bare, which is the method the style is argued over.",
+   "rel": "fry"
+  },
+  {
+   "to": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Seventy miles east, breading the same bird — the nearest rival and the oldest argument.",
+   "rel": "contrast"
+  },
+  {
+   "to": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "Three Bellissimo stories, one John Young, and no document that settles it.",
+   "rel": "story"
+  },
+  {
+   "to": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "How a city's name came to mean a sauce.",
+   "rel": "term"
+  }
+ ],
+ "source_list": [
+  {
+   "id": "s:wp-buffalo-wing",
+   "kind": "wikipedia",
+   "title": "Buffalo wing",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo_wing",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:wp-anchor-bar",
+   "kind": "wikipedia",
+   "title": "Anchor Bar",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anchor_Bar",
+   "accessed": "2026-09-16"
+  },
+  {
+   "id": "s:trillin-1980",
+   "kind": "article",
+   "title": "An Attempt to Compile a Short History of the Buffalo Chicken Wing",
+   "author": "Calvin Trillin",
+   "publisher": "The New Yorker",
+   "year": 1980,
+   "note": "25 August 1980; the piece that carried the Anchor Bar story out of Buffalo"
+  },
+  {
+   "id": "s:wp-buffalo-new-york",
+   "kind": "wikipedia",
+   "title": "Buffalo, New York",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Buffalo,_New_York",
+   "accessed": "2026-09-16"
+  }
+ ],
+ "tiers": {
+  "text.what": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.story": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.how": {
+   "tier": "cited",
+   "source": "s:wp-buffalo-wing"
+  },
+  "text.today": {
+   "tier": "inference",
+   "note": "the last sentence reasons from the national menus; the Wing Trail is cited"
+  }
+ },
+ "primary_image": {
+  "file": "buffalo/buffalo-buffalo-wings.jpg",
+  "source": "commons",
+  "title": "File:Buffalo wings.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Buffalo_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_wings.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "author": "John Tornow",
+  "credit": "https://www.flickr.com/photos/jdtornow/5132779208/in/photolist-8PyQrf-4hAKZ3-ezdrYB-2KSAcD-bc2RDx-4QQtAB-qCpez6-pFpxxQ-qkXDkz-qkQAxU-qkXDj2-7rTbj8-a7VVbL-qkZ7MK-qkXD8a-25DKbv-8PyQH7-ezdqtz-8uAHBE-8uxD",
+  "alt": "A bowl of chicken (Buffalo) wings and celery.",
+  "date": "2010-10-22 18:47:53",
+  "primary": true,
+  "sha256": "8c8cfe5c1de5c4cb2bdd1186d582c8ac7f6449f3666a4741cf687666a33cf697"
+ },
+ "tag_facts": [],
+ "recognition_facts": [],
+ "acclaim": 0,
+ "kin_in": [
+  {
+   "from": "alabama-white",
+   "type": "style",
+   "name": "Alabama white sauce wings",
+   "as": "The other wing named for a place and defined by one sauce, though that one is fried and tossed and this one is smoked and dunked.",
+   "rel": "contrast"
+  },
+  {
+   "from": "atlanta-lemon-pepper",
+   "type": "style",
+   "name": "Lemon pepper wings",
+   "as": "The style lemon pepper was laid over to cut its heat, by Wikipedia's account of how it started.",
+   "rel": "origin"
+  },
+  {
+   "from": "baltimore-old-bay",
+   "type": "style",
+   "name": "Old Bay wings",
+   "as": "The style that made a wing a sauced thing; Old Bay answers with a wing that is seasoned and not sauced at all.",
+   "rel": "contrast"
+  },
+  {
+   "from": "caribbean-jerk",
+   "type": "style",
+   "name": "Jerk wings",
+   "as": "The style whose menu jerk now shares — one word on a board of twelve, stripped of the barrel and the hours.",
+   "rel": "contrast"
+  },
+  {
+   "from": "chicago-mild-sauce",
+   "type": "style",
+   "name": "Chicago mild sauce wings",
+   "as": "The other city where a wing is defined by one sauce, though there the sauce is tossed and here it is poured.",
+   "rel": "contrast"
+  },
+  {
+   "from": "dc-mumbo",
+   "type": "style",
+   "name": "Mumbo sauce wings",
+   "as": "John Young's Buffalo shop sold mumbo wings three years before the Anchor Bar's date, which ties the two cities' origin stories together.",
+   "rel": "contrast"
+  },
+  {
+   "from": "garlic-parm",
+   "type": "style",
+   "name": "Garlic parmesan wings",
+   "as": "The style it sits next to on every board, and the heat it is ordered instead of.",
+   "rel": "contrast"
+  },
+  {
+   "from": "korean-american",
+   "type": "style",
+   "name": "Korean fried chicken wings",
+   "as": "The American style it shares a bar with: one fry and a loose butter sauce there, two fries and a brushed film here.",
+   "rel": "contrast"
+  },
+  {
+   "from": "nashville-hot",
+   "type": "style",
+   "name": "Nashville hot wings",
+   "as": "The other cayenne wing: that one is tossed in a butter-and-vinegar sauce, this one is painted with a fat-borne paste and served on bread.",
+   "rel": "contrast"
+  },
+  {
+   "from": "rochester-breaded",
+   "type": "style",
+   "name": "Rochester breaded wings",
+   "as": "Seventy miles west, frying the same cut bare — the style this one is defined against, and the argument that gives it a name.",
+   "rel": "contrast"
+  },
+  {
+   "from": "smoked-bbq-wing",
+   "type": "style",
+   "name": "Smoked barbecue wings",
+   "as": "The fried wing this style answers at the same bar, with hours of wood behind it instead of ten minutes of oil.",
+   "rel": "contrast"
+  },
+  {
+   "from": "blue-cheese-dressing",
+   "type": "sauce",
+   "name": "Blue cheese dressing",
+   "as": "The dip the style serves, and the one a medium order arrives with unasked.",
+   "rel": "style"
+  },
+  {
+   "from": "buffalo-sauce",
+   "type": "sauce",
+   "name": "Buffalo sauce",
+   "as": "The whole of what makes a wing Buffalo, and the only sauce that style names.",
+   "rel": "style"
+  },
+  {
+   "from": "crystal-hot-sauce",
+   "type": "sauce",
+   "name": "Crystal Hot Sauce",
+   "as": "Named in the style's sauce recipe as the alternative to Frank's.",
+   "rel": "style"
+  },
+  {
+   "from": "franks-redhot",
+   "type": "sauce",
+   "name": "Frank's RedHot",
+   "as": "Named in the standard account of how this style is sauced.",
+   "rel": "style"
+  },
+  {
+   "from": "ranch-dressing",
+   "type": "sauce",
+   "name": "Ranch dressing",
+   "as": "Named in the style's service alongside blue cheese, and the one Buffalo does not reach for.",
+   "rel": "style"
+  },
+  {
+   "from": "beef-on-weck",
+   "type": "dish",
+   "name": "beef on weck",
+   "as": "Shares a city and a bar counter with it; the sandwich is the older of the two by about a century.",
+   "rel": "contrast"
+  },
+  {
+   "from": "boneless-wings",
+   "type": "dish",
+   "name": "boneless wings",
+   "as": "Lends its sauce and its counting to something cut from the breast.",
+   "rel": "style"
+  },
+  {
+   "from": "buffalo-chicken-dip",
+   "type": "dish",
+   "name": "buffalo chicken dip",
+   "as": "The style whose taste this keeps and whose method it drops.",
+   "rel": "style"
+  },
+  {
+   "from": "buffalo-chicken-pizza",
+   "type": "dish",
+   "name": "buffalo chicken pizza",
+   "as": "The style that lent its name to something with no fryer in it.",
+   "rel": "style"
+  },
+  {
+   "from": "celery-and-carrots",
+   "type": "dish",
+   "name": "celery and carrots",
+   "as": "The style whose plate this sits on; the celery came off the same bar's hors d'oeuvres, not off a recipe.",
+   "rel": "style"
+  },
+  {
+   "from": "chicken-riggies",
+   "type": "dish",
+   "name": "chicken riggies",
+   "as": "The other upstate New York dish whose origin a dozen people claim; same state, same kind of argument.",
+   "rel": "contrast"
+  },
+  {
+   "from": "garbage-plate",
+   "type": "dish",
+   "name": "Garbage Plate",
+   "as": "The other Western New York dish that made it onto a national menu, and the one that got there first.",
+   "rel": "contrast"
+  },
+  {
+   "from": "pizza-logs",
+   "type": "dish",
+   "name": "pizza logs",
+   "as": "Shares the city, the fryer and the basket; ordered while the wings cook.",
+   "rel": "style"
+  },
+  {
+   "from": "the-pitcher",
+   "type": "dish",
+   "name": "the pitcher",
+   "as": "The style that started as something given away to people already buying drinks.",
+   "rel": "style"
+  },
+  {
+   "from": "naked-fry",
+   "type": "fry",
+   "name": "the naked fry",
+   "as": "The style built on this method; take the coat off and the argument with Rochester starts.",
+   "rel": "style"
+  },
+  {
+   "from": "sauce-on-the-side",
+   "type": "fry",
+   "name": "sauce on the side",
+   "as": "The style whose own account puts the sauce in the kitchen rather than the table.",
+   "rel": "style"
+  },
+  {
+   "from": "the-toss",
+   "type": "fry",
+   "name": "the toss",
+   "as": "The style whose final step this is; skip it and you have fried chicken.",
+   "rel": "style"
+  },
+  {
+   "from": "anchor-bar",
+   "type": "place",
+   "name": "Anchor Bar",
+   "as": "Says the style started here, on 4 March 1964, and owns the trademark on the phrase.",
+   "rel": "style"
+  },
+  {
+   "from": "atomic-wings",
+   "type": "place",
+   "name": "Atomic Wings",
+   "as": "Descends from it by a student's memory, and then breads the wing the style fries bare.",
+   "rel": "origin"
+  },
+  {
+   "from": "bar-bill-tavern",
+   "type": "place",
+   "name": "Bar-Bill Tavern",
+   "as": "Cooks the style fifteen miles outside the city that named it, and brushes it on instead of tossing.",
+   "rel": "style"
+  },
+  {
+   "from": "blondies-sports-bar",
+   "type": "place",
+   "name": "Blondies Sports",
+   "as": "Serves the style four hundred miles from where it started, to a room watching somebody else's game.",
+   "rel": "style"
+  },
+  {
+   "from": "buffalo-wild-wings",
+   "type": "place",
+   "name": "Buffalo Wild Wings",
+   "as": "Took the style out of western New York on a franchise, and reached Buffalo itself only in 2000.",
+   "rel": "style"
+  },
+  {
+   "from": "chickie-and-petes",
+   "type": "place",
+   "name": "Chickie's & Pete's",
+   "as": "One of four finishes on the wing board, in a room that sells crab first.",
+   "rel": "style"
+  },
+  {
+   "from": "country-sweet-chicken-and-ribs",
+   "type": "place",
+   "name": "Country Sweet Chicken & Ribs",
+   "as": "Seventy miles from it and declining both its sauce and its bare fry.",
+   "rel": "contrast"
+  },
+  {
+   "from": "duffs-famous-wings",
+   "type": "place",
+   "name": "Duff's Famous Wings",
+   "as": "Cooks the style, and its heat scale is where visitors learn the style's words don't mean what they say.",
+   "rel": "style"
+  },
+  {
+   "from": "elmos-bar-and-restaurant",
+   "type": "place",
+   "name": "Elmo's Bar & Restaurant",
+   "as": "Cooks the style and then adds a step the style does not have.",
+   "rel": "style"
+  },
+  {
+   "from": "gabriels-gate",
+   "type": "place",
+   "name": "Gabriel's Gate",
+   "as": "Cooks the style at the far end of Allen Street from the bar that claims to have started it.",
+   "rel": "style"
+  },
+  {
+   "from": "hooters",
+   "type": "place",
+   "name": "Hooters",
+   "as": "Carried the style out of western New York on a franchise from 1983, breaded rather than bare.",
+   "rel": "style"
+  },
+  {
+   "from": "jeremiahs-tavern",
+   "type": "place",
+   "name": "Jeremiah's Tavern",
+   "as": "Cooks the Buffalo method seventy miles east of Buffalo.",
+   "rel": "style"
+  },
+  {
+   "from": "jr-cricketts",
+   "type": "place",
+   "name": "J.R. Crickets",
+   "as": "Runs underneath the city's lemon pepper here: the wet order is a medium wing sauce with dry seasoning shaken over it.",
+   "rel": "style"
+  },
+  {
+   "from": "la-nova-pizzeria",
+   "type": "place",
+   "name": "La Nova Pizzeria",
+   "as": "Sits inside the style's home city and declines its sauce.",
+   "rel": "style"
+  },
+  {
+   "from": "mammosers-tavern",
+   "type": "place",
+   "name": "Mammoser's Tavern & Restaurant",
+   "as": "Cooks the style in a village south of the city and builds the heat out of four peppers instead of one.",
+   "rel": "style"
+  },
+  {
+   "from": "nine-eleven-tavern",
+   "type": "place",
+   "name": "Nine-Eleven Tavern",
+   "as": "Cooks the style in South Buffalo, sweeter at the front of the mouth than the Anchor Bar's cayenne-and-butter.",
+   "rel": "style"
+  },
+  {
+   "from": "princes-hot-chicken-shack",
+   "type": "place",
+   "name": "Prince's Hot Chicken Shack",
+   "as": "The other cayenne wing: sauce after the fry there too, but butter instead of paste, and celery instead of bread.",
+   "rel": "contrast"
+  },
+  {
+   "from": "wing-cafe",
+   "type": "place",
+   "name": "The Wing Cafe & Tap House",
+   "as": "One flavour among forty here, which is what happens to a city's wing when it becomes a menu item.",
+   "rel": "style"
+  },
+  {
+   "from": "wingnutz",
+   "type": "place",
+   "name": "Wingnutz",
+   "as": "Cooks the style, and started by eating everyone else's version of it and disagreeing.",
+   "rel": "style"
+  },
+  {
+   "from": "calvin-trillin",
+   "type": "person",
+   "name": "Calvin Trillin",
+   "as": "His 1980 New Yorker piece is how the style's story left western New York.",
+   "rel": "style"
+  },
+  {
+   "from": "dominic-bellissimo",
+   "type": "person",
+   "name": "Dominic Bellissimo",
+   "as": "Put the date, 4 March 1964, into every later account of the style.",
+   "rel": "style"
+  },
+  {
+   "from": "drew-cerza",
+   "type": "person",
+   "name": "Drew Cerza",
+   "as": "Sells the style by the ton every Labor Day weekend and argues its rules out loud.",
+   "rel": "style"
+  },
+  {
+   "from": "frank-bellissimo",
+   "type": "person",
+   "name": "Frank Bellissimo",
+   "as": "The style his bar claims, and which his proclamation put a date on.",
+   "rel": "style"
+  },
+  {
+   "from": "jim-disbrow",
+   "type": "person",
+   "name": "Jim Disbrow",
+   "as": "Opened a restaurant because Ohio had none of this and he wanted some.",
+   "rel": "style"
+  },
+  {
+   "from": "john-young",
+   "type": "person",
+   "name": "John Young",
+   "as": "Sold wings in this city years before the date the style is usually given, in a form the style does not use.",
+   "rel": "style"
+  },
+  {
+   "from": "teressa-bellissimo",
+   "type": "person",
+   "name": "Teressa Bellissimo",
+   "as": "The style the bar dates to the night she fried wings meant for the soup pot.",
+   "rel": "style"
+  },
+  {
+   "from": "buffalo-wing-trail",
+   "type": "org",
+   "name": "Buffalo Wing Trail",
+   "as": "Maps the style at home: fourteen rooms frying the same bird fourteen ways.",
+   "rel": "style"
+  },
+  {
+   "from": "city-of-buffalo",
+   "type": "org",
+   "name": "City of Buffalo",
+   "as": "Gave the style its name, and has nothing to do with the animal.",
+   "rel": "style"
+  },
+  {
+   "from": "national-buffalo-wing-festival",
+   "type": "event",
+   "name": "National Buffalo Wing Festival",
+   "as": "The style's annual gathering, in the city that named it.",
+   "rel": "style"
+  },
+  {
+   "from": "national-chicken-wing-day",
+   "type": "event",
+   "name": "National Chicken Wing Day",
+   "as": "The style whose birthday this is taken to be, though the proclamation names no invention.",
+   "rel": "style"
+  },
+  {
+   "from": "wing-bowl",
+   "type": "event",
+   "name": "Wing Bowl",
+   "as": "Ate the style by the hundred, 300 miles from where it started.",
+   "rel": "style"
+  },
+  {
+   "from": "buffalo-word",
+   "type": "term",
+   "name": "Buffalo",
+   "as": "The style this word was cut from, and the only one that does not need it.",
+   "rel": "style"
+  },
+  {
+   "from": "naked",
+   "type": "term",
+   "name": "naked",
+   "as": "Unbreaded by default, so the word is not needed there.",
+   "rel": "style"
+  },
+  {
+   "from": "weck",
+   "type": "term",
+   "name": "weck",
+   "as": "The city's other famous plate, and the one wings share a table with.",
+   "rel": "style"
+  },
+  {
+   "from": "buffalo-murals",
+   "type": "art",
+   "name": "Buffalo murals",
+   "as": "The style the city paints on its own walls alongside the bison and the grain elevators.",
+   "rel": "style"
+  },
+  {
+   "from": "ranch-vs-blue-cheese",
+   "type": "story",
+   "name": "Ranch against blue cheese",
+   "as": "The style whose plate this argument is fought over.",
+   "rel": "style"
+  },
+  {
+   "from": "the-origin-fight",
+   "type": "story",
+   "name": "The origin fight",
+   "as": "The style this argument is about; it takes its name from the city and not from either shop.",
+   "rel": "style"
+  }
+ ]
+}

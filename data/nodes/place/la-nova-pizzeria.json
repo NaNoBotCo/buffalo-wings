@@ -1,0 +1,159 @@
+{
+ "schema": 1,
+ "id": "la-nova-pizzeria",
+ "type": "place",
+ "names": {
+  "name": "La Nova Pizzeria",
+  "aliases": [
+   "La Nova",
+   "La Nova Wings"
+  ],
+  "sort": "La Nova Pizzeria"
+ },
+ "region": [
+  "western-ny"
+ ],
+ "facets": {
+  "state": "NY",
+  "status": "open",
+  "founded": 1957,
+  "cooked": "fried",
+  "styles": [
+   "buffalo",
+   "smoked-bbq-wing"
+  ]
+ },
+ "text": {
+  "what": "A pizzeria on West Ferry Street in Buffalo's west side, run by three generations of the Todaro family, whose barbecue wing is the local counter-argument to cayenne and butter. The wings went from the pizzeria's own counter into a wholesale plant that ships them frozen across the country. Buffalo argues about whether a barbecue wing counts; La Nova sells them by the billion and does not enter the argument.",
+  "story": "Joe Todaro — \"Papa Joe\" — opened La Nova in 1957 at 43 South Niagara Street in the City of Tonawanda, working the ovens with his son. Urban renewal shut that room after about a decade. The son, Joe Todaro Jr., \"Big Joe,\" reopened on a corner in Buffalo: \"Big Joe grew up with the business in his blood and opened La Nova Pizzeria on January 6, 1971.\" He is credited in the family's own telling with white pizza, steak and cheese subs, and the thing this record is here for: he \"was also the first to create La Nova's World Famous Barbeque Wings; making them an absolute favorite in the Queen City.\"\n\nThe third generation took the wing out of Buffalo. Joey Todaro III first exhibited at the International Pizza Expo in 1994, selling pizzerias elsewhere on putting wings next to the pies; La Nova Wings, Inc. now calls itself \"The Premier Manufacturer of Chicken Wings in the United States\" and sells \"fully cooked, heat and serve wings, boneless wings and sauces\" in barbecue, oven-roasted, Italian-style and hot-and-spicy.\n\nThe family's other life is on the record too. Wikipedia's article on Joseph Todaro Jr. reports that a 1999 federal civil racketeering complaint named him as underboss and his father as boss of the Buffalo crime family and identified both as owners of La Nova Pizzeria, and that Canadian court proceedings in 2017 alleged he is the current boss. Todaro denied holding any leadership role in organized crime in a January 2023 interview.",
+  "how": "Wings fry at the pizzeria and go out in the house barbecue sauce, oven-roasted, Italian-style or hot. The wholesale line cooks them fully and freezes them, so the same wing reaches a bar in another state as a reheat rather than a fry.",
+  "today": "371 West Ferry Street, open seven days as of September 2026: Sunday to Wednesday 10am to 10:15pm, Thursday to 11:15pm, Friday and Saturday to 12:15am. A second room trades at 5151 Main Street, Williamsville."
+ },
+ "geo": {
+  "lat": 42.9151387,
+  "lon": -78.8881731,
+  "precision": "street",
+  "source": "s:osm"
+ },
+ "address": {
+  "street": "371 West Ferry Street",
+  "city": "Buffalo",
+  "county": "Erie",
+  "state": "NY",
+  "postcode": "14213"
+ },
+ "links": [
+  {
+   "label": "La Nova",
+   "url": "https://www.lanova.com/pizzeria"
+  },
+  {
+   "label": "La Nova Wings",
+   "url": "https://www.lanova.com/"
+  }
+ ],
+ "tags": [
+  {
+   "tag": "family-run",
+   "source": "s:web-lanova-pizzeria",
+   "tier": "cited",
+   "note": "the house history runs Papa Joe Todaro to Big Joe to Joey III",
+   "url": "https://www.lanova.com/pizzeria"
+  },
+  {
+   "tag": "house-sauce",
+   "source": "s:web-lanova-pizzeria",
+   "tier": "cited",
+   "note": "the barbecue wing sauce is the family's own, and the wholesale arm bottles it",
+   "url": "https://www.lanova.com/pizzeria"
+  },
+  {
+   "tag": "late-night",
+   "source": "s:web-lanova-pizzeria",
+   "tier": "cited",
+   "note": "Friday and Saturday to 12:15am",
+   "url": "https://www.lanova.com/pizzeria"
+  }
+ ],
+ "hours": {
+  "open": [
+   "Mo",
+   "Tu",
+   "We",
+   "Th",
+   "Fr",
+   "Sa",
+   "Su"
+  ],
+  "closed": [],
+  "text": "Sun–Wed 10:00am–10:15pm, Thurs 10:00am–11:15pm, Fri–Sat 10:00am–12:15am",
+  "source": "s:web-lanova-pizzeria",
+  "url": "https://www.lanova.com/pizzeria",
+  "tier": "cited",
+  "checked": "2026-09-16"
+ },
+ "kin": [
+  {
+   "to": "honey-bbq-sauce",
+   "as": "Its barbecue wing is the Buffalo argument against cayenne and butter, sold from a pizza counter.",
+   "rel": "sauce"
+  },
+  {
+   "to": "buffalo-chicken-pizza",
+   "as": "Wings and pies come off one counter here, which is how the two ended up on the same menu everywhere else.",
+   "rel": "dish"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "The wholesale line ships them frozen and fully cooked alongside the bone-in.",
+   "rel": "dish"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "A mile east, selling the other Buffalo sauce; both bottle and ship.",
+   "rel": "contrast"
+  },
+  {
+   "to": "buffalo",
+   "as": "Sits inside the style's home city and declines its sauce.",
+   "rel": "style"
+  },
+  {
+   "to": "the-price-of-a-wing",
+   "as": "Its plant is one reason a wing in another state costs what it costs.",
+   "rel": "story"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "Put a barbecue wing on a Buffalo menu decades before the national chains did.",
+   "rel": "style"
+  }
+ ],
+ "sources": [
+  "s:web-lanova-pizzeria",
+  "s:web-lanova-wings",
+  "s:wp-joseph-todaro-jr",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:web-lanova-pizzeria"
+  },
+  "fields": {
+   "geo": {
+    "tier": "harvested",
+    "source": "s:osm"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-joseph-todaro-jr",
+    "note": "the racketeering paragraph is Wikipedia's account of court filings, with the denial included"
+   }
+  }
+ },
+ "images": [],
+ "x_commons_files": [],
+ "confidence": "high",
+ "updated": "2026-09-16"
+}

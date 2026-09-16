@@ -1,0 +1,132 @@
+{
+ "schema": 1,
+ "type": "dish",
+ "updated": "2026-09-16",
+ "images": [
+  {
+   "file": "celery-and-carrots/celery-and-carrots-buffalo-wings.jpg",
+   "source": "commons",
+   "title": "File:Buffalo wings.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Buffalo_wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABuffalo_wings.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "John Tornow",
+   "credit": "https://www.flickr.com/photos/jdtornow/5132779208/in/photolist-8PyQrf-4hAKZ3-ezdrYB-2KSAcD-bc2RDx-4QQtAB-qCpez6-pFpxxQ-qkXDkz-qkQAxU-qkXDj2-7rTbj8-a7VVbL-qkZ7MK-qkXD8a-25DKbv-8PyQH7-ezdqtz-8uAHBE-8uxD",
+   "alt": "A bowl of chicken (Buffalo) wings and celery.",
+   "date": "2010-10-22 18:47:53",
+   "primary": true,
+   "sha256": "8c8cfe5c1de5c4cb2bdd1186d582c8ac7f6449f3666a4741cf687666a33cf697"
+  },
+  {
+   "file": "celery-and-carrots/celery-and-carrots-chicken-wings-at-west-side-story-in-february-2025.jpg",
+   "source": "commons",
+   "title": "File:Chicken wings at West Side Story in February 2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Chicken_wings_at_West_Side_Story_in_February_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChicken_wings_at_West_Side_Story_in_February_2025.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "JIP",
+   "credit": "Own work",
+   "alt": "A plate of chicken wings in hot sauce, French fries, carrot sticks and cucumber sticks, along with a glass of water, served for lunch at restaurant West Side Story in Martinlaakso, Vantaa, Finland in ",
+   "date": "2025-02-14",
+   "primary": false,
+   "sha256": "f6da236942441291061db541f50123182b6b37bf9f6f055b4dd91171abd5cc4d"
+  }
+ ],
+ "id": "celery-and-carrots",
+ "names": {
+  "name": "celery and carrots",
+  "aliases": [
+   "celery",
+   "veggie sticks",
+   "the vegetables"
+  ],
+  "said": "Nobody orders it. It arrives. In Buffalo a medium order comes with celery and blue cheese whether you asked or not."
+ },
+ "region": [
+  "western-ny",
+  "us"
+ ],
+ "facets": {
+  "course": "side",
+  "styles": [
+   "buffalo"
+  ]
+ },
+ "text": {
+  "what": "Cut celery, usually with carrot sticks, served cold beside hot wings with a cup of blue cheese or ranch that both the vegetables and the wings go into. Celery here is the petiole — the leaf stalk of Apium graveolens — cut raw to finger length. It cools the mouth between wings, it carries dip, and it is the one item on the plate nobody asks for.",
+  "story": "The Anchor Bar's account puts the vegetables on the plate from the first night: on 4 March 1964 Teressa Bellissimo fried wings for her son Dominic's friends and brought out cut celery and blue cheese for dipping as hors d'oeuvres. The celery was there to be grabbed because celery was everywhere. The New York Public Library's historical menu archive shows it as the third-most-popular item on New York City menus through the 19th and early 20th centuries, behind only coffee and tea, served in celery vases to be salted and eaten raw; whole varieties have since vanished because they were hard to grow and did not ship. North American commercial growing narrowed onto one cultivar, 'Pascal'.\n\n*Inference —* the wing plate kept a garnish the rest of American dining dropped, so a bar basket in 2026 preserves a habit the city around it stopped having.",
+  "how": "Cut the petiole into sticks a little longer than a wing. The strings that peel off a stalk are bundles of angular collenchyma cells sitting outside the vascular bundles, which is why celery pulls apart lengthways and not across. Carrots go in raw, as sticks or as whole small carrots. Everything serves cold against hot wings, with the dip in its own cup. Freshly cut celery decays fast, so a kitchen cuts near service and keeps it at 0–2 °C.",
+  "today": "Wingstop sells veggie sticks — carrots and/or celery — as a side you pay for. A Buffalo counter still puts them on the plate unasked. *Tradition holds —* the celery is the first thing left in the basket and the last thing a Buffalo bar would stop putting there."
+ },
+ "kin": [
+  {
+   "to": "buffalo",
+   "as": "The style whose plate this sits on; the celery came off the same bar's hors d'oeuvres, not off a recipe.",
+   "rel": "style"
+  },
+  {
+   "to": "anchor-bar",
+   "as": "Brought out the cut celery and blue cheese with the first wings it claims, on 4 March 1964.",
+   "rel": "place"
+  },
+  {
+   "to": "teressa-bellissimo",
+   "as": "Fried the wings and sent the vegetables out with them.",
+   "rel": "person"
+  },
+  {
+   "to": "blue-cheese-dressing",
+   "as": "The cup both the celery and the wing go into in Buffalo.",
+   "rel": "sauce"
+  },
+  {
+   "to": "ranch-dressing",
+   "as": "The dip most of America reaches for instead, and the argument that follows.",
+   "rel": "sauce"
+  },
+  {
+   "to": "wing-basket",
+   "as": "What the vegetables ride in, and why a wing order is a plate rather than a piece of meat.",
+   "rel": "whole"
+  },
+  {
+   "to": "white-bread-and-pickles",
+   "as": "Nashville's answer to the same problem — something cold and cheap under something hot.",
+   "rel": "contrast"
+  },
+  {
+   "to": "pickled-radish",
+   "as": "Seoul's answer to the same problem, cubed and sweet instead of raw and green.",
+   "rel": "contrast"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-anchor-bar",
+  "s:wp-celery",
+  "s:wp-wingstop"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-celery"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-celery",
+    "note": "the closing paragraph is marked inference"
+   },
+   "text.today": {
+    "tier": "tradition",
+    "note": "the Wingstop side is cited; the last sentence is how the tradition talks"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

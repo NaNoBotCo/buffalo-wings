@@ -1,0 +1,113 @@
+{
+ "schema": 1,
+ "type": "fry",
+ "updated": "2026-09-16",
+ "images": [],
+ "id": "wing-cut",
+ "names": {
+  "name": "the wing cut",
+  "sort": "wing cut",
+  "aliases": [
+   "breaking down a wing",
+   "segmenting",
+   "jointing the wing"
+  ],
+  "said": "Two cuts, three pieces, two of them sold. A kitchen says segmenting; a menu says wings."
+ },
+ "region": [
+  "us"
+ ],
+ "facets": {
+  "kind": "cut",
+  "cut": "party wing"
+ },
+ "text": {
+  "what": "Where the knife goes on a chicken wing. The wing comes off the bird in three segments and the cook cuts it at both joints: the drumette, shaped like a small drumstick and white meat; the middle flat, also called the wingette, containing two bones; and the tip, often discarded or used for stock. Two pieces go in the basket, so one wing off the bird sells as two wings on a menu.",
+  "story": "The cut is why the wing could be given away in 1964 and counted by the piece ever since. Chicken wings were inexpensive and undesirable then, normally thrown away or kept for soups and stock — the tip's job, extended to the whole limb. Cutting at the joints turned an offcut into a countable serving: twenty pieces is roughly ten birds' worth of one wing each, and a menu that says twenty wings is selling ten.\n\nSome restaurants leave the tip attached to the flat and serve it that way. In Japan the wing is frequently separated into teba-moto, wing base, and teba-saki, wing tip. In Washington, D.C. carryouts the wing goes into the oil whole and comes out uncut, which is how John Young sold them in Buffalo from 1961.\n\n*Inference —* every argument downstream starts here. Flats against drums is an argument about which of these two pieces you get; all-flats is a request that breaks a kitchen's yield, because one bird produces exactly one of each.",
+  "how": "Find the two joints by flexing the wing; the cartilage gives and the bone does not. Cut through the joint, not through bone — a knife through the gap needs no force and leaves no splinters. First cut separates the drumette from the flat, second takes the tip off the flat. Keep the tips: boil them for stock, where they have more collagen per gram than either piece that got sold. A grocery sells the two kept pieces already split as party wings.",
+  "today": "Most American wings arrive at the shop pre-split and frozen, sold as party wings or wing sections, so the cut happens at a processing plant rather than on a bar's board. *Inference —* that is also why a shop can offer all flats at a premium: someone upstream already sorted them."
+ },
+ "kin": [
+  {
+   "to": "wing",
+   "as": "The word this cut redefines: what a menu calls a wing is one of the two pieces it makes.",
+   "rel": "term"
+  },
+  {
+   "to": "drumette",
+   "as": "The upper piece this cut frees, white meat on one bone.",
+   "rel": "part"
+  },
+  {
+   "to": "flat",
+   "as": "The middle piece, two bones and the most skin, which is the argument's other side.",
+   "rel": "part"
+  },
+  {
+   "to": "wing-tip",
+   "as": "The third piece, usually cut off and boiled for stock rather than sold.",
+   "rel": "part"
+  },
+  {
+   "to": "party-wing",
+   "as": "What a grocery calls the two kept pieces when it sells them already split.",
+   "rel": "term"
+  },
+  {
+   "to": "all-flats",
+   "as": "The request this cut cannot grant without somebody upstream sorting a case.",
+   "rel": "term"
+  },
+  {
+   "to": "the-flat-and-the-drum",
+   "as": "The argument this cut creates, with both sides said in full.",
+   "rel": "story"
+  },
+  {
+   "to": "boneless-wings",
+   "as": "Skips this entirely — breast meat chunked, no joints to find.",
+   "rel": "contrast"
+  },
+  {
+   "to": "fried-rice-plate",
+   "as": "Skips it too: D.C. carryouts fry the wing whole, tip and all.",
+   "rel": "dish"
+  },
+  {
+   "to": "wing-basket",
+   "as": "Why a basket of twenty is ten birds' worth of one wing each.",
+   "rel": "whole"
+  }
+ ],
+ "sources": [
+  "s:wp-buffalo-wing",
+  "s:wp-chicken-as-food",
+  "s:wp-poultry",
+  "s:wp-american-chinese-cuisine"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chicken-as-food"
+  },
+  "fields": {
+   "text.how": {
+    "tier": "tradition",
+    "note": "knife technique is trade practice; the collagen claim is general and unmeasured here"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-buffalo-wing",
+    "note": "closing paragraph marked inference"
+   },
+   "text.today": {
+    "tier": "tradition",
+    "note": "closing sentence marked inference"
+   },
+   "names.said": {
+    "tier": "tradition"
+   }
+  }
+ },
+ "confidence": "high"
+}

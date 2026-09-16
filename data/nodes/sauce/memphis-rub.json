@@ -1,0 +1,157 @@
+{
+ "id": "memphis-rub",
+ "names": {
+  "name": "Memphis dry rub",
+  "aliases": [
+   "dry rub",
+   "Memphis rub",
+   "dry"
+  ],
+  "said": "'Dry' in Memphis is not a texture complaint. It is an order, and the other one is 'wet'."
+ },
+ "region": [
+  "memphis",
+  "us"
+ ],
+ "facets": {
+  "base": "dry-rub",
+  "heat": "mild"
+ },
+ "text": {
+  "what": "A dry mix of salt, paprika, sugar and spices, patted onto meat before it cooks and shaken over it again after. Memphis barbecue is mostly pork — ribs and shoulders — and its ribs come dry or wet: dry means rub and no sauce, wet means sauce brushed on before, during and after. The same rub goes on wings, which get the rib counter's treatment without the pit.",
+  "story": "Memphis is one of the four regional styles of American barbecue usually named, with Carolina, Kansas City and Texas. Its cooking is slow, in a pit, and the dry-or-wet fork sits at the centre of it.\n\nThe World Championship Barbecue Cooking Contest, held each May, has made the style known beyond the city; Guinness World Records lists it as the largest pork barbecue contest in the world. The Food Network and the BBC cover it and more than 100,000 people attend. Many Memphis barbecue restaurants ship nationally overnight, helped by the FedEx Superhub sitting in the city.\n\n*Inference —* the rub reached the wing sideways. A rib counter already had the mix in a shaker and a fryer or a smoker in the back, and a wing takes the same shake in a tenth of the time.",
+  "how": "Two applications. Rub the wings before cooking so salt and sugar have time to draw and set a crust; smoke, fry or both; then shake more rub over them the moment they come off. The sugar is why a rubbed wing browns darker and why it will scorch on a hot grill. No bowl, no sauce, nothing to dip in unless you ask.",
+  "today": "Sold bottled by dozens of makers and mixed by every barbecue kitchen. As of 16 September 2026 the USDA label panel for Adams Reserve Memphis Barbecue Rub reads 40 mg sodium and 1 g sugar in a ¼-teaspoon serving — 480 mg and 12 g in a tablespoon by arithmetic. Brown sugar is its first ingredient and chipotle its last. No Memphis rib house's own shaker carries a published panel, and no maker publishes a Scoville number."
+ },
+ "kin": [
+  {
+   "to": "memphis-dry-rub",
+   "as": "The style is this shaker, taken off the rib counter and put on a wing.",
+   "rel": "style"
+  },
+  {
+   "to": "central-bbq",
+   "as": "A Memphis pit whose rub goes on wings as well as ribs.",
+   "rel": "place"
+  },
+  {
+   "to": "wet-and-dry",
+   "as": "Memphis says these two words about ribs; Atlanta and Baltimore borrowed them for wings.",
+   "rel": "term"
+  },
+  {
+   "to": "old-bay",
+   "as": "The other regional shaker, without the sugar and with celery salt doing the work.",
+   "rel": "contrast"
+  },
+  {
+   "to": "lemon-pepper-seasoning",
+   "as": "Atlanta's dry answer to the same question, built on citrus.",
+   "rel": "kin"
+  },
+  {
+   "to": "smoke-then-fry",
+   "as": "The method a rubbed wing most often goes through: smoke for colour, fryer for skin.",
+   "rel": "fry"
+  },
+  {
+   "to": "honey-bbq-sauce",
+   "as": "The wet half of the Memphis fork, in a bottle.",
+   "rel": "contrast"
+  },
+  {
+   "to": "smoked-bbq-wing",
+   "as": "The style that takes this rub to a smoker rather than a fryer.",
+   "rel": "style"
+  }
+ ],
+ "confusable_with": [
+  {
+   "id": "old-bay",
+   "tell": "Taste the sugar. A Memphis rub is brown-sugar sweet and browns as it cooks; Old Bay is celery salt and stays dusty."
+  }
+ ],
+ "profile": {
+  "kind": "bottle",
+  "base": "dry-rub",
+  "maker": "Adams Extract Co.",
+  "town": null,
+  "state": null,
+  "ingredients": [
+   "brown sugar",
+   "garlic",
+   "sea salt",
+   "paprika",
+   "spices (including black pepper)",
+   "chipotle pepper"
+  ],
+  "pepper_rank": 6,
+  "vinegar_rank": 0,
+  "fat_rank": 0,
+  "tomato_rank": 0,
+  "sugar_rank": 1,
+  "mustard_rank": 0,
+  "soy_rank": 0,
+  "serving_tbsp": 0.0833,
+  "sodium_mg_per_tbsp": 480,
+  "sugar_g_per_tbsp": 12,
+  "scoville": null,
+  "heat_claim": null,
+  "source": "s:fdc-adams-reserve-memphis-rub",
+  "url": "https://fdc.nal.usda.gov/food-details/1912757/nutrients",
+  "accessed": "2026-09-16",
+  "note": "Adams Reserve Memphis Barbecue Rub, 5.6 oz. Label serving is ¼ tsp (1 g) = 0.0833 tbsp; label sodium 40 mg and sugars 1 g, so 480 mg and 12 g per tablespoon by arithmetic — a comparison unit, not a portion. This is a shelf rub carrying the Memphis name, not a Memphis rib house's own mix: Charlie Vergos' Rendezvous seasoning and the other house shakers return no record in FoodData Central, so their panels are not on this disk. No heat word and no Scoville number on the jar."
+ },
+ "sources": [
+  "s:wp-memphis-style-barbecue",
+  "s:fdc-adams-reserve-memphis-rub"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-memphis-style-barbecue"
+  },
+  "fields": {
+   "profile": {
+    "tier": "harvested",
+    "source": "s:fdc-adams-reserve-memphis-rub",
+    "fetched_at": "2026-09-16"
+   },
+   "names.said": {
+    "tier": "cited",
+    "source": "s:wp-memphis-style-barbecue"
+   },
+   "text.how": {
+    "tier": "tradition",
+    "note": "the two applications and the scorching are general pit practice; dry-against-wet is cited"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:fdc-adams-reserve-memphis-rub"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "type": "sauce",
+ "images": [],
+ "updated": "2026-09-16",
+ "recipes": [
+  {
+   "title": "Adams Reserve Memphis Barbecue Rub, as labelled",
+   "source": "s:fdc-adams-reserve-memphis-rub",
+   "license": "ingredients-only",
+   "url": "https://fdc.nal.usda.gov/food-details/1912757/nutrients",
+   "region": "Memphis",
+   "ingredients": [
+    "brown sugar",
+    "garlic",
+    "sea salt",
+    "paprika",
+    "spices (including black pepper)",
+    "chipotle pepper"
+   ],
+   "note": "Ingredients only, in label order, from the USDA branded-food panel. A shelf rub carrying the Memphis name. The rib houses' own shakers are not published and return no USDA record."
+  }
+ ]
+}

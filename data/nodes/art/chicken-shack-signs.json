@@ -1,0 +1,247 @@
+{
+ "schema": 1,
+ "id": "chicken-shack-signs",
+ "type": "art",
+ "names": {
+  "name": "Chicken shack signs",
+  "aliases": [
+   "fried chicken signs",
+   "wing counter signage"
+  ],
+  "sort": "chicken shack signs"
+ },
+ "region": [
+  "us",
+  "chicago",
+  "dc",
+  "the-south",
+  "nashville"
+ ],
+ "facets": {
+  "kind": "sign"
+ },
+ "text": {
+  "what": "The sign over a wing or fried-chicken counter is a working document. It has to be readable from a car at thirty miles an hour, name the shop, say CHICKEN, and usually price something. It comes in two families that overlap: brush-lettered paint, on plywood, on stucco, on the window glass itself; and the internally lit plastic box with changeable letters underneath. The cartoon bird is optional and very common. Almost none of it is signed, almost all of it is made locally, and it is replaced rather than restored, which is why the record of it is photographic."
+ },
+ "sections": [
+  {
+   "h": "What the sign has to do",
+   "text": "Four jobs, in order of size. Say the name. Say CHICKEN, or WINGS, in the largest letters on the panel — because the category sells before the name does. Price something, usually one combination, because a price is what makes a driver slow down. Point: an arrow, a hand, or an ORDER HERE over the window.\n\n*Inference —* the hierarchy is why so many of these signs look alike across cities that share nothing else. The constraints are the same in Chicago, Atlanta, Nashville and Washington, and they produce the same layout."
+  },
+  {
+   "h": "Brush and enamel",
+   "text": "*Tradition holds —* the hand-painted counter sign is sign-painter's work: one-shot enamel, a lettering quill, a chalk snap line, and a shop's name laid out to fill the board rather than to fit a typeface. The tells are the ones the trade knows — brush-modulated strokes, letters that widen where the space allows, a drop shadow painted in a second pass, and spacing decided by eye.\n\nThe same hand usually does the menu board inside: the list over the counter, the prices painted and then repainted over as they move, so an old price shows through a new one. That layering is the only dated thing in most of these shops."
+  },
+  {
+   "h": "The backlit box",
+   "text": "The illuminated plastic-faced cabinet arrived with the postwar strip and did not leave. A translucent face, fluorescent tubes behind it, the shop's name silkscreened or vinyl-cut onto the plastic, and beneath it a changeable-copy reader board with black letters slid into tracks.\n\nIt is the cheapest way to be visible after dark, which is when a wing counter does much of its business, and the reader board gives a shop something it cannot get any other way: copy it can change this afternoon. WINGS 10 PC, or the specials, or a message about the football."
+  },
+  {
+   "h": "The bird",
+   "text": "A chicken drawn as a character — upright, often wearing a chef's hat or an apron, sometimes carrying a tray, frequently pointing at the shop's own name. *Tradition holds —* the joke is old and untroubled: the bird recommends its own cooking.\n\nIt shares its grammar with the rooster weathervane and with barbecue's pig: an animal rendered as a sign for the place that sells it, drawn friendly rather than lifelike, and used as a mark a customer can recognise before reading a word."
+  },
+  {
+   "h": "Where the old ones survive",
+   "text": "Chiefly in two public photographic collections, both at the Library of Congress and both public domain, which is why this site can point at them.\n\nJohn Margolies spent decades photographing American roadside architecture; his chicken signs on Wikimedia Commons include a 1979 chicken sign in El Paso, Texas, Cohen's Chicken House in Junction City, Kansas, Dario Chicken In-The Box in Rutherfordton, North Carolina, and the Chicken In the Rough restaurant sign on Route 11 in New Market, Virginia. Carol M. Highsmith's Library of Congress work covers the same ground later, including a Lucy's Fried Chicken sign on Burnet Road in Austin, Texas, photographed in April 2014.\n\n*Inference —* the collections skew to what a photographer driving a highway could see. Counter signs on a city block, inside a neighbourhood, photograph worse and survive in the record less."
+  },
+  {
+   "h": "What gets made now",
+   "text": "Vinyl cut on a plotter and applied to an acrylic face. Channel letters in aluminium with LED modules behind them, which replaced neon on cost rather than on looks. Full-colour printed banners for a new flavour, zip-tied over the old sign and left up for years. Menu boards as backlit translucent prints in a rail, so one panel can be swapped when a price moves.\n\nThe hand-painted window is not gone. It persists where a shop's landlord will not permit a cabinet, where the budget is a weekend, and where a shop wants to look like it has been there longer than it has."
+  },
+  {
+   "h": "Reading one before you go in",
+   "text": "*Tradition holds —* the sign tells you the shop's shape. An ORDER HERE window with a speaker means no dining room. Prices painted rather than printed mean they do not change often. A reader board with three different letter heights means the letters ran out. Hours hand-lettered on the glass, rather than printed on a decal, usually means the hours are the owner's and negotiable."
+  }
+ ],
+ "kin": [
+  {
+   "to": "harolds-chicken-shack",
+   "as": "A chain whose sign is its own argument, repeated across the South Side of Chicago.",
+   "rel": "place"
+  },
+  {
+   "to": "princes-hot-chicken-shack",
+   "as": "The Nashville counter whose signage carries the heat scale as the menu's main axis.",
+   "rel": "place"
+  },
+  {
+   "to": "yums-carry-out",
+   "as": "A Washington carryout of the kind whose menu board, not its facade, is the real sign.",
+   "rel": "place"
+  },
+  {
+   "to": "uncle-remus-saucy-fried-chicken",
+   "as": "Chicago signage where the sauce gets the biggest letters on the panel.",
+   "rel": "place"
+  },
+  {
+   "to": "wing-cafe",
+   "as": "An Atlanta counter of the sort this genre is written for.",
+   "rel": "place"
+  },
+  {
+   "to": "neon-chicken",
+   "as": "The lit version of the same bird, in glass tube instead of paint.",
+   "rel": "art"
+  },
+  {
+   "to": "rooster-weathervanes",
+   "as": "The oldest form of the same idea: a bird put up as a mark for the place beneath it.",
+   "rel": "art"
+  },
+  {
+   "to": "hot-sauce-labels",
+   "as": "The same trade of promising heat in a glance, at bottle scale instead of building scale.",
+   "rel": "art"
+  },
+  {
+   "to": "buffalo-murals",
+   "as": "What happens when the sign gets big enough to become the wall.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:web-commons-search",
+  "s:web-commons-licensing"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "sections[0].text": {
+    "tier": "inference"
+   },
+   "sections[4].text": {
+    "tier": "cited",
+    "source": "s:web-commons-search",
+    "note": "file titles, photographers, dates and public-domain status read off each file's extmetadata through the Commons API on 16 September 2026"
+   }
+  }
+ },
+ "images": [
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-chicken-in-the-rough-restaurant-sign-route-11-new-ma-13fb46a.jpg",
+   "source": "commons",
+   "title": "File:Chicken In the Rough Restaurant sign, Route 11, New Market, Virginia LCCN2017703641.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chicken_In_the_Rough_Restaurant_sign%2C_Route_11%2C_New_Market%2C_Virginia_LCCN2017703641.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChicken_In_the_Rough_Restaurant_sign%2C_Route_11%2C_New_Market%2C_Virginia_LCCN2017703641.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017703641\nImage download: https://cdn.loc.gov/master/pnp/mrg/01500/01527a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.01527\n\n\nBorder cropped, le",
+   "alt": "Title: Chicken In the Rough Restaurant sign, Route 11, New Market, Virginia\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Margolies categories: Eating and dr",
+   "date": "1982",
+   "primary": true,
+   "sha256": "9825a3dcfefef60af7f5bda592975d9889746d803c4789ffaa9ffa3047c76c60"
+  },
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-chicken-sign-el-paso-texas-lccn2017709701.jpg",
+   "source": "commons",
+   "title": "File:Chicken sign, El Paso, Texas LCCN2017709701.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Chicken_sign%2C_El_Paso%2C_Texas_LCCN2017709701.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChicken_sign%2C_El_Paso%2C_Texas_LCCN2017709701.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017709701\nImage download: https://cdn.loc.gov/master/pnp/mrg/07600/07610a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.07610",
+   "alt": "Title: Chicken sign, El Paso, Texas\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside America photograph archive (1972-200",
+   "date": "1979",
+   "primary": false,
+   "sha256": "fed2313e2a34c5f106346fd3f5627c64ca9b7fea81d1f52190f27f170a80e0e5"
+  },
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-chicken-sign-routes-83-50-garden-city-kansas-lccn2017703629.jpg",
+   "source": "commons",
+   "title": "File:Chicken sign, Routes 83 & 50, Garden City, Kansas LCCN2017703629.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Chicken_sign%2C_Routes_83_%26_50%2C_Garden_City%2C_Kansas_LCCN2017703629.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChicken_sign%2C_Routes_83_%26_50%2C_Garden_City%2C_Kansas_LCCN2017703629.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: http://lccn.loc.gov/2017703629\nImage download: https://cdn.loc.gov/master/pnp/mrg/01500/01515a.tif\nOriginal url: http://hdl.loc.gov/loc.pnp/mrg.01515",
+   "alt": "Title: Chicken sign, Routes 83 &amp; 50, Garden City, Kansas\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Margolies categories: Eating and drinking establis",
+   "date": "1979",
+   "primary": false,
+   "sha256": "1d47a91f7d035fa3ee705f01e7de0a6a664f651fc5dee4bae90024026f36e1ca"
+  },
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-cohen-s-chicken-house-sign-junction-city-kansas-lccn-9b5b884.jpg",
+   "source": "commons",
+   "title": "File:Cohen's Chicken House sign, Junction City, Kansas LCCN2017709730.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Cohen%27s_Chicken_House_sign%2C_Junction_City%2C_Kansas_LCCN2017709730.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACohen%27s_Chicken_House_sign%2C_Junction_City%2C_Kansas_LCCN2017709730.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2017709730\nImage download: https://cdn.loc.gov/master/pnp/mrg/07600/07639a.tif\nOriginal url: https://hdl.loc.gov/loc.pnp/mrg.07639",
+   "alt": "Title: Cohen's Chicken House sign, Junction City, Kansas\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside America photogr",
+   "date": "1980",
+   "primary": false,
+   "sha256": "6bd2b2de30166effff0a7b9fdadc49a434055d51c4a6e1fe7e7e9a8d88a85d4a"
+  },
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-dario-chicken-in-the-box-sign-rutherfordton-north-ca-5ca9d35.jpg",
+   "source": "commons",
+   "title": "File:Dario Chicken In-The Box sign, Rutherfordton, North Carolina LCCN2017709595.tif",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Dario_Chicken_In-The_Box_sign%2C_Rutherfordton%2C_North_Carolina_LCCN2017709595.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADario_Chicken_In-The_Box_sign%2C_Rutherfordton%2C_North_Carolina_LCCN2017709595.tif",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "John Margolies",
+   "credit": "Library of Congress\n\nCatalog: https://lccn.loc.gov/2017709595\nImage download: https://cdn.loc.gov/master/pnp/mrg/07500/07504a.tif\nOriginal url: https://hdl.loc.gov/loc.pnp/mrg.07504",
+   "alt": "Title: Dario Chicken In-The Box sign, Rutherfordton, North Carolina\nPhysical description: 1 photograph : color transparency ;  35 mm (slide format).\n\nNotes: Forms part of: John Margolies Roadside Amer",
+   "date": "1988",
+   "primary": false,
+   "sha256": "0a3b453792da6587e9125daee37b798cfb734c1995344fc7bb4518cc29bab2b3"
+  },
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-louisiana-famous-fried-chicken-chinese-food-sign.jpg",
+   "source": "commons",
+   "title": "File:Louisiana Famous Fried Chicken Chinese Food sign.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Louisiana_Famous_Fried_Chicken_Chinese_Food_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALouisiana_Famous_Fried_Chicken_Chinese_Food_sign.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Richard Bauer",
+   "credit": "https://www.flickr.com/photos/rustejunk/8299567385/",
+   "alt": "Louisiana Famous Fried Chicken Chinese Food sign",
+   "date": "2012-12-19 08:31:59",
+   "primary": false,
+   "sha256": "22c0cfa9b566571250e60744acc2fb31e092e8b0cff5b95d3b78dcc4d46d755c"
+  },
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-maryland-fried-chicken-sign.jpg",
+   "source": "commons",
+   "title": "File:Maryland Fried Chicken sign.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Maryland_Fried_Chicken_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMaryland_Fried_Chicken_sign.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "The Bushranger",
+   "credit": "Own work",
+   "alt": "Sign for Maryland Fried Chicken, location is in Monticello, Florida.",
+   "date": "Taken on 14 January 2025",
+   "primary": false,
+   "sha256": "81218d2e562f2e01a36bb25dd38a84001199ad5ac9c87f856f4b5111b2c2e62a"
+  },
+  {
+   "file": "chicken-shack-signs/chicken-shack-signs-yogi-bear-s-honey-fried-chicken-sign.jpg",
+   "source": "commons",
+   "title": "File:Yogi Bear's Honey Fried Chicken Sign.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Yogi_Bear%27s_Honey_Fried_Chicken_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AYogi_Bear%27s_Honey_Fried_Chicken_Sign.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Algorhythms",
+   "credit": "Own work",
+   "alt": "Sign of Yogi Bear's Honey Fried Chicken with Yogi Bear holding a chicken drumstick and the catchphrase \"How sweet it is!\"",
+   "date": "2012-05-19 17:17:32",
+   "primary": false,
+   "sha256": "13d8709baf2c91e313a1f28e289bf5069d58a995a7e1e6b2b4097d93e53d50c8"
+  }
+ ],
+ "confidence": "medium",
+ "needs_verification": true,
+ "updated": "2026-09-16"
+}
