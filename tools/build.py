@@ -216,6 +216,7 @@ def places_table(recs: list[dict], osm: dict | None) -> dict:
         n_osm += 1
     rows.sort(key=lambda x: ((x["state"] or "zz"), x["name"].lower()))
     return {"built": time.strftime("%Y-%m-%d"), "count": len(rows), "curated": len(rows) - n_osm, "harvested": n_osm,
+            "states_fetched": len((osm or {}).get("by_state") or {}), "states_total": 51,
             "harvest": {k: (osm or {}).get(k) for k in ("source", "license", "license_url", "attribution", "fetched_at", "osm_base")} if osm else None,
             "places": rows}
 
@@ -306,6 +307,8 @@ def coverage(recs: list[dict], osm: dict | None, sources: dict) -> dict:
             "curated": by_type["place"],
             "harvested_from_osm": (osm or {}).get("count", 0),
             "osm_fetched_at": (osm or {}).get("fetched_at"),
+            "osm_states_fetched": len((osm or {}).get("by_state") or {}),
+            "osm_states_total": 51,
             "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
             "osm_query": (osm or {}).get("query"),
         },

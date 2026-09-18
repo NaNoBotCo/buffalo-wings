@@ -142,6 +142,17 @@ REFRESHING THE HARVESTS
                                           so a kill keeps progress
   python3 tools/harvest_osm.py --resume    only the states not already on disk
   python3 tools/harvest_osm.py --states NY,PA
+
+  A state can come back with one matcher missing — the log says "(name matcher lost)" or
+  "(cuisine matcher lost)" and the state still saves with whatever the other one found.
+  --resume will NOT revisit it, because the state is on disk. Pull those by name:
+
+      grep -E "matcher (FAILED|lost)" harvest.log | grep -oE "^  [A-Z][A-Z]" | sort -u
+      python3 tools/harvest_osm.py --states AZ,CA,AR
+
+  Overpass throttles hard and sometimes refuses a machine outright for a while. The
+  harvester rotates three mirrors, backs off, saves after every state, and a run takes a
+  few hours; leaving it going and coming back is the way.
   python3 tools/harvest_osm.py --towns     reverse-geocode rows with no addr:city,
                                           one request a second, cached by osm_id
 

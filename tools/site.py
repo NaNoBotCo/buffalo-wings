@@ -716,7 +716,9 @@ def places_page(places: dict, recs_by_id: dict, recs: list[dict]) -> str:
     by_state: dict = {}
     for p in rows:
         by_state.setdefault(p.get("state") or "unknown", {}).setdefault(p.get("county") or "—", []).append(p)
-    osm_line = (f'{places["harvested"]} more pulled off OpenStreetMap on {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}. '
+    nst, tst = places.get("states_fetched") or 0, places.get("states_total") or 51
+    part = f' The harvest has reached {nst} of {tst} states so far.' if 0 < nst < tst else ''
+    osm_line = (f'{places["harvested"]} more pulled off OpenStreetMap on {E((places.get("harvest") or {}).get("fetched_at", "")[:10])}.{part} '
                 'Orange dots have a page. Grey dots have a name, an address and nothing else yet. '
                 if places["harvested"] else
                 'The OpenStreetMap layer has not been pulled yet, so every dot here is one we wrote up. ')

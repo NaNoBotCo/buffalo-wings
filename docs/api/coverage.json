@@ -1,5 +1,5 @@
 {
- "built": "2026-09-17",
+ "built": "2026-09-18",
  "scope": "Chicken wings across America — how they get cooked, sauced, sold, eaten and argued over. Buffalo's, and every city that did its own thing after.",
  "records": {
   "style": 13,
@@ -17,16 +17,18 @@
  "how_records_are_made": "Hand-written JSON, one per node, each field carrying a provenance tier (cited / harvested / tradition / inference / field). Cited fields name a source in sources.json. Tradition fields are general knowledge of the tradition and are hedged in the text.",
  "places": {
   "curated": 33,
-  "harvested_from_osm": 227,
-  "osm_fetched_at": "2026-09-16T23:39:53Z",
+  "harvested_from_osm": 1296,
+  "osm_fetched_at": "2026-09-17T10:42:27Z",
+  "osm_states_fetched": 12,
+  "osm_states_total": 51,
   "reading_an_absence": "A place missing here is missing from OpenStreetMap on the fetch date or not yet written up. It is not a claim that the place does not exist.",
   "osm_query": "[out:json][timeout:240];area[\"ISO3166-2\"=\"US-XX\"][admin_level]->.a;nwr[\"cuisine\"~\"wings|chicken_wings|buffalo_wings\",i](area.a);out center tags;   ||   [out:json][timeout:240];area[\"ISO3166-2\"=\"US-XX\"][admin_level]->.a;(nwr[\"amenity\"=\"restaurant\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"fast_food\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"bar\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"pub\"][\"name\"~\"[Ww]ing\"](area.a);nwr[\"amenity\"=\"cafe\"][\"name\"~\"[Ww]ing\"](area.a););out center tags;"
  },
  "hours": {
-  "places_with_any_day_known": 84,
-  "open_sunday": 69,
-  "closed_sunday": 15,
-  "sunday_unknown": 176,
+  "places_with_any_day_known": 367,
+  "open_sunday": 330,
+  "closed_sunday": 37,
+  "sunday_unknown": 959,
   "reading_an_absence": "A day is 'unknown' unless a source said so. Unknown is never rendered as closed."
  },
  "images": {
