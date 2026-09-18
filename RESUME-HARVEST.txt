@@ -1,0 +1,36 @@
+FINISHING THE OPENSTREETMAP HARVEST
+===================================
+Where it stopped (18 Sept 2026): 1,296 rows across 12 states —
+AK AL AR AZ CA CO CT DC DE GA HI ID. The map and api/coverage.json both print
+"12 of 51 states", so nothing on the site reads as a finished sweep.
+
+WHY IT IS SLOW
+Overpass throttles this machine hard. A state takes three or four minutes on a good
+run and can stall for an hour on retries; overnight it managed twelve. Nothing is
+wrong with the harvester — it rotates three mirrors, backs off, and saves after every
+state, so a kill loses nothing and a restart picks up where it stopped.
+
+TO CARRY ON
+  cd "~/Developer/claude code projects/buffalo-wings"
+  python3 tools/harvest_osm.py --resume        # only the states not already on disk
+
+Leave it running. Come back. Repeat until `--resume` prints nothing to do.
+
+THE STATES THAT LOST A MATCHER
+Each state runs two queries: a cheap indexed one on cuisine, and a name matcher that
+walks every eatery. A state saves even when one of them times out, and --resume will
+NOT revisit it, because the state is on disk. These eight came back with half:
+
+  AR AZ CA DC FL GA ID IL
+
+Pull them again by name, which redoes both matchers and merges:
+
+  python3 tools/harvest_osm.py --states AR,AZ,CA,DC,FL,GA,ID,IL
+
+To find the list again after a later run:
+
+  grep -E "matcher (FAILED|lost)" <the log> | grep -oE "^  [A-Z][A-Z]" | sort -u
+
+THEN
+  ./publish.sh && git add -A && git commit && git push
+The map, /near/, /numbers/ and the coverage object all rebuild from the harvest file.

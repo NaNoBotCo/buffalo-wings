@@ -134,7 +134,7 @@ CAST LIST (ids that exist or are being written; link only to these)
   term    wing drumette flat wing-tip flapper party-wing buffalo-word naked wet-and-dry
           extra-crispy boneless wing-night all-flats mumbo mild-sauce-word weck
           hot-honey-word atomic
-          (a word and a sauce never share an id: the word takes -word where they collide)
+          (ids are unique across types, so a word takes -word where it collides with a sauce)
   art     chicken-shack-signs neon-chicken wing-festival-posters buffalo-murals
           hot-sauce-labels rooster-weathervanes
   story   the-origin-fight ranch-vs-blue-cheese the-flat-and-the-drum
