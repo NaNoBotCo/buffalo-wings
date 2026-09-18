@@ -58,7 +58,7 @@ PLACE FIELDS
                   (black-owned, woman-owned, lgbtq-friendly) rest on the owner's own words,
                   a press profile naming the owner, or a public directory — not on a name,
                   a photograph or a guess. A tag without one of those goes unwritten, and a
-                  missing tag says nothing about a place. The validator refuses tier
+                  missing tag says nothing about a place. The validator rejects tier
                   tradition or inference.
   recognitions[]  {by, what, year?, source, url?}. `by` from data/vocab/recognizers.json.
                   One entry per recognizer per place. The count measures attention paid,
