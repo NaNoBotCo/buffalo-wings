@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it as below."
+title: "Wing Country"
+abstract: "Wing Country — a directory of the chicken wing in the United States: 13 regional styles, 22 sauce labels read off the panel, places, people, words, and every field saying where it came from."
+type: dataset
+authors:
+  - name: "NaN"
+    website: "https://github.com/NaNoBotCo"
+repository-code: "https://github.com/NaNoBotCo/buffalo-wings"
+url: "https://nanobotco.github.io/buffalo-wings/"
+license:
+  - CC-BY-SA-4.0
+  - MIT
+date-released: "2026-09-18"
