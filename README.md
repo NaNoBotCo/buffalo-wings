@@ -83,13 +83,13 @@ Stdlib only, plus Pillow for the cards. `README.txt` is the working guide;
 
 ## Licence
 
-Records CC BY-SA 4.0. Place points OpenStreetMap, ODbL 1.0 (share-alike). Pictures each
+Records CC BY 4.0. Place points OpenStreetMap, ODbL 1.0 (share-alike). Pictures each
 carry their own licence in a sidecar. Pre-1930 recipes are public domain; Wikibooks
 recipes are CC BY-SA 4.0. Code MIT. See [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
 
-**Commercial licence.** If share-alike doesn't fit your use — a corpus, a
-product, a model — a commercial licence is available.
-[Open an issue](https://github.com/NaNoBotCo/buffalo-wings/issues) and say what you need.
+**Using it.** Attribution is the whole of the condition — copy it, adapt it,
+sell it, index it, train on it, and say where it came from.
+[Open an issue](https://github.com/NaNoBotCo/buffalo-wings/issues) if something is missing.
 
 ---
 
