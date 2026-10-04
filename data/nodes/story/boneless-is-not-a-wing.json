@@ -24,7 +24,7 @@
  "sections": [
   {
    "h": "The case, and what is in the record",
-   "text": "Michael Berkheimer ate boneless wings at Wings on Brookwood in 2016. A bone roughly five centimetres long lodged in his oesophagus, tearing it; infection followed in his thoracic cavity, and with it fever and difficulty breathing. He sued the restaurant, its food supplier and a chicken farm in negligence and breach of warranty. The trial court granted summary judgment to the defendants; the Supreme Court of Ohio affirmed on 25 July 2024, 4 to 3.\n\nJustice Joseph T. Deters wrote for the majority. Justice Michael P. Donnelly wrote the dissent. Ohio applies a reasonable-expectation test: whether a consumer could reasonably have expected the injurious substance in the food and so could have guarded against it.\n\n*Inference —* one caution about this page. The court's own PDF of the opinion was unreachable from this project on 16 September 2026, as were the Justia and CourtListener copies; the quotations below are reproduced from reporting that printed them, and each is attributed to the outlet that printed it. Anyone relying on the exact wording should read the slip opinion."
+   "text": "Michael Berkheimer ate boneless wings at Wings on Brookwood in 2016. A bone roughly five centimetres long lodged in his oesophagus, tearing it; infection followed in his thoracic cavity, and with it fever and difficulty breathing. He sued the restaurant, its food supplier and a chicken farm in negligence and breach of warranty. The trial court granted summary judgment to the defendants; the Supreme Court of Ohio affirmed on 25 July 2024, 4 to 3.\n\nJustice Joseph T. Deters wrote for the majority. Justice Michael P. Donnelly wrote the dissent. Ohio applies a reasonable-expectation test: whether a consumer could reasonably have expected the injurious substance in the food and so could have guarded against it.\n\n*Note —* the court's own PDF of the opinion was unreachable from this project on 16 September 2026, as were the Justia and CourtListener copies; the quotations below are reproduced from reporting that printed them, and each is attributed to the outlet that printed it."
   },
   {
    "h": "What the majority said",
@@ -123,7 +123,7 @@
    "sections[0].text": {
     "tier": "cited",
     "source": "s:web-cbs-boneless-wings",
-    "note": "caption, docket and citation from CourtListener's case record; facts and vote from CBS News; the closing caution records that the slip opinion itself could not be retrieved on 16 September 2026"
+    "note": "caption, docket and citation from CourtListener's case record; facts and vote from CBS News; the closing note records that the slip opinion itself could not be retrieved on 16 September 2026"
    },
    "sections[1].text": {
     "tier": "cited",

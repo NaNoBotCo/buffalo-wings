@@ -816,7 +816,7 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
         banner = (f'<figure class="hero-shot wide"><img src="images/{E(im["file"])}" alt="{E(im.get("alt", ""))}" loading="eager">'
                   f'<figcaption>{E(clip(im.get("alt", ""), 130))} — {E(im.get("author", ""))}, {E(im.get("license", ""))}</figcaption></figure>')
     body = (banner + f'<div class="hero"><div><h1><span class="kind">a whole country arguing about chicken</span>Wing Country</h1><p class="sub">{E(TAGLINE)}.</p>'
-            f'<div class="cta"><a class="btn" href="near/index.html">📍 Get me some wings</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the bottle</a><a class="btn ghost" href="make/index.html">Make your own</a><a class="btn ghost" href="wing/index.html">Flat or drum?</a><a class="btn ghost" href="heat/index.html">🌶 How hot can you take it</a><a class="btn ghost" href="vs/index.html">Settle it</a><a class="btn ghost" href="never/index.html">Never have I ever</a><a class="btn ghost" href="numbers/index.html">Do the math</a><a class="btn ghost" href="quiz/index.html">Which wing are you?</a><a class="btn ghost" href="wander.html">🎲 Take me anywhere</a></div></div>'
+            f'<div class="cta"><a class="btn" href="near/index.html">📍 Get me some wings</a><a class="btn ghost" href="places/index.html">The map</a><a class="btn ghost" href="sauce/index.html">What&#8217;s in the bottle</a><a class="btn ghost" href="make/index.html">Make your own</a><a class="btn ghost" href="wing/index.html">Flat or drum?</a><a class="btn ghost" href="heat/index.html">🌶 How hot can you take it</a><a class="btn ghost" href="vs/index.html">Settle it</a><a class="btn ghost" href="never/index.html">Never have I ever</a><a class="btn ghost" href="numbers/index.html">Do the math</a><a class="btn ghost" href="quiz/index.html">Which wing are you?</a><a class="btn ghost" href="wander.html">🎲 Take me anywhere</a></div></div>'  # stylecheck: allow — page title of the Never have I ever game
             f'<div class="mapwrap">{svg}</div></div>'
             '<div class="facts">' + "".join(f'<div class="fact"><div class="n">{n:,}</div><div class="l">{E(l)}</div></div>' for n, l in facts) + "</div>")
     # the loudest thing on the page after the map: what is worth driving for
@@ -855,7 +855,7 @@ def front_page(recs: list[dict], by_id: dict, places: dict, types: dict, coverag
     body += ('<div class="two-up">'
              + (f'<div class="pitch"><h2 style="border:0;margin-top:0">{E(riv["names"]["name"])}</h2><p>{E(riv["blurb"])}</p>'
                 f'<p><a class="btn" href="{url_of(riv)}index.html">Take a side →</a></p></div>' if riv else "")
-             + '<div class="pitch"><h2 style="border:0;margin-top:0">Never have I ever</h2>'
+             + '<div class="pitch"><h2 style="border:0;margin-top:0">Never have I ever</h2>'  # stylecheck: allow — page title of the Never have I ever game
                '<p>Thirty lines. Tick what you have done, see what it says about you, paste it somewhere and tag somebody.</p>'
                '<p><a class="btn" href="never/index.html">Start ticking →</a>'
                ' <a class="btn ghost" href="vs/index.html">Or settle a fight →</a></p></div></div>')

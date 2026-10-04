@@ -141,7 +141,7 @@
    "sections[0].text": {
     "tier": "cited",
     "source": "s:web-osm-copyright",
-    "note": "licence terms paraphrased from the OpenStreetMap copyright page; the caution about absences is this project's"
+    "note": "licence terms paraphrased from the OpenStreetMap copyright page; the note about absences is this project's"
    },
    "sections[3].text": {
     "tier": "harvested",
