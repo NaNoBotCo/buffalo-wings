@@ -200,7 +200,7 @@
   {
    "max": 3,
    "rung": "none",
-   "say": "Garlic parmesan is a real order and you should stop apologising for it."
+   "say": "Garlic parmesan is a real order, no apology attached."
   },
   {
    "max": 7,
@@ -220,7 +220,7 @@
   {
    "max": 99,
    "rung": "very hot",
-   "say": "Nashville is expecting you. Bring the bread."
+   "say": "Nashville is expecting you, on a slice of white bread."
   }
  ]
 }

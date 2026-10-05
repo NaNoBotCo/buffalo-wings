@@ -1,0 +1,6 @@
+data/vocab/facets.json	an unknown value warns, never fails	operator note on the validator
+data/vocab/regions.json	validate.py warns so it can be added	operator note on the validator
+schema/node.schema.json	validated against data/vocab/regions.json with a warning	schema description for the validator
+data/nodes/dish/boneless-wings.json	saying the restaurant failed to warn him that boneless wings	the lawsuit's claim, reported as fact
+data/nodes/event/wing-bowl.json	You have to show the El Wingador stuff.	Taggart's words, quoted by the Philadelphia Inquirer
+data/nodes/place/peppas-jerk-chicken.json	You have to put the passion in it to get it right	Hussey's words, quoted by Black-Owned Brooklyn
